@@ -1,0 +1,37 @@
+{
+  "activities": [
+    {
+      "message": "Guide to Posting Code - Redux",
+      "time": "Last month",
+      "type": "topic",
+      "color": "bg-blue-500",
+      "url": "https://forums.powershell.org/t/guide-to-posting-code-redux/15797"
+    },
+    {
+      "message": "Welcome to the new PowerShell Forums",
+      "time": "Last month",
+      "type": "topic",
+      "color": "bg-blue-500",
+      "url": "https://forums.powershell.org/t/welcome-to-the-new-powershell-forums/7"
+    },
+    {
+      "message": "4 new topics this week",
+      "time": "This week",
+      "type": "stats",
+      "color": "bg-green-500"
+    },
+    {
+      "message": "New reply in \"Task Scheduler with GMSA account...\"",
+      "time": "1 hours ago",
+      "type": "reply",
+      "color": "bg-purple-500"
+    }
+  ],
+  "stats": {
+    "total_topics": 19286,
+    "total_posts": 117427,
+    "active_users": 9612,
+    "topics_this_week": 4
+  },
+  "last_updated": "2025-09-05T18:53:17.531Z"
+}
