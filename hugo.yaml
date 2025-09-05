@@ -57,16 +57,10 @@ params:
   # Social links
   social:
     twitter: "https://twitter.com/powershell_org"
-    youtube: "https://youtube.com/PowerScriptingLive"
-    github: "https://github.com/powershell"
-    slack: "https://aka.ms/psslack"
-  
-  # Featured content
-  hero:
-    title: "Welcome Automaters!"
-    subtitle: "Your hub for PowerShell community, learning, and automation excellence"
-    cta_text: "Join the Community"
-    cta_url: "/community/"
+    youtube: "https://youtube.com/PowerShellOrg"
+    github: "https://github.com/powershellOrg"
+    discord: "https://aka.ms/psdiscord"
+    bluesky: "https://bsky.app/profile/powershell.org"
   
   # Podcast settings
   podcast:
@@ -76,9 +70,9 @@ params:
     
   # Summit settings
   summit:
-    year: "2025"
+    year: "2026"
     title: "PowerShell + DevOps Global Summit"
-    dates: "April 28 - May 1, 2025"
+    dates: "April 16-16, 2026 "
     location: "Bellevue, WA"
     registration_url: "https://powershellsummit.org"
     

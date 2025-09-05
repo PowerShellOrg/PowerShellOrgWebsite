@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PowerShell &#43; DevOps Global Summit on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/summit/</link>
+    <link>http://localhost:1313/summit/</link>
     <description>Recent content in PowerShell &#43; DevOps Global Summit on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://powershell.org/summit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/summit/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
