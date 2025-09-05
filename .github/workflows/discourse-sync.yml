@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/community-stats.json
+          git add data/community_stats.json
           git diff --staged --quiet || git commit -m "Update community stats"
           git push
