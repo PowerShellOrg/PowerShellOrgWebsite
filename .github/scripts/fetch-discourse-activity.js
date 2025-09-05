@@ -1,5 +1,5 @@
 // .github/scripts/fetch-discourse-activity.js
-// Fixed for ES modules
+// Improved to get truly recent activity, not pinned topics
 
 import fetch from 'node-fetch';
 import fs from 'fs';
@@ -10,14 +10,24 @@ async function fetchDiscourseActivity() {
     try {
         const activities = [];
         
-        // 1. Get latest topics
-        console.log('Fetching latest topics...');
-        const topicsResponse = await fetch(`${DISCOURSE_URL}/latest.json`);
+        // 1. Get truly recent topics (not pinned ones)
+        console.log('Fetching recent topics...');
+        const topicsResponse = await fetch(`${DISCOURSE_URL}/new.json`);
         const topicsData = await topicsResponse.json();
         
-        // Get 2 most recent topics
+        // Filter out pinned topics and get recent ones
         if (topicsData.topic_list && topicsData.topic_list.topics) {
-            topicsData.topic_list.topics.slice(0, 2).forEach(topic => {
+            const recentTopics = topicsData.topic_list.topics
+                .filter(topic => !topic.pinned && !topic.pinned_globally) // Skip pinned topics
+                .filter(topic => {
+                    // Only include topics from the last 30 days
+                    const topicDate = new Date(topic.created_at);
+                    const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+                    return topicDate > thirtyDaysAgo;
+                })
+                .slice(0, 2); // Get 2 most recent
+
+            recentTopics.forEach(topic => {
                 activities.push({
                     message: topic.title.length > 50 ? topic.title.substring(0, 50) + '...' : topic.title,
                     time: getRelativeTime(topic.created_at),
@@ -28,38 +38,79 @@ async function fetchDiscourseActivity() {
             });
         }
         
-        // 2. Get site statistics
-        console.log('Fetching site statistics...');
-        const statsResponse = await fetch(`${DISCOURSE_URL}/site/statistics.json`);
-        const statsData = await statsResponse.json();
-        
-        // Add a stats-based activity
-        activities.push({
-            message: `${statsData.topics_7_days || 0} new topics this week`,
-            time: 'This week',
-            type: 'stats',
-            color: 'bg-green-500'
-        });
-        
-        // 3. Try to get recent posts (may not be available publicly)
+        // 2. Try getting recent posts from a different endpoint
+        console.log('Fetching recent posts...');
         try {
-            console.log('Trying to fetch recent posts...');
             const postsResponse = await fetch(`${DISCOURSE_URL}/posts.json`);
             if (postsResponse.ok) {
                 const postsData = await postsResponse.json();
                 
                 if (postsData.latest_posts && postsData.latest_posts.length > 0) {
-                    const recentPost = postsData.latest_posts[0];
-                    activities.push({
-                        message: `New reply in "${recentPost.topic_title ? recentPost.topic_title.substring(0, 40) + '...' : 'discussion'}"`,
-                        time: getRelativeTime(recentPost.created_at),
-                        type: 'reply',
-                        color: 'bg-purple-500'
-                    });
+                    // Get the most recent non-pinned post
+                    const recentPost = postsData.latest_posts
+                        .filter(post => {
+                            const postDate = new Date(post.created_at);
+                            const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+                            return postDate > sevenDaysAgo;
+                        })[0];
+                    
+                    if (recentPost) {
+                        activities.push({
+                            message: `New reply in "${recentPost.topic_title ? recentPost.topic_title.substring(0, 40) + '...' : 'discussion'}"`,
+                            time: getRelativeTime(recentPost.created_at),
+                            type: 'reply',
+                            color: 'bg-purple-500'
+                        });
+                    }
                 }
             }
         } catch (error) {
-            console.log('Posts endpoint not available publicly, skipping...');
+            console.log('Posts endpoint not available, trying alternative...');
+            
+            // Alternative: Get recent activity from top endpoint
+            try {
+                const topResponse = await fetch(`${DISCOURSE_URL}/top/weekly.json`);
+                if (topResponse.ok) {
+                    const topData = await topResponse.json();
+                    if (topData.topic_list && topData.topic_list.topics.length > 0) {
+                        const activeTopic = topData.topic_list.topics[0];
+                        activities.push({
+                            message: `Popular this week: "${activeTopic.title.substring(0, 45)}..."`,
+                            time: 'This week',
+                            type: 'popular',
+                            color: 'bg-green-500'
+                        });
+                    }
+                }
+            } catch (altError) {
+                console.log('Alternative endpoint also failed');
+            }
+        }
+        
+        // 3. Get site statistics
+        console.log('Fetching site statistics...');
+        const statsResponse = await fetch(`${DISCOURSE_URL}/site/statistics.json`);
+        const statsData = await statsResponse.json();
+        
+        // Add a stats-based activity
+        const topicsThisWeek = statsData.topics_7_days || 0;
+        if (topicsThisWeek > 0) {
+            activities.push({
+                message: `${topicsThisWeek} new topics this week`,
+                time: 'This week',
+                type: 'stats',
+                color: 'bg-green-500'
+            });
+        }
+        
+        // If we don't have enough activities, add some generic ones
+        if (activities.length < 3) {
+            activities.push({
+                message: "Active PowerShell discussions ongoing",
+                time: "Ongoing",
+                type: "community",
+                color: "bg-blue-500"
+            });
         }
         
         // 4. Create community stats object
@@ -87,28 +138,33 @@ async function fetchDiscourseActivity() {
         console.log(`👥 ${communityStats.stats.active_users} total users`);
         console.log(`📝 ${communityStats.stats.topics_this_week} topics this week`);
         
+        // Log the activities for debugging
+        activities.forEach((activity, index) => {
+            console.log(`${index + 1}. ${activity.message} (${activity.time})`);
+        });
+        
     } catch (error) {
         console.error('❌ Error fetching Discourse data:', error);
         
-        // Fallback to static data if API fails
+        // Fallback to more relevant static data
         const fallbackData = {
             activities: [
                 {
-                    message: "PowerShell 7.4.1 released with security updates",
-                    time: "Last week",
+                    message: "PowerShell 7.4.1 security update available",
+                    time: "2 weeks ago",
                     type: "release",
                     color: "bg-green-500"
                 },
                 {
-                    message: "New Azure PowerShell module available",
-                    time: "2 weeks ago",
-                    type: "update", 
+                    message: "Active community helping with automation",
+                    time: "Ongoing",
+                    type: "community", 
                     color: "bg-blue-500"
                 },
                 {
-                    message: "Community module spotlight: PSWriteHTML",
+                    message: "New Azure PowerShell modules released",
                     time: "3 weeks ago",
-                    type: "community",
+                    type: "update",
                     color: "bg-purple-500"
                 },
                 {
@@ -121,8 +177,8 @@ async function fetchDiscourseActivity() {
             stats: {
                 total_topics: 15420,
                 total_posts: 85230,
-                active_users: 12500,
-                topics_this_week: 45
+                active_users: 9612, // Use the real number you saw
+                topics_this_week: 4   // Use the real number you saw
             },
             last_updated: new Date().toISOString(),
             fallback: true
