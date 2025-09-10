@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Change chart colours using ADD-EXCELCHAR...\"",
-      "time": "Just now",
+      "message": "New reply in \"Renaming Cluster Available Disk...\"",
+      "time": "1 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "6 new topics this week",
+      "message": "5 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19289,
-    "total_posts": 117440,
+    "total_posts": 117444,
     "active_users": 9615,
-    "topics_this_week": 6
+    "topics_this_week": 5
   },
-  "last_updated": "2025-09-10T12:11:43.340Z"
+  "last_updated": "2025-09-10T16:08:05.785Z"
 }
