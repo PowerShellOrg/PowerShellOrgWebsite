@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Completion candidates color...\"",
-      "time": "18 hours ago",
+      "message": "New reply in \"Microsoft Places - Errors while running ...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "4 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -22,8 +22,8 @@
   "stats": {
     "total_topics": 19289,
     "total_posts": 117447,
-    "active_users": 9615,
-    "topics_this_week": 4
+    "active_users": 9616,
+    "topics_this_week": 3
   },
-  "last_updated": "2025-09-12T12:11:49.559Z"
+  "last_updated": "2025-09-12T16:07:16.176Z"
 }
