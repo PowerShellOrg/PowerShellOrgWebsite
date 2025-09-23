@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"http request in PowerShell without a bro...\"",
-      "time": "6 hours ago",
+      "message": "New reply in \"Direct and security group license assign...\"",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "1 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19293,
-    "total_posts": 117478,
-    "active_users": 9619,
-    "topics_this_week": 1
+    "total_topics": 19294,
+    "total_posts": 117480,
+    "active_users": 9620,
+    "topics_this_week": 2
   },
-  "last_updated": "2025-09-23T12:11:51.745Z"
+  "last_updated": "2025-09-23T16:09:08.971Z"
 }
