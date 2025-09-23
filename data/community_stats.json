@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"http request in PowerShell without a bro...\"",
-      "time": "2 hours ago",
+      "time": "6 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19293,
     "total_posts": 117478,
     "active_users": 9619,
-    "topics_this_week": 2
+    "topics_this_week": 1
   },
-  "last_updated": "2025-09-23T08:08:57.481Z"
+  "last_updated": "2025-09-23T12:11:51.745Z"
 }
