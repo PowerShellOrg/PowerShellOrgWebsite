@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Powershell script to change NTFS permiss...\"",
-      "time": "16 hours ago",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19296,
-    "total_posts": 117498,
+    "total_posts": 117501,
     "active_users": 9622,
-    "topics_this_week": 2
+    "topics_this_week": 1
   },
-  "last_updated": "2025-10-01T12:12:12.343Z"
+  "last_updated": "2025-10-01T16:08:56.277Z"
 }
