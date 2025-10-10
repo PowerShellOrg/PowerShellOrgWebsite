@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Is there a way to add utilities to the W...\"",
-      "time": "Yesterday",
+      "message": "New reply in \"How to fetch details of AKS private clus...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19301,
-    "total_posts": 117561,
-    "active_users": 9625,
-    "topics_this_week": 2
+    "total_topics": 19302,
+    "total_posts": 117564,
+    "active_users": 9627,
+    "topics_this_week": 3
   },
-  "last_updated": "2025-10-10T04:08:08.026Z"
+  "last_updated": "2025-10-10T08:10:13.398Z"
 }
