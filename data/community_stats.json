@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"How to Migrate Gmail to Zoho Mail...\"",
-      "time": "1 hours ago",
+      "message": "New reply in \"Need to install PowerShell 2.0... instal...\"",
+      "time": "15 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19303,
-    "total_posts": 117574,
-    "active_users": 9629,
-    "topics_this_week": 2
+    "total_topics": 19302,
+    "total_posts": 117577,
+    "active_users": 9623,
+    "topics_this_week": 1
   },
-  "last_updated": "2025-10-13T08:10:25.657Z"
+  "last_updated": "2025-10-13T12:11:59.509Z"
 }
