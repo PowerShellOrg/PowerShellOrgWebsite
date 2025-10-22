@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Out-Print multiple sheets...\"",
-      "time": "5 days ago",
+      "message": "New reply in \"How to Export Outlook Emails to Excel...\"",
+      "time": "3 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "1 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19303,
-    "total_posts": 117611,
+    "total_topics": 19304,
+    "total_posts": 117612,
     "active_users": 9623,
-    "topics_this_week": 1
+    "topics_this_week": 2
   },
-  "last_updated": "2025-10-22T04:08:45.078Z"
+  "last_updated": "2025-10-22T08:10:53.881Z"
 }
