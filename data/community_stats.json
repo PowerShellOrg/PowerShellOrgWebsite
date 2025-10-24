@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Need Script for Syncing Folders...\"",
-      "time": "6 hours ago",
+      "message": "New reply in \"How to debug ERROR: HTTP request failed ...\"",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19305,
-    "total_posts": 117625,
-    "active_users": 9622,
-    "topics_this_week": 2
+    "total_topics": 19306,
+    "total_posts": 117627,
+    "active_users": 9621,
+    "topics_this_week": 3
   },
-  "last_updated": "2025-10-24T12:12:36.981Z"
+  "last_updated": "2025-10-24T16:08:43.609Z"
 }
