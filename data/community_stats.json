@@ -7,12 +7,6 @@
       "color": "bg-purple-500"
     },
     {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
-    },
-    {
       "message": "Active PowerShell discussions ongoing",
       "time": "Ongoing",
       "type": "community",
@@ -22,8 +16,8 @@
   "stats": {
     "total_topics": 19307,
     "total_posts": 117639,
-    "active_users": 9625,
-    "topics_this_week": 1
+    "active_users": 9624,
+    "topics_this_week": 0
   },
-  "last_updated": "2025-11-04T12:12:53.470Z"
+  "last_updated": "2025-11-04T16:09:13.202Z"
 }
