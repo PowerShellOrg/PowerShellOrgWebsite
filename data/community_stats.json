@@ -1,12 +1,6 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Remove a single CR/LF from a CSV file...\"",
-      "time": "6 days ago",
-      "type": "reply",
-      "color": "bg-purple-500"
-    },
-    {
       "message": "Active PowerShell discussions ongoing",
       "time": "Ongoing",
       "type": "community",
@@ -19,5 +13,5 @@
     "active_users": 9625,
     "topics_this_week": 0
   },
-  "last_updated": "2025-11-05T20:08:34.140Z"
+  "last_updated": "2025-11-06T00:29:36.675Z"
 }
