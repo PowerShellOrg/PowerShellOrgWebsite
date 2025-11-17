@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Advice about sharing code toys...\"",
-      "time": "3 hours ago",
+      "time": "7 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "4 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19313,
     "total_posts": 117688,
     "active_users": 9624,
-    "topics_this_week": 4
+    "topics_this_week": 3
   },
-  "last_updated": "2025-11-17T16:09:18.721Z"
+  "last_updated": "2025-11-17T20:08:34.782Z"
 }
