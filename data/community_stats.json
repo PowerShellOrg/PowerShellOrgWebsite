@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Azure machine config and pipeline...\"",
-      "time": "13 hours ago",
+      "time": "17 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "6 new topics this week",
+      "message": "5 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19322,
     "total_posts": 117750,
     "active_users": 9626,
-    "topics_this_week": 6
+    "topics_this_week": 5
   },
-  "last_updated": "2025-12-10T08:10:10.888Z"
+  "last_updated": "2025-12-10T12:13:17.207Z"
 }
