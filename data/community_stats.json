@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Does my computer use LAN or WLAN...\"",
-      "time": "10 hours ago",
+      "time": "14 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19329,
-    "total_posts": 117851,
-    "active_users": 9618,
+    "total_posts": 117852,
+    "active_users": 9619,
     "topics_this_week": 2
   },
-  "last_updated": "2026-01-13T12:13:50.100Z"
+  "last_updated": "2026-01-13T16:11:11.368Z"
 }
