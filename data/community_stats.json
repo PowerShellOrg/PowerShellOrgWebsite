@@ -1,10 +1,16 @@
 {
   "activities": [
     {
-      "message": "New reply in \"PWSH 7 (7.5.4) error on 1 of 2 installat...\"",
-      "time": "6 days ago",
+      "message": "New reply in \"Remove permissions for multiple offboard...\"",
+      "time": "1 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
+    },
+    {
+      "message": "1 new topics this week",
+      "time": "This week",
+      "type": "stats",
+      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -14,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19330,
-    "total_posts": 117856,
-    "active_users": 9609,
-    "topics_this_week": 0
+    "total_topics": 19331,
+    "total_posts": 117857,
+    "active_users": 9610,
+    "topics_this_week": 1
   },
-  "last_updated": "2026-01-23T04:23:39.067Z"
+  "last_updated": "2026-01-23T08:10:46.775Z"
 }
