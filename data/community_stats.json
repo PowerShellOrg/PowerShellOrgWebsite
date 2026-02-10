@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"VBAF: Machine Learning Framework for Pow...\"",
-      "time": "4 days ago",
+      "message": "New reply in \"Switch loop, incorrect format...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19334,
-    "total_posts": 117889,
-    "active_users": 9594,
-    "topics_this_week": 2
+    "total_topics": 19335,
+    "total_posts": 117890,
+    "active_users": 9595,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-02-10T12:25:59.433Z"
+  "last_updated": "2026-02-10T16:29:02.386Z"
 }
