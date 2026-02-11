@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"OneDrive Tenant-to-Tenant Migration – Id...\"",
-      "time": "15 hours ago",
+      "message": "New reply in \"VBAF: Machine Learning Framework for Pow...\"",
+      "time": "5 days ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "5 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19337,
-    "total_posts": 117896,
+    "total_topics": 19334,
+    "total_posts": 117893,
     "active_users": 9595,
-    "topics_this_week": 5
+    "topics_this_week": 2
   },
-  "last_updated": "2026-02-11T12:24:20.934Z"
+  "last_updated": "2026-02-11T16:28:36.844Z"
 }
