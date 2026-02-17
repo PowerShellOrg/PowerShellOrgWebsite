@@ -1,6 +1,18 @@
 {
   "activities": [
     {
+      "message": "New reply in \"[Announcement] VBAF Development Roadmap ...\"",
+      "time": "Just now",
+      "type": "reply",
+      "color": "bg-purple-500"
+    },
+    {
+      "message": "1 new topics this week",
+      "time": "This week",
+      "type": "stats",
+      "color": "bg-green-500"
+    },
+    {
       "message": "Active PowerShell discussions ongoing",
       "time": "Ongoing",
       "type": "community",
@@ -8,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19334,
-    "total_posts": 117896,
+    "total_topics": 19335,
+    "total_posts": 117898,
     "active_users": 9592,
-    "topics_this_week": 0
+    "topics_this_week": 1
   },
-  "last_updated": "2026-02-17T12:20:10.016Z"
+  "last_updated": "2026-02-17T16:24:09.051Z"
 }
