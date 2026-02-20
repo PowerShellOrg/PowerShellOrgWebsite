@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Powershell module template [Github]...\"",
-      "time": "1 hours ago",
+      "message": "New reply in \"Tricky Powershell Script - Need to invok...\"",
+      "time": "4 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19336,
-    "total_posts": 117899,
+    "total_topics": 19337,
+    "total_posts": 117900,
     "active_users": 9594,
-    "topics_this_week": 2
+    "topics_this_week": 3
   },
-  "last_updated": "2026-02-19T20:13:22.876Z"
+  "last_updated": "2026-02-20T00:37:15.489Z"
 }
