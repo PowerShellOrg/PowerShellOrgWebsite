@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Evaluate a script and give feedback...\"",
-      "time": "15 hours ago",
+      "message": "New reply in \"Need some scoping help...\"",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "5 new topics this week",
+      "message": "6 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19340,
-    "total_posts": 117916,
-    "active_users": 9600,
-    "topics_this_week": 5
+    "total_topics": 19341,
+    "total_posts": 117917,
+    "active_users": 9601,
+    "topics_this_week": 6
   },
-  "last_updated": "2026-02-24T20:14:25.849Z"
+  "last_updated": "2026-02-25T00:42:12.062Z"
 }
