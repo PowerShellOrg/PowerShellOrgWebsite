@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Need some scoping help...\"",
-      "time": "Yesterday",
+      "message": "New reply in \"Learn PowerShell...\"",
+      "time": "3 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "7 new topics this week",
+      "message": "6 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19342,
-    "total_posts": 117922,
+    "total_posts": 117923,
     "active_users": 9602,
-    "topics_this_week": 7
+    "topics_this_week": 6
   },
-  "last_updated": "2026-02-26T16:24:16.852Z"
+  "last_updated": "2026-02-26T20:15:29.232Z"
 }
