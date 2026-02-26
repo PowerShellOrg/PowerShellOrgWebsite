@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Need some scoping help...\"",
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -25,5 +25,5 @@
     "active_users": 9602,
     "topics_this_week": 7
   },
-  "last_updated": "2026-02-26T12:22:03.504Z"
+  "last_updated": "2026-02-26T16:24:16.852Z"
 }
