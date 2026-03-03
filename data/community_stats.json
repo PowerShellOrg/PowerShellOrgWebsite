@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Learn PowerShell...\"",
-      "time": "4 days ago",
+      "message": "New reply in \"PS GUI integrate scrollbar...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19342,
-    "total_posts": 117924,
+    "total_topics": 19343,
+    "total_posts": 117926,
     "active_users": 9596,
-    "topics_this_week": 2
+    "topics_this_week": 3
   },
-  "last_updated": "2026-03-03T08:17:26.604Z"
+  "last_updated": "2026-03-03T12:18:49.224Z"
 }
