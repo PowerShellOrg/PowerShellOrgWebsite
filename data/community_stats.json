@@ -1,8 +1,8 @@
 {
   "activities": [
     {
-      "message": "New reply in \"VBAF v3.0.0 — Reinforcement Learning eng...\"",
-      "time": "Just now",
+      "message": "New reply in \"Explanating of code, $($_.FullName) from...\"",
+      "time": "3 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19348,
-    "total_posts": 117956,
+    "total_posts": 117957,
     "active_users": 9591,
     "topics_this_week": 6
   },
-  "last_updated": "2026-03-09T16:27:32.585Z"
+  "last_updated": "2026-03-09T20:12:22.907Z"
 }
