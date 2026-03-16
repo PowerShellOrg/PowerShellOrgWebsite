@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"UPDATE: VBAF v4.0.0 is complete...\"",
-      "time": "21 hours ago",
+      "time": "Yesterday",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19350,
-    "total_posts": 117961,
+    "total_topics": 19349,
+    "total_posts": 117960,
     "active_users": 9583,
-    "topics_this_week": 3
+    "topics_this_week": 1
   },
-  "last_updated": "2026-03-16T12:25:33.470Z"
+  "last_updated": "2026-03-16T16:29:05.796Z"
 }
