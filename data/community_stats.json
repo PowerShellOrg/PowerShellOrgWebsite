@@ -1,8 +1,8 @@
 {
   "activities": [
     {
-      "message": "New reply in \"UPDATE: VBAF v4.0.0 is complete...\"",
-      "time": "Yesterday",
+      "message": "New reply in \"Explanating of code, $($_.FullName) from...\"",
+      "time": "3 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19349,
-    "total_posts": 117960,
-    "active_users": 9584,
+    "total_posts": 117961,
+    "active_users": 9586,
     "topics_this_week": 1
   },
-  "last_updated": "2026-03-17T08:21:59.243Z"
+  "last_updated": "2026-03-17T12:24:09.614Z"
 }
