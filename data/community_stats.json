@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Explanating of code, $($_.FullName) from...\"",
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -22,8 +22,8 @@
   "stats": {
     "total_topics": 19350,
     "total_posts": 117967,
-    "active_users": 9586,
+    "active_users": 9582,
     "topics_this_week": 2
   },
-  "last_updated": "2026-03-18T08:21:08.061Z"
+  "last_updated": "2026-03-18T12:25:08.358Z"
 }
