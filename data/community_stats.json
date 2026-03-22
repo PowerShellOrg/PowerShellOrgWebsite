@@ -2,15 +2,9 @@
   "activities": [
     {
       "message": "New reply in \"Explanating of code, $($_.FullName) from...\"",
-      "time": "4 days ago",
+      "time": "5 days ago",
       "type": "reply",
       "color": "bg-purple-500"
-    },
-    {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -23,7 +17,7 @@
     "total_topics": 19349,
     "total_posts": 117969,
     "active_users": 9585,
-    "topics_this_week": 1
+    "topics_this_week": 0
   },
-  "last_updated": "2026-03-22T12:15:11.339Z"
+  "last_updated": "2026-03-22T16:10:11.936Z"
 }
