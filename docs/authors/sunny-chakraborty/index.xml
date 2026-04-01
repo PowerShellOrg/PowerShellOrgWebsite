@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sunny Chakraborty on PowerShell.org - Welcome Automaters!</title><link>https://powershellorg.github.io/PowerShellOrgWebsite/authors/sunny-chakraborty/</link><description>Recent content in Sunny Chakraborty on PowerShell.org - Welcome Automaters!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Jul 2015 18:03:27 +0000</lastBuildDate><atom:link href="https://powershellorg.github.io/PowerShellOrgWebsite/authors/sunny-chakraborty/index.xml" rel="self" type="application/rss+xml"/><item><title>NYC Powershell Usergroup meets on July 13th</title><link>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-07-10-nyc-powershell-usergroup-meets-on-july13/</link><pubDate>Fri, 10 Jul 2015 18:03:27 +0000</pubDate><guid>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-07-10-nyc-powershell-usergroup-meets-on-july13/</guid><description>We have an exciting line-up for the July Powershell User-Group meeting.
+Powershell MVP, Tome Tanasovski will be presenting a beginner’s track on Powershell covering File Management, and Date/Time manipulations.
+We also have Powershell MVP Doug Finke, who will be covering Pester.
+AGENDA:
+Tome Tanasovski:
+File management
+Managing paths Reading data from a file Finding strings in a collection of files XML and CSV file manipulation Exporting data to an HTML page Handling dates and time</description></item><item><title>NYC Powershell Usergroup meets on June 8th</title><link>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-06-04-nyc-powershell-usergroup-meets-on-june-8th/</link><pubDate>Thu, 04 Jun 2015 18:47:58 +0000</pubDate><guid>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-06-04-nyc-powershell-usergroup-meets-on-june-8th/</guid><description>Continuing from our May meeting, Tome will be presenting a beginner’s track on Powershell covering String manipulations, Functions and Powershell Scripts.
+We also have Powershell MVP Doug Finke, who will be covering the new components as part of the Powershell V5.0 release, including PSPM, Classes and Convert-String.
+AGENDA:
+Tome Tanasovski:
+String manipulation
+Counting, splitting, uppercasing/lowercasing, etc. Format operator -split, -join -match, -replace Select-String Secure strings Scripts and functions
+Principles Execution policies Passing arguments and parameters Scoping Bio</description></item><item><title>NYC User Group Restart!</title><link>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-05-07-nyc-user-group-restart/</link><pubDate>Thu, 07 May 2015 18:52:22 +0000</pubDate><guid>https://powershellorg.github.io/PowerShellOrgWebsite/articles/2015-05-07-nyc-user-group-restart/</guid><description>After a long hiatus, NYC Powershell User-group is back.
+Tome and Sunny will be presenting 2 sessions
+This is the inaugural series of Tome&amp;rsquo;s 1-year residency on Powershell Concepts (Beginner to Advanced)
+Tome Tanasovski:
+Concept of Objects
+Object Characterization Everything is an object Sorting, Grouping, Counting Where-Object and ForEach
+Language Fundamentals Operators, Variables. Arrays and Hashtables Loop structures Conditional Structures Useful rules to know.
+Tome is an executive for a market-leading global financial services firm in New York City where he focuses on automation, private cloud, and distributed computing.</description></item></channel></rss>

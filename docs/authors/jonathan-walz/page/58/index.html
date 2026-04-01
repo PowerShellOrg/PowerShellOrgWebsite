@@ -1,0 +1,247 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Jonathan Walz - PowerShell.org - Welcome Automaters!</title>
+<meta name=description content><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=alternate type=application/rss+xml href=https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/index.xml title="PowerShell.org - Welcome Automaters!"><meta property="og:type" content="website"><meta property="og:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/"><meta property="og:title" content="Jonathan Walz"><meta property="og:description" content><meta property="og:site_name" content="PowerShell.org - Welcome Automaters!"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/"><meta property="twitter:title" content="Jonathan Walz"><meta property="twitter:description" content><link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css rel=stylesheet><style>.powershell-blue{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%)}.powershell-dark{background:#1e1e1e}.code-terminal{background:#0c0c0c;border:1px solid #323130;font-family:cascadia code,consolas,monospace}.hero-pattern{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%);position:relative}.hero-pattern::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 25% 25%,rgba(255,255,255,3%) 0%,transparent 40%),radial-gradient(circle at 75% 75%,rgba(255,255,255,2%) 0%,transparent 40%);pointer-events:none}.podcast-card:hover{transform:translateY(-4px)}.summit-gradient{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}html{scroll-behavior:smooth}.focus\:ring-powershell:focus{--tw-ring-color:#0078D4;--tw-ring-opacity:0.5}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn .6s ease-out}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap';.gotham-black{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:900;letter-spacing:-.02em}.gotham-bold{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;letter-spacing:-.01em}.gotham-medium{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500}.conference-gradient{background:linear-gradient(135deg,#0082c6 0%,#00aeef 50%,#2b2d78 100%)}@keyframes float{0%,100%{transform:translateY(0)rotate(0)}50%{transform:translateY(-20px)rotate(180deg)}}.float{animation:float 20s ease-in-out infinite}</style></head><body class="bg-gray-50 text-gray-900"><header class="bg-white shadow-lg sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center py-4"><div class="flex items-center"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/ class="flex items-center space-x-3"><div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-lg"></i></div><div><h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1><p class="text-sm text-gray-600">Community Hub</p></div></a></div><nav class="hidden md:flex space-x-8"><a href=/PowerShellOrgWebsite/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Authors
+</a><a href=https://forums.powershell.org class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a></nav><div class="hidden md:flex items-center space-x-4"><a href=https://powershellsummit.org class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">Summit 2026
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-500 hover:text-blue-600 transition-colors duration-200"><i class="fab fa-discord text-xl"></i></a></div><div class=md:hidden><button onclick=toggleMobileMenu() class="text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 p-2 rounded-md">
+<i class="fas fa-bars text-xl"></i></button></div></div><div id=mobile-menu class="hidden md:hidden pb-4"><div class=space-y-2><a href=/PowerShellOrgWebsite/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Authors
+</a><a href=https://forums.powershell.org class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a><div class="pt-2 border-t border-gray-200"><a href=https://powershellsummit.org class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">Register for Summit 2026</a></div></div></div></div></header><main><section class="bg-gradient-to-r from-blue-600 to-blue-800 py-16"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center text-white"><div class="w-20 h-20 mx-auto mb-6 bg-white bg-opacity-20 rounded-full flex items-center justify-center"><i class="fas fa-user-edit text-3xl"></i></div><h1 class="text-4xl lg:text-5xl font-bold mb-4">Jonathan Walz</h1><p class="text-xl opacity-90">Explore articles and content from this author</p></div></div></section><section class="py-16 bg-gray-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="bg-white rounded-xl shadow-lg p-8 mb-12"><div class="flex items-center mb-6"><div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white mr-6"><i class="fas fa-user text-2xl"></i></div><div><h2 class="text-3xl font-bold text-gray-900">Jonathan Walz</h2><p class=text-gray-600>586 articles published</p></div></div></div><div class="grid gap-8 mb-12"><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 11 – a new powershell community" data-content="a podcast about windows powershell.
+listen: introduction big thanks to shay and his powershell radio post. 🙂 news powershell community (powershellcommunity.org) &amp;ldquo;real&amp;rdquo; non-profit organization created by corporate sponsors including microsoft, quest, sapien, and shelltools. event calendar, blog hosting, forums, etc. still under construction. powershell central (powershellcentral.com) hosted by bsonposh and lots of help contributed by jaykul. &amp;ldquo;all powershell bloggers&amp;rdquo; aggregate news feed, very cool script repository, news, etc. still under construction."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>October 27, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>2 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-10-27-powerscripting-podcast-episode-11/ class="hover:text-blue-600 transition-colors duration-200">Episode 11 – A new PowerShell community</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+Listen: Introduction Big thanks to Shay and his PowerShell Radio post. 🙂 News PowerShell Community (powershellcommunity.org) &ldquo;Real&rdquo; non-profit organization created by corporate sponsors including Microsoft, Quest, Sapien, and ShellTools. Event calendar, blog hosting, forums, etc. Still under construction. PowerShell Central (powershellcentral.com) Hosted by BSonPosh and lots of help contributed by Jaykul. &ldquo;All PowerShell bloggers&rdquo; aggregate news feed, very cool script repository, news, etc. Still under construction.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-10-27-powerscripting-podcast-episode-11/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 10 – winrm will power powershell remoting in v2" data-content="a podcast about windows powershell.
+listen: introduction
+we&amp;rsquo;ve had over 5,400 downloads so far! thanks, everyone! news
+powershell remoting will work via winrm according to thisfrom the scripting newswire &amp;ldquo;something else to consider. sometime before the end of the year an upgraded ctp (community technology preview) version of windows powershell will be released, an upgrade that will enable you to run most windows powershell cmdlets against remote computers. the catch? this new version of windows powershell also relies on winrm as its remote transport protocol."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>October 14, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>3 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-10-13-powerscripting-podcast-episode-10/ class="hover:text-blue-600 transition-colors duration-200">Episode 10 – WinRM will power PowerShell Remoting in V2</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+Listen: Introduction
+We&rsquo;ve had over 5,400 downloads so far! Thanks, everyone! News
+PowerShell remoting will work via WinRM according to thisfrom the Scripting NewsWire &ldquo;Something else to consider. Sometime before the end of the year an upgraded CTP (Community Technology Preview) version of Windows PowerShell will be released, an upgrade that will enable you to run most Windows PowerShell cmdlets against remote computers. The catch? This new version of Windows PowerShell also relies on WinRM as its remote transport protocol.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-10-13-powerscripting-podcast-episode-10/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 9 – powershell v2 news is coming in november" data-content="a podcast about windows powershell.
+listen: introduction
+thanks to //o// and kirk at poshoholic for mentioning us on their blogs.â we loved kirk&amp;rsquo;s post about namespaces with the star trek references.â that&amp;rsquo;s the trouble with tribbles! news
+according to bruce payette in this post, details of powershell v2&amp;rsquo;s upcoming features will be released in november at itforum! from &amp;lt;$hay@israel&amp;rsquo;&amp;gt; s blog:â there is a new book titled &amp;ldquo;windows powershell in practice&amp;quot;â that is being worked on by jim truherâ and //o//."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>September 29, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>4 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-29-powerscripting-podcast-episode-9/ class="hover:text-blue-600 transition-colors duration-200">Episode 9 – PowerShell V2 news is coming in November</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+Listen: Introduction
+Thanks to //o// and Kirk at Poshoholic for mentioning us on their blogs.Â We loved Kirk&rsquo;s post about namespaces with the Star Trek references.Â That&rsquo;s the Trouble with Tribbles! News
+According to Bruce Payette in this post, details of PowerShell V2&rsquo;s upcoming features will be released in November at ITForum! From &lt;$hay@Israel&rsquo;> s blog:Â There is a new book titled &ldquo;Windows PowerShell in Practice"Â that is being worked on by Jim TruherÂ and //o//.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-29-powerscripting-podcast-episode-9/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 8 – meet hal rottenberg!" data-content="a podcast about windows powershell.
+- **introduction** welcome to hal rottenberg! check out his [blog](http://halr9000.com/) - **news** jeffery snover interview
+- vmware &amp;ldquo;gets it&amp;rdquo;! vi powershell blog ex: get-vm | where { $_.state -eq &amp;ldquo;poweredon&amp;rdquo; } | stop-vm
+- post from $hay@israel&amp;rsquo;s $cript fanatic blog about sapien
+- cmdlet of the week
+select-object - bsonposh&amp;rsquo;s article on creating custom objects
+and a follow up article
+- ** resources **
+//o//&amp;rsquo;s blog post about the channel 9 videos"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>September 19, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-18-powerscripting-podcast-episode-8/ class="hover:text-blue-600 transition-colors duration-200">Episode 8 – Meet Hal Rottenberg!</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+- **Introduction** Welcome to Hal Rottenberg! Check out his [blog](http://halr9000.com/) - **News** Jeffery Snover interview
+- VMWare &ldquo;gets it&rdquo;! VI PowerShell blog ex: Get-VM | where { $_.state -eq &ldquo;poweredOn&rdquo; } | Stop-VM
+- Post from $hay@Israel&rsquo;s $cript Fanatic blog about Sapien
+- Cmdlet of the week
+select-object - BSonPoSH&rsquo;s article on creating custom objects
+and a follow up article
+- ** Resources **
+//o//&rsquo;s blog post about the Channel 9 videos</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-18-powerscripting-podcast-episode-8/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 7 – don't forget what you already know" data-content="a podcast about windows powershell.
+- news
+powershell google group
+- cmdlets of the week
+new-item
+- test-path
+- get-wmiobject
+msdn wmi reference
+- resource
+windows powershell and wmi - technet webcast w/ don jones
+- &amp;ldquo;active directory management made easy with powershell&amp;rdquo; from quest software, link to dmitry&amp;rsquo;s post - great [blog post](http://www.leadfollowmove.com/powershell-toolbox/) listing powershell tools - tips
+on remoting
+/n software &amp;ldquo;powershell remoting&amp;rdquo; beta ssh terminal session to remote server (requires agent install)"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>September 4, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-03-powerscripting-podcast-episode-7/ class="hover:text-blue-600 transition-colors duration-200">Episode 7 – Don't Forget What You Already Know</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+- News
+PowerShell Google group
+- Cmdlets of the week
+New-item
+- Test-path
+- Get-WMIObject
+MSDN WMI Reference
+- Resource
+Windows PowerShell and WMI - Technet webcast w/ Don Jones
+- &ldquo;Active Directory Management Made Easy with PowerShell&rdquo; from Quest Software, link to Dmitry&rsquo;s post - Great [blog post](http://www.leadfollowmove.com/powershell-toolbox/) listing PowerShell tools - Tips
+On remoting
+/n software &ldquo;PowerShell Remoting&rdquo; beta SSH Terminal session to remote server (requires agent install)</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-09-03-powerscripting-podcast-episode-7/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 6 – user groups are starting to sprout" data-content="a podcast about windows powershell.
+- introduction
+thank you for all of the great feedback
+- jeffery snover did a post about the podcast!
+- news
+- powershell analyzerâ can be pre-ordered for $59 and it will be $129
+- next update new-qaduser will require samaccountname
+- &amp;ldquo;the powershell guy&amp;rdquo; wants to start a dutch powershell user group
+http://shrinkster.com/q3r
+- marco shaw wants to start a canadian powershell user group http://shrinkster."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>June 26, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>2 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-06-26-powerscripting-podcast-episode-6/ class="hover:text-blue-600 transition-colors duration-200">Episode 6 – User Groups are Starting to Sprout</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+- Introduction
+Thank you for all of the great feedback
+- Jeffery Snover did a post about the podcast!
+- News
+- PowerShell AnalyzerÂ can be pre-ordered for $59 and it will be $129
+- Next update new-qaduser will require samAccountname
+- &ldquo;The PowerShell Guy&rdquo; wants to start a Dutch PowerShell User group
+http://shrinkster.com/q3r
+- Marco Shaw wants to start a Canadian PowerShell User Group http://shrinkster.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-06-26-powerscripting-podcast-episode-6/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 5 – powershell hits a million" data-content="a podcast about windows powershell.
+- introduction
+shout-out to mark allen for answering the challenge
+- news
+new ad cmdlets - the one step account creation works great
+- from the scriptingnewswire, may 2007
+windows powershell guide for beginners
+- downloadable and cmdlet-accessible graphical help for windows powershell
+- /n software will be releasing netcmdlets at teched next week
+they are giving away free powershell stickers
+- ed wilson&amp;rsquo;s book microsoft windows powershell step by step - jeffery snover said in a blog post that powershell has had almost a million downloads in the first six months!"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>June 8, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>2 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-06-08-powerscripting-podcast-episode-5-a-powershell-podcast/ class="hover:text-blue-600 transition-colors duration-200">Episode 5 – PowerShell Hits a Million</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+- Introduction
+Shout-out to Mark Allen for answering the challenge
+- News
+New AD cmdlets - the one step account creation works great
+- From the ScriptingNewswire, May 2007
+Windows PowerShell guide for beginners
+- Downloadable and cmdlet-accessible graphical help for Windows PowerShell
+- /n software will be releasing NetCmdlets at TechEd next week
+They are giving away free PowerShell stickers
+- Ed Wilson&rsquo;s book Microsoft Windows PowerShell Step By Step - Jeffery Snover said in a blog post that PowerShell has had almost a million downloads in the first six months!</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-06-08-powerscripting-podcast-episode-5-a-powershell-podcast/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 4 – get data and format the output" data-content="a podcast about windows powershell.
+news
+- new powershell book in the works &amp;ldquo;windows powershell: the definitive guide&amp;rdquo; by lee holmes&amp;rsquo; (a developer on the powershell team) from o&amp;rsquo;reilly they have an early access program http://shrinkster.com/p8l - windows server 2008
+- ad cmdlets 1.0.2 released - http://shrinkster.com/p8e support for vista and server 2008
+- you now have the ability to create enabled user accounts
+- dmitry&amp;rsquo;s powerblog - http://shrinkster.com/p8d cmdlets of the week"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 25, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>2 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-25-13-2/ class="hover:text-blue-600 transition-colors duration-200">Episode 4 – Get Data and Format the Output</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A Podcast about Windows PowerShell.
+News
+- New PowerShell book in the works &ldquo;Windows PowerShell: The Definitive Guide&rdquo; by Lee Holmes&rsquo; (a developer on the PowerShell team) from O&rsquo;Reilly they have an early access program http://shrinkster.com/p8l - Windows Server 2008
+- AD Cmdlets 1.0.2 released - http://shrinkster.com/p8e Support for Vista and Server 2008
+- You now have the ability to create enabled user accounts
+- Dmitry&rsquo;s PowerBlog - http://shrinkster.com/p8d Cmdlets of the week</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-25-13-2/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="powershell video posted" data-content="news
+i found out today from //o//&amp;rsquo;s the powershell guy blog (fantastic blog)â that there is a new channel 9 video called: windows powershell: origin and futureâ with bruce payette and jeffery snover.
+â i&amp;rsquo;m hoping to have the next podcast posted on thursday."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 23, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-23-powershell-video-posted/ class="hover:text-blue-600 transition-colors duration-200">PowerShell video posted</a></h2><p class="text-gray-600 mb-4 line-clamp-3">News
+I found out today from //o//&rsquo;s The PowerShell Guy blog (fantastic blog)Â that there is a new Channel 9 video called: Windows PowerShell: Origin and FutureÂ with Bruce Payette and Jeffery Snover.
+Â I&rsquo;m hoping to have the next podcast posted on Thursday.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-23-powershell-video-posted/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 3 – select, set, measure" data-content="a podcast about windows powershell.
+news
+- quest software has released some beta cmdlets for managing active directory
+- powershell analyzer rc1 has been released
+in this show i discussed the cmdlets: - select-string - set-content - measure-command resources: powershell newsgroup quest software&amp;rsquo;s powershell cmdlets for ad management tips:
+- quoting rules
+- double quotes - variables are expanded and can contain text right after it
+- uses of backtick or backquote `"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 15, 2007</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-15-powerscripting-podcast-episode-3/ class="hover:text-blue-600 transition-colors duration-200">Episode 3 – Select, Set, Measure</a></h2><p class="text-gray-600 mb-4 line-clamp-3">A podcast about Windows PowerShell.
+News
+- Quest Software has released some beta cmdlets for managing Active Directory
+- PowerShell Analyzer RC1 has been released
+In this show I discussed the cmdlets: - Select-String - Set-Content - Measure-Command Resources: PowerShell newsgroup Quest Software&rsquo;s PowerShell cmdlets for AD management Tips:
+- Quoting rules
+- Double quotes - variables are expanded and can contain text right after it
+- Uses of backtick or backquote `</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2007-05-15-powerscripting-podcast-episode-3/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article></div><nav class="flex justify-center" aria-label=Pagination><div class="flex items-center space-x-1"><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/57/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200"><i class="fas fa-chevron-left"></i>
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">1
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/2/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">2
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/3/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">3
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/4/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">4
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/5/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">5
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/6/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">6
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/7/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">7
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/8/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">8
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/9/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">9
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/10/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">10
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/11/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">11
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/12/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">12
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/13/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">13
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/14/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">14
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/15/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">15
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/16/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">16
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/17/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">17
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/18/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">18
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/19/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">19
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/20/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">20
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/21/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">21
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/22/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">22
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/23/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">23
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/24/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">24
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/25/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">25
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/26/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">26
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/27/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">27
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/28/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">28
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/29/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">29
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/30/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">30
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/31/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">31
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/32/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">32
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/33/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">33
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/34/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">34
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/35/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">35
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/36/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">36
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/37/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">37
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/38/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">38
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/39/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">39
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/40/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">40
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/41/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">41
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/42/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">42
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/43/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">43
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/44/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">44
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/45/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">45
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/46/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">46
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/47/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">47
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/48/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">48
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/49/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">49
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/50/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">50
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/51/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">51
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/52/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">52
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/53/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">53
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/54/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">54
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/55/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">55
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/56/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">56
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/57/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">57
+</a><span class="px-3 py-2 bg-blue-600 text-white rounded-lg font-medium">58
+</span><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/59/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">59
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/59/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200"><i class="fas fa-chevron-right"></i></a></div></nav></div></section></main><footer class="powershell-dark text-gray-300"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="grid md:grid-cols-4 gap-8 mb-8"><div><div class="flex items-center space-x-3 mb-4"><div class="w-8 h-8 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-sm"></i></div><h3 class="text-lg font-semibold text-white">PowerShell.org</h3></div><p class="text-sm text-gray-400 mb-4">The community hub for PowerShell enthusiasts, automaters, and professionals worldwide.</p><div class="flex space-x-4"><a href=https://twitter.com/powershell_org target=_blank rel=noopener class="text-gray-400 hover:text-blue-400 transition-colors duration-200"><i class="fab fa-twitter text-lg"></i>
+</a><a href=https://youtube.com/PowerShellOrg target=_blank rel=noopener class="text-gray-400 hover:text-red-400 transition-colors duration-200"><i class="fab fa-youtube text-lg"></i>
+</a><a href=https://github.com/powershellOrg target=_blank rel=noopener class="text-gray-400 hover:text-gray-200 transition-colors duration-200"><i class="fab fa-github text-lg"></i>
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-400 hover:text-purple-400 transition-colors duration-200"><i class="fab fa-discord text-lg"></i></a></div></div><div><h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3><ul class="space-y-2 text-sm"><li><a href=/podcast/ class="text-gray-400 hover:text-white transition-colors duration-200">Podcast</a></li><li><a href=/summit/ class="text-gray-400 hover:text-white transition-colors duration-200">Summit</a></li><li><a href=/learning/ class="text-gray-400 hover:text-white transition-colors duration-200">Learning Resources</a></li><li><a href=/community/ class="text-gray-400 hover:text-white transition-colors duration-200">Community</a></li><li><a href=https://forums.powershell.org target=_blank rel=noopener class="text-gray-400 hover:text-white transition-colors duration-200">Forums</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Resources</h3><ul class="space-y-2 text-sm"><li><a href=/articles/ class="text-gray-400 hover:text-white transition-colors duration-200">Articles</a></li><li><a href=/authors/ class="text-gray-400 hover:text-white transition-colors duration-200">Authors</a></li><li><a href=/contributing/ class="text-gray-400 hover:text-white transition-colors duration-200">Contributing</a></li><li><a href=/community-awards/ class="text-gray-400 hover:text-white transition-colors duration-200">Community Awards</a></li><li><a href=/index.xml class="text-gray-400 hover:text-white transition-colors duration-200">RSS Feed</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Upcoming Events</h3><div class=space-y-4><div class="bg-gray-800 p-4 rounded-lg"><h4 class="font-medium text-white mb-1">PowerShell + DevOps Global Summit</h4><p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p><a href=https://powershellsummit.org class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">Learn More →</a></div></div></div></div><div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center"><div class="flex items-center space-x-4 mb-4 md:mb-0"><p class="text-sm text-gray-400">© 2026 PowerShell.org Community. All rights reserved.</p></div><div class="flex items-center space-x-6 text-sm"><a href=/code-of-conduct/ class="text-gray-400 hover:text-white transition-colors duration-200">Code of Conduct</a>
+<a href=/privacy/ class="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a>
+<a href=/terms/ class="text-gray-400 hover:text-white transition-colors duration-200">Terms of Use</a>
+<a href=/contact/ class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></div></div></div><button id=back-to-top onclick='window.scrollTo({top:0,behavior:"smooth"})' class="hidden fixed bottom-8 right-8 powershell-blue text-white p-3 rounded-full shadow-lg hover:opacity-90 transition-opacity duration-200 z-40">
+<i class="fas fa-arrow-up"></i></button></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.min.js defer></script><script>function toggleMobileMenu(){const e=document.getElementById("mobile-menu");e.classList.toggle("hidden")}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();const t=document.querySelector(this.getAttribute("href"));t&&t.scrollIntoView({behavior:"smooth",block:"start"})})}),window.addEventListener("scroll",function(){const e=document.getElementById("back-to-top");e&&(window.pageYOffset>300?e.classList.remove("hidden"):e.classList.add("hidden"))})</script></body></html>

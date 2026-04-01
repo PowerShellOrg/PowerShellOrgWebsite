@@ -1,0 +1,363 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Jonathan Walz - PowerShell.org - Welcome Automaters!</title>
+<meta name=description content><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=alternate type=application/rss+xml href=https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/index.xml title="PowerShell.org - Welcome Automaters!"><meta property="og:type" content="website"><meta property="og:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/"><meta property="og:title" content="Jonathan Walz"><meta property="og:description" content><meta property="og:site_name" content="PowerShell.org - Welcome Automaters!"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/authors/jonathan-walz/"><meta property="twitter:title" content="Jonathan Walz"><meta property="twitter:description" content><link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css rel=stylesheet><style>.powershell-blue{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%)}.powershell-dark{background:#1e1e1e}.code-terminal{background:#0c0c0c;border:1px solid #323130;font-family:cascadia code,consolas,monospace}.hero-pattern{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%);position:relative}.hero-pattern::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 25% 25%,rgba(255,255,255,3%) 0%,transparent 40%),radial-gradient(circle at 75% 75%,rgba(255,255,255,2%) 0%,transparent 40%);pointer-events:none}.podcast-card:hover{transform:translateY(-4px)}.summit-gradient{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}html{scroll-behavior:smooth}.focus\:ring-powershell:focus{--tw-ring-color:#0078D4;--tw-ring-opacity:0.5}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn .6s ease-out}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap';.gotham-black{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:900;letter-spacing:-.02em}.gotham-bold{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;letter-spacing:-.01em}.gotham-medium{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500}.conference-gradient{background:linear-gradient(135deg,#0082c6 0%,#00aeef 50%,#2b2d78 100%)}@keyframes float{0%,100%{transform:translateY(0)rotate(0)}50%{transform:translateY(-20px)rotate(180deg)}}.float{animation:float 20s ease-in-out infinite}</style></head><body class="bg-gray-50 text-gray-900"><header class="bg-white shadow-lg sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center py-4"><div class="flex items-center"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/ class="flex items-center space-x-3"><div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-lg"></i></div><div><h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1><p class="text-sm text-gray-600">Community Hub</p></div></a></div><nav class="hidden md:flex space-x-8"><a href=/PowerShellOrgWebsite/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Authors
+</a><a href=https://forums.powershell.org class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a></nav><div class="hidden md:flex items-center space-x-4"><a href=https://powershellsummit.org class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">Summit 2026
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-500 hover:text-blue-600 transition-colors duration-200"><i class="fab fa-discord text-xl"></i></a></div><div class=md:hidden><button onclick=toggleMobileMenu() class="text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 p-2 rounded-md">
+<i class="fas fa-bars text-xl"></i></button></div></div><div id=mobile-menu class="hidden md:hidden pb-4"><div class=space-y-2><a href=/PowerShellOrgWebsite/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Authors
+</a><a href=https://forums.powershell.org class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a><div class="pt-2 border-t border-gray-200"><a href=https://powershellsummit.org class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">Register for Summit 2026</a></div></div></div></div></header><main><section class="bg-gradient-to-r from-blue-600 to-blue-800 py-16"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center text-white"><div class="w-20 h-20 mx-auto mb-6 bg-white bg-opacity-20 rounded-full flex items-center justify-center"><i class="fas fa-user-edit text-3xl"></i></div><h1 class="text-4xl lg:text-5xl font-bold mb-4">Jonathan Walz</h1><p class="text-xl opacity-90">Explore articles and content from this author</p></div></div></section><section class="py-16 bg-gray-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="bg-white rounded-xl shadow-lg p-8 mb-12"><div class="flex items-center mb-6"><div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white mr-6"><i class="fas fa-user text-2xl"></i></div><div><h2 class="text-3xl font-bold text-gray-900">Jonathan Walz</h2><p class=text-gray-600>586 articles published</p></div></div></div><div class="grid gap-8 mb-12"><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 327 – powerscripting podcast – tim warner" data-content="[vc_row][vc_column][vc_column_text]
+listen:
+listen [/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_video link=&amp;ldquo;https://www.youtube.com/watch?v=8gxhvebsnvi&amp;rdquo; title=&amp;ldquo;watch&amp;rdquo;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]
+to subscribe:
+search for powerscriping in your podcast app of choice or click here: http://feeds.feedburner.com/powerscripting
+guest: timothy warner
+https://twitter.com/techtrainertim
+powershell core version: 7 - preview
+recorded: august 21th 2019
+show links:
+https://techtrainertim.com/
+https://donjones.com/2019/11/11/raffle-free-e-books-autographed-print-books/
+psconfbook2 cfp: http://bit.ly/psconfbook2cfp
+powershell - devops summit 2019 recordings: https://www.youtube.com/playlist?list=plfea8kis7cocir1-tusn3monj3qzyrsha
+powershell core: https://github.com/powershell/powershell/releases
+youtube: https://www.youtube.com/user/powerscriptinglive
+other podcasts:
+https://powershellnews.podbean.com/
+https://cloudskills.fm/
+https://www.microsoft.com/en-us/research/blog/category/podcast/
+https://www.microsoft.com/en-us/behind-the-tech
+learn powershell:
+https://channel9.msdn.com/series/getstartedpowershell3
+https://docs.microsoft.com/en-us/powershell/
+https://github.com/powershell/powershell/tree/master/docs/learning-powershell
+https://github.com/vexx32/pskoans
+http://slack.poshcode.org/
+hosts:
+https://twitter.com/jonwalz
+https://twitter.com/halr9000"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>November 28, 2019</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-11-28-episode-327-powerscripting-podcast-tim-warner/ class="hover:text-blue-600 transition-colors duration-200">Episode 327 – PowerScripting Podcast – Tim Warner</a></h2><p class="text-gray-600 mb-4 line-clamp-3">[vc_row][vc_column][vc_column_text]
+Listen:
+Listen [/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_video link=&ldquo;https://www.youtube.com/watch?v=8GXhVEBsnvI&rdquo; title=&ldquo;Watch&rdquo;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]
+To Subscribe:
+Search for PowerScriping in your podcast app of choice or click here: http://feeds.feedburner.com/Powerscripting
+Guest: Timothy Warner
+https://twitter.com/TechTrainerTim
+PowerShell Core version: 7 - preview
+Recorded: August 21th 2019
+Show links:
+https://techtrainertim.com/
+https://donjones.com/2019/11/11/raffle-free-e-books-autographed-print-books/
+PSConfBook2 CFP: http://bit.ly/PSConfBook2CFP
+PowerShell - DevOps Summit 2019 recordings: https://www.youtube.com/playlist?list=PLfeA8kIs7Cocir1-TuSN3mOnj3qzyRShA
+PowerShell Core: https://github.com/PowerShell/PowerShell/releases
+YouTube: https://www.youtube.com/user/PowerScriptingLive
+Other podcasts:
+https://powershellnews.podbean.com/
+https://cloudskills.fm/
+https://www.microsoft.com/en-us/research/blog/category/podcast/
+https://www.microsoft.com/en-us/behind-the-tech
+Learn PowerShell:
+https://channel9.msdn.com/Series/GetStartedPowerShell3
+https://docs.microsoft.com/en-us/powershell/
+https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
+https://github.com/vexx32/PSKoans
+http://slack.poshcode.org/
+Hosts:
+https://twitter.com/jonwalz
+https://twitter.com/halr9000</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-11-28-episode-327-powerscripting-podcast-tim-warner/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 326 – powerscripting podcast – adam bertram" data-content="listen:
+watch:
+https://www.youtube.com/watch?v=qpxfn_qyfn0
+to subscribe:
+search for powerscriping in your podcast app of choice or click here: http://feeds.feedburner.com/powerscripting
+guest: adam bertram
+https://twitter.com/adbertram
+powershell core version: 7 - preview 1
+recorded: june 26th 2019
+show links:
+https://www.adamtheautomator.com/
+https://techsnips.io/
+https://zapier.com/
+https://trello.com/
+https://nodered.org/
+https://www.pmg.net/
+psconfbook2 cfp: http://bit.ly/psconfbook2cfp
+powershell - devops summit 2019 recordings: https://www.youtube.com/playlist?list=plfea8kis7cocir1-tusn3monj3qzyrsha
+powershell core: https://github.com/powershell/powershell/releases
+youtube: https://www.youtube.com/user/powerscriptinglive
+learn powershell:
+https://channel9.msdn.com/series/getstartedpowershell3
+https://docs.microsoft.com/en-us/powershell/
+https://github.com/powershell/powershell/tree/master/docs/learning-powershell
+https://github.com/vexx32/pskoans
+http://slack.poshcode.org/
+hosts:
+https://twitter.com/jonwalz
+https://twitter.com/halr9000
+https://twitter.com/ryanyates1990"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>November 21, 2019</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-11-21-episode-326-powerscripting-podcast-adam-bertram/ class="hover:text-blue-600 transition-colors duration-200">Episode 326 – PowerScripting Podcast – Adam Bertram</a></h2><p class="text-gray-600 mb-4 line-clamp-3">Listen:
+Watch:
+https://www.youtube.com/watch?v=QPXFn_qYfN0
+To Subscribe:
+Search for PowerScriping in your podcast app of choice or click here: http://feeds.feedburner.com/Powerscripting
+Guest: Adam Bertram
+https://twitter.com/adbertram
+PowerShell Core version: 7 - preview 1
+Recorded: June 26th 2019
+Show links:
+https://www.adamtheautomator.com/
+https://techsnips.io/
+https://zapier.com/
+https://trello.com/
+https://nodered.org/
+https://www.pmg.net/
+PSConfBook2 CFP: http://bit.ly/PSConfBook2CFP
+PowerShell - DevOps Summit 2019 recordings: https://www.youtube.com/playlist?list=PLfeA8kIs7Cocir1-TuSN3mOnj3qzyRShA
+PowerShell Core: https://github.com/PowerShell/PowerShell/releases
+YouTube: https://www.youtube.com/user/PowerScriptingLive
+Learn PowerShell:
+https://channel9.msdn.com/Series/GetStartedPowerShell3
+https://docs.microsoft.com/en-us/powershell/
+https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
+https://github.com/vexx32/PSKoans
+http://slack.poshcode.org/
+Hosts:
+https://twitter.com/jonwalz
+https://twitter.com/halr9000
+https://twitter.com/ryanyates1990</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-11-21-episode-326-powerscripting-podcast-adam-bertram/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 325 – powerscripting podcast – todd klindt" data-content="listen:
+watch:
+https://youtu.be/fib9lnckg_y
+show notes:
+to subscribe: search for powerscriping in your podcast app of choice or click here: http://feeds.feedburner.com/powerscripting
+guest: todd klindt https://twitter.com/toddklindt powershell core version: 6.2.1
+recorded: may 15th 2019
+show links: https://www.toddklindt.com https://www.toddklindt.com/netcast/default.aspx https://www.youtube.com/user/toddklindtnetcast https://github.com/sharepoint/pnp-powershell https://www.toddklindt.com/blog/lists/posts/post.aspx?id=826 pnp overview: https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps https://developer.microsoft.com/en-us/graph/graph-explorer
+psconfbook2 cfp: http://bit.ly/psconfbook2cfp powershell - devops summit 2019 recordings: https://www.youtube.com/playlist?list=plfea8kis7cocir1-tusn3monj3qzyrsha powershell core: https://github.com/powershell/powershell/releases ps7.preview1 on track for next week: https://twitter.com/steve_msft/status/1130957909334974466
+youtube: https://www.youtube.com/user/powerscriptinglive
+learn powershell: https://channel9.msdn.com/series/getstartedpowershell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/powershell/powershell/tree/master/docs/learning-powershell https://github."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 22, 2019</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-05-22-episode-325-powerscripting-podcast-todd-klindt/ class="hover:text-blue-600 transition-colors duration-200">Episode 325 – PowerScripting Podcast – Todd Klindt</a></h2><p class="text-gray-600 mb-4 line-clamp-3">Listen:
+Watch:
+https://youtu.be/FIb9lNckg_Y
+Show notes:
+To Subscribe: Search for PowerScriping in your podcast app of choice or click here: http://feeds.feedburner.com/Powerscripting
+Guest: Todd Klindt https://twitter.com/ToddKlindt PowerShell Core version: 6.2.1
+Recorded: May 15th 2019
+Show links: https://www.toddklindt.com https://www.toddklindt.com/netcast/default.aspx https://www.youtube.com/user/ToddKlindtNetcast https://github.com/SharePoint/PnP-PowerShell https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=826 PnP Overview: https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps https://developer.microsoft.com/en-us/graph/graph-explorer
+PSConfBook2 CFP: http://bit.ly/PSConfBook2CFP PowerShell - DevOps Summit 2019 recordings: https://www.youtube.com/playlist?list=PLfeA8kIs7Cocir1-TuSN3mOnj3qzyRShA PowerShell Core: https://github.com/PowerShell/PowerShell/releases PS7.Preview1 on track for next week: https://twitter.com/Steve_MSFT/status/1130957909334974466
+YouTube: https://www.youtube.com/user/PowerScriptingLive
+Learn PowerShell: https://channel9.msdn.com/Series/GetStartedPowerShell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell https://github.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-05-22-episode-325-powerscripting-podcast-todd-klindt/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 324 – powerscripting podcast – don jones" data-content="listen: listen
+watch:
+https://youtu.be/xqvb-6wxfac
+show notes:
+to subscribe: search for powerscriping in your podcast app of choice or click here: http://feeds.feedburner.com/powerscripting
+guest: don jones https://twitter.com/concentrateddon powershell core version: 6.1.3
+recorded: april 24th 2019
+show links: https://leanpub.com/u/donjones
+other podcasts: https://powershellnews.podbean.com/ https://cloudskills.fm/ https://www.microsoft.com/en-us/research/blog/category/podcast/ https://www.microsoft.com/en-us/behind-the-tech
+youtube: https://www.youtube.com/user/powerscriptinglive
+learn powershell: https://channel9.msdn.com/series/getstartedpowershell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/powershell/powershell/tree/master/docs/learning-powershell https://github.com/vexx32/pskoans http://slack.poshcode.org/
+hosts: https://twitter.com/jonwalz https://twitter.com/halr9000 https://twitter.com/ryanyates1990"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 22, 2019</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-05-22-episode-324-powerscripting-podcast-don-jones/ class="hover:text-blue-600 transition-colors duration-200">Episode 324 – PowerScripting Podcast – Don Jones</a></h2><p class="text-gray-600 mb-4 line-clamp-3">Listen: Listen
+Watch:
+https://youtu.be/XQvB-6WXFac
+Show notes:
+To Subscribe: Search for PowerScriping in your podcast app of choice or click here: http://feeds.feedburner.com/Powerscripting
+Guest: Don Jones https://twitter.com/concentrateddon PowerShell Core version: 6.1.3
+Recorded: April 24th 2019
+Show links: https://leanpub.com/u/donjones
+Other podcasts: https://powershellnews.podbean.com/ https://cloudskills.fm/ https://www.microsoft.com/en-us/research/blog/category/podcast/ https://www.microsoft.com/en-us/behind-the-tech
+YouTube: https://www.youtube.com/user/PowerScriptingLive
+Learn PowerShell: https://channel9.msdn.com/Series/GetStartedPowerShell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell https://github.com/vexx32/PSKoans http://slack.poshcode.org/
+Hosts: https://twitter.com/jonwalz https://twitter.com/halr9000 https://twitter.com/ryanyates1990</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-05-22-episode-324-powerscripting-podcast-don-jones/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 323 – powerscripting podcast – joel sallow" data-content="listen:
+watch:
+show notes:
+to subscribe: search for powerscriping in your podcast app of choice or click here: http://feeds.feedburner.com/powerscripting
+guest: joel sallow https://twitter.com/vexx32 powershell core version: 6.1.3
+recorded: march 20th 2019
+show links: https://github.com/vexx32/pskoans https://github.com/vexx32/pswordcloud https://vexx32.github.io/blog/
+youtube: https://www.youtube.com/user/powerscriptinglive
+learn powershell: https://channel9.msdn.com/series/getstartedpowershell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/powershell/powershell/tree/master/docs/learning-powershell https://github.com/vexx32/pskoans http://slack.poshcode.org/
+hosts: https://twitter.com/jonwalz https://twitter.com/halr9000 https://twitter.com/ryanyates1990
+next live show: april 17th 9pm est don jones"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>March 22, 2019</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-03-22-episode-323-powerscripting-podcast-joel-sallow/ class="hover:text-blue-600 transition-colors duration-200">Episode 323 – PowerScripting Podcast – Joel Sallow</a></h2><p class="text-gray-600 mb-4 line-clamp-3">Listen:
+Watch:
+Show notes:
+To Subscribe: Search for PowerScriping in your podcast app of choice or click here: http://feeds.feedburner.com/Powerscripting
+Guest: Joel Sallow https://twitter.com/vexx32 PowerShell Core version: 6.1.3
+Recorded: March 20th 2019
+Show links: https://github.com/vexx32/PSKoans https://github.com/vexx32/PSWordCloud https://vexx32.github.io/blog/
+YouTube: https://www.youtube.com/user/PowerScriptingLive
+Learn PowerShell: https://channel9.msdn.com/Series/GetStartedPowerShell3 https://docs.microsoft.com/en-us/powershell/ https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell https://github.com/vexx32/PSKoans http://slack.poshcode.org/
+Hosts: https://twitter.com/jonwalz https://twitter.com/halr9000 https://twitter.com/ryanyates1990
+Next Live Show: April 17th 9PM EST Don Jones</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2019-03-22-episode-323-powerscripting-podcast-joel-sallow/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 320 – powerscripting podcast – mvp tim warner" data-content="in this episode tonight on the powerscripting podcast we talk to cloud and datacenter mvp tim warner
+slack chatroom
+we are the live-podcast channel news
+jeffrey snover’s 2017 state of the union 2017 powershell and devops global summit psconf.eu 2017 interview
+http://timwarnertech.com/ https://twitter.com/techtrainertim?lang=en
+question
+superhero - flight"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>May 17, 2017</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-05-17-episode-320-powerscripting-podcast-mvp-tim-warner/ class="hover:text-blue-600 transition-colors duration-200">Episode 320 – PowerScripting Podcast – MVP Tim Warner</a></h2><p class="text-gray-600 mb-4 line-clamp-3">In This Episode Tonight on the PowerScripting Podcast we talk to Cloud and Datacenter MVP Tim Warner
+Slack Chatroom
+We are the live-podcast channel News
+Jeffrey Snover’s 2017 State of the Union 2017 PowerShell and DevOps Global Summit PSConf.EU 2017 Interview
+http://timwarnertech.com/ https://twitter.com/techtrainertim?lang=en
+Question
+Superhero - Flight</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-05-17-episode-320-powerscripting-podcast-mvp-tim-warner/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 319 – powerscripting podcast – mvps don jones and adam bertram on pester" data-content="in this episode tonight on the powerscripting podcast, mvps don jones and adam bertram on pester
+slack chatroom
+we are the live-podcast channel interview
+https://donjones.com/2016/11/29/the-pester-book-with-adbertram/ https://leanpub.com/pesterbook
+https://leanpub.com/the-dsc-book chatroom highlights
+adam, what sort of pipeline do you use for your deploys? is it strictly code or handles the entire infrastructure stack? don&amp;rsquo;t forget to ## in front of questions
+is pester scheduled? as in scheduled task or user driven? when using it to test infrastructure, could i use it to ensure that the deployment team deployed their iis web app properly as well as the db is connecting and such?"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>January 24, 2017</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>2 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-01-24-episode-319-powerscripting-podcast-mvps-don-jones-and-adam-bertram-on-pester/ class="hover:text-blue-600 transition-colors duration-200">Episode 319 – PowerScripting Podcast – MVPs Don Jones and Adam Bertram on Pester</a></h2><p class="text-gray-600 mb-4 line-clamp-3">In This Episode Tonight on the PowerScripting Podcast, MVPs Don Jones and Adam Bertram on Pester
+Slack Chatroom
+We are the live-podcast channel Interview
+https://donjones.com/2016/11/29/the-pester-book-with-adbertram/ https://leanpub.com/pesterbook
+https://leanpub.com/the-dsc-book Chatroom Highlights
+Adam, what sort of pipeline do you use for your deploys? Is it strictly code or handles the entire infrastructure stack? don&rsquo;t forget to ## in front of questions
+Is Pester scheduled? As in scheduled task or user driven? when using it to test infrastructure, could I use it to ensure that the deployment team deployed their IIS web app properly as well as the DB is connecting and such?</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-01-24-episode-319-powerscripting-podcast-mvps-don-jones-and-adam-bertram-on-pester/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 318 – powerscripting podcast – alan renouf from vmware on powercli" data-content="in this episode tonight on the powerscripting podcast,
+alan renouf from vmware about powercli
+slack chatroom
+we are the live-podcast channel interview
+https://communities.vmware.com/community/vmtn/automationtools/powercli https://www.vmware.com/support/developer/powercli/ https://code.vmware.com/slack/ chatroom highlights
+live.powerscripting.net http://live.powerscripting.net i like to suggest this https://channel9.msdn.com/series/getstartedpowershell3 live.powerscripting.net http://live.powerscripting.net humm. sorta? running off the droppages.com http://droppages.com page
+for all of you google cloud people listen to this episode https://powershell.org/2016/11/14/episode-317-powerscripting-podcast-chris-smith-on-the-google-cloud-tools-for-powershell/ http://www.lucd.info/2016/06/04/vspheredsc-intro/ https://code.vmware.com/slack/ question
+favorite vacation destination - around the u.s.a."><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>January 3, 2017</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-01-03-episode-318-powerscripting-podcast-alan-renouf-from-vmware-on-powercli/ class="hover:text-blue-600 transition-colors duration-200">Episode 318 – PowerScripting Podcast – Alan Renouf from VMware on PowerCLI</a></h2><p class="text-gray-600 mb-4 line-clamp-3">In This Episode Tonight on the PowerScripting Podcast,
+Alan Renouf from VMware about PowerCLI
+Slack Chatroom
+We are the live-podcast channel Interview
+https://communities.vmware.com/community/vmtn/automationtools/powercli https://www.vmware.com/support/developer/PowerCLI/ https://code.vmware.com/slack/ Chatroom Highlights
+live.powerscripting.net http://live.powerscripting.net I like to suggest this https://channel9.msdn.com/Series/GetStartedPowerShell3 live.powerscripting.net http://live.powerscripting.net humm. sorta? running off the droppages.com http://droppages.com page
+for all of you Google Cloud people listen to this episode https://powershell.org/2016/11/14/episode-317-powerscripting-podcast-chris-smith-on-the-google-cloud-tools-for-powershell/ http://www.lucd.info/2016/06/04/vspheredsc-intro/ https://code.vmware.com/slack/ Question
+Favorite Vacation destination - Around the U.S.A.</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2017-01-03-episode-318-powerscripting-podcast-alan-renouf-from-vmware-on-powercli/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="live podcast on wednesday 12/7/2016 with alan renouf from vmware" data-content="long time friend alan renouf from vmware will be back with us on wednesday to bring us up to date with the latest powercli news!
+join us live at 9:30 pm edt / 6:30 pm pdt, streaming live on the powerscripting youtube channel with live chat in the #live-podcast room in the slack powershell team (join here)
+facebook event"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>December 6, 2016</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2016-12-06-live-podcast-on-wednesday-1272016-with-alan-renouf-from-vmware/ class="hover:text-blue-600 transition-colors duration-200">Live Podcast on Wednesday 12/7/2016 with Alan Renouf from VMware</a></h2><p class="text-gray-600 mb-4 line-clamp-3">Long time friend Alan Renouf from VMware will be back with us on Wednesday to bring us up to date with the latest PowerCLI news!
+Join us live at 9:30 PM EDT / 6:30 PM PDT, streaming live on the PowerScripting YouTube channel with live chat in the #live-podcast room in the Slack PowerShell team (join here)
+Facebook event</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2016-12-06-live-podcast-on-wednesday-1272016-with-alan-renouf-from-vmware/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article><article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" data-title="episode 317 – powerscripting podcast – chris smith on the google cloud tools for powershell" data-content="in this episode tonight on the powerscripting podcast,
+chris smith from google on cloud tools for powershell
+slack chatroom
+we are the live-podcast channel news
+powershell 10th anniversary interview
+cloud tools for powershell github repo chatroom highlights
+https://www.youtube.com/shared?ci=xmszgxtfwd8 &amp;laquo;@urtmm|gerane&amp;raquo; gerane uploaded a file: slack for android upload https://powershell.slack.com/files/gerane/f2nn2s2kx/screenshot_20161012-204036.png jonwalz https://channel9.msdn.com/events/ignite/2015/brk4451 ?
+here we go https://www.youtube.com/watch?v=ab46ghxnm8q jonwalz did you update live.powerscripting.net http://live.powerscripting.net?
+https://github.com/googlecloudplatform/google-cloud-powershell cloud.google.com/powershell http://cloud.google.com/powershell any plans to release these in a package on the powershell gallery?"><div class=lg:flex><div class="lg:w-1/3 p-6 lg:pr-0"><div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-file-alt text-4xl text-white"></i></div></div><div class="lg:w-2/3 p-6 lg:pl-8"><div class="flex items-center text-blue-600 text-sm font-medium mb-3"><i class="fas fa-calendar mr-2"></i>
+<time>November 14, 2016</time>
+<span class=mx-2>•</span>
+<i class="fas fa-clock mr-1"></i>
+<span>1 min read</span></div><h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2016-11-14-episode-317-powerscripting-podcast-chris-smith-on-the-google-cloud-tools-for-powershell/ class="hover:text-blue-600 transition-colors duration-200">Episode 317 – PowerScripting Podcast – Chris Smith on the Google Cloud Tools for PowerShell</a></h2><p class="text-gray-600 mb-4 line-clamp-3">In This Episode Tonight on the PowerScripting Podcast,
+Chris Smith from Google on Cloud Tools For PowerShell
+Slack Chatroom
+We are the live-podcast channel News
+PowerShell 10th Anniversary Interview
+Cloud Tools for PowerShell GitHub repo Chatroom Highlights
+https://www.youtube.com/shared?ci=xmszGXTfwD8 &#171;@URTMM|gerane&#187; gerane uploaded a file: Slack for Android Upload https://powershell.slack.com/files/gerane/F2NN2S2KX/screenshot_20161012-204036.png jonwalz https://channel9.msdn.com/Events/Ignite/2015/BRK4451 ?
+here we go https://www.youtube.com/watch?v=Ab46gHXNm8Q jonwalz did you update live.powerscripting.net http://live.powerscripting.net?
+https://github.com/GoogleCloudPlatform/google-cloud-powershell cloud.google.com/powershell http://cloud.google.com/powershell Any plans to release these in a package on the PowerShell Gallery?</p><div class="flex flex-wrap items-center gap-4"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2016-11-14-episode-317-powerscripting-podcast-chris-smith-on-the-google-cloud-tools-for-powershell/ class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"><i class="fas fa-book mr-2"></i>Read Article</a></div></div></div></article></div><nav class="flex justify-center" aria-label=Pagination><div class="flex items-center space-x-1"><a href=/PowerShellOrgWebsite/authors/jonathan-walz/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200"><i class="fas fa-chevron-left"></i>
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">1
+</a><span class="px-3 py-2 bg-blue-600 text-white rounded-lg font-medium">2
+</span><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/3/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">3
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/4/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">4
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/5/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">5
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/6/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">6
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/7/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">7
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/8/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">8
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/9/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">9
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/10/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">10
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/11/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">11
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/12/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">12
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/13/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">13
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/14/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">14
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/15/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">15
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/16/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">16
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/17/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">17
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/18/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">18
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/19/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">19
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/20/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">20
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/21/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">21
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/22/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">22
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/23/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">23
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/24/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">24
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/25/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">25
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/26/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">26
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/27/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">27
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/28/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">28
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/29/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">29
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/30/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">30
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/31/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">31
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/32/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">32
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/33/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">33
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/34/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">34
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/35/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">35
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/36/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">36
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/37/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">37
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/38/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">38
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/39/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">39
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/40/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">40
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/41/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">41
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/42/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">42
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/43/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">43
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/44/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">44
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/45/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">45
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/46/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">46
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/47/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">47
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/48/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">48
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/49/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">49
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/50/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">50
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/51/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">51
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/52/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">52
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/53/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">53
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/54/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">54
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/55/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">55
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/56/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">56
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/57/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">57
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/58/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">58
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/59/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">59
+</a><a href=/PowerShellOrgWebsite/authors/jonathan-walz/page/3/ class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200"><i class="fas fa-chevron-right"></i></a></div></nav></div></section></main><footer class="powershell-dark text-gray-300"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="grid md:grid-cols-4 gap-8 mb-8"><div><div class="flex items-center space-x-3 mb-4"><div class="w-8 h-8 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-sm"></i></div><h3 class="text-lg font-semibold text-white">PowerShell.org</h3></div><p class="text-sm text-gray-400 mb-4">The community hub for PowerShell enthusiasts, automaters, and professionals worldwide.</p><div class="flex space-x-4"><a href=https://twitter.com/powershell_org target=_blank rel=noopener class="text-gray-400 hover:text-blue-400 transition-colors duration-200"><i class="fab fa-twitter text-lg"></i>
+</a><a href=https://youtube.com/PowerShellOrg target=_blank rel=noopener class="text-gray-400 hover:text-red-400 transition-colors duration-200"><i class="fab fa-youtube text-lg"></i>
+</a><a href=https://github.com/powershellOrg target=_blank rel=noopener class="text-gray-400 hover:text-gray-200 transition-colors duration-200"><i class="fab fa-github text-lg"></i>
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-400 hover:text-purple-400 transition-colors duration-200"><i class="fab fa-discord text-lg"></i></a></div></div><div><h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3><ul class="space-y-2 text-sm"><li><a href=/podcast/ class="text-gray-400 hover:text-white transition-colors duration-200">Podcast</a></li><li><a href=/summit/ class="text-gray-400 hover:text-white transition-colors duration-200">Summit</a></li><li><a href=/learning/ class="text-gray-400 hover:text-white transition-colors duration-200">Learning Resources</a></li><li><a href=/community/ class="text-gray-400 hover:text-white transition-colors duration-200">Community</a></li><li><a href=https://forums.powershell.org target=_blank rel=noopener class="text-gray-400 hover:text-white transition-colors duration-200">Forums</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Resources</h3><ul class="space-y-2 text-sm"><li><a href=/articles/ class="text-gray-400 hover:text-white transition-colors duration-200">Articles</a></li><li><a href=/authors/ class="text-gray-400 hover:text-white transition-colors duration-200">Authors</a></li><li><a href=/contributing/ class="text-gray-400 hover:text-white transition-colors duration-200">Contributing</a></li><li><a href=/community-awards/ class="text-gray-400 hover:text-white transition-colors duration-200">Community Awards</a></li><li><a href=/index.xml class="text-gray-400 hover:text-white transition-colors duration-200">RSS Feed</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Upcoming Events</h3><div class=space-y-4><div class="bg-gray-800 p-4 rounded-lg"><h4 class="font-medium text-white mb-1">PowerShell + DevOps Global Summit</h4><p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p><a href=https://powershellsummit.org class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">Learn More →</a></div></div></div></div><div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center"><div class="flex items-center space-x-4 mb-4 md:mb-0"><p class="text-sm text-gray-400">© 2026 PowerShell.org Community. All rights reserved.</p></div><div class="flex items-center space-x-6 text-sm"><a href=/code-of-conduct/ class="text-gray-400 hover:text-white transition-colors duration-200">Code of Conduct</a>
+<a href=/privacy/ class="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a>
+<a href=/terms/ class="text-gray-400 hover:text-white transition-colors duration-200">Terms of Use</a>
+<a href=/contact/ class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></div></div></div><button id=back-to-top onclick='window.scrollTo({top:0,behavior:"smooth"})' class="hidden fixed bottom-8 right-8 powershell-blue text-white p-3 rounded-full shadow-lg hover:opacity-90 transition-opacity duration-200 z-40">
+<i class="fas fa-arrow-up"></i></button></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.min.js defer></script><script>function toggleMobileMenu(){const e=document.getElementById("mobile-menu");e.classList.toggle("hidden")}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();const t=document.querySelector(this.getAttribute("href"));t&&t.scrollIntoView({behavior:"smooth",block:"start"})})}),window.addEventListener("scroll",function(){const e=document.getElementById("back-to-top");e&&(window.pageYOffset>300?e.classList.remove("hidden"):e.classList.add("hidden"))})</script></body></html>

@@ -1,0 +1,295 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Episode 41 – Jeff Hicks "I am Ironman" - PowerShell.org - Welcome Automaters!</title>
+<meta name=description content="A Podcast about Windows PowerShell.
+Listen: [][1]
+In This Episode Today on the PowerScripting Podcast we are interviewing Jeffrey Hicks from SAPIEN …"><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><meta property="og:type" content="article"><meta property="og:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2008-09-15-episode-41-jeff-hicks-i-am-ironman/"><meta property="og:title" content="Episode 41 – Jeff Hicks &#34;I am Ironman&#34;"><meta property="og:description" content="A Podcast about Windows PowerShell.
+Listen: [][1]
+In This Episode Today on the PowerScripting Podcast we are interviewing Jeffrey Hicks from SAPIEN …"><meta property="og:site_name" content="PowerShell.org - Welcome Automaters!"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2008-09-15-episode-41-jeff-hicks-i-am-ironman/"><meta property="twitter:title" content="Episode 41 – Jeff Hicks &#34;I am Ironman&#34;"><meta property="twitter:description" content="A Podcast about Windows PowerShell.
+Listen: [][1]
+In This Episode Today on the PowerScripting Podcast we are interviewing Jeffrey Hicks from SAPIEN …"><link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css rel=stylesheet><style>.powershell-blue{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%)}.powershell-dark{background:#1e1e1e}.code-terminal{background:#0c0c0c;border:1px solid #323130;font-family:cascadia code,consolas,monospace}.hero-pattern{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%);position:relative}.hero-pattern::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 25% 25%,rgba(255,255,255,3%) 0%,transparent 40%),radial-gradient(circle at 75% 75%,rgba(255,255,255,2%) 0%,transparent 40%);pointer-events:none}.podcast-card:hover{transform:translateY(-4px)}.summit-gradient{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}html{scroll-behavior:smooth}.focus\:ring-powershell:focus{--tw-ring-color:#0078D4;--tw-ring-opacity:0.5}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn .6s ease-out}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap';.gotham-black{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:900;letter-spacing:-.02em}.gotham-bold{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;letter-spacing:-.01em}.gotham-medium{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500}.conference-gradient{background:linear-gradient(135deg,#0082c6 0%,#00aeef 50%,#2b2d78 100%)}@keyframes float{0%,100%{transform:translateY(0)rotate(0)}50%{transform:translateY(-20px)rotate(180deg)}}.float{animation:float 20s ease-in-out infinite}</style></head><body class="bg-gray-50 text-gray-900"><header class="bg-white shadow-lg sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center py-4"><div class="flex items-center"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/ class="flex items-center space-x-3"><div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-lg"></i></div><div><h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1><p class="text-sm text-gray-600">Community Hub</p></div></a></div><nav class="hidden md:flex space-x-8"><a href=/PowerShellOrgWebsite/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Authors
+</a><a href=https://forums.powershell.org class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a></nav><div class="hidden md:flex items-center space-x-4"><a href=https://powershellsummit.org class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">Summit 2026
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-500 hover:text-blue-600 transition-colors duration-200"><i class="fab fa-discord text-xl"></i></a></div><div class=md:hidden><button onclick=toggleMobileMenu() class="text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 p-2 rounded-md">
+<i class="fas fa-bars text-xl"></i></button></div></div><div id=mobile-menu class="hidden md:hidden pb-4"><div class=space-y-2><a href=/PowerShellOrgWebsite/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Home
+</a><a href=/PowerShellOrgWebsite/podcast/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Podcast
+</a><a href=/PowerShellOrgWebsite/summit/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Summit
+</a><a href=/PowerShellOrgWebsite/community/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Community
+</a><a href=/PowerShellOrgWebsite/articles/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Articles
+</a><a href=/PowerShellOrgWebsite/learning/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Learning
+</a><a href=/PowerShellOrgWebsite/authors/ class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium">Authors
+</a><a href=https://forums.powershell.org class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium" target=_blank rel=noopener>Forums
+<i class="fas fa-external-link-alt ml-1 text-xs"></i></a><div class="pt-2 border-t border-gray-200"><a href=https://powershellsummit.org class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">Register for Summit 2026</a></div></div></div></div></header><main><article class="py-8 lg:py-16"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><header class="mb-8 lg:mb-12"><nav class=mb-6 aria-label=Breadcrumb><ol class="flex items-center space-x-2 text-sm text-gray-500"><li><a href=/ class="hover:text-blue-600 transition-colors duration-200">Home</a></li><li><i class="fas fa-chevron-right text-xs"></i></li><li><a href=/podcast/ class="hover:text-blue-600 transition-colors duration-200">Podcast</a></li><li><i class="fas fa-chevron-right text-xs"></i></li><li class="text-gray-900 font-medium truncate">Episode 41 – Jeff Hicks "I am Ironman"</li></ol></nav><div class="flex flex-wrap items-center gap-4 mb-6"><span class="inline-flex items-center bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium"><i class="fas fa-podcast mr-2"></i>Podcast
+</span><time class="text-gray-600 text-sm">September 16, 2008</time></div><h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">Episode 41 – Jeff Hicks "I am Ironman"</h1><div class="flex items-center justify-between"><div class="flex items-center space-x-4"><div class="flex items-center text-gray-600"><div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3"><i class="fas fa-user text-white text-sm"></i></div><span class=font-medium>Jonathan Walz</span></div><span class=text-gray-400>•</span>
+<span class="text-gray-600 text-sm">5 min read</span></div><div class="flex items-center space-x-2"><span class="text-gray-600 text-sm mr-2">Share:</span>
+<a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpowershellorg.github.io%2fPowerShellOrgWebsite%2fpodcast%2f2008-09-15-episode-41-jeff-hicks-i-am-ironman%2f&text=Episode%2041%20%e2%80%93%20Jeff%20Hicks%20%22I%20am%20Ironman%22" target=_blank rel=noopener class="text-gray-500 hover:text-blue-400 transition-colors duration-200"><i class="fab fa-twitter"></i>
+</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpowershellorg.github.io%2fPowerShellOrgWebsite%2fpodcast%2f2008-09-15-episode-41-jeff-hicks-i-am-ironman%2f" target=_blank rel=noopener class="text-gray-500 hover:text-blue-600 transition-colors duration-200"><i class="fab fa-linkedin"></i>
+</a><button onclick='navigator.clipboard.writeText("https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2008-09-15-episode-41-jeff-hicks-i-am-ironman/")' class="text-gray-500 hover:text-gray-700 transition-colors duration-200" title="Copy link">
+<i class="fas fa-link"></i></button></div></div></header><div class="mb-8 p-6 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl"><div class="flex items-center mb-4"><div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"><i class="fas fa-podcast text-white"></i></div><div><h3 class="font-semibold text-gray-900">Listen to this Episode</h3><p class="text-gray-600 text-sm">Audio available</p></div></div><audio controls class=w-full><source src=http://media.libsyn.com/media/powerscripting/PSPodcast-041.mp3 type=audio/mpeg>Your browser does not support the audio element.</audio></div><div class="prose prose-lg max-w-none prose-blue prose-headings:font-bold prose-headings:text-gray-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-code:text-purple-600 prose-code:bg-purple-50 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:font-medium prose-pre:bg-gray-900 prose-pre:text-gray-100"><p><strong>A Podcast about Windows PowerShell.</strong></p><p>Listen: [<strong><img src=http://powerscripting.libsyn.com/img/podcastIcon.gif alt></strong>][1]</p><h2 id=in-this-episode>In This Episode</h2><h3 id=heading></h3><p>Today on the PowerScripting Podcast we are interviewing Jeffrey Hicks from SAPIEN Technologies.</p><p>We&rsquo;ve also got news, resources, and tips!</p><h2 id=news>News</h2><p><em>The news is brought to you today by iTripoli</em></p><p>__</p><p><em>What can you really do with PowerShell?  With Admin Script Editor the question becomes what <strong>can&rsquo;t</strong> you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at <a href=http://adminscripteditor.com/player>adminscripteditor.com/player</a>.</em></p><ul><li><a href=http://tirania.org/blog/archive/2008/Sep-08.html>Interactive C# Shell - Miguel de Icaza</a></li><li><a href=http://devinfra-us.blogspot.com/2008/05/powershell-and-aspnet-part-3.html>DevInfra-US: PowerShell and ASP.NET Part 3</a></li><li></li></ul><pre><code>    [VMware: VI Toolkit (for Windows): Announcing the winners of the VI Toolkit Scripting Contest!](http://blogs.vmware.com/vipowershell/2008/09/announcing-the.html)
+</code></pre><ul><li><a href=http://blogs.msdn.com/powershell/archive/2008/08/30/powershell-vs-tsql-why-learn-powershell.aspx>PowerShell Team Blog : PowerShell vs TSQL & Why Learn PowerShell</a></li></ul><h2 id=heading-1></h2><pre><code>Interview
+
+
+
+
+
+*This segment is brought to you by Idera* 
+</code></pre><ul><li></li></ul><p>What"™s better than getting the new version of PowerShellPlus for $79? &mldr;&mldr; Getting it for FREE! &mldr; Dr. Tobias Weltner, well-known PowerShell guru, has partnered with Idera Software to bring you PowerShellPlus Professional Edition. The new version has vastly improved code completion and a slick interactive help center.  Idera is offering listeners of
+this podcast
+a special deal. Download the beta during the month of September
+and while supplies last
+, you will get PowerShellPlus for free! To get this offer, go to
+<a href=http://www.idera.com/podcastpeople>www.idera.com/podcastpeople</a> to download the beta.
+*
+Questions for our guest:</p><pre><code>- 
+  Been in IT for 17 yrs, deployment, AD, Exchange.
+
+
+- 
+  Works for SAPIEN full time as a Scripting Guru
+
+
+- 
+  PowerShell MVP
+
+
+- 
+  Columns 
+
+
+      Mr. Roboto column for Redmond Mag (http://redmondmag.com)
+
+
+    - 
+      &quot;Professor PowerShell&quot; for MCP Mag.
+
+
+    - 
+      Realtime Publishers, &quot;Practical PowerShell&quot;
+
+
+
+
+
+
+- 
+  Latest book: Managing Active Directory with PowerShell: TFM 
+
+
+      ADSI
+
+
+    - 
+      Quest cmdlets, SDM, PSCX
+
+
+
+
+
+
+- 
+  glnsize : ##really quest over [adsi], did i hear that right
+
+
+- 
+  rfoust : ## what's the coolest script you've written
+
+
+- 
+  Pasdargent : ## What need did PowerShell immediately meet for you that VBScript lacked?
+
+
+- 
+  gaurhoth : ## Do you personally prefer VBScript or Powershell at this point?
+
+
+- 
+  glnsize : ##what is your &quot;wish microsoft would do that&quot; cmdlet 
+
+
+      Get-Beer!
+
+
+
+
+
+
+- 
+</code></pre><p>Kryten: The Sapien Powershell Online Training.
+How did he feel it went? Will there be more courses? How does he think it might be improved?</p><pre><code>- 
+</code></pre><p>Kryten: Will there be any possibility of training in Europe? Tell us more about these &lsquo;Boot Camps&rsquo; they run.</p><pre><code>- 
+  Kryten: What can we say to our employers to get them to buy this training?
+
+
+- 
+  Kryten: Why not issue training certificates Eg Sapien Certified Powershell Scripter(!). Something that we can stick in out resume'
+
+
+- 
+</code></pre><p>trac3r726 : ## How much to they Cost?</p><p>go to ScriptingOutpost.com or ScriptingTraining.com</p><pre><code>- 
+</code></pre><p>meson : ## Will they ever come to Atlanta?</p><pre><code>- 
+</code></pre><p>rfoust : ## is on-site training available?</p><pre><code>- 
+</code></pre><p>Kryten: Where are ppl going WRONG when they try to learn Powershell? What are the 5 biggest mistakes, or misconceptions that walk into his classroom?</p><pre><code>- 
+</code></pre><p>aleksandar : ## if jeff can improve something in quest cmdlets what would that be?</p><p>They need infrastructure cmdlets. The cmdlets there are great, but there&rsquo;s nothing for creating sites, subnets, replication, etc.</p><pre><code>- 
+</code></pre><p>jpavleck : ## What is the huge difference between x86 and x64 snapins, and why aren&rsquo;t there any available for x64</p><pre><code>- 
+</code></pre><p>rfoust : ## whats the best way to handle script revision management in a large environment?  subversion?</p><p>source control</p><pre><code>    - 
+</code></pre><p>PrimalScript does support VSS, SVN and others</p><pre><code>- 
+</code></pre><p>jpavleck : ## How do you figure out if you should be using a vbscript, posh or a C# app - especially when it comes to going overboard with a posh script</p><p>JH: very good question, will be future blog post</p><pre><code>    - 
+</code></pre><p>vbscript: end user related, login scripts, configuring user&rsquo;s desktop</p><pre><code>    - 
+</code></pre><p>powershell: managing server, services, resources, disks</p><pre><code>    - 
+</code></pre><p>compiled: run something as a service</p><pre><code>- 
+</code></pre><p>rfoust : ## how to determine when to write a script or a function?</p><pre><code>- 
+</code></pre><p>meson : ## Do you have problems with wanting to write scripts for CTP2 but having to write version 1 scripts for the masses?</p><pre><code>- 
+</code></pre><p>aleksandar : ## name the chapter in the latest book that has given you the hardest time</p><p>AD permissions are HARD</p><pre><code>    - 
+</code></pre><p>Group Policy chapter was time consuming and tedious</p><pre><code>- 
+  DManVid : ##  (Get-QADUser ).MemberOf  does not list the Primary Group of the user
+
+
+- 
+  jpavleck : ## Don't suppose the book has anything about System Center Operations Manager in it, hrm?
+
+
+- 
+  meson : ## what application (ie robocopy) would you like to see as a cmdlet? 
+
+
+      netsh.exe
+
+
+    - 
+      DNS, DHCP
+
+
+    - 
+      (hal) 2008 new cmds
+
+
+
+
+
+
+- 
+  rfoust : ## what blogs and forums do you read on a daily
+</code></pre><p>basi
+s?</p><pre><code>      (get his blogroll url)
+
+
+
+
+
+
+- 
+</code></pre><p>meson : ## So what new Sapien books are being written?</p><pre><code>- 
+</code></pre><p>When will your book be available?</p><p>By the time you hear this podcast!</p><pre><code>- 
+</code></pre><p>Pasdargent : ## What PowerShell cmdlet or script could you not live without (day to day)?</p><p>Get-Member</p><pre><code>    - 
+</code></pre><p>Get-WMIObject</p><pre><code>- 
+</code></pre><p>What superhero are you most like?</p><pre><code>- 
+</code></pre><p>Where to find Jeff:</p><p><a href=http://twitter.com/jeffhicks>twitter.com/jeffhicks</a></p><pre><code>    - 
+</code></pre><p><a href=http://blog.sapien.com/>blog.sapien.com</a></p><pre><code>    - 
+</code></pre><p><a href=http://scriptinganswers.com/>scriptinganswers.com</a> forums</p><pre><code>**
+</code></pre><p>Resource</p><hr><p>This segment is brought to you by Quest</p><pre><code>  *
+
+
+
+
+
+  *Do you have what it takes to be the ultimate script warrior? Find out with Quest&quot;™s PowerPack Challenge &quot;™08.*
+
+
+
+
+
+  *Quest Software is sponsoring a PowerShell Scripting contest where you can test your skills and get paid. Just create some cool PowerShell scripts using Quest&quot;™s PowerGUI and then post them to our site. You&quot;™ll get a score and our celebrity judges will weigh in as well.*
+
+
+
+
+
+  *Do you have the muscle to bring home the prize? Check out the details *[*here*](https://quest.com/powerscripting)*.*
+
+
+
+
+
+  **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    - 
+      Lance Robinson from /n software:[PowerShell: send-gmail](http://lancerobinson.net/archive/2008/09/10/powershell-send-gmail.aspx)
+
+
+    - 
+      Data Visualization with .NetMap 
+
+
+          [Microsoft Research .NetMap and PowerShell](http://dougfinke.com/blog/?p=465)
+
+
+        - 
+          [James O'Neill's blog : Net maps - PowerShell and Excel](http://blogs.technet.com/jamesone/archive/2008/09/08/net-maps-powershell-and-excel.aspx)
+
+
+        - 
+          [Using PowerShell and World Data (now a public API) with Microsoft&quot;™s NetMap free graphing libraries 
+
+
+
+            ![](http://docs.google.com/File?id=dgxpvkr_30ddd57zg7_b)
+
+
+
+
+
+
+              ](http://dougfinke.com/blog/?p=468)
+
+
+
+
+
+
+              - 
+                Dmitry wrote and article for Windows IT Pro on [using the AD cmdlets](http://dmitrysotnikov.wordpress.com/2008/09/05/windows-it-pro-magazine-article-on-powershell-ad-account-management/)
+
+
+              - 
+                [New-ComplexPassword](http://poshcode.org/567)
+
+
+              - 
+                [Hate Add-Member? (PowerShell's Adaptive Type System to the Rescue)](http://blogs.msdn.com/powershell/archive/2008/09/06/hate-add-member-powershell-s-adaptive-type-system.aspx)
+</code></pre><h2 id=heading-2></h2><pre><code>                One-Liner
+
+
+
+
+
+                This one-liner to start a process on a remote PC was submitted by jpavlek
+</code></pre><p><code>([WMICLASS]"\$computerROOTCIMV2:win32_process").Create("notepad") </code>[1]: <a href=http://media.libsyn.com/media/powerscripting/PSPodcast-041.mp3>http://media.libsyn.com/media/powerscripting/PSPodcast-041.mp3</a></p></div><nav class="mt-12 pt-8 border-t border-gray-200"><div class="flex justify-between items-center"><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2008-09-09-submit-your-active-directory-questions-now/ class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200"><i class="fas fa-chevron-left mr-2"></i>
+<span class="truncate max-w-xs">Submit Your Active Directory Questions Now!</span>
+</a><a href=https://powershellorg.github.io/PowerShellOrgWebsite/podcast/2008-09-17-up-next-don-jones-greg-shields/ class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200"><span class="truncate max-w-xs">Up Next: Don Jones & Greg Shields!</span>
+<i class="fas fa-chevron-right ml-2"></i></a></div></nav></div></article></main><footer class="powershell-dark text-gray-300"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="grid md:grid-cols-4 gap-8 mb-8"><div><div class="flex items-center space-x-3 mb-4"><div class="w-8 h-8 powershell-blue rounded-lg flex items-center justify-center"><i class="fas fa-terminal text-white text-sm"></i></div><h3 class="text-lg font-semibold text-white">PowerShell.org</h3></div><p class="text-sm text-gray-400 mb-4">The community hub for PowerShell enthusiasts, automaters, and professionals worldwide.</p><div class="flex space-x-4"><a href=https://twitter.com/powershell_org target=_blank rel=noopener class="text-gray-400 hover:text-blue-400 transition-colors duration-200"><i class="fab fa-twitter text-lg"></i>
+</a><a href=https://youtube.com/PowerShellOrg target=_blank rel=noopener class="text-gray-400 hover:text-red-400 transition-colors duration-200"><i class="fab fa-youtube text-lg"></i>
+</a><a href=https://github.com/powershellOrg target=_blank rel=noopener class="text-gray-400 hover:text-gray-200 transition-colors duration-200"><i class="fab fa-github text-lg"></i>
+</a><a href=https://aka.ms/psdiscord target=_blank rel=noopener class="text-gray-400 hover:text-purple-400 transition-colors duration-200"><i class="fab fa-discord text-lg"></i></a></div></div><div><h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3><ul class="space-y-2 text-sm"><li><a href=/podcast/ class="text-gray-400 hover:text-white transition-colors duration-200">Podcast</a></li><li><a href=/summit/ class="text-gray-400 hover:text-white transition-colors duration-200">Summit</a></li><li><a href=/learning/ class="text-gray-400 hover:text-white transition-colors duration-200">Learning Resources</a></li><li><a href=/community/ class="text-gray-400 hover:text-white transition-colors duration-200">Community</a></li><li><a href=https://forums.powershell.org target=_blank rel=noopener class="text-gray-400 hover:text-white transition-colors duration-200">Forums</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Resources</h3><ul class="space-y-2 text-sm"><li><a href=/articles/ class="text-gray-400 hover:text-white transition-colors duration-200">Articles</a></li><li><a href=/authors/ class="text-gray-400 hover:text-white transition-colors duration-200">Authors</a></li><li><a href=/contributing/ class="text-gray-400 hover:text-white transition-colors duration-200">Contributing</a></li><li><a href=/community-awards/ class="text-gray-400 hover:text-white transition-colors duration-200">Community Awards</a></li><li><a href=/index.xml class="text-gray-400 hover:text-white transition-colors duration-200">RSS Feed</a></li></ul></div><div><h3 class="text-lg font-semibold text-white mb-4">Upcoming Events</h3><div class=space-y-4><div class="bg-gray-800 p-4 rounded-lg"><h4 class="font-medium text-white mb-1">PowerShell + DevOps Global Summit</h4><p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p><a href=https://powershellsummit.org class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">Learn More →</a></div></div></div></div><div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center"><div class="flex items-center space-x-4 mb-4 md:mb-0"><p class="text-sm text-gray-400">© 2026 PowerShell.org Community. All rights reserved.</p></div><div class="flex items-center space-x-6 text-sm"><a href=/code-of-conduct/ class="text-gray-400 hover:text-white transition-colors duration-200">Code of Conduct</a>
+<a href=/privacy/ class="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a>
+<a href=/terms/ class="text-gray-400 hover:text-white transition-colors duration-200">Terms of Use</a>
+<a href=/contact/ class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></div></div></div><button id=back-to-top onclick='window.scrollTo({top:0,behavior:"smooth"})' class="hidden fixed bottom-8 right-8 powershell-blue text-white p-3 rounded-full shadow-lg hover:opacity-90 transition-opacity duration-200 z-40">
+<i class="fas fa-arrow-up"></i></button></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.min.js defer></script><script>function toggleMobileMenu(){const e=document.getElementById("mobile-menu");e.classList.toggle("hidden")}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();const t=document.querySelector(this.getAttribute("href"));t&&t.scrollIntoView({behavior:"smooth",block:"start"})})}),window.addEventListener("scroll",function(){const e=document.getElementById("back-to-top");e&&(window.pageYOffset>300?e.classList.remove("hidden"):e.classList.add("hidden"))})</script><script>function copyToClipboard(e){navigator.clipboard.writeText(e).then(function(){console.log("Link copied to clipboard")})}document.querySelectorAll('.prose a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();const t=document.querySelector(this.getAttribute("href"));t&&t.scrollIntoView({behavior:"smooth",block:"start"})})})</script></body></html>
