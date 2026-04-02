@@ -141,7 +141,7 @@ jobs:
             --gc \
             --minify \
             --destination docs \
-            --baseURL "https://powershellorg.github.io/PowerShellOrgWebsite/"
+            --baseURL "https://powershell.org"
             
       - name: Add .nojekyll file
         run: touch docs/.nojekyll
