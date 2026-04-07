@@ -60,6 +60,9 @@ menu:
     - name: "Forums"
       url: "https://forums.powershell.org"
       weight: 60
+    - name: "Discord Archive"
+      url: "/discord/"
+      weight: 62
 
 # Site parameters
 params:

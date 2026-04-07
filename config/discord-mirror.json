@@ -1,0 +1,79 @@
+{
+  "site": {
+    "title": "PowerShell.org Discord Archive",
+    "baseUrl": "https://powershell.org/discord",
+    "sectionPath": "discord",
+    "footerText": "Selected Discord content is published to the public web for search and discovery. Attachments and images remain hosted by Discord.",
+    "searchDescription": "Search approved Discord archive content mirrored from selected PowerShell.org Discord channels."
+  },
+  "discord": {
+    "guildId": "1488875093873397832",
+    "apiBaseUrl": "https://discord.com/api/v10",
+    "userAgent": "PowerShellOrgDiscordMirror/5.0"
+  },
+  "export": {
+    "outputContentDir": "content/discord",
+    "outputStaticDir": "static/discord",
+    "searchIndexFileName": "search-index.json",
+    "includeBotMessages": false,
+    "sanitizeMentions": true,
+    "maxMessagesPerChannel": 1500,
+    "defaultMinMessageAgeMinutes": 1440,
+    "defaultModerationMode": "reaction",
+    "defaultApprovalReaction": "\u2705",
+    "defaultApprovalPrefix": "[publish]",
+    "defaultAuthorRoleNames": [
+      "Moderator",
+      "Admin",
+      "Discord Team"
+    ],
+    "defaultExcludeRegex": [
+      "^/",
+      "^!",
+      "^\\\\?help"
+    ],
+    "generatedBy": "tools/discord-mirror/Export-DiscordMirror.ps1"
+  },
+  "channels": [
+    {
+      "id": "1488875094938746884",
+      "slug": "announcements",
+      "title": "Announcements",
+      "description": "Approved announcement messages mirrored from Discord.",
+      "enabled": true,
+      "includeThreads": false,
+      "maxMessages": 500,
+      "minMessageAgeMinutes": 60,
+      "moderationMode": "all",
+      "approvalReaction": "\u2705",
+      "approvalPrefix": "[publish]",
+      "authorRoleNames": [
+        "Moderator",
+        "Admin"
+      ],
+      "excludeRegex": []
+    },
+    {
+      "id": "1489393262191185981",
+      "slug": "TechTalk-PowerShell",
+      "title": "TechTalk-PowerShell",
+      "description": "Curated PowerShell message highlights approved for public publishing.",
+      "enabled": true,
+      "includeThreads": false,
+      "maxMessages": 2000,
+      "minMessageAgeMinutes": 1440,
+      "moderationMode": "all",
+      "approvalReaction": "\u2705",
+      "approvalPrefix": "[publish]",
+      "authorRoleNames": [
+        "Moderator",
+        "Admin"
+      ],
+      "excludeRegex": [
+        "^/",
+        "^!"
+      ],
+      "includeRegex": []
+    }
+  ]
+}
