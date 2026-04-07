@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Get Computer Name From AD Using Variable...\"",
-      "time": "Just now",
+      "message": "New reply in \"Automating Wireless Charging Coil Testin...\"",
+      "time": "Yesterday",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "1 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19350,
-    "total_posts": 117982,
-    "active_users": 9584,
-    "topics_this_week": 1
+    "total_topics": 19352,
+    "total_posts": 117999,
+    "active_users": 9585,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-04-02T20:15:35.673Z"
+  "last_updated": "2026-04-07T20:17:43.748Z"
 }
