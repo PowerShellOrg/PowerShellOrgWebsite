@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Building Your Own Pomodoro Timer in the ...\"",
-      "time": "Just now",
+      "time": "4 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19352,
-    "total_posts": 118002,
-    "active_users": 9584,
-    "topics_this_week": 2
+    "total_topics": 19353,
+    "total_posts": 118004,
+    "active_users": 9585,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-04-09T00:37:46.533Z"
+  "last_updated": "2026-04-09T04:53:10.632Z"
 }
