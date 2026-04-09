@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Automating Wireless Charging Coil Testin...\"",
-      "time": "2 days ago",
+      "message": "New reply in \"Building Your Own Pomodoro Timer in the ...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19352,
-    "total_posts": 118001,
+    "total_posts": 118002,
     "active_users": 9584,
-    "topics_this_week": 3
+    "topics_this_week": 2
   },
-  "last_updated": "2026-04-08T20:18:45.869Z"
+  "last_updated": "2026-04-09T00:37:46.533Z"
 }
