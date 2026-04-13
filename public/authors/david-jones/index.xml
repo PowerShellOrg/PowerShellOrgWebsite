@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Jones on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/david-jones/</link>
+    <link>http://localhost:57259/authors/david-jones/</link>
     <description>Recent content in David Jones on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 16:29:24 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/david-jones/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/david-jones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colecting Certificates form an Enterprise CA for use with DSC</title>
-      <link>https://powershell.org/articles/2017-04-21-colecting-certificates-form-an-enterprise-ca-for-use-with-dsc/</link>
+      <link>http://localhost:57259/articles/2017-04-21-colecting-certificates-form-an-enterprise-ca-for-use-with-dsc/</link>
       <pubDate>Fri, 21 Apr 2017 16:29:24 +0000</pubDate>
-      <guid>https://powershell.org/articles/2017-04-21-colecting-certificates-form-an-enterprise-ca-for-use-with-dsc/</guid>
+      <guid>http://localhost:57259/articles/2017-04-21-colecting-certificates-form-an-enterprise-ca-for-use-with-dsc/</guid>
       <description>&lt;p&gt;In a domain environment auto enrollment can be used to get create unique certificates for each node that can be used with DSC.  The problem is getting the public cert to the machine that creates the DSC MOF files. I wrote a module last year to collect them directly form the Enterprise CA. If it interests you take a look &lt;a href=&#34;https://blog.bladefirelight.com/nuggets/collecting-ca-certificates-for-dsc-configuration/&#34;&gt;https://blog.bladefirelight.com/nuggets/collecting-ca-certificates-for-dsc-configuration/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convert ISO and WIM to VHD with a module</title>
-      <link>https://powershell.org/articles/2015-09-28-convert-iso-and-wim-to-vhd-with-a-module/</link>
+      <link>http://localhost:57259/articles/2015-09-28-convert-iso-and-wim-to-vhd-with-a-module/</link>
       <pubDate>Tue, 29 Sep 2015 04:24:03 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-09-28-convert-iso-and-wim-to-vhd-with-a-module/</guid>
+      <guid>http://localhost:57259/articles/2015-09-28-convert-iso-and-wim-to-vhd-with-a-module/</guid>
       <description>&lt;p&gt;Convert-WindowsImage.ps1 is a very popular method to create VHD&amp;rsquo;s with. However it&amp;rsquo;s not a module, and in it&amp;rsquo;s current form cant be added to one.&lt;/p&gt;&#xA;&lt;p&gt;So I have started a new project on GitHub called WindowsImageTools and posted the results to the &lt;a href=&#34;https://www.powershellgallery.com/packages/WindowsImageTools/&#34;&gt;PowerShell Gallery&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It has a few functions so far. Convert-Wim2Vhd, to do the work,  and New-UnattendXml because it hate having to edit XML to make minor changes. The resulting XML is universal in that it works on both 32 and 64 bit and will do a silent install (currently on Volume Media only). Then it auto-logs on the Admin and run a PowerShell script to kick off what ever you need bootstrapped (like DSC)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a test lab : The basics Part 1 RootCA</title>
-      <link>https://powershell.org/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/</link>
+      <link>http://localhost:57259/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/</link>
       <pubDate>Thu, 16 Jul 2015 04:16:28 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/</guid>
+      <guid>http://localhost:57259/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/</guid>
       <description>&lt;p&gt;Part of building a functional test lab is being able to deal with cattle and not pets. With that in mode I&amp;rsquo;m writing a series about the script necessary to build a production like lab for testing DSC, and be able to to tear it down and rebuild it with little effort.&lt;/p&gt;&#xA;&lt;p&gt;Part 1 is about bootstrapping DSC for the Root CA. and doing so without using plaintext passwords.&lt;/p&gt;&#xA;&lt;p&gt;I would welcome some feedback on both my methods and writing style.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a small footprint, base image Part 4 | Bringing it all together with automation</title>
-      <link>https://powershell.org/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/</link>
+      <link>http://localhost:57259/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/</link>
       <pubDate>Fri, 05 Jun 2015 04:07:16 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/</guid>
+      <guid>http://localhost:57259/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/</guid>
       <description>&lt;p&gt;In this entry I combing all I covered into a set of scripts to automate the process of creating a small footprint VHDX base image and a WIM to use a sorce that is fully patched. And I added a script to update the files on a regular basis.&lt;br&gt;&#xA;Check it out and let me know what you think.&lt;br&gt;&#xA;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/06/05/creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/&#34;&gt;Creating a small footprint, base image Part 4 | Bringing it all together with automation&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a small footprint, base image Part 2</title>
-      <link>https://powershell.org/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/</link>
+      <link>http://localhost:57259/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/</link>
       <pubDate>Thu, 21 May 2015 00:56:25 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/</guid>
+      <guid>http://localhost:57259/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/</guid>
       <description>&lt;p&gt;I posted Part 2 of using PowerShell to create small footprint VHDX that are fully patched.&lt;br&gt;&#xA;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/20/creating-a-small-footprint-base-image-part-2-patching-and-cleanup-via-powershell/&#34;&gt;Patching and Cleanup via PowerShell&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a small footprint, base image Part 1</title>
-      <link>https://powershell.org/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/</link>
+      <link>http://localhost:57259/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/</link>
       <pubDate>Tue, 19 May 2015 19:01:13 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/</guid>
+      <guid>http://localhost:57259/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m starting a new blog series on using &lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/19/creating-a-small-footprint-base-image-part-1-vhdx-from-iso/&#34;&gt;PowerShell to create small footprint VHDX&lt;/a&gt; that are fully patched.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up the PowerShell.org DSC tools from Github</title>
-      <link>https://powershell.org/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/</link>
+      <link>http://localhost:57259/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/</link>
       <pubDate>Wed, 06 May 2015 04:27:34 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/</guid>
+      <guid>http://localhost:57259/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/</guid>
       <description>&lt;p&gt;I have created a &lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/&#34;&gt;short blog series&lt;/a&gt; about how to setup the DSC tooling from the &lt;a href=&#34;https://github.com/PowerShellOrg/DSC&#34;&gt;PowerShell.org DSC repository&lt;/a&gt;. With the mindset of contributing changes.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/&#34;&gt;Test-HomeLab -InputObject ‘The Plan’&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/30/get-posh-git-test-lab/&#34;&gt;Get-Posh-Git | Test-Lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/02/get-dscframework-test-lab/&#34;&gt;Get-DSCFramework | Test-Lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/03/invoke-dscbuild-test-lab-2/&#34;&gt;Invoke-DscBuild | Test-Lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/06/test-lab-update-github/&#34;&gt;Test-Lab | Update-GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;-David Jones&lt;/p&gt;</description>
     </item>
   </channel>

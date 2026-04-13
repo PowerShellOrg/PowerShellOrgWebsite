@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kirk Munro - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/authors/kirk-munro/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/authors/kirk-munro/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/authors/kirk-munro/">
+    <meta property="og:url" content="http://localhost:57259/authors/kirk-munro/">
     <meta property="og:title" content="Kirk Munro">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/authors/kirk-munro/">
+    <meta property="twitter:url" content="http://localhost:57259/authors/kirk-munro/">
     <meta property="twitter:title" content="Kirk Munro">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -430,13 +480,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/" class="hover:text-blue-600 transition-colors duration-200">
                                 Essential PowerShell: To alias, or not to alias, that is the question
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Recently there was a discussion between community experts and a product team about a module they are working on.  The topic being discussed was cmdlet aliases: whether or not they should provide aliases for their cmdlets out of the box and if so, how they should be provided.  Aliases are great for ad-hoc PowerShell work, which is what most PowerShell users do at this point, and incredibly useful when you&quot;™re trying to put out a fire and managing your infrastructure using PowerShell.  However, there are many important things that module authors need to consider when planning aliases for their cmdlets, as follows:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/" 
+                            <a href="http://localhost:57259/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -466,13 +516,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-01-04-powershell-mvp-for-2012/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerShell MVP for 2012
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Every year around Christmas I anxiously await the New Year to see if I receive the Microsoft MVP award again that year.  Well that email came on January 1, 2012, and I&quot;™m quite thrilled about this one because it&quot;™s a milestone this time (year 5 as a PowerShell MVP).  Thanks to the community for being so great to work with, and thanks to Microsoft both for recognizing individual efforts with the MVP program and for creating such great products like Windows PowerShell!  Work has never been so much fun!</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-01-04-powershell-mvp-for-2012/" 
+                            <a href="http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -504,7 +554,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerSE 2.5.3 is now available
                             </a>
                         </h2>
@@ -512,7 +562,7 @@
 <h4 id="no-time-limit-for-freeware">No time limit for freeware</h4>
 <p>With this release, we&quot;™ve removed the requirement to re-download this product every 60 days.  This was our number one feature request since we made <a href="http://powerwf.com/products/powerse.aspx">PowerSE</a> a freeware product.  Now when you download <a href="http://powerwf.com/products/powerse.aspx">PowerSE</a> 2.5.3, it is truly freeware and you can use it as long as you like!</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/" 
+                            <a href="http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -542,13 +592,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" class="hover:text-blue-600 transition-colors duration-200">
                                 Seasons of change: new Product Manager for PowerWFâ„¢ and PowerSE at Devfarm Software
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>I always enjoy this time of year.  There is something about the transition that happens over Labour Day weekend that always gets me excited.  Maybe it&quot;™s a lingering feeling of anticipation over the new year at school or university from years gone by, a feeling that I can still appreciate these days as I watch my kids getting excited about their education and the new activities they will sign up for this fall.  Regardless, it&quot;™s always a fun time of year for me.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" 
+                            <a href="http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -578,13 +628,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" class="hover:text-blue-600 transition-colors duration-200">
                                 One for the road: Stepping away from PowerGUIÂ®
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Today was one of my most difficult days in my 7Â½+ year career at Quest Software.  The same week that I was given a performance raise (I got that email on Monday), this afternoon I got a phone call from the director over my business unit letting me know that my position has been cut effective immediately.  Part of a book balancing effort it seems –  funny (or not so much) how life works sometimes.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" 
+                            <a href="http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -616,7 +666,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerGUIÂ® 3.0 Hotfix: Double-clicking on a ps1, psm1, or psd1 file to open the Script Editor shows the Start Page as the active page in the Script Editor
                             </a>
                         </h2>
@@ -624,7 +674,7 @@
 <h4 id="problem">Problem</h4>
 <p>While the <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a> Script Editor is closed, double-clicking on a ps1, psm1 or psd1 file or right-clicking on one of those file types and selecting &ldquo;Open with PowerGUI Script Editor&rdquo; will open the file you selected in the Script Editor as expected; however the Start Page will appear as the active tab in the Script Editor instead of the file you opened.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" 
+                            <a href="http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -654,13 +704,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerGUIÂ® Pro 3.0: Mobile Systems Management Using MobileShell
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In case you missed the announcement last Friday, [<a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> ]<a href="http://www.powergui.org/" title="PowerGUI.org">2</a>3.0 was released to the web.  With this release we included a new feature that I&quot;™m really excited about: Mobile Systems Management Using MobileShell.  We&quot;™ve had MobileShell for quite a while, but prior to this release you could only use it to invoke your favorite scripts or commands from modules associated with your user account as well as ad hoc commands you wanted to run.  Here&quot;™s a screenshot tour showing you what this interface would look like on a handheld device:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" 
+                            <a href="http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -690,13 +740,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerGUIÂ® Pro and PowerGUIÂ® 3.0 are now available
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Today&quot;™s an exciting day because I&quot;™ve finished releasing <a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> 3.0 and <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a> 3.0 to the web!  This release is something we&quot;™ve been working on for a long time, and it has a ton of new goodies for you to play with.  You can learn more about the individual features in this release in the highlights below.  When reviewing these features, anything that is only available in PowerGUI Pro will be marked as a Pro feature.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" 
+                            <a href="http://localhost:57259/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -728,7 +778,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" class="hover:text-blue-600 transition-colors duration-200">
                                 vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUIÂ®
                             </a>
                         </h2>
@@ -736,7 +786,7 @@
 <p><a href="http://kirkmunro.files.wordpress.com/2011/06/image.png"><img src="http://kirkmunro.files.wordpress.com/2011/06/image_thumb.png?w=604&amp;h=364" alt="vWorkspace PowerPack - multi-farm management"></a></p>
 <p>This screenshot shows two major improvements to the vWorkspace management experience by demonstrating how you can use the <a href="http://www.powergui.org/entry.jspa?categoryID=290&amp;externalID=3561" title="vWorkspace PowerPack">vWorkspace PowerPack</a> to perform management tasks across all farms, and by demonstrating how you can use the <a href="http://www.powergui.org/entry.jspa?categoryID=290&amp;externalID=3561" title="vWorkspace PowerPack">vWorkspace PowerPack</a> to perform management tasks across all locations in a single farm or across all locations in all farms.  In the native vWorkspace management user interface, you can only work with one farm at a time, and you can only work with one location at a time.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" 
+                            <a href="http://localhost:57259/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -767,14 +817,14 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerGUI ProÂ® 3.0 Beta 2 is now available
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Hot on the heels of our first beta cycle for <a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> 3.0, today we released beta 2 of PowerGUI Pro 3.0 to the web.  This release includes a lot of fixes and improvements based on the feedback we&quot;™ve received from you during our first beta cycle, so thank you for that feedback!</p>
 <p>Here are some details about the improvements that have been made in the 2nd beta of PowerGUI Pro 3.0:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" 
+                            <a href="http://localhost:57259/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -898,7 +948,7 @@
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

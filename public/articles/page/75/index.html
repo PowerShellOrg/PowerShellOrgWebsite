@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,226 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="is this list &#34;everything&#34; in powershell?" 
+                     data-content="&lt;p&gt;soooo&amp;hellip;. it&amp;rsquo;s time for me to start looking at updating my various training materials (books, videos, courses, whatnot) for v4.&lt;br&gt;
+i&amp;rsquo;m going to, with at least some of these, take an all-versions approach. i&amp;rsquo;ll teach what&amp;rsquo;s in v2, then cover what v3 added, then cover v4, etc. it&amp;rsquo;ll be easier to maintain over the upcoming years.&lt;br&gt;
+for right now, i&amp;rsquo;m trying to assemble an organized topic list of &amp;ldquo;everything&amp;rdquo; the shell does. now, i need to wrap that in an important caveat: i&amp;rsquo;m aiming atâ &lt;em&gt;admins&lt;/em&gt;. not developers. i&amp;rsquo;m not saying devs aren&amp;rsquo;t a great audience, but for this project i need to constrain my scope to just the admin audience. i&amp;rsquo;m also focused mainly on what the shell doesâ _natively,â _with only a few diversions into external or underlying technologies. those are fixed caveats for this project - no exceptions.&lt;br&gt;
+right now i&amp;quot;m kind of chunking the list into what i feel can be taught (by me) in 20-30 minutes, or a book chapter, or something like that. this isn&amp;rsquo;t necessarily how the material will be presented - this is just me organizing my thoughts so as to not miss important stuff.&lt;br&gt;
+so, given the list below, what do you feel is missing?&lt;br&gt;
+(numbers are major topics; letters are basically my mental notes about what the topic might include that i might otherwise forget; like i said, this isn&amp;rsquo;t meant to be a real book outline - it&amp;rsquo;s just a topic list)&lt;br&gt;
+powershell core&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 6, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Training
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-08-06-is-this-list-everything-in-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Is this list &#34;Everything&#34; in PowerShell?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Soooo&hellip;. it&rsquo;s time for me to start looking at updating my various training materials (books, videos, courses, whatnot) for v4.<br>
+I&rsquo;m going to, with at least some of these, take an all-versions approach. I&rsquo;ll teach what&rsquo;s in v2, then cover what v3 added, then cover v4, etc. It&rsquo;ll be easier to maintain over the upcoming years.<br>
+For right now, I&rsquo;m trying to assemble an organized topic list of &ldquo;everything&rdquo; the shell does. Now, I need to wrap that in an important caveat: I&rsquo;m aiming atÂ <em>admins</em>. Not developers. I&rsquo;m not saying devs aren&rsquo;t a great audience, but for this project I need to constrain my scope to just the admin audience. I&rsquo;m also focused mainly on what the shell doesÂ _natively,Â _with only a few diversions into external or underlying technologies. Those are fixed caveats for this project - no exceptions.<br>
+Right now I&quot;m kind of chunking the list into what I feel can be taught (by me) in 20-30 minutes, or a book chapter, or something like that. This isn&rsquo;t necessarily how the material will be presented - this is just me organizing my thoughts so as to not miss important stuff.<br>
+So, given the list below, what do you feel is missing?<br>
+(Numbers are major topics; letters are basically my mental notes about what the topic might include that I might otherwise forget; like I said, this isn&rsquo;t meant to be a real book outline - it&rsquo;s just a topic list)<br>
+PowerShell Core</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-08-06-is-this-list-everything-in-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell great debate: script or function?" 
+                     data-content="&lt;p&gt;one of the most frequent comments in the scripting games this year was along the lines of, &amp;ldquo;you should have submitted this as a function, not a script.&amp;rdquo; of course, the second-most frequent comment was something like, &amp;ldquo;you shouldn&amp;rsquo;t have submitted this as a function.&amp;rdquo;&lt;br&gt;
+let&amp;rsquo;s be clear: if an assignment explicitly asks for a function, you should write one. what we&amp;rsquo;re debating are the pros and cons of aâ &lt;em&gt;single tool&lt;/em&gt; being written one way or another. read that again:â _a single tool.â _if you&amp;rsquo;re writing a library of tools, it&amp;rsquo;s obvious that writing them as functions for inclusion in a single file (like a script module) is beneficial.&lt;br&gt;
+some argue that any tool is potentially going to be included in a function&amp;hellip; so why not write it that way to begin with? others argue that functions are a smidge harder to test, so why not just write a script?&lt;br&gt;
+this is a debate i don&amp;rsquo;t personally have a strong stake in. i mean, we&amp;rsquo;re literally talking about aâ _single keyword.â _takeâ &lt;em&gt;any&lt;/em&gt; script, add theâ &lt;strong&gt;function&lt;/strong&gt; keyword, a function name, and a couple of curly brackets, and you&amp;rsquo;ve got a function. this really shouldn&amp;rsquo;t be a criteria when you&amp;rsquo;re looking at a contest entry&amp;hellip; or even when you&amp;rsquo;re looking at something a colleague offered to you.&lt;br&gt;
+or should it?&lt;br&gt;
+[boilerplate greatdebate]&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 6, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-08-06-powershell-great-debate-script-or-function/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Great Debate: Script or Function?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>One of the most frequent comments in The Scripting Games this year was along the lines of, &ldquo;you should have submitted this as a function, not a script.&rdquo; Of course, the second-most frequent comment was something like, &ldquo;you shouldn&rsquo;t have submitted this as a function.&rdquo;<br>
+Let&rsquo;s be clear: if an assignment explicitly asks for a function, you should write one. What we&rsquo;re debating are the pros and cons of aÂ <em>single tool</em> being written one way or another. Read that again:Â _a single tool.Â _If you&rsquo;re writing a library of tools, it&rsquo;s obvious that writing them as functions for inclusion in a single file (like a script module) is beneficial.<br>
+Some argue that any tool is potentially going to be included in a function&hellip; so why not write it that way to begin with? Others argue that functions are a smidge harder to test, so why not just write a script?<br>
+This is a debate I don&rsquo;t personally have a strong stake in. I mean, we&rsquo;re literally talking about aÂ _single keyword.Â _TakeÂ <em>any</em> script, add theÂ <strong>function</strong> keyword, a function name, and a couple of curly brackets, and you&rsquo;ve got a function. This really shouldn&rsquo;t be a criteria when you&rsquo;re looking at a contest entry&hellip; or even when you&rsquo;re looking at something a colleague offered to you.<br>
+Or should it?<br>
+[boilerplate greatdebate]</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-08-06-powershell-great-debate-script-or-function/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell great debate: powershell versions?" 
+                     data-content="&lt;p&gt;&lt;em&gt;today&amp;rsquo;s great debate is a bonus, offered from former team member june blender. take it away, june!&lt;/em&gt;&lt;br&gt;
+like several of the excellent debates in our great debate series, this debate issue arose during in scripting games 2013 when different judges used different selection criteria to evaluate entries.&lt;br&gt;
+some judges, like me, wanted to see evidence that the scripter had studied all features of the newest version of the windows powershell language and selected the best approach for their solution. other judges wanted the solutions to work on as many computers as possible.&lt;br&gt;
+outside of the scripting games, this issue is very practical and very important. if you&amp;quot;™re writing a script to work on particular computers in your enterprise, you know which versions of windows powershell are installed and which features you can use. but when you write a shared script or functions for a module, your scripts/functions can run in any environment.&lt;br&gt;
+what&amp;quot;™s the version best practice?&lt;br&gt;
+i think we can all agree that a #requires statement should appear in any shared script.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 1, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-08-01-powershell-great-debate-powershell-versions/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Great Debate: PowerShell Versions?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><em>Today&rsquo;s Great Debate is a bonus, offered from former team member June Blender. Take it away, June!</em><br>
+Like several of the excellent debates in our Great Debate series, this debate issue arose during in Scripting Games 2013 when different judges used different selection criteria to evaluate entries.<br>
+Some judges, like me, wanted to see evidence that the scripter had studied all features of the newest version of the Windows PowerShell language and selected the best approach for their solution. Other judges wanted the solutions to work on as many computers as possible.<br>
+Outside of the Scripting Games, this issue is very practical and very important. If you&quot;™re writing a script to work on particular computers in your enterprise, you know which versions of Windows PowerShell are installed and which features you can use. But when you write a shared script or functions for a module, your scripts/functions can run in any environment.<br>
+What&quot;™s the version best practice?<br>
+I think we can all agree that a #Requires statement should appear in any shared script.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-08-01-powershell-great-debate-powershell-versions/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell great debate: the purity laws" 
+                     data-content="&lt;p&gt;this should be interesting.&lt;br&gt;
+during the scripting games, i observed (and in some cases made) a great many comments that i&amp;rsquo;m lumping under the name &amp;ldquo;purity laws.&amp;rdquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;you shouldn&amp;rsquo;t use a command-line utility like robocopy in a powershell script.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you shouldn&amp;rsquo;t use .net classes in a powershell script.&lt;/li&gt;
+&lt;li&gt;you should map a drive using new-psdrive, notâ &lt;strong&gt;net use&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and so on. you see where i&amp;rsquo;m going: there are folks out there who feel as if the only thing that goes into a powershell script is pure powershell. which is odd, because it isn&amp;rsquo;t an approach the product team actually gave much value. they spentâ &lt;em&gt;extra time&lt;/em&gt; making sure the shell could use .net, and could run external utilities - why not use them, if they work and get the job done?&lt;br&gt;
+a counterargument involves maintenance and readability. external commands, for example, are harder to read, may not be well-documented, and don&amp;rsquo;t work consistently with the rest of powershell. .net classes are hard to discover, and force you into a very &amp;ldquo;programmer-y&amp;rdquo; approach. some environments might not want the extra overhead - even if it means giving up functionality.&lt;br&gt;
+so where do you come down on this debate? i&amp;rsquo;d really love someâ _detailed recommendations.â _what&amp;rsquo;s right forâ &lt;em&gt;your&lt;/em&gt; environment, and most importantlyâ _why?â _are there any facts or situations that would sway you to the other side of the argument?&lt;br&gt;
+go.&lt;br&gt;
+[boilerplate greatdebate]&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jul 30, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-07-30-powershell-great-debate-the-purity-laws/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Great Debate: The Purity Laws
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>This should be interesting.<br>
+During The Scripting Games, I observed (and in some cases made) a great many comments that I&rsquo;m lumping under the name &ldquo;Purity Laws.&rdquo;</p>
+<ul>
+<li></li>
+</ul>
+<p>You shouldn&rsquo;t use a command-line utility like Robocopy in a PowerShell script.</p>
+<ul>
+<li>You shouldn&rsquo;t use .NET classes in a PowerShell script.</li>
+<li>You should map a drive using New-PSDrive, notÂ <strong>net use</strong>.</li>
+</ul>
+<p>And so on. You see where I&rsquo;m going: there are folks out there who feel as if the only thing that goes into a PowerShell script is Pure PowerShell. Which is odd, because it isn&rsquo;t an approach the product team actually gave much value. They spentÂ <em>extra time</em> making sure the shell could use .NET, and could run external utilities - why not use them, if they work and get the job done?<br>
+A counterargument involves maintenance and readability. External commands, for example, are harder to read, may not be well-documented, and don&rsquo;t work consistently with the rest of PowerShell. .NET classes are hard to discover, and force you into a very &ldquo;programmer-y&rdquo; approach. Some environments might not want the extra overhead - even if it means giving up functionality.<br>
+So where do you come down on this debate? I&rsquo;d really love someÂ _detailed recommendations.Â _What&rsquo;s right forÂ <em>your</em> environment, and most importantlyÂ _why?Â _Are there any facts or situations that would sway you to the other side of the argument?<br>
+Go.<br>
+[boilerplate greatdebate]</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-07-30-powershell-great-debate-the-purity-laws/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="calling all powershell teachers/trainers" 
                      data-content="&lt;p&gt;i&amp;rsquo;m in the process of building a referral list for teachers and trainers who work with windows powershell. my goal is to build a &amp;ldquo;find a trainer&amp;rdquo; page here on powershell.org, with the ability for prospective clients to send an inquiry via email. this would be for customers seeking private classes, not for individual students seeking a class.&lt;br&gt;
 if you&amp;rsquo;d like to be on the list, please send me an email, or use the &amp;ldquo;contact&amp;rdquo; page under the &amp;ldquo;site info&amp;rdquo; menu here on powershell.org. please provide an email address that referrals can be sent to; you&amp;rsquo;d receive the potential client&amp;rsquo;s contact information directly and would work with them directly - i&amp;rsquo;m not looking to act s middleman or agent, and there are no referral fees. we won&amp;rsquo;t be providing pricing information or anything other than a means of connecting clients and trainers.&lt;br&gt;
@@ -439,7 +709,7 @@ you can also provide a link to your web site, if you have one, preferably a page
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-29-calling-all-powershell-teacherstrainers/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-29-calling-all-powershell-teacherstrainers/" class="hover:text-blue-600 transition-colors duration-200">
                             Calling all PowerShell Teachers/Trainers
                         </a>
                     </h2>
@@ -449,7 +719,7 @@ If you&rsquo;d like to be on the list, please send me an email, or use the &ldqu
 You can also provide a link to your Web site, if you have one, preferably a page that describes your PowerShell training offering(s).</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-29-calling-all-powershell-teacherstrainers/" 
+                        <a href="http://localhost:57259/articles/2013-07-29-calling-all-powershell-teacherstrainers/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -484,7 +754,7 @@ let&amp;rsquo;s be clear: this isâ &lt;em&gt;not&lt;/em&gt; a wish list. comme
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-23-powershell-great-debate-credentials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-23-powershell-great-debate-credentials/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Great Debate: Credentials
                         </a>
                     </h2>
@@ -496,7 +766,7 @@ Let&rsquo;s be clear: This isÂ <em>not</em> a wish list. Comments like, &ldquo
 [boilerplate greatdebate]</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-23-powershell-great-debate-credentials/" 
+                        <a href="http://localhost:57259/articles/2013-07-23-powershell-great-debate-credentials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -535,7 +805,7 @@ be on the lookout! i&amp;rsquo;m hoping to kick off in september or october. if 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-23-techsessions-free-powershell-webinars/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-23-techsessions-free-powershell-webinars/" class="hover:text-blue-600 transition-colors duration-200">
                             TechSessions: Free PowerShell Webinars
                         </a>
                     </h2>
@@ -547,7 +817,7 @@ I&rsquo;ll be soliciting presenters, and the goal is just to provide you with va
 Be on the lookout! I&rsquo;m hoping to kick off in September or October. If there are specific topics you&rsquo;d like to see, drop a comment below and let me know. I&rsquo;m sure potential presenters would love some suggestions, and I know I would.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-23-techsessions-free-powershell-webinars/" 
+                        <a href="http://localhost:57259/articles/2013-07-23-techsessions-free-powershell-webinars/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -607,7 +877,7 @@ the venue must provide appropriate meeting facilities. this means the venue must
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-16-powershell-summit-city-selection-criteria/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-16-powershell-summit-city-selection-criteria/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Summit City Selection Criteria
                         </a>
                     </h2>
@@ -640,7 +910,7 @@ Criterion 8: Appropriateness<br>
 The venue must provide appropriate meeting facilities. This means the venue must be able to accommodate the expected number of attendees in a comfortable and safe surrounding, and attendees must be able to access the venue without undue overhead (e.g., extensive security checks in an office building, etc.). In multi-track events, meeting rooms should be able to accommodate a 15-20% offset (e.g., in a 300-person event with 300 attendees, each room must be able to handle 120 attendees, to deal with the fact that some sessions will be more popular than others).</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-16-powershell-summit-city-selection-criteria/" 
+                        <a href="http://localhost:57259/articles/2013-07-16-powershell-summit-city-selection-criteria/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -697,7 +967,7 @@ anyway&amp;hellip; discuss!&lt;br&gt;
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-16-powershell-great-debate-piping-in-a-script/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-16-powershell-great-debate-piping-in-a-script/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Great Debate: Piping in a Script
                         </a>
                     </h2>
@@ -731,7 +1001,7 @@ Anyway&hellip; discuss!<br>
 [boilerplate greatdebate]</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-16-powershell-great-debate-piping-in-a-script/" 
+                        <a href="http://localhost:57259/articles/2013-07-16-powershell-great-debate-piping-in-a-script/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -793,7 +1063,7 @@ community discusses the differing techniques that the community used during the 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-15-phillyposh-07112013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-15-phillyposh-07112013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 07/11/2013 meeting summary and presentation materials
                         </a>
                     </h2>
@@ -832,201 +1102,7 @@ community discusses the differing techniques that the community used during the 
 </ol></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-15-phillyposh-07112013-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="working with the wsus api and the susdb database using powershell" 
-                     data-content="&lt;p&gt;tthe wsus api can be used to perform a multitude of wsus tasks from approving patches, removing clients to creating automatic approval rules to many other things. by diving deeper into the api reveals that we can also find out the name of the sql server (if using a remote sql database server) that the susdb database is residing on. beyond that, we can actually perform queries to the database (using tsql) or perform tasks against the database itself.&lt;br&gt;
-i&amp;rsquo;ve written a couple of articles hat focus on making the database connection via the wsus api and preform a simple query and then following up on that by performing some database maintenance by re-indexing and updating the statistics on the database tables.&lt;br&gt;
-&lt;a href=&#34;http://learn-powershell.net/2013/07/07/use-the-wsus-api-and-powershell-to-query-the-susdb-database/&#34;&gt;use the wsus api and powershell to query the susdb database&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://learn-powershell.net/2013/07/07/using-the-wsus-api-and-powershell-to-perform-maintenance-on-the-susdb-database/&#34;&gt;using the wsus api and powershell to perform maintenance on the susdb database&lt;/a&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 12, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Boe Prox</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" class="hover:text-blue-600 transition-colors duration-200">
-                            Working with the WSUS API and the SUSDB Database using PowerShell
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Tthe WSUS API can be used to perform a multitude of WSUS tasks from approving patches, removing clients to creating automatic approval rules to many other things. By diving deeper into the API reveals that we can also find out the name of the SQL server (if using a remote SQL database server) that the SUSDB database is residing on. Beyond that, we can actually perform queries to the database (using TSQL) or perform tasks against the database itself.<br>
-I&rsquo;ve written a couple of articles hat focus on making the database connection via the WSUS API and preform a simple query and then following up on that by performing some database maintenance by re-indexing and updating the statistics on the database tables.<br>
-<a href="http://learn-powershell.net/2013/07/07/use-the-wsus-api-and-powershell-to-query-the-susdb-database/">Use the WSUS API and PowerShell to query the SUSDB Database</a><br>
-<a href="http://learn-powershell.net/2013/07/07/using-the-wsus-api-and-powershell-to-perform-maintenance-on-the-susdb-database/">Using the WSUS API and PowerShell to Perform Maintenance on the SUSDB Database</a></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell summit… europe?!?!?" 
-                     data-content="&lt;p&gt;i have received a lot of interest in a powershell summit europe, and we are starting to look at doing one in 2014. i know that&amp;rsquo;s a long way off, but it takes time to put these together when everyone&amp;rsquo;s volunteering that time!&lt;br&gt;
-i have put together a very short survey to see if there is any consensus on where such an event might be held. the survey is &lt;a href=&#34;http://67004.polldaddy.com/s/powershell-summit-europe&#34;&gt;online now and ready for your opinions&lt;/a&gt;. please forward this to your colleagues and co-workers, as well - we would really like a variety of opinions. if you want to tweet about it, facebook it, or anything else to help us get a broad perspective, it would be much appreciated.&lt;br&gt;
-i must note that this event will be in english, as it is meant to be a pan-european event that involves as many different folks as possible. we are not attempting to hold a more regional, culture-specific event - some of those already exist (i&amp;rsquo;m aware of one in germany, for example), and they do a better job serving their local market (which can be quite large) than we could ever do. we are trying to fill a different need, which is more along the lines of a very miniature teched europe, which brings as many different folks together as possible. hopefully we will achieve that goal.&lt;br&gt;
-thank you for your time and input!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 11, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-11-powershell-summit-europe/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell Summit… EUROPE?!?!?
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I have received a lot of interest in a PowerShell Summit Europe, and we are starting to look at doing one in 2014. I know that&rsquo;s a long way off, but it takes time to put these together when everyone&rsquo;s volunteering that time!<br>
-I have put together a very short survey to see if there is any consensus on where such an event might be held. The survey is <a href="http://67004.polldaddy.com/s/powershell-summit-europe">online now and ready for your opinions</a>. Please forward this to your colleagues and co-workers, as well - we would really like a variety of opinions. If you want to tweet about it, Facebook it, or anything else to help us get a broad perspective, it would be much appreciated.<br>
-I must note that this event will be in English, as it is meant to be a pan-European event that involves as many different folks as possible. We are not attempting to hold a more regional, culture-specific event - some of those already exist (I&rsquo;m aware of one in Germany, for example), and they do a better job serving their local market (which can be quite large) than we could ever do. We are trying to fill a different need, which is more along the lines of a very miniature TechEd Europe, which brings as many different folks together as possible. Hopefully we will achieve that goal.<br>
-Thank you for your time and input!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-11-powershell-summit-europe/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell great debate: backticks" 
-                     data-content="&lt;p&gt;here&amp;rsquo;s an age-old debate that we can finally, perhaps, put an end to: the backtick character for line continuation.&lt;br&gt;
-the basic concept looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;get-wmiobject -class win32_bios &lt;/code&gt;
--computername whatever &lt;code&gt;-filter &amp;quot;something=&#39;else&#39;&amp;quot;&lt;/code&gt;this trick relies on the fact that the backtick (grave accent) is powershell&amp;rsquo;s escape character. in this case, it&amp;rsquo;s escaping the carriage return, turning it from a logical end-of-line marker into a literal carriage return. it makes commands with a lot of parameters easier to read, since you can line up the parameters as i&amp;rsquo;ve done.&lt;br&gt;
-my personal beefs with this:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 10, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-10-powershell-great-debate-backticks/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell Great Debate: Backticks
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Here&rsquo;s an age-old debate that we can finally, perhaps, put an end to: The backtick character for line continuation.<br>
-The basic concept looks like this:</p>
-<p><code>Get-WmiObject -Class Win32_BIOS </code>
--ComputerName whatever <code>-Filter &quot;something='else'&quot;</code>This trick relies on the fact that the backtick (grave accent) is PowerShell&rsquo;s escape character. In this case, it&rsquo;s escaping the carriage return, turning it from a logical end-of-line marker into a literal carriage return. It makes commands with a lot of parameters easier to read, since you can line up the parameters as I&rsquo;ve done.<br>
-My personal beefs with this:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-10-powershell-great-debate-backticks/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="would you contribute enterprise software reviews? [offtopic]" 
-                     data-content="&lt;p&gt;i&amp;rsquo;ve been working with a couple of folks lately who&amp;rsquo;ve been trying to review and pilot active directory auditing solutions. both bemoaned the fact that, unlike consumer products of nearly any kind, it products (specifically, enterprise software in this instance), don&amp;rsquo;t really get reviews from the admins who use those products.&lt;br&gt;
-so, i&amp;rsquo;m curious. if you could (a) anonymously, and (b) without giving your organization&amp;rsquo;s name, would you (c) leave reviews of enterprise software for other admins? you&amp;rsquo;d need to leave some obvious details, like the approximate size of your organization (number of users), what you expected the software to do, what it really did, what you liked, what you didn&amp;rsquo;t like, and so on.&lt;br&gt;
-such a site would be a lot better (i think) than magazine or &amp;ldquo;professional&amp;rdquo; reviews, since you&amp;rsquo;d be reading the experiences of people who actually use the stuff every day. yeah, as with any publicly-contributed content, review quality will vary - but you already know how to read between the lines, right? 😉&lt;br&gt;
-drop a comment, or even send a tweet to &lt;a href=&#34;http://twitter.com/concentrateddon&#34;&gt;@concentrateddon&lt;/a&gt; with &amp;ldquo;reviews: yes!&amp;rdquo; or &amp;ldquo;reviews: no!&amp;rdquo; comment. or if you prefer facebook, leave that comment &lt;a href=&#34;http://facebook.com/concentrateddon&#34;&gt;on my fb page&lt;/a&gt;. it sure seems like we it professionals could use something like this - it&amp;rsquo;d be a good place to start researching solutions to particular problems, and a good place to share some real-world intel on how different solutions really work. even if you don&amp;rsquo;t likeâ &lt;em&gt;writing&lt;/em&gt; reviews, would you use such a site as part of your research process?&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 9, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            News
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-09-would-you-contribute-enterprise-software-reviews-offtopic/" class="hover:text-blue-600 transition-colors duration-200">
-                            Would you contribute enterprise software reviews? [OFFTOPIC]
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;ve been working with a couple of folks lately who&rsquo;ve been trying to review and pilot Active Directory auditing solutions. Both bemoaned the fact that, unlike consumer products of nearly any kind, IT products (specifically, enterprise software in this instance), don&rsquo;t really get reviews from the admins who use those products.<br>
-So, I&rsquo;m curious. If you could (a) anonymously, and (b) without giving your organization&rsquo;s name, would you (c) leave reviews of enterprise software for other admins? You&rsquo;d need to leave some obvious details, like the approximate size of your organization (number of users), what you expected the software to do, what it really did, what you liked, what you didn&rsquo;t like, and so on.<br>
-Such a site would be a lot better (I think) than magazine or &ldquo;professional&rdquo; reviews, since you&rsquo;d be reading the experiences of people who actually use the stuff every day. Yeah, as with any publicly-contributed content, review quality will vary - but you already know how to read between the lines, right? 😉<br>
-Drop a comment, or even send a tweet to <a href="http://twitter.com/concentrateddon">@concentrateddon</a> with &ldquo;Reviews: YES!&rdquo; or &ldquo;Reviews: NO!&rdquo; comment. Or if you prefer Facebook, leave that comment <a href="http://facebook.com/concentrateddon">on my FB page</a>. It sure seems like we IT professionals could use something like this - it&rsquo;d be a good place to start researching solutions to particular problems, and a good place to share some real-world intel on how different solutions really work. Even if you don&rsquo;t likeÂ <em>writing</em> reviews, would you use such a site as part of your research process?</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-09-would-you-contribute-enterprise-software-reviews-offtopic/" 
+                        <a href="http://localhost:57259/articles/2013-07-15-phillyposh-07112013-meeting-summary-and-presentation-materials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1508,7 +1584,7 @@ Drop a comment, or even send a tweet to <a href="http://twitter.com/concentrated
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

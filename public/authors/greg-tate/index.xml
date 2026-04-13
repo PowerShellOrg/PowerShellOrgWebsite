@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greg Tate on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/greg-tate/</link>
+    <link>http://localhost:57259/authors/greg-tate/</link>
     <description>Recent content in Greg Tate on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Oct 2018 15:00:00 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/greg-tate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/greg-tate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ICYMI: PowerShell Week of 12-October-2018</title>
-      <link>https://powershell.org/articles/2018-10-12-icymi-powershell-week-of-12-october-2018/</link>
+      <link>http://localhost:57259/articles/2018-10-12-icymi-powershell-week-of-12-october-2018/</link>
       <pubDate>Fri, 12 Oct 2018 15:00:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-10-12-icymi-powershell-week-of-12-october-2018/</guid>
+      <guid>http://localhost:57259/articles/2018-10-12-icymi-powershell-week-of-12-october-2018/</guid>
       <description>&lt;p&gt;Topics include the Switch statement, Chocolatey Fest, Graph API, HTML disk reports, auditing Office 365 document sharing and Teams usage.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 5-October-2018</title>
-      <link>https://powershell.org/articles/2018-10-05-icymi-powershell-week-of-5-october-2018/</link>
+      <link>http://localhost:57259/articles/2018-10-05-icymi-powershell-week-of-5-october-2018/</link>
       <pubDate>Fri, 05 Oct 2018 15:00:38 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-10-05-icymi-powershell-week-of-5-october-2018/</guid>
+      <guid>http://localhost:57259/articles/2018-10-05-icymi-powershell-week-of-5-october-2018/</guid>
       <description>&lt;p&gt;Topics include the &lt;strong&gt;Az&lt;/strong&gt; module, PowerShell module design, PowerShell &amp;amp; Puppet, Hacktoberfest, SQL Server backups, and a PowerShell session from Ignite.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 28-September-18</title>
-      <link>https://powershell.org/articles/2018-09-28-icymi-powershell-week-of-28-september-18/</link>
+      <link>http://localhost:57259/articles/2018-09-28-icymi-powershell-week-of-28-september-18/</link>
       <pubDate>Fri, 28 Sep 2018 15:00:54 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-09-28-icymi-powershell-week-of-28-september-18/</guid>
+      <guid>http://localhost:57259/articles/2018-09-28-icymi-powershell-week-of-28-september-18/</guid>
       <description>&lt;p&gt;Topics include PowerShell Rest API on AWS Lamda, web applications in PowerShell, using PowerBI to show DB restores, input validation in functions, PowerShell command history, and the Unplugged session at Ignite with Jeffrey Snover and Jason Helmick.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 21-September-18</title>
-      <link>https://powershell.org/articles/2018-09-21-icymi-powershell-week-of-21-september-18/</link>
+      <link>http://localhost:57259/articles/2018-09-21-icymi-powershell-week-of-21-september-18/</link>
       <pubDate>Fri, 21 Sep 2018 15:00:35 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-09-21-icymi-powershell-week-of-21-september-18/</guid>
+      <guid>http://localhost:57259/articles/2018-09-21-icymi-powershell-week-of-21-september-18/</guid>
       <description>&lt;p&gt;Topics Azure Pipelines, PowerShell Core 6.1, PowerShell on Arch Linux, and the PSPowerHour.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 14-September-18</title>
-      <link>https://powershell.org/articles/2018-09-14-icymi-powershell-week-of-14-september-18/</link>
+      <link>http://localhost:57259/articles/2018-09-14-icymi-powershell-week-of-14-september-18/</link>
       <pubDate>Fri, 14 Sep 2018 15:00:10 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-09-14-icymi-powershell-week-of-14-september-18/</guid>
+      <guid>http://localhost:57259/articles/2018-09-14-icymi-powershell-week-of-14-september-18/</guid>
       <description>&lt;p&gt;Topics include log file notifications, checking uptime, AWS Lamda support for PowerShell Core, organizing code, and episode 3 of PowerHour!&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 7-September-18</title>
-      <link>https://powershell.org/articles/2018-09-07-icymi-powershell-week-of-7-september-18/</link>
+      <link>http://localhost:57259/articles/2018-09-07-icymi-powershell-week-of-7-september-18/</link>
       <pubDate>Fri, 07 Sep 2018 15:00:27 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-09-07-icymi-powershell-week-of-7-september-18/</guid>
+      <guid>http://localhost:57259/articles/2018-09-07-icymi-powershell-week-of-7-september-18/</guid>
       <description>&lt;p&gt;Topics include Azure Stack Infrastructure Backup, SharePoint Online Module Availability in PSGallery, Script for Updating Sysinternals Tools, Understanding While Loops, and the PowerShell Explorer module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 31-August-18</title>
-      <link>https://powershell.org/articles/2018-08-31-icymi-week-of-31-august-18/</link>
+      <link>http://localhost:57259/articles/2018-08-31-icymi-week-of-31-august-18/</link>
       <pubDate>Fri, 31 Aug 2018 15:00:03 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-08-31-icymi-week-of-31-august-18/</guid>
+      <guid>http://localhost:57259/articles/2018-08-31-icymi-week-of-31-august-18/</guid>
       <description>&lt;p&gt;Topics include automating ACLs for O365 public IPs, the Scour module, Module Design w/ Plaster, the ConvertToMarkdown module, and PSPowerHour.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 24-August-18</title>
-      <link>https://powershell.org/articles/2018-08-24-icymi-powershell-week-of-24-august-18/</link>
+      <link>http://localhost:57259/articles/2018-08-24-icymi-powershell-week-of-24-august-18/</link>
       <pubDate>Fri, 24 Aug 2018 15:00:47 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-08-24-icymi-powershell-week-of-24-august-18/</guid>
+      <guid>http://localhost:57259/articles/2018-08-24-icymi-powershell-week-of-24-august-18/</guid>
       <description>&lt;p&gt;Topics include script module design, PowerShell exploitation, PowerShell Remoting, PowerShell AST, the O365 Data Retriever tool, and the inaugural PSPowerHour.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ICYMI: PowerShell Week of 17-August-2018</title>
-      <link>https://powershell.org/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/</link>
+      <link>http://localhost:57259/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/</link>
       <pubDate>Fri, 17 Aug 2018 15:00:25 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/</guid>
+      <guid>http://localhost:57259/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/</guid>
       <description>&lt;p&gt;Topics include PowerBI cmdlets, auditing group changes, exporting module functions, and PowerShell phishing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What You Missed This Week in PowerShell! – August 10th, 2018</title>
-      <link>https://powershell.org/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/</link>
+      <link>http://localhost:57259/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/</link>
       <pubDate>Fri, 10 Aug 2018 15:00:12 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/</guid>
+      <guid>http://localhost:57259/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/</guid>
       <description>&lt;p&gt;Topics include Module Worst Practices, InjectionHunter, and The PowerShell Standard Library.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What You Missed This Week in PowerShell!</title>
-      <link>https://powershell.org/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/</link>
+      <link>http://localhost:57259/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/</link>
       <pubDate>Fri, 03 Aug 2018 15:00:44 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/</guid>
+      <guid>http://localhost:57259/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;Blogs&lt;/h2&gt;&#xA;&lt;h3 id=&#34;using-vsts-for-your-company&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180803.md#using-vsts-for-your-companys-private-powershell-library&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://medium.com/@jsrice7391/using-vsts-for-your-companys-private-powershell-library-e333b15d58c8&#34;&gt;&lt;em&gt;Using VSTS for Your Company&amp;rsquo;s Private PowerShell Library&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;by Justin Rice on July 28th&lt;br&gt;&#xA;Interested in sharing your collection of PowerShell tools for your team to use? First-time blogger Justin Rice walks you through publishing a PowerShell module to an internal PSRepository using VSTS.&lt;/p&gt;&#xA;&lt;h3 id=&#34;creating-a-function-or-script-with-powershell-dynamic-parameters&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180803.md#creating-a-function-or-script-with-powershell-dynamic-parameters&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://blogs.technet.microsoft.com/undocumentedfeatures/2018/07/30/creating-a-function-or-script-with-powershell-dynamic-parameters/&#34;&gt;&lt;em&gt;Creating a Function or Script with PowerShell Dynamic Parameters&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;By Aaron Guilmette on July 30th&lt;br&gt;&#xA;Learn how to create parameters with validation data that you can tab-complete prior to runtime. In this example Aaron uses a set of Skype numbers as potential values for a parameter to his function.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What You Missed This Week in PowerShell!</title>
-      <link>https://powershell.org/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/</link>
+      <link>http://localhost:57259/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/</link>
       <pubDate>Fri, 27 Jul 2018 15:00:19 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/</guid>
+      <guid>http://localhost:57259/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/</guid>
       <description>&lt;h2 id=&#34;blogs&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#blogs&#34;&gt;&lt;/a&gt;Blogs&lt;/h2&gt;&#xA;&lt;h3 id=&#34;powershell-core-now-available-as-a-snap-package&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#powershell-core-now-available-as-a-snap-package&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://blogs.msdn.microsoft.com/powershell/2018/07/20/powershell-core-now-available-as-a-snap-package/&#34;&gt;&lt;em&gt;PowerShell Core Now Available as a Snap Package&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;by The PowerShell Team on July 20th&lt;br&gt;&#xA;Oh, Snap! Core&amp;rsquo;s support matrix on Linux grows broader with the inclusion of a Snap Package to the line-up. Check out the PS team&amp;rsquo;s blog for details on what this means and how you can try it out.&lt;/p&gt;&#xA;&lt;h3 id=&#34;powershell-modules-in-azure-functions&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#powershell-modules-in-azure-functions&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://agazoth.github.io/blogpost/2018/07/22/Powershell-Modules-in-Azure-Fuctions.html&#34;&gt;&lt;em&gt;PowerShell Modules in Azure Functions&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;by Axel Bøg Andersen on July 22nd&lt;br&gt;&#xA;Hit a snag taking your modules to Azure Functions? Eliminate the hassle of using extra tools and learn how to load your modules directly to Azure Functions.&lt;/p&gt;</description>
     </item>
   </channel>

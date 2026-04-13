@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,186 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="who&#39;s your 2019 powershell community hero?" 
+                     data-content="&lt;p&gt;today we&amp;rsquo;re opening nominations for the 2019 powershell community heroes! we want to know about those in the community that are doing a wealth of good. have they written a fantastic script, or posted a blog series that has been exceptionally helpful? are they doing a mad amount of pull requests in a module or in powershell core? here is your opportunity to make sure they get the recognition they deserve!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 11, 2019</time>
+                            
+                            <span>•</span>
+                            <span>Will Anderson</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2019-03-11-whos-your-2019-powershell-community-hero/" class="hover:text-blue-600 transition-colors duration-200">
+                            Who&#39;s Your 2019 PowerShell Community Hero?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Today we&rsquo;re opening nominations for the 2019 PowerShell Community Heroes! We want to know about those in the community that are doing a wealth of good. Have they written a fantastic script, or posted a blog series that has been exceptionally helpful? Are they doing a mad amount of pull requests in a module or in PowerShell Core? Here is your opportunity to make sure they get the recognition they deserve!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2019-03-11-whos-your-2019-powershell-community-hero/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="icymi: powershell week of 8-march-2019" 
+                     data-content="&lt;p&gt;topics include the graph api, status pages, test-driven development, getting your google 2fa in the shell, and more.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 8, 2019</time>
+                            
+                            <span>•</span>
+                            <span>Mark Roloff</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2019-03-08-icymi-powershell-week-of-8-march-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                            ICYMI: PowerShell Week of 8-March-2019
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include the Graph API, status pages, test-driven development, getting your Google 2FA in the shell, and more.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2019-03-08-icymi-powershell-week-of-8-march-2019/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="icymi: powershell week of 1-march-2019" 
+                     data-content="&lt;p&gt;topics include more iron scripter, a trove of ad and o365 scripts, tons of rest api goodness, and some fundamental lessons from brisbane.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 1, 2019</time>
+                            
+                            <span>•</span>
+                            <span>Mark Roloff</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2019-03-01-icymi-powershell-week-of-1-march-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                            ICYMI: PowerShell Week of 1-March-2019
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include more Iron Scripter, a trove of AD and O365 scripts, tons of REST API goodness, and some fundamental lessons from Brisbane.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2019-03-01-icymi-powershell-week-of-1-march-2019/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="icymi: powershell week of 22-february-2019" 
+                     data-content="&lt;p&gt;topics include poshbot, jeadsc, azure pipelines, arrays and hashtables, and pester testing.&lt;/p&gt;
+&lt;p&gt;content curated by brett bunker, robin dadswell, and mark roloff.&lt;/p&gt;
+&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;writing-a-poshbot-plugin-to-display-topdesk-tickets-and-assets&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20190222.md#writing-a-poshbot-plugin-to-display-topdesk-tickets-and-assets&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://andrewpla.github.io/writing-a-poshbot-plugin/&#34;&gt;&lt;em&gt;writing a poshbot plugin to display topdesk tickets and assets&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;by andrew pla on february 16th&lt;/p&gt;
+&lt;p&gt;creating bots for teams or slack can make you more productive and save time by not having to swtich between applications. come let andrew show you how to create a bot for teams using poshbot.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 22, 2019</time>
+                            
+                            <span>•</span>
+                            <span>Brett</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2019-02-22-icymi-powershell-week-of-22-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                            ICYMI: PowerShell Week of 22-February-2019
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include PoshBot, JeaDsc, Azure Pipelines, Arrays and Hashtables, and Pester testing.</p>
+<p>Content curated by Brett Bunker, Robin Dadswell, and Mark Roloff.</p>
+<h3 class="wp-block-heading" id="writing-a-poshbot-plugin-to-display-topdesk-tickets-and-assets"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20190222.md#writing-a-poshbot-plugin-to-display-topdesk-tickets-and-assets"></a><a href="https://andrewpla.github.io/Writing-a-PoshBot-Plugin/"><em>Writing a PoshBot Plugin to Display TOPdesk Tickets and Assets</em></a></h3>
+<p>by Andrew Pla on February 16th</p>
+<p>Creating bots for Teams or Slack can make you more productive and save time by not having to swtich between applications. Come let Andrew show you how to create a bot for Teams using PoshBot.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2019-02-22-icymi-powershell-week-of-22-february-2019/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="icymi: powershell week of 15-february-2019" 
                      data-content="&lt;p&gt;topics include iron scripter, monitoring your filesystem, vscode goodness, and more.&lt;/p&gt;"
                      >
@@ -437,7 +667,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-15-icymi-powershell-week-of-15-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-15-icymi-powershell-week-of-15-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
                             ICYMI: PowerShell Week of 15-February-2019
                         </a>
                     </h2>
@@ -445,7 +675,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include Iron Scripter, monitoring your filesystem, VSCode goodness, and more.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-15-icymi-powershell-week-of-15-february-2019/" 
+                        <a href="http://localhost:57259/articles/2019-02-15-icymi-powershell-week-of-15-february-2019/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -483,7 +713,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-14-tips-for-writing-cross-platform-powershell-code/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-14-tips-for-writing-cross-platform-powershell-code/" class="hover:text-blue-600 transition-colors duration-200">
                             Tips for Writing Cross-Platform PowerShell Code
                         </a>
                     </h2>
@@ -494,7 +724,7 @@
 <p><code>PATH </code>, but not much else. Windows and MacOS both have variables for the temp directory, but they have different names.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-14-tips-for-writing-cross-platform-powershell-code/" 
+                        <a href="http://localhost:57259/articles/2019-02-14-tips-for-writing-cross-platform-powershell-code/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -531,7 +761,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-13-iron-scripter-2019-begins/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-13-iron-scripter-2019-begins/" class="hover:text-blue-600 transition-colors duration-200">
                             IRON SCRIPTER 2019 BEGINS!
                         </a>
                     </h2>
@@ -541,7 +771,7 @@
 <p>We suggest using tags #battlefaction, #daybreakfaction, and #flawlessfaction, and #ironscripter2019 to hook up with fellow coders on social media. Visit the main <a href="http://ironscripter.us">Iron Scripter</a> website to learn more.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-13-iron-scripter-2019-begins/" 
+                        <a href="http://localhost:57259/articles/2019-02-13-iron-scripter-2019-begins/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -576,7 +806,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-08-icymi-powershell-week-of-8-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-08-icymi-powershell-week-of-8-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
                             ICYMI: PowerShell Week of 8-February-2019
                         </a>
                     </h2>
@@ -584,7 +814,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include adrenaline for your AKS deployments, Azure Pipelines, Universal Dashboard, and more.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-08-icymi-powershell-week-of-8-february-2019/" 
+                        <a href="http://localhost:57259/articles/2019-02-08-icymi-powershell-week-of-8-february-2019/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -620,7 +850,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-07-summit-expansion-seeking-feedback/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-07-summit-expansion-seeking-feedback/" class="hover:text-blue-600 transition-colors duration-200">
                             Summit Expansion – Seeking Feedback
                         </a>
                     </h2>
@@ -629,7 +859,7 @@
 <p>One of the early goals of the Summit was to keep the event relatively small to provide a more intimate feel. In doing so, it allows attendees a chance to see familiar faces as they come back every year, and have a chance to interact with the speakers, staff, and members of the PowerShell team. As the event has grown, we&rsquo;ve been very careful to not lose that feel. So the question then is, what do we do in order to meet the demands of the community, and maintain that small event feel?</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-07-summit-expansion-seeking-feedback/" 
+                        <a href="http://localhost:57259/articles/2019-02-07-summit-expansion-seeking-feedback/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -671,7 +901,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-02-01-icymi-powershell-week-of-1-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2019-02-01-icymi-powershell-week-of-1-february-2019/" class="hover:text-blue-600 transition-colors duration-200">
                             ICYMI: PowerShell Week of 1-February-2019
                         </a>
                     </h2>
@@ -686,189 +916,7 @@
 <p>Part 3 in the series on parsing text with PowerShell. A nice wrap up to the series with some example uses.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-02-01-icymi-powershell-week-of-1-february-2019/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="icymi: powershell week of 25-january-2019" 
-                     data-content="&lt;p&gt;topics include sccm, dsc, an intro for people in infosec, sweet dashboards, and more.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 25, 2019</time>
-                            
-                            <span>•</span>
-                            <span>Mark Roloff</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-01-25-icymi-powershell-week-of-25-january-2019/" class="hover:text-blue-600 transition-colors duration-200">
-                            ICYMI: PowerShell Week of 25-January-2019
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include SCCM, DSC, an intro for people in infosec, sweet dashboards, and more.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-01-25-icymi-powershell-week-of-25-january-2019/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="icymi: week of 18-january-2018" 
-                     data-content="&lt;h1 id=&#34;icymi-powershell-week-of-18-january-2019&#34;&gt;icymi: powershell week of 18-january-2019&lt;/h1&gt;
-&lt;p&gt;topics include sql server errors, out verbs, out-grid in ps core, puzzles, drawing with powershell and more.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 18, 2019</time>
-                            
-                            <span>•</span>
-                            <span>Robin Dadswell</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-01-18-icymi-week-of-18-january-2018/" class="hover:text-blue-600 transition-colors duration-200">
-                            ICYMI: Week of 18-January-2018
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><h1 id="icymi-powershell-week-of-18-january-2019">ICYMI: PowerShell Week of 18-January-2019</h1>
-<p>Topics include SQL Server Errors, Out Verbs, Out-Grid in PS Core, Puzzles, Drawing with PowerShell and more.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-01-18-icymi-week-of-18-january-2018/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell &#43; devops global summit cancellation and waitlist procedure" 
-                     data-content="&lt;p&gt;as summit nears a record sellout (there are 30 tickets remaining as i write this) i want to review our cancellation and waitlist policies and procedures.&lt;br&gt;
-after we formally sell out, eventbrite will start accepting waitlist entries. use a personal email address that you check regularly; corporate email systems tend to eat the waitlist notifications as spam. if we&amp;rsquo;re able to offer a spot to the waitlist, it&amp;rsquo;ll happen during the week, usually in the morning (us time), and you&amp;rsquo;ll have 24 hours to respond by purchasing a ticket.&lt;br&gt;
-anyone with a ticket can transfer it to someone else. whoever did the registration needs to simply return to eventbrite and edit the attendee information. so if you can&amp;rsquo;t go, but someone else in your company can, that&amp;rsquo;s how you do that. you can also email summit@ for assistance. we let this happen until roughly mid-april, at which point we need to order name badges and we stop all transfers. we don&amp;rsquo;t do anything with hotel rooms; that&amp;rsquo;s all on you.&lt;br&gt;
-if you need to cancel, e-mail summit@ with your name, email address, and eventbrite order number. we will release a ticket to the waitlist. they will have 24 hours to complete the purchase of their ticket. if they don&amp;rsquo;t, we&amp;rsquo;ll release the next waitlist entry, and so on. if someone eventually buys a ticket, we&amp;rsquo;ll refund yours. again, we don&amp;rsquo;t do anything with hotel rooms.&lt;br&gt;
-sometime in mid-april, all of this stops, as we have to start ordering stuff based on current registrations.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 17, 2019</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell Summit
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-01-17-powershell-devops-global-summit-cancellation-and-waitlist-procedure/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell &#43; DevOps Global Summit Cancellation and Waitlist Procedure
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As Summit nears a record sellout (there are 30 tickets remaining as I write this) I want to review our cancellation and waitlist policies and procedures.<br>
-After we formally sell out, Eventbrite will start accepting waitlist entries. Use a personal email address that you check regularly; corporate email systems tend to eat the waitlist notifications as spam. If we&rsquo;re able to offer a spot to the waitlist, it&rsquo;ll happen during the week, usually in the morning (US time), and you&rsquo;ll have 24 hours to respond by purchasing a ticket.<br>
-Anyone with a ticket can transfer it to someone else. Whoever did the registration needs to simply return to Eventbrite and edit the attendee information. So if you can&rsquo;t go, but someone else in your company can, that&rsquo;s how you do that. You can also email summit@ for assistance. We let this happen until roughly mid-April, at which point we need to order name badges and we stop all transfers. We don&rsquo;t do anything with hotel rooms; that&rsquo;s all on you.<br>
-If you need to cancel, e-mail summit@ with your name, email address, and Eventbrite order number. We will release a ticket to the waitlist. They will have 24 hours to complete the purchase of their ticket. If they don&rsquo;t, we&rsquo;ll release the next waitlist entry, and so on. If someone eventually buys a ticket, we&rsquo;ll refund yours. Again, we don&rsquo;t do anything with hotel rooms.<br>
-Sometime in mid-April, all of this stops, as we have to start ordering stuff based on current registrations.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-01-17-powershell-devops-global-summit-cancellation-and-waitlist-procedure/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="icymi: powershell week of 11-january-2019" 
-                     data-content="&lt;p&gt;topics include posting to teams, creating bootable usbs, fun with paths, and a new module for dyn managed dns.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 11, 2019</time>
-                            
-                            <span>•</span>
-                            <span>Mark Roloff</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2019-01-11-icymi-powershell-week-of-11-january-2019/" class="hover:text-blue-600 transition-colors duration-200">
-                            ICYMI: PowerShell Week of 11-January-2019
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include posting to Teams, creating bootable USBs, fun with paths, and a new module for Dyn managed DNS.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2019-01-11-icymi-powershell-week-of-11-january-2019/" 
+                        <a href="http://localhost:57259/articles/2019-02-01-icymi-powershell-week-of-1-february-2019/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1350,7 +1398,7 @@ Sometime in mid-April, all of this stops, as we have to start ordering stuff bas
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

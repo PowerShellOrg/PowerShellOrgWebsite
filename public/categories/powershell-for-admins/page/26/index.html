@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,198 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="template based parsing and progress bars" 
+                     data-content="&lt;p&gt;working with wifi i have often needed to do a survey of the surroundings, and therefor i loved that windows 7 (maybe even vista) introduced more advanced netsh with wifi support.&lt;/p&gt;
+&lt;p&gt;there’s a lot of useful information but it might be nice to have a more graphical overview. the thing is that a text blob like this is not very handy to work with.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/08/image1.png&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2015/08/image1.png&#34; alt=&#34;image1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;some time late last year i heard a guy from the powershell team on the powerscripting podcast talk about convertfrom-string and the new template based parsing. and it occurred to me that you can combine this with a simple powershell progress bar (write-progress) to give a visual representation of signal strength.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 12, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Jonas Sommer Nielsen</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-08-12-template-based-parsing-and-progress-bars/" class="hover:text-blue-600 transition-colors duration-200">
+                            Template based parsing and progress bars
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Working with wifi I have often needed to do a survey of the surroundings, and therefor I loved that windows 7 (maybe even Vista) introduced more advanced netsh with wifi support.</p>
+<p>There’s a lot of useful information but it might be nice to have a more graphical overview. The thing is that a text blob like this is not very handy to work with.</p>
+<p><a href="https://powershell.org/wp-content/uploads/2015/08/image1.png"><img src="https://powershell.org/wp-content/uploads/2015/08/image1.png" alt="image1"></a></p>
+<p>Some time late last year I heard a guy from the powershell team on the Powerscripting podcast talk about ConvertFrom-String and the new template based parsing. And it occurred to me that you can combine this with a simple powershell progress bar (write-progress) to give a visual representation of signal strength.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-08-12-template-based-parsing-and-progress-bars/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="continuous integration, continuous delivery, and psdeploy" 
+                     data-content="&lt;p&gt;are you starting to use version control at work? are you being pestered by fellow powershell aficionados to start learning version control? did you catch the powershell.org &lt;a href=&#34;https://powershell.org/event/techsession-a-crash-course-in-version-control-and-git/&#34;&gt;crash course in version control&lt;/a&gt; and pick up some git and github experience? shameless plug, sorry : )&lt;/p&gt;
+&lt;p&gt;version control is just the start. what if we want to automate testing? to deploy our files, folders, and other artifacts out to production or other environments? version control alone offers some nice benefits, but without these extra steps, it might introduce some pain points!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 8, 2015</time>
+                            
+                            <span>•</span>
+                            <span>pscookiemonster</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-08-08-continuous-integration-continuous-delivery-and-psdeploy/" class="hover:text-blue-600 transition-colors duration-200">
+                            Continuous Integration, Continuous Delivery, and PSDeploy
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Are you starting to use version control at work? Are you being pestered by fellow PowerShell aficionados to start learning version control? Did you catch the PowerShell.org <a href="https://powershell.org/event/techsession-a-crash-course-in-version-control-and-git/">Crash Course in Version Control</a> and pick up some Git and GitHub experience? Shameless plug, sorry : )</p>
+<p>Version control is just the start. What if we want to automate testing? To deploy our files, folders, and other artifacts out to production or other environments? Version control alone offers some nice benefits, but without these extra steps, it might introduce some pain points!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-08-08-continuous-integration-continuous-delivery-and-psdeploy/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="what are variables anyway…" 
+                     data-content="&lt;p&gt;fellow admins.&lt;/p&gt;
+&lt;p&gt;a quick chat if you&amp;rsquo;re new to variables.&lt;/p&gt;
+&lt;p&gt;so if you&amp;rsquo;re like me and don&amp;rsquo;t know any other programing/scripting language then all this powershell stuff is a bit daunting. so to help, this articles is on
+powershell variables. the thing is that variables in powershell are very important. i&amp;rsquo;m assuming you know what a cmdlet is? the very basic underlying tools that make powershell work. they are like powershell building blocks or bricks in a powershell wall. for example, get-aduser gets a list of all the users in ad and includes a few details like sid, name and distinguished name. so that little cmdlet gets all that information, and more once you learn to manipulate it. if cmdlets are the bricks then variables are the mortar. they hold all this information you have gathered together and let you save and pick and choose what you want.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 7, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Stephen Moore</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-08-07-what-are-variables-anyway/" class="hover:text-blue-600 transition-colors duration-200">
+                            What are variables anyway…
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Fellow Admins.</p>
+<p>A quick chat if you&rsquo;re new to variables.</p>
+<p>So if you&rsquo;re like me and don&rsquo;t know any other programing/scripting language then all this PowerShell stuff is a bit daunting. So to help, this articles is on
+PowerShell Variables. The thing is that Variables in PowerShell are very important. I&rsquo;m assuming you know what a cmdlet is? The very basic underlying tools that make powershell work. They are like powershell building blocks or bricks in a PowerShell wall. For example, get-aduser gets a list of all the users in AD and includes a few details like SID, name and distinguished name. So that little cmdlet gets all that information, and more once you learn to manipulate it. If cmdlets are the bricks then Variables are the mortar. They hold all this information you have gathered together and let you save and pick and choose what you want.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-08-07-what-are-variables-anyway/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="introduction to powershell" 
+                     data-content="&lt;p&gt;hi guys,&lt;/p&gt;
+&lt;p&gt;i&amp;rsquo;m going to have a powershell ramble on a semi regular basis. what prompts me to write here on powershell.org is that i love powershell. i makes my job so much better. i&amp;rsquo;m an it pro and work for a large ish world spanning company. i mostly work with windows servers but get to work with other technology too. like vmware and citrix for example. the other thing i want to point out is that i&amp;rsquo;m not a programer. i don&amp;rsquo;t know vb script and no one taught me
+powershell
+. there are many people though that helped me on my powershell journey through their books, blogs, postings, and videos. &lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jul 31, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Stephen Moore</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-07-31-introduction-to-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Introduction to Powershell
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Hi Guys,</p>
+<p>I&rsquo;m going to have a PowerShell ramble on a semi regular basis. What prompts me to write here on powershell.org is that I love powershell. I makes my job so much better. I&rsquo;m an IT Pro and work for a large ish world spanning company. I mostly work with windows servers but get to work with other technology too. Like VMware and Citrix for example. The other thing I want to point out is that I&rsquo;m not a programer. I don&rsquo;t know VB Script and no one taught me
+PowerShell
+. There are many people though that helped me on my PowerShell Journey through their books, blogs, postings, and videos. </p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-07-31-introduction-to-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="powershell is for the desktop tech as well" 
                      data-content="&lt;p&gt;every day some one tends to ask me if there is a simpler way to do task a or b, and the minute i mention powershell the response is almost always the same, &amp;ldquo;yea i have been meaning to learn that but. this really saddens me for 2 reasons, &lt;/p&gt;
 &lt;ol&gt;
@@ -447,7 +689,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-07-28-powershell-is-for-the-desktop-tech-as-well/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-07-28-powershell-is-for-the-desktop-tech-as-well/" class="hover:text-blue-600 transition-colors duration-200">
                             Powershell IS for the desktop tech as well
                         </a>
                     </h2>
@@ -460,7 +702,7 @@
 <p>It saddens me even more so when I see co-workers who i have taken the time to write the scripts to improve the speed of resolution not use them either. then wounder why i am able to fix the same issue in a fraction of the time they have. </p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-07-28-powershell-is-for-the-desktop-tech-as-well/" 
+                        <a href="http://localhost:57259/articles/2015-07-28-powershell-is-for-the-desktop-tech-as-well/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -497,7 +739,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/" class="hover:text-blue-600 transition-colors duration-200">
                             Building a test lab : The basics Part 1 RootCA
                         </a>
                     </h2>
@@ -507,7 +749,7 @@
 <p>I would welcome some feedback on both my methods and writing style.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/" 
+                        <a href="http://localhost:57259/articles/2015-07-15-building-a-test-lab-the-basics-part-1-rootca/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -544,7 +786,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-07-07-rabbitmq-and-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-07-07-rabbitmq-and-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                             RabbitMQ and PowerShell
                         </a>
                     </h2>
@@ -554,7 +796,7 @@
 <p>Wrote a quick hit on setting up a simple RabbitMQ deployment and using PowerShell to manage the solution and send and receive messages. Thanks go to Mariusz Wojcik and Chris Duck for writing and sharing the PowerShell modules that were tweaked for this article.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-07-07-rabbitmq-and-powershell/" 
+                        <a href="http://localhost:57259/articles/2015-07-07-rabbitmq-and-powershell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -596,7 +838,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-22-decorating-powershell-objects/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-06-22-decorating-powershell-objects/" class="hover:text-blue-600 transition-colors duration-200">
                             Decorating PowerShell Objects
                         </a>
                     </h2>
@@ -611,7 +853,7 @@
 <p>Stop by for <a href="http://bit.ly/DecoratePSObjects">a quick hit on how to decorate your PowerShell objects</a> with type names and formatting, including a re-usable tool to abstract out some of the details.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-22-decorating-powershell-objects/" 
+                        <a href="http://localhost:57259/articles/2015-06-22-decorating-powershell-objects/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -647,7 +889,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-19-walkthrough-an-example-of-how-i-write-powershell-functions/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-06-19-walkthrough-an-example-of-how-i-write-powershell-functions/" class="hover:text-blue-600 transition-colors duration-200">
                             Walkthrough: An example of how I write PowerShell functions
                         </a>
                     </h2>
@@ -656,7 +898,7 @@
 <p>It starts out by using the <a href="https://technet.microsoft.com/en-us/library/hh847765.aspx">#Requires</a> statement to require at least PowerShell version 3 or it won&rsquo;t run. It also requires that the <a href="https://pscx.codeplex.com/">PowerShell Community Extensions</a> module be installed since it uses a function from that module and continuing without it only leads to errors:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-19-walkthrough-an-example-of-how-i-write-powershell-functions/" 
+                        <a href="http://localhost:57259/articles/2015-06-19-walkthrough-an-example-of-how-i-write-powershell-functions/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -691,7 +933,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-09-why-remoting-vs-ssh-isnt-even-a-thing/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-06-09-why-remoting-vs-ssh-isnt-even-a-thing/" class="hover:text-blue-600 transition-colors duration-200">
                             Why Remoting vs. SSH Isn&#39;t Even a Thing
                         </a>
                     </h2>
@@ -699,185 +941,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>As you&rsquo;ve probably read, Microsoft <a href="http://blogs.msdn.com/b/powershell/archive/2015/06/03/looking-forward-microsoft-support-for-secure-shell-ssh.aspx">recently announced</a> that they&rsquo;re getting on board with <a href="http://en.wikipedia.org/wiki/Secure_Shell">SSH</a>, and that they&rsquo;ve plans to, in some future-and-unspecified version of Windows, include a default SSH server and client. Some folks have taken to the Twittersphere rejoicing this decision, even though I suspect they&rsquo;ve no idea why Microsoft is doing it. Others have suggested that this is the downfall of Remoting (management via <a href="http://en.wikipedia.org/wiki/WS-Management">WS-MAN</a>), because who would want that when you&rsquo;ve got SSH?</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-09-why-remoting-vs-ssh-isnt-even-a-thing/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="trust, but verify" 
-                     data-content="&lt;p&gt;the powershell code you write can turn up in interesting places. production services might rely on it. your co-workers might take a peak and borrow ideas from it. you might decide to share it online. someone might see your code online and use it in their own solutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://ramblingcookiemonster.github.io/trust-but-verify/&#34;&gt;hit the link&lt;/a&gt; for a quick bit on how we can help create more reliable, consistent, and secure solutions. simplified to one line: always ask yourself &amp;ldquo;what could go wrong?&amp;rdquo;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 9, 2015</time>
-                            
-                            <span>•</span>
-                            <span>pscookiemonster</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-08-trust-but-verify/" class="hover:text-blue-600 transition-colors duration-200">
-                            Trust, but Verify
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The PowerShell code you write can turn up in interesting places. Production services might rely on it. Your co-workers might take a peak and borrow ideas from it. You might decide to share it online. Someone might see your code online and use it in their own solutions.</p>
-<p><a href="http://ramblingcookiemonster.github.io/Trust-but-Verify/">Hit the link</a> for a quick bit on how we can help create more reliable, consistent, and secure solutions. Simplified to one line: always ask yourself &ldquo;what could go wrong?&rdquo;</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-08-trust-but-verify/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="don&#39;t start learning powershell?!?!?" 
-                     data-content="&lt;p&gt;jason helmick and i were recently up in redmond recording a microsoft virtual academy series entitled, &amp;ldquo;building your datacenter one dsc resource at a time.&amp;rdquo; while we were there, we decided to film a tongue-in-cheek promo for the series that started with the premise that, &amp;ldquo;if you haven&amp;rsquo;t already learned powershell, you missed the bus.&amp;rdquo; obviously, there&amp;rsquo;s a bit more to the story.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 7, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-07-dont-start-learning-powershell/" class="hover:text-blue-600 transition-colors duration-200">
-                            DON&#39;T Start Learning PowerShell?!?!?
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Jason Helmick and I were recently up in Redmond recording a Microsoft Virtual Academy series entitled, &ldquo;Building Your Datacenter One DSC Resource at a Time.&rdquo; While we were there, we decided to film a tongue-in-cheek promo for the series that started with the premise that, &ldquo;if you haven&rsquo;t already learned PowerShell, you missed the bus.&rdquo; Obviously, there&rsquo;s a bit more to the story.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-07-dont-start-learning-powershell/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="creating a small footprint, base image part 4 | bringing it all together with automation" 
-                     data-content="&lt;p&gt;in this entry i combing all i covered into a set of scripts to automate the process of creating a small footprint vhdx base image and a wim to use a sorce that is fully patched. and i added a script to update the files on a regular basis.&lt;br&gt;
-check it out and let me know what you think.&lt;br&gt;
-&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/06/05/creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/&#34;&gt;creating a small footprint, base image part 4 | bringing it all together with automation&lt;/a&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 5, 2015</time>
-                            
-                            <span>•</span>
-                            <span>David Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/" class="hover:text-blue-600 transition-colors duration-200">
-                            Creating a small footprint, base image Part 4 | Bringing it all together with automation
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In this entry I combing all I covered into a set of scripts to automate the process of creating a small footprint VHDX base image and a WIM to use a sorce that is fully patched. And I added a script to update the files on a regular basis.<br>
-Check it out and let me know what you think.<br>
-<a href="https://bladefirelight.wordpress.com/2015/06/05/creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/">Creating a small footprint, base image Part 4 | Bringing it all together with automation</a></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="major changes to dsc pull server configuration ids" 
-                     data-content="&lt;p&gt;configuration ids - globally unique identifiers, or guids, that dsc nodes use to identify themselves to a pull server - have always been a limiting factor in dsc design and architecture. in the april 2015 preview of wmf5, however, microsoft has completely overhauled configuration ids. if you&amp;rsquo;re working with dsc, this is must-have information.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 2, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-06-02-major-changes-to-dsc-pull-server-configuration-ids/" class="hover:text-blue-600 transition-colors duration-200">
-                            Major Changes to DSC Pull Server Configuration IDs
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Configuration IDs - Globally Unique Identifiers, or GUIDs, that DSC nodes use to identify themselves to a pull server - have always been a limiting factor in DSC design and architecture. In the April 2015 preview of WMF5, however, Microsoft has completely overhauled Configuration IDs. If you&rsquo;re working with DSC, this is must-have information.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-06-02-major-changes-to-dsc-pull-server-configuration-ids/" 
+                        <a href="http://localhost:57259/articles/2015-06-09-why-remoting-vs-ssh-isnt-even-a-thing/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1152,7 +1216,7 @@ Check it out and let me know what you think.<br>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I255d on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/i255d/</link>
+    <link>http://localhost:57259/authors/i255d/</link>
     <description>Recent content in I255d on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 02:32:52 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/i255d/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/i255d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scripting Games May 2016 AD Puzzle</title>
-      <link>https://powershell.org/articles/2016-04-26-scripting-games-may-2016-ad-puzzle/</link>
+      <link>http://localhost:57259/articles/2016-04-26-scripting-games-may-2016-ad-puzzle/</link>
       <pubDate>Wed, 27 Apr 2016 02:32:52 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-04-26-scripting-games-may-2016-ad-puzzle/</guid>
+      <guid>http://localhost:57259/articles/2016-04-26-scripting-games-may-2016-ad-puzzle/</guid>
       <description>&lt;p&gt;I love working in AD (Active Directory) with PowerShell. I find that I have had to really dig in to learn some of the syntax nuances that you need to understand to really mine data and change configurations within Active Directory. This puzzle reflects the kind of situation that people have to deal with in PowerShell everyday. I am interested to see what kinds of approaches each of you will take, this is a real chance to learn more of the diversity of methods that can be used in Active Directory with PowerShell.&lt;br&gt;&#xA;This month Bartek Bielawski has submitted two puzzles, I am going to post the beginner to medium one first and then the advanced one next month. This is going to be a real learning opportunity. Keep the puzzles coming in, Mike F. Robbinson has submitted one recently too, so you can look forward to that in a couple of months.&lt;br&gt;&#xA;Here we go:&lt;br&gt;&#xA;During an internal IT audit of rights on your file server it was discovered that certain group had rights to the share used by finance and HR with sensitive data and the main question is: who was able to access these files because of that. When it happens you are attending a conference (surprise, surprise) and can’t really do anything remotely. That doesn’t stop your boss from calling you and asking for help. All she wants is a list of all users that are members of that group. The problem is that this group suffers from snow-ball effect and has multiple nested groups, that contain nested groups, that contain nested…&lt;br&gt;&#xA;You respond with “use Get-ADGroupMember -Recursive” but your boss complains, that when she tried to use it, she just got some red text on her screen with information, that common delete is not recognized. You roll your eyes and eventually decide to write a short script and send it over e-mail. Luckily, you have sandbox domain controller running on your laptop, so testing your code is not that difficult. As you are in the middle of an interesting talk, you try to make it as simple and minimalistic as possible. You also decide not to try any other tools that require something to be installed on a computer running the code. One call from the boss is enough.&lt;br&gt;&#xA;Design goals:&lt;/p&gt;</description>
     </item>
   </channel>

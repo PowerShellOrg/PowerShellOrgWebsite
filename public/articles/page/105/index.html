@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,178 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="adam driscoll talks about powershell and powerguiâ® on .net rocks!" 
+                     data-content="&lt;p&gt;recently adam driscoll of &lt;a href=&#34;http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/&#34;&gt;powergui vsx&lt;/a&gt; fame was a guest on the &lt;a href=&#34;http://www.dotnetrocks.com/&#34;&gt;.net rocks!&lt;/a&gt; podcast show, chatting with carl and richard about his tfs plugin for android, powershell, &lt;a href=&#34;http://www.powergui.org/&#34;&gt;powergui&lt;/a&gt;, and &lt;a href=&#34;http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/&#34;&gt;powergui vsx&lt;/a&gt;.  today that show was made available for download, so head on over to the &lt;a href=&#34;http://www.dotnetrocks.com/&#34;&gt;.net rocks!&lt;/a&gt; page listen to adam, carl and richard in &lt;a href=&#34;http://www.dotnetrocks.com/default.aspx?shownum=647&#34;&gt;episode 647 of .net rocks!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;enjoy!&lt;/p&gt;
+&lt;p&gt;kirk out.&lt;/p&gt;
+&lt;p&gt;technorati tags: &lt;a href=&#34;http://technorati.com/tags/powershell&#34;&gt;powershell&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/posh&#34;&gt;posh&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/poshoholic&#34;&gt;poshoholic&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/powergui&#34;&gt;powergui&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/powergui&#43;vsx&#34;&gt;powergui vsx&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/podcast&#34;&gt;podcast&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/kirkmunro.wordpress.com/520/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/kirkmunro.wordpress.com/520/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=poshoholic.com&amp;amp;blog=1436967&amp;amp;%23038;post=520&amp;amp;%23038;subd=kirkmunro&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 22, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Kirk Munro</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/" class="hover:text-blue-600 transition-colors duration-200">
+                            Adam Driscoll talks about PowerShell and PowerGUIÂ® on .NET Rocks!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Recently Adam Driscoll of <a href="http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/">PowerGUI VSX</a> fame was a guest on the <a href="http://www.dotnetrocks.com/">.NET Rocks!</a> podcast show, chatting with Carl and Richard about his TFS plugin for Android, PowerShell, <a href="http://www.powergui.org/">PowerGUI</a>, and <a href="http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/">PowerGUI VSX</a>.  Today that show was made available for download, so head on over to the <a href="http://www.dotnetrocks.com/">.NET Rocks!</a> page listen to Adam, Carl and Richard in <a href="http://www.dotnetrocks.com/default.aspx?showNum=647">Episode 647 of .NET Rocks!</a></p>
+<p>Enjoy!</p>
+<p>Kirk out.</p>
+<p>Technorati Tags: <a href="http://technorati.com/tags/PowerShell">PowerShell</a>,<a href="http://technorati.com/tags/PoSh">PoSh</a>,<a href="http://technorati.com/tags/Poshoholic">Poshoholic</a>,<a href="http://technorati.com/tags/PowerGUI">PowerGUI</a>,<a href="http://technorati.com/tags/PowerGUI+VSX">PowerGUI VSX</a>,<a href="http://technorati.com/tags/podcast">podcast</a></p>
+<p><a href="http://feeds.wordpress.com/1.0/gocomments/kirkmunro.wordpress.com/520/"><img src="http://feeds.wordpress.com/1.0/comments/kirkmunro.wordpress.com/520/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=poshoholic.com&amp;blog=1436967&amp;%23038;post=520&amp;%23038;subd=kirkmunro&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powerguiâ® spring 2011 desktop wallpaper" 
+                     data-content="&lt;p&gt;spring is here already, and even though it doesn&amp;quot;™t seem like it&amp;quot;™s spring everywhere just yet (it has been snowing most of the day here in ottawa), with the change in seasons comes a change in desktop wallpaper.â  the spring 2011 wallpaper for &lt;a href=&#34;http://www.powerguipro.com/&#34;&gt;powergui pro&lt;/a&gt; and &lt;a href=&#34;http://www.powergui.org/&#34;&gt;powergui&lt;/a&gt; is now available:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.powergui.org/servlet/kbservlet/download/3402-102-5388/1920x1200.jpg&#34;&gt;&lt;img src=&#34;http://www.powergui.org/servlet/kbservlet/downloadimage/3402-102-425/thumbnail.jpg&#34; alt=&#34;powergui spring 2011 wallpaper thumbnail&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;to download this wallpaper, simply visit the &lt;a href=&#34;http://powergui.org/downloads.jspa&#34;&gt;powergui downloads page&lt;/a&gt; and scroll down to see all of the sizes and varieties that are available.â  we have fall wallpaper there as well for our friends in the southern hemisphere.â  as always, all of our wallpaper images are stored in the &lt;a href=&#34;http://www.powergui.org/kbcategory.jspa?categoryid=393&#34;&gt;wallpaper folder&lt;/a&gt; on &lt;a href=&#34;http://www.powergui.org/&#34;&gt;powergui.org&lt;/a&gt;, so if you want to use one from a previous year or a different season or holiday, take a look around&amp;quot;¦there are currently 27 different varieties to choose from.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 21, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Kirk Munro</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerGUIÂ® Spring 2011 Desktop Wallpaper
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Spring is here already, and even though it doesn&quot;™t seem like it&quot;™s Spring everywhere just yet (it has been snowing most of the day here in Ottawa), with the change in seasons comes a change in desktop wallpaper.Â  The Spring 2011 wallpaper for <a href="http://www.powerguipro.com/">PowerGUI Pro</a> and <a href="http://www.powergui.org/">PowerGUI</a> is now available:</p>
+<p><a href="http://www.powergui.org/servlet/KbServlet/download/3402-102-5388/1920x1200.jpg"><img src="http://www.powergui.org/servlet/KbServlet/downloadImage/3402-102-425/thumbnail.jpg" alt="PowerGUI Spring 2011 Wallpaper Thumbnail"></a></p>
+<p>To download this wallpaper, simply visit the <a href="http://powergui.org/downloads.jspa">PowerGUI downloads page</a> and scroll down to see all of the sizes and varieties that are available.Â  We have Fall wallpaper there as well for our friends in the southern hemisphere.Â  As always, all of our wallpaper images are stored in the <a href="http://www.powergui.org/kbcategory.jspa?categoryID=393">Wallpaper folder</a> on <a href="http://www.powergui.org/">PowerGUI.org</a>, so if you want to use one from a previous year or a different season or holiday, take a look around&quot;¦there are currently 27 different varieties to choose from.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powerscripting podcast with jeffrey snover and kenneth hansen" 
+                     data-content="&lt;p&gt;last week &lt;a href=&#34;http://www.halr9000.com/&#34;&gt;hal rottenberg&lt;/a&gt; and &lt;a href=&#34;http://twitter.com/#!/jonwalz&#34;&gt;jonathan walz&lt;/a&gt; recorded another great episode of the &lt;a href=&#34;http://powerscripting.wordpress.com/&#34;&gt;powerscripting podcast&lt;/a&gt;, this time with jeffrey snover and kenneth hansen as guests.  jeffrey and kenneth talk about powershell of course, but also discuss the upcoming &lt;a href=&#34;http://www.theexpertsconference.com/us/2011/general-information/2011-powershell-deep-dive/&#34;&gt;powershell deep dive&lt;/a&gt; event.  you can find the link to listen to the podcast along with the show notes &lt;a href=&#34;http://powerscripting.wordpress.com/2011/03/14/episode-141-the-powershell-deep-dive-conference-with-jeffrey-snover-and-kenneth-hansen/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;this podcast is a great source of powershell news and i highly recommend listening to it regularly.  it&amp;quot;™s a great way to pass the time during your daily commute to and from work.  there are 141 episodes so far, with tons of great interviews and content, so check out this podcast when you have some time.  it&amp;quot;™s definitely worth it.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 16, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Kirk Munro</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerScripting Podcast with Jeffrey Snover and Kenneth Hansen
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Last week <a href="http://www.halr9000.com/">Hal Rottenberg</a> and <a href="http://twitter.com/#!/jonwalz">Jonathan Walz</a> recorded another great episode of the <a href="http://powerscripting.wordpress.com/">PowerScripting Podcast</a>, this time with Jeffrey Snover and Kenneth Hansen as guests.  Jeffrey and Kenneth talk about PowerShell of course, but also discuss the upcoming <a href="http://www.theexpertsconference.com/us/2011/general-information/2011-powershell-deep-dive/">PowerShell Deep Dive</a> event.  You can find the link to listen to the podcast along with the show notes <a href="http://powerscripting.wordpress.com/2011/03/14/episode-141-the-powershell-deep-dive-conference-with-jeffrey-snover-and-kenneth-hansen/">here</a>.</p>
+<p>This podcast is a great source of PowerShell news and I highly recommend listening to it regularly.  It&quot;™s a great way to pass the time during your daily commute to and from work.  There are 141 episodes so far, with tons of great interviews and content, so check out this podcast when you have some time.  It&quot;™s definitely worth it.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="mvp summit 2011" 
+                     data-content="&lt;p&gt;testing out my first wordpress blog postâ after the switch from windows live spaces (sniff, i will miss you) to wordpress.â  regarding the mvp summit last week, i can&amp;quot;™t really talk about much due to just about everything being nda, nda, nda!â  i will say that i&amp;quot;™m excited about the future of powershell!â  probably the most fun part was hanging out with the other powershell mvps for a week.&lt;/p&gt;
+&lt;p&gt;it seems to me that microsoft still values their relationship with the mvps as evidenced by the party they arranged for mvps last wednesday:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Mar 10, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Keith Hill</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-03-09-mvp-summit-2011/" class="hover:text-blue-600 transition-colors duration-200">
+                            MVP Summit 2011
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Testing out my first WordPress blog postÂ after the switch from Windows Live Spaces (sniff, I will miss you) to WordPress.Â  Regarding the MVP Summit last week, I can&quot;™t really talk about much due to just about everything being NDA, NDA, NDA!Â  I will say that I&quot;™m excited about the future of PowerShell!Â  Probably the most fun part was hanging out with the other PowerShell MVPs for a week.</p>
+<p>It seems to me that Microsoft still values their relationship with the MVPs as evidenced by the party they arranged for MVPs last Wednesday:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-03-09-mvp-summit-2011/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="make-ps1exewrapper" 
                      data-content="&lt;p&gt;occasionally folks want to be able to create an exe from poweshell.â  powershell can&amp;quot;™t do this by itself but this can be done with powershell script.â  essentially what you can do is create a simple console exe program that embeds the script as a resource and the exe, upon loading retrieves the script and throws it at a powershell runspace to execute.â  here&amp;quot;™s the script for a feasibility test of doing this very thing.&lt;/p&gt;"
                      >
@@ -433,7 +655,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2010-09-21-make-ps1exewrapper/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2010-09-21-make-ps1exewrapper/" class="hover:text-blue-600 transition-colors duration-200">
                             Make-PS1ExeWrapper
                         </a>
                     </h2>
@@ -441,7 +663,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShell can&quot;™t do this by itself but this can be done with PowerShell script.Â  Essentially what you can do is create a simple console EXE program that embeds the script as a resource and the EXE, upon loading retrieves the script and throws it at a PowerShell runspace to execute.Â  Here&quot;™s the script for a feasibility test of doing this very thing.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2010-09-21-make-ps1exewrapper/" 
+                        <a href="http://localhost:57259/articles/2010-09-21-make-ps1exewrapper/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -897,7 +1119,7 @@
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

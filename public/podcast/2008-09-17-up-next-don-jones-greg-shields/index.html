@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Up Next: Don Jones &amp; Greg Shields! - PowerShell.org - Welcome Automaters!</title>
@@ -17,7 +17,7 @@
     
     
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://powershell.org/podcast/2008-09-17-up-next-don-jones-greg-shields/">
+    <meta property="og:url" content="http://localhost:57259/podcast/2008-09-17-up-next-don-jones-greg-shields/">
     <meta property="og:title" content="Up Next: Don Jones &amp; Greg Shields!">
     <meta property="og:description"
         content="We&quot;™re having Don Jones and Greg Shields on for Episode 42 (which is an auspicious number). These guys have joined forces recently to form …">
@@ -25,7 +25,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/podcast/2008-09-17-up-next-don-jones-greg-shields/">
+    <meta property="twitter:url" content="http://localhost:57259/podcast/2008-09-17-up-next-don-jones-greg-shields/">
     <meta property="twitter:title" content="Up Next: Don Jones &amp; Greg Shields!">
     <meta property="twitter:description"
         content="We&quot;™re having Don Jones and Greg Shields on for Episode 42 (which is an auspicious number). These guys have joined forces recently to form …">
@@ -176,10 +176,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -188,77 +186,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -266,7 +288,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -288,80 +310,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -425,17 +475,17 @@
                 
                 <div class="flex items-center space-x-2">
                     <span class="text-gray-600 text-sm mr-2">Share:</span>
-                    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpowershell.org%2fpodcast%2f2008-09-17-up-next-don-jones-greg-shields%2f&text=Up%20Next%3a%20Don%20Jones%20%26%20Greg%20Shields%21" 
+                    <a href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a57259%2fpodcast%2f2008-09-17-up-next-don-jones-greg-shields%2f&text=Up%20Next%3a%20Don%20Jones%20%26%20Greg%20Shields%21" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-400 transition-colors duration-200">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpowershell.org%2fpodcast%2f2008-09-17-up-next-don-jones-greg-shields%2f" 
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2flocalhost%3a57259%2fpodcast%2f2008-09-17-up-next-don-jones-greg-shields%2f" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <button onclick="navigator.clipboard.writeText('https:\/\/powershell.org\/podcast\/2008-09-17-up-next-don-jones-greg-shields\/')" 
+                    <button onclick="navigator.clipboard.writeText('http:\/\/localhost:57259\/podcast\/2008-09-17-up-next-don-jones-greg-shields\/')" 
                             class="text-gray-500 hover:text-gray-700 transition-colors duration-200"
                             title="Copy link">
                         <i class="fas fa-link"></i>
@@ -456,8 +506,7 @@
 <p>A collaboration between IT gurus Don Jones and Greg Shields, <strong>Concentrated Technology</strong> is a place for concise, helpful IT news and education. The emphasis is on_concise_: We&quot;™ll try to provide you with very condensed (dare we say &ldquo;concentrated?&rdquo;) information that hits right at the heart of what you need to know. This site is a place for us to blog, and even to argue - you&quot;™ll find us taking up opposite sides on a number of issues, and in doing so helping you see both sides of those issues more clearly so that you can make better decisions. Above all, we&quot;™ll keep things focused right on the Microsoft IT professional, addressing your needs, questions, and more as best we can.</p>
 <p>Here&quot;™s a bit about us:</p>
 <p><strong>Don Jones</strong> has more than a decade of professional experience in the IT industry. He&quot;™s the author of more than 30 IT books, including <em>Windows PowerShell: TFM</em>; <em>VBScript, WMI, and ADSI Unleashed</em>; <em>Managing Windows with VBScript and WMI</em>; and many more. He&quot;™s a to-rated and in-demand speaker at conferences such as Microsoft TechEd and TechMentor, and writes the monthly Windows PowerShell column for Microsoft TechNet Magazine. Don is a multiple-year recipient of Microsoft&quot;™s &ldquo;Most Valuable Professional&rdquo; (MVP) Award with a specialization in Windows PowerShell. Don&quot;™s broad IT experience includes work in the financial, telecommunications, software, manufacturing, consulting, training, and retail industries and he&quot;™s one of the rare IT professionals who can not only &ldquo;cross the line&rdquo; between administration and software development, but also between IT workers and IT management.</p>
-<p><strong>Greg Shields</strong> is a professional author, speaker, and IT consultant.  With nearly 15 years in information technology, Greg has developed extensive experience in systems administration, engineering, and architecture specializing in Microsoft, remote application, and virtualization technologies. Greg is a Contributing Editor for <a href="http://www.redmondmag.com">Redmond Magazine</a>,<a href="http://www.mcpmag.com">Microsoft Certified Professional Magazine</a>, and <a href="http://www.virtualizationreview.com">Virtualization Review Magazine</a>, and is the author of five books, including <em>Windows Server 2008:  What&quot;™s New / What&quot;™s Changed</em>.  He is the Resident Editor for the <a href="http://www.realtime-windowsserver.com">Realtime Windows Server</a> community and edits the<a href="http://nexus.realtimepublishers.com/RTWA.htm">Windows Administration in Realtime</a> eJournal.  He is well known for his skills in relating highly technical concepts with a drive towards fulfilling business needs. Greg is also a highly sought-after instructor and speaker, speaking regularly at conferences like TechMentor Events, and producing computer-based training curriculum for companies like CBT Nuggets. Greg is a recipient of Microsoft &ldquo;Most Valuable Professional&rdquo; award with a specialization in Windows Terminal Services.</p>
-</blockquote>
+<p><strong>Greg Shields</strong> is a professional author, speaker, and IT consultant.  With nearly 15 years in information technology, Greg has developed extensive experience in systems administration, engineering, and architecture specializing in Microsoft, remote application, and virtualization technologies. Greg is a Contributing Editor for <a href="http://www.redmondmag.com">Redmond Magazine</a>,<a href="http://www.mcpmag.com">Microsoft Certified Professional Magazine</a>, and <a href="http://www.virtualizationreview.com">Virtualization Review Magazine</a>, and is the author of five books, including <em>Windows Server 2008:  What&quot;™s New / What&quot;™s Changed</em>.  He is the Resident Editor for the <a href="http://www.realtime-windowsserver.com">Realtime Windows Server</a> community and edits the<a href="http://nexus.realtimepublishers.com/RTWA.htm">Windows Administration in Realtime</a> eJournal.  He is well known for his skills in relating highly technical concepts with a drive towards fulfilling business needs. Greg is also a highly sought-after instructor and speaker, speaking regularly at conferences like TechMentor Events, and producing computer-based training curriculum for companies like CBT Nuggets. Greg is a recipient of Microsoft &ldquo;Most Valuable Professional&rdquo; award with a specialization in Windows Terminal Services.</p></blockquote>
 
         </div>
         
@@ -475,7 +524,7 @@
         <nav class="mt-12 pt-8 border-t border-gray-200">
             <div class="flex justify-between items-center">
                 
-                <a href="https://powershell.org/podcast/2008-09-15-episode-41-jeff-hicks-i-am-ironman/" 
+                <a href="http://localhost:57259/podcast/2008-09-15-episode-41-jeff-hicks-i-am-ironman/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <i class="fas fa-chevron-left mr-2"></i>
                     <span class="truncate max-w-xs">Episode 41 – Jeff Hicks &#34;I am Ironman&#34;</span>
@@ -483,7 +532,7 @@
                 
                 
                 
-                <a href="https://powershell.org/podcast/2008-09-23-episode-42-with-greg-shields/" 
+                <a href="http://localhost:57259/podcast/2008-09-23-episode-42-with-greg-shields/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <span class="truncate max-w-xs">Episode 42 – with Greg Shields</span>
                     <i class="fas fa-chevron-right ml-2"></i>
@@ -561,7 +610,7 @@
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

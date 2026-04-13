@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,208 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="help us improve our ebooks – your chance to contribute!" 
+                     data-content="&lt;p&gt;we recently re-launched all of our free ebooks at &lt;a href=&#34;https://leanpub.com/u/devopscollective&#34;&gt;https://leanpub.com/u/devopscollective&lt;/a&gt;. these books have all been authored by a variety of people, myself included, and most were originally authors in word. as we translated them into markdown (which is what leanpub uses for its source), a few snafus tend to come up here and there.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jul 11, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-07-11-help-us-improve-our-ebooks-your-chance-to-contribute/" class="hover:text-blue-600 transition-colors duration-200">
+                            Help Us Improve our Ebooks – Your Chance to Contribute!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>We recently re-launched all of our free ebooks at <a href="https://leanpub.com/u/devopscollective">https://leanpub.com/u/devopscollective</a>. These books have all been authored by a variety of people, myself included, and most were originally authors in Word. As we translated them into Markdown (which is what Leanpub uses for its source), a few snafus tend to come up here and there.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-07-11-help-us-improve-our-ebooks-your-chance-to-contribute/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="onramp scholarship open to non-us applicants" 
+                     data-content="&lt;p&gt;i have managed to clear the regulatory hurdles and our &lt;a href=&#34;https://powershell.org/summit/summit-onramp/onramp-scholarship/&#34;&gt;onramp scholarship&lt;/a&gt; is now open to applicants from outside the us. we will update the application materials and web pages as soon as possible, but there’s no need to wait to submit an application.&lt;br&gt;
+there are two caveats:&lt;br&gt;
+first, the option to request a laptop as part of your application is not applicable to international applicants at this time.&lt;br&gt;
+second, our airfare limit is $600 usd. we cannot directly book airfare costing more. unfortunately, we also cannot provide a partial cash reimbursement at this time. that means your air must be under $600 total (which i realize is difficult), or you need to be responsible for the entire airfare yourself. this is a bit of accounting oddness that we should be able to address in the future.&lt;br&gt;
+full information and applications are at the link above.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 27, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-06-27-onramp-scholarship-open-to-non-us-applicants/" class="hover:text-blue-600 transition-colors duration-200">
+                            OnRamp Scholarship open to non-US Applicants
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I have managed to clear the regulatory hurdles and our <a href="https://powershell.org/summit/summit-onramp/onramp-scholarship/">OnRamp Scholarship</a> is now open to applicants from outside the US. We will update the application materials and web pages as soon as possible, but there’s no need to wait to submit an application.<br>
+There are two caveats:<br>
+first, the option to request a laptop as part of your application is not applicable to international applicants at this time.<br>
+Second, our airfare limit is $600 USD. We cannot directly book airfare costing more. Unfortunately, we also cannot provide a partial cash reimbursement at this time. That means your air must be under $600 total (which I realize is difficult), or you need to be responsible for the entire airfare yourself. This is a bit of accounting oddness that we should be able to address in the future.<br>
+Full information and applications are at the link above.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-06-27-onramp-scholarship-open-to-non-us-applicants/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="how powershell &#43; devops global summit began" 
+                     data-content="&lt;p&gt;back in&amp;hellip; gosh, 2009, 2010 or so, an arizona company named netpro hosted powershell deep dive, part of their the experts conference event (the first was held in las vegas for just 50 people). after hosting two years (i think) though, netpro was purchased by quest software, which moved to close down tec. i may have those years slightly off, but that&amp;rsquo;s the general sequence.&lt;br&gt;
+in 2012, myself, jeff hicks, richard siddaway, jason helmick, and kirk munro had formed powershell.org, attempting to make good on the basically-defunct powershellcommunity.org that i&amp;rsquo;d started and that quest now basically owned (and was shutting down).&lt;br&gt;
+in august 2012 jason and i were out in redmond for a techmentor conference, and&amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/wp-content/uploads/2018/06/img_0465.jpg&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2018/06/img_0465-225x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;br&gt;
+erin chapple and kenneth hansen, who were running the powershell team at the time, asked us over to building 43 for lunch one day. they told us that community engagement was huge for them&amp;ndash;they needed to know how people were using their product, and what they needed to focus on. they got plenty of engagement at teched events, they said, but it was largely beginners; they needed the deep dive, or something like it, to stay in touch with hardcore users.&lt;br&gt;
+in april 2013, the first powershell summit was held.&lt;br&gt;
+&amp;ldquo;we can&amp;rsquo;t give you any money, though,&amp;rdquo; kenneth said. and for good reason: they wanted an event that could sustain itself, so that when microsoft inevitably reorganized and got distracted, the event wouldn&amp;rsquo;t die. to help, they volunteered to get us space on-campus, so our first event was in conference rooms, and they helped guarantee the food deposits. that helped give us a tiny financial pad and some experience, so in 2014 when we moved to meydenbauer center, we weren&amp;rsquo;t a brand-new event with an inexperienced team.&lt;br&gt;
+today, summit is formally owned by a 501(c)(3) nonprofit, and venue and food deposits no longer have to go on my personal amex ;). we&amp;rsquo;ve built enough operating margin that summit can pay its own deposits until registrations start rolling in, and the event is essentially self-sustaining&amp;ndash;we don&amp;rsquo;t even rely on corporate sponsors, although we&amp;rsquo;re very happy to have them when we can. we&amp;rsquo;ve held six events in the us, and two in europe, which led to the launch of psconf.eu a few years back.&lt;br&gt;
+jason ran across this page in his journal last night and sent the photo, and with his permission i thought it would be a fun piece of community history to share.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 21, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-06-21-how-powershell-devops-global-summit-began/" class="hover:text-blue-600 transition-colors duration-200">
+                            How PowerShell &#43; DevOps Global Summit Began
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Back in&hellip; gosh, 2009, 2010 or so, an Arizona company named NetPro hosted PowerShell Deep Dive, part of their The Experts Conference event (the first was held in Las Vegas for just 50 people). After hosting two years (I think) though, NetPro was purchased by Quest Software, which moved to close down TEC. I may have those years slightly off, but that&rsquo;s the general sequence.<br>
+In 2012, myself, Jeff Hicks, Richard Siddaway, Jason Helmick, and Kirk Munro had formed PowerShell.org, attempting to make good on the basically-defunct PowerShellCommunity.org that I&rsquo;d started and that Quest now basically owned (and was shutting down).<br>
+In August 2012 Jason and I were out in Redmond for a TechMentor conference, and&hellip;<br>
+<a href="https://powershell.org/wp-content/uploads/2018/06/IMG_0465.jpg"><img src="https://powershell.org/wp-content/uploads/2018/06/IMG_0465-225x300.jpg" alt=""></a><br>
+Erin Chapple and Kenneth Hansen, who were running the PowerShell team at the time, asked us over to building 43 for lunch one day. They told us that community engagement was huge for them&ndash;they needed to know how people were using their product, and what they needed to focus on. They got plenty of engagement at TechEd events, they said, but it was largely beginners; they needed the Deep Dive, or something like it, to stay in touch with hardcore users.<br>
+In April 2013, the first PowerShell Summit was held.<br>
+&ldquo;We can&rsquo;t give you any money, though,&rdquo; Kenneth said. And for good reason: they wanted an event that could sustain itself, so that when Microsoft inevitably reorganized and got distracted, the event wouldn&rsquo;t die. To help, they volunteered to get us space on-campus, so our first event was in conference rooms, and they helped guarantee the food deposits. That helped give us a tiny financial pad and some experience, so in 2014 when we moved to Meydenbauer Center, we weren&rsquo;t a brand-new event with an inexperienced team.<br>
+Today, Summit is formally owned by a 501(c)(3) nonprofit, and venue and food deposits no longer have to go on my personal Amex ;). We&rsquo;ve built enough operating margin that Summit can pay its own deposits until registrations start rolling in, and the event is essentially self-sustaining&ndash;we don&rsquo;t even rely on corporate sponsors, although we&rsquo;re very happy to have them when we can. We&rsquo;ve held six events in the US, and two in Europe, which led to the launch of PSConf.eu a few years back.<br>
+Jason ran across this page in his journal last night and sent the photo, and with his permission I thought it would be a fun piece of community history to share.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-06-21-how-powershell-devops-global-summit-began/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="executing linq queries in powershell – part 2" 
+                     data-content="&lt;p&gt;and we&amp;rsquo;re back!&lt;br&gt;
+ok, so in the last blog we began a conversation about delegates and using linq in powershell. in today&amp;rsquo;s post, i&amp;rsquo;m going to give an example of how it can be incredibly useful. let&amp;rsquo;s talk about joins.&lt;/p&gt;
+&lt;h2 id=&#34;joins&#34;&gt;joins&lt;/h2&gt;
+&lt;p&gt;in my line of work, i&amp;rsquo;m constantly running into the need to combine datasets from multiple sources that relate to each other and pull out some specific properties. say you have two internal services, one which is used to track production status and another which is used to monitor whether machines are online. to demonstrate this, let&amp;rsquo;s initialize some mock data once again.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>May 28, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Eli Hess</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-05-28-executing-linq-queries-in-powershell-part-2/" class="hover:text-blue-600 transition-colors duration-200">
+                            Executing LINQ Queries in PowerShell – Part 2
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>And we&rsquo;re back!<br>
+Ok, so in the last blog we began a conversation about delegates and using LINQ in PowerShell. In today&rsquo;s post, I&rsquo;m going to give an example of how it can be incredibly useful. Let&rsquo;s talk about Joins.</p>
+<h2 id="joins">Joins</h2>
+<p>In my line of work, I&rsquo;m constantly running into the need to combine datasets from multiple sources that relate to each other and pull out some specific properties. Say you have two internal services, one which is used to track production status and another which is used to monitor whether machines are online. To demonstrate this, let&rsquo;s initialize some mock data once again.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-05-28-executing-linq-queries-in-powershell-part-2/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="executing linq queries in powershell – part 1" 
                      data-content="&lt;p&gt;greetings powershellers!&lt;br&gt;
 lately, i&amp;rsquo;ve been itching to write something up on microsoft’s language-integrated query (linq). you&amp;rsquo;ve likely encountered it if you&amp;rsquo;ve done any development in c#. linq is an incredibly powerful querying tool for performing look-ups, joins, ordering, and other common tasks on large data sets. we have a few similar cmdlets built into powershell, but other than the &amp;lsquo;.where()&amp;rsquo; method on collection objects nothing that comes close to the speed at which linq operates.&lt;br&gt;
@@ -447,7 +699,7 @@ a simple example of this in c# looks like this:&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-05-19-100887-2/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-05-19-100887-2/" class="hover:text-blue-600 transition-colors duration-200">
                             Executing LINQ Queries in PowerShell – Part 1
                         </a>
                     </h2>
@@ -460,7 +712,7 @@ Delegates are objects that point to another method, or possibly many methods, by
 A simple example of this in C# looks like this:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-05-19-100887-2/" 
+                        <a href="http://localhost:57259/articles/2018-05-19-100887-2/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -498,7 +750,7 @@ on the other hand, i was lucky enough to host the community lightning demos. we 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-02-04-2018-community-lightning-demos/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-02-04-2018-community-lightning-demos/" class="hover:text-blue-600 transition-colors duration-200">
                             2018 Community Lightning Demos
                         </a>
                     </h2>
@@ -509,7 +761,7 @@ On one hand, I spoke for the first time - it was terrifying. Getting up in front
 On the other hand, I was lucky enough to host the Community Lightning Demos. We managed to give 22 folks the chance to get up in front of the PowerShell community and give a quick, low-pressure ~10 minute demo.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-02-04-2018-community-lightning-demos/" 
+                        <a href="http://localhost:57259/articles/2018-02-04-2018-community-lightning-demos/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -545,7 +797,7 @@ we&amp;rsquo;re working with the powershell team at microsoft to identify indivi
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-02-01-help-us-recognize-amazing-powershell-contributors/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-02-01-help-us-recognize-amazing-powershell-contributors/" class="hover:text-blue-600 transition-colors duration-200">
                             Help us Recognize Amazing PowerShell Contributors!
                         </a>
                     </h2>
@@ -554,7 +806,7 @@ we&amp;rsquo;re working with the powershell team at microsoft to identify indivi
 We&rsquo;re working with the PowerShell team at Microsoft to identify individuals who have made an outstanding contribution to the PowerShell community. Perhaps they&rsquo;ve written blog posts that really helped you conquer a PowerShell challenge, or maybe they&rsquo;ve contributed code (on GitHub or elsewhere) that you rely on. Maybe they&rsquo;re an amazing teacher, or perhaps they&rsquo;re an awesome coder. Whatever their contribution, if it&rsquo;s been notable and helpful to you, we&rsquo;d like to hear from you.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-02-01-help-us-recognize-amazing-powershell-contributors/" 
+                        <a href="http://localhost:57259/articles/2018-02-01-help-us-recognize-amazing-powershell-contributors/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -589,7 +841,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-01-29-distilling-microsofts-dsc-update-jan-2018/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-01-29-distilling-microsofts-dsc-update-jan-2018/" class="hover:text-blue-600 transition-colors duration-200">
                             Distilling Microsoft&#39;s DSC Update (Jan 2018)
                         </a>
                     </h2>
@@ -597,7 +849,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>This past Friday, Microsoft <a href="https://blogs.msdn.microsoft.com/powershell/2018/01/26/dsc-planning-update-january-2018/">posted a DSC Update</a> that&rsquo;s worth your attention - and some commentary.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-01-29-distilling-microsofts-dsc-update-jan-2018/" 
+                        <a href="http://localhost:57259/articles/2018-01-29-distilling-microsofts-dsc-update-jan-2018/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -633,7 +885,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Story Continued Becoming a Craftsman
                         </a>
                     </h2>
@@ -642,7 +894,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
 <a href="http://duffney.io/PowerShell-Story-Continued-BecomingACraftsman">http://duffney.io/PowerShell-Story-Continued-BecomingACraftsman</a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/" 
+                        <a href="http://localhost:57259/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -677,7 +929,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-01-15-can-we-talk-about-powershell-core-6-0/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-01-15-can-we-talk-about-powershell-core-6-0/" class="hover:text-blue-600 transition-colors duration-200">
                             Can We Talk About PowerShell Core 6.0?
                         </a>
                     </h2>
@@ -685,227 +937,7 @@ We&rsquo;re working with the PowerShell team at Microsoft to identify individual
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Microsoft recently <a href="https://blogs.msdn.microsoft.com/powershell/2018/01/10/powershell-core-6-0-generally-available-ga-and-supported/">announced the General Availability</a> (that is, a non-beta release) of PowerShell Core 6.0. A <a href="https://github.com/PowerShell/PowerShell/blob/master/docs/BREAKINGCHANGES.md">companion document detailing breaking changes</a>, along with some of the language in the announcement, has led to more than a few inquiries in my mailbox. Most take the tone of, &ldquo;have I been wasting my time learning PowerShell?!?!?&rdquo; because, at first glance, PowerShell Core looks deeply less functional than its predecessor. Let me tell you what I think.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-01-15-can-we-talk-about-powershell-core-6-0/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="pscore 6 – jeffrey snover and the powershell team hosting ama on 11th jan 9am pt" 
-                     data-content="&lt;p&gt;powershell core 6 is scheduled for general availability release tomorrow (10th january). as such jeffrey snover and the powershell team are hosting an ama (ask me anything) event on the 11th january from 9am - 10am pt.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;this is going to be a historical week for powershell core 6 🙂 &amp;hellip;join the powershell team and &lt;a href=&#34;https://twitter.com/jsnover&#34;&gt;@&lt;strong&gt;jsnover&lt;/strong&gt;&lt;/a&gt;{.twitter-atreply.pretty-link.js-nav} this thursday for the powershell ama&amp;rdquo;&lt;br&gt;
-&lt;img src=&#34;https://powershell.org/wp-content/uploads/2018/01/powershell-ama-300x160.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;add it to your calendar &lt;a href=&#34;https://aka.ms/powershellama/invite&#34;&gt;here&lt;/a&gt;.&lt;br&gt;
-due to the timing i expect that the team are mostly hoping for questions related to the release of ps core, although in the spirit of an ama anything goes :).&lt;br&gt;
-if you haven&amp;rsquo;t yet checked out powershell core 6, you can &lt;a href=&#34;https://github.com/powershell/powershell&#34;&gt;grab the rc release today&lt;/a&gt; and install it side-by-side with windows powershell.&lt;br&gt;
-i have also written &lt;a href=&#34;http://wragg.io/powershell-core/&#34;&gt;a blog post that explains what powershell core is, why it exists and how it compares&lt;/a&gt; which i hope you find informative.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 9, 2018</time>
-                            
-                            <span>•</span>
-                            <span>Mark Wragg</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-01-09-pscore-6-jeffrey-snover-and-the-powershell-team-hosting-ama-on-11th-jan-9am-pt/" class="hover:text-blue-600 transition-colors duration-200">
-                            PSCore 6 – Jeffrey Snover and the PowerShell Team hosting AMA on 11th Jan 9am PT
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>PowerShell Core 6 is scheduled for General Availability release tomorrow (10th January). As such Jeffrey Snover and the PowerShell Team are hosting an AMA (Ask Me Anything) event on the 11th January from 9am - 10am PT.</p>
-<blockquote>
-<p>&ldquo;This is going to be a historical week for PowerShell Core 6 🙂 &hellip;Join the PowerShell team and <a href="https://twitter.com/jsnover">@<strong>jsnover</strong></a>{.twitter-atreply.pretty-link.js-nav} this Thursday for the PowerShell AMA&rdquo;<br>
-<img src="https://powershell.org/wp-content/uploads/2018/01/PowerShell-AMA-300x160.jpg" alt=""></p>
-</blockquote>
-<p>Add it to your calendar <a href="https://aka.ms/PowerShellAMA/invite">here</a>.<br>
-Due to the timing I expect that the team are mostly hoping for questions related to the release of PS Core, although in the spirit of an AMA anything goes :).<br>
-If you haven&rsquo;t yet checked out PowerShell Core 6, you can <a href="https://github.com/PowerShell/PowerShell">grab the RC release today</a> and install it side-by-side with Windows PowerShell.<br>
-I have also written <a href="http://wragg.io/powershell-core/">a blog post that explains what PowerShell Core is, why it exists and how it compares</a> which I hope you find informative.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-01-09-pscore-6-jeffrey-snover-and-the-powershell-team-hosting-ama-on-11th-jan-9am-pt/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="dealing with redundancy in an it world" 
-                     data-content="&lt;p&gt;so you’re working for a company that’s going well (or not) and you start to hear rumours of parts of the business being sold off, the project you’re working on is being pulled or worse the business is closing down. before you know it your x amount of years at said company have come to an end and you’re now redundant. the following &lt;a href=&#34;http://dilbert.com/strip/1996-05-14&#34;&gt;dilbert comic&lt;/a&gt; is a possible scenario you may have to deal with.&lt;br&gt;
-how you deal with this new found freedom is completely up to you? you can go on a big holiday, have some time off doing things around the house, buy that 2 seater car you’ve always dreamed of owning or go straight back into the workforce using the redundancy (if you got any) to pay off a chunk of your mortgage. whatever you decide to do, at some point (unless you are retiring) you will need to go job hunting again.&lt;br&gt;
-in my situation i was being made redundant and leaving a company i had worked for, for the last 7 ½ years as a senior system engineer. i have a wife and 2 children so i really just wanted to get back in the workforce as soon as i could. the mortgage was not going to pay itself off.&lt;br&gt;
-as soon as i heard that i had a month left of work i took out my cv and had to try to remember each position i had occupied over the last 7 ½ years and what my achievements were. and you know what, that is not an easy task. when you’re working and you complete an achievement, you always think to yourself “if ever i have to update my cv ill add this to it”. problem is 5 years down the line you won’t remember that “good piece of work” and you’ll struggle to put some of the great achievements down on paper for your future employer.&lt;br&gt;
-after several attempts at updating my cv, it was ready. now time to start looking for work. my main skills are in citrix technologies, powershell, windows server operating systems and my company’s proprietary cloud offering. in my job, i spent nearly every day learning something new and applying it to my job but i didn’t bother with getting certified. when job hunting, the first hurdle i came across was my lack of skills that the market place wanted. for nearly every senior engineer role out there, every man and his dog wanted azure with 0365 and/or aws. so any roles that looked good to me were out of my reach because i didn’t have those skills/qualifications.&lt;br&gt;
-i found a couple of roles i really liked the look of and naively sent off my cv to those 2 roles only. there were a few other jobs that looked good but i really wanted one of these 2 roles so didn’t apply for anymore. 2 weeks passed and nothing back so i chased them up and still nothing. oh well guess they didn’t like my cv so i’ll start looking again. and again i repeated the same process. and again the same outcome. i then started do some reading on recruitment sites and how recruiters get so many cvs that on average they will look at yours for 6 second before choosing to read more or toss it.&lt;br&gt;
-by now i had finished work and a new job was not in sight, slightly panicking now. i revamped my cv a little, moving my core technical skills to the top of the front page (they were originally at the bottom of the back page) and applied for every job under the sun i liked the look of. i hit every job advertising site i could find and also sent my cv to every tech job agency i could find. if i really liked the look of a job i would follow the online application 30 minutes later with a phone call to get that connection with the job poster and to sell myself (which i hate doing). i updated my linkedin page and applied via linkedin to jobs on there. i started to use linkedin to make contact and catch up with people i knew to see if they had any positions in their companies. i actually found this to be the most successful way to get in to see companies.&lt;br&gt;
-through my contacts i had some interviews and even had a job offer with one tech firm. problem was they had come in with an offer that was 20% below my previous wage. do i take it to tie me over the christmas period and get the money coming in again or do i wait for a possible better job that might show up tomorrow? if i took the job and something better came along would i then rescind that offer and my name would then be mud at that company for anything in the future. i decided not to take the job as it would have meant a major financial shuffle for the family and big cutbacks.&lt;br&gt;
-that same afternoon i contacted another friend, as his company had quite a few positions open due to expansion. he put me in contact with their talent manger. the following day i had an interview and that evening i had a job offer which i took.&lt;br&gt;
-the main take away i hope you get from this is, if this ever happens is to ensure your cv is always up to date. make sure if and when people leave your present company that you keep some sort of contact with them because you never know when you might need to call on them or you might be able to help them out one day. keep an eye on the job market and what the market is looking for and get skilled up and/or certified in those areas. if you’re not on linkedin get a presence on there, those contacts can be invaluable too. when job hunting don’t just apply for that one dream job (especially if you’re out of work) hit any one of them that takes your fancy, you are better off having 2 or 3 offers on the table than nothing at all. last thing to only take the offer if you really want the job, listen to your gut instinct.&lt;br&gt;
-as it happens the new company i now work at is going to be one of the 1st in australia to roll out azure stack. so i will be learning and get certified in azure which better place me for my future.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 19, 2017</time>
-                            
-                            <span>•</span>
-                            <span>Alex Aymonier</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2017-11-19-dealing-with-redundancy-in-a-it-world/" class="hover:text-blue-600 transition-colors duration-200">
-                            Dealing with redundancy in an IT world
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>So you’re working for a company that’s going well (or not) and you start to hear rumours of parts of the business being sold off, the project you’re working on is being pulled or worse the business is closing down. Before you know it your x amount of years at said company have come to an end and you’re now redundant. The following <a href="http://dilbert.com/strip/1996-05-14">Dilbert comic</a> is a possible scenario you may have to deal with.<br>
-How you deal with this new found freedom is completely up to you? You can go on a big holiday, have some time off doing things around the house, buy that 2 seater car you’ve always dreamed of owning or go straight back into the workforce using the redundancy (if you got any) to pay off a chunk of your mortgage. Whatever you decide to do, at some point (unless you are retiring) you will need to go job hunting again.<br>
-In my situation I was being made redundant and leaving a company I had worked for, for the last 7 ½ years as a senior system engineer. I have a wife and 2 children so I really just wanted to get back in the workforce as soon as I could. The mortgage was not going to pay itself off.<br>
-As soon as I heard that I had a month left of work I took out my CV and had to try to remember each position I had occupied over the last 7 ½ years and what my achievements were. And you know what, that is not an easy task. When you’re working and you complete an achievement, you always think to yourself “If ever I have to update my CV ill add this to it”. Problem is 5 years down the line you won’t remember that “good piece of work” and you’ll struggle to put some of the great achievements down on paper for your future employer.<br>
-After several attempts at updating my CV, it was ready. Now time to start looking for work. My main skills are in Citrix technologies, PowerShell, Windows Server Operating Systems and my company’s proprietary cloud offering. In my job, I spent nearly every day learning something new and applying it to my job but I didn’t bother with getting certified. When job hunting, the first hurdle I came across was my lack of skills that the market place wanted. For nearly every senior engineer role out there, every man and his dog wanted Azure with 0365 and/or AWS. So any roles that looked good to me were out of my reach because I didn’t have those skills/qualifications.<br>
-I found a couple of roles I really liked the look of and naively sent off my CV to those 2 roles only. There were a few other jobs that looked good but I really wanted one of these 2 roles so didn’t apply for anymore. 2 weeks passed and nothing back so I chased them up and still nothing. Oh well guess they didn’t like my CV so I’ll start looking again. And again I repeated the same process. And again the same outcome. I then started do some reading on recruitment sites and how recruiters get so many CVs that on average they will look at yours for 6 second before choosing to read more or toss it.<br>
-By now I had finished work and a new job was not in sight, slightly panicking now. I revamped my CV a little, moving my core technical skills to the top of the front page (they were originally at the bottom of the back page) and applied for every job under the sun I liked the look of. I hit every job advertising site I could find and also sent my CV to every tech job agency I could find. If I really liked the look of a job I would follow the online application 30 minutes later with a phone call to get that connection with the job poster and to sell myself (which I hate doing). I updated my LinkedIn page and applied via LinkedIn to jobs on there. I started to use LinkedIn to make contact and catch up with people I knew to see if they had any positions in their companies. I actually found this to be the most successful way to get in to see companies.<br>
-Through my contacts I had some interviews and even had a job offer with one tech firm. Problem was they had come in with an offer that was 20% below my previous wage. Do I take it to tie me over the Christmas period and get the money coming in again or do I wait for a possible better job that might show up tomorrow? If I took the job and something better came along would I then rescind that offer and my name would then be mud at that company for anything in the future. I decided not to take the job as it would have meant a major financial shuffle for the family and big cutbacks.<br>
-That same afternoon I contacted another friend, as his company had quite a few positions open due to expansion. He put me in contact with their Talent Manger. The following day I had an interview and that evening I had a job offer which I took.<br>
-The main take away I hope you get from this is, if this ever happens is to ensure your CV is always up to date. Make sure if and when people leave your present company that you keep some sort of contact with them because you never know when you might need to call on them or you might be able to help them out one day. Keep an eye on the job market and what the market is looking for and get skilled up and/or certified in those areas. If you’re not on LinkedIn get a presence on there, those contacts can be invaluable too. When Job hunting don’t just apply for that one dream job (especially if you’re out of work) hit any one of them that takes your fancy, you are better off having 2 or 3 offers on the table than nothing at all. Last thing to only take the offer if you really want the job, listen to your gut instinct.<br>
-As it happens the new company I now work at is going to be one of the 1st in Australia to roll out Azure Stack. So I will be learning and get certified in Azure which better place me for my future.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2017-11-19-dealing-with-redundancy-in-a-it-world/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell &#43; devops global summit 2018 scholarship recipient" 
-                     data-content="&lt;p&gt;congratulations to andrew pla, winner of our powershell &#43; devops global summit 2018 scholarship. andrew submitted a stellar application to our review panel, and perfectly fit our profile for someone who’s just peeking out of the “beginner” realm, and who’s demonstrably used powershell to help bootstrap their it career. if you’re attending summit, be sure to keep an eye out for andrew and say hi!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 10, 2017</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2017-11-10-powershell-devops-global-summit-2018-scholarship-recipient/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell &#43; DevOps Global Summit 2018 Scholarship Recipient
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Congratulations to Andrew Pla, winner of our PowerShell + DevOps Global Summit 2018 scholarship. Andrew submitted a stellar application to our review panel, and perfectly fit our profile for someone who’s just peeking out of the “beginner” realm, and who’s demonstrably used PowerShell to help bootstrap their IT career. If you’re attending Summit, be sure to keep an eye out for Andrew and say hi!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2017-11-10-powershell-devops-global-summit-2018-scholarship-recipient/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="putting it all out there" 
-                     data-content="&lt;p&gt;yesterday i pushed my first real project to a public repository on github. it&amp;rsquo;s small right now though i hope to flesh it out over time, and it is very niche, but i hope it helps others who come across it. regardless i&amp;rsquo;m proud of it. if you like, you can check it out &lt;a href=&#34;https://github.com/liampkemp/enabler&#34;&gt;here,&lt;/a&gt; i&amp;rsquo;d love your feedback, but that&amp;rsquo;s not the reason i&amp;rsquo;m writing this.&lt;br&gt;
-i&amp;rsquo;m here to tell you &lt;em&gt;&lt;strong&gt;why&lt;/strong&gt;&lt;/em&gt; i did it.&lt;br&gt;
-you see, i&amp;rsquo;m a private kind of person. i don&amp;rsquo;t often put myself out there for fear of embarrassing myself. i have always been worried that i might end up looking silly. that someone who knows more than i do, or knows something differently than i do would catch me out -  and if that happened, i couldn&amp;rsquo;t put the genie back in the bottle. back in school, i wouldn&amp;rsquo;t put my hand up even if i knew the right answer, just in case. i was ensnared by impostor syndrome, it was crippling, and it had to change.&lt;br&gt;
-so, what did i do? i started a &lt;a href=&#34;https://itcloudpro.net&#34;&gt;blog&lt;/a&gt;, and in almost a year i&amp;rsquo;ve managed to get around 10-12 posts up. it isn&amp;rsquo;t much nor is it pretty, and sometimes i worry too much about the time in between posts, and rush to put something up which is not always perfect. but i&amp;rsquo;m happy to be doing it all the same. mostly, i try to post about topics and problems that i haven&amp;rsquo;t been able to find complete information around elsewhere.&lt;br&gt;
-i&amp;rsquo;ve started spending more time sharing and interacting on twitter and linkedin, rather than just reading and clicking links. i&amp;rsquo;ve  even been followed and liked a few times. lastly, i&amp;rsquo;ve been spending more time on these forums and elsewhere, helping out where i can.&lt;br&gt;
-overall, i feel better in myself, and have a greater level of confidence in my skills, knowledge, and what i can bring to the table. in the end, that is what led me to feeling good enough to publish my project. i can&amp;rsquo;t say that i&amp;rsquo;m completely over impostor syndrome and i don&amp;rsquo;t think i ever will be. i can say that i don&amp;rsquo;t feel it as often as i used to, and i can use it to drive myself to be better.&lt;br&gt;
-when we are presented with a problem, we often go looking for answers from others. flip that around and it means that if you have solved a problem, there is probably someone else looking for the answer and would really appreciate your experience. so why not put it out there?&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 26, 2017</time>
-                            
-                            <span>•</span>
-                            <span>Liam Kemp</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2017-10-26-putting-it-all-out-there/" class="hover:text-blue-600 transition-colors duration-200">
-                            Putting it all out there
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Yesterday I pushed my first real project to a public repository on GitHub. It&rsquo;s small right now though I hope to flesh it out over time, and it is very niche, but I hope it helps others who come across it. Regardless I&rsquo;m proud of it. If you like, you can check it out <a href="https://github.com/liampkemp/Enabler">here,</a> I&rsquo;d love your feedback, but that&rsquo;s not the reason I&rsquo;m writing this.<br>
-I&rsquo;m here to tell you <em><strong>why</strong></em> I did it.<br>
-You see, I&rsquo;m a private kind of person. I don&rsquo;t often put myself out there for fear of embarrassing myself. I have always been worried that I might end up looking silly. That someone who knows more than I do, or knows something differently than I do would catch me out -  and if that happened, I couldn&rsquo;t put the genie back in the bottle. Back in school, I wouldn&rsquo;t put my hand up even if I knew the right answer, just in case. I was ensnared by Impostor Syndrome, it was crippling, and it had to change.<br>
-So, what did I do? I started a <a href="https://itcloudpro.net">blog</a>, and in almost a year I&rsquo;ve managed to get around 10-12 posts up. It isn&rsquo;t much nor is it pretty, and sometimes I worry too much about the time in between posts, and rush to put something up which is not always perfect. But I&rsquo;m happy to be doing it all the same. Mostly, I try to post about topics and problems that I haven&rsquo;t been able to find complete information around elsewhere.<br>
-I&rsquo;ve started spending more time sharing and interacting on Twitter and LinkedIn, rather than just reading and clicking links. I&rsquo;ve  even been followed and liked a few times. Lastly, I&rsquo;ve been spending more time on these forums and elsewhere, helping out where I can.<br>
-Overall, I feel better in myself, and have a greater level of confidence in my skills, knowledge, and what I can bring to the table. In the end, that is what led me to feeling good enough to publish my project. I can&rsquo;t say that I&rsquo;m completely over Impostor Syndrome and I don&rsquo;t think I ever will be. I can say that I don&rsquo;t feel it as often as I used to, and I can use it to drive myself to be better.<br>
-When we are presented with a problem, we often go looking for answers from others. Flip that around and it means that if you have solved a problem, there is probably someone else looking for the answer and would really appreciate your experience. So why not put it out there?</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2017-10-26-putting-it-all-out-there/" 
+                        <a href="http://localhost:57259/articles/2018-01-15-can-we-talk-about-powershell-core-6-0/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1180,7 +1212,7 @@ When we are presented with a problem, we often go looking for answers from other
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bartek Bielawski on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/bartek-bielawski/</link>
+    <link>http://localhost:57259/authors/bartek-bielawski/</link>
     <description>Recent content in Bartek Bielawski on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jun 2013 20:46:30 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/bartek-bielawski/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/bartek-bielawski/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Last events: my notes and scripts.</title>
-      <link>https://powershell.org/articles/2013-06-08-last-events-my-notes-and-scripts/</link>
+      <link>http://localhost:57259/articles/2013-06-08-last-events-my-notes-and-scripts/</link>
       <pubDate>Sat, 08 Jun 2013 20:46:30 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-06-08-last-events-my-notes-and-scripts/</guid>
+      <guid>http://localhost:57259/articles/2013-06-08-last-events-my-notes-and-scripts/</guid>
       <description>&lt;p&gt;Oops! Looks like I totally forgot about posting what I did over here. Sorry!&lt;br&gt;&#xA;In order of appearance:&lt;br&gt;&#xA;&lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/28/event-5-my-way/&#34;&gt;Event 5 - script&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://becomelotr.wordpress.com/2013/06/02/event-5-my-notes/&#34;&gt;Event 5 - notes&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://becomelotr.wordpress.com/2013/06/05/event-6-my-way/&#34;&gt;Event 6 - script&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://becomelotr.wordpress.com/2013/06/08/event-6-my-notes/&#34;&gt;Event 6 - notes&lt;/a&gt;&lt;br&gt;&#xA;This is last event, and I would like to thank everybody who took part in this games. Thank you guys for great ideas, inspiration, feedback&amp;hellip; It was really educational experience for me (as it was in the past), and I hope it was educational for you too. And - congratulations for all the winners. 🙂&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 4: My notes…</title>
-      <link>https://powershell.org/articles/2013-05-25-event-4-my-notes/</link>
+      <link>http://localhost:57259/articles/2013-05-25-event-4-my-notes/</link>
       <pubDate>Sat, 25 May 2013 21:09:10 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-25-event-4-my-notes/</guid>
+      <guid>http://localhost:57259/articles/2013-05-25-event-4-my-notes/</guid>
       <description>&lt;p&gt;Active Directory is one of those things I just love to work with. That&amp;rsquo;s why I was really looking forward to this event. As always, I learned few things, but still - seen some mistakes that I would like to highlight. As always - you can read about those both in &lt;a href=&#34;http://powershellpl.net/2013/05/25/scripting-games-moje-notatki-4/&#34;&gt;Polish&lt;/a&gt; and in &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/25/event-4-my-notes/&#34;&gt;English&lt;/a&gt;. Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 3: My notes…</title>
-      <link>https://powershell.org/articles/2013-05-17-event-3-my-notes/</link>
+      <link>http://localhost:57259/articles/2013-05-17-event-3-my-notes/</link>
       <pubDate>Fri, 17 May 2013 21:56:13 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-17-event-3-my-notes/</guid>
+      <guid>http://localhost:57259/articles/2013-05-17-event-3-my-notes/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m almost done judging event 3, perfect time to share few thoughts about things I&amp;rsquo;ve seen in this event. A lot of great entries, but still few things that could have been done (in my opinion) better. If you want to know my general opinion - you can read it either in &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/17/event-3-my-notes/&#34;&gt;English&lt;/a&gt; or in &lt;a href=&#34;http://powershellpl.net/2013/05/17/scripting-games-moje-notatki-3/&#34;&gt;Polish&lt;/a&gt;. Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 3: My way…</title>
-      <link>https://powershell.org/articles/2013-05-13-event-3-my-way/</link>
+      <link>http://localhost:57259/articles/2013-05-13-event-3-my-way/</link>
       <pubDate>Tue, 14 May 2013 07:09:35 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-13-event-3-my-way/</guid>
+      <guid>http://localhost:57259/articles/2013-05-13-event-3-my-way/</guid>
       <description>&lt;p&gt;Third event is open for voting, but as usual - before I see any of the scripts submitted by you, I&amp;rsquo;m posting my version. Tried to sneak in few tricks I&amp;rsquo;ve learned here and there, hope you will enjoy reading and will tell me why I&amp;rsquo;m wrong. 😉 You can find whole post &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/14/event-3-my-way/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 2: My notes…</title>
-      <link>https://powershell.org/articles/2013-05-09-event-2-my-notes/</link>
+      <link>http://localhost:57259/articles/2013-05-09-event-2-my-notes/</link>
       <pubDate>Thu, 09 May 2013 21:50:28 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-09-event-2-my-notes/</guid>
+      <guid>http://localhost:57259/articles/2013-05-09-event-2-my-notes/</guid>
       <description>&lt;p&gt;Today I finally had some time to look at all entries in both categories. What I liked, and what I did not like about them? You can find answers, as previously, either in &lt;a href=&#34;http://powershellpl.net/2013/05/09/scripting-games-moje-notatki-2/&#34;&gt;Polish&lt;/a&gt;, or in &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/09/event-2-my-notes/&#34;&gt;English&lt;/a&gt;. I focused mainly on things I did not like, but I would anyway say that scripts are really good (overall) this year. Still: few poppies died. If you are responsible for it - remember: at the end of the day, it is you who is tossing away strength that PowerShell offers: Object Oriented Pipeline. 1* note is nothing in comparison with report, that will exists only as long as your &lt;strong&gt;host&lt;/strong&gt;, very same that you want to &lt;strong&gt;write&lt;/strong&gt; on so much&amp;hellip; 😉&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 2: My way…</title>
-      <link>https://powershell.org/articles/2013-05-06-event-2-my-way/</link>
+      <link>http://localhost:57259/articles/2013-05-06-event-2-my-way/</link>
       <pubDate>Tue, 07 May 2013 04:26:03 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-06-event-2-my-way/</guid>
+      <guid>http://localhost:57259/articles/2013-05-06-event-2-my-way/</guid>
       <description>&lt;p&gt;I haven&amp;rsquo;t received any negative feedback on idea to blog about &amp;ldquo;&lt;em&gt;how would I do it&lt;/em&gt;&amp;rdquo; (what you think about my approach is different topic) so I decided to continue. Again: because I don&amp;rsquo;t want to be influenced by your ideas and make my task as close to your work as possible I post it early, before I see any of cool techniques I haven&amp;rsquo;t thought of and you did, so that I can regret it later. &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/07/event-2-my-way/&#34;&gt;You can find whole article on my blog&lt;/a&gt;. Enjoy, and please - if you see something silly, let me know. I really &lt;strong&gt;do&lt;/strong&gt; appreciate negative feedback!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Few notes written after event 1.</title>
-      <link>https://powershell.org/articles/2013-05-01-few-notes-written-after-event-1/</link>
+      <link>http://localhost:57259/articles/2013-05-01-few-notes-written-after-event-1/</link>
       <pubDate>Thu, 02 May 2013 06:48:11 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-01-few-notes-written-after-event-1/</guid>
+      <guid>http://localhost:57259/articles/2013-05-01-few-notes-written-after-event-1/</guid>
       <description>&lt;p&gt;As promised, today more general thoughts on scripts I&amp;rsquo;ve seen in both categories in the first event. I&amp;rsquo;m Polish, so I decided to blog notes both in my own language, and in English, &amp;ldquo;just in case&amp;rdquo;. Also, my Polish is much better than my English (I hope!), so for people from Poland: they can read Polish version, without the pain of translating my-English to English-English. Enjoy!&lt;br&gt;&#xA;&lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/02/event-1-my-notes/&#34;&gt;English version&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://powershellpl.net/2013/05/02/scripting-games-moje-notatki-1/&#34;&gt;Polish version&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do you really Support Should Process…?</title>
-      <link>https://powershell.org/articles/2013-05-01-do-you-really-support-should-process/</link>
+      <link>http://localhost:57259/articles/2013-05-01-do-you-really-support-should-process/</link>
       <pubDate>Wed, 01 May 2013 22:02:38 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-05-01-do-you-really-support-should-process/</guid>
+      <guid>http://localhost:57259/articles/2013-05-01-do-you-really-support-should-process/</guid>
       <description>&lt;p&gt;While working on my notes for first event of Scripting Games I was looking around what others wrote, and was surprised that people really think that enabling SupportsShouldProcess is good enough. In my opinion - it is not. And because this is relatively big topic I decided to write separate blog post just about that. You can find it &lt;a href=&#34;http://becomelotr.wordpress.com/2013/05/01/supports-should-process-oh-really/&#34;&gt;here&lt;/a&gt;. I hope it will highlight the difference between &lt;strong&gt;enabling&lt;/strong&gt; this feature and actually &lt;strong&gt;implementing&lt;/strong&gt;Â it. And remember: &lt;strong&gt;do not&lt;/strong&gt;Â kill the messenger. 😉 More from me (mainly on other topics related to first event) tomorrow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event 1: My way…</title>
-      <link>https://powershell.org/articles/2013-04-29-event-1-my-way/</link>
+      <link>http://localhost:57259/articles/2013-04-29-event-1-my-way/</link>
       <pubDate>Tue, 30 Apr 2013 06:11:36 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-04-29-event-1-my-way/</guid>
+      <guid>http://localhost:57259/articles/2013-04-29-event-1-my-way/</guid>
       <description>&lt;p&gt;Looking for not-so-expert solution for Event 1 in both categories? Wonder how one of the judges would do it, if he had a chance? Want to return favor and tell me what I could do better and what I&amp;rsquo;m doing wrong? Don&amp;rsquo;t hesitate. 🙂 I decided it may be helpful to post my solutions before I ever see yours. Please find full article with lots of code on my &lt;a href=&#34;http://becomelotr.wordpress.com/2013/04/30/event-1-my-way/&#34;&gt;blog&lt;/a&gt;. If you want to tell me you like/ hate this idea - please don&amp;rsquo;t hesitate either. And now I move on to your work. Can&amp;rsquo;t wait!&lt;/p&gt;</description>
     </item>
   </channel>

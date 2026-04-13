@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Secure Your Powershell Session with JEA and Constrained Endpoints - PowerShell.org - Welcome Automaters!</title>
@@ -29,7 +29,7 @@ What is a constrained endpoint and why …">
     
     
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://powershell.org/articles/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints/">
+    <meta property="og:url" content="http://localhost:57259/articles/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints/">
     <meta property="og:title" content="Secure Your Powershell Session with JEA and Constrained Endpoints">
     <meta property="og:description"
         content="Index
@@ -49,7 +49,7 @@ What is a constrained endpoint and why …">
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints/">
     <meta property="twitter:title" content="Secure Your Powershell Session with JEA and Constrained Endpoints">
     <meta property="twitter:description"
         content="Index
@@ -212,10 +212,8 @@ What is a constrained endpoint and why …">
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -224,77 +222,101 @@ What is a constrained endpoint and why …">
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -302,7 +324,7 @@ What is a constrained endpoint and why …">
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -324,80 +346,108 @@ What is a constrained endpoint and why …">
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -479,17 +529,17 @@ What is a constrained endpoint and why …">
                 
                 <div class="flex items-center space-x-2">
                     <span class="text-gray-600 text-sm mr-2">Share:</span>
-                    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpowershell.org%2farticles%2f2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints%2f&text=Secure%20Your%20Powershell%20Session%20with%20JEA%20and%20Constrained%20Endpoints" 
+                    <a href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a57259%2farticles%2f2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints%2f&text=Secure%20Your%20Powershell%20Session%20with%20JEA%20and%20Constrained%20Endpoints" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-400 transition-colors duration-200">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpowershell.org%2farticles%2f2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints%2f" 
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2flocalhost%3a57259%2farticles%2f2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints%2f" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <button onclick="navigator.clipboard.writeText('https:\/\/powershell.org\/articles\/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints\/')" 
+                    <button onclick="navigator.clipboard.writeText('http:\/\/localhost:57259\/articles\/2019-03-28-secure-your-powershell-session-with-jea-and-constrained-endpoints\/')" 
                             class="text-gray-500 hover:text-gray-700 transition-colors duration-200"
                             title="Copy link">
                         <i class="fas fa-link"></i>
@@ -553,8 +603,7 @@ What is a constrained endpoint and why …">
 <blockquote>
 </blockquote>
 <blockquote>
-<p>RestrictedLanguage: Users may run cmdlets and functions, but are not permitted to use script blocks or variables except for the following permitted variables: $PSCulture, $PSUICulture, $True, $False, and $Null. Users may use only the basic comparison operators (-eq, -gt, -lt). Assignment statements, property references, and method calls are not permitted.</p>
-</blockquote>
+<p>RestrictedLanguage: Users may run cmdlets and functions, but are not permitted to use script blocks or variables except for the following permitted variables: $PSCulture, $PSUICulture, $True, $False, and $Null. Users may use only the basic comparison operators (-eq, -gt, -lt). Assignment statements, property references, and method calls are not permitted.</p></blockquote>
 <p>Similar to language mode, we also want to set a custom ExecutionPolicy for our endpoint. For this example, since we really only need our 3 defined commands, we&rsquo;ll use</p>
 <p><code>RemoteSigned </code>. For more information on various execution policies, see Microsoft&rsquo;s</p>
 <p><a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1">about_Execution_Policies</a> documentation.</p>
@@ -571,8 +620,7 @@ What is a constrained endpoint and why …">
 <p><code>&gt; Get-Help </code>&gt; ,</p>
 <p><code>&gt; Measure-Object </code>&gt; ,</p>
 <p><code>&gt; Out-Default </code>&gt; , and</p>
-<p><code>&gt; Select-Object </code>&gt; . Use the parameters of this cmdlet to add modules, functions, scripts, and other features to the session.</p>
-</blockquote>
+<p><code>&gt; Select-Object </code>&gt; . Use the parameters of this cmdlet to add modules, functions, scripts, and other features to the session.</p></blockquote>
 <p>Our code to create our session should now look like this:</p>
 <p><code>$sessionparams = @{ 'Path'            = &quot;$env:windir\system32\WindowsPowerShell\v1.0\MyPSEndpoint.pssc&quot; 'LanguageMode'    = 'RestrictedLanguage' 'ExecutionPolicy' = 'RemoteSigned' 'SessionType'     = 'RestrictedRemoteServer' 'ModulesToImport' = @('MyModule') } New-PSSessionConfigurationFile @sessionparams </code>The last thing necessary to begin using our constrained endpoint is to register it with Powershell:</p>
 <p><code>$registerparams = @{ 'Name'                     = 'MyPSEndpoint' 'Path'                     = &quot;$env:windir\system32\WindowsPowerShell\v1.0\MyPSEndpoint.pssc&quot; 'ShowSecurityDescriptorUI' = $True } Register-PSSessionConfiguration @registerparams </code>A very important screen should now appear. This is the SecurityDescriptorUI, which will allow us to delegate permissions for who can access our endpoint.</p>
@@ -580,8 +628,7 @@ What is a constrained endpoint and why …">
 </blockquote>
 <blockquote>
 <p>NOTE: You won&rsquo;t be able to set the SecurityDescriptorUI over a remote PSSession, so be sure to use the console to do this part. If you mess this up, you can reset it from a console:</p>
-<p><code>&gt; Get-PSSessionConfiguration -Name MyPSEndpoint | SetPSSessionConfiguration -ShowSecurityDescriptorUI </code>&gt;</p>
-</blockquote>
+<p><code>&gt; Get-PSSessionConfiguration -Name MyPSEndpoint | SetPSSessionConfiguration -ShowSecurityDescriptorUI </code>&gt;</p></blockquote>
 <p>Assign permissions as needed, and then verify your configuration has appropriate permissions:</p>
 <p><code>PS C:\Users\nate&gt; Get-PSSessionConfiguration -Name MyPSEndpoint Name          : MyPSEndpoint PSVersion     : 5.1 StartupScript : RunAsUser     : Permission    : NT AUTHORITY\INTERACTIVE AccessAllowed, BUILTIN\Administrators AccessAllowed, BUILTIN\Remote Management Users AccessAllowed </code>Without any additional configuration, commands run through the endpoint will execute as the logged in user. For this example, we need to specify other credentials on the server to execute our commands so our users do not need admin rights themselves.</p>
 <p><code>$RunAsCred = (Get-Credential) Set-PSSessionConfiguration -Name MyPSEndpoint -RunAsCredential $RunAsCred </code>## Using our endpoint {.wp-block-heading}</p>
@@ -613,8 +660,7 @@ Function        Select-Object
 <blockquote>
 </blockquote>
 <blockquote>
-<p>TIP: In Restricted Language Mode, we do not have access to the global variable $error. However, by utilizing advanced functions, we can specify -ErrorVariable to still be able to write the error to the event log, even if we don&rsquo;t present this information to our users in the console. This can be seen in the Restart-OurCustomService function, and in the screenshot below.</p>
-</blockquote>
+<p>TIP: In Restricted Language Mode, we do not have access to the global variable $error. However, by utilizing advanced functions, we can specify -ErrorVariable to still be able to write the error to the event log, even if we don&rsquo;t present this information to our users in the console. This can be seen in the Restart-OurCustomService function, and in the screenshot below.</p></blockquote>
 <p><img src="https://i.imgur.com/Jk0Iwaq.png" alt="Imgur"></p>
 <p>At this point we&rsquo;ve gone over creating a Powershell JEA Endpoint using restricted language and an available custom module for restarting a service. There is a massive amount more you can do with this, but I hope this real-world demonstration has made JEA just a little bit less intimidating and easy to use!</p>
 
@@ -637,7 +683,7 @@ Function        Select-Object
                     <div class="p-6">
                         <div class="text-sm text-gray-500 mb-2">Oct 18, 2016</div>
                         <h4 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                            <a href="https://powershell.org/articles/2016-10-18-pitfalls-of-the-pipeline/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2016-10-18-pitfalls-of-the-pipeline/" class="hover:text-blue-600 transition-colors duration-200">
                                 Pitfalls of the Pipeline
                             </a>
                         </h4>
@@ -656,7 +702,7 @@ Pipelining has several advantages:</p>
                     <div class="p-6">
                         <div class="text-sm text-gray-500 mb-2">May 22, 2016</div>
                         <h4 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                            <a href="https://powershell.org/articles/2016-05-22-practical-powershell-unit-testing/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2016-05-22-practical-powershell-unit-testing/" class="hover:text-blue-600 transition-colors duration-200">
                                 Practical PowerShell Unit-Testing
                             </a>
                         </h4>
@@ -676,7 +722,7 @@ For a more general treatment of unit tests, I refer you to Roy Osherove&rsquo;s 
                     <div class="p-6">
                         <div class="text-sm text-gray-500 mb-2">Apr 29, 2016</div>
                         <h4 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                            <a href="https://powershell.org/articles/2016-04-29-documenting-your-powershell-api-solved/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2016-04-29-documenting-your-powershell-api-solved/" class="hover:text-blue-600 transition-colors duration-200">
                                 Documenting your PowerShell API–solved!
                             </a>
                         </h4>
@@ -700,7 +746,7 @@ Here&rsquo;s the link to get you started on this fun journey:<br>
         <nav class="mt-12 pt-8 border-t border-gray-200">
             <div class="flex justify-between items-center">
                 
-                <a href="https://powershell.org/articles/2019-03-26-2019-community-lightning-demos/" 
+                <a href="http://localhost:57259/articles/2019-03-26-2019-community-lightning-demos/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <i class="fas fa-chevron-left mr-2"></i>
                     <span class="truncate max-w-xs">2019 Community Lightning Demos</span>
@@ -708,7 +754,7 @@ Here&rsquo;s the link to get you started on this fun journey:<br>
                 
                 
                 
-                <a href="https://powershell.org/articles/2019-03-29-icymi-powershell-week-of-29-march-2019/" 
+                <a href="http://localhost:57259/articles/2019-03-29-icymi-powershell-week-of-29-march-2019/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <span class="truncate max-w-xs">ICYMI: PowerShell Week of 29-March-2019</span>
                     <i class="fas fa-chevron-right ml-2"></i>
@@ -786,7 +832,7 @@ Here&rsquo;s the link to get you started on this fun journey:<br>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

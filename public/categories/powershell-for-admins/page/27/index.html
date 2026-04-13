@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,184 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="trust, but verify" 
+                     data-content="&lt;p&gt;the powershell code you write can turn up in interesting places. production services might rely on it. your co-workers might take a peak and borrow ideas from it. you might decide to share it online. someone might see your code online and use it in their own solutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ramblingcookiemonster.github.io/trust-but-verify/&#34;&gt;hit the link&lt;/a&gt; for a quick bit on how we can help create more reliable, consistent, and secure solutions. simplified to one line: always ask yourself &amp;ldquo;what could go wrong?&amp;rdquo;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 9, 2015</time>
+                            
+                            <span>•</span>
+                            <span>pscookiemonster</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-06-08-trust-but-verify/" class="hover:text-blue-600 transition-colors duration-200">
+                            Trust, but Verify
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The PowerShell code you write can turn up in interesting places. Production services might rely on it. Your co-workers might take a peak and borrow ideas from it. You might decide to share it online. Someone might see your code online and use it in their own solutions.</p>
+<p><a href="http://ramblingcookiemonster.github.io/Trust-but-Verify/">Hit the link</a> for a quick bit on how we can help create more reliable, consistent, and secure solutions. Simplified to one line: always ask yourself &ldquo;what could go wrong?&rdquo;</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-06-08-trust-but-verify/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="don&#39;t start learning powershell?!?!?" 
+                     data-content="&lt;p&gt;jason helmick and i were recently up in redmond recording a microsoft virtual academy series entitled, &amp;ldquo;building your datacenter one dsc resource at a time.&amp;rdquo; while we were there, we decided to film a tongue-in-cheek promo for the series that started with the premise that, &amp;ldquo;if you haven&amp;rsquo;t already learned powershell, you missed the bus.&amp;rdquo; obviously, there&amp;rsquo;s a bit more to the story.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 7, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-06-07-dont-start-learning-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            DON&#39;T Start Learning PowerShell?!?!?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Jason Helmick and I were recently up in Redmond recording a Microsoft Virtual Academy series entitled, &ldquo;Building Your Datacenter One DSC Resource at a Time.&rdquo; While we were there, we decided to film a tongue-in-cheek promo for the series that started with the premise that, &ldquo;if you haven&rsquo;t already learned PowerShell, you missed the bus.&rdquo; Obviously, there&rsquo;s a bit more to the story.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-06-07-dont-start-learning-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="creating a small footprint, base image part 4 | bringing it all together with automation" 
+                     data-content="&lt;p&gt;in this entry i combing all i covered into a set of scripts to automate the process of creating a small footprint vhdx base image and a wim to use a sorce that is fully patched. and i added a script to update the files on a regular basis.&lt;br&gt;
+check it out and let me know what you think.&lt;br&gt;
+&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/06/05/creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/&#34;&gt;creating a small footprint, base image part 4 | bringing it all together with automation&lt;/a&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 5, 2015</time>
+                            
+                            <span>•</span>
+                            <span>David Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/" class="hover:text-blue-600 transition-colors duration-200">
+                            Creating a small footprint, base image Part 4 | Bringing it all together with automation
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In this entry I combing all I covered into a set of scripts to automate the process of creating a small footprint VHDX base image and a WIM to use a sorce that is fully patched. And I added a script to update the files on a regular basis.<br>
+Check it out and let me know what you think.<br>
+<a href="https://bladefirelight.wordpress.com/2015/06/05/creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/">Creating a small footprint, base image Part 4 | Bringing it all together with automation</a></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-06-04-creating-a-small-footprint-base-image-part-4-bringing-it-all-together-with-automation/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="major changes to dsc pull server configuration ids" 
+                     data-content="&lt;p&gt;configuration ids - globally unique identifiers, or guids, that dsc nodes use to identify themselves to a pull server - have always been a limiting factor in dsc design and architecture. in the april 2015 preview of wmf5, however, microsoft has completely overhauled configuration ids. if you&amp;rsquo;re working with dsc, this is must-have information.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jun 2, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-06-02-major-changes-to-dsc-pull-server-configuration-ids/" class="hover:text-blue-600 transition-colors duration-200">
+                            Major Changes to DSC Pull Server Configuration IDs
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Configuration IDs - Globally Unique Identifiers, or GUIDs, that DSC nodes use to identify themselves to a pull server - have always been a limiting factor in DSC design and architecture. In the April 2015 preview of WMF5, however, Microsoft has completely overhauled Configuration IDs. If you&rsquo;re working with DSC, this is must-have information.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-06-02-major-changes-to-dsc-pull-server-configuration-ids/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="new ps module for working with f5&#39;s ltm rest api" 
                      data-content="&lt;p&gt;if you use f5&amp;rsquo;s big‑ip local traffic manager (ltm) for load-balancing, then you may find the new ps module i&amp;rsquo;ve written helpful. the module uses the rest api in ver. 11.6 of the ltm to query and manipulate an f5 ltm device. you can add and remove members from a pool, enable and disable them, and find out what pools a member is in, among other things.&lt;br&gt;
 i&amp;rsquo;ve made the module files available &lt;a href=&#34;https://github.com/joel74/posh-ltm-rest&#34;&gt;here&lt;/a&gt;. i welcome all comments.&lt;br&gt;
@@ -446,7 +674,7 @@ joel&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-26-new-ps-module-for-working-with-f5s-ltm-rest-api/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-05-26-new-ps-module-for-working-with-f5s-ltm-rest-api/" class="hover:text-blue-600 transition-colors duration-200">
                             New PS Module for working with F5&#39;s LTM REST API
                         </a>
                     </h2>
@@ -458,7 +686,7 @@ Cheers,<br>
 Joel</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-26-new-ps-module-for-working-with-f5s-ltm-rest-api/" 
+                        <a href="http://localhost:57259/articles/2015-05-26-new-ps-module-for-working-with-f5s-ltm-rest-api/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -514,7 +742,7 @@ github pages - &lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.g
                             
                         </div>
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2015-05-22-episode-299-powerscripting-podcast-warren-frame-on-invoke-parallel-and-poshrsjob/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2015-05-22-episode-299-powerscripting-podcast-warren-frame-on-invoke-parallel-and-poshrsjob/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 299 – PowerScripting Podcast -Warren Frame on Invoke-Parallel and PoshRSJob
                             </a>
                         </h2>
@@ -545,7 +773,7 @@ StarWars trailer (whoa! I did not know!)  <a href="https://www.youtube.com/watc
 GitHub pages - <a href="https://pages.github.com/">https://pages.github.com/</a><br>
 <strong>Question</strong></p></p>
                         <div class="flex items-center space-x-4">
-                            <a href="https://powershell.org/podcast/2015-05-22-episode-299-powerscripting-podcast-warren-frame-on-invoke-parallel-and-poshrsjob/" 
+                            <a href="http://localhost:57259/podcast/2015-05-22-episode-299-powerscripting-podcast-warren-frame-on-invoke-parallel-and-poshrsjob/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen
                             </a>
@@ -582,7 +810,7 @@ GitHub pages - <a href="https://pages.github.com/">https://pages.github.com/</a>
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/" class="hover:text-blue-600 transition-colors duration-200">
                             Creating a small footprint, base image Part 2
                         </a>
                     </h2>
@@ -591,7 +819,7 @@ GitHub pages - <a href="https://pages.github.com/">https://pages.github.com/</a>
 <a href="https://bladefirelight.wordpress.com/2015/05/20/creating-a-small-footprint-base-image-part-2-patching-and-cleanup-via-powershell/">Patching and Cleanup via PowerShell</a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/" 
+                        <a href="http://localhost:57259/articles/2015-05-20-creating-a-small-footprint-base-image-part-2/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -626,7 +854,7 @@ GitHub pages - <a href="https://pages.github.com/">https://pages.github.com/</a>
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/" class="hover:text-blue-600 transition-colors duration-200">
                             Creating a small footprint, base image Part 1
                         </a>
                     </h2>
@@ -634,7 +862,7 @@ GitHub pages - <a href="https://pages.github.com/">https://pages.github.com/</a>
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;m starting a new blog series on using <a href="https://bladefirelight.wordpress.com/2015/05/19/creating-a-small-footprint-base-image-part-1-vhdx-from-iso/">PowerShell to create small footprint VHDX</a> that are fully patched.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/" 
+                        <a href="http://localhost:57259/articles/2015-05-19-creating-a-small-footprint-base-image-part-1/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -679,7 +907,7 @@ do you have any suggestions on how we can get to a place where using source cont
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-18-source-control-survey-results/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-05-18-source-control-survey-results/" class="hover:text-blue-600 transition-colors duration-200">
                             Survey Results: Source Control for the IT Professional
                         </a>
                     </h2>
@@ -697,7 +925,7 @@ If you want to get up and running quickly, consider <a href="http://ramblingcook
 Do you have any suggestions on how we can get to a place where using source control is common place for IT professionals? Is this a worthwhile goal? Sound off in the comments!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-18-source-control-survey-results/" 
+                        <a href="http://localhost:57259/articles/2015-05-18-source-control-survey-results/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -737,7 +965,7 @@ cheers!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-10-survey-source-control-for-the-it-professional/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-05-10-survey-source-control-for-the-it-professional/" class="hover:text-blue-600 transition-colors duration-200">
                             Survey: Source Control for the IT Professional [Results in]
                         </a>
                     </h2>
@@ -750,219 +978,7 @@ I drafted up a quick, informal <a href="http://bit.ly/VCSForIT">survey on source
 Cheers!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-10-survey-source-control-for-the-it-professional/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="setting up the powershell.org dsc tools from github" 
-                     data-content="&lt;p&gt;i have created a &lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/&#34;&gt;short blog series&lt;/a&gt; about how to setup the dsc tooling from the &lt;a href=&#34;https://github.com/powershellorg/dsc&#34;&gt;powershell.org dsc repository&lt;/a&gt;. with the mindset of contributing changes.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/&#34;&gt;test-homelab -inputobject ‘the plan’&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/04/30/get-posh-git-test-lab/&#34;&gt;get-posh-git | test-lab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/02/get-dscframework-test-lab/&#34;&gt;get-dscframework | test-lab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/03/invoke-dscbuild-test-lab-2/&#34;&gt;invoke-dscbuild | test-lab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bladefirelight.wordpress.com/2015/05/06/test-lab-update-github/&#34;&gt;test-lab | update-github&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;-david jones&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 6, 2015</time>
-                            
-                            <span>•</span>
-                            <span>David Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/" class="hover:text-blue-600 transition-colors duration-200">
-                            Setting up the PowerShell.org DSC tools from Github
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I have created a <a href="https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/">short blog series</a> about how to setup the DSC tooling from the <a href="https://github.com/PowerShellOrg/DSC">PowerShell.org DSC repository</a>. With the mindset of contributing changes.</p>
-<ol>
-<li><a href="https://bladefirelight.wordpress.com/2015/04/27/test-homelab-inputobject-the-plan/">Test-HomeLab -InputObject ‘The Plan’</a></li>
-<li><a href="https://bladefirelight.wordpress.com/2015/04/30/get-posh-git-test-lab/">Get-Posh-Git | Test-Lab</a></li>
-<li><a href="https://bladefirelight.wordpress.com/2015/05/02/get-dscframework-test-lab/">Get-DSCFramework | Test-Lab</a></li>
-<li><a href="https://bladefirelight.wordpress.com/2015/05/03/invoke-dscbuild-test-lab-2/">Invoke-DscBuild | Test-Lab</a></li>
-<li><a href="https://bladefirelight.wordpress.com/2015/05/06/test-lab-update-github/">Test-Lab | Update-GitHub</a></li>
-</ol>
-<p>-David Jones</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-05-setting-up-the-powershell-org-dsc-tools-from-github/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="dealing with the click-next-admin" 
-                     data-content="&lt;p&gt;i had a good deal of yard work to do this weekend; i see yard work in a similar way that a click-next-admin sees windows powershell. i want no part in it. so i wrote a quick bit on &lt;a href=&#34;http://ramblingcookiemonster.github.io/dealing-with-the-click-next-admin/&#34;&gt;how we can deal with the click-next-admin&lt;/a&gt;.&lt;br&gt;
-jeffrey snover recently gave a techdays online session where he candidly asked us to &amp;ldquo;make today the last day you hire a click next admin.&amp;rdquo;&lt;br&gt;
-&lt;img src=&#34;http://ramblingcookiemonster.github.io/images/click-next/lastday.png&#34; alt=&#34;reward the right people&#34;&gt;&lt;br&gt;
-this is a fantastic goal, but how do we get there? there&amp;rsquo;s no set answer, but i listed out some of the major challenges i see.&lt;br&gt;
-would love to hear your feedback and ideas - &lt;a href=&#34;http://ramblingcookiemonster.github.io/dealing-with-the-click-next-admin/&#34;&gt;flip through the post&lt;/a&gt; and stop back here to discuss!&lt;br&gt;
-if you&amp;rsquo;d like to have some fun, share your click-next-admin stories on twitter with the &lt;a href=&#34;https://twitter.com/search?q=%23clicknextadmin&amp;amp;src=typd&#34;&gt;#clicknextadmin&lt;/a&gt; tag.&lt;br&gt;
-&lt;img src=&#34;http://ramblingcookiemonster.github.io/images/click-next/toobusy.png&#34; alt=&#34;too busy&#34;&gt;&lt;br&gt;
-aside: thank you for the invite to contribute here, it&amp;rsquo;s an honor.&lt;br&gt;
-cheers!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 4, 2015</time>
-                            
-                            <span>•</span>
-                            <span>pscookiemonster</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-05-04-dealing-with-the-click-next-admin/" class="hover:text-blue-600 transition-colors duration-200">
-                            Dealing with the Click-Next-Admin
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I had a good deal of yard work to do this weekend; I see yard work in a similar way that a click-next-admin sees Windows PowerShell. I want no part in it. So I wrote a quick bit on <a href="http://ramblingcookiemonster.github.io/Dealing-With-The-Click-Next-Admin/">how we can deal with the click-next-admin</a>.<br>
-Jeffrey Snover recently gave a TechDays Online session where he candidly asked us to &ldquo;make today the last day you hire a click next admin.&rdquo;<br>
-<img src="http://ramblingcookiemonster.github.io/images/click-next/lastday.png" alt="Reward the right people"><br>
-This is a fantastic goal, but how do we get there? There&rsquo;s no set answer, but I listed out some of the major challenges I see.<br>
-Would love to hear your feedback and ideas - <a href="http://ramblingcookiemonster.github.io/Dealing-With-The-Click-Next-Admin/">flip through the post</a> and stop back here to discuss!<br>
-If you&rsquo;d like to have some fun, share your click-next-admin stories on twitter with the <a href="https://twitter.com/search?q=%23clicknextadmin&amp;src=typd">#ClickNextAdmin</a> tag.<br>
-<img src="http://ramblingcookiemonster.github.io/images/click-next/toobusy.png" alt="Too Busy"><br>
-Aside: Thank you for the invite to contribute here, it&rsquo;s an honor.<br>
-Cheers!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-05-04-dealing-with-the-click-next-admin/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="why is remoting enabled by default on windows server?" 
-                     data-content="&lt;p&gt;there was a brief and lively discussion on twitter recently stemming from someone asking for advice on how to convince management to turn on remoting.&lt;br&gt;
-&amp;ldquo;fire management, if they have to ask&amp;rdquo; was apparently not an option, although it should have been. i mean, at this stage, you either know the value of powershell and its remoting technology, or you&amp;rsquo;re being willfully ignorant.&lt;br&gt;
-but that wasn&amp;rsquo;t where the discussion got lively.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 28, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-04-28-why-is-remoting-enabled-by-default-on-windows-server/" class="hover:text-blue-600 transition-colors duration-200">
-                            Why is Remoting Enabled by Default on Windows Server?
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>There was a brief and lively discussion on Twitter recently stemming from someone asking for advice on how to convince management to turn on Remoting.<br>
-&ldquo;Fire Management, if they have to ask&rdquo; was apparently not an option, although it should have been. I mean, at this stage, you either know the value of PowerShell and its Remoting technology, or you&rsquo;re being willfully ignorant.<br>
-But that wasn&rsquo;t where the discussion got lively.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-04-28-why-is-remoting-enabled-by-default-on-windows-server/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="management information: the omi/cim/wmi/mi/dmtf dictionary" 
-                     data-content="&lt;p&gt;not too long ago, over on donjones.com, i &lt;a href=&#34;http://donjones.com/2015/04/14/omi-cim-wmi/&#34;&gt;wrote an article&lt;/a&gt; that tried to explain some of the confusion between microsoft&amp;rsquo;s world of management instrumentation - e.g., wmi, omi, cim, and a bunch of other acronyms. i glossed over some of the finer details, and this article is intended to provide more specificity and accuracy - thanks to microsoft&amp;rsquo;s keith bankston for helping me sort things out.&lt;/p&gt;
-&lt;h2 id=&#34;cim-and-the-dmtf&#34;&gt;cim and the dmtf&lt;/h2&gt;
-&lt;p&gt;let us begin with cim. cim stands for common information model, and it is not a tangible thing. it isn&amp;rsquo;t even software. it&amp;rsquo;s a set of standards that describe how management information can be represented in software, and it was created by the distributed management task force (dmtf), an industry working group that microsoft is a member of.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 24, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-04-24-management-information-the-omicimwmimidmtf-dictionary/" class="hover:text-blue-600 transition-colors duration-200">
-                            Management Information: The OMI/CIM/WMI/MI/DMTF Dictionary
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Not too long ago, over on DonJones.com, I <a href="http://donjones.com/2015/04/14/omi-cim-wmi/">wrote an article</a> that tried to explain some of the confusion between Microsoft&rsquo;s World of Management Instrumentation - e.g., WMI, OMI, CIM, and a bunch of other acronyms. I glossed over some of the finer details, and this article is intended to provide more specificity and accuracy - thanks to Microsoft&rsquo;s Keith Bankston for helping me sort things out.</p>
-<h2 id="cim-and-the-dmtf">CIM and the DMTF</h2>
-<p>Let us begin with CIM. CIM stands for Common Information Model, and it is not a tangible thing. It isn&rsquo;t even software. It&rsquo;s a set of standards that describe how management information can be represented in software, and it was created by the Distributed Management Task Force (DMTF), an industry working group that Microsoft is a member of.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-04-24-management-information-the-omicimwmimidmtf-dictionary/" 
+                        <a href="http://localhost:57259/articles/2015-05-10-survey-source-control-for-the-it-professional/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1237,7 +1253,7 @@ But that wasn&rsquo;t where the discussion got lively.</p></p>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

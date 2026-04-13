@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,168 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell mvp for 2012" 
+                     data-content="&lt;p&gt;every year around christmas i anxiously await the new year to see if i receive the microsoft mvp award again that year.  well that email came on january 1, 2012, and i&amp;quot;™m quite thrilled about this one because it&amp;quot;™s a milestone this time (year 5 as a powershell mvp).  thanks to the community for being so great to work with, and thanks to microsoft both for recognizing individual efforts with the mvp program and for creating such great products like windows powershell!  work has never been so much fun!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 4, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Kirk Munro</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell MVP for 2012
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Every year around Christmas I anxiously await the New Year to see if I receive the Microsoft MVP award again that year.  Well that email came on January 1, 2012, and I&quot;™m quite thrilled about this one because it&quot;™s a milestone this time (year 5 as a PowerShell MVP).  Thanks to the community for being so great to work with, and thanks to Microsoft both for recognizing individual efforts with the MVP program and for creating such great products like Windows PowerShell!  Work has never been so much fun!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell v3 ctp2 provides better argument passing to exes" 
+                     data-content="&lt;p&gt;within powershell it has always been easy to pass &amp;ldquo;simple&amp;rdquo; arguments to an exe e.g.:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;c:\ps&amp;gt; ipconfig -all &lt;/code&gt;however passing arguments to certain exes can become surprising difficult when their command line parameter syntax is complex i.e. they require quotes and use special powershell characters such as @ $ ;.â  a lot of these problems can be solved by placing single or double quotes in the right places or by escaping powershell&amp;quot;™s special characters e.g.:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 2, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Keith Hill</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-01-02-powershell-v3-ctp2-provides-better-argument-passing-to-exes/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell V3 CTP2 Provides Better Argument Passing to EXEs
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Within PowerShell it has always been easy to pass &ldquo;simple&rdquo; arguments to an EXE e.g.:</p>
+<p><code>C:\PS&gt; ipconfig -all </code>However passing arguments to certain exes can become surprising difficult when their command line parameter syntax is complex i.e. they require quotes and use special PowerShell characters such as @ $ ;.Â  A lot of these problems can be solved by placing single or double quotes in the right places or by escaping PowerShell&quot;™s special characters e.g.:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-01-02-powershell-v3-ctp2-provides-better-argument-passing-to-exes/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="microsoft windows powershell v3 ctp2 available for download" 
+                     data-content="&lt;p&gt;you can grab the bits from &lt;a href=&#34;http://www.microsoft.com/download/en/details.aspx?id=27548&#34;&gt;here&lt;/a&gt;. if you have v3 ctp1 installed, please uninstall it first or you can get your machine into a bad state.&lt;/p&gt;
+&lt;p&gt;so far my favorite two features new to this drop are both in the integrated scripting editor (ise). the first is the &amp;ldquo;most recently opened files list&amp;rdquo; on the file menu and second is the switch to a two pane ise (combines the output and command panes into one). oh yeah, there isn&amp;quot;™t much in the help system until you run update-help from an elevated prompt.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 5, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Keith Hill</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-12-05-microsoft-windows-powershell-v3-ctp2-available-for-download/" class="hover:text-blue-600 transition-colors duration-200">
+                            Microsoft Windows PowerShell V3 CTP2 Available for Download
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>You can grab the bits from <a href="http://www.microsoft.com/download/en/details.aspx?id=27548">here</a>. If you have V3 CTP1 installed, please uninstall it first or you can get your machine into a bad state.</p>
+<p>So far my favorite two features new to this drop are both in the Integrated Scripting Editor (ISE). The first is the &ldquo;most recently opened files list&rdquo; on the File menu and second is the switch to a two pane ISE (combines the output and command panes into one). Oh yeah, there isn&quot;™t much in the help system until you run Update-Help from an elevated prompt.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-12-05-microsoft-windows-powershell-v3-ctp2-available-for-download/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="windows powershell version 3 simplified syntax" 
+                     data-content="&lt;p&gt;windows powershell version 3 introduces a simplified syntax for the where-object and foreach-object cmdlets.  the simplified syntax shown below, eliminates the curly braces as well as the need for the special variable $_.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;c:\ps&amp;gt; get-process | where pm -gt 100mb ... c:\ps&amp;gt; get-process | foreach name ... &lt;/code&gt;the intent of this &amp;ldquo;syntax&amp;rdquo; is to make it easier for folks get started with powershell.  compared to the commands below, i can see the value of the simplified syntax:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Oct 20, 2011</time>
+                            
+                            <span>•</span>
+                            <span>Keith Hill</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2011-10-19-windows-powershell-version-3-simplified-syntax/" class="hover:text-blue-600 transition-colors duration-200">
+                            Windows PowerShell Version 3 Simplified Syntax
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Windows PowerShell version 3 introduces a simplified syntax for the Where-Object and Foreach-Object cmdlets.  The simplified syntax shown below, eliminates the curly braces as well as the need for the special variable $_.</p>
+<p><code>C:\PS&gt; Get-Process | Where PM -gt 100MB ... C:\PS&gt; Get-Process | Foreach Name ... </code>The intent of this &ldquo;syntax&rdquo; is to make it easier for folks get started with PowerShell.  Compared to the commands below, I can see the value of the simplified syntax:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2011-10-19-windows-powershell-version-3-simplified-syntax/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="powerse 2.5.3 is now available" 
                      data-content="&lt;p&gt;a little over a week ago we released &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;powerse 2.5.3&lt;/a&gt; to the web.  you can download the latest release &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;here&lt;/a&gt;.  this release includes many great improvements to the &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;powerse&lt;/a&gt; product, many of which were requested by you, so thanks for your feedback and please keep it coming!&lt;/p&gt;
 &lt;h4 id=&#34;no-time-limit-for-freeware&#34;&gt;no time limit for freeware&lt;/h4&gt;
@@ -435,7 +647,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerSE 2.5.3 is now available
                         </a>
                     </h2>
@@ -445,7 +657,7 @@
 <p>With this release, we&quot;™ve removed the requirement to re-download this product every 60 days.  This was our number one feature request since we made <a href="http://powerwf.com/products/powerse.aspx">PowerSE</a> a freeware product.  Now when you download <a href="http://powerwf.com/products/powerse.aspx">PowerSE</a> 2.5.3, it is truly freeware and you can use it as long as you like!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/" 
+                        <a href="http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -489,7 +701,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-09-18-pscx-2-1-beta-1-available-for-download/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-09-18-pscx-2-1-beta-1-available-for-download/" class="hover:text-blue-600 transition-colors duration-200">
                             PSCX 2.1 Beta 1 Available for Download
                         </a>
                     </h2>
@@ -510,7 +722,7 @@
 <p>30169 Invoke-Ternary example doesn&rsquo;t work</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-09-18-pscx-2-1-beta-1-available-for-download/" 
+                        <a href="http://localhost:57259/articles/2011-09-18-pscx-2-1-beta-1-available-for-download/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -541,7 +753,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" class="hover:text-blue-600 transition-colors duration-200">
                             Seasons of change: new Product Manager for PowerWFâ„¢ and PowerSE at Devfarm Software
                         </a>
                     </h2>
@@ -549,7 +761,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>I always enjoy this time of year.  There is something about the transition that happens over Labour Day weekend that always gets me excited.  Maybe it&quot;™s a lingering feeling of anticipation over the new year at school or university from years gone by, a feeling that I can still appreciate these days as I watch my kids getting excited about their education and the new activities they will sign up for this fall.  Regardless, it&quot;™s always a fun time of year for me.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" 
+                        <a href="http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -580,7 +792,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" class="hover:text-blue-600 transition-colors duration-200">
                             One for the road: Stepping away from PowerGUIÂ®
                         </a>
                     </h2>
@@ -588,7 +800,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Today was one of my most difficult days in my 7Â½+ year career at Quest Software.  The same week that I was given a performance raise (I got that email on Monday), this afternoon I got a phone call from the director over my business unit letting me know that my position has been cut effective immediately.  Part of a book balancing effort it seems –  funny (or not so much) how life works sometimes.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" 
+                        <a href="http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -621,7 +833,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerGUIÂ® 3.0 Hotfix: Double-clicking on a ps1, psm1, or psd1 file to open the Script Editor shows the Start Page as the active page in the Script Editor
                         </a>
                     </h2>
@@ -631,7 +843,7 @@
 <p>While the <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a> Script Editor is closed, double-clicking on a ps1, psm1 or psd1 file or right-clicking on one of those file types and selecting &ldquo;Open with PowerGUI Script Editor&rdquo; will open the file you selected in the Script Editor as expected; however the Start Page will appear as the active tab in the Script Editor instead of the file you opened.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" 
+                        <a href="http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -662,7 +874,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerGUIÂ® Pro 3.0: Mobile Systems Management Using MobileShell
                         </a>
                     </h2>
@@ -670,173 +882,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>In case you missed the announcement last Friday, [<a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> ]<a href="http://www.powergui.org/" title="PowerGUI.org">2</a>3.0 was released to the web.  With this release we included a new feature that I&quot;™m really excited about: Mobile Systems Management Using MobileShell.  We&quot;™ve had MobileShell for quite a while, but prior to this release you could only use it to invoke your favorite scripts or commands from modules associated with your user account as well as ad hoc commands you wanted to run.  Here&quot;™s a screenshot tour showing you what this interface would look like on a handheld device:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powerguiâ® pro and powerguiâ® 3.0 are now available" 
-                     data-content="&lt;p&gt;today&amp;quot;™s an exciting day because i&amp;quot;™ve finished releasing &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;powergui pro&#34;&gt;powergui pro&lt;/a&gt; 3.0 and &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;powergui.org&#34;&gt;powergui&lt;/a&gt; 3.0 to the web!  this release is something we&amp;quot;™ve been working on for a long time, and it has a ton of new goodies for you to play with.  you can learn more about the individual features in this release in the highlights below.  when reviewing these features, anything that is only available in powergui pro will be marked as a pro feature.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 16, 2011</time>
-                            
-                            <span>•</span>
-                            <span>Kirk Munro</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerGUIÂ® Pro and PowerGUIÂ® 3.0 are now available
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Today&quot;™s an exciting day because I&quot;™ve finished releasing <a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> 3.0 and <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a> 3.0 to the web!  This release is something we&quot;™ve been working on for a long time, and it has a ton of new goodies for you to play with.  You can learn more about the individual features in this release in the highlights below.  When reviewing these features, anything that is only available in PowerGUI Pro will be marked as a Pro feature.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="vworkspace powerpack: a great example of the power and flexibility you get from powershell and powerguiâ®" 
-                     data-content="&lt;p&gt;last week, the &lt;a href=&#34;http://www.quest.com/vworkspace/&#34; title=&#34;quest vworkspace&#34;&gt;quest vworkspace&lt;/a&gt; guys showed their prowess once again when they released the first version of the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryid=290&amp;amp;externalid=3561&#34; title=&#34;vworkspace powerpack&#34;&gt;vworkspace powerpack&lt;/a&gt; for &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;powergui pro&#34;&gt;powerguiâ® pro&lt;/a&gt; and &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;powergui.org&#34;&gt;powergui&lt;/a&gt;â®.  i love this powerpack because it really demonstrates how powergui is so complementary to powershell.  to see what i mean, take a look at the following screenshot:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://kirkmunro.files.wordpress.com/2011/06/image.png&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/06/image_thumb.png?w=604&amp;amp;h=364&#34; alt=&#34;vworkspace powerpack - multi-farm management&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;this screenshot shows two major improvements to the vworkspace management experience by demonstrating how you can use the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryid=290&amp;amp;externalid=3561&#34; title=&#34;vworkspace powerpack&#34;&gt;vworkspace powerpack&lt;/a&gt; to perform management tasks across all farms, and by demonstrating how you can use the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryid=290&amp;amp;externalid=3561&#34; title=&#34;vworkspace powerpack&#34;&gt;vworkspace powerpack&lt;/a&gt; to perform management tasks across all locations in a single farm or across all locations in all farms.  in the native vworkspace management user interface, you can only work with one farm at a time, and you can only work with one location at a time.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 28, 2011</time>
-                            
-                            <span>•</span>
-                            <span>Kirk Munro</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" class="hover:text-blue-600 transition-colors duration-200">
-                            vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUIÂ®
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Last week, the <a href="http://www.quest.com/vworkspace/" title="Quest vWorkspace">Quest vWorkspace</a> guys showed their prowess once again when they released the first version of the <a href="http://www.powergui.org/entry.jspa?categoryID=290&amp;externalID=3561" title="vWorkspace PowerPack">vWorkspace PowerPack</a> for <a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUIÂ® Pro</a> and <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a>Â®.  I love this PowerPack because it really demonstrates how PowerGUI is so complementary to PowerShell.  To see what I mean, take a look at the following screenshot:</p>
-<p><a href="http://kirkmunro.files.wordpress.com/2011/06/image.png"><img src="http://kirkmunro.files.wordpress.com/2011/06/image_thumb.png?w=604&amp;h=364" alt="vWorkspace PowerPack - multi-farm management"></a></p>
-<p>This screenshot shows two major improvements to the vWorkspace management experience by demonstrating how you can use the <a href="http://www.powergui.org/entry.jspa?categoryID=290&amp;externalID=3561" title="vWorkspace PowerPack">vWorkspace PowerPack</a> to perform management tasks across all farms, and by demonstrating how you can use the <a href="http://www.powergui.org/entry.jspa?categoryID=290&amp;externalID=3561" title="vWorkspace PowerPack">vWorkspace PowerPack</a> to perform management tasks across all locations in a single farm or across all locations in all farms.  In the native vWorkspace management user interface, you can only work with one farm at a time, and you can only work with one location at a time.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powergui proâ® 3.0 beta 2 is now available" 
-                     data-content="&lt;p&gt;hot on the heels of our first beta cycle for &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;powergui pro&#34;&gt;powergui pro&lt;/a&gt; 3.0, today we released beta 2 of powergui pro 3.0 to the web.  this release includes a lot of fixes and improvements based on the feedback we&amp;quot;™ve received from you during our first beta cycle, so thank you for that feedback!&lt;/p&gt;
-&lt;p&gt;here are some details about the improvements that have been made in the 2nd beta of powergui pro 3.0:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 17, 2011</time>
-                            
-                            <span>•</span>
-                            <span>Kirk Munro</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerGUI ProÂ® 3.0 Beta 2 is now available
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Hot on the heels of our first beta cycle for <a href="http://www.powerguipro.com/" title="PowerGUI Pro">PowerGUI Pro</a> 3.0, today we released beta 2 of PowerGUI Pro 3.0 to the web.  This release includes a lot of fixes and improvements based on the feedback we&quot;™ve received from you during our first beta cycle, so thank you for that feedback!</p>
-<p>Here are some details about the improvements that have been made in the 2nd beta of PowerGUI Pro 3.0:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="configuring rbac for mobileshell in powergui pro 3.0" 
-                     data-content="&lt;p&gt;yesterday we released the public &lt;a href=&#34;http://poshoholic.com/2011/05/17/try-the-powergui-pro-3-0-beta-today/&#34; title=&#34;powergui pro 3.0 beta&#34;&gt;beta of powerguiâ® pro 3.0&lt;/a&gt;, which comes with all sorts of cool new features for &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;powergui.org&#34;&gt;powergui&lt;/a&gt; users.â  my favorite feature is definitely the new management interface for mobileshell.â  with this interface, you can perform systems management from your handheld device very easily.â  here&amp;quot;™s what that might look like from your webkit-enabled web browser:&lt;br&gt;
-&lt;a href=&#34;http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions1.png&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions_thumb.png?w=354&amp;amp;h=640&#34; alt=&#34;mobileshell.actions&#34;&gt;&lt;/a&gt;&lt;br&gt;
-since this is only a beta release, it doesn&amp;quot;™t necessarily have everything fully polished just yet.â  one thing that we didn&amp;quot;™t get to include in the beta release was a management console allowing you to associate powerpacks with ad users and groups as well as instructions describing how you set up mobileshell to use this new interface with the beta.â  the powerpack that will be used to do that will come later.â  in the meantime, this post will give you the necessary instructions to get started.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 19, 2011</time>
-                            
-                            <span>•</span>
-                            <span>Kirk Munro</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/" class="hover:text-blue-600 transition-colors duration-200">
-                            Configuring RBAC for MobileShell in PowerGUI Pro 3.0
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Yesterday we released the public <a href="http://poshoholic.com/2011/05/17/try-the-powergui-pro-3-0-beta-today/" title="PowerGUI Pro 3.0 Beta">beta of PowerGUIÂ® Pro 3.0</a>, which comes with all sorts of cool new features for <a href="http://www.powergui.org/" title="PowerGUI.org">PowerGUI</a> users.Â  My favorite feature is definitely the new management interface for MobileShell.Â  With this interface, you can perform systems management from your handheld device very easily.Â  Here&quot;™s what that might look like from your webkit-enabled web browser:<br>
-<a href="http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions1.png"><img src="http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions_thumb.png?w=354&amp;h=640" alt="MobileShell.Actions"></a><br>
-Since this is only a beta release, it doesn&quot;™t necessarily have everything fully polished just yet.Â  One thing that we didn&quot;™t get to include in the beta release was a management console allowing you to associate PowerPacks with AD users and groups as well as instructions describing how you set up MobileShell to use this new interface with the beta.Â  The PowerPack that will be used to do that will come later.Â  In the meantime, this post will give you the necessary instructions to get started.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/" 
+                        <a href="http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1309,7 +1355,7 @@ Since this is only a beta release, it doesn&quot;™t necessarily have everythin
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

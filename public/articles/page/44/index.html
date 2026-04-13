@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,248 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell news roundup (there&#39;s been a lot of it)" 
+                     data-content="&lt;p&gt;there&amp;rsquo;ve been so many under-the-radar announcements and news bits about powershell, that i thought it&amp;rsquo;d be worth a quick start-of-the-week, pre-holiday roundup.&lt;br&gt;
+first off, the big news is that **&lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2015/12/16/windows-management-framework-wmf-5-0-rtm-is-now-available.aspx&#34;&gt;windows management framework v5 has been released to manufacturing (rtm)&lt;/a&gt;. **not that there&amp;rsquo;s any real &amp;ldquo;manufacturing&amp;rdquo; anymore, but this means we&amp;rsquo;ve hit the milestone where it&amp;rsquo;s &amp;ldquo;done.&amp;rdquo; now, if microsoft is smart, whatever wmf ships with win2016 will be &amp;ldquo;5.1&amp;rdquo; or something, so we can all keep track of what&amp;rsquo;s what. fingers crossed on that.&lt;br&gt;
+next, and you may have missed this, &lt;strong&gt;microsoft is moving away from connect and over to uservoice&lt;/strong&gt; for many products, and &lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2015/12/14/improving-the-powershell-feedback-experience-with-uservoice.aspx&#34;&gt;powershell is now amongst them&lt;/a&gt;. spread the word on this, because feedback is super-important, the team _actually does listen, _and uservoice is now where it&amp;rsquo;ll happen.&lt;br&gt;
+in the continuing move to open source, the powershell team **&lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2015/12/07/powershell-tests-released-on-github.aspx&#34;&gt;released a bunch of their tests on github&lt;/a&gt;. **these are some of the tests they use to test powershell itself, and the ability for everyone to now contribute to those means the team can produce more error free code for us. this is a big deal, and proves this isn&amp;rsquo;t your grandfather&amp;rsquo;s microsoft anymore.&lt;br&gt;
+the **&lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2015/11/03/the-new-home-of-dsc-documentation.aspx&#34;&gt;dsc documentation has also been open sourced&lt;/a&gt;, **meaning we can all finally contribute to that. yeah, we all know microsoft should be producing their own docs - and they are - but this lets us correct errors, add examples and expansions, and fill in the gaps microsoft may have to leave. they&amp;rsquo;re not a bundle of infinite resources, after all, and this finally lets us help each other in a more effective way.&lt;br&gt;
+the &lt;strong&gt;&lt;a href=&#34;http://powershellsummit.org&#34;&gt;powershell &#43; devops global summit 2016&lt;/a&gt;&lt;/strong&gt; is about 1/3 sold-out. currently, only 4-day registration is available. in february, we&amp;rsquo;ll begin offering any remaining seats for 3-day attendance as well as 4-day. we don&amp;rsquo;t recommend waiting much longer, because when we hit most people&amp;rsquo;s new fiscal year next month, it&amp;rsquo;ll be downhill to &amp;ldquo;sold out&amp;rdquo; again. remember that registration cuts off at the beginning of march 2016, too.&lt;br&gt;
+finally, &lt;strong&gt;the scripting games puzzles&lt;/strong&gt; continue to be posted at the start of each month (usually the first saturday). we&amp;rsquo;re actively looking for a moderator to take over the process of collecting puzzle submissions from the community, coordinating puzzle and solution posting, and reviewing community submissions for noteworthy ones to call out. if you&amp;rsquo;re interested, drop an e-mail to admin here at powershell.org. we already have content for january and february 2016, and are also looking for puzzle submissions. drop an e-mail if you&amp;rsquo;d like to contribute a puzzle and a solution.&lt;br&gt;
+happy holidays from everyone here at powershell.org, and we wish you all the best in the coming new year!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 21, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-12-21-powershell-news-roundup-theres-been-a-lot-of-it/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell News Roundup (There&#39;s Been a Lot of it)
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>There&rsquo;ve been so many under-the-radar announcements and news bits about PowerShell, that I thought it&rsquo;d be worth a quick start-of-the-week, pre-holiday roundup.<br>
+First off, the big news is that **<a href="http://blogs.msdn.com/b/powershell/archive/2015/12/16/windows-management-framework-wmf-5-0-rtm-is-now-available.aspx">Windows Management Framework v5 has been released to manufacturing (RTM)</a>. **Not that there&rsquo;s any real &ldquo;manufacturing&rdquo; anymore, but this means we&rsquo;ve hit the milestone where it&rsquo;s &ldquo;done.&rdquo; Now, if Microsoft is smart, whatever WMF ships with Win2016 will be &ldquo;5.1&rdquo; or something, so we can all keep track of what&rsquo;s what. Fingers crossed on that.<br>
+Next, and you may have missed this, <strong>Microsoft is moving away from Connect and over to UserVoice</strong> for many products, and <a href="http://blogs.msdn.com/b/powershell/archive/2015/12/14/improving-the-powershell-feedback-experience-with-uservoice.aspx">PowerShell is now amongst them</a>. Spread the word on this, because feedback is super-important, the team _actually does listen, _and UserVoice is now where it&rsquo;ll happen.<br>
+In the continuing move to open source, the PowerShell team **<a href="http://blogs.msdn.com/b/powershell/archive/2015/12/07/powershell-tests-released-on-github.aspx">released a bunch of their tests on GitHub</a>. **These are some of the tests they use to test PowerShell itself, and the ability for everyone to now contribute to those means the team can produce more error free code for us. This is a big deal, and proves this isn&rsquo;t your grandfather&rsquo;s Microsoft anymore.<br>
+The **<a href="http://blogs.msdn.com/b/powershell/archive/2015/11/03/the-new-home-of-dsc-documentation.aspx">DSC Documentation has also been open sourced</a>, **meaning we can all finally contribute to that. Yeah, we all know Microsoft should be producing their own docs - and they are - but this lets us correct errors, add examples and expansions, and fill in the gaps Microsoft may have to leave. They&rsquo;re not a bundle of infinite resources, after all, and this finally lets us help each other in a more effective way.<br>
+The <strong><a href="http://powershellsummit.org">PowerShell + DevOps Global Summit 2016</a></strong> is about 1/3 sold-out. Currently, only 4-day registration is available. In February, we&rsquo;ll begin offering any remaining seats for 3-day attendance as well as 4-day. We don&rsquo;t recommend waiting much longer, because when we hit most people&rsquo;s new fiscal year next month, it&rsquo;ll be downhill to &ldquo;sold out&rdquo; again. Remember that registration cuts off at the beginning of March 2016, too.<br>
+Finally, <strong>the Scripting Games puzzles</strong> continue to be posted at the start of each month (usually the first Saturday). We&rsquo;re actively looking for a moderator to take over the process of collecting puzzle submissions from the community, coordinating puzzle and solution posting, and reviewing community submissions for noteworthy ones to call out. If you&rsquo;re interested, drop an e-mail to admin here at PowerShell.org. We already have content for January and February 2016, and are also looking for puzzle submissions. Drop an e-mail if you&rsquo;d like to contribute a puzzle and a solution.<br>
+Happy Holidays from everyone here at PowerShell.org, and we wish you all the best in the coming new year!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-12-21-powershell-news-roundup-theres-been-a-lot-of-it/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="recap of the dec 2015 powershell editor services hack week" 
+                     data-content="&lt;p&gt;thanks to all those who participated in the powershell editor services hack week last week!  much progress was made on fixing bugs and adding new features to both &lt;a href=&#34;https://github.com/powershell/powershelleditorservices&#34;&gt;powershell editor services&lt;/a&gt; and the &lt;a href=&#34;https://github.com/powershell/vscode-powershell&#34;&gt;powershell extension for visual studio code&lt;/a&gt;.  here&amp;rsquo;s a quick summary of the contributions that were made during the week:&lt;br&gt;
+&lt;strong&gt;variable display improvements in the debugger&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://twitter.com/r_keith_hill&#34;&gt;keith hill&lt;/a&gt; made many great improvements to how we display variable contents in the visual studio code debugger.  first of all, he added support for variable scopes other than just &amp;ldquo;local&amp;rdquo; as we had before.  you can now inspect variables from both the global and script scopes.  you will also see a special &amp;ldquo;auto&amp;rdquo; section which filters the set of variables down to those that were defined in the current scope.  this is really helpful for quickly checking the state of the variables in your functions!&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/12/keith_auto.png&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2015/12/keith_auto.png&#34; alt=&#34;keith_auto&#34;&gt;&lt;/a&gt;&lt;br&gt;
+he also added greatly improved the variable value display for collections such as arrays and dictionaries and also objects which implement the tostring() method in .net.  you will now see much greater detail for these variables in the debugger:&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/12/keith_vars.png&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2015/12/keith_vars.png&#34; alt=&#34;keith_vars&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;new expand aliases command&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://twitter.com/dfinke&#34;&gt;doug finke&lt;/a&gt; contributed a new &amp;ldquo;expand aliases&amp;rdquo; command which searches your script file or selection for the use of cmdlet aliases.  for any alias it finds, it replaces the text with the full command name.  this is helpful for developers who want to quickly write out scripts using aliases but resolve them to their command names before committing to source control.&lt;br&gt;
+here&amp;rsquo;s a gif of the feature in action (click to play!):&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/12/vscodeexpandalias2.gif&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2015/12/vscodeexpandalias2-628x360.gif&#34; alt=&#34;demo of expand alias in vs code&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;sublime text editor integration&lt;/strong&gt;&lt;br&gt;
+work on the integration of powershell editor services in sublime text has progressed quite well this week.  the basic protocol implementation is now working, enabling language features to be integrated over time.  i&amp;rsquo;ve also implemented basic file management support so that opened files are sent to editor services for syntax checking and semantic analysis.  from this point it&amp;rsquo;s just a matter of integrating the language features of powershell editor services into sublime&amp;rsquo;s ui using its &lt;a href=&#34;http://www.sublimetext.com/docs/3/api_reference.html&#34;&gt;plugin api&lt;/a&gt;.&lt;br&gt;
+check out the current code in the &lt;a href=&#34;https://github.com/daviwil/sublimepowershell/tree/editor-services&#34;&gt;editor-services branch of my fork&lt;/a&gt; of the powershell sublime text package.  once this effort is stable enough for an initial release, i&amp;rsquo;ll be submitting a pr back to the &lt;a href=&#34;https://github.com/sublimetext/powershell&#34;&gt;original powershell sublime text package repo&lt;/a&gt; and future work will continue there.&lt;br&gt;
+&lt;strong&gt;atom editor integration&lt;/strong&gt;&lt;br&gt;
+some work was started on an integration with the atom editor but it was quickly determine that atom&amp;rsquo;s apis for language features were to sparse to make quick progress.  however, with the experience gained from the sublime text integration, future work on the atom integration should be much easier.  expect to see more effort in this area in the first half of 2016.&lt;br&gt;
+&lt;strong&gt;miscellaneous improvements&lt;/strong&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 16, 2015</time>
+                            
+                            <span>•</span>
+                            <span>David Wilson</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Events
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-12-15-recap-of-the-dec-2015-powershell-editor-services-hack-week/" class="hover:text-blue-600 transition-colors duration-200">
+                            Recap of the Dec 2015 PowerShell Editor Services Hack Week
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Thanks to all those who participated in the PowerShell Editor Services Hack Week last week!  Much progress was made on fixing bugs and adding new features to both <a href="https://github.com/PowerShell/PowerShellEditorServices">PowerShell Editor Services</a> and the <a href="https://github.com/PowerShell/vscode-powershell">PowerShell extension for Visual Studio Code</a>.  Here&rsquo;s a quick summary of the contributions that were made during the week:<br>
+<strong>Variable Display Improvements in the Debugger</strong><br>
+<a href="https://twitter.com/r_keith_hill">Keith Hill</a> made many great improvements to how we display variable contents in the Visual Studio Code debugger.  First of all, he added support for variable scopes other than just &ldquo;Local&rdquo; as we had before.  You can now inspect variables from both the Global and Script scopes.  You will also see a special &ldquo;Auto&rdquo; section which filters the set of variables down to those that were defined in the current scope.  This is really helpful for quickly checking the state of the variables in your functions!<br>
+<a href="https://powershell.org/wp-content/uploads/2015/12/keith_auto.png"><img src="https://powershell.org/wp-content/uploads/2015/12/keith_auto.png" alt="keith_auto"></a><br>
+He also added greatly improved the variable value display for collections such as arrays and dictionaries and also objects which implement the ToString() method in .NET.  You will now see much greater detail for these variables in the debugger:<br>
+<a href="https://powershell.org/wp-content/uploads/2015/12/keith_vars.png"><img src="https://powershell.org/wp-content/uploads/2015/12/keith_vars.png" alt="keith_vars"></a><br>
+<strong>New Expand Aliases Command</strong><br>
+<a href="https://twitter.com/dfinke">Doug Finke</a> contributed a new &ldquo;Expand Aliases&rdquo; command which searches your script file or selection for the use of cmdlet aliases.  For any alias it finds, it replaces the text with the full command name.  This is helpful for developers who want to quickly write out scripts using aliases but resolve them to their command names before committing to source control.<br>
+Here&rsquo;s a GIF of the feature in action (click to play!):<br>
+<a href="https://powershell.org/wp-content/uploads/2015/12/vscodeExpandAlias2.gif"><img src="https://powershell.org/wp-content/uploads/2015/12/vscodeExpandAlias2-628x360.gif" alt="Demo of Expand Alias in VS Code"></a><br>
+<strong>Sublime Text Editor Integration</strong><br>
+Work on the integration of PowerShell Editor Services in Sublime Text has progressed quite well this week.  The basic protocol implementation is now working, enabling language features to be integrated over time.  I&rsquo;ve also implemented basic file management support so that opened files are sent to Editor Services for syntax checking and semantic analysis.  From this point it&rsquo;s just a matter of integrating the language features of PowerShell Editor Services into Sublime&rsquo;s UI using its <a href="http://www.sublimetext.com/docs/3/api_reference.html">plugin API</a>.<br>
+Check out the current code in the <a href="https://github.com/daviwil/SublimePowerShell/tree/editor-services">editor-services branch of my fork</a> of the PowerShell Sublime Text package.  Once this effort is stable enough for an initial release, I&rsquo;ll be submitting a PR back to the <a href="https://github.com/SublimeText/PowerShell">original PowerShell Sublime Text package repo</a> and future work will continue there.<br>
+<strong>Atom Editor Integration</strong><br>
+Some work was started on an integration with the Atom editor but it was quickly determine that Atom&rsquo;s APIs for language features were to sparse to make quick progress.  However, with the experience gained from the Sublime Text integration, future work on the Atom integration should be much easier.  Expect to see more effort in this area in the first half of 2016.<br>
+<strong>Miscellaneous Improvements</strong></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-12-15-recap-of-the-dec-2015-powershell-editor-services-hack-week/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="2015-december scripting games puzzle" 
+                     data-content="&lt;p&gt;our december 2015 puzzle comes from powershell.org board member jeff hicks, who wanted to share a little holiday fun for the season.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 5, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-12-05-december-2015-scripting-games-puzzle/" class="hover:text-blue-600 transition-colors duration-200">
+                            2015-December Scripting Games Puzzle
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our December 2015 puzzle comes from PowerShell.org board member Jeff Hicks, who wanted to share a little holiday fun for the season.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-12-05-december-2015-scripting-games-puzzle/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="a real-world devops implementation – and food for thought" 
+                     data-content="&lt;p&gt;want to see what a real-world, functional, production-grade devops environment looks like?&lt;br&gt;
+look no further than amazon web services&amp;rsquo; elastic beanstalk (ebs). ebs is a neat combination of their ec2 iaas product, s3 storage, and some devops magic. from a working perspective, it goes something like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;developer checks code into git. a portion of this code is actually a set of ebs directives, outlining changes that need to be made to the base operating environment. this can include things like setting environment variables, installing packages, and so on.&lt;/li&gt;
+&lt;li&gt;someone indicates that what&amp;rsquo;s in github is ready for release. you can do this by pushing a button in your aws console, or by making a call to aws&amp;rsquo; rest apis. it&amp;rsquo;s pretty easy to automat this step.&lt;/li&gt;
+&lt;li&gt;aws spins up virtual machines, and reads the ebs directives to get that environment configured the way it&amp;rsquo;s supposed to be. the code is loaded from git into the vms. the vms are registered with aws&amp;rsquo; load balancer, and whatever old vms were running are de-registered and destroyed. poof, your app is up and running.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;this model accomplishes the basic goal of devops, which is to shorten the path between developers and users. so where&amp;rsquo;s the &amp;ldquo;ops&amp;rdquo; role in all this? amazon did it. their contribution to ops was to create all the automation necessary to make these steps happen. and the beauty of this model is that it supports tiered environments. for example, the above three steps might serve to spin up a testing environment, where you then run automated tests to validate the code. if the code validates, it&amp;rsquo;s pushed into a production tier - all automatically - running on a separate ebs application. so from check-in to in-production is entirely automated, and the process can be performed consistently every single time.&lt;br&gt;
+now&amp;hellip; what would this look like in a windows world?&lt;br&gt;
+in step 1, imagine that instead of a set of ebs configuration directives - which are just text files - your developers create dsc configurations. yes, the developers. after all, they&amp;rsquo;re the ones who are coding for the environment, so that dsc configuration documents what they need the environment to look like. you might have a second dsc configuration that documents corporate standards for security, manageability, and so on. whatever.&lt;br&gt;
+step 3 might be microsoft azure pack or system center virtual machine manager, told - perhaps via an sma automation script - to spin up the new vms from a base os image. the dsc configurations are run to produce a mof, which is injected into the new vm. the developer&amp;rsquo;s code is deployed to the vm. the vm is registered with dns and perhaps a load balancer, which provide access to it.&lt;br&gt;
+there are a couple of important details that i&amp;rsquo;ve glossed over a bit. jeffrey snover is fond saying, &amp;ldquo;treat servers like cattle, not pets.&amp;rdquo; but servers by their nature have to have a few unique pieces of information, right? well&amp;hellip; yes and no. for all i know, cows make up names for themselves. i just don&amp;rsquo;t care. take ip addresses, for example. you shouldn&amp;rsquo;t be assigning static ip addresses to servers; your dhcp system should be highly available, fault tolerant, and set up to handle servers. as you spin up a new vm, you can obviously have it register itself with dns, so the ip address is mapped to a hostname. and speaking of that hostname - you as a human never need to know it. or you shouldn&amp;rsquo;t. windows will make up a host name for itself as the vm spins up, and you can - through your automation scripts - capture that host name. that lets you set up dns cname records, a load balancer, or whatever else. the point is that while the server may have made up a name for itself, you don&amp;rsquo;t care. nobody will ever address that server by its host name - they&amp;rsquo;ll use an abstraction, like a load-balanced name, or a cname, or something else. your automation scripts handle the mapping for you. when a vm is spun down, automation de-registers the dying host&amp;rsquo;s name from whatever, closing the lifecycle loop.&lt;br&gt;
+interestingly, you could probably do this exact model, today, with a huge number of applications in your environment. why bother? i mean, this model makes sense in web apps where you&amp;rsquo;re constantly spinning up and destroying vms, but what about the majority of your apps that just run all the time without change? well, this same model could spin them up in a disaster recovery scenario. or in testing environments, which are constantly re-created to provide &amp;ldquo;clean&amp;rdquo; tests. yes, it&amp;rsquo;s a lot of &lt;em&gt;investment&lt;/em&gt; up front to make it all work, but once it&amp;rsquo;s set up it just runs itself.&lt;br&gt;
+and that&amp;rsquo;s what devops looks like.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 3, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            DevOps
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-12-03-a-real-world-devops-implementation-and-food-for-thought/" class="hover:text-blue-600 transition-colors duration-200">
+                            A Real-World DevOps Implementation – and Food for Thought
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Want to see what a real-world, functional, production-grade DevOps environment looks like?<br>
+Look no further than Amazon Web Services&rsquo; Elastic Beanstalk (EBS). EBS is a neat combination of their EC2 IaaS product, S3 storage, and some DevOps magic. From a working perspective, it goes something like this:</p>
+<ol>
+<li>Developer checks code into Git. A portion of this code is actually a set of EBS directives, outlining changes that need to be made to the base operating environment. This can include things like setting environment variables, installing packages, and so on.</li>
+<li>Someone indicates that what&rsquo;s in GitHub is ready for release. You can do this by pushing a button in your AWS console, or by making a call to AWS&rsquo; REST APIs. It&rsquo;s pretty easy to automat this step.</li>
+<li>AWS spins up virtual machines, and reads the EBS directives to get that environment configured the way it&rsquo;s supposed to be. The code is loaded from Git into the VMs. The VMs are registered with AWS&rsquo; load balancer, and whatever old VMs were running are de-registered and destroyed. Poof, your app is up and running.</li>
+</ol>
+<p>This model accomplishes the basic goal of DevOps, which is to shorten the path between developers and users. So where&rsquo;s the &ldquo;Ops&rdquo; role in all this? Amazon did it. Their contribution to ops was to create all the automation necessary to make these steps happen. And the beauty of this model is that it supports tiered environments. For example, the above three steps might serve to spin up a testing environment, where you then run automated tests to validate the code. If the code validates, it&rsquo;s pushed into a production tier - all automatically - running on a separate EBS application. So from check-in to in-production is entirely automated, and the process can be performed consistently every single time.<br>
+Now&hellip; what would this look like in a Windows world?<br>
+In Step 1, imagine that instead of a set of EBS configuration directives - which are just text files - your developers create DSC configurations. Yes, the developers. After all, they&rsquo;re the ones who are coding for the environment, so that DSC configuration documents what they need the environment to look like. You might have a second DSC configuration that documents corporate standards for security, manageability, and so on. Whatever.<br>
+Step 3 might be Microsoft Azure Pack or System Center Virtual Machine Manager, told - perhaps via an SMA automation script - to spin up the new VMs from a base OS image. The DSC configurations are run to produce a MOF, which is injected into the new VM. The developer&rsquo;s code is deployed to the VM. The VM is registered with DNS and perhaps a load balancer, which provide access to it.<br>
+There are a couple of important details that I&rsquo;ve glossed over a bit. Jeffrey Snover is fond saying, &ldquo;treat servers like cattle, not pets.&rdquo; But servers by their nature have to have a few unique pieces of information, right? Well&hellip; yes and no. For all I know, cows make up names for themselves. I just don&rsquo;t care. Take IP addresses, for example. You shouldn&rsquo;t be assigning static IP addresses to servers; your DHCP system should be highly available, fault tolerant, and set up to handle servers. As you spin up a new VM, you can obviously have it register itself with DNS, so the IP address is mapped to a hostname. And speaking of that hostname - you as a human never need to know it. Or you shouldn&rsquo;t. Windows will make up a host name for itself as the VM spins up, and you can - through your automation scripts - capture that host name. That lets you set up DNS CNAME records, a load balancer, or whatever else. The point is that while the server may have made up a name for itself, you don&rsquo;t care. Nobody will ever address that server by its host name - they&rsquo;ll use an abstraction, like a load-balanced name, or a CNAME, or something else. Your automation scripts handle the mapping for you. When a VM is spun down, automation de-registers the dying host&rsquo;s name from whatever, closing the lifecycle loop.<br>
+Interestingly, you could probably do this exact model, today, with a huge number of applications in your environment. Why bother? I mean, this model makes sense in web apps where you&rsquo;re constantly spinning up and destroying VMs, but what about the majority of your apps that just run all the time without change? Well, this same model could spin them up in a disaster recovery scenario. Or in testing environments, which are constantly re-created to provide &ldquo;clean&rdquo; tests. Yes, it&rsquo;s a lot of <em>investment</em> up front to make it all work, but once it&rsquo;s set up it just runs itself.<br>
+And that&rsquo;s what DevOps looks like.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-12-03-a-real-world-devops-implementation-and-food-for-thought/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="join us for the powershell editor services hack week, dec 6-13!" 
                      data-content="&lt;p&gt;do you wish your favorite editor had better powershell editing support?  do you have a great idea for a new feature for the powershell extension in visual studio code?  we’re dedicating next week, &lt;strong&gt;december 6th through 13th&lt;/strong&gt; (sunday through next sunday), to hacking together on new features to enable better powershell support in any editor!&lt;br&gt;
 here’s the plan:&lt;br&gt;
@@ -441,7 +733,7 @@ on the week following our hacktivities, i’ll release new builds of powershell 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-12-03-powershell-editor-services-hack-week-dec-6-13/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-12-03-powershell-editor-services-hack-week-dec-6-13/" class="hover:text-blue-600 transition-colors duration-200">
                             Join us for the PowerShell Editor Services Hack Week, Dec 6-13!
                         </a>
                     </h2>
@@ -453,7 +745,7 @@ Once hacking has started, we’ll hang out together in the #editors channel of t
 On the week following our hacktivities, I’ll release new builds of PowerShell Editor Services and the Visual Studio Code extension containing our collective efforts.  I’ll also post a follow-up report here on PowerShell.org with details about all the contributions that were made in this time.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-12-03-powershell-editor-services-hack-week-dec-6-13/" 
+                        <a href="http://localhost:57259/articles/2015-12-03-powershell-editor-services-hack-week-dec-6-13/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -497,7 +789,7 @@ if you missed our last #psblogweek, download the ebook to bone up on &lt;a href=
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-30-the-popular-week-of-powershell-blogging-is-back-psblogweek/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-11-30-the-popular-week-of-powershell-blogging-is-back-psblogweek/" class="hover:text-blue-600 transition-colors duration-200">
                             The Popular Week of PowerShell Blogging is back! #PSBlogWeek
                         </a>
                     </h2>
@@ -514,7 +806,7 @@ If you&rsquo;d like to download an eBook containing a nicely laid out compilatio
 If you missed our last #PSBlogWeek, download the eBook to bone up on <a href="https://powershell.org/wp-content/uploads/2015/11/PowerShell-Blog-Week-Advanced-Functions-Bertram-Blender-Cat-Hicks-Prox1.pdf">everything you need to know about PowerShell advanced functions</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-30-the-popular-week-of-powershell-blogging-is-back-psblogweek/" 
+                        <a href="http://localhost:57259/articles/2015-11-30-the-popular-week-of-powershell-blogging-is-back-psblogweek/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -550,7 +842,7 @@ i look forward to getting another article out to everyone next week and i hope e
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" class="hover:text-blue-600 transition-colors duration-200">
                             Keeping Windows PowerShell Help Up To Date
                         </a>
                     </h2>
@@ -559,7 +851,7 @@ i look forward to getting another article out to everyone next week and i hope e
 I look forward to getting another article out to everyone next week and I hope everyone in the US enjoys their long weekend!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" 
+                        <a href="http://localhost:57259/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -597,7 +889,7 @@ june blender is a technology evangelist for sapien technologies, inc. formerly
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-19-atlanta-powershell-users-group-meeting-december-8th-with-june-blender/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-11-19-atlanta-powershell-users-group-meeting-december-8th-with-june-blender/" class="hover:text-blue-600 transition-colors duration-200">
                             Atlanta PowerShell User&#39;s Group Meeting – December 8th with June Blender
                         </a>
                     </h2>
@@ -612,7 +904,7 @@ June Blender is a technology evangelist for SAPIEN Technologies, Inc. Formerly
 <a href="http://www.meetup.com/Atlanta-PowerShell-Users-Group/events/226320634/?a=socialmedia"><img src="https://powershell.org/wp-content/uploads/2015/11/MeetUp.png" alt="MeetUp"></a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-19-atlanta-powershell-users-group-meeting-december-8th-with-june-blender/" 
+                        <a href="http://localhost:57259/articles/2015-11-19-atlanta-powershell-users-group-meeting-december-8th-with-june-blender/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -646,7 +938,7 @@ adam bertram is an independent consultant, technical writer, trainer and present
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-17-philadelphia-powershell-user-group-meeting-december-3rd-2015-with-adam-bertram/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-11-17-philadelphia-powershell-user-group-meeting-december-3rd-2015-with-adam-bertram/" class="hover:text-blue-600 transition-colors duration-200">
                             Philadelphia PowerShell User Group Meeting  – December 3rd 2015 with Adam Bertram
                         </a>
                     </h2>
@@ -657,7 +949,7 @@ Adam Bertram is an independent consultant, technical writer, trainer and present
 <a href="http://www.eventbrite.com/e/phillyposh-december-3rd-2015-adam-bertram-tickets-19612925789?ref=ebtnebregn"><img src="https://www.eventbrite.com/custombutton?eid=19612925789" alt="Eventbrite - PhillyPosh December 3rd 2015 - Adam Bertram"></a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-17-philadelphia-powershell-user-group-meeting-december-3rd-2015-with-adam-bertram/" 
+                        <a href="http://localhost:57259/articles/2015-11-17-philadelphia-powershell-user-group-meeting-december-3rd-2015-with-adam-bertram/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -696,7 +988,7 @@ Adam Bertram is an independent consultant, technical writer, trainer and present
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-14-powershell-devops-global-summit-2016-the-agenda/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-11-14-powershell-devops-global-summit-2016-the-agenda/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell &#43; DevOps Global Summit 2016 – the agenda
                         </a>
                     </h2>
@@ -708,185 +1000,7 @@ Adam Bertram is an independent consultant, technical writer, trainer and present
 <p>Registration opens 1 December 2015</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-14-powershell-devops-global-summit-2016-the-agenda/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell &#43; devops global summit 2016 info" 
-                     data-content="&lt;p&gt;here&amp;rsquo;s everything that&amp;rsquo;s fit to print regarding summit 2016, running april 3-4-5-6 in bellevue, wa! you can also download: &lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/11/brochure-powershell-and-devops-summit-2016-copy.pdf&#34;&gt;brochure-powershell and devops summit 2016&lt;/a&gt; to share with your boss and team.&lt;/p&gt;
-&lt;h2 id=&#34;registration&#34;&gt;registration&lt;/h2&gt;
-&lt;p&gt;registration for summit will open december 1, 2015, and run through march 1, 2016. &lt;a href=&#34;https://eventloom.com/event/home/psna16&#34;&gt;visit the registration website for more details&lt;/a&gt;. registration will be limited to about 200 attendees. initially, we will only offer registration for a 4-day event, which includes full-day pre-conference sessions on april 3rd, 2016. on february 1st, 2016, we will open any remaining space for 3-day registration.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 13, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-13-powershell-devops-global-summit-2016-info/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell &#43; DevOps Global Summit 2016 Info
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Here&rsquo;s everything that&rsquo;s fit to print regarding Summit 2016, running April 3-4-5-6 in Bellevue, WA! You can also download: <a href="https://powershell.org/wp-content/uploads/2015/11/Brochure-PowerShell-and-DevOps-Summit-2016-copy.pdf">Brochure-PowerShell and DevOps Summit 2016</a> to share with your boss and team.</p>
-<h2 id="registration">Registration</h2>
-<p>Registration for Summit will open December 1, 2015, and run through March 1, 2016. <a href="https://eventloom.com/event/home/PSNA16">Visit the registration website for more details</a>. Registration will be limited to about 200 attendees. Initially, we will only offer registration for a 4-day event, which includes full-day pre-conference sessions on April 3rd, 2016. On February 1st, 2016, we will open any remaining space for 3-day registration.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-13-powershell-devops-global-summit-2016-info/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="2015-november scripting games puzzle" 
-                     data-content="&lt;p&gt;our november 2015 puzzle comes from powershell.org user [tim curwick][1], who created the puzzle based on a challenge he ran across at work. there&amp;rsquo;s nothing more real-world than this!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 7, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-07-november-2015-scripting-games-puzzle/" class="hover:text-blue-600 transition-colors duration-200">
-                            2015-November Scripting Games Puzzle
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our November 2015 puzzle comes from PowerShell.org user [Tim Curwick][1], who created the puzzle based on a challenge he ran across at work. There&rsquo;s nothing more real-world than this!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-07-november-2015-scripting-games-puzzle/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="summit 2016 – call for topics is closed" 
-                     data-content="&lt;p&gt;the call for topics for the 2016 summit is now closed. we&amp;rsquo;ve had an amazing number of top quality submissions. we&amp;rsquo;d like to thank everyone who took the time to submit a proposal for a session at the summit. we&amp;rsquo;ll be working through the submissions over the next few days as we put the agenda together for what looks to be a superb summit.&lt;/p&gt;
-&lt;p&gt;we&amp;rsquo;ll publish the schedule as soon as we can. &lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 1, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-01-summit-2016-call-for-topics-is-closed/" class="hover:text-blue-600 transition-colors duration-200">
-                            Summit 2016 – Call for topics is closed
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The Call for Topics for the 2016 Summit is now closed. We&rsquo;ve had an amazing number of top quality submissions. We&rsquo;d like to thank everyone who took the time to submit a proposal for a session at the Summit. We&rsquo;ll be working through the submissions over the next few days as we put the agenda together for what looks to be a superb Summit.</p>
-<p>We&rsquo;ll publish the schedule as soon as we can. </p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-01-summit-2016-call-for-topics-is-closed/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="join computer to domain with specified computer name and ou" 
-                     data-content="&lt;p&gt;i addressed a reader requested script for my article this week. powershell gives you the ability to add computers to active directory right from the command line with the built in powershell commandlets. this was introduced with powershell version 3 and can be used to automate imaging processes or to prompt an agent for the desired computer name and organizational unit. this is useful since a lot of organizations will use specific ous for computers according to location or department. this allows them to set group policies that apply to those computer accounts accordingly. by default these computer accounts are created in the root computers ou, but creating an account can be targeted. the highlighted examples should provide you everything you need to tackle that use case. i provide the basics of adding a computer to the domain as well as prompting the user to enter the computer name and location. head on over to &lt;a href=&#34;http://powershellblogger.com/?p=220&#34;&gt;powershellblogger.com&lt;/a&gt; for the full write up and thanks for everyone&amp;rsquo;s continued support!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 30, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Steve Parankewich</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/" class="hover:text-blue-600 transition-colors duration-200">
-                            Join Computer to Domain with Specified Computer Name and OU
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I addressed a reader requested script for my article this week. PowerShell gives you the ability to add computers to Active Directory right from the command line with the built in PowerShell commandlets. This was introduced with PowerShell version 3 and can be used to automate imaging processes or to prompt an agent for the desired computer name and organizational unit. This is useful since a lot of organizations will use specific OUs for computers according to location or department. This allows them to set group policies that apply to those computer accounts accordingly. By default these computer accounts are created in the root Computers OU, but creating an account can be targeted. The highlighted examples should provide you everything you need to tackle that use case. I provide the basics of adding a computer to the domain as well as prompting the user to enter the computer name and location. Head on over to <a href="http://powershellblogger.com/?p=220">PowershellBlogger.com</a> for the full write up and thanks for everyone&rsquo;s continued support!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/" 
+                        <a href="http://localhost:57259/articles/2015-11-14-powershell-devops-global-summit-2016-the-agenda/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1368,7 +1482,7 @@ Adam Bertram is an independent consultant, technical writer, trainer and present
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

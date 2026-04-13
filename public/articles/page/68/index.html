@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,254 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell summit north america 2014 – some more reasons to register!" 
+                     data-content="&lt;p&gt;powershell summit north america registration is in full swing, and we&amp;rsquo;ve got about 50 more spots to reach our break-even goal. hopefully, those of you that have been holding off for budgetary reasons are now &amp;ldquo;weapons free&amp;rdquo; and can plan to join us in april 2014!&lt;/p&gt;
+&lt;h2 id=&#34;confirmed-powershell-product-team-presenters&#34;&gt;confirmed powershell product team presenters&lt;/h2&gt;
+&lt;p&gt;we&amp;rsquo;ve confirmed a great set of speakers from the team itself, including jason shirk, lee holmes, kenneth hanson, and hemant manhawar. of course, shell father jeffrey snover will also be presenting a couple of sessions!&lt;br&gt;
+this helps really round out our &lt;a href=&#34;https://powershell.org/community-events/summit/powershell-summit-north-america/summit-agenda/&#34;&gt;agenda&lt;/a&gt;, along with several special events that we&amp;rsquo;ve got planned. you&amp;rsquo;ll participate in a large-scale iron scripter event, mix and mingle with team members in microsoft&amp;rsquo;s &amp;ldquo;top of the world&amp;rdquo; cafe in downtown bellevue, and rub elbows with powershell experts from all over the world during our pre-event mixer.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 7, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-07-powershell-summit-north-america-2014-some-more-reasons-to-register/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Summit North America 2014 – Some More Reasons to Register!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>PowerShell Summit North America Registration is in full swing, and we&rsquo;ve got about 50 more spots to reach our break-even goal. Hopefully, those of you that have been holding off for budgetary reasons are now &ldquo;weapons free&rdquo; and can plan to join us in April 2014!</p>
+<h2 id="confirmed-powershell-product-team-presenters">Confirmed PowerShell Product Team Presenters</h2>
+<p>We&rsquo;ve confirmed a great set of speakers from the team itself, including Jason Shirk, Lee Holmes, Kenneth Hanson, and Hemant Manhawar. Of course, Shell Father Jeffrey Snover will also be presenting a couple of sessions!<br>
+This helps really round out our <a href="https://powershell.org/community-events/summit/powershell-summit-north-america/summit-agenda/">agenda</a>, along with several special events that we&rsquo;ve got planned. You&rsquo;ll participate in a large-scale Iron Scripter event, mix and mingle with team members in Microsoft&rsquo;s &ldquo;top of the world&rdquo; cafe in downtown Bellevue, and rub elbows with PowerShell experts from all over the world during our pre-event mixer.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-07-powershell-summit-north-america-2014-some-more-reasons-to-register/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="scripting games winter 2014 – team discussion tips" 
+                     data-content="&lt;p&gt;when you&amp;rsquo;re logged into the games, you&amp;rsquo;ll notice that clicking on your team pulls up a &amp;ldquo;team discussion&amp;rdquo; box. that&amp;rsquo;s a shared discussion area for you and your team.&lt;br&gt;
+&lt;img src=&#34;https://powershell.org/wp-content/uploads/2014/01/figure_15-001.png&#34; alt=&#34;figure_15-001&#34;&gt;&lt;br&gt;
+however, if you click on one of the files you&amp;rsquo;ve uploaded, you&amp;rsquo;ll see the discussion turn into a &amp;ldquo;file discussion.&amp;rdquo; we retain a separate thread for each file you upload, so that you and your team can discuss that file specifically.&lt;br&gt;
+&lt;img src=&#34;https://powershell.org/wp-content/uploads/2014/01/figure_15-002.png&#34; alt=&#34;figure_15-002&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 6, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-06-scripting-games-winter-2014-team-discussion-tips/" class="hover:text-blue-600 transition-colors duration-200">
+                            Scripting Games Winter 2014 – Team Discussion Tips
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When you&rsquo;re logged into the Games, you&rsquo;ll notice that clicking on your team pulls up a &ldquo;team discussion&rdquo; box. That&rsquo;s a shared discussion area for you and your team.<br>
+<img src="https://powershell.org/wp-content/uploads/2014/01/figure_15-001.png" alt="figure_15-001"><br>
+However, if you click on one of the files you&rsquo;ve uploaded, you&rsquo;ll see the discussion turn into a &ldquo;File Discussion.&rdquo; We retain a separate thread for each file you upload, so that you and your team can discuss that file specifically.<br>
+<img src="https://powershell.org/wp-content/uploads/2014/01/figure_15-002.png" alt="figure_15-002"></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-06-scripting-games-winter-2014-team-discussion-tips/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="scripting games winter 2014 – teams in danger" 
+                     data-content="&lt;p&gt;note that as of the time of this post (about 2pm pacific on jan 5th), the following teams do not have enough players to participate in the upcoming practice event:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lake county hoosiers&lt;/li&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;annihilators&lt;/li&gt;
+&lt;li&gt;azposh&lt;/li&gt;
+&lt;li&gt;avengers&lt;/li&gt;
+&lt;li&gt;peopletecisawesome&lt;/li&gt;
+&lt;li&gt;time travel is dangerous&lt;/li&gt;
+&lt;li&gt;kotagiris&lt;/li&gt;
+&lt;li&gt;wow. much power. very shell.&lt;/li&gt;
+&lt;li&gt;blasters&lt;/li&gt;
+&lt;li&gt;ccc&lt;/li&gt;
+&lt;li&gt;anteaters&lt;/li&gt;
+&lt;li&gt;barracudas&lt;/li&gt;
+&lt;li&gt;hypothermia&lt;/li&gt;
+&lt;li&gt;bearcats&lt;/li&gt;
+&lt;li&gt;#psexec&lt;/li&gt;
+&lt;li&gt;avalanche&lt;/li&gt;
+&lt;li&gt;bull gators&lt;/li&gt;
+&lt;li&gt;alligators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;to reiterate: **you must have 2-6 players signed into the web site and joined to your team, or you will be unable to post entries. **anyone joining after midnight utc on jan 6th &lt;strong&gt;will not count&lt;/strong&gt; toward your team total for the practice event.&lt;br&gt;
+many of the above teams are &amp;ldquo;private,&amp;rdquo; which means nobody can join them without the team invite code.&lt;br&gt;
+if you are on one of the following teams, especially if it&amp;rsquo;s public, _consider quitting now and joining another public team that needs players. _otherwise, you may miss out on the practice event, which starts in just a couple of hours.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 5, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-05-scripting-games-winter-2014-teams-in-danger/" class="hover:text-blue-600 transition-colors duration-200">
+                            Scripting Games Winter 2014 – Teams in Danger
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Note that as of the time of this post (about 2pm Pacific on Jan 5th), the following teams do not have enough players to participate in the upcoming Practice Event:</p>
+<ul>
+<li>Lake County Hoosiers</li>
+<li>A</li>
+<li>Annihilators</li>
+<li>AZPOSH</li>
+<li>Avengers</li>
+<li>PeopleTecIsAwesome</li>
+<li>Time Travel is Dangerous</li>
+<li>Kotagiris</li>
+<li>wow. much power. very shell.</li>
+<li>Blasters</li>
+<li>CCC</li>
+<li>Anteaters</li>
+<li>Barracudas</li>
+<li>Hypothermia</li>
+<li>Bearcats</li>
+<li>#PSexec</li>
+<li>Avalanche</li>
+<li>Bull Gators</li>
+<li>Alligators</li>
+</ul>
+<p>To reiterate: **You must have 2-6 players signed into the Web site and joined to your team, or you will be unable to post entries. **Anyone joining after midnight UTC on Jan 6th <strong>will not count</strong> toward your team total for the Practice Event.<br>
+Many of the above teams are &ldquo;private,&rdquo; which means nobody can join them without the team invite code.<br>
+If you are on one of the following teams, especially if it&rsquo;s public, _consider quitting NOW and joining another public team that needs players. _Otherwise, you may miss out on the practice event, which starts in just a couple of hours.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-05-scripting-games-winter-2014-teams-in-danger/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="script for setting up and demoing a dsc pull server" 
+                     data-content="&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/01/dsc.zip&#34;&gt;dsc setup and demo scripts&lt;/a&gt;&lt;br&gt;
+i recently set up a virtual machine to use for desired state configuration (dsc) demos. i wanted to make the demo-ing fairly brainless, as dsc requires a number of setup steps to get a pull server running. so i took some demo scripts microsoft offered from teched 2013, updated them to work with windows server 2012 r2 rtm, and thought i&amp;rsquo;d offer them to you.&lt;br&gt;
+&lt;strong&gt;setupdsc.ps1&lt;/strong&gt; is the main script. now, because i didn&amp;rsquo;t want to use good ol&amp;rsquo; start-demo, there&amp;rsquo;s a who crapload of kinda ugly write-debug statements. that way i can get an &amp;ldquo;about to do ____&amp;rdquo; message and then have the script pause before doing it. lets me explain to the class what&amp;rsquo;s about to happen. you can remove all that crud if you like.&lt;br&gt;
+&lt;strong&gt;installpullserverconfig.ps1&lt;/strong&gt; and &lt;strong&gt;pswsiisendpoint.psm1&lt;/strong&gt; are the updated microsoft scripts. setupdsc.ps1 calls these. they&amp;rsquo;re intended to run locally; you&amp;rsquo;ll need to be _on _the machine you want to make into a pull server, and it needs to be windows server 2012 r2 (the dsc pull server role is part of the os, not part of windows management framework v4). setup takes a few minutes, and will install iis. this sets up an http pull server.&lt;br&gt;
+&lt;strong&gt;sampleconfig.ps1&lt;/strong&gt; is a sample dsc configuration, targeted to a computer named member2. it just specifies that the windows server backup feature be installed. setupdsc.ps1 actually runs this, which produces a mof. setupdsc.ps1 also copies the mof to the dsc pull server configuration directory.&lt;br&gt;
+&lt;strong&gt;samplesetpullmode.ps1&lt;/strong&gt; also gets run by setupdsc.ps1. this contains a dsc local configuration manager configuration, targeted to member2, that turns on pull mode and directs member2 to pull the previously-created configuration. i think i have it refreshing every 5 minutes, which is totally unrealistic for production. again, this was made for class demos, but you can adjust the time or leave it off to default to 30min. running this script creates the mof and pushes it to member2. that, in turn, causes member2 to start pulling the sample config, which causes windows server backup to be installed.&lt;br&gt;
+setupdsc.ps1 has some additional code to show that windows server backup isn&amp;rsquo;t installed, and then is installed (after you give the pull time to occur).&lt;br&gt;
+anyway, might need some tweaking to use in production, but hopefully it&amp;rsquo;ll give you a snapshot of the whole dsc process. much thanks to &lt;a href=&#34;http://readsource.co.uk/blog/2013/10/1/configuring-powershell-dsc-pull-mode&#34;&gt;james dawson&amp;rsquo;s article on dsc&lt;/a&gt;, which gave me a couple of the tweaks i needed to get all this working on rtm code.&lt;br&gt;
+enjoy.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 5, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-05-script-for-setting-up-and-demoing-a-dsc-pull-server/" class="hover:text-blue-600 transition-colors duration-200">
+                            Script for Setting Up and Demoing a DSC Pull Server
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><a href="https://powershell.org/wp-content/uploads/2014/01/dsc.zip">DSC Setup and Demo Scripts</a><br>
+I recently set up a virtual machine to use for Desired State Configuration (DSC) demos. I wanted to make the demo-ing fairly brainless, as DSC requires a number of setup steps to get a pull server running. So I took some demo scripts Microsoft offered from TechEd 2013, updated them to work with Windows Server 2012 R2 RTM, and thought I&rsquo;d offer them to you.<br>
+<strong>SetupDSC.ps1</strong> is the main script. Now, because I didn&rsquo;t want to use good ol&rsquo; Start-Demo, there&rsquo;s a who crapload of kinda ugly Write-Debug statements. That way I can get an &ldquo;about to do ____&rdquo; message and then have the script pause before doing it. Lets me explain to the class what&rsquo;s about to happen. You can remove all that crud if you like.<br>
+<strong>InstallPullServerConfig.ps1</strong> and <strong>PSWSIISEndpoint.psm1</strong> are the updated Microsoft scripts. SetupDSC.ps1 calls these. They&rsquo;re intended to run locally; you&rsquo;ll need to be _on _the machine you want to make into a pull server, and it needs to be Windows Server 2012 R2 (the DSC pull server role is part of the OS, not part of Windows Management Framework v4). Setup takes a few minutes, and will install IIS. This sets up an HTTP pull server.<br>
+<strong>SampleConfig.ps1</strong> is a sample DSC configuration, targeted to a computer named MEMBER2. It just specifies that the Windows Server Backup feature be installed. SetupDSC.ps1 actually runs this, which produces a MOF. SetupDSC.ps1 also copies the MOF to the DSC pull server configuration directory.<br>
+<strong>SampleSetPullMode.ps1</strong> also gets run by SetupDSC.ps1. This contains a DSC Local Configuration Manager configuration, targeted to MEMBER2, that turns on pull mode and directs MEMBER2 to pull the previously-created configuration. I think I have it refreshing every 5 minutes, which is totally unrealistic for production. Again, this was made for class demos, but you can adjust the time or leave it off to default to 30min. Running this script creates the MOF and pushes it to MEMBER2. That, in turn, causes MEMBER2 to start pulling the sample config, which causes Windows Server Backup to be installed.<br>
+SetupDSC.ps1 has some additional code to show that Windows Server Backup isn&rsquo;t installed, and then is installed (after you give the pull time to occur).<br>
+Anyway, might need some tweaking to use in production, but hopefully it&rsquo;ll give you a snapshot of the whole DSC process. Much thanks to <a href="http://readsource.co.uk/blog/2013/10/1/configuring-powershell-dsc-pull-mode">James Dawson&rsquo;s article on DSC</a>, which gave me a couple of the tweaks I needed to get all this working on RTM code.<br>
+Enjoy.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-05-script-for-setting-up-and-demoing-a-dsc-pull-server/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="scripting games winter 2014 notice" 
                      data-content="&lt;p&gt;due to some vagaries in the system, we have some users who &amp;ldquo;belong&amp;rdquo; to multiple teams.&lt;br&gt;
 i think i&amp;rsquo;ve corrected the problem so it won&amp;rsquo;t crop up again.&lt;br&gt;
@@ -441,7 +739,7 @@ as always, post in the forums if you need help.&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-03-scripting-games-winter-2014-notice/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-03-scripting-games-winter-2014-notice/" class="hover:text-blue-600 transition-colors duration-200">
                             Scripting Games Winter 2014 Notice
                         </a>
                     </h2>
@@ -453,7 +751,7 @@ For everyone else, when you go to the event list you may be redirected to a &ldq
 As always, post in the forums if you need help.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-03-scripting-games-winter-2014-notice/" 
+                        <a href="http://localhost:57259/articles/2014-01-03-scripting-games-winter-2014-notice/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -491,7 +789,7 @@ you may consider leaving your team (it&amp;rsquo;ll be deleted if you&amp;rsquo;
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-03-scripting-games-winter-2014-practice-event-rules/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-03-scripting-games-winter-2014-practice-event-rules/" class="hover:text-blue-600 transition-colors duration-200">
                             Scripting Games Winter 2014 – Practice Event Rules
                         </a>
                     </h2>
@@ -502,7 +800,7 @@ you may consider leaving your team (it&amp;rsquo;ll be deleted if you&amp;rsquo;
 You may consider leaving your team (it&rsquo;ll be deleted if you&rsquo;re the last player in it) and joining one of the public teams. Once you join a new team, you will not be able to fully participate until the current, in-progress event is over and the next event begins.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-03-scripting-games-winter-2014-practice-event-rules/" 
+                        <a href="http://localhost:57259/articles/2014-01-03-scripting-games-winter-2014-practice-event-rules/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -542,7 +840,7 @@ while this may not be the most popular tip, believe it or not, it&amp;rsquo;s on
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-03-powershell-tip-1-from-the-winner-of-the-advanced-category-in-the-2013-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-03-powershell-tip-1-from-the-winner-of-the-advanced-category-in-the-2013-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Tip #1 from the Winner of the Advanced Category in the 2013 Scripting Games
                         </a>
                     </h2>
@@ -555,7 +853,7 @@ While this may not be the most popular tip, believe it or not, it&rsquo;s one of
 µ</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-03-powershell-tip-1-from-the-winner-of-the-advanced-category-in-the-2013-scripting-games/" 
+                        <a href="http://localhost:57259/articles/2014-01-03-powershell-tip-1-from-the-winner-of-the-advanced-category-in-the-2013-scripting-games/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -600,7 +898,7 @@ good luck!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-02-winter-scripting-games-team-formation-in-full-swing/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-02-winter-scripting-games-team-formation-in-full-swing/" class="hover:text-blue-600 transition-colors duration-200">
                             Winter Scripting Games Team Formation in Full Swing
                         </a>
                     </h2>
@@ -618,7 +916,7 @@ The practice event starts Jan 6. <strong>Please pay attention to PowerShell.org
 Good luck!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-02-winter-scripting-games-team-formation-in-full-swing/" 
+                        <a href="http://localhost:57259/articles/2014-01-02-winter-scripting-games-team-formation-in-full-swing/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -654,7 +952,7 @@ the cmdlet help indicates that you should point to a windows image (wim) file. t
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" class="hover:text-blue-600 transition-colors duration-200">
                             Using Install-WindowsFeature with Offline Source
                         </a>
                     </h2>
@@ -663,7 +961,7 @@ the cmdlet help indicates that you should point to a windows image (wim) file. t
 The cmdlet help indicates that you should point to a Windows image (WIM) file. That&rsquo;ll work, but you can&rsquo;t just provide the path of the WIM. You also need to put a <strong>wim:/</strong> prefix on the front of the path, and a suffix that tells the thing which edition of Windows you&rsquo;re working with, so that it grabs the right bits. For example, <strong>wim:/d:/sources/install.wim:4</strong>. That &ldquo;4&rdquo; is the suffix for Datacenter Edition, telling the installer to look at index 4 within the WIM for the necessary feature.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" 
+                        <a href="http://localhost:57259/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -714,7 +1012,7 @@ president and ceo&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-30-state-of-the-org-ending-2013/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-30-state-of-the-org-ending-2013/" class="hover:text-blue-600 transition-colors duration-200">
                             State of the Org, ending 2013
                         </a>
                     </h2>
@@ -738,223 +1036,7 @@ Don Jones<br>
 President and CEO</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-30-state-of-the-org-ending-2013/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="introducing the judges for winter 2014 scripting games" 
-                     data-content="&lt;p&gt;in the last few years there has been a long list of people judging the scripting games. those people were expected to view as many entries as possible, preferably all, and score the entries as well as providing feedback on the individual entries. that is a ton of work especially when you consider that the judges were all volunteers.&lt;br&gt;
-this time round we&amp;rsquo;re attempting to spread the load somewhat. mike robbins has done a superb job recruiting coaches for the &lt;a href=&#34;https://powershell.org/2013/12/23/introducing-the-coaches-of-the-2014-winter-scripting-games/&#34;&gt;&lt;/a&gt; its their job to look at the entries and make suggestions and hints to the teams - if the teams wish to take advantage of this option. looking at the list of coaches - i know i would take advantage of their assistance if i was competing.&lt;br&gt;
-that leaves judging. this time we&amp;rsquo;re using a small group of judges. we have prepared scoring criteria for the events with some additional style points available to the judges. this will make most of the scoring objective but we&amp;rsquo;ve a bit of subjectivity available for individual judges to pick out, and hopefully comment on, things they like or don&amp;rsquo;t like.&lt;br&gt;
-the judges are all very experienced powershell practitioners with more books written, talks given, blog posts created and classes taught between them than anyone would want to count. in alphabetical order your judges for the winter 2014 scripting games are:&lt;br&gt;
-don jones - founder and ceo of powershell.org. author of several powershell books including the highly recommended learn powershell v3 in a month of lunches and co-author of powershell in depth. don is a powershell mvp, powershell educator, columnist and course creator.&lt;br&gt;
-jason helmick - board member of powershell.org. a powershell mvp and author of learn iis in a month of lunches which includes lots of powershell. jason also delivered the recent two-part introducing powershell mva sessions with jeffrey snover. powershell educator, columnist and speaker.&lt;br&gt;
-jeffery hicks - board member of powershell.org. powershell mvp. co-author of powershell in depth, lead editor of powershell deep dives and author of other powershell books. jeffrey is also a powershell columnist and educator&lt;br&gt;
-ed wilson - the scripting guy. ed runs the hey! scripting guy &lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/&#34;&gt;&lt;/a&gt; author of several powershell books including windows powershell best practices and windows powershell scripting guide. ed also delivers powershell classes and is a much in demand speaker.&lt;br&gt;
-the list of judges is completed by&lt;br&gt;
-richard siddaway - board member of powershell.org. powershell mvp. co-author of powershell in depth and author of powershell in practice and powershell and wmi. frequent blogger on powershell related topics.&lt;br&gt;
-between them the judges have accumulated over 30 years of powershell experience that is focussed on judging the games. they are all looking forward to the games and hope to see your entries.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 28, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-28-introducing-the-judges-for-winter-2014-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
-                            Introducing the Judges for Winter 2014 Scripting Games
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In the last few years there has been a long list of people judging the Scripting Games. Those people were expected to view as many entries as possible, preferably all, and score the entries as well as providing feedback on the individual entries. That is a ton of work especially when you consider that the judges were all volunteers.<br>
-This time round we&rsquo;re attempting to spread the load somewhat. Mike Robbins has done a superb job recruiting coaches for the <a href="https://powershell.org/2013/12/23/introducing-the-coaches-of-the-2014-winter-scripting-games/"></a> Its their job to look at the entries and make suggestions and hints to the teams - if the teams wish to take advantage of this option. Looking at the list of coaches - I know I would take advantage of their assistance if I was competing.<br>
-That leaves judging. This time we&rsquo;re using a small group of judges. We have prepared scoring criteria for the events with some additional style points available to the judges. This will make MOST of the scoring objective but we&rsquo;ve a bit of subjectivity available for individual judges to pick out, and hopefully comment on, things they like or don&rsquo;t like.<br>
-The judges are all very experienced PowerShell practitioners with more books written, talks given, blog posts created and classes taught between them than anyone would want to count. In alphabetical order your judges for the Winter 2014 Scripting Games are:<br>
-Don Jones - founder and CEO of powershell.org. Author of several PowerShell books including the highly recommended Learn PowerShell v3 in a Month of Lunches and co-author of PowerShell in Depth. Don is a PowerShell MVP, PowerShell educator, columnist and course creator.<br>
-Jason Helmick - Board member of powershell.org. A PowerShell MVP and author of Learn IIS in a Month of Lunches which includes lots of PowerShell. Jason also delivered the recent two-part Introducing PowerShell MVA sessions with Jeffrey Snover. PowerShell educator, columnist and speaker.<br>
-Jeffery Hicks - Board member of powershell.org. PowerShell MVP. Co-author of PowerShell in Depth, lead editor of PowerShell Deep Dives and author of other PowerShell books. Jeffrey is also a PowerShell columnist and educator<br>
-Ed Wilson - The Scripting Guy. Ed runs the Hey! Scripting Guy <a href="http://blogs.technet.com/b/heyscriptingguy/"></a> Author of several PowerShell books including Windows PowerShell Best Practices and Windows PowerShell Scripting Guide. Ed also delivers PowerShell classes and is a much in demand speaker.<br>
-The list of judges is completed by<br>
-Richard Siddaway - Board member of powershell.org. PowerShell MVP. Co-author of PowerShell in Depth and author of PowerShell in Practice and PowerShell and WMI. Frequent blogger on PowerShell related topics.<br>
-Between them the judges have accumulated over 30 years of PowerShell experience that is focussed on judging the Games. They are all looking forward to the Games and hope to see your entries.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-28-introducing-the-judges-for-winter-2014-scripting-games/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="january charlotte powershell user group meeting" 
-                     data-content="&lt;p&gt;our monthly meeting will be held on january 2nd, 2014. this years scripting games is a team based event. what better place to find/join a team than a user group meeting? we look forward to seeing you there.&lt;/p&gt;
-&lt;p&gt;here is some additional information about the winter scripting games:&lt;/p&gt;
-&lt;h5 id=&#34;teams-can-consist-of-between-2-to-6-scripters-and-official-registration-opens-on-jan-2nd&#34;&gt;teams can consist of between 2 to 6 scripters and official registration opens on jan 2nd.&lt;/h5&gt;
-&lt;p&gt;there will be a total of 4 official events for the winter scripting games:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 27, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Terri Donahue</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-27-january-charlotte-powershell-user-group-meeting/" class="hover:text-blue-600 transition-colors duration-200">
-                            January Charlotte PowerShell User Group Meeting
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our monthly meeting will be held on January 2nd, 2014. This years Scripting Games is a team based event. What better place to find/join a team than a User Group meeting? We look forward to seeing you there.</p>
-<p>Here is some additional information about the Winter Scripting Games:</p>
-<h5 id="teams-can-consist-of-between-2-to-6-scripters-and-official-registration-opens-on-jan-2nd">Teams can consist of between 2 to 6 Scripters and official registration opens on Jan 2nd.</h5>
-<p>There will be a total of 4 official events for the Winter Scripting Games:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-27-january-charlotte-powershell-user-group-meeting/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="introducing the coaches of the 2014 winter scripting games" 
-                     data-content="&lt;p&gt;a few weeks ago, just before the announcement to start recruiting your team for the 2014 winter scripting games, i was contacted by don jones and richard siddaway about an opportunity to become the head coach for the winter scripting games. i was honored to have been contacted and i&amp;rsquo;m a firm believer of taking advantage of opportunities when they emerge, especially when they&amp;rsquo;re powershell related, so i graciously accepted.&lt;br&gt;
-one of my first responsibilities was to recruit a small team of coaches. i immediately went to work before potential coaches committed themselves to participating on teams. we had a huge number of people in the powershell community who had volunteered to be a coach and while we would have liked to have selected everyone who volunteered, we only had a specific number of positions to fill. without further ado, here is the list of the coaches for the 2014 winter scripting games:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 23, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Mike F Robbins</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-23-introducing-the-coaches-of-the-2014-winter-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
-                            Introducing the Coaches of the 2014 Winter Scripting Games
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>A few weeks ago, just before the announcement to start recruiting your team for the 2014 Winter Scripting Games, I was contacted by Don Jones and Richard Siddaway about an opportunity to become the Head Coach for the Winter Scripting Games. I was honored to have been contacted and I&rsquo;m a firm believer of taking advantage of opportunities when they emerge, especially when they&rsquo;re PowerShell related, so I graciously accepted.<br>
-One of my first responsibilities was to recruit a small team of coaches. I immediately went to work before potential coaches committed themselves to participating on teams. We had a huge number of people in the PowerShell community who had volunteered to be a coach and while we would have liked to have selected everyone who volunteered, we only had a specific number of positions to fill. Without further ado, here is the list of the coaches for the 2014 Winter Scripting Games:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-23-introducing-the-coaches-of-the-2014-winter-scripting-games/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="my outline for accelerated powershell training" 
-                     data-content="&lt;p&gt;when i teach powershell, either at a private client or in a public class, i tend to use my own outlines. i&amp;rsquo;m comfortable with them, and they work really well. they formed the basis for the microsoft 10961 and 55039 courses, although i had to make some changes to accommodate microsoft standards and varying mct delivery styles. but i&amp;rsquo;m often asked if there&amp;rsquo;s a &amp;ldquo;moc-equivalent&amp;rdquo; outline that combines the entry-level 10961 with the scripting-focused 55039.&lt;br&gt;
-yup.&lt;br&gt;
-first, do understand that i naturally teach at a very concise and accelerated pace. i don&amp;rsquo;t spend much time on slides; i tend to skip right to demos, and use those to explain what i&amp;rsquo;m explaining. if you follow a more common delivery style of around 5min per slide, plus taking your time on demos, my approach might not work well for you. i also tend to not tell a lot of ancillary stories, i tend to make students take break during lab time (rather than individually scheduling breaks), and i tend to be as concise as possible in my lectures.&lt;br&gt;
-also, when accelerating these courses together, you don&amp;rsquo;t do &lt;em&gt;all&lt;/em&gt; of the labs. for labs with multiple components (find these 20 command), i&amp;rsquo;ll do about 1/3 of them. for the 55039 main-sequence labs, i&amp;rsquo;ll tell students to pick the &amp;ldquo;a,&amp;rdquo; &amp;ldquo;b,&amp;rdquo; or &amp;ldquo;c&amp;rdquo; version rather than doing all three; sometimes i&amp;rsquo;ll just have them do the &amp;ldquo;d&amp;rdquo; version (which gives them a pre-done starting point for each module, rather than making them build on their own work from a previous module).&lt;br&gt;
-for day 1, i&amp;rsquo;ll cover modules 1-5, and maybe module 6, from 10961. day 2 will be modules 7, 9, 11, and 12 (covering 6 first, if i didn&amp;rsquo;t get it done on day 1). that&amp;rsquo;s the &amp;ldquo;core&amp;rdquo; powershell stuff. it&amp;rsquo;s a fast delivery; it&amp;rsquo;s possible to spread those out over three days if you prefer, but i explicitly skip modules 6, 8, and 10 at this stage.&lt;br&gt;
-when my students all have strong shell or scripting skills, 2 days often gets me through that. if they&amp;rsquo;re newer, i&amp;rsquo;ll go slower on modules 1-5, do more of the labs, and take 3 days to cover that 10961 material.&lt;br&gt;
-the remainder of the course comes from 55039. that&amp;rsquo;ll be 2 or 3 days, depending on how long it took you to do the 10961 material. regardless, i&amp;rsquo;ll cover modules 2-5. i&amp;rsquo;ll usually skip module 6, and try to end the day with module 7 on debugging. i&amp;rsquo;ll cover module 8, 9, and 10. that&amp;rsquo;s usually 2 days, so it&amp;rsquo;s the last thing i do if i took 3 days to cover the 10961 stuff.&lt;br&gt;
-if i got through 10961 in 2 days, i&amp;rsquo;ll finish the 55039 material, covering modules 11, 13, and 16. if students insist on workflows, i&amp;rsquo;ll throw that module in there - i have mixed feelings and results when it comes to workflow, so it&amp;rsquo;s not part of my standard accelerated delivery. if you have extra time, my priority then goes to modules 15, 13, and 14, in that order. 14 gets you some gui-building experience, so if the class is pushing for that i&amp;rsquo;ll include that module instead of workflow.&lt;br&gt;
-if all that seems a little informal - well, it is. i&amp;rsquo;m very good at reading my students, and making sure folks are actually keeping up, so i don&amp;rsquo;t press too hard. this is a &lt;em&gt;lot&lt;/em&gt; of conceptual and practical material to cover in a week.&lt;br&gt;
-price-wise, in the us, i see this kind of accelerated class going for around $3500, although a lot of training centers offer significant discounts. this accelerated outline is absolutely worth it: you&amp;rsquo;re literally taking someone from zero and teaching them how to build their own script modules and tools in powershell. it&amp;rsquo;s a &lt;em&gt;lot&lt;/em&gt; to cover; not every class will be up to it.&lt;br&gt;
-the labs in both courses are solid, and i&amp;rsquo;m especially happy with the ones in 55039 in terms of what they cover, and in how challenging they are. i&amp;rsquo;ll warn you that the 55039 labs don&amp;rsquo;t do a lot of hand-holding. students are expected to &lt;em&gt;learn&lt;/em&gt; the material and then execute the labs; the &amp;ldquo;answer keys&amp;rdquo; are outright sample solutions, not hints. but if you teach the material as provided, everything students &lt;em&gt;need&lt;/em&gt; is in there - if they&amp;rsquo;re willing to work hard and retain what you&amp;rsquo;ve shared.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 20, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Training
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-20-my-outline-for-accelerated-powershell-training/" class="hover:text-blue-600 transition-colors duration-200">
-                            My outline for accelerated PowerShell training
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When I teach PowerShell, either at a private client or in a public class, I tend to use my own outlines. I&rsquo;m comfortable with them, and they work really well. They formed the basis for the Microsoft 10961 and 55039 courses, although I had to make some changes to accommodate Microsoft standards and varying MCT delivery styles. But I&rsquo;m often asked if there&rsquo;s a &ldquo;MOC-equivalent&rdquo; outline that combines the entry-level 10961 with the scripting-focused 55039.<br>
-Yup.<br>
-First, do understand that I naturally teach at a very concise and accelerated pace. I don&rsquo;t spend much time on slides; I tend to skip right to demos, and use those to explain what I&rsquo;m explaining. If you follow a more common delivery style of around 5min per slide, plus taking your time on demos, my approach might not work well for you. I also tend to not tell a lot of ancillary stories, I tend to make students take break during lab time (rather than individually scheduling breaks), and I tend to be as concise as possible in my lectures.<br>
-Also, when accelerating these courses together, you don&rsquo;t do <em>all</em> of the labs. For labs with multiple components (find these 20 command), I&rsquo;ll do about 1/3 of them. For the 55039 main-sequence labs, I&rsquo;ll tell students to pick the &ldquo;A,&rdquo; &ldquo;B,&rdquo; or &ldquo;C&rdquo; version rather than doing all three; sometimes I&rsquo;ll just have them do the &ldquo;D&rdquo; version (which gives them a pre-done starting point for each module, rather than making them build on their own work from a previous module).<br>
-For Day 1, I&rsquo;ll cover modules 1-5, and maybe module 6, from 10961. Day 2 will be modules 7, 9, 11, and 12 (covering 6 first, if I didn&rsquo;t get it done on Day 1). That&rsquo;s the &ldquo;core&rdquo; PowerShell stuff. It&rsquo;s a fast delivery; it&rsquo;s possible to spread those out over three days if you prefer, but I explicitly skip modules 6, 8, and 10 at this stage.<br>
-When my students all have strong shell or scripting skills, 2 days often gets me through that. If they&rsquo;re newer, I&rsquo;ll go slower on modules 1-5, do more of the labs, and take 3 days to cover that 10961 material.<br>
-The remainder of the course comes from 55039. That&rsquo;ll be 2 or 3 days, depending on how long it took you to do the 10961 material. Regardless, I&rsquo;ll cover modules 2-5. I&rsquo;ll usually skip module 6, and try to end the day with module 7 on debugging. I&rsquo;ll cover module 8, 9, and 10. That&rsquo;s usually 2 days, so it&rsquo;s the last thing I do if I took 3 days to cover the 10961 stuff.<br>
-If I got through 10961 in 2 days, I&rsquo;ll finish the 55039 material, covering modules 11, 13, and 16. If students insist on workflows, I&rsquo;ll throw that module in there - I have mixed feelings and results when it comes to workflow, so it&rsquo;s not part of my standard accelerated delivery. If you have extra time, my priority then goes to modules 15, 13, and 14, in that order. 14 gets you some GUI-building experience, so if the class is pushing for that I&rsquo;ll include that module instead of workflow.<br>
-If all that seems a little informal - well, it is. I&rsquo;m very good at reading my students, and making sure folks are actually keeping up, so I don&rsquo;t press too hard. This is a <em>lot</em> of conceptual and practical material to cover in a week.<br>
-Price-wise, in the US, I see this kind of accelerated class going for around $3500, although a lot of training centers offer significant discounts. This accelerated outline is absolutely worth it: you&rsquo;re literally taking someone from zero and teaching them how to build their own script modules and tools in PowerShell. It&rsquo;s a <em>lot</em> to cover; not every class will be up to it.<br>
-The labs in both courses are solid, and I&rsquo;m especially happy with the ones in 55039 in terms of what they cover, and in how challenging they are. I&rsquo;ll warn you that the 55039 labs don&rsquo;t do a lot of hand-holding. Students are expected to <em>learn</em> the material and then execute the labs; the &ldquo;answer keys&rdquo; are outright sample solutions, not hints. But if you teach the material as provided, everything students <em>need</em> is in there - if they&rsquo;re willing to work hard and retain what you&rsquo;ve shared.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-20-my-outline-for-accelerated-powershell-training/" 
+                        <a href="http://localhost:57259/articles/2013-12-30-state-of-the-org-ending-2013/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1436,7 +1518,7 @@ The labs in both courses are solid, and I&rsquo;m especially happy with the ones
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

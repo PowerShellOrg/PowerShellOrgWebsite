@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,204 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="philadelphia meeting – september 4th 2014" 
+                     data-content="&lt;p&gt;join us thursday, september 4th where &lt;a href=&#34;http://blog.powershell.no/&#34;&gt;jan egil ring&lt;/a&gt; will be presenting a talk on &lt;strong&gt;get started with windows powershell desired state configuration&lt;/strong&gt;&lt;br&gt;
+jan will explain how to use windows powershell desired state configuration (dsc), which was introduced in windows powershell 4.0, to configure your environment. the purpose of dsc is to provide deployment, configuration and compliance capabilities for windows resources such as a files, services, roles and features, users, groups and anything that can be managed from powershell by using custom resources such as a script. during his talk you will&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 21, 2014</time>
+                            
+                            <span>•</span>
+                            <span>John Mello</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-08-20-philadelphia-meeting-september-4th-2014/" class="hover:text-blue-600 transition-colors duration-200">
+                            Philadelphia Meeting – September 4th 2014
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Join us Thursday, September 4th where <a href="http://blog.powershell.no/">Jan Egil RIng</a> will be presenting a talk on <strong>Get Started with Windows PowerShell Desired State Configuration</strong><br>
+Jan will explain how to use Windows PowerShell Desired State Configuration (DSC), which was introduced in Windows PowerShell 4.0, to configure your environment. The purpose of DSC is to provide Deployment, Configuration and Compliance capabilities for Windows resources such as a files, services, roles and features, users, groups and anything that can be managed from PowerShell by using custom resources such as a script. During his talk you will</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-08-20-philadelphia-meeting-september-4th-2014/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="registration for august omaha powershell user group meeting is live!" 
+                     data-content="&lt;p&gt;&lt;a href=&#34;https://www.eventbrite.com/e/omaha-powershell-users-group-august-meeting-tickets-12703856577&#34;&gt;https://www.eventbrite.com/e/omaha-powershell-users-group-august-meeting-tickets-12703856577&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in the second ever meeting of the omaha powershell user group we will have powershell mvp bartek bielawski talking about omi: powershell everywhere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cim cmdlets and cdxml commands are advertised as technology that will enable powershell users to manage anything in datacenter. it wouldn’t be possible though without something that we can talk to on the remote end, and that’s were omi kicks in. in this presentation i will show you how you can manage processes on linux using omi and cim, and how easy it is to create cdxml based commands on top of it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;this meeting (and all future meetings) are for anyone who uses or is interested in powershell.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 19, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Jacob Benson</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-08-19-registration-for-august-omaha-powershell-user-group-meeting-is-live/" class="hover:text-blue-600 transition-colors duration-200">
+                            Registration for August Omaha PowerShell User Group Meeting is Live!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><a href="https://www.eventbrite.com/e/omaha-powershell-users-group-august-meeting-tickets-12703856577">https://www.eventbrite.com/e/omaha-powershell-users-group-august-meeting-tickets-12703856577</a></p>
+<p>In the second ever meeting of the Omaha PowerShell User Group we will have PowerShell MVP Bartek Bielawski talking about OMI: PowerShell Everywhere:</p>
+<ul>
+<li>CIM cmdlets and CDXML commands are advertised as technology that will enable PowerShell users to manage anything in datacenter. It wouldn’t be possible though without something that we can talk to on the remote end, and that’s were OMI kicks in. In this presentation I will show you how you can manage processes on Linux using OMI and CIM, and how easy it is to create CDXML based commands on top of it.</li>
+</ul>
+<p>This meeting (and all future meetings) are for anyone who uses or is interested in PowerShell.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-08-19-registration-for-august-omaha-powershell-user-group-meeting-is-live/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="omaha powershell user group meeting – 8/26" 
+                     data-content="&lt;p&gt;the next (and second ever) meeting of the omaha powershell users group is taking place next tuesday, august 26th.  mvp bartek bielawski will be talking about omi on windows and linux.&lt;br&gt;
+i am having some issues with lync in our office 365 account so as soon as that gets straightened out i will be creating the invite for you to sign up, so watch for that!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 18, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Jacob Benson</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-08-18-omaha-powershell-user-group-meeting-826/" class="hover:text-blue-600 transition-colors duration-200">
+                            Omaha PowerShell User Group Meeting – 8/26
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The next (and second ever) meeting of the Omaha PowerShell Users Group is taking place next Tuesday, August 26th.  MVP Bartek Bielawski will be talking about OMI on Windows and Linux.<br>
+I am having some issues with Lync in our Office 365 account so as soon as that gets straightened out I will be creating the invite for you to sign up, so watch for that!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-08-18-omaha-powershell-user-group-meeting-826/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="omaha powershell user group meeting notes/video" 
+                     data-content="&lt;p&gt;the first omaha powershell user group meeting is in the books!  we had a great turnout with 26 people showing up last night.&lt;br&gt;
+the video don jones made for us is available on youtube &lt;a href=&#34;https://www.youtube.com/watch?v=ntacl64ohh4&amp;amp;feature=youtu.be&#34;&gt;here&lt;/a&gt;.&lt;br&gt;
+our next meeting will take place on august 26th with powershell mvp bartek bielawski doing the presentation on either pre-param scriptology or powershell and omi.  we will also have a short scripting game/contest of some kind.  stay tuned for the event sign up which should be going out soon.&lt;br&gt;
+if you would like to speak about powershell here is a list of some topics people have expressed interest in learning more about:&lt;br&gt;
+powershell security/infosec&lt;br&gt;
+desired state configuration&lt;br&gt;
+omi interface w/powershell&lt;br&gt;
+workflows/sma&lt;br&gt;
+powercli/vmware&lt;br&gt;
+.net methods/classes/underneath/exploration&lt;br&gt;
+oneget/chocolaty/nuget&lt;br&gt;
+tfs/powershell integration&lt;br&gt;
+powershell formatting/export options&lt;br&gt;
+powershell basics/powershell 101/why powershell&lt;br&gt;
+finally, if you have any ideas for things we could do for the scripting games/contest please send them to &lt;a href=&#34;mailto:omahapsug@gmail.com&#34;&gt;omahapsug@gmail.com&lt;/a&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jul 30, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Jacob Benson</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-07-30-omaha-powershell-user-group-meeting-notesvideo/" class="hover:text-blue-600 transition-colors duration-200">
+                            Omaha PowerShell User Group Meeting Notes/Video
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The first Omaha PowerShell User Group Meeting is in the books!  We had a great turnout with 26 people showing up last night.<br>
+The video Don Jones made for us is available on YouTube <a href="https://www.youtube.com/watch?v=NtAcl64oHH4&amp;feature=youtu.be">here</a>.<br>
+Our next meeting will take place on August 26th with PowerShell MVP Bartek Bielawski doing the presentation on either Pre-Param Scriptology or PowerShell and OMI.  We will also have a short Scripting Game/Contest of some kind.  Stay tuned for the event sign up which should be going out soon.<br>
+If you would like to speak about PowerShell here is a list of some topics people have expressed interest in learning more about:<br>
+PowerShell Security/InfoSec<br>
+Desired State Configuration<br>
+OMI Interface w/PowerShell<br>
+Workflows/SMA<br>
+PowerCLI/VMWare<br>
+.NET Methods/Classes/Underneath/Exploration<br>
+OneGet/Chocolaty/Nuget<br>
+TFS/PowerShell Integration<br>
+PowerShell Formatting/Export Options<br>
+PowerShell Basics/PowerShell 101/Why PowerShell<br>
+Finally, if you have any ideas for things we could do for the Scripting Games/Contest please send them to <a href="mailto:omahapsug@gmail.com">omahapsug@gmail.com</a></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-07-30-omaha-powershell-user-group-meeting-notesvideo/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="registration for european summit 2014 is open" 
                      data-content="&lt;p&gt;registration for the powershell summit europe 2014 is now open. follow the links under events&lt;/p&gt;"
                      >
@@ -437,7 +685,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-07-15-registration-for-european-summit-2014-is-open/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-07-15-registration-for-european-summit-2014-is-open/" class="hover:text-blue-600 transition-colors duration-200">
                             Registration for European Summit 2014 is open
                         </a>
                     </h2>
@@ -445,7 +693,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Registration for the PowerShell Summit Europe 2014 is now open. Follow the links under Events</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-07-15-registration-for-european-summit-2014-is-open/" 
+                        <a href="http://localhost:57259/articles/2014-07-15-registration-for-european-summit-2014-is-open/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -486,7 +734,7 @@ youtube channel
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-07-05-phillyposh-07032014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-07-05-phillyposh-07032014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 07/03/2014 meeting summary and presentation materials
                         </a>
                     </h2>
@@ -504,7 +752,7 @@ YouTube channel
 </ul></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-07-05-phillyposh-07032014-meeting-summary-and-presentation-materials/" 
+                        <a href="http://localhost:57259/articles/2014-07-05-phillyposh-07032014-meeting-summary-and-presentation-materials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -542,7 +790,7 @@ there isn&amp;rsquo;t a problem and the summit &lt;strong&gt;has not&lt;/strong&
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-19-european-powershell-summit/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-06-19-european-powershell-summit/" class="hover:text-blue-600 transition-colors duration-200">
                             European PowerShell Summit
                         </a>
                     </h2>
@@ -553,7 +801,7 @@ There isn&rsquo;t a problem and the Summit <strong>HAS NOT</strong> sold out at 
 .</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-19-european-powershell-summit/" 
+                        <a href="http://localhost:57259/articles/2014-06-19-european-powershell-summit/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -585,7 +833,7 @@ meeting details and sign up information can be found at omahapsug.eventbrite.com
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-19-omaha-powershell-user-group-is-filling-up-fast/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-06-19-omaha-powershell-user-group-is-filling-up-fast/" class="hover:text-blue-600 transition-colors duration-200">
                             Omaha PowerShell User Group is Filling Up Fast!
                         </a>
                     </h2>
@@ -594,7 +842,7 @@ meeting details and sign up information can be found at omahapsug.eventbrite.com
 Meeting details and sign up information can be found at omahapsug.eventbrite.com</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-19-omaha-powershell-user-group-is-filling-up-fast/" 
+                        <a href="http://localhost:57259/articles/2014-06-19-omaha-powershell-user-group-is-filling-up-fast/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -625,7 +873,7 @@ Meeting details and sign up information can be found at omahapsug.eventbrite.com
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-16-charlotte-powershell-user-group-no-meeting-in-july-enjoy-your-holiday/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-06-16-charlotte-powershell-user-group-no-meeting-in-july-enjoy-your-holiday/" class="hover:text-blue-600 transition-colors duration-200">
                             Charlotte PowerShell User Group No meeting in July, enjoy your holiday!
                         </a>
                     </h2>
@@ -633,7 +881,7 @@ Meeting details and sign up information can be found at omahapsug.eventbrite.com
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>There will not be a meeting in July in Charlotte, please enjoy the 4th of July holiday. We will be back on schedule in August.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-16-charlotte-powershell-user-group-no-meeting-in-july-enjoy-your-holiday/" 
+                        <a href="http://localhost:57259/articles/2014-06-16-charlotte-powershell-user-group-no-meeting-in-july-enjoy-your-holiday/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -672,7 +920,7 @@ and please - tell a friend!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-13-free-online-access-to-techletter-back-issues/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-06-13-free-online-access-to-techletter-back-issues/" class="hover:text-blue-600 transition-colors duration-200">
                             Free Online Access to TechLetter Back Issues
                         </a>
                     </h2>
@@ -684,253 +932,7 @@ We&rsquo;re always on the lookout for new content, too - and if you&rsquo;re thi
 And please - tell a friend!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-13-free-online-access-to-techletter-back-issues/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="phillyposh 06/05/2014 meeting summary and presentation materials" 
-                     data-content="&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jdhitsolutions.com/blog/&#34;&gt;jeff hicks&lt;/a&gt; gave a presentation entitled “getting started with desired state configuration (dsc)”. during his talked jeff gave an overview of &lt;a href=&#34;http://technet.microsoft.com/en-us/library/dn249912.aspx&#34;&gt;dsc&lt;/a&gt; and walked through an example of a push mode configuration. a copy of his &lt;a href=&#34;https://github.com/phillyposh/2014-06-jeff-hicks-dsc&#34;&gt;
-presentation materials are available here
-.&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;a &lt;a href=&#34;https://www.youtube.com/watch?v=j5ru8h73f0g&amp;amp;feature=youtu.be&#34;&gt;
-recording of this meeting
-&lt;/a&gt; has been posted to our &lt;a href=&#34;http://www.youtube.com/channel/ucac_ow5fijtrpvew__9iqzg&#34;&gt;
-youtube channel
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 10, 2014</time>
-                            
-                            <span>•</span>
-                            <span>John Mello</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-09-phillyposh-06052014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
-                            PhillyPoSH 06/05/2014 meeting summary and presentation materials
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><ul>
-<li><a href="http://jdhitsolutions.com/blog/">Jeff Hicks</a> gave a presentation entitled “Getting Started with Desired State Configuration (DSC)”. During his talked Jeff gave an overview of <a href="http://technet.microsoft.com/en-us/library/dn249912.aspx">DSC</a> and walked through an example of a push mode configuration. A copy of his <a href="https://github.com/PhillyPoSH/2014-06-Jeff-Hicks-DSC">
-presentation materials are available here
-.</a>
-<ul>
-<li>A <a href="https://www.youtube.com/watch?v=J5ru8h73F0g&amp;feature=youtu.be">
-recording of this meeting
-</a> has been posted to our <a href="http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg">
-YouTube channel
-</a></li>
-</ul>
-</li>
-</ul></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-09-phillyposh-06052014-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="wish list: better code formatting in the forums (can you help?)" 
-                     data-content="&lt;p&gt;i know it&amp;rsquo;s been a &amp;ldquo;wish&amp;rdquo; of many folks for our forums to have better code formatting. well, if you know some php and a little about wordpress, you can make it happen.&lt;br&gt;
-what we need is a wordpress plugin that hooks the action for post displays. the plugin needs to take the post body, and look for anything contained within html &amp;ldquo;code&amp;rdquo; tags or &amp;ldquo;pre&amp;rdquo; tags.&lt;br&gt;
-within that content, the plugin needs to strip any further code/pre tags (wordpress has a bit of a glitch where it&amp;rsquo;ll sometimes nest them). it should then html-encode the remaining content to turn any backticks into an html entity. finally, it should color-code the content, or whatever, and hand it back to wordpress for display.&lt;br&gt;
-if you think you might be interested, let me know.&lt;br&gt;
-there are existing code formatters. but they have some weaknesses:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 9, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-09-wish-list-better-code-formatting-in-the-forums-can-you-help/" class="hover:text-blue-600 transition-colors duration-200">
-                            Wish List: Better Code Formatting in the Forums (Can You Help?)
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I know it&rsquo;s been a &ldquo;wish&rdquo; of many folks for our forums to have better code formatting. Well, if you know some PHP and a little about WordPress, you can make it happen.<br>
-What we need is a WordPress plugin that hooks the action for post displays. The plugin needs to take the post body, and look for anything contained within HTML &ldquo;code&rdquo; tags or &ldquo;pre&rdquo; tags.<br>
-Within that content, the plugin needs to strip any further code/pre tags (WordPress has a bit of a glitch where it&rsquo;ll sometimes nest them). It should then HTML-encode the remaining content to turn any backticks into an HTML entity. Finally, it should color-code the content, or whatever, and hand it back to WordPress for display.<br>
-If you think you might be interested, let me know.<br>
-There ARE existing code formatters. But they have some weaknesses:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-09-wish-list-better-code-formatting-in-the-forums-can-you-help/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="omaha powershell user group is open!" 
-                     data-content="&lt;p&gt;the omaha powershell user group is now open for business!  if you are in the omaha-council bluffs-lincoln area and are interested in being a part of it, either let myself, jacob benson (@vhusker) or boe prox (@proxb) know.&lt;br&gt;
-we are currently looking for a meeting place and are shooting for having our first meeting the last week in july.  in addition to finding out who might be interested in attending, we would also like to know what days/times work best for you and the kinds of things you would like to get out of the meetings.&lt;br&gt;
-you can follow us on twitter at @omahapsug.  if you wish to contact us through email you can reach us at &lt;a href=&#34;mailto:omahapsug@gmail.com&#34;&gt;omahapsug@gmail.com&lt;/a&gt; .&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 5, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Jacob Benson</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-05-omaha-powershell-user-group-is-open/" class="hover:text-blue-600 transition-colors duration-200">
-                            Omaha PowerShell User Group is Open!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The Omaha PowerShell User Group is now open for business!  If you are in the Omaha-Council Bluffs-Lincoln area and are interested in being a part of it, either let myself, Jacob Benson (@vhusker) or Boe Prox (@proxb) know.<br>
-We are currently looking for a meeting place and are shooting for having our first meeting the last week in July.  In addition to finding out who might be interested in attending, we would also like to know what days/times work best for you and the kinds of things you would like to get out of the meetings.<br>
-You can follow us on Twitter at @OmahaPSUG.  If you wish to contact us through email you can reach us at <a href="mailto:omahapsug@gmail.com">omahapsug@gmail.com</a> .</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-05-omaha-powershell-user-group-is-open/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="quick tip: wmi vs. cim syntax" 
-                     data-content="&lt;p&gt;&lt;code&gt;# list all classes in a namespace get-cimclass -namespace root\cimv2 get-wmiobject -namespace root\cimv2 -list &lt;/code&gt;# list all classes containing &amp;ldquo;service&amp;rdquo; in their name&lt;br&gt;
-get-cimclass -namespace root\cimv2 | where cimclassname -like &amp;lsquo;*service*&amp;rsquo; | sort cimclassname&lt;br&gt;
-(or)&lt;br&gt;
-get-cimclass -namespace root\cimv2 -classname *service*&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -list | where name -like &amp;lsquo;*service*&amp;rsquo; | sort name&lt;br&gt;
-# get all class instances&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_operatingsystem&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -class win32_operatingsystem&lt;br&gt;
-# filter class instances&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_logicaldisk -filter &amp;ldquo;drivetype=3&amp;rdquo;&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -class win32_logicaldisk -filter &amp;ldquo;drivetype=3&amp;rdquo;&lt;br&gt;
-# show all properties&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_operatingsystem | get-member&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -class win32_operatingsystem | get-member&lt;br&gt;
-# show all properties and values&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_operatingsystem | fl *&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -class win32_operatingsystem | fl *&lt;br&gt;
-# remote computer&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_bios -computername dc,win81&lt;br&gt;
-get-wmiobject -namespace root\cimv2 -class win32_bios -computername dc,win81&lt;br&gt;
-# use cim command to talk to non-cim computer&lt;br&gt;
-get-ciminstance -namespace root\cimv2 -classname win32_bios -cimsession (&lt;br&gt;
-new-cimsession -computername old-xp-pc -sessionoption (&lt;br&gt;
-new-cimsessionoption -protocol dcom&lt;br&gt;
-)&lt;br&gt;
-)&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 4, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-06-04-quick-tip-wmi-vs-cim-syntax/" class="hover:text-blue-600 transition-colors duration-200">
-                            Quick Tip: WMI vs. CIM Syntax
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p><code># List all classes in a namespace Get-CimClass -Namespace root\CIMv2 Get-WmiObject -Namespace root\CIMv2 -List </code># list all classes containing &ldquo;service&rdquo; in their name<br>
-Get-CimClass -Namespace root\CIMv2 | Where CimClassName -like &lsquo;*service*&rsquo; | Sort CimClassName<br>
-(or)<br>
-Get-CimClass -Namespace root\CIMv2 -Classname *service*<br>
-Get-WmiObject -Namespace root\CIMv2 -List | Where Name -like &lsquo;*service*&rsquo; | Sort Name<br>
-# get all class instances<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName Win32_OperatingSystem<br>
-Get-WmiObject -Namespace root\CIMv2 -Class Win32_OperatingSystem<br>
-# filter class instances<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName Win32_LogicalDisk -Filter &ldquo;DriveType=3&rdquo;<br>
-Get-WmiObject -Namespace root\CIMv2 -Class Win32_LogicalDisk -Filter &ldquo;DriveType=3&rdquo;<br>
-# show all properties<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName Win32_OperatingSystem | Get-Member<br>
-Get-WmiObject -Namespace root\CIMv2 -Class Win32_OperatingSystem | Get-Member<br>
-# show all properties and values<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName Win32_OperatingSystem | fl *<br>
-Get-WmiObject -Namespace root\CIMv2 -Class Win32_OperatingSystem | fl *<br>
-# remote computer<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName Win32_BIOS -ComputerName dc,win81<br>
-Get-WmiObject -Namespace root\CIMv2 -Class Win32_BIOS -ComputerName dc,win81<br>
-# use CIM command to talk to non-CIM computer<br>
-Get-CimInstance -Namespace root\CIMv2 -ClassName win32_BIOS -CimSession (<br>
-New-CimSession -ComputerName OLD-XP-PC -SessionOption (<br>
-New-CimSessionOption -Protocol Dcom<br>
-)<br>
-)</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-06-04-quick-tip-wmi-vs-cim-syntax/" 
+                        <a href="http://localhost:57259/articles/2014-06-13-free-online-access-to-techletter-back-issues/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1412,7 +1414,7 @@ New-CimSessionOption -Protocol Dcom<br>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

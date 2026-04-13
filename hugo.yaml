@@ -39,30 +39,33 @@ menu:
     - name: "Summit"
       url: "/summit/"
       weight: 30
-    - name: "Community"
-      url: "/community/"
-      weight: 40
     - name: "Articles"
       url: "/articles/"
-      weight: 45
-    - name: "Learning"
-      url: "/learning/"
+      weight: 40
+    - name: "Community"
+      url: "/community/"
       weight: 50
-    - name: "Calendar"
-      url: "/calendar/"
-      weight: 52
+      params:
+        hasChildren: true
     - name: "Plaster"
       url: "/plaster/"
-      weight: 53
+      weight: 60
+  community:
+    - name: "Learning"
+      url: "/learning/"
+      weight: 10
+    - name: "Calendar"
+      url: "/calendar/"
+      weight: 20
     - name: "Authors"
       url: "/authors/"
-      weight: 55
+      weight: 30
     - name: "Forums"
       url: "https://forums.powershell.org"
-      weight: 60
+      weight: 40
     - name: "Discord Archive"
       url: "/discord/"
-      weight: 62
+      weight: 50
 
 # Site parameters
 params:
@@ -85,10 +88,10 @@ params:
     
   # Summit settings
   summit:
-    year: "2026"
+    year: "2027"
     title: "PowerShell + DevOps Global Summit"
-    dates: "April 13-16, 2026"
-    location: "Bellevue, WA"
+    dates: "April 5-8, 2027"
+    location: "Orlando, FL"
     registration_url: "https://powershellsummit.org"
     
   # Analytics (GitHub Pages compatible)

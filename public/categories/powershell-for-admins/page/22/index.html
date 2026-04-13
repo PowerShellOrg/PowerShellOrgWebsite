@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,194 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="a study in powershell scripting – a beginners guide part i" 
+                     data-content="&lt;p&gt;i thought i would post my learning experiences as a person that has very little programming background. don did say in one of the teched&amp;rsquo;s a few  years ago that even a beginner could share their experiences with others. so i thought that i should contribute with the approach that i use to write my scripts so that other people starting to begin their powershell adventure could benefit.&lt;br&gt;
+the scenario in this case is to do with three active directory security groups and synchronizing with a master active directory security group.&lt;br&gt;
+link to blog post &lt;a href=&#34;http://weiyentanitjournal.com/index.php/2016/01/31/a-study-in-learning-powershell-part-1/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 25, 2016</time>
+                            
+                            <span>•</span>
+                            <span>WeiYen Tan</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-02-25-a-study-in-powershell-scripting-a-beginners-guide-part-i/" class="hover:text-blue-600 transition-colors duration-200">
+                            A study in Powershell Scripting – A beginners Guide Part I
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I thought I would post my learning experiences as a person that has very little programming background. Don did say in one of the TechEd&rsquo;s a few  years ago that even a beginner could share their experiences with others. So I thought that I should contribute with the approach that I use to write my scripts so that other people starting to begin their Powershell adventure could benefit.<br>
+The scenario in this case is to do with three Active Directory security groups and synchronizing with a master Active Directory security group.<br>
+Link to blog post <a href="http://weiyentanitjournal.com/index.php/2016/01/31/a-study-in-learning-powershell-part-1/">here</a>.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-02-25-a-study-in-powershell-scripting-a-beginners-guide-part-i/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="i&#39;m not a developer" 
+                     data-content="&lt;p&gt;are you intimidated by scripting? does powershell seem too much like programming to you? you aren&amp;rsquo;t a developer, why should you learn this mumbo jumbo?&lt;br&gt;
+it turns out, powershell is quite easy to get started with. can you run ipconfig? do you know how to give someone instructions? you could probably pick up the powershell basics in a month of lunches or so.&lt;br&gt;
+don&amp;rsquo;t believe me? &lt;a href=&#34;http://ramblingcookiemonster.github.io/powershell-is-too-hard/&#34;&gt;i spent a few minutes to compare a simple task in four languages&lt;/a&gt;. powershell is a single, easy to understand command. python is two lines and starts to include some syntax like .().&lt;br&gt;
+we won&amp;rsquo;t even look at the c example here, but check out this c# code that simply reads and prints out the content of a file:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 19, 2016</time>
+                            
+                            <span>•</span>
+                            <span>pscookiemonster</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-02-19-im-not-a-developer/" class="hover:text-blue-600 transition-colors duration-200">
+                            I&#39;m Not A Developer
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Are you intimidated by scripting? Does PowerShell seem too much like programming to you? You aren&rsquo;t a developer, why should you learn this mumbo jumbo?<br>
+It turns out, PowerShell is quite easy to get started with. Can you run ipconfig? Do you know how to give someone instructions? You could probably pick up the PowerShell basics in a month of lunches or so.<br>
+Don&rsquo;t believe me? <a href="http://ramblingcookiemonster.github.io/PowerShell-Is-Too-Hard/">I spent a few minutes to compare a simple task in four languages</a>. PowerShell is a single, easy to understand command. Python is two lines and starts to include some syntax like .().<br>
+We won&rsquo;t even look at the C example here, but check out this C# code that simply reads and prints out the content of a file:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-02-19-im-not-a-developer/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="convert vba macros to powershell for microsoft office automation" 
+                     data-content="&lt;p&gt;there is a lot of documentation out there for interacting with microsoft office including outlook, excel, word, etc with visual basic for applications (vba). a lot of time you may only be able to find vba examples. vba&amp;rsquo;s require template files to be sent to the desktop and are a real hassle when trying to automate across multiple machines.&lt;br&gt;
+there are not many a to b examples of translating vba to powershell so i took a problem i had solved in the past and presented the before and after. hopefully it will provide enough information to allow others to convert vba code into powershell for their scenarios.&lt;br&gt;
+you can check out the full article on &lt;a href=&#34;http://wp.me/p7al1q-5f&#34;&gt;powershellblogger.com&lt;/a&gt;.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 18, 2016</time>
+                            
+                            <span>•</span>
+                            <span>Steve Parankewich</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/" class="hover:text-blue-600 transition-colors duration-200">
+                            Convert VBA Macros To PowerShell for Microsoft Office Automation
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>There is a lot of documentation out there for interacting with Microsoft Office including Outlook, Excel, Word, etc with Visual Basic for Applications (VBA). A lot of time you may only be able to find VBA examples. VBA&rsquo;s require template files to be sent to the desktop and are a real hassle when trying to automate across multiple machines.<br>
+There are not many A to B examples of translating VBA to PowerShell so I took a problem I had solved in the past and presented the before and after. Hopefully it will provide enough information to allow others to convert VBA code into PowerShell for their scenarios.<br>
+You can check out the full article on <a href="http://wp.me/p7al1Q-5f">PowerShellBlogger.com</a>.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="connect to all office 365 services with powershell" 
+                     data-content="&lt;p&gt;if you are not on office 365 or have a tenant set up with microsoft yet, now is the time to reserve your tenant name! with utilizing office 365, a lot of administration is only available from a powershell session. there is a mix of outdated information on what you actually need to install and execute in order to connect to all of the office 365 services. as a result, i accumulated and wrote up the current download requirements and commands to connect and administer every office 365 service from one powershell session. i hope this saves everyone a lot of time and effort!&lt;br&gt;
+head over to &lt;a href=&#34;http://wp.me/p7al1q-53&#34;&gt;powershellblogger.com&lt;/a&gt; to read the full article &lt;a href=&#34;http://wp.me/p7al1q-53&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 2, 2016</time>
+                            
+                            <span>•</span>
+                            <span>Steve Parankewich</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            DevOps
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Connect to all Office 365 Services with PowerShell
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>If you are not on Office 365 or have a tenant set up with Microsoft yet, now is the time to reserve your tenant name! With utilizing Office 365, a lot of administration is only available from a PowerShell session. There is a mix of outdated information on what you actually need to install and execute in order to connect to all of the Office 365 services. As a result, I accumulated and wrote up the current download requirements and commands to connect and administer every Office 365 service from one PowerShell session. I hope this saves everyone a lot of time and effort!<br>
+Head over to <a href="http://wp.me/p7al1Q-53">PowerShellBlogger.com</a> to read the full article <a href="http://wp.me/p7al1Q-53">here</a>.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="using powershell to enable chatops on windows" 
                      data-content="&lt;p&gt;chatops is a term used to describe bringing development or operations work that is already happening in the background into a common chat room. it involves having everyone in the team in a single chat room, then bringing tools into the room so everyone can automate, collaborate and see how automation is used to solve problems. in doing so, you are unifying the communication about what work gets done and have a history of it happening.&lt;br&gt;
 chatops can be supplemented with the use of tools or scripts exposed using a chat bot. users in the chat room can talk to the bot and have it take actions on their behalf, some examples of this may be:&lt;/p&gt;"
@@ -443,7 +681,7 @@ chatops can be supplemented with the use of tools or scripts exposed using a cha
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-28-using-powershell-to-enable-chatops-on-windows/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-28-using-powershell-to-enable-chatops-on-windows/" class="hover:text-blue-600 transition-colors duration-200">
                             Using PowerShell to enable ChatOps on Windows
                         </a>
                     </h2>
@@ -452,7 +690,7 @@ chatops can be supplemented with the use of tools or scripts exposed using a cha
 ChatOps can be supplemented with the use of tools or scripts exposed using a chat bot. Users in the chat room can talk to the bot and have it take actions on their behalf, some examples of this may be:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-28-using-powershell-to-enable-chatops-on-windows/" 
+                        <a href="http://localhost:57259/articles/2016-01-28-using-powershell-to-enable-chatops-on-windows/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -488,7 +726,7 @@ for a full run down on creating shortcuts and favorites with powershell head ove
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                             Create Windows Shortcuts or Favorites With PowerShell
                         </a>
                     </h2>
@@ -497,7 +735,7 @@ for a full run down on creating shortcuts and favorites with powershell head ove
 For a full run down on creating shortcuts and favorites with PowerShell head over to <a href="http://powershellblogger.com/?p=301">PowerShellBlogger.com</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/" 
+                        <a href="http://localhost:57259/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -533,7 +771,7 @@ For a full run down on creating shortcuts and favorites with PowerShell head ove
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/" class="hover:text-blue-600 transition-colors duration-200">
                             Using Local Functions in a Scriptblock with Existing Code
                         </a>
                     </h2>
@@ -542,7 +780,7 @@ For a full run down on creating shortcuts and favorites with PowerShell head ove
 <p><code>function Add ($param1, $param2) { $param1 + $param2 } function Multiply($param1,$param2) { $param1 * $param2 } Invoke-Command -ComputerName $env:COMPUTERNAME -ScriptBlock { $addResult = Add $args[0] $args[1] $multiplyResult = Multiply $args[0] $args[1] Write-Output &quot;The result of the addition was : $addResult&quot; Write-Output &quot;The result of the multiplication was : $multiplyResult&quot; } -ArgumentList 3, 2 </code>However, there is a way to achieve this type of operation, and make as many local functions as you want available to be used and combined with other code in your <em>ScriptBlock</em>. You can find the full article at <a href="http://www.powershell.amsterdam/2015/11/09/using-local-functions-on-remote-computers/">powershell.amsterdam</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/" 
+                        <a href="http://localhost:57259/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -578,7 +816,7 @@ the solution dips into all kinds of powershell techniques including local enviro
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/" class="hover:text-blue-600 transition-colors duration-200">
                             Improve Delivery of PowerShell Tools or Version Controlled Files
                         </a>
                     </h2>
@@ -587,7 +825,7 @@ the solution dips into all kinds of powershell techniques including local enviro
 The solution dips into all kinds of PowerShell techniques including local environment variables, getting text file contents, file version checking and even shortcut (.lnk) creation. If you are also a user of Sapien&rsquo;s PowerShell Studio, then definitely give this one a read. Check out the solution over on <a href="http://powershellblogger.com/?p=275">PowerShellBlogger.com</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/" 
+                        <a href="http://localhost:57259/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -623,7 +861,7 @@ check out and join the boston powershell user group here: &lt;a href=&#34;http:/
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-11-new-boston-powershell-user-group/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-11-new-boston-powershell-user-group/" class="hover:text-blue-600 transition-colors duration-200">
                             New Boston PowerShell User Group
                         </a>
                     </h2>
@@ -632,7 +870,7 @@ check out and join the boston powershell user group here: &lt;a href=&#34;http:/
 Check out and join the Boston PowerShell User Group here: <a href="http://www.meetup.com/Boston-PowerShell-User-Group">http://www.meetup.com/Boston-PowerShell-User-Group</a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-11-new-boston-powershell-user-group/" 
+                        <a href="http://localhost:57259/articles/2016-01-11-new-boston-powershell-user-group/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -668,7 +906,7 @@ you can check out the full article over on &lt;a href=&#34;http://powershellblog
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                             Get Last Reboot or Computer Up Time With PowerShell
                         </a>
                     </h2>
@@ -677,233 +915,7 @@ you can check out the full article over on &lt;a href=&#34;http://powershellblog
 You can check out the full article over on <a href="http://powershellblogger.com/?p=248">PowerShellBlogger.com</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="my favorite dsc feature suggestions on uservoice (upvote!)" 
-                     data-content="&lt;p&gt;hopefully, you&amp;rsquo;re aware that microsoft is moving to uservoice for accepting feature requests and bugs. &lt;a href=&#34;https://windowsserver.uservoice.com/forums/301869-powershell/category/148047-desired-state-configuration-dsc&#34;&gt;dsc in particular has 30-odd suggestions at present&lt;/a&gt;, and i thought i&amp;rsquo;d run through some of my fav&amp;rsquo;s. log in and up-vote the ones you like, or add comments to expand the discussion!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088780-add-maintenance-window-awareness-to-dsc-lcm&#34;&gt;add maintenance windows awareness to dsc/lcm&lt;/a&gt;. this is one of mine, but it came from several customer suggestions.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088516-change-from-edb-file-to-sql-server-database-for-de&#34;&gt;change the pull server database to sql server&lt;/a&gt;. broadly, this is a great idea. in theory, you should be able to modify the web.config file and direct it to a sql server already, but nobody knows the database schema that the pull server expects.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088813-enable-proactive-validation-of-partial-configurati&#34;&gt;refactor the lcm&amp;rsquo;s validation logic&lt;/a&gt;. this is another of mine, and it&amp;rsquo;s crucial. right now, only the lcm can validate multiple partial configs and tell you if there&amp;rsquo;s a validation problem like a duplicate key. this means our only possible point of failure is the target node, which is the worst possible place for that to be. factoring the logic out would let us built a pull server that could combine multiple configurations _server-side, _and spit out a combined, pre-validated mof for the target to consume. we could also use the configuration logic to manually combine and validate mofs in a test or rsop mode, perhaps with a cmdlet.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;there&amp;rsquo;s plenty more - have a look, vote for ones you like, and add your own suggestions! and there&amp;rsquo;s a lot more besides dsc in there - see anything that you think is important?&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 28, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-12-28-my-favorite-dsc-feature-suggestions-on-uservoice-upvote/" class="hover:text-blue-600 transition-colors duration-200">
-                            My Favorite DSC Feature Suggestions on UserVoice (upvote!)
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Hopefully, you&rsquo;re aware that Microsoft is moving to UserVoice for accepting feature requests and bugs. <a href="https://windowsserver.uservoice.com/forums/301869-powershell/category/148047-desired-state-configuration-dsc">DSC in particular has 30-odd suggestions at present</a>, and I thought I&rsquo;d run through some of my fav&rsquo;s. Log in and up-vote the ones you like, or add comments to expand the discussion!</p>
-<ul>
-<li><a href="https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088780-add-maintenance-window-awareness-to-dsc-lcm">Add Maintenance Windows Awareness to DSC/LCM</a>. This is one of mine, but it came from several customer suggestions.</li>
-<li><a href="https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088516-change-from-edb-file-to-sql-server-database-for-de">Change the Pull Server database to SQL Server</a>. Broadly, this is a great idea. In theory, you should be able to modify the web.config file and direct it to a SQL Server already, but nobody knows the database schema that the pull server expects.</li>
-<li><a href="https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/11088813-enable-proactive-validation-of-partial-configurati">Refactor the LCM&rsquo;s validation logic</a>. This is another of mine, and it&rsquo;s crucial. Right now, only the LCM can validate multiple partial configs and tell you if there&rsquo;s a validation problem like a duplicate key. This means our only possible point of failure is the target node, which is the worst possible place for that to be. Factoring the logic out would let us built a pull server that could combine multiple configurations _server-side, _and spit out a combined, pre-validated MOF for the target to consume. We could also use the configuration logic to manually combine and validate MOFs in a test or RSoP mode, perhaps with a cmdlet.</li>
-</ul>
-<p>There&rsquo;s plenty more - have a look, vote for ones you like, and add your own suggestions! And there&rsquo;s a lot more besides DSC in there - see anything that you think is important?</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-12-28-my-favorite-dsc-feature-suggestions-on-uservoice-upvote/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="microsoft&#39;s brave new world needs version numbers" 
-                     data-content="&lt;p&gt;in microsoft&amp;rsquo;s brave new world of agile, more-frequent software releases, including numerous pre-release cycles&amp;hellip; microsoft needs to rethink the way it communicates versioning.&lt;br&gt;
-windows management framework (wmf) v5 has, for me, been pretty much the perfect example of what &lt;em&gt;not&lt;/em&gt; to do, and the perfect example of microsoft still shoehorning itself into old nomenclature that no longer fills the bill. i know a bunch of folks on the powershell team are probably still trying to figure out what works, too, so this isn&amp;rsquo;t meant to be a hammer-on-&amp;rsquo;em post, but wmf5&amp;rsquo;s lifecycle was, from a versioning perspective, pretty hellish.&lt;br&gt;
-we had several &amp;ldquo;technology preview&amp;rdquo; releases, which were simply named after their month of release. april 2015. november. whatever. it was really difficult from within the product - e.g., via $psversiontable - to tell which one you were running, which made helping people difficult. none of these were supported in production until the &amp;ldquo;wmf5 production preview&amp;rdquo; released in late 2015, and in december we got &amp;ldquo;rtm&amp;rdquo; code. rtm means &amp;ldquo;released to manufacturing,&amp;rdquo; which is kind of absurd as a milestone, because there&amp;rsquo;s literally zero actual manufacturing going on. it&amp;rsquo;s just a word microsoft is used to using. windows 10 shipped with a production-supported version of wmf5, but it still wasn&amp;rsquo;t &amp;ldquo;final,&amp;rdquo; meaning rtm wmf is better than what shipped with the rtm os. god willing, what ships in windows server 2016 will be v5.1 or something, because if we get yet another 5.0 release folks are going to start throwing up their hands and quitting.&lt;br&gt;
-now that microsoft&amp;rsquo;s all lovey-huggy with open source and linux and stuff, can we just copy what those guys do?&lt;br&gt;
-every time you release code, increment the version number. it&amp;rsquo;s that simple. there&amp;rsquo;s no &amp;ldquo;production preview,&amp;rdquo; there&amp;rsquo;s just &amp;ldquo;5.3.&amp;rdquo; and you maintain a list of what&amp;rsquo;s supported in production. if 5.3 isn&amp;rsquo;t a production milestone, fine - say so. but it&amp;rsquo;s still a real version, because it was released unto the world. the next release is 5.4. then 5.5. and maybe 5.6 is supported in production, but once 5.7 is out, 5.6 remains supported for only 90 days. or whatever. just have a list of what&amp;rsquo;s supported, and increment the version number every time you release it. 5.8 might only last a week before someone finds some heinous bug and releases 5.9 - that&amp;rsquo;s fine. after that comes 5.10, and then 5.11, and so on.&lt;br&gt;
-6.0 is the first release of a major new evolution in the product, and it&amp;rsquo;s probably a &amp;ldquo;preview&amp;rdquo; release. 6.1 will be a bit better, with fewer bugs and more features nailed down, but it won&amp;rsquo;t be until maybe 6.5 that we get a &amp;ldquo;supported in production&amp;rdquo; release.&lt;br&gt;
-all of this is a &lt;strong&gt;lot easier to keep track of&lt;/strong&gt; than vague &amp;ldquo;version&amp;rdquo; numbers like &amp;ldquo;april 2016 production preview.&amp;rdquo;&lt;br&gt;
-and while we&amp;rsquo;re at it, let&amp;rsquo;s have a get-psversioninfo cmdlet. it can wrap around the existing $psversiontable variable, of course, but it can also ping a web service on microsoft.com to tell you what the &lt;em&gt;latest&lt;/em&gt; version is, what the &lt;em&gt;latest supported&lt;/em&gt; version is, and whether or not your current version is supported in production. omg, that would be _wonderful. _&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 28, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            News
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-12-28-microsofts-brave-new-world-needs-version-numbers/" class="hover:text-blue-600 transition-colors duration-200">
-                            Microsoft&#39;s Brave New World Needs Version Numbers
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In Microsoft&rsquo;s brave new world of agile, more-frequent software releases, including numerous pre-release cycles&hellip; Microsoft needs to rethink the way it communicates versioning.<br>
-Windows Management Framework (WMF) v5 has, for me, been pretty much the perfect example of what <em>not</em> to do, and the perfect example of Microsoft still shoehorning itself into old nomenclature that no longer fills the bill. I know a bunch of folks on the PowerShell team are probably still trying to figure out what works, too, so this isn&rsquo;t meant to be a hammer-on-&rsquo;em post, but WMF5&rsquo;s lifecycle was, from a versioning perspective, pretty hellish.<br>
-We had several &ldquo;technology preview&rdquo; releases, which were simply named after their month of release. April 2015. November. Whatever. It was really difficult from within the product - e.g., via $PSVersionTable - to tell which one you were running, which made helping people difficult. None of these were supported in production until the &ldquo;WMF5 Production Preview&rdquo; released in late 2015, and in December we got &ldquo;RTM&rdquo; code. RTM means &ldquo;Released to Manufacturing,&rdquo; which is kind of absurd as a milestone, because there&rsquo;s literally zero actual manufacturing going on. It&rsquo;s just a word Microsoft is used to using. Windows 10 shipped with a production-supported version of WMF5, but it still wasn&rsquo;t &ldquo;final,&rdquo; meaning RTM WMF is better than what shipped with the RTM OS. God willing, what ships in Windows Server 2016 will be v5.1 or something, because if we get yet another 5.0 release folks are going to start throwing up their hands and quitting.<br>
-Now that Microsoft&rsquo;s all lovey-huggy with open source and Linux and stuff, can we just copy what those guys do?<br>
-Every time you release code, increment the version number. It&rsquo;s that simple. There&rsquo;s no &ldquo;production preview,&rdquo; there&rsquo;s just &ldquo;5.3.&rdquo; And you maintain a list of what&rsquo;s supported in production. If 5.3 isn&rsquo;t a production milestone, fine - say so. But it&rsquo;s still a real version, because it was released unto the world. The next release is 5.4. Then 5.5. And maybe 5.6 is supported in production, but once 5.7 is out, 5.6 remains supported for only 90 days. Or whatever. Just have a list of what&rsquo;s supported, and increment the version number every time you release it. 5.8 might only last a week before someone finds some heinous bug and releases 5.9 - that&rsquo;s fine. After that comes 5.10, and then 5.11, and so on.<br>
-6.0 is the first release of a major new evolution in the product, and it&rsquo;s probably a &ldquo;preview&rdquo; release. 6.1 will be a bit better, with fewer bugs and more features nailed down, but it won&rsquo;t be until maybe 6.5 that we get a &ldquo;supported in production&rdquo; release.<br>
-All of this is a <strong>lot easier to keep track of</strong> than vague &ldquo;version&rdquo; numbers like &ldquo;April 2016 Production Preview.&rdquo;<br>
-And while we&rsquo;re at it, let&rsquo;s have a Get-PSVersionInfo cmdlet. It can wrap around the existing $PSVersionTable variable, of course, but it can also ping a web service on Microsoft.com to tell you what the <em>latest</em> version is, what the <em>latest supported</em> version is, and whether or not your current version is supported in production. OMG, that would be _wonderful. _</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-12-28-microsofts-brave-new-world-needs-version-numbers/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="a real-world devops implementation – and food for thought" 
-                     data-content="&lt;p&gt;want to see what a real-world, functional, production-grade devops environment looks like?&lt;br&gt;
-look no further than amazon web services&amp;rsquo; elastic beanstalk (ebs). ebs is a neat combination of their ec2 iaas product, s3 storage, and some devops magic. from a working perspective, it goes something like this:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;developer checks code into git. a portion of this code is actually a set of ebs directives, outlining changes that need to be made to the base operating environment. this can include things like setting environment variables, installing packages, and so on.&lt;/li&gt;
-&lt;li&gt;someone indicates that what&amp;rsquo;s in github is ready for release. you can do this by pushing a button in your aws console, or by making a call to aws&amp;rsquo; rest apis. it&amp;rsquo;s pretty easy to automat this step.&lt;/li&gt;
-&lt;li&gt;aws spins up virtual machines, and reads the ebs directives to get that environment configured the way it&amp;rsquo;s supposed to be. the code is loaded from git into the vms. the vms are registered with aws&amp;rsquo; load balancer, and whatever old vms were running are de-registered and destroyed. poof, your app is up and running.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;this model accomplishes the basic goal of devops, which is to shorten the path between developers and users. so where&amp;rsquo;s the &amp;ldquo;ops&amp;rdquo; role in all this? amazon did it. their contribution to ops was to create all the automation necessary to make these steps happen. and the beauty of this model is that it supports tiered environments. for example, the above three steps might serve to spin up a testing environment, where you then run automated tests to validate the code. if the code validates, it&amp;rsquo;s pushed into a production tier - all automatically - running on a separate ebs application. so from check-in to in-production is entirely automated, and the process can be performed consistently every single time.&lt;br&gt;
-now&amp;hellip; what would this look like in a windows world?&lt;br&gt;
-in step 1, imagine that instead of a set of ebs configuration directives - which are just text files - your developers create dsc configurations. yes, the developers. after all, they&amp;rsquo;re the ones who are coding for the environment, so that dsc configuration documents what they need the environment to look like. you might have a second dsc configuration that documents corporate standards for security, manageability, and so on. whatever.&lt;br&gt;
-step 3 might be microsoft azure pack or system center virtual machine manager, told - perhaps via an sma automation script - to spin up the new vms from a base os image. the dsc configurations are run to produce a mof, which is injected into the new vm. the developer&amp;rsquo;s code is deployed to the vm. the vm is registered with dns and perhaps a load balancer, which provide access to it.&lt;br&gt;
-there are a couple of important details that i&amp;rsquo;ve glossed over a bit. jeffrey snover is fond saying, &amp;ldquo;treat servers like cattle, not pets.&amp;rdquo; but servers by their nature have to have a few unique pieces of information, right? well&amp;hellip; yes and no. for all i know, cows make up names for themselves. i just don&amp;rsquo;t care. take ip addresses, for example. you shouldn&amp;rsquo;t be assigning static ip addresses to servers; your dhcp system should be highly available, fault tolerant, and set up to handle servers. as you spin up a new vm, you can obviously have it register itself with dns, so the ip address is mapped to a hostname. and speaking of that hostname - you as a human never need to know it. or you shouldn&amp;rsquo;t. windows will make up a host name for itself as the vm spins up, and you can - through your automation scripts - capture that host name. that lets you set up dns cname records, a load balancer, or whatever else. the point is that while the server may have made up a name for itself, you don&amp;rsquo;t care. nobody will ever address that server by its host name - they&amp;rsquo;ll use an abstraction, like a load-balanced name, or a cname, or something else. your automation scripts handle the mapping for you. when a vm is spun down, automation de-registers the dying host&amp;rsquo;s name from whatever, closing the lifecycle loop.&lt;br&gt;
-interestingly, you could probably do this exact model, today, with a huge number of applications in your environment. why bother? i mean, this model makes sense in web apps where you&amp;rsquo;re constantly spinning up and destroying vms, but what about the majority of your apps that just run all the time without change? well, this same model could spin them up in a disaster recovery scenario. or in testing environments, which are constantly re-created to provide &amp;ldquo;clean&amp;rdquo; tests. yes, it&amp;rsquo;s a lot of &lt;em&gt;investment&lt;/em&gt; up front to make it all work, but once it&amp;rsquo;s set up it just runs itself.&lt;br&gt;
-and that&amp;rsquo;s what devops looks like.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Dec 3, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            DevOps
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-12-03-a-real-world-devops-implementation-and-food-for-thought/" class="hover:text-blue-600 transition-colors duration-200">
-                            A Real-World DevOps Implementation – and Food for Thought
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Want to see what a real-world, functional, production-grade DevOps environment looks like?<br>
-Look no further than Amazon Web Services&rsquo; Elastic Beanstalk (EBS). EBS is a neat combination of their EC2 IaaS product, S3 storage, and some DevOps magic. From a working perspective, it goes something like this:</p>
-<ol>
-<li>Developer checks code into Git. A portion of this code is actually a set of EBS directives, outlining changes that need to be made to the base operating environment. This can include things like setting environment variables, installing packages, and so on.</li>
-<li>Someone indicates that what&rsquo;s in GitHub is ready for release. You can do this by pushing a button in your AWS console, or by making a call to AWS&rsquo; REST APIs. It&rsquo;s pretty easy to automat this step.</li>
-<li>AWS spins up virtual machines, and reads the EBS directives to get that environment configured the way it&rsquo;s supposed to be. The code is loaded from Git into the VMs. The VMs are registered with AWS&rsquo; load balancer, and whatever old VMs were running are de-registered and destroyed. Poof, your app is up and running.</li>
-</ol>
-<p>This model accomplishes the basic goal of DevOps, which is to shorten the path between developers and users. So where&rsquo;s the &ldquo;Ops&rdquo; role in all this? Amazon did it. Their contribution to ops was to create all the automation necessary to make these steps happen. And the beauty of this model is that it supports tiered environments. For example, the above three steps might serve to spin up a testing environment, where you then run automated tests to validate the code. If the code validates, it&rsquo;s pushed into a production tier - all automatically - running on a separate EBS application. So from check-in to in-production is entirely automated, and the process can be performed consistently every single time.<br>
-Now&hellip; what would this look like in a Windows world?<br>
-In Step 1, imagine that instead of a set of EBS configuration directives - which are just text files - your developers create DSC configurations. Yes, the developers. After all, they&rsquo;re the ones who are coding for the environment, so that DSC configuration documents what they need the environment to look like. You might have a second DSC configuration that documents corporate standards for security, manageability, and so on. Whatever.<br>
-Step 3 might be Microsoft Azure Pack or System Center Virtual Machine Manager, told - perhaps via an SMA automation script - to spin up the new VMs from a base OS image. The DSC configurations are run to produce a MOF, which is injected into the new VM. The developer&rsquo;s code is deployed to the VM. The VM is registered with DNS and perhaps a load balancer, which provide access to it.<br>
-There are a couple of important details that I&rsquo;ve glossed over a bit. Jeffrey Snover is fond saying, &ldquo;treat servers like cattle, not pets.&rdquo; But servers by their nature have to have a few unique pieces of information, right? Well&hellip; yes and no. For all I know, cows make up names for themselves. I just don&rsquo;t care. Take IP addresses, for example. You shouldn&rsquo;t be assigning static IP addresses to servers; your DHCP system should be highly available, fault tolerant, and set up to handle servers. As you spin up a new VM, you can obviously have it register itself with DNS, so the IP address is mapped to a hostname. And speaking of that hostname - you as a human never need to know it. Or you shouldn&rsquo;t. Windows will make up a host name for itself as the VM spins up, and you can - through your automation scripts - capture that host name. That lets you set up DNS CNAME records, a load balancer, or whatever else. The point is that while the server may have made up a name for itself, you don&rsquo;t care. Nobody will ever address that server by its host name - they&rsquo;ll use an abstraction, like a load-balanced name, or a CNAME, or something else. Your automation scripts handle the mapping for you. When a VM is spun down, automation de-registers the dying host&rsquo;s name from whatever, closing the lifecycle loop.<br>
-Interestingly, you could probably do this exact model, today, with a huge number of applications in your environment. Why bother? I mean, this model makes sense in web apps where you&rsquo;re constantly spinning up and destroying VMs, but what about the majority of your apps that just run all the time without change? Well, this same model could spin them up in a disaster recovery scenario. Or in testing environments, which are constantly re-created to provide &ldquo;clean&rdquo; tests. Yes, it&rsquo;s a lot of <em>investment</em> up front to make it all work, but once it&rsquo;s set up it just runs itself.<br>
-And that&rsquo;s what DevOps looks like.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-12-03-a-real-world-devops-implementation-and-food-for-thought/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="keeping windows powershell help up to date" 
-                     data-content="&lt;p&gt;after a two week hiatus i am back this week with a quick write up on how to automate the updating of powershell help. update-help should be one of the first things typed in powershell on a new workstation build. i jump into the topic and demonstrate how to automate the updating of the help files from the internet or from a local network share. you can view the full article over at &lt;a href=&#34;http://powershellblogger.com/?p=237&#34;&gt;powershellblogger.com&lt;/a&gt;.&lt;br&gt;
-i look forward to getting another article out to everyone next week and i hope everyone in the us enjoys their long weekend!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 24, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Steve Parankewich</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" class="hover:text-blue-600 transition-colors duration-200">
-                            Keeping Windows PowerShell Help Up To Date
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>After a two week hiatus I am back this week with a quick write up on how to automate the updating of PowerShell help. Update-Help should be one of the first things typed in PowerShell on a new workstation build. I jump into the topic and demonstrate how to automate the updating of the help files from the Internet or from a local network share. You can view the full article over at <a href="http://powershellblogger.com/?p=237">PowerShellBlogger.com</a>.<br>
-I look forward to getting another article out to everyone next week and I hope everyone in the US enjoys their long weekend!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/" 
+                        <a href="http://localhost:57259/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1178,7 +1190,7 @@ I look forward to getting another article out to everyone next week and I hope e
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

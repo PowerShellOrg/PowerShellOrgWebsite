@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,200 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="fundraising: powershell people kick butt, take names" 
+                     data-content="&lt;p&gt;our &lt;a href=&#34;https://www.indiegogo.com/projects/powershell-summit-session-recording/x/7291807&#34;&gt;indiegogo campaign&lt;/a&gt; is off to an amazing start, raising over $6,300 (including some offline donations) toward our ultimate $9,000 goal. so far, we&amp;rsquo;ve raised enough to ensure we can record two tracks of summit content - enabling us to record speakers&amp;rsquo; laptops and voice, and to post the videos on youtube, for free. meeting our full $9,000 goal will enable three tracks of recordings, which is what the north american show currently produces.&lt;br&gt;
+the equipment we&amp;rsquo;re investing in will also support, should we choose to add it, an analog camera input and automatic picture-in-picture, meaning we can later add-on to include video of the speaker(s) as well as what&amp;rsquo;s on their laptop.&lt;br&gt;
+this &lt;a href=&#34;http://www.epiphan.com/&#34;&gt;equipment&lt;/a&gt; also meets an important set of goals for us: it requires no software on speaker laptops (often problematic), and it&amp;rsquo;s operated - literally - by a single big, red, lighted button. meaning, it&amp;rsquo;s easy to use and shouldn&amp;rsquo;t interfere with the live audience&amp;rsquo;s experience.&lt;br&gt;
+i&amp;rsquo;m personally humbled by the generosity of our community. while larger donations are being considered &amp;ldquo;share purchases&amp;rdquo; in powershell.org, inc., these contributors are essentially getting nothing in return for their money - but they&amp;rsquo;re making something possible that will benefit _everyone. _making this content permanently available, for free, will become a treasure trove of valuable information _forever. _i can&amp;rsquo;t express my gratitude enough.&lt;br&gt;
+tell a colleague, tell a friend: every donation helps, no matter how small. and thank you, thank you, thank you.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 29, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-04-29-fundraising-powershell-people-kick-butt-take-names/" class="hover:text-blue-600 transition-colors duration-200">
+                            Fundraising: PowerShell People Kick Butt, Take Names
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our <a href="https://www.indiegogo.com/projects/powershell-summit-session-recording/x/7291807">IndieGoGo Campaign</a> is off to an amazing start, raising over $6,300 (including some offline donations) toward our ultimate $9,000 goal. So far, we&rsquo;ve raised enough to ensure we can record two tracks of Summit content - enabling us to record speakers&rsquo; laptops and voice, and to post the videos on YouTube, for free. Meeting our full $9,000 goal will enable three tracks of recordings, which is what the North American show currently produces.<br>
+The equipment we&rsquo;re investing in will also support, should we choose to add it, an analog camera input and automatic picture-in-picture, meaning we can later add-on to include video of the speaker(s) as well as what&rsquo;s on their laptop.<br>
+This <a href="http://www.epiphan.com/">equipment</a> also meets an important set of goals for us: It requires no software on speaker laptops (often problematic), and it&rsquo;s operated - literally - by a single big, red, lighted button. Meaning, it&rsquo;s easy to use and shouldn&rsquo;t interfere with the live audience&rsquo;s experience.<br>
+I&rsquo;m personally humbled by the generosity of our community. While larger donations are being considered &ldquo;share purchases&rdquo; in PowerShell.org, Inc., these contributors are essentially getting nothing in return for their money - but they&rsquo;re making something possible that will benefit _everyone. _Making this content permanently available, for free, will become a treasure trove of valuable information _forever. _I can&rsquo;t express my gratitude enough.<br>
+Tell a colleague, tell a friend: Every donation helps, no matter how small. And thank you, thank you, thank you.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-04-29-fundraising-powershell-people-kick-butt-take-names/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="help us record the powershell summit sessions" 
+                     data-content="&lt;p&gt;we&amp;rsquo;re often asked if the powershell summit sessions will be recorded or live-streamed. the answer, so far, has been &amp;ldquo;no,&amp;rdquo; because the equipment needed to do so gets expensive.&lt;br&gt;
+but we&amp;rsquo;re willing to give it a go - with crowd funding. check out our &lt;a href=&#34;https://www.indiegogo.com/projects/powershell-summit-session-recording/x/7291807#home&#34;&gt;indiegogo campaign&lt;/a&gt;, where you can contribute to making session recordings a reality - forever. we&amp;rsquo;ve got about 30 days to reach our goal. so if recorded sessions are important to you - now&amp;rsquo;s the time to put your money where you mouth is!!&lt;br&gt;
+fingers crossed!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 28, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-04-28-help-us-record-the-powershell-summit-sessions/" class="hover:text-blue-600 transition-colors duration-200">
+                            Help us Record the PowerShell Summit Sessions
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>We&rsquo;re often asked if the PowerShell Summit sessions will be recorded or live-streamed. The answer, so far, has been &ldquo;no,&rdquo; because the equipment needed to do so gets expensive.<br>
+But we&rsquo;re willing to give it a go - with crowd funding. Check out our <a href="https://www.indiegogo.com/projects/powershell-summit-session-recording/x/7291807#home">IndieGoGo campaign</a>, where you can contribute to making session recordings a reality - forever. We&rsquo;ve got about 30 days to reach our goal. So if recorded sessions are important to you - now&rsquo;s the time to put your money where you mouth is!!<br>
+Fingers crossed!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-04-28-help-us-record-the-powershell-summit-sessions/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="charlotte 5/1/2014 meeting update" 
+                     data-content="&lt;p&gt;the regularly scheduled meeting for the group will not be held due to overlap with the powershell summit and travel related to it for some of our members. if there is interest in scheduling a side meeting, we can do that to accommodate those of us that are not attending the summit.&lt;/p&gt;
+&lt;p&gt;if not, we will be back on track and ready for &lt;a href=&#34;http://www.meetup.com/charlotte-powershell-users-group/events/178572422/&#34;&gt;yasg!&lt;/a&gt; (yet another scripting game) on 6/5/2014. looks like it is going to be a good one.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 23, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Terri Donahue</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-04-23-charlotte-512014-meeting-update/" class="hover:text-blue-600 transition-colors duration-200">
+                            Charlotte 5/1/2014 Meeting update
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The regularly scheduled meeting for the group will not be held due to overlap with the PowerShell Summit and travel related to it for some of our members. If there is interest in scheduling a side meeting, we can do that to accommodate those of us that are not attending the Summit.</p>
+<p>If not, we will be back on track and ready for <a href="http://www.meetup.com/Charlotte-PowerShell-Users-Group/events/178572422/">YASG!</a> (Yet Another Scripting Game) on 6/5/2014. Looks like it is going to be a good one.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-04-23-charlotte-512014-meeting-update/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="sapien&#39;s new wmi explorer released" 
+                     data-content="&lt;p&gt;we all know that working with wmi/cim can be frustrating. so little of it is documented, and it can be tough to find the class that has the exact info you need.&lt;br&gt;
+a long time ago, sapien released a very nice wmi explorer tool that, recently, was taken offline. the reason is that the company was producing an all-new, from-scratch replacement - &lt;a href=&#34;http://www.sapien.com/blog/2014/04/17/wmi-explorer-2014-released/&#34;&gt;and it&amp;rsquo;s now available&lt;/a&gt;.&lt;br&gt;
+their new approach is pretty interesting. rather than just live-browsing the local wmi repository or a remote computer&amp;rsquo;s repository, the tool can now go through the repo and actually create a local cache. that cache is optimized for searching, making it a ton easier to search not only for class names, but also for property names and more. even property values! so if you know (for example) that &amp;ldquo;windows 8.1&amp;rdquo; is part of &lt;em&gt;some&lt;/em&gt; property of &lt;em&gt;some&lt;/em&gt; class, this tool can help you find where it is. it also provides in-product links to what online wmi documentation exists, making it quicker to get to that stuff.&lt;br&gt;
+although the old tool was a freebie, this new one will set you back $40, and i imagine it&amp;rsquo;s included with the $789 kitchen-sink bundle the company sells. while i miss the free tool, this new one is significant enough that i&amp;rsquo;d pay for it. after all, money is what keeps the programmers at sapien employed, so we can&amp;rsquo;t expect great tools for zero money. frankly, this new wmi explorer is one of the very, very, very, very few tools that&amp;rsquo;s going to earn a place in my base vm images that i use in classes - simply because it&amp;rsquo;s so useful. the ability to search for &lt;em&gt;property values&lt;/em&gt; gives me a whole new approach to finding the exact wmi class i need.&lt;br&gt;
+it&amp;rsquo;s a well thought-out tool. now, it&amp;rsquo;s not &amp;ldquo;zero footprint&amp;rdquo; like the old one - but the old one didn&amp;rsquo;t do nearly as much, like creating a local, searchable cache of the repo. also, this isn&amp;rsquo;t something i&amp;rsquo;d install on all my servers. there&amp;rsquo;s no need - you install it on &lt;em&gt;your&lt;/em&gt; computer, and let it reach out to key servers to discover their repositories. so it&amp;rsquo;s &amp;ldquo;zero footprint&amp;rdquo; on the server, which is all i care about. that cache means i can even browse a remote machine&amp;rsquo;s repo when i&amp;rsquo;m completely offline, like on an airplane working on a book. that&amp;rsquo;s a huge deal for me.&lt;br&gt;
+sapien&amp;rsquo;s blog article on the software release includes another interesting fact: they plan to release a new line of smaller tools like wmi explorer, and either sell them separately or as a community package. cool! but what&amp;rsquo;s even cooler is this: _&amp;ldquo;the proceeds from these tools will go towards supporting user groups and non-profit organizations.&amp;rdquo; _well, damn. so that $40 isn&amp;rsquo;t even funding the development of the tool per se, it&amp;rsquo;s funding (in part) your local user group. that&amp;rsquo;s awesome, and makes it well worth the standalone purchase if you don&amp;rsquo;t own the whole software suite already.&lt;br&gt;
+as usual, sapien offers a free trial. give it a whirl.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 21, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Tools
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-04-21-sapiens-new-wmi-explorer-released/" class="hover:text-blue-600 transition-colors duration-200">
+                            SAPIEN&#39;s new WMI Explorer Released
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>We all know that working with WMI/CIM can be frustrating. So little of it is documented, and it can be tough to find the class that has the exact info you need.<br>
+A long time ago, SAPIEN released a very nice WMI Explorer tool that, recently, was taken offline. The reason is that the company was producing an all-new, from-scratch replacement - <a href="http://www.sapien.com/blog/2014/04/17/wmi-explorer-2014-released/">and it&rsquo;s now available</a>.<br>
+Their new approach is pretty interesting. Rather than just live-browsing the local WMI repository or a remote computer&rsquo;s repository, the tool can now go through the repo and actually create a local cache. That cache is optimized for searching, making it a ton easier to search not only for class names, but also for property names and more. Even property values! So if you know (for example) that &ldquo;Windows 8.1&rdquo; is part of <em>some</em> property of <em>some</em> class, this tool can help you find where it is. It also provides in-product links to what online WMI documentation exists, making it quicker to get to that stuff.<br>
+Although the old tool was a freebie, this new one will set you back $40, and I imagine it&rsquo;s included with the $789 kitchen-sink bundle the company sells. While I miss the free tool, this new one is significant enough that I&rsquo;d pay for it. After all, money is what keeps the programmers at SAPIEN employed, so we can&rsquo;t expect great tools for zero money. Frankly, this new WMI Explorer is one of the very, very, very, very few tools that&rsquo;s going to earn a place in my base VM images that I use in classes - simply because it&rsquo;s so useful. The ability to search for <em>property values</em> gives me a whole new approach to finding the exact WMI class I need.<br>
+It&rsquo;s a well thought-out tool. Now, it&rsquo;s not &ldquo;zero footprint&rdquo; like the old one - but the old one didn&rsquo;t do nearly as much, like creating a local, searchable cache of the repo. Also, this isn&rsquo;t something I&rsquo;d install on all my servers. There&rsquo;s no need - you install it on <em>your</em> computer, and let it reach out to key servers to discover their repositories. So it&rsquo;s &ldquo;zero footprint&rdquo; on the server, which is all I care about. That cache means I can even browse a remote machine&rsquo;s repo when I&rsquo;m completely offline, like on an airplane working on a book. That&rsquo;s a huge deal for me.<br>
+SAPIEN&rsquo;s blog article on the software release includes another interesting fact: They plan to release a new line of smaller tools like WMI Explorer, and either sell them separately or as a community package. Cool! But what&rsquo;s even cooler is this: _&ldquo;The proceeds from these tools will go towards supporting user groups and non-profit organizations.&rdquo; _Well, damn. So that $40 isn&rsquo;t even funding the development of the tool per se, it&rsquo;s funding (in part) your local user group. That&rsquo;s awesome, and makes it well worth the standalone purchase if you don&rsquo;t own the whole Software Suite already.<br>
+As usual, SAPIEN offers a free trial. Give it a whirl.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-04-21-sapiens-new-wmi-explorer-released/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="[updated] review: sapien versionrecall" 
                      data-content="&lt;p&gt;i recently played around with &lt;a href=&#34;http://www.sapien.com/software/versionrecall&#34;&gt;sapien&amp;rsquo;s versionrecall&lt;/a&gt;, and thought i&amp;rsquo;d share a bit about the experience. as a note, sapien provided me with a license key to use. versionrecall is advertised as a simple, single-user version control system &amp;ldquo;for the rest of us.&amp;rdquo; there are no servers, no databases, and nothing complex, according to the marketing copy.&lt;br&gt;
 setup is quick - a 3-screen wizard and you&amp;rsquo;re done. installation took under a minute. when you first launch the product, it attempts to find all the places on your computer where you might store scripts, so that it can connect those to a version-control repository. you can skip that bit, but it only took a few moments on my virtual machine. it found my dsc scripts, my powershell modules, and several other places i&amp;rsquo;d dropped scripts. you then indicate where you&amp;rsquo;d like your version-control repository - this is where old versions of files will be saved. you can also pick a certificate, to have the software automatically sign scripts each time you make a new version. that&amp;rsquo;s a subtle and very cool feature - and it&amp;rsquo;s a way to make allsigned a more convenient execution policy.&lt;br&gt;
@@ -441,7 +685,7 @@ from there, you&amp;rsquo;re in an explorer-like view. it includes a tab for eac
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-15-review-sapien-versionrecall/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-15-review-sapien-versionrecall/" class="hover:text-blue-600 transition-colors duration-200">
                             [UPDATED] Review: SAPIEN VersionRecall
                         </a>
                     </h2>
@@ -453,7 +697,7 @@ From there, you&rsquo;re in an Explorer-like view. It includes a tab for each fo
 <a href="https://powershell.org/wp-content/uploads/2014/04/fig1.png"><img src="https://powershell.org/wp-content/uploads/2014/04/fig1.png" alt="fig1"></a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-15-review-sapien-versionrecall/" 
+                        <a href="http://localhost:57259/articles/2014-04-15-review-sapien-versionrecall/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -502,7 +746,7 @@ the good news is that, between the summits and our generous corporate sponsors, 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-15-powershell-summit-n-a-2014-budget/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-15-powershell-summit-n-a-2014-budget/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Summit N.A. 2014 – Budget
                         </a>
                     </h2>
@@ -524,7 +768,7 @@ We have approximately $92,000 on-hand; much of that will go to the expenses abov
 The good news is that, between the Summits and our generous corporate sponsors, we&rsquo;re on track to actually find the $17k wish-list budget we&rsquo;ve put together (which we&rsquo;re still researching and tweaking; as stated, I&rsquo;ll share the full thing in June). That means we&rsquo;ll be able to start spinning up services like the VERIFIED EFFECTIVE program, monthly TechSession webinars, and so on.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-15-powershell-summit-n-a-2014-budget/" 
+                        <a href="http://localhost:57259/articles/2014-04-15-powershell-summit-n-a-2014-budget/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -561,7 +805,7 @@ see you at the summit!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-14-powershell-summit-na-2014-shirts-available/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-14-powershell-summit-na-2014-shirts-available/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Summit NA 2014 Shirts Available
                         </a>
                     </h2>
@@ -571,7 +815,7 @@ Note that the items may take about 24 hours to become visible, so check on April
 See you at the Summit!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-14-powershell-summit-na-2014-shirts-available/" 
+                        <a href="http://localhost:57259/articles/2014-04-14-powershell-summit-na-2014-shirts-available/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -609,7 +853,7 @@ we&amp;rsquo;ll update the schedule grid and abstract document.&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-13-summit-session-change/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-13-summit-session-change/" class="hover:text-blue-600 transition-colors duration-200">
                             Summit Session Change
                         </a>
                     </h2>
@@ -620,7 +864,7 @@ A number of script debugging enhancements were added to PowerShell 4.0 and the W
 We&rsquo;ll update the schedule grid and abstract document.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-13-summit-session-change/" 
+                        <a href="http://localhost:57259/articles/2014-04-13-summit-session-change/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -659,7 +903,7 @@ enjoy!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-07-massive-update-to-all-seven-free-ebooks-at-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-07-massive-update-to-all-seven-free-ebooks-at-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
                             Massive Update to All Seven Free eBooks at PowerShell.org
                         </a>
                     </h2>
@@ -671,7 +915,7 @@ Uploads are now proceeding, so depending on when you read this, some files might
 Enjoy!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-07-massive-update-to-all-seven-free-ebooks-at-powershell-org/" 
+                        <a href="http://localhost:57259/articles/2014-04-07-massive-update-to-all-seven-free-ebooks-at-powershell-org/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -715,7 +959,7 @@ Enjoy!</p></p>
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-06-phillyposh-03042014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-04-06-phillyposh-03042014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 04/04/2014 meeting summary and presentation materials
                         </a>
                     </h2>
@@ -736,193 +980,7 @@ Enjoy!</p></p>
 </ul></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-06-phillyposh-03042014-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="charlotte 4/3/2014 meeting – using powershell in websites" 
-                     data-content="&lt;p&gt;the monthly charlotte powershell users group meeting will be held tomorrow, april 3rd at 6pm edt. the meeting is held at the microsoft charlotte office (8055 microsoft way, charlotte, nc).&lt;/p&gt;
-&lt;p&gt;this looks to be an awesome meeting with guest speaker jason walker. jason will demonstrate running powershell scripts in a cool and novel way – from a website. if you would like to attend, please jump on over to the &lt;a href=&#34;http://www.meetup.com/charlotte-powershell-users-group/events/172416592/&#34;&gt;meetup&lt;/a&gt; page and let us know you are coming.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 2, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Terri Donahue</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-04-02-charlotte-432014-meeting-using-powershell-in-websites/" class="hover:text-blue-600 transition-colors duration-200">
-                            Charlotte 4/3/2014 Meeting – Using PowerShell in Websites
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The monthly Charlotte PowerShell Users Group meeting will be held tomorrow, April 3rd at 6PM EDT. The meeting is held at the Microsoft Charlotte Office (8055 Microsoft Way, Charlotte, NC).</p>
-<p>This looks to be an awesome meeting with guest speaker Jason Walker. Jason will demonstrate running PowerShell scripts in a cool and novel way – from a website. If you would like to attend, please jump on over to the <a href="http://www.meetup.com/Charlotte-PowerShell-Users-Group/events/172416592/">MeetUp</a> page and let us know you are coming.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-04-02-charlotte-432014-meeting-using-powershell-in-websites/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="april 3, 2014 virtual powershell user group meeting" 
-                     data-content="&lt;p&gt;powershell mvp joel bennett will present about authoring powershell modules, including tips, tricks and best practices for writing modules and functions that work well together (and behave properly in the pipeline) &amp;hellip; and&amp;hellip;&lt;br&gt;
-note: if you have questions about powershell modules which you would like addressed, you can start adding them to the q&amp;amp;a bar (and voting to rank them) already. just click the &amp;ldquo;q&amp;amp;a&amp;rdquo; icon overlay on the video placeholder:&lt;br&gt;
-&lt;a href=&#34;https://plus.google.com/hangouts/onair/watch?hid=hoaevent%2fcval1ku1pro5uijqk4fnmfk45lo&amp;amp;hl=en&amp;amp;t=0&#34;&gt;https://plus.google.com/hangouts/onair/watch?hid=hoaevent%2fcval1ku1pro5uijqk4fnmfk45lo&amp;amp;hl=en&amp;amp;t=0&lt;/a&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Mar 29, 2014</time>
-                            
-                            <span>•</span>
-                            <span>ScriptingWife</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Events
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-03-29-april-3-2014-virtual-powershell-user-group-meeting/" class="hover:text-blue-600 transition-colors duration-200">
-                            April 3, 2014 Virtual PowerShell User Group meeting
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>PowerShell MVP Joel Bennett will present about authoring PowerShell modules, including tips, tricks and best practices for writing modules and functions that work well together (and behave properly in the pipeline) &hellip; and&hellip;<br>
-NOTE: if you have QUESTIONS about PowerShell modules which you would like addressed, you can start adding them to the Q&amp;A bar (and voting to rank them) already. Just click the &ldquo;Q&amp;A&rdquo; icon overlay on the video placeholder:<br>
-<a href="https://plus.google.com/hangouts/onair/watch?hid=hoaevent%2Fcval1ku1pro5uijqk4fnmfk45lo&amp;hl=en&amp;t=0">https://plus.google.com/hangouts/onair/watch?hid=hoaevent%2Fcval1ku1pro5uijqk4fnmfk45lo&amp;hl=en&amp;t=0</a></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-03-29-april-3-2014-virtual-powershell-user-group-meeting/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="code from this week&#39;s oslo class" 
-                     data-content="&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/03/ostools.zip&#34;&gt;ostools&lt;/a&gt; - download for my class in oslo this week.&lt;br&gt;
-here&amp;rsquo;s some more: &lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/03/share.zip&#34;&gt;share&lt;/a&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Mar 26, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-03-26-code-from-this-weeks-oslo-class/" class="hover:text-blue-600 transition-colors duration-200">
-                            Code from this week&#39;s Oslo class
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p><a href="https://powershell.org/wp-content/uploads/2014/03/OSTools.zip">OSTools</a> - download for my class in Oslo this week.<br>
-Here&rsquo;s some more: <a href="https://powershell.org/wp-content/uploads/2014/03/share.zip">share</a></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-03-26-code-from-this-weeks-oslo-class/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="we want your dsc resource wish list!" 
-                     data-content="&lt;p&gt;what sorts of things would you want to configure via dsc that don&amp;rsquo;t already have a resource?&lt;br&gt;
-nb: focusing on the core windows os and its components only; exchange, sharepoint, sql server, and other products are off the table for this discussion.&lt;br&gt;
-for example, i want a &amp;ldquo;log file rotator&amp;rdquo; resource, that lets me specify a log file folder, an archive folder, and a pair of dates. files older than one date are moved from the log folder to the archive folder; archived files older than the second date are deleted.&lt;br&gt;
-i&amp;rsquo;d also like a file permissions resource. specify a folder or file, optional recursion, and a set of access control entries (in plain english terms), and it&amp;rsquo;ll make sure the permissions stay that way.&lt;br&gt;
-maybe also a user home folder resource, which would (a) ensure a folder exists for a given set of user accounts, and (b) ensures a set of &amp;ldquo;template&amp;rdquo; permissions, so that each individual user has the rights to their folder, plus rights given to global users like admins.&lt;br&gt;
-what resources would you like to have to ease configuration and maintenance in your environment? drop a comment!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Mar 20, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-03-20-we-want-your-dsc-resource-wish-list/" class="hover:text-blue-600 transition-colors duration-200">
-                            We Want Your DSC Resource Wish List!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>What sorts of things would you want to configure via DSC that don&rsquo;t already have a resource?<br>
-NB: Focusing on the core Windows OS and its components only; Exchange, SharePoint, SQL Server, and other products are off the table for this discussion.<br>
-For example, I want a &ldquo;log file rotator&rdquo; resource, that lets me specify a log file folder, an archive folder, and a pair of dates. Files older than one date are moved from the log folder to the archive folder; archived files older than the second date are deleted.<br>
-I&rsquo;d also like a File Permissions resource. Specify a folder or file, optional recursion, and a set of access control entries (in plain English terms), and it&rsquo;ll make sure the permissions stay that way.<br>
-Maybe also a User Home Folder resource, which would (a) ensure a folder exists for a given set of user accounts, and (b) ensures a set of &ldquo;template&rdquo; permissions, so that each individual user has the rights to their folder, plus rights given to global users like admins.<br>
-What resources would YOU like to have to ease configuration and maintenance in YOUR environment? Drop a comment!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-03-20-we-want-your-dsc-resource-wish-list/" 
+                        <a href="http://localhost:57259/articles/2014-04-06-phillyposh-03042014-meeting-summary-and-presentation-materials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1404,7 +1462,7 @@ What resources would YOU like to have to ease configuration and maintenance in Y
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

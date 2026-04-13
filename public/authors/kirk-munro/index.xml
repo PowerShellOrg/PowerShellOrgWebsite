@@ -2,220 +2,220 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kirk Munro on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/kirk-munro/</link>
+    <link>http://localhost:57259/authors/kirk-munro/</link>
     <description>Recent content in Kirk Munro on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2013 19:25:34 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/kirk-munro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/kirk-munro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Technical Product Manager at Provance Technologies</title>
-      <link>https://powershell.org/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/</link>
+      <link>http://localhost:57259/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/</link>
       <pubDate>Tue, 30 Apr 2013 19:25:34 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/</guid>
+      <guid>http://localhost:57259/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/</guid>
       <description>&lt;p&gt;Today is my first day working in my new role as Technical Product Manager at &lt;a href=&#34;http://www.provance.com/&#34; title=&#34;Provance Technologies&#34;&gt;Provance Technologies&lt;/a&gt;.  A little while back Provance approached me to talk about this position, and it seemed like a very natural fit.  Rarely have I felt such a positive vibe from a company through the interview process, so I was really happy to accept the position of Technical Product Manager with them and I have been looking forward to starting work with them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hands-on Workshop at the 2013 PowerShell Summit</title>
-      <link>https://powershell.org/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/</link>
+      <link>http://localhost:57259/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/</link>
       <pubDate>Tue, 06 Nov 2012 21:43:45 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/</guid>
+      <guid>http://localhost:57259/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/</guid>
       <description>&lt;p&gt;In my last post I hinted about more news coming soon for the 2013 PowerShell Summit.  In addition to the fantastic list of sessions that attendees will be able to attend, we also have a special event lined up for the last day of the event.  On Wednesday, April 24th, for the entire afternoon attendees will be able to attend a half-day Windows PowerShell scenario walkthrough, presented by the PowerShell Team.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerShell Summit Community Sessions List [Updated]</title>
-      <link>https://powershell.org/articles/2012-11-02-powershell-summit-community-sessions-list/</link>
+      <link>http://localhost:57259/articles/2012-11-02-powershell-summit-community-sessions-list/</link>
       <pubDate>Fri, 02 Nov 2012 19:19:22 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-11-02-powershell-summit-community-sessions-list/</guid>
+      <guid>http://localhost:57259/articles/2012-11-02-powershell-summit-community-sessions-list/</guid>
       <description>&lt;p&gt;[Update: April 19, 2013] &lt;strong&gt;Important Note:&lt;/strong&gt; Due to some last minute schedule changes for some of our speakers, several of the sessions below were replaced with other sessions. Â To see the final list of sessions offered at the 2013 PowerShell Summit, please visit this page:Â &lt;a href=&#34;https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/&#34;&gt;https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/&lt;/a&gt;{.vt-p}&lt;/p&gt;&#xA;&lt;p&gt;After almost 100 people voted for the sessions they would like to see the most at the &lt;a href=&#34;http://powershellsummit.org/&#34;&gt;2013 PowerShell Summit&lt;/a&gt;{.vt-p}, the results are in!Â  These votes are for the sessions chosen by the community, and additional sessions from the PowerShell Team will be announced at a later date (as soon as I have them).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Voting for the 2013 PowerShell Summit sessions is now open!</title>
-      <link>https://powershell.org/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/</link>
+      <link>http://localhost:57259/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/</link>
       <pubDate>Tue, 16 Oct 2012 03:29:25 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/</guid>
+      <guid>http://localhost:57259/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/</guid>
       <description>&lt;p&gt;Voting is now open!&lt;/p&gt;&#xA;&lt;p&gt;As of this morning you can vote for the sessions that you want to see at the 2013 PowerShell Summit!  We have 97 session proposals (see below), plus additional content from the PowerShell Team.  Your vote is really important, so please take some time to indicate what you would like to see from a PowerShell-specific conference with deep technical depth.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;quot;™s what you need to do:&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerShell Summit North America 2013 Call for Content</title>
-      <link>https://powershell.org/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/</link>
+      <link>http://localhost:57259/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/</link>
       <pubDate>Thu, 13 Sep 2012 18:04:53 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/</guid>
+      <guid>http://localhost:57259/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/</guid>
       <description>&lt;p&gt;In case you haven&amp;quot;™t heard already, there is a great opportunity to learn a lot more about PowerShell coming up next year.  It&amp;quot;™s the PowerShell Summit North America 2013 conference, and it is held on Microsoft campus in Redmond, WA from April 22 to 24, 2013.  This conference is run by the PowerShell.org community, and it will present a ton of deep technical content on anything to do with PowerShell.  What content will be covered, you ask?  Well, that&amp;quot;™s up to you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kirk Munro, Product Manager, Architect, and PowerShell MVP for hire</title>
-      <link>https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/</link>
+      <link>http://localhost:57259/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/</link>
       <pubDate>Wed, 18 Jul 2012 23:01:34 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/</guid>
+      <guid>http://localhost:57259/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/</guid>
       <description>&lt;p&gt;While I have loved working at Devfarm Software for the past 11 months, circumstances have unfortunately forced us to part ways and as a result I am a free agent now and looking for a new place to hang my hat.  Working with Ben Vierck and Brian Butler at Devfarm has been a fantastic experience, and if it wasn&amp;quot;™t for the small yet annoying detail that there isn&amp;quot;™t enough money in the company to continue to pay my salary and keep the business going full steam ahead, I&amp;quot;™d still be working with them today.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This April is &#34;Learn More About PowerShell&#34; Month with the 2012 Scripting Games, the 2012 Microsoft Management Summit, and the 2012 North American PowerShell Deep Dive!</title>
-      <link>https://powershell.org/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/</link>
+      <link>http://localhost:57259/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/</link>
       <pubDate>Thu, 29 Mar 2012 13:00:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/</guid>
+      <guid>http://localhost:57259/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/</guid>
       <description>&lt;p&gt;It&amp;quot;™s hard to believe that April is almost here already.  Last week we had record high temperatures reaching 31°C (that&amp;quot;™s 87.8°F for those of you living south of the border), and the night before last it was -16°C (or 3.2°F).  What wonderful consistency.  Maybe that&amp;quot;™s why I like PowerShell so much, because it provides great consistency that just isn&amp;quot;™t apparent in so many other places in life (that&amp;quot;™s a swell tagline: &amp;ldquo;Use PowerShell, because it&amp;rdquo;™s more consistent than the weather&amp;quot;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2012/03/wlemoticon-smile.png?w=595&#34; alt=&#34;Smile&#34;&gt; ).  Anyway, I digress&amp;quot;¦back to the topic at hand.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 8&#34;¦reimagined?</title>
-      <link>https://powershell.org/articles/2012-03-06-windows-8reimagined/</link>
+      <link>http://localhost:57259/articles/2012-03-06-windows-8reimagined/</link>
       <pubDate>Wed, 07 Mar 2012 03:30:38 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-03-06-windows-8reimagined/</guid>
+      <guid>http://localhost:57259/articles/2012-03-06-windows-8reimagined/</guid>
       <description>&lt;p&gt;The series of releases of client versions of Microsoft Windows seems to suffer all too much the same fate as Star Trek movies have in the past.  This concept has already been discussed before, and there are even blog posts about it, such as &lt;a href=&#34;http://www.ewanspence.com/blog/2009/01/08/why-windows-7-reminds-me-of-the-star-trek-movies/&#34;&gt;Ewan Spence&amp;quot;™s comparison of Windows releases between versions 3.0 and Windows 7 to the Star Trek movies from &amp;ldquo;The Motion Picture&amp;rdquo; to &amp;ldquo;First Contact&amp;rdquo;&lt;/a&gt;.  Windows 7 did indeed end up being a very impressive version of Windows, much like First Contact was a very impressive movie in the Star Trek franchise, and now we&amp;quot;™re watching with anticipation since Windows 8 Consumer Preview is now available and Microsoft is marching steadfast towards its release.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerSE 2.7 KB: PowerShell profile does not load on startup</title>
-      <link>https://powershell.org/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/</link>
+      <link>http://localhost:57259/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/</link>
       <pubDate>Wed, 25 Jan 2012 19:01:59 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/</guid>
+      <guid>http://localhost:57259/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/</guid>
       <description>&lt;p&gt;Note: This blog post refers to an issue identified in PowerSE 2.7.0. It has been corrected in PowerSE 2.7.1, which is now available.&lt;/p&gt;&#xA;&lt;p&gt;With the release we published yesterday, both &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE&lt;/a&gt; and &lt;a href=&#34;http://powerwf.com/products/powerwf.aspx&#34;&gt;PowerWF&lt;/a&gt; received a new feature: product-specific profiles.  This feature allows you to have profile scripts that you only want run in PowerSE or PowerWF run there so that you don&amp;quot;™t have to use if statements to check the host name in your profile scripts.  With this feature we also created the initial PowerSE and PowerWF profile scripts such that they dot-source the native PowerShell profile script by default so that what runs in PowerShell also runs in PowerSE.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerWF and PowerSE 2.7 are now available</title>
-      <link>https://powershell.org/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/</link>
+      <link>http://localhost:57259/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/</link>
       <pubDate>Tue, 24 Jan 2012 17:44:30 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/</guid>
+      <guid>http://localhost:57259/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/</guid>
       <description>&lt;p&gt;This morning &lt;a href=&#34;http://powerwf.com/products/powerwf.aspx&#34;&gt;PowerWF&lt;/a&gt; and &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE&lt;/a&gt; 2.7 were released to the web and they can now be downloaded from &lt;a href=&#34;http://www.powerwf.com/&#34;&gt;http://www.powerwf.com&lt;/a&gt;.  These releases offer a lot of new value to PowerWF and PowerSE users, as follows:&lt;/p&gt;&#xA;&lt;h4 id=&#34;powerwf-27-highlights&#34;&gt;PowerWF 2.7 Highlights&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;New Start Page with New Workflows&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The start page in PowerWF has been completely redesigned to provide immediate value out of the box for PowerWF customers.  The new design highlights the Workflow Library that is included with PowerWF, allowing customers to play workflows in the library without opening a workflow or script document.  Users can also customize the workflows on the start page and add their own groups of workflows for easier runbook automation.  This immediate out of the box value is included for PowerWF customers to allow them to leverage the power of Workflows and PowerShell in their environments without requiring any knowledge of PowerShell or Workflows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential PowerShell: To alias, or not to alias, that is the question</title>
-      <link>https://powershell.org/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/</link>
+      <link>http://localhost:57259/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/</link>
       <pubDate>Thu, 05 Jan 2012 14:30:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/</guid>
+      <guid>http://localhost:57259/articles/2012-01-05-essential-powershell-to-alias-or-not-to-alias-that-is-the-question/</guid>
       <description>&lt;p&gt;Recently there was a discussion between community experts and a product team about a module they are working on.  The topic being discussed was cmdlet aliases: whether or not they should provide aliases for their cmdlets out of the box and if so, how they should be provided.  Aliases are great for ad-hoc PowerShell work, which is what most PowerShell users do at this point, and incredibly useful when you&amp;quot;™re trying to put out a fire and managing your infrastructure using PowerShell.  However, there are many important things that module authors need to consider when planning aliases for their cmdlets, as follows:&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerShell MVP for 2012</title>
-      <link>https://powershell.org/articles/2012-01-04-powershell-mvp-for-2012/</link>
+      <link>http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/</link>
       <pubDate>Wed, 04 Jan 2012 17:51:39 +0000</pubDate>
-      <guid>https://powershell.org/articles/2012-01-04-powershell-mvp-for-2012/</guid>
+      <guid>http://localhost:57259/articles/2012-01-04-powershell-mvp-for-2012/</guid>
       <description>&lt;p&gt;Every year around Christmas I anxiously await the New Year to see if I receive the Microsoft MVP award again that year.  Well that email came on January 1, 2012, and I&amp;quot;™m quite thrilled about this one because it&amp;quot;™s a milestone this time (year 5 as a PowerShell MVP).  Thanks to the community for being so great to work with, and thanks to Microsoft both for recognizing individual efforts with the MVP program and for creating such great products like Windows PowerShell!  Work has never been so much fun!&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerSE 2.5.3 is now available</title>
-      <link>https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/</link>
+      <link>http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/</link>
       <pubDate>Fri, 14 Oct 2011 15:02:05 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-10-14-powerse-2-5-3-is-now-available/</guid>
+      <guid>http://localhost:57259/articles/2011-10-14-powerse-2-5-3-is-now-available/</guid>
       <description>&lt;p&gt;A little over a week ago we released &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE 2.5.3&lt;/a&gt; to the web.  You can download the latest release &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;here&lt;/a&gt;.  This release includes many great improvements to the &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE&lt;/a&gt; product, many of which were requested by you, so thanks for your feedback and please keep it coming!&lt;/p&gt;&#xA;&lt;h4 id=&#34;no-time-limit-for-freeware&#34;&gt;No time limit for freeware&lt;/h4&gt;&#xA;&lt;p&gt;With this release, we&amp;quot;™ve removed the requirement to re-download this product every 60 days.  This was our number one feature request since we made &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE&lt;/a&gt; a freeware product.  Now when you download &lt;a href=&#34;http://powerwf.com/products/powerse.aspx&#34;&gt;PowerSE&lt;/a&gt; 2.5.3, it is truly freeware and you can use it as long as you like!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Seasons of change: new Product Manager for PowerWFâ„¢ and PowerSE at Devfarm Software</title>
-      <link>https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/</link>
+      <link>http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/</link>
       <pubDate>Tue, 06 Sep 2011 19:24:56 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/</guid>
+      <guid>http://localhost:57259/articles/2011-09-06-seasons-of-change-new-product-manager-for-powerwf-and-powerse-at-devfarm-software/</guid>
       <description>&lt;p&gt;I always enjoy this time of year.  There is something about the transition that happens over Labour Day weekend that always gets me excited.  Maybe it&amp;quot;™s a lingering feeling of anticipation over the new year at school or university from years gone by, a feeling that I can still appreciate these days as I watch my kids getting excited about their education and the new activities they will sign up for this fall.  Regardless, it&amp;quot;™s always a fun time of year for me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>One for the road: Stepping away from PowerGUIÂ®</title>
-      <link>https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/</link>
+      <link>http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/</link>
       <pubDate>Fri, 29 Jul 2011 04:01:30 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/</guid>
+      <guid>http://localhost:57259/articles/2011-07-28-one-for-the-road-stepping-away-from-powergui/</guid>
       <description>&lt;p&gt;Today was one of my most difficult days in my 7Â½+ year career at Quest Software.  The same week that I was given a performance raise (I got that email on Monday), this afternoon I got a phone call from the director over my business unit letting me know that my position has been cut effective immediately.  Part of a book balancing effort it seems –  funny (or not so much) how life works sometimes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerGUIÂ® 3.0 Hotfix: Double-clicking on a ps1, psm1, or psd1 file to open the Script Editor shows the Start Page as the active page in the Script Editor</title>
-      <link>https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/</link>
+      <link>http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/</link>
       <pubDate>Wed, 20 Jul 2011 22:11:47 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/</guid>
+      <guid>http://localhost:57259/articles/2011-07-20-powergui-3-0-hotfix-double-clicking-on-a-ps1-psm1-or-psd1-file-to-open-the-script-editor-shows-the-start-page-as-the-active-page-in-the-script-editor/</guid>
       <description>&lt;p&gt;This article describes an issue that was introduced into both &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt; and &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; when version 3.0 was released and provides a recommended solution to that issue.&lt;/p&gt;&#xA;&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;&#xA;&lt;p&gt;While the &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt; Script Editor is closed, double-clicking on a ps1, psm1 or psd1 file or right-clicking on one of those file types and selecting &amp;ldquo;Open with PowerGUI Script Editor&amp;rdquo; will open the file you selected in the Script Editor as expected; however the Start Page will appear as the active tab in the Script Editor instead of the file you opened.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerGUIÂ® Pro 3.0: Mobile Systems Management Using MobileShell</title>
-      <link>https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/</link>
+      <link>http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/</link>
       <pubDate>Mon, 18 Jul 2011 21:18:22 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/</guid>
+      <guid>http://localhost:57259/articles/2011-07-18-powergui-pro-3-0-mobile-systems-management-using-mobileshell/</guid>
       <description>&lt;p&gt;In case you missed the announcement last Friday, [&lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; ]&lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;2&lt;/a&gt;3.0 was released to the web.  With this release we included a new feature that I&amp;quot;™m really excited about: Mobile Systems Management Using MobileShell.  We&amp;quot;™ve had MobileShell for quite a while, but prior to this release you could only use it to invoke your favorite scripts or commands from modules associated with your user account as well as ad hoc commands you wanted to run.  Here&amp;quot;™s a screenshot tour showing you what this interface would look like on a handheld device:&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerGUIÂ® Pro and PowerGUIÂ® 3.0 are now available</title>
-      <link>https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/</link>
+      <link>http://localhost:57259/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/</link>
       <pubDate>Sat, 16 Jul 2011 01:49:58 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/</guid>
+      <guid>http://localhost:57259/articles/2011-07-15-powergui-pro-and-powergui-3-0-are-now-available/</guid>
       <description>&lt;p&gt;Today&amp;quot;™s an exciting day because I&amp;quot;™ve finished releasing &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; 3.0 and &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt; 3.0 to the web!  This release is something we&amp;quot;™ve been working on for a long time, and it has a ton of new goodies for you to play with.  You can learn more about the individual features in this release in the highlights below.  When reviewing these features, anything that is only available in PowerGUI Pro will be marked as a Pro feature.&lt;/p&gt;</description>
     </item>
     <item>
       <title>vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUIÂ®</title>
-      <link>https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/</link>
+      <link>http://localhost:57259/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/</link>
       <pubDate>Tue, 28 Jun 2011 16:13:26 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/</guid>
+      <guid>http://localhost:57259/articles/2011-06-28-vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/</guid>
       <description>&lt;p&gt;Last week, the &lt;a href=&#34;http://www.quest.com/vworkspace/&#34; title=&#34;Quest vWorkspace&#34;&gt;Quest vWorkspace&lt;/a&gt; guys showed their prowess once again when they released the first version of the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryID=290&amp;amp;externalID=3561&#34; title=&#34;vWorkspace PowerPack&#34;&gt;vWorkspace PowerPack&lt;/a&gt; for &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUIÂ® Pro&lt;/a&gt; and &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt;Â®.  I love this PowerPack because it really demonstrates how PowerGUI is so complementary to PowerShell.  To see what I mean, take a look at the following screenshot:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://kirkmunro.files.wordpress.com/2011/06/image.png&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/06/image_thumb.png?w=604&amp;amp;h=364&#34; alt=&#34;vWorkspace PowerPack - multi-farm management&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This screenshot shows two major improvements to the vWorkspace management experience by demonstrating how you can use the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryID=290&amp;amp;externalID=3561&#34; title=&#34;vWorkspace PowerPack&#34;&gt;vWorkspace PowerPack&lt;/a&gt; to perform management tasks across all farms, and by demonstrating how you can use the &lt;a href=&#34;http://www.powergui.org/entry.jspa?categoryID=290&amp;amp;externalID=3561&#34; title=&#34;vWorkspace PowerPack&#34;&gt;vWorkspace PowerPack&lt;/a&gt; to perform management tasks across all locations in a single farm or across all locations in all farms.  In the native vWorkspace management user interface, you can only work with one farm at a time, and you can only work with one location at a time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerGUI ProÂ® 3.0 Beta 2 is now available</title>
-      <link>https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/</link>
+      <link>http://localhost:57259/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/</link>
       <pubDate>Fri, 17 Jun 2011 14:21:40 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/</guid>
+      <guid>http://localhost:57259/articles/2011-06-17-powergui-pro-3-0-beta-2-is-now-available/</guid>
       <description>&lt;p&gt;Hot on the heels of our first beta cycle for &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; 3.0, today we released beta 2 of PowerGUI Pro 3.0 to the web.  This release includes a lot of fixes and improvements based on the feedback we&amp;quot;™ve received from you during our first beta cycle, so thank you for that feedback!&lt;/p&gt;&#xA;&lt;p&gt;Here are some details about the improvements that have been made in the 2nd beta of PowerGUI Pro 3.0:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuring RBAC for MobileShell in PowerGUI Pro 3.0</title>
-      <link>https://powershell.org/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/</link>
+      <link>http://localhost:57259/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/</link>
       <pubDate>Thu, 19 May 2011 05:07:45 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/</guid>
+      <guid>http://localhost:57259/articles/2011-05-18-configuring-rbac-for-mobileshell-in-powergui-pro-3-0/</guid>
       <description>&lt;p&gt;Yesterday we released the public &lt;a href=&#34;http://poshoholic.com/2011/05/17/try-the-powergui-pro-3-0-beta-today/&#34; title=&#34;PowerGUI Pro 3.0 Beta&#34;&gt;beta of PowerGUIÂ® Pro 3.0&lt;/a&gt;, which comes with all sorts of cool new features for &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt; users.Â  My favorite feature is definitely the new management interface for MobileShell.Â  With this interface, you can perform systems management from your handheld device very easily.Â  Here&amp;quot;™s what that might look like from your webkit-enabled web browser:&lt;br&gt;&#xA;&lt;a href=&#34;http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions1.png&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/05/mobileshell-actions_thumb.png?w=354&amp;amp;h=640&#34; alt=&#34;MobileShell.Actions&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;Since this is only a beta release, it doesn&amp;quot;™t necessarily have everything fully polished just yet.Â  One thing that we didn&amp;quot;™t get to include in the beta release was a management console allowing you to associate PowerPacks with AD users and groups as well as instructions describing how you set up MobileShell to use this new interface with the beta.Â  The PowerPack that will be used to do that will come later.Â  In the meantime, this post will give you the necessary instructions to get started.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Try the PowerGUI ProÂ® 3.0 Beta today!</title>
-      <link>https://powershell.org/articles/2011-05-17-try-the-powergui-pro-3-0-beta-today/</link>
+      <link>http://localhost:57259/articles/2011-05-17-try-the-powergui-pro-3-0-beta-today/</link>
       <pubDate>Tue, 17 May 2011 15:00:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-05-17-try-the-powergui-pro-3-0-beta-today/</guid>
+      <guid>http://localhost:57259/articles/2011-05-17-try-the-powergui-pro-3-0-beta-today/</guid>
       <description>&lt;p&gt;Today marks another exciting milestone for &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt;, as we release a &lt;a href=&#34;http://www.powergui.org/entry.jspa?externalID=3523&#34; title=&#34;PowerGUI Pro 3.0 Public Beta&#34;&gt;public beta&lt;/a&gt; of &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; 3.0 to the web.Â  We&amp;quot;™ve been working very hard on this release, and it includes a lot of new and improved features.Â Â  The highlights of this release are shown below.&lt;/p&gt;&#xA;&lt;h4 id=&#34;mobileshell-now-supports-powerpack-rendering&#34;&gt;MobileShell Now Supports PowerPack Rendering&lt;/h4&gt;&#xA;&lt;p&gt;A lot of our customers have been requesting this feature for a while (myself included!).Â  With PowerGUI Pro 3.0, you can now expose PowerPacks to MobileShell users!Â  An xml document is used to provide role-based access control (RBAC) to PowerGUI PowerPacks.Â  You simply associate PowerPack files with Active Directory users or groups, and when a user logs in they will see the PowerPacks that are configured for them!Â  Here&amp;quot;™s a screenshot showing the top level of MobileShell, where you can see the PowerPacks that have been exposed to this user:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exciting PowerGUIÂ® news at TechEd 2011 next week!</title>
-      <link>https://powershell.org/articles/2011-05-13-exciting-powergui-news-at-teched-2011-next-week/</link>
+      <link>http://localhost:57259/articles/2011-05-13-exciting-powergui-news-at-teched-2011-next-week/</link>
       <pubDate>Fri, 13 May 2011 20:23:15 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-05-13-exciting-powergui-news-at-teched-2011-next-week/</guid>
+      <guid>http://localhost:57259/articles/2011-05-13-exciting-powergui-news-at-teched-2011-next-week/</guid>
       <description>&lt;p&gt;Next week I&amp;quot;™ll be at the TechEd 2011 conference in Atlanta.  During this event I&amp;quot;™ll be doing an Ask the Experts session on &lt;strong&gt;Tuesday, May 17, 2011&lt;/strong&gt; in the Quest Software booth from &lt;strong&gt;12:30-1:00PM&lt;/strong&gt;.  If you want to get the latest news on &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUIÂ® Pro&lt;/a&gt; and &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt;Â®, come to that session!  I have some really cool things I&amp;quot;™ve been dying to show you, so please stop by and say Hello!  If you can&amp;quot;™t make that session, we&amp;quot;™ll be demoing &lt;a href=&#34;http://www.powerguipro.com/&#34; title=&#34;PowerGUI Pro&#34;&gt;PowerGUI Pro&lt;/a&gt; all week in the Quest booth, so stop by if you want a quick look at what we&amp;quot;™ve been working on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learn more about PowerShell at TechEd 2011</title>
-      <link>https://powershell.org/articles/2011-04-28-learn-more-about-powershell-at-teched-2011/</link>
+      <link>http://localhost:57259/articles/2011-04-28-learn-more-about-powershell-at-teched-2011/</link>
       <pubDate>Thu, 28 Apr 2011 15:15:09 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-04-28-learn-more-about-powershell-at-teched-2011/</guid>
+      <guid>http://localhost:57259/articles/2011-04-28-learn-more-about-powershell-at-teched-2011/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://northamerica.msteched.com/default.aspx?fbid=TzKc3Dpyi4d&#34; title=&#34;TechEd North America 2011&#34;&gt;TechEd North America 2011&lt;/a&gt; is coming up fast next month, so I wanted to let you know how you can learn more about PowerShell while at the conference.  PowerShell has continually had a great presence at TechEd events, and this year is no exception.  Just searching the TechEd schedule builder using the keyword &amp;ldquo;PowerShell&amp;rdquo; reveals 7 pre-event online webcasts, 2 pre-event virtual labs, 4 pre-con seminars, 2 birds of a feather discussions, 5 interactive discussions, 16 breakouts, and 9 hands-on labs this year!  Those are not all specifically focused on PowerShell, but they definitely show the amount of attention that PowerShell gets at a conference like this.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Earth Day 2011 &#34;“ PowerGUIÂ® Style!</title>
-      <link>https://powershell.org/articles/2011-04-22-earth-day-2011-powergui-style/</link>
+      <link>http://localhost:57259/articles/2011-04-22-earth-day-2011-powergui-style/</link>
       <pubDate>Fri, 22 Apr 2011 14:21:14 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-04-22-earth-day-2011-powergui-style/</guid>
+      <guid>http://localhost:57259/articles/2011-04-22-earth-day-2011-powergui-style/</guid>
       <description>&lt;p&gt;Today is Earth Day 2011, and you can celebrate your green side in style with the latest &lt;a href=&#34;http://www.powergui.org/&#34; title=&#34;PowerGUI.org&#34;&gt;PowerGUI&lt;/a&gt;Â® wallpaper.  As an ecoholic myself, this wallpaper is definitely among my favorites.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.powergui.org/servlet/KbServlet/download/3472-102-5523/1920x1200.jpg&#34;&gt;&lt;img src=&#34;http://www.powergui.org/servlet/KbServlet/download/3472-102-5523/1920x1200.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Show your Earth Day pride, and &lt;a href=&#34;http://www.powergui.org/servlet/KbServlet/download/3472-102-5523/1920x1200.jpg&#34;&gt;download&lt;/a&gt; this beautiful desktop wallpaper today! If it doesn&amp;quot;™t suit your style, check out the rest of the desktop wallpaper images we have in the &lt;a href=&#34;http://www.powergui.org/kbcategory.jspa?categoryID=393&#34; title=&#34;Wallpaper category on PowerGUI.org&#34;&gt;Wallpaper category on PowerGUI.org&lt;/a&gt;.  There are plenty to choose from!&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 2011 Scripting Games have begun!</title>
-      <link>https://powershell.org/articles/2011-04-04-the-2011-scripting-games-have-begun/</link>
+      <link>http://localhost:57259/articles/2011-04-04-the-2011-scripting-games-have-begun/</link>
       <pubDate>Mon, 04 Apr 2011 11:54:59 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-04-04-the-2011-scripting-games-have-begun/</guid>
+      <guid>http://localhost:57259/articles/2011-04-04-the-2011-scripting-games-have-begun/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2011/03/21/support-our-sponsor-quest-software-2011.aspx&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/04/2011_scriptgames_green_sponsor-2.png?w=154&amp;amp;h=187&#34; alt=&#34;2011_ScriptGames_GREEN_SPONSOR (2)&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today marks the beginning of Microsoft&amp;quot;™s &lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2011/02/19/2011-scripting-games-all-links-on-one-page.aspx&#34;&gt;2011 Scripting Games&lt;/a&gt;.  The Scripting Games are a great way to have fun learning more about Windows PowerShell.  There are even great prizes available to be won.  There are 10 events, with a beginner and an advanced category for each event.&lt;/p&gt;&#xA;&lt;p&gt;To participate, all you have to do is:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Familiarize yourself with the information on the &lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2011/02/19/2011-scripting-games-all-links-on-one-page.aspx&#34;&gt;2011 Scripting Games page&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Register by signing in to the &lt;a href=&#34;http://2011sg.poshcode.org/Auth/LogOn&#34;&gt;2011 Scripting Games page on PoshCode.org&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Keep your eye on the &lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/&#34;&gt;Hey, Scripting Guy! blog&lt;/a&gt; to see when new events are posted (both the beginner and advanced Event 1 details are available now!).&lt;/li&gt;&#xA;&lt;li&gt;Publish solutions to any events you decide to do on the &lt;a href=&#34;http://2011sg.poshcode.org/Scripts/New&#34;&gt;PoshCode.org contribute page&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;quot;™s pretty much all there is to it.  You can participate in both the beginner and the advanced categories, or you can spend all of your time focused on one category.  You can enter solutions for all events in a category, or you can cherry pick the events you have time for and enter only those.  You can start today with the first event, or join in later once the competition is already underway.  There are really no limitations on how much or how little that you have to participate in the Scripting Games.  Some prizes are available for the highest ranking participant, but others can be won simply by participating in a single event, so throw your hat into the ring and learn more about PowerShell while having fun and you might even win something.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Happy 4th Birthday PowerGUIÂ®!</title>
-      <link>https://powershell.org/articles/2011-03-28-happy-4th-birthday-powergui/</link>
+      <link>http://localhost:57259/articles/2011-03-28-happy-4th-birthday-powergui/</link>
       <pubDate>Tue, 29 Mar 2011 00:52:30 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-03-28-happy-4th-birthday-powergui/</guid>
+      <guid>http://localhost:57259/articles/2011-03-28-happy-4th-birthday-powergui/</guid>
       <description>&lt;p&gt;Today is &lt;a href=&#34;http://www.powergui.org/&#34;&gt;PowerGUI&lt;/a&gt;&amp;quot;™s 4th birthday, and what would a birthday be without cake?  The awesome graphic artists that provide me with all of our fun desktop wallpaper for PowerGUI have done it again with a new desktop wallpaper image to celebrate PowerGUI&amp;quot;™s birthday.  You can download it from the &lt;a href=&#34;http://poshoholic.com/2011/03/28/happy-4th-birthday-powergui/www.powergui.org/downloads.jspa&#34;&gt;downloads page on PowerGUI.org&lt;/a&gt;, or you can click on this picture to download a high-resolution version directly:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.powergui.org/servlet/KbServlet/download/3422-102-5427/1920x1200.jpg&#34;&gt;&lt;img src=&#34;http://kirkmunro.files.wordpress.com/2011/03/image2.png?w=504&amp;amp;h=316&#34; alt=&#34;image&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;quot;™s hard to believe it&amp;quot;™s been 4 years already since PowerGUI was first made available for download on March 28, 2007.  What an amazing 4 years it has been too! What started out as a free extensible Administrative Console based on Windows PowerShell has grown into an award winning product that also includes a free extensible Script Editor with tons of useful features like Intellisense, syntax highlighting, script snippets, script signing, and many, many more.  There&amp;quot;™s even a Pro version called &lt;a href=&#34;http://poshoholic.com/2011/03/28/happy-4th-birthday-powergui/www.powerguipro.com&#34;&gt;PowerGUIÂ® Pro&lt;/a&gt; that adds Version Control, Easy Remote Script Execution, and a component called MobileShell that allows you to perform systems management from your handheld device!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adam Driscoll talks about PowerShell and PowerGUIÂ® on .NET Rocks!</title>
-      <link>https://powershell.org/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/</link>
+      <link>http://localhost:57259/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/</link>
       <pubDate>Tue, 22 Mar 2011 17:00:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/</guid>
+      <guid>http://localhost:57259/articles/2011-03-22-adam-driscoll-talks-about-powershell-and-powergui-on-net-rocks/</guid>
       <description>&lt;p&gt;Recently Adam Driscoll of &lt;a href=&#34;http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/&#34;&gt;PowerGUI VSX&lt;/a&gt; fame was a guest on the &lt;a href=&#34;http://www.dotnetrocks.com/&#34;&gt;.NET Rocks!&lt;/a&gt; podcast show, chatting with Carl and Richard about his TFS plugin for Android, PowerShell, &lt;a href=&#34;http://www.powergui.org/&#34;&gt;PowerGUI&lt;/a&gt;, and &lt;a href=&#34;http://visualstudiogallery.msdn.microsoft.com/01516103-d487-4a7e-bb40-c15ec709afa3/&#34;&gt;PowerGUI VSX&lt;/a&gt;.  Today that show was made available for download, so head on over to the &lt;a href=&#34;http://www.dotnetrocks.com/&#34;&gt;.NET Rocks!&lt;/a&gt; page listen to Adam, Carl and Richard in &lt;a href=&#34;http://www.dotnetrocks.com/default.aspx?showNum=647&#34;&gt;Episode 647 of .NET Rocks!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Enjoy!&lt;/p&gt;&#xA;&lt;p&gt;Kirk out.&lt;/p&gt;&#xA;&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/PowerShell&#34;&gt;PowerShell&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/PoSh&#34;&gt;PoSh&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/Poshoholic&#34;&gt;Poshoholic&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/PowerGUI&#34;&gt;PowerGUI&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/PowerGUI+VSX&#34;&gt;PowerGUI VSX&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/podcast&#34;&gt;podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/kirkmunro.wordpress.com/520/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/kirkmunro.wordpress.com/520/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=poshoholic.com&amp;amp;blog=1436967&amp;amp;%23038;post=520&amp;amp;%23038;subd=kirkmunro&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerGUIÂ® Spring 2011 Desktop Wallpaper</title>
-      <link>https://powershell.org/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/</link>
+      <link>http://localhost:57259/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/</link>
       <pubDate>Mon, 21 Mar 2011 20:44:47 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/</guid>
+      <guid>http://localhost:57259/articles/2011-03-21-powergui-spring-2011-desktop-wallpaper/</guid>
       <description>&lt;p&gt;Spring is here already, and even though it doesn&amp;quot;™t seem like it&amp;quot;™s Spring everywhere just yet (it has been snowing most of the day here in Ottawa), with the change in seasons comes a change in desktop wallpaper.Â  The Spring 2011 wallpaper for &lt;a href=&#34;http://www.powerguipro.com/&#34;&gt;PowerGUI Pro&lt;/a&gt; and &lt;a href=&#34;http://www.powergui.org/&#34;&gt;PowerGUI&lt;/a&gt; is now available:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.powergui.org/servlet/KbServlet/download/3402-102-5388/1920x1200.jpg&#34;&gt;&lt;img src=&#34;http://www.powergui.org/servlet/KbServlet/downloadImage/3402-102-425/thumbnail.jpg&#34; alt=&#34;PowerGUI Spring 2011 Wallpaper Thumbnail&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To download this wallpaper, simply visit the &lt;a href=&#34;http://powergui.org/downloads.jspa&#34;&gt;PowerGUI downloads page&lt;/a&gt; and scroll down to see all of the sizes and varieties that are available.Â  We have Fall wallpaper there as well for our friends in the southern hemisphere.Â  As always, all of our wallpaper images are stored in the &lt;a href=&#34;http://www.powergui.org/kbcategory.jspa?categoryID=393&#34;&gt;Wallpaper folder&lt;/a&gt; on &lt;a href=&#34;http://www.powergui.org/&#34;&gt;PowerGUI.org&lt;/a&gt;, so if you want to use one from a previous year or a different season or holiday, take a look around&amp;quot;¦there are currently 27 different varieties to choose from.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerScripting Podcast with Jeffrey Snover and Kenneth Hansen</title>
-      <link>https://powershell.org/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/</link>
+      <link>http://localhost:57259/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/</link>
       <pubDate>Wed, 16 Mar 2011 14:21:07 +0000</pubDate>
-      <guid>https://powershell.org/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/</guid>
+      <guid>http://localhost:57259/articles/2011-03-16-powerscripting-podcast-with-jeffrey-snover-and-kenneth-hansen/</guid>
       <description>&lt;p&gt;Last week &lt;a href=&#34;http://www.halr9000.com/&#34;&gt;Hal Rottenberg&lt;/a&gt; and &lt;a href=&#34;http://twitter.com/#!/jonwalz&#34;&gt;Jonathan Walz&lt;/a&gt; recorded another great episode of the &lt;a href=&#34;http://powerscripting.wordpress.com/&#34;&gt;PowerScripting Podcast&lt;/a&gt;, this time with Jeffrey Snover and Kenneth Hansen as guests.  Jeffrey and Kenneth talk about PowerShell of course, but also discuss the upcoming &lt;a href=&#34;http://www.theexpertsconference.com/us/2011/general-information/2011-powershell-deep-dive/&#34;&gt;PowerShell Deep Dive&lt;/a&gt; event.  You can find the link to listen to the podcast along with the show notes &lt;a href=&#34;http://powerscripting.wordpress.com/2011/03/14/episode-141-the-powershell-deep-dive-conference-with-jeffrey-snover-and-kenneth-hansen/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This podcast is a great source of PowerShell news and I highly recommend listening to it regularly.  It&amp;quot;™s a great way to pass the time during your daily commute to and from work.  There are 141 episodes so far, with tons of great interviews and content, so check out this podcast when you have some time.  It&amp;quot;™s definitely worth it.&lt;/p&gt;</description>
     </item>
   </channel>

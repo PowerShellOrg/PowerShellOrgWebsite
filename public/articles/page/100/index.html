@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,196 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="own a piece of the community: buy shares in powershell.org, inc.!" 
+                     data-content="&lt;p&gt;when kirk munro and i set this site up, and started redirecting traffic from the old powershellcommunity.org, one of our main goals was to make this a trulyâ &lt;em&gt;community-owned&lt;/em&gt; resource. we wanted it hosted independently (my company, concentrated tech, is being paid to host the site, so we get pretty good service and total control). we didn&amp;rsquo;t want to be beholden to anyone&amp;rsquo;s commercial interests or whims (companies do get distracted by their real jobs from time to time, after all).&lt;br&gt;
+when we started talking to microsoft about holding a &lt;a href=&#34;http://powershellsummit.org&#34;&gt;powershell summit&lt;/a&gt;, we wanted that to be community-owned too, and not tied to a commercial interest - in part so that we could keep the price low, but also so that microsoft would be able to support us without getting into any possible conflicts of interest with any of its isv partners.&lt;br&gt;
+today, our intention becomes legally realized. powershell.org., inc., a nevada corporation, is born - and we&amp;rsquo;re offering ownership shares to help raise capital. this capital will be used to pay for necessities like bookkeeping, and also to help bootstrap the summit event. shareholders areâ _legal owners of the corporation,â _and will vote for its board of directors - who in turn appoint the officers that make things happen. our first board will consist of &lt;a href=&#34;http://donjones.com&#34;&gt;myself&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/poshoholic&#34;&gt;kirk&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/jeffhicks&#34;&gt;jeffery hicks&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/rsiddaway&#34;&gt;richard siddaway&lt;/a&gt;, and &lt;a href=&#34;http://twitter.com/thejasonhelmick&#34;&gt;jason helmick&lt;/a&gt;.&lt;br&gt;
+**want to become a community owner?â **you&amp;rsquo;ll want to start with our &amp;ldquo;shareholder brochure,&amp;rdquo; which is available in &lt;a href=&#34;https://powershell.org/discuss/viewforum.php?f=26&#34;&gt;the new &amp;ldquo;powershell.org, inc.&amp;rdquo; forum&lt;/a&gt; on this site. that forum will also get you our bylaws and articles of incorporation; the brochure will outline the purpose of the corporation, and explain what it means to be a shareholder. the forum also contains the share purchase order form, which you can use to purchase shares, and contains documents that outline our initial board of directors and officer lineup and other important details.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 10, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-09-10-own-a-piece-of-the-community-buy-shares-in-powershell-org-inc/" class="hover:text-blue-600 transition-colors duration-200">
+                            Own a Piece of the Community: Buy Shares in PowerShell.org, Inc.!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When Kirk Munro and I set this site up, and started redirecting traffic from the old PowerShellCommunity.org, one of our main goals was to make this a trulyÂ <em>community-owned</em> resource. We wanted it hosted independently (my company, Concentrated Tech, is being paid to host the site, so we get pretty good service and total control). We didn&rsquo;t want to be beholden to anyone&rsquo;s commercial interests or whims (companies do get distracted by their real jobs from time to time, after all).<br>
+When we started talking to Microsoft about holding a <a href="http://powershellsummit.org">PowerShell Summit</a>, we wanted that to be community-owned too, and not tied to a commercial interest - in part so that we could keep the price low, but also so that Microsoft would be able to support us without getting into any possible conflicts of interest with any of its ISV partners.<br>
+Today, our intention becomes legally realized. PowerShell.org., Inc., a Nevada corporation, is born - and we&rsquo;re offering ownership shares to help raise capital. This capital will be used to pay for necessities like bookkeeping, and also to help bootstrap the Summit event. Shareholders areÂ _legal owners of the corporation,Â _and will vote for its Board of Directors - who in turn appoint the Officers that make things happen. Our first Board will consist of <a href="http://donjones.com">myself</a>, <a href="http://twitter.com/poshoholic">Kirk</a>, <a href="http://twitter.com/jeffhicks">Jeffery Hicks</a>, <a href="http://twitter.com/rsiddaway">Richard Siddaway</a>, and <a href="http://twitter.com/thejasonhelmick">Jason Helmick</a>.<br>
+**Want to become a community owner?Â **You&rsquo;ll want to start with our &ldquo;Shareholder Brochure,&rdquo; which is available in <a href="https://powershell.org/discuss/viewforum.php?f=26">the new &ldquo;PowerShell.org, Inc.&rdquo; forum</a> on this site. That forum will also get you our Bylaws and Articles of Incorporation; the Brochure will outline the purpose of the corporation, and explain what it means to be a shareholder. The forum also contains the Share Purchase Order form, which you can use to purchase shares, and contains documents that outline our initial Board of Directors and Officer lineup and other important details.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-09-10-own-a-piece-of-the-community-buy-shares-in-powershell-org-inc/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="" 
+                     data-content="&lt;p&gt;that&amp;rsquo;s right, for just $400 you can guarantee yourself a seat at the powershell summit north america 2013, to be held at microsoft&amp;rsquo;s campus in redmond, wa. just 10 tickets will be made available at this low-low-low price, which is $150 off the normal registration rate.&lt;br&gt;
+why so low? why are they called &amp;ldquo;i&amp;rsquo;m feeling lucky&amp;rdquo; tickets? because while we&amp;rsquo;re committed to an april 2013 date, we haven&amp;rsquo;t actually locked in dates with microsoft, yet. so to purchase these, you&amp;rsquo;ve got to be feeling flexible&amp;hellip; or lucky!&lt;br&gt;
+but it&amp;rsquo;s not a marriage. the tickets are completely refundable, up to 30 days prior to the event. so if we manage to lock in the three dates &lt;em&gt;you can&amp;rsquo;t attend,&lt;/em&gt; we&amp;rsquo;ll give you your money back. you can also transfer the ticket to someone else, at any time (although they&amp;rsquo;ll be paying you directly for the ticket, and we won&amp;rsquo;t get involved in that transaction).&lt;br&gt;
+once these sell out, or we lock in our dates, we&amp;rsquo;ll commence the early bird period, with a rate of $475 and just 30 tickets available. that rate will be good through the end of december, unless we sell out. full rate of $550 kicks in after that, when we&amp;rsquo;ll sell the remaining tickets to fill our roughly 100-person venue.&lt;br&gt;
+thinking about presenting? start &lt;a href=&#34;https://powershell.org/discuss/viewforum.php?f=21&#34;&gt;submitting topics in the forums&lt;/a&gt;! you can get all the other juicy details on the &lt;a href=&#34;http://powershellsummit.org&#34;&gt;summit&amp;rsquo;s dedicated site&lt;/a&gt;, and catch the &lt;a href=&#34;http://twitter.com/pshsummit&#34;&gt;summit&amp;rsquo;s twitter feed&lt;/a&gt; for ongoing announcements.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 9, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-09-09-powershell-summit-im-feeling-lucky-tickets-on-sale-400-each/" class="hover:text-blue-600 transition-colors duration-200">
+                            
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>That&rsquo;s right, for just $400 you can guarantee yourself a seat at the PowerShell Summit North America 2013, to be held at Microsoft&rsquo;s campus in Redmond, WA. Just 10 tickets will be made available at this low-low-low price, which is $150 off the normal registration rate.<br>
+Why so low? Why are they called &ldquo;I&rsquo;m Feeling Lucky&rdquo; tickets? Because while we&rsquo;re committed to an April 2013 date, we haven&rsquo;t actually locked in dates with Microsoft, yet. So to purchase these, you&rsquo;ve got to be feeling flexible&hellip; or lucky!<br>
+But it&rsquo;s not a marriage. The tickets are completely refundable, up to 30 days prior to the event. So if we manage to lock in the three dates <em>you can&rsquo;t attend,</em> we&rsquo;ll give you your money back. You can also transfer the ticket to someone else, at any time (although they&rsquo;ll be paying you directly for the ticket, and we won&rsquo;t get involved in that transaction).<br>
+Once these sell out, or we lock in our dates, we&rsquo;ll commence the Early Bird period, with a rate of $475 and just 30 tickets available. That rate will be good through the end of December, unless we sell out. Full rate of $550 kicks in after that, when we&rsquo;ll sell the remaining tickets to fill our roughly 100-person venue.<br>
+Thinking about presenting? Start <a href="https://powershell.org/discuss/viewforum.php?f=21">submitting topics in the Forums</a>! You can get all the other juicy details on the <a href="http://powershellsummit.org">Summit&rsquo;s dedicated site</a>, and catch the <a href="http://twitter.com/PSHSummit">Summit&rsquo;s Twitter feed</a> for ongoing announcements.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-09-09-powershell-summit-im-feeling-lucky-tickets-on-sale-400-each/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell workflow: when should you use it?" 
+                     data-content="&lt;p&gt;microsoft recently posted the online help for powershell v3 workflow (&lt;a href=&#34;http://technet.microsoft.com/en-us/library/jj134242)&#34;&gt;http://technet.microsoft.com/en-us/library/jj134242)&lt;/a&gt;, and i wanted to take an opportunity to explore some of what the help says - and perhaps offer an outsider&amp;rsquo;s perspective.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-workflow&#34;&gt;what is workflow?&lt;/h2&gt;
+&lt;p&gt;workflow is a set of technologies included with powershell v3, and is available on any computer running v3 (which can include windows 7, windows server 2008, windows server 2008 r2, windows 8, and windows server 2012). a workflow is a special kind of powershell script that looks a lot like a function. when run, however, powershell translates the workflow to windows workflow foundation (wwf) code, and hands it off to wwf to execute. that means the contents of a workflow are a bit different than the contents of a script.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 30, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-08-30-powershell-workflow-when-should-you-use-it/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Workflow: When Should You Use It?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Microsoft recently posted the online help for PowerShell v3 Workflow (<a href="http://technet.microsoft.com/en-us/library/jj134242)">http://technet.microsoft.com/en-us/library/jj134242)</a>, and I wanted to take an opportunity to explore some of what the help says - and perhaps offer an outsider&rsquo;s perspective.</p>
+<h2 id="what-is-workflow">What is Workflow?</h2>
+<p>Workflow is a set of technologies included with PowerShell v3, and is available on any computer running v3 (which can include Windows 7, Windows Server 2008, Windows Server 2008 R2, Windows 8, and Windows Server 2012). A workflow is a special kind of PowerShell script that looks a lot like a function. When run, however, PowerShell translates the workflow to Windows Workflow Foundation (WWF) code, and hands it off to WWF to execute. That means the contents of a workflow are a bit different than the contents of a script.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-08-30-powershell-workflow-when-should-you-use-it/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="ebook: secrets of powershell remoting" 
+                     data-content="&lt;p&gt;this is a free e-book that covers powershell remoting. there&amp;rsquo;s a brief overview and tutorial of actually using remoting, but that part isn&amp;rsquo;t in-depth. what this e-book provides, that you won&amp;rsquo;t find elsewhere, is step-by-step, screenshot-based instructions for configuring remoting for any imaginable scenario. you&amp;rsquo;ll also find troubleshooting tutorials and examples, and even information on how to explain remoting to your corporate it security team. it&amp;rsquo;s all the stuff that isn&amp;rsquo;t documented in powershell&amp;rsquo;s own help - and it&amp;rsquo;s completely free. you don&amp;rsquo;t even need to register to download the file!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 6, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Books
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-08-06-ebook-secrets-of-powershell-remoting/" class="hover:text-blue-600 transition-colors duration-200">
+                            eBook: Secrets of PowerShell Remoting
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>This is a free e-book that covers PowerShell Remoting. There&rsquo;s a brief overview and tutorial of actually using Remoting, but that part isn&rsquo;t in-depth. What this e-book provides, that you won&rsquo;t find elsewhere, is step-by-step, screenshot-based instructions for configuring Remoting for any imaginable scenario. You&rsquo;ll also find troubleshooting tutorials and examples, and even information on how to explain Remoting to your corporate IT security team. It&rsquo;s all the stuff that isn&rsquo;t documented in PowerShell&rsquo;s own help - and it&rsquo;s completely free. You don&rsquo;t even need to register to download the file!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-08-06-ebook-secrets-of-powershell-remoting/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="want to contribute?" 
                      data-content="&lt;p&gt;we&amp;rsquo;re looking for a few good powershell contributors! you don&amp;rsquo;t need to be a powershell expert in order to make a valuable contribution to this community - there are a number of ways in which you can help.&lt;/p&gt;"
                      >
@@ -437,7 +677,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-29-want-to-contribute/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-29-want-to-contribute/" class="hover:text-blue-600 transition-colors duration-200">
                             Want to Contribute?
                         </a>
                     </h2>
@@ -445,7 +685,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>We&rsquo;re looking for a few good PowerShell contributors! You don&rsquo;t need to be a PowerShell expert in order to make a valuable contribution to this community - there are a number of ways in which you can help.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-29-want-to-contribute/" 
+                        <a href="http://localhost:57259/articles/2012-07-29-want-to-contribute/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -482,7 +722,7 @@ why the new site? a couple of reasons. for one, we desperately wanted to get out
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-29-the-new-community/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-29-the-new-community/" class="hover:text-blue-600 transition-colors duration-200">
                             The New PowerShell Community
                         </a>
                     </h2>
@@ -492,7 +732,7 @@ This site represents an evolution of the old PowerShellCommunity.org (also acces
 Why the new site? A couple of reasons. For one, we desperately wanted to get out of the DotNetNuke software, which has proven somewhat difficult to work with since none of us are experts with it. We also needed to get the site out of it&rsquo;s home in a Quest datacenter. Quest was awesome for providing that hosting, but they&rsquo;re moving on to bigger and better things, and we wanted to get a bit more control over the site. We also wanted to trim the site down a bit, to focus mainly on providing a blogging platform and aggregation point, and the all-important Q&amp;A forums that folks rely on.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-29-the-new-community/" 
+                        <a href="http://localhost:57259/articles/2012-07-29-the-new-community/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -523,7 +763,7 @@ Why the new site? A couple of reasons. For one, we desperately wanted to get out
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-26-pscx-3-0-beta-released/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-26-pscx-3-0-beta-released/" class="hover:text-blue-600 transition-colors duration-200">
                             PSCX 3.0 Beta Released
                         </a>
                     </h2>
@@ -531,7 +771,7 @@ Why the new site? A couple of reasons. For one, we desperately wanted to get out
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>We&quot;™ve just released a <a href="http://pscx.codeplex.com/releases/view/91403">beta of the PowerShell Community Extensions 3.0</a> which targets PowerShell 3.0 specifically.  This new version uses a WiX based installer.  We may look at providing an xcopy deployable ZIP file but we had so many users get burned by not unblocking the ZIP file that the move back to MSI seemed warranted.  The MSI really doesn&quot;™t do much other than copy files into the Program Files dir and add a path to the PSModulePath environment variable.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-26-pscx-3-0-beta-released/" 
+                        <a href="http://localhost:57259/articles/2012-07-26-pscx-3-0-beta-released/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -564,7 +804,7 @@ Why the new site? A couple of reasons. For one, we desperately wanted to get out
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-24-join-jeff-and-i-for-a-live-powershell-video-chat-cast/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-24-join-jeff-and-i-for-a-live-powershell-video-chat-cast/" class="hover:text-blue-600 transition-colors duration-200">
                             Join Jeff and I for a live PowerShell video chat cast!
                         </a>
                     </h2>
@@ -574,7 +814,7 @@ Why the new site? A couple of reasons. For one, we desperately wanted to get out
 <p>When: Thursday, Aug 2, 2012 10:00 AM (PDT)</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-24-join-jeff-and-i-for-a-live-powershell-video-chat-cast/" 
+                        <a href="http://localhost:57259/articles/2012-07-24-join-jeff-and-i-for-a-live-powershell-video-chat-cast/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -626,7 +866,7 @@ on what&#39;s new in 3.0?
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-24-comparing-lunches-v2-to-v3/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-24-comparing-lunches-v2-to-v3/" class="hover:text-blue-600 transition-colors duration-200">
                             Comparing &#34;Lunches:&#34; v2 to v3
                         </a>
                     </h2>
@@ -655,7 +895,7 @@ on what's new in 3.0?
 <p>First of all - thanks for the love! Now, here&rsquo;s the lowdown:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-24-comparing-lunches-v2-to-v3/" 
+                        <a href="http://localhost:57259/articles/2012-07-24-comparing-lunches-v2-to-v3/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -687,7 +927,7 @@ on what's new in 3.0?
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-19-measure-powershell-performance/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-07-19-measure-powershell-performance/" class="hover:text-blue-600 transition-colors duration-200">
                             Measure PowerShell Performance
                         </a>
                     </h2>
@@ -696,163 +936,7 @@ on what's new in 3.0?
 <p>Let&rsquo;s consider two short scripts that produce almost identical output. Here&rsquo;s the first:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-19-measure-powershell-performance/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="kirk munro, product manager, architect, and powershell mvp for hire" 
-                     data-content="&lt;p&gt;while i have loved working at devfarm software for the past 11 months, circumstances have unfortunately forced us to part ways and as a result i am a free agent now and looking for a new place to hang my hat.  working with ben vierck and brian butler at devfarm has been a fantastic experience, and if it wasn&amp;quot;™t for the small yet annoying detail that there isn&amp;quot;™t enough money in the company to continue to pay my salary and keep the business going full steam ahead, i&amp;quot;™d still be working with them today.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 18, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Kirk Munro</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" class="hover:text-blue-600 transition-colors duration-200">
-                            Kirk Munro, Product Manager, Architect, and PowerShell MVP for hire
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>While I have loved working at Devfarm Software for the past 11 months, circumstances have unfortunately forced us to part ways and as a result I am a free agent now and looking for a new place to hang my hat.  Working with Ben Vierck and Brian Butler at Devfarm has been a fantastic experience, and if it wasn&quot;™t for the small yet annoying detail that there isn&quot;™t enough money in the company to continue to pay my salary and keep the business going full steam ahead, I&quot;™d still be working with them today.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="note: powershell book limited edition preorders only available as preorders!" 
-                     data-content="&lt;p&gt;jeffery hicks, richard siddaway, and i wanted to offer a quick clarification on our book preorders. first, the &lt;em&gt;powershell in depth&lt;/em&gt; preorder is &lt;a href=&#34;http://store.concentratedtech.com/indepth.php&#34;&gt;currently available&lt;/a&gt;, and there are up to 200 units offered through this preorder. you get a signed-by-all-three-of-us book and an exclusive video companion disc. the &lt;em&gt;month of lunches&lt;/em&gt; bundle preorder &lt;a href=&#34;http://store.concentratedtech.com/lunchesbundle.php&#34;&gt;will go on sale august 1st&lt;/a&gt;, and will be limited to 100 units. it gets you two autographed books, resources disc, and a fun lunch bag.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 17, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-17-note-powershell-book-limited-edition-preorders-only-available-as-preorders/" class="hover:text-blue-600 transition-colors duration-200">
-                            Note: PowerShell Book Limited Edition Preorders ONLY AVAILABLE as Preorders!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Jeffery Hicks, Richard Siddaway, and I wanted to offer a quick clarification on our book preorders. First, the <em>PowerShell In Depth</em> preorder is <a href="http://store.concentratedtech.com/indepth.php">currently available</a>, and there are up to 200 units offered through this preorder. You get a signed-by-all-three-of-us book and an exclusive video companion disc. The <em>Month of Lunches</em> bundle preorder <a href="http://store.concentratedtech.com/lunchesbundle.php">will go on sale August 1st</a>, and will be limited to 100 units. It gets you two autographed books, resources disc, and a fun lunch bag.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-17-note-powershell-book-limited-edition-preorders-only-available-as-preorders/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="release dates for powershell 3 announced!" 
-                     data-content="&lt;p&gt;microsoft has just announced, at its worldwide partner conference, that windows 8 and windows server 2012 are on track to hit &amp;ldquo;release to manufacturing&amp;rdquo; the first week of august, with general product availability in october. that means powershell v3 will start becoming available in august-september; we can expect v3 to be available as a web download for older versions of windows probably by december (based on past performance; it could actually be sooner or a bit later). that&amp;rsquo;ll include windows 7, windows server 2008, and windows server 2008 r2, but notably will &lt;em&gt;not&lt;/em&gt; include windows vista (does anyone mind?). v3 will not ship for windows xp or windows server 2003; those ships have sailed and it&amp;rsquo;s time to move on!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 9, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-09-release-dates-for-powershell-3-announced/" class="hover:text-blue-600 transition-colors duration-200">
-                            Release Dates for PowerShell 3 announced!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Microsoft has just announced, at its Worldwide Partner Conference, that Windows 8 and Windows Server 2012 are on track to hit &ldquo;Release to Manufacturing&rdquo; the first week of August, with general product availability in October. That means PowerShell v3 will start becoming available in August-September; we can expect v3 to be available as a Web download for older versions of Windows probably by December (based on past performance; it could actually be sooner or a bit later). That&rsquo;ll include Windows 7, Windows Server 2008, and Windows Server 2008 R2, but notably will <em>not</em> include Windows Vista (does anyone mind?). v3 will not ship for Windows XP or Windows Server 2003; those ships have sailed and it&rsquo;s time to move on!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-09-release-dates-for-powershell-3-announced/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="[july 25 update] &#34;powershell in depth&#34; limited edition pre-orders… as they stand…" 
-                     data-content="&lt;p&gt;as most of you know, co-authors jeffery hicks, richard siddaway, and myself are offering a limited edition pre-order of our new &lt;em&gt;powershell in depth&lt;/em&gt; book. you can &lt;a href=&#34;http://store.concentratedtech.com/indepth.php&#34;&gt;order from my company&amp;rsquo;s online store&lt;/a&gt;; you&amp;rsquo;re pre-ordering a book autographed by the three of us and bundled with a disc chock full of demo videos timed by us. this isn&amp;rsquo;t the same as the publisher&amp;rsquo;s meap preview - you won&amp;rsquo;t get the book ahead of time. the disc is exclusive to this 200-unit edition, and each book is part of a 400-unit edition and is hand-numbered.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 9, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-07-08-july-25-update-powershell-in-depth-limited-edition-pre-orders-as-they-stand/" class="hover:text-blue-600 transition-colors duration-200">
-                            [JULY 25 UPDATE] &#34;PowerShell In Depth&#34; Limited Edition Pre-Orders… as they stand…
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As most of you know, co-authors Jeffery Hicks, Richard Siddaway, and myself are offering a limited edition pre-order of our new <em>PowerShell in Depth</em> book. You can <a href="http://store.concentratedtech.com/indepth.php">order from my company&rsquo;s online store</a>; you&rsquo;re pre-ordering a book autographed by the three of us and bundled with a disc chock full of demo videos timed by us. This isn&rsquo;t the same as the publisher&rsquo;s MEAP preview - you won&rsquo;t get the book ahead of time. The disc is exclusive to this 200-unit edition, and each book is part of a 400-unit edition and is hand-numbered.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-07-08-july-25-update-powershell-in-depth-limited-edition-pre-orders-as-they-stand/" 
+                        <a href="http://localhost:57259/articles/2012-07-19-measure-powershell-performance/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1334,7 +1418,7 @@ on what's new in 3.0?
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

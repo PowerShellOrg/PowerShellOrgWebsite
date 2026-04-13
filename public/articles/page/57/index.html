@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,222 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell summit europe 2015–topic submissions" 
+                     data-content="&lt;p&gt;topic submissions for the powershell summit europe are still open. if you want to be considered as a speaker please submit your topic very soon.&lt;br&gt;
+at the moment there aren’t enough submissions to enable us to put on a quality event. the 2014 european summit was an excellent event with many good sessions – now is the time to submit your sessions. we need your sessions.&lt;br&gt;
+we have a policy of accepting sessions from new speakers as well as established experts. it’s not who you are but the quality of the session that counts.&lt;br&gt;
+details on how to submit session proposals are available here&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/&#34; title=&#34;https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/&#34;&gt;
+https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/
+&lt;/a&gt;&lt;br&gt;
+please submit your proposals soon as we can’t run the european powershell summit without them! as a note, we are confirmed for stockholm (or within a a short subway ride of stockholm) for the timeframe indicated, although we don&amp;rsquo;t have the exact venue yet. it&amp;rsquo;s important that we get sessions lined up soon, so that we can begin general registration.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 6, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-01-06-powershell-summit-europe-2015-topic-submissions/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Summit Europe 2015–topic submissions
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topic submissions for the PowerShell Summit Europe are still open. If you want to be considered as a speaker please submit your topic very soon.<br>
+At the moment there aren’t enough submissions to enable us to put on a quality event. The 2014 European Summit was an excellent event with many good sessions – now is the time to submit your sessions. We need your sessions.<br>
+We have a policy of accepting sessions from new speakers as well as established experts. It’s not who you are but the quality of the session that counts.<br>
+Details on how to submit session proposals are available here<br>
+<a href="https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/" title="https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/">
+https://powershell.org/2014/11/24/call-for-presentations-for-powershell-summit-europe-2015/
+</a><br>
+Please submit your proposals soon as we can’t run the European PowerShell Summit without them! As a note, we are confirmed for Stockholm (or within a a short subway ride of Stockholm) for the timeframe indicated, although we don&rsquo;t have the exact venue yet. It&rsquo;s important that we get sessions lined up soon, so that we can begin general registration.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-01-06-powershell-summit-europe-2015-topic-submissions/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="nj powershell users group meeting: presenter doug finke – microsoft mvp" 
+                     data-content="&lt;p&gt;the nj powershell user group is having a meetup on thursday, january 8th from 6:00 - 8:00 pm. if interested, please register through the &lt;a href=&#34;http://www.eventbrite.com/e/nj-powershell-users-group-meeting-presenter-doug-finke-microsoft-mvp-tickets-15066672824&#34;&gt;eventbrite website&lt;/a&gt; to track attendance for ordering pizza.  for those attending online (webex) we will send a follow-up email with the meeting link based on eventbrite online registrants.
+&lt;strong&gt;agenda&lt;/strong&gt;:
+6:00 – 6:30: pizza and socializing
+6:30 – 7:30: presentation
+7:30 - 8:00: q &amp;amp; a&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    please note that the webex meeting will start at 6:00 pm, but the actual presentation won&#39;t start until 6:30
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;in-person attendees must register, print out their eventbrite ticket, and present it at the door. walk-ins will not be permitted.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 30, 2014</time>
+                            
+                            <span>•</span>
+                            <span>NJPowerShell</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-12-29-nj-powershell-users-group-meeting-presenter-doug-finke-microsoft-mvp/" class="hover:text-blue-600 transition-colors duration-200">
+                            NJ PowerShell Users Group Meeting: Presenter Doug Finke – Microsoft MVP
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The NJ PowerShell User Group is having a meetup on Thursday, January 8th from 6:00 - 8:00 PM. If interested, please register through the <a href="http://www.eventbrite.com/e/nj-powershell-users-group-meeting-presenter-doug-finke-microsoft-mvp-tickets-15066672824">Eventbrite website</a> to track attendance for ordering pizza.  For those attending online (Webex) we will send a follow-up email with the meeting link based on Eventbrite online registrants.
+<strong>Agenda</strong>:
+6:00 – 6:30: Pizza and socializing
+6:30 – 7:30: Presentation
+7:30 - 8:00: Q &amp; A</p>
+<pre><code>    Please note that the Webex meeting will start at 6:00 PM, but the actual presentation won't start until 6:30
+</code></pre>
+<p>In-Person attendees must register, print out their EventBrite ticket, and present it at the door. Walk-ins will not be permitted.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-12-29-nj-powershell-users-group-meeting-presenter-doug-finke-microsoft-mvp/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell summit n.a. 2015 status update &amp; info" 
+                     data-content="&lt;p&gt;as of this post, powershell summit north america 2015 is full, and registration has been cut off. we&amp;rsquo;re taking some time to confirm our numbers and venue capacity; if we&amp;rsquo;re able to open additional seats, that will happen in january 2015. we will allow any additional capacity to be registered until one month prior to the summit, or until it sells out, whichever comes first. we do not maintain a waiting list; please check here and on the @pshsummit twitter feed for any announcements.&lt;br&gt;
+for those already registered, we _do not have any official hotel recommendations. _you&amp;rsquo;re welcome to use the &lt;a href=&#34;https://powershell.org/forums/forum/powershell-summit/&#34;&gt;summit forum&lt;/a&gt; to see where others are staying, or to arrange for carpooling or other stuff. we certainly encourage all attendees to check the forum for q&amp;amp;a and other discussion - it&amp;rsquo;s never too early to start getting involved. on the hotel front, just look for hotels in downtown charlotte, or near microsoft charlotte, based on your preferences. the reason there&amp;rsquo;s no official hotel is that there are numerous business-class hotels nearby, and after a close call last year we didn&amp;rsquo;t want to take the financial risk of booking out a room block.&lt;br&gt;
+our intent at this time is to book the venue to fire code capacity, which is why we may be able to open additional slots after we confirm everything. that means _both venue rooms will be full at all times. _you will not be permitted to stand or sit in the aisles, back of the room, or block the doorways. if the session you hoped to attend is full, you&amp;rsquo;ll need to go to the other one. keep in mind we&amp;rsquo;re recording everything, so you won&amp;rsquo;t miss out entirely.&lt;br&gt;
+the last sessions on all three days will only have a single session. we&amp;rsquo;ll position the speaker in one of the two rooms, and we&amp;rsquo;ll live-stream to the other room. this is where we plan to put jeffrey snover&amp;rsquo;s talks, both to accommodate what has historically been high interest in his sessions, and to accommodate his total inability to do a session in only 45 minutes :). if you don&amp;rsquo;t get a chair in the &amp;ldquo;live&amp;rdquo; room, you&amp;rsquo;ll need to join from the &amp;ldquo;overflow&amp;rdquo; room.&lt;br&gt;
+the two rooms are actually in different buildings, separated from each other by a driveway/courtyard arrangement. we&amp;rsquo;re suggesting that you &lt;em&gt;not&lt;/em&gt; bring your ginormous 21&amp;quot; laptop, since it&amp;rsquo;ll just drag you down moving between sessions. maybe stick with a surface if you want to take notes and stuff. although we&amp;rsquo;re recording everything, so&amp;hellip; you know. maybe just enjoy the session.&lt;br&gt;
+lunches will be taken &lt;em&gt;in the session rooms&lt;/em&gt;, with buffet setups in the hallways just outside each room.&lt;br&gt;
+stay tuned for further details, and please use the summit forum to ask questions.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 15, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-12-15-powershell-summit-n-a-2015-status-update-info/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Summit N.A. 2015 Status Update &amp; Info
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As of this post, PowerShell Summit North America 2015 is full, and registration has been cut off. We&rsquo;re taking some time to confirm our numbers and venue capacity; if we&rsquo;re able to open additional seats, that will happen in January 2015. We will allow any additional capacity to be registered until one month prior to the Summit, or until it sells out, whichever comes first. We do not maintain a waiting list; please check here and on the @PSHSummit Twitter feed for any announcements.<br>
+For those already registered, we _do not have any official hotel recommendations. _You&rsquo;re welcome to use the <a href="https://powershell.org/forums/forum/powershell-summit/">Summit Forum</a> to see where others are staying, or to arrange for carpooling or other stuff. We certainly encourage all attendees to check the Forum for Q&amp;A and other discussion - it&rsquo;s never too early to start getting involved. On the hotel front, just look for hotels in downtown Charlotte, or near Microsoft Charlotte, based on your preferences. The reason there&rsquo;s no official hotel is that there are numerous business-class hotels nearby, and after a close call last year we didn&rsquo;t want to take the financial risk of booking out a room block.<br>
+Our intent at this time is to book the venue to fire code capacity, which is why we may be able to open additional slots after we confirm everything. That means _both venue rooms will be full at all times. _You will not be permitted to stand or sit in the aisles, back of the room, or block the doorways. If the session you hoped to attend is full, you&rsquo;ll need to go to the other one. Keep in mind we&rsquo;re recording everything, so you won&rsquo;t miss out entirely.<br>
+The last sessions on all three days will only have a single session. We&rsquo;ll position the speaker in one of the two rooms, and we&rsquo;ll live-stream to the other room. This is where we plan to put Jeffrey Snover&rsquo;s talks, both to accommodate what has historically been high interest in his sessions, and to accommodate his total inability to do a session in only 45 minutes :). If you don&rsquo;t get a chair in the &ldquo;live&rdquo; room, you&rsquo;ll need to join from the &ldquo;overflow&rdquo; room.<br>
+The two rooms are actually in different buildings, separated from each other by a driveway/courtyard arrangement. We&rsquo;re suggesting that you <em>not</em> bring your ginormous 21&quot; laptop, since it&rsquo;ll just drag you down moving between sessions. Maybe stick with a Surface if you want to take notes and stuff. Although we&rsquo;re recording everything, so&hellip; you know. Maybe just enjoy the session.<br>
+Lunches will be taken <em>in the session rooms</em>, with buffet setups in the hallways just outside each room.<br>
+Stay tuned for further details, and please use the Summit forum to ask questions.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-12-15-powershell-summit-n-a-2015-status-update-info/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="job posting: help us run powershell.org" 
+                     data-content="&lt;p&gt;[update: we&amp;rsquo;ve gotten an outpouring of responses - i&amp;rsquo;m literally a bit teary-eyed right now - so i&amp;rsquo;ll work with the existing set of volunteers and post again should everyone realize what we&amp;rsquo;re asking and go running for the hills!]&lt;br&gt;
+we&amp;rsquo;re looking for a volunteer to take over regular maintenance of the powershell.org website. we may even have a small budget to make this a paid-contractor gig. trick being, it&amp;rsquo;s gotta be done _regularly. _&lt;br&gt;
+the specifics:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 8, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-12-08-job-posting-help-us-run-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
+                            JOB POSTING: Help us Run PowerShell.org
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>[UPDATE: We&rsquo;ve gotten an outpouring of responses - I&rsquo;m literally a bit teary-eyed right now - so I&rsquo;ll work with the existing set of volunteers and post again should everyone realize what we&rsquo;re asking and go running for the hills!]<br>
+We&rsquo;re looking for a volunteer to take over regular maintenance of the PowerShell.org website. We may even have a small budget to make this a paid-contractor gig. Trick being, it&rsquo;s gotta be done _regularly. _<br>
+The specifics:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-12-08-job-posting-help-us-run-powershell-org/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="a crowdsourced powershell proficiency exam" 
                      data-content="&lt;p&gt;i wanted to call your attention to smarterer, a company recently acquired by my employer, pluralsight. smarterer&amp;rsquo;s schtick (apart from vexing my auto-correct) is that the host crowdsourced technology assessments. in other words, the &lt;em&gt;community&lt;/em&gt; decides what questions to ask someone in the test.&lt;br&gt;
 the magic is that their back-end engine, over time, figures out which questions are awesome and which ones suck, and adjusts the assessment accordingly. so as more people (especially qualified ones) take the test, the better it gets at identifying skilled people. it gives it a sort of built-in immunity against bad community-contributed questions, because those eventually filter out of the assessment that&amp;rsquo;s delivered to people. it&amp;rsquo;s pretty engaging, actually. i&amp;rsquo;ve had some fun taking some web development-oriented assessments, and surprised myself in a few places.&lt;br&gt;
@@ -439,7 +705,7 @@ they&amp;rsquo;ve &lt;a href=&#34;http://smarterer.com/tests/powershell&#34;&gt;
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-12-04-a-crowdsourced-powershell-proficiency-exam/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-12-04-a-crowdsourced-powershell-proficiency-exam/" class="hover:text-blue-600 transition-colors duration-200">
                             A Crowdsourced PowerShell Proficiency Exam
                         </a>
                     </h2>
@@ -449,7 +715,7 @@ The magic is that their back-end engine, over time, figures out which questions 
 They&rsquo;ve <a href="http://smarterer.com/tests/powershell">got a PowerShell assessment</a>. Why not jump in, take it, and then add some questions of your own? Next time you need to interview someone for PowerShell chops, send &rsquo;em to Smarterer.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-12-04-a-crowdsourced-powershell-proficiency-exam/" 
+                        <a href="http://localhost:57259/articles/2014-12-04-a-crowdsourced-powershell-proficiency-exam/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -485,7 +751,7 @@ powershell summit europe 2015 will be held 14-16 september 2015 in stockholm, sw
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-11-24-call-for-presentations-for-powershell-summit-europe-2015/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-11-24-call-for-presentations-for-powershell-summit-europe-2015/" class="hover:text-blue-600 transition-colors duration-200">
                             Call for Presentations for PowerShell Summit Europe 2015
                         </a>
                     </h2>
@@ -494,7 +760,7 @@ powershell summit europe 2015 will be held 14-16 september 2015 in stockholm, sw
 PowerShell Summit Europe 2015 will be held 14-16 September 2015 in Stockholm, Sweden.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-11-24-call-for-presentations-for-powershell-summit-europe-2015/" 
+                        <a href="http://localhost:57259/articles/2014-11-24-call-for-presentations-for-powershell-summit-europe-2015/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -526,7 +792,7 @@ everyone is welcome. please rsvp on the &lt;a href=&#34;http://www.meetup.com/ch
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-11-03-charlotte-powershell-user-group-meeting-on-116/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-11-03-charlotte-powershell-user-group-meeting-on-116/" class="hover:text-blue-600 transition-colors duration-200">
                             Charlotte PowerShell User Group meeting on 11/6
                         </a>
                     </h2>
@@ -535,7 +801,7 @@ everyone is welcome. please rsvp on the &lt;a href=&#34;http://www.meetup.com/ch
 Everyone is welcome. Please RSVP on the <a href="http://www.meetup.com/Charlotte-PowerShell-Users-Group/events/216116072/">MeetUp</a> event page so we can plan food accordingly.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-11-03-charlotte-powershell-user-group-meeting-on-116/" 
+                        <a href="http://localhost:57259/articles/2014-11-03-charlotte-powershell-user-group-meeting-on-116/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -579,7 +845,7 @@ c&amp;rsquo;mon. take up the challenge. and tweet folks over to this article, to
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-25-our-nanowrimo-challenge-write-a-powershell-article/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-10-25-our-nanowrimo-challenge-write-a-powershell-article/" class="hover:text-blue-600 transition-colors duration-200">
                             Our NaNoWriMo Challenge: Write a PowerShell Article
                         </a>
                     </h2>
@@ -596,7 +862,7 @@ The deadline is November 30th, of course, and I&rsquo;ll work my way through the
 C&rsquo;mon. Take up the challenge. And tweet folks over to this article, too. Let&rsquo;s make it a thing. My goal is to help at least a few folks because regular bloggers, either here or elsewhere, and my dream is to find maybe a couple of folks who can pick up a full-time column with a magazine or other publication. That&rsquo;d be awesome. I know you&rsquo;re out there - let&rsquo;s get the party started.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-25-our-nanowrimo-challenge-write-a-powershell-article/" 
+                        <a href="http://localhost:57259/articles/2014-10-25-our-nanowrimo-challenge-write-a-powershell-article/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -632,7 +898,7 @@ that said, &lt;strong&gt;you&lt;/strong&gt; can play a big role in bringing the
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-16-how-to-have-the-powershell-summit-come-to-you/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-10-16-how-to-have-the-powershell-summit-come-to-you/" class="hover:text-blue-600 transition-colors duration-200">
                             How to Have the PowerShell Summit Come to You
                         </a>
                     </h2>
@@ -641,7 +907,7 @@ that said, &lt;strong&gt;you&lt;/strong&gt; can play a big role in bringing the
 That said, <strong>you</strong> can play a big role in bringing the Summit to <strong>your</strong> town. How? Simply write a proposal and submit it to us. Use the &ldquo;Admin&rdquo; e-mail alias at PowerShell.org. Here&rsquo;s what to include:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-16-how-to-have-the-powershell-summit-come-to-you/" 
+                        <a href="http://localhost:57259/articles/2014-10-16-how-to-have-the-powershell-summit-come-to-you/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -677,7 +943,7 @@ thank you again to the speakers, and attendees, who made for a wonderful first s
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-14-powershell-summit-europe-2014-all-videos-available/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-10-14-powershell-summit-europe-2014-all-videos-available/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Summit Europe 2014  –  All videos available
                         </a>
                     </h2>
@@ -686,213 +952,7 @@ thank you again to the speakers, and attendees, who made for a wonderful first s
 Thank you again to the speakers, and attendees, who made for a wonderful first Summit in Europe and more thanks to the people who donated to our appeal to raise funds for the recording equipment.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-14-powershell-summit-europe-2014-all-videos-available/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="phillyposh 10/02/2014 meeting summary and presentation materials" 
-                     data-content="&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mellositmusings.com/about/&#34;&gt;john mello&lt;/a&gt; gave a presentation entitled &amp;ldquo;custom object creation&amp;rdquo;. a copy of his demo scripts and presentation are available &lt;a href=&#34;https://github.com/phillyposh/2014-10/tree/master/creating%20custom%20objects&#34;&gt;here&lt;/a&gt; at our &lt;a href=&#34;https://github.com/phillyposh/&#34;&gt;github site&lt;/a&gt;.
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://techguytj.com/bio/&#34;&gt;tj turner&lt;/a&gt; gave a presentation entitled &amp;ldquo;runspace pools&amp;rdquo;. a copy of his demo scripts and presentation are available &lt;a href=&#34;https://github.com/phillyposh/2014-10/tree/master/run%20space%20pools&#34;&gt;here&lt;/a&gt; at our &lt;a href=&#34;https://github.com/phillyposh/&#34;&gt;github site&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;a
-recording of this meeting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;has been posted to our &lt;a href=&#34;http://www.youtube.com/channel/ucac_ow5fijtrpvew__9iqzg&#34;&gt;
-youtube channel
-&lt;/a&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 14, 2014</time>
-                            
-                            <span>•</span>
-                            <span>John Mello</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-13-phillyposh-10022014-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
-                            PhillyPoSH 10/02/2014 meeting summary and presentation materials
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><ul>
-<li><a href="http://mellositmusings.com/about/">John Mello</a> gave a presentation entitled &ldquo;Custom Object Creation&rdquo;. A copy of his demo scripts and presentation are available <a href="https://github.com/PhillyPoSH/2014-10/tree/master/Creating%20Custom%20Objects">here</a> at our <a href="https://github.com/PhillyPoSH/">GitHub site</a>.
-<ul>
-<li><a href="http://techguytj.com/bio/">TJ Turner</a> gave a presentation entitled &ldquo;Runspace Pools&rdquo;. A copy of his demo scripts and presentation are available <a href="https://github.com/PhillyPoSH/2014-10/tree/master/Run%20Space%20Pools">here</a> at our <a href="https://github.com/PhillyPoSH/">GitHub site</a>.</li>
-<li>A
-recording of this meeting</li>
-</ul>
-</li>
-</ul>
-<p>has been posted to our <a href="http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg">
-YouTube channel
-</a></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-13-phillyposh-10022014-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell summit europe 2014 – – videos from day 1" 
-                     data-content="&lt;p&gt;the videos from day 1 of the powershell summit europe 2014 are now available on the powershell.org youtube channel. the european summit playlist can be found at&lt;/p&gt;
-&lt;p&gt;uploading of day 2 is in progress and i&amp;rsquo;ll supply notification when complete&lt;br&gt;
-enjoy.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 9, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-08-powershell-summit-europe-2014-videos-from-day-1/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell Summit Europe 2014 – – videos from day 1
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The videos from day 1 of the Powershell Summit Europe 2014 are now available on the PowerShell.org youtube channel. The European Summit playlist can be found at</p>
-<p>Uploading of day 2 is in progress and I&rsquo;ll supply notification when complete<br>
-Enjoy.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-08-powershell-summit-europe-2014-videos-from-day-1/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell summit europe 2014 – – slides and code" 
-                     data-content="&lt;p&gt;all of the slides and demo code the speakers wanted to share are available for your enjoyment at &lt;a href=&#34;http://1drv.ms/1vmwmtm&#34;&gt;http://1drv.ms/1vmwmtm&lt;/a&gt;&lt;br&gt;
-i&amp;rsquo;m currently uploading the videos which is a slow process. i&amp;rsquo;ll post when hat activity is completed.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 7, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-07-powershell-summit-europe-2014-slides-and-code/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell Summit Europe 2014 – – slides and code
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>All of the slides and demo code the speakers wanted to share are available for your enjoyment at <a href="http://1drv.ms/1vMWmtm">http://1drv.ms/1vMWmtm</a><br>
-I&rsquo;m currently uploading the videos which is a slow process. I&rsquo;ll post when hat activity is completed.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-07-powershell-summit-europe-2014-slides-and-code/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="the current and future state of the windows management framework" 
-                     data-content="&lt;p&gt;at the 2nd of october, &lt;a href=&#34;http://www.leeholmes.com/&#34;&gt;lee holmes&lt;/a&gt; gave a presentation about the current and future state of the windows management framework (wmf) during the &lt;a href=&#34;http://www.dupsug.com/?page_id=914&#34;&gt;dutch powershell user group (dupsug)&lt;/a&gt; at the microsoft headquarters in the netherlands.&lt;br&gt;
-the slide decks and recorded videos will be made available soon, but this is what was discussed:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;the release cycle of the windows management framework (wmf)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;faster incremental releases of preview versions are being released. this rapid development means that companies that need specific new functionalities to tackle current problems they&amp;rsquo;re having, don&amp;rsquo;t have to wait as long as they had to in the past.&lt;br&gt;
-everyone should keep in mind that documentation for preview versions can be more limited, but should still read the &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=44070&#34;&gt;release notes &lt;/a&gt;carefully. they contain descriptions of some of the improvements that are discussed in this blog post, but also cover other things that aren&amp;rsquo;t discussed here. also be sure to take a look at &lt;a href=&#34;http://technet.microsoft.com/en-us/library/hh857339.aspx&#34;&gt;what&amp;rsquo;s new in windows powershell&lt;/a&gt; at technet.&lt;br&gt;
-a request from the audience was to include more helpful real-life examples until documentation is fully up-to-date.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 6, 2014</time>
-                            
-                            <span>•</span>
-                            <span>Bjorn Houben</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-10-06-the-current-and-future-state-of-the-windows-management-framework/" class="hover:text-blue-600 transition-colors duration-200">
-                            The current and future state of the Windows Management Framework
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>At the 2nd of October, <a href="http://www.leeholmes.com/">Lee Holmes</a> gave a presentation about the current and future state of the Windows Management Framework (WMF) during the <a href="http://www.dupsug.com/?page_id=914">Dutch PowerShell User Group (DuPSUG)</a> at the Microsoft headquarters in The Netherlands.<br>
-The slide decks and recorded videos will be made available soon, but this is what was discussed:</p>
-<p><strong>The release cycle of the Windows Management Framework (WMF)</strong></p>
-<p>Faster incremental releases of preview versions are being released. This rapid development means that companies that need specific new functionalities to tackle current problems they&rsquo;re having, don&rsquo;t have to wait as long as they had to in the past.<br>
-Everyone should keep in mind that documentation for preview versions can be more limited, but should still read the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=44070">release notes </a>carefully. They contain descriptions of some of the improvements that are discussed in this blog post, but also cover other things that aren&rsquo;t discussed here. Also be sure to take a look at <a href="http://technet.microsoft.com/en-us/library/hh857339.aspx">What&rsquo;s New in Windows PowerShell</a> at TechNet.<br>
-A request from the audience was to include more helpful real-life examples until documentation is fully up-to-date.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-10-06-the-current-and-future-state-of-the-windows-management-framework/" 
+                        <a href="http://localhost:57259/articles/2014-10-14-powershell-summit-europe-2014-all-videos-available/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1374,7 +1434,7 @@ A request from the audience was to include more helpful real-life examples until
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

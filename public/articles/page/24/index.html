@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,184 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="icymi: powershell week of 31-august-18" 
+                     data-content="&lt;p&gt;topics include automating acls for o365 public ips, the scour module, module design w/ plaster, the converttomarkdown module, and pspowerhour.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 31, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Greg Tate</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-08-31-icymi-week-of-31-august-18/" class="hover:text-blue-600 transition-colors duration-200">
+                            ICYMI: PowerShell Week of 31-August-18
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include automating ACLs for O365 public IPs, the Scour module, Module Design w/ Plaster, the ConvertToMarkdown module, and PSPowerHour.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-08-31-icymi-week-of-31-august-18/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell &#43; devops global summit – initial onramp scholarship recipients" 
+                     data-content="&lt;p&gt;based upon generous donations to this point, including from the campers of dsc/devops camp 2018 and the readers of &lt;a href=&#34;https://leanpub.com/powershell-conference-book&#34;&gt;the powershell conference book&lt;/a&gt;, we will be able to offer a greater number of &lt;a href=&#34;https://powershell.org/summit/summit-onramp/onramp-scholarship/&#34;&gt;scholarships&lt;/a&gt; that originally anticipated. as a result, we will be awarding some of those immediately.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 25, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell Summit
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-08-25-powershell-devops-global-summit-initial-onramp-scholarship-recipients/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell &#43; DevOps Global Summit – Initial OnRamp Scholarship Recipients
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Based upon generous donations to this point, including from the Campers of DSC/DevOps Camp 2018 and the readers of <a href="https://leanpub.com/powershell-conference-book">The PowerShell Conference Book</a>, we will be able to offer a greater number of <a href="https://powershell.org/summit/summit-onramp/onramp-scholarship/">scholarships</a> that originally anticipated. As a result, we will be awarding some of those immediately.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-08-25-powershell-devops-global-summit-initial-onramp-scholarship-recipients/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="icymi: powershell week of 24-august-18" 
+                     data-content="&lt;p&gt;topics include script module design, powershell exploitation, powershell remoting, powershell ast, the o365 data retriever tool, and the inaugural pspowerhour.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 24, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Greg Tate</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-08-24-icymi-powershell-week-of-24-august-18/" class="hover:text-blue-600 transition-colors duration-200">
+                            ICYMI: PowerShell Week of 24-August-18
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include script module design, PowerShell exploitation, PowerShell Remoting, PowerShell AST, the O365 Data Retriever tool, and the inaugural PSPowerHour.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-08-24-icymi-powershell-week-of-24-august-18/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="use pnp powershell to add contenttype for your sharepoint site" 
+                     data-content="&lt;p&gt;you can achieve the task by using sharepoint gui. however, if your sites collection has tens of hundreds sites and each site has more than one document library, it will become a nightmare for a sharepoint administrator to do the task by using gui.&lt;/p&gt;
+&lt;p&gt;luckily, there is pnp powershell which can help us achieve the goal.&lt;/p&gt;
+&lt;p&gt;the steps will be like below:&lt;/p&gt;
+&lt;p&gt;#step1: export your login credential to a secure file on your local machine&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 21, 2018</time>
+                            
+                            <span>•</span>
+                            <span>Eli Hess</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2018-08-21-use-pnp-powershell-to-add-contenttype-for-your-sharepoint-site/" class="hover:text-blue-600 transition-colors duration-200">
+                            Use PnP PowerShell to add ContentType for your SharePoint site
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>You can achieve the task by using SharePoint GUI. However, if your sites collection has tens of hundreds sites and each site has more than one document library, it will become a nightmare for a SharePoint administrator to do the task by using GUI.</p>
+<p>Luckily, there is PnP Powershell which can help us achieve the goal.</p>
+<p>The steps will be like below:</p>
+<p>#Step1: export your login credential to a secure file on your local machine</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2018-08-21-use-pnp-powershell-to-add-contenttype-for-your-sharepoint-site/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="icymi: powershell week of 17-august-2018" 
                      data-content="&lt;p&gt;topics include powerbi cmdlets, auditing group changes, exporting module functions, and powershell phishing.&lt;/p&gt;"
                      >
@@ -437,7 +665,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/" class="hover:text-blue-600 transition-colors duration-200">
                             ICYMI: PowerShell Week of 17-August-2018
                         </a>
                     </h2>
@@ -445,7 +673,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include PowerBI cmdlets, auditing group changes, exporting module functions, and PowerShell phishing.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/" 
+                        <a href="http://localhost:57259/articles/2018-08-17-icymi-powershell-week-of-17-august-2018/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -480,7 +708,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-15-help-us-run-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-15-help-us-run-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
                             Help us Run PowerShell.org!
                         </a>
                     </h2>
@@ -488,7 +716,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>We&rsquo;re looking for a few good PowerShellers to help us keep the community on track!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-15-help-us-run-powershell-org/" 
+                        <a href="http://localhost:57259/articles/2018-08-15-help-us-run-powershell-org/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -523,7 +751,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-14-the-summit-2019-call-for-topics-some-ideas/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-14-the-summit-2019-call-for-topics-some-ideas/" class="hover:text-blue-600 transition-colors duration-200">
                             The Summit 2019 Call for Topics: Some Ideas
                         </a>
                     </h2>
@@ -531,7 +759,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>As you hopefully know, we&rsquo;ve opened the <a href="https://powershell.org/2018/08/01/powershell-devops-summit-2019-call-for-speakers/">Call for Topics for PowerShell + DevOps Global Summit 2019</a>. I know sometimes people struggle with ideas, and so I wanted to offer a few.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-14-the-summit-2019-call-for-topics-some-ideas/" 
+                        <a href="http://localhost:57259/articles/2018-08-14-the-summit-2019-call-for-topics-some-ideas/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -566,7 +794,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/" class="hover:text-blue-600 transition-colors duration-200">
                             What You Missed This Week in PowerShell! – August 10th, 2018
                         </a>
                     </h2>
@@ -574,7 +802,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Topics include Module Worst Practices, InjectionHunter, and The PowerShell Standard Library.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/" 
+                        <a href="http://localhost:57259/articles/2018-08-10-what-you-missed-this-week-in-powershell-5/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -609,7 +837,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-08-thank-you-richard-and-fare-well/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-08-thank-you-richard-and-fare-well/" class="hover:text-blue-600 transition-colors duration-200">
                             Thank You, Richard, and Fare Well!
                         </a>
                     </h2>
@@ -617,7 +845,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Richard Siddaway has decided to step away from PowerShell.org and The DevOps Collective. Most recently, Richard has been known for his management of content at PowerShell Summit North America, PowerShell Summit Europe, and later, PowerShell + DevOps Global Summit. Before that, however, Richard was one of the founders of PowerShell.org way back in 2011-2012, along with myself, Jason Helmick, Kirk Munro, and Jeffrey Hicks. It&rsquo;s quite fair to say that we all needed one another&rsquo;s support and expertise very much in those early days, and Richard was particularly key in helping us put together the two European Summit events. Richard&rsquo;s very much entitled to one of our Community Hero Challenge Coins, which have been awarded to only a small handful of people who have made sustained, long-term community contributions: Jeffrey Snover, Jason Helmick, Angel Calvo, and Kenneth Hansen. Richard&rsquo;s definitely in rarified company, and it&rsquo;s well-earned.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-08-thank-you-richard-and-fare-well/" 
+                        <a href="http://localhost:57259/articles/2018-08-08-thank-you-richard-and-fare-well/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -662,7 +890,7 @@ we&amp;rsquo;re working hard to bring more functionality to powershell.org that 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-07-welcome-to-the-new-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2018-08-07-welcome-to-the-new-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
                             Welcome to the new PowerShell.org
                         </a>
                     </h2>
@@ -680,231 +908,7 @@ I&rsquo;ll note that photo uploading from your profile page is a little touch-an
 We&rsquo;re working hard to bring more functionality to PowerShell.org that can help you keep up with our fast-moving world, and we hope you&rsquo;ll find it all useful. There&rsquo;s still more to come, and we always welcome your suggestions in the Web Site Feedback forum!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-07-welcome-to-the-new-powershell-org/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="what you missed this week in powershell!" 
-                     data-content="&lt;h2 id=&#34;blogs&#34;&gt;blogs&lt;/h2&gt;
-&lt;h3 id=&#34;using-vsts-for-your-company&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20180803.md#using-vsts-for-your-companys-private-powershell-library&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://medium.com/@jsrice7391/using-vsts-for-your-companys-private-powershell-library-e333b15d58c8&#34;&gt;&lt;em&gt;using vsts for your company&amp;rsquo;s private powershell library&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;by justin rice on july 28th&lt;br&gt;
-interested in sharing your collection of powershell tools for your team to use? first-time blogger justin rice walks you through publishing a powershell module to an internal psrepository using vsts.&lt;/p&gt;
-&lt;h3 id=&#34;creating-a-function-or-script-with-powershell-dynamic-parameters&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20180803.md#creating-a-function-or-script-with-powershell-dynamic-parameters&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://blogs.technet.microsoft.com/undocumentedfeatures/2018/07/30/creating-a-function-or-script-with-powershell-dynamic-parameters/&#34;&gt;&lt;em&gt;creating a function or script with powershell dynamic parameters&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;by aaron guilmette on july 30th&lt;br&gt;
-learn how to create parameters with validation data that you can tab-complete prior to runtime. in this example aaron uses a set of skype numbers as potential values for a parameter to his function.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 3, 2018</time>
-                            
-                            <span>•</span>
-                            <span>Greg Tate</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/" class="hover:text-blue-600 transition-colors duration-200">
-                            What You Missed This Week in PowerShell!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><h2 id="blogs">Blogs</h2>
-<h3 id="using-vsts-for-your-company"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180803.md#using-vsts-for-your-companys-private-powershell-library"></a><a href="https://medium.com/@jsrice7391/using-vsts-for-your-companys-private-powershell-library-e333b15d58c8"><em>Using VSTS for Your Company&rsquo;s Private PowerShell Library</em></a></h3>
-<p>by Justin Rice on July 28th<br>
-Interested in sharing your collection of PowerShell tools for your team to use? First-time blogger Justin Rice walks you through publishing a PowerShell module to an internal PSRepository using VSTS.</p>
-<h3 id="creating-a-function-or-script-with-powershell-dynamic-parameters"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180803.md#creating-a-function-or-script-with-powershell-dynamic-parameters"></a><a href="https://blogs.technet.microsoft.com/undocumentedfeatures/2018/07/30/creating-a-function-or-script-with-powershell-dynamic-parameters/"><em>Creating a Function or Script with PowerShell Dynamic Parameters</em></a></h3>
-<p>By Aaron Guilmette on July 30th<br>
-Learn how to create parameters with validation data that you can tab-complete prior to runtime. In this example Aaron uses a set of Skype numbers as potential values for a parameter to his function.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-03-what-you-missed-this-week-in-powershell-4/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell &#43; devops summit 2019 – call for speakers" 
-                     data-content="&lt;p&gt;the powershell and devops global summit 2019 will be returning to the meydenbauer center in bellevue, wa from monday, april 29 to thursday, may 2, 2019.
-since 2013, powershell and devops experts from around the world , will once again collaborate and learn how to maximize powershell in the workplace through fast-paced, knowledge-packed presentations. the global summit is the place for innovators to explore and further their knowledge of devops principles and practices in a windows environment, make new connections, learn new techniques, and offer something to your peers and colleagues back at the office.
-ready to share your powershell or devops know-how? this is your official call to submit presentation ideas for selection!
-&lt;strong&gt;what we are looking for?&lt;/strong&gt;
-the majority of our sessions will now follow a traditional 45-minute format. these sessions cover a wide variety of powershell and devops expertise. &lt;em&gt;we have &lt;strong&gt;a number of&lt;/strong&gt; agenda slots available for double length sessions&lt;/em&gt;. these sessions delve into the depths of a topic covering areas that need more than 45 minutes.
-your proposed session should fit into one of the following areas:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 1, 2018</time>
-                            
-                            <span>•</span>
-                            <span>Will Anderson</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-08-01-powershell-devops-summit-2019-call-for-speakers/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell &#43; DevOps Summit 2019 – Call for Speakers
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The PowerShell and DevOps Global Summit 2019 will be returning to the Meydenbauer Center in Bellevue, WA from Monday, April 29 to Thursday, May 2, 2019.
-Since 2013, PowerShell and DevOps experts from around the world , will once again collaborate and learn how to maximize PowerShell in the workplace through fast-paced, knowledge-packed presentations. The Global Summit is the place for innovators to explore and further their knowledge of DevOps principles and practices in a Windows environment, make new connections, learn new techniques, and offer something to your peers and colleagues back at the office.
-Ready to share your PowerShell or DevOps know-how? This is your official call to submit presentation ideas for selection!
-<strong>What we are looking for?</strong>
-The majority of our sessions will now follow a traditional 45-minute format. These sessions cover a wide variety of PowerShell and DevOps expertise. <em>We have <strong>a number of</strong> agenda slots available for double length sessions</em>. These sessions delve into the depths of a topic covering areas that need more than 45 minutes.
-Your proposed session should fit into one of the following areas:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-08-01-powershell-devops-summit-2019-call-for-speakers/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powerhour: community lightning demos!" 
-                     data-content="&lt;p&gt;one of my favorite events at the powershell &#43; devops global summit is the community lightning demos. it&amp;rsquo;s a fun format:&lt;br&gt;
-for the audience:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;fast paced (max 10 minutes)&lt;/li&gt;
-&lt;li&gt;many speakers&lt;/li&gt;
-&lt;li&gt;topic or speaker not what you&amp;rsquo;re looking for? they&amp;rsquo;ll change in a few minutes&lt;/li&gt;
-&lt;li&gt;demos offer enough material to give you ideas and point out where to learn more&lt;/li&gt;
-&lt;li&gt;content is more likely to have a high signal-to-noise ratio given the time constraints&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;for the speakers:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 31, 2018</time>
-                            
-                            <span>•</span>
-                            <span>pscookiemonster</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-07-31-powerhour-community-lightning-demos/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerHour: Community Lightning Demos!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>One of my favorite events at the PowerShell + DevOps Global Summit is the community lightning demos. It&rsquo;s a fun format:<br>
-For the audience:</p>
-<ul>
-<li>Fast paced (max 10 minutes)</li>
-<li>Many speakers</li>
-<li>Topic or speaker not what you&rsquo;re looking for? They&rsquo;ll change in a few minutes</li>
-<li>Demos offer enough material to give you ideas and point out where to learn more</li>
-<li>Content is more likely to have a high signal-to-noise ratio given the time constraints</li>
-</ul>
-<p>For the speakers:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-07-31-powerhour-community-lightning-demos/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="what you missed this week in powershell!" 
-                     data-content="&lt;h2 id=&#34;blogs&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20180726.md#blogs&#34;&gt;&lt;/a&gt;blogs&lt;/h2&gt;
-&lt;h3 id=&#34;powershell-core-now-available-as-a-snap-package&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20180726.md#powershell-core-now-available-as-a-snap-package&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://blogs.msdn.microsoft.com/powershell/2018/07/20/powershell-core-now-available-as-a-snap-package/&#34;&gt;&lt;em&gt;powershell core now available as a snap package&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;by the powershell team on july 20th&lt;br&gt;
-oh, snap! core&amp;rsquo;s support matrix on linux grows broader with the inclusion of a snap package to the line-up. check out the ps team&amp;rsquo;s blog for details on what this means and how you can try it out.&lt;/p&gt;
-&lt;h3 id=&#34;powershell-modules-in-azure-functions&#34;&gt;&lt;a href=&#34;https://github.com/devops-collective-inc/whatyoumissedthisweek/blob/master/20180726.md#powershell-modules-in-azure-functions&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://agazoth.github.io/blogpost/2018/07/22/powershell-modules-in-azure-fuctions.html&#34;&gt;&lt;em&gt;powershell modules in azure functions&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;by axel bøg andersen on july 22nd&lt;br&gt;
-hit a snag taking your modules to azure functions? eliminate the hassle of using extra tools and learn how to load your modules directly to azure functions.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 27, 2018</time>
-                            
-                            <span>•</span>
-                            <span>Greg Tate</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/" class="hover:text-blue-600 transition-colors duration-200">
-                            What You Missed This Week in PowerShell!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><h2 id="blogs"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#blogs"></a>Blogs</h2>
-<h3 id="powershell-core-now-available-as-a-snap-package"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#powershell-core-now-available-as-a-snap-package"></a><a href="https://blogs.msdn.microsoft.com/powershell/2018/07/20/powershell-core-now-available-as-a-snap-package/"><em>PowerShell Core Now Available as a Snap Package</em></a></h3>
-<p>by The PowerShell Team on July 20th<br>
-Oh, Snap! Core&rsquo;s support matrix on Linux grows broader with the inclusion of a Snap Package to the line-up. Check out the PS team&rsquo;s blog for details on what this means and how you can try it out.</p>
-<h3 id="powershell-modules-in-azure-functions"><a href="https://github.com/devops-collective-inc/WhatYouMissedThisWeek/blob/master/20180726.md#powershell-modules-in-azure-functions"></a><a href="https://agazoth.github.io/blogpost/2018/07/22/Powershell-Modules-in-Azure-Fuctions.html"><em>PowerShell Modules in Azure Functions</em></a></h3>
-<p>by Axel Bøg Andersen on July 22nd<br>
-Hit a snag taking your modules to Azure Functions? Eliminate the hassle of using extra tools and learn how to load your modules directly to Azure Functions.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2018-07-27-what-you-missed-this-week-in-powershell-3/" 
+                        <a href="http://localhost:57259/articles/2018-08-07-welcome-to-the-new-powershell-org/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1386,7 +1390,7 @@ Hit a snag taking your modules to Azure Functions? Eliminate the hassle of using
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

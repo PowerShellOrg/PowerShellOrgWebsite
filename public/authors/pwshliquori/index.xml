@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pwshliquori on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/pwshliquori/</link>
+    <link>http://localhost:57259/authors/pwshliquori/</link>
     <description>Recent content in Pwshliquori on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 18:52:07 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/pwshliquori/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:57259/authors/pwshliquori/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable &#34;Allow Scripts to Access OAuth Token&#34; in Azure DevOps using PowerShell</title>
+      <link>http://localhost:57259/articles/2020-08-17-/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57259/articles/2020-08-17-/</guid>
+      <description>&lt;p&gt;Azure DevOps allows us to run custom scripts to help our software and infrastructure get delivered quickly. There are times that the scripts run without an issues, however, sometimes there is a need to invoke the Azure DevOps Rest API in the CD pipeline. Sure, you can create a script using the API, authenticating with Azure DevOps with a personal access token and should work, but there is a better solution.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Find-Module, Find-Script – Don&#39;t Recreate the Wheel</title>
-      <link>https://powershell.org/articles/2019-04-29-find-module-find-script-dont-recreate-the-wheel/</link>
+      <link>http://localhost:57259/articles/2019-04-29-find-module-find-script-dont-recreate-the-wheel/</link>
       <pubDate>Mon, 29 Apr 2019 18:52:07 +0000</pubDate>
-      <guid>https://powershell.org/articles/2019-04-29-find-module-find-script-dont-recreate-the-wheel/</guid>
+      <guid>http://localhost:57259/articles/2019-04-29-find-module-find-script-dont-recreate-the-wheel/</guid>
       <description>&lt;p&gt;The PowerShell Gallery is a collection of modules and scripts that is community driven to help us automate everyday tasks. Sometimes, we have an idea that could written into a function or script, however, most of the time, someone else had the same idea and published their work to the PowerShell Gallery. There is no need to recreate the wheel and re-write it, use the community to our advantage. We&amp;rsquo;ll take a look at multiple Cmdlets,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Azure DevOps – Enable &#34;Allow scripts to access the OAuth token&#34; using PowerShell</title>
-      <link>https://powershell.org/articles/2019-04-20-azure-devops-enable-allow-scripts-to-access-the-oauth-token-using-powershell/</link>
+      <link>http://localhost:57259/articles/2019-04-20-azure-devops-enable-allow-scripts-to-access-the-oauth-token-using-powershell/</link>
       <pubDate>Sat, 20 Apr 2019 23:20:30 +0000</pubDate>
-      <guid>https://powershell.org/articles/2019-04-20-azure-devops-enable-allow-scripts-to-access-the-oauth-token-using-powershell/</guid>
+      <guid>http://localhost:57259/articles/2019-04-20-azure-devops-enable-allow-scripts-to-access-the-oauth-token-using-powershell/</guid>
       <description>&lt;p&gt;Azure DevOps allows us to run custom scripts to help our software and infrastructure get delivered quickly. There are times that the scripts run without an issue, however, sometimes there is a need to invoke the Azure DevOps Rest API in the release pipeline to get our scripts running. Sure, you can create a script invoking the API, authenticating with Azure DevOps with your personal access token and should work, but there is a better solution.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Get-Command – One of the best Cmdlets besides Get-Help</title>
-      <link>https://powershell.org/articles/2019-04-19-get-command-one-of-the-best-cmdlets-besides-get-help/</link>
+      <link>http://localhost:57259/articles/2019-04-19-get-command-one-of-the-best-cmdlets-besides-get-help/</link>
       <pubDate>Fri, 19 Apr 2019 16:59:06 +0000</pubDate>
-      <guid>https://powershell.org/articles/2019-04-19-get-command-one-of-the-best-cmdlets-besides-get-help/</guid>
+      <guid>http://localhost:57259/articles/2019-04-19-get-command-one-of-the-best-cmdlets-besides-get-help/</guid>
       <description>&lt;p&gt;So laying on the sofa, sick, bored out of my mind, what better way to spend my time then writing a blog post about&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Get-Command &lt;/code&gt;. The&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Get-Command &lt;/code&gt;Cmdlet is apart of the Microsoft.PowerShell.Core module, it was introduced in PowerShell version 1.0 and is one of the most useful Cmdlets to find a command you are looking for. It has a variety of parameters that allow you to search for a command by using a combination of parameters or just using&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hear, Hear for Here-Strings</title>
-      <link>https://powershell.org/articles/2019-04-09-hear-hear-for-here-strings/</link>
+      <link>http://localhost:57259/articles/2019-04-09-hear-hear-for-here-strings/</link>
       <pubDate>Tue, 09 Apr 2019 01:40:55 +0000</pubDate>
-      <guid>https://powershell.org/articles/2019-04-09-hear-hear-for-here-strings/</guid>
+      <guid>http://localhost:57259/articles/2019-04-09-hear-hear-for-here-strings/</guid>
       <description>&lt;p&gt;Running commands in PowerShell that require a format that will not run natively in PowerShell could be a difficult task, or can it? PowerShell provides a way to store, for example, a JSON as a string, enter here-string. A here-string is a single or double quoted string in which the quotation marks are interpreted literally. An example would be invoking a Rest API that requires a JSON body. Lets take a look at an example and see how here-strings work.&lt;/p&gt;</description>
     </item>
   </channel>

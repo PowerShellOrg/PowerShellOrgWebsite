@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric Brookman (Scriptingcaveman) on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/eric-brookman-scriptingcaveman/</link>
+    <link>http://localhost:57259/authors/eric-brookman-scriptingcaveman/</link>
     <description>Recent content in Eric Brookman (Scriptingcaveman) on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2020 19:47:36 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/eric-brookman-scriptingcaveman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/eric-brookman-scriptingcaveman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keeping Your Secrets Secure</title>
-      <link>https://powershell.org/articles/2020-01-03-196307-2/</link>
+      <link>http://localhost:57259/articles/2020-01-03-196307-2/</link>
       <pubDate>Fri, 03 Jan 2020 19:47:36 +0000</pubDate>
-      <guid>https://powershell.org/articles/2020-01-03-196307-2/</guid>
+      <guid>http://localhost:57259/articles/2020-01-03-196307-2/</guid>
       <description>&lt;p&gt;Azure Key Vault: Keeping your Secrets Secure&lt;br&gt;&#xA;I was tasked with creating a PowerShell script that would connect to a SFTP server and place a file. I immediately jumped at the opportunity and started thinking about what all I would need to accomplish this task. I knew I needed the script to be as secure as possible, but also knew I needed the username, password, and a key file so I could connect securely to the SFTP site. This brought up a number of security concerns. How could I be fully automated and not put that sensitive information in plain text in my script. Immediately I went to Powershell.org and started searching for ideas. I found there were a couple of really good ideas for securing this kind of data using built in encryption ( Protect-CMSMessage) and an extension that Dave Wyatt created, ProtectedData ( &lt;a href=&#34;https://github.com/dlwyatt/ProtectedData)&#34;&gt;https://github.com/dlwyatt/ProtectedData)&lt;/a&gt;. I spent numerous hours scraping through documentation from both sources. At the end of my quest through the wonderful world encryption, I ended up with the same problem. The decryption key and the data were still on the server and I had no way of monitoring its use. I started looking at third party key vaults. They would allow me to secure my data, log when it was accessed, and provide me the data easily when called through a REST API. The only thing was I was on a budget and very short timeline so I couldn’t write the PowerShell connector to the API. What a bust!&lt;br&gt;&#xA;Alas! I found a Key Vault that not only had a REST API but had native PowerShell commandlets. Thanks, Microsoft! I started asking, what can I put in the vault and call from my script? I quickly discovered everything!&lt;br&gt;&#xA;I created a key vault and started populating the data I wanted to secure. I chose to use Secrets to hold my username, password, SFTP server IP address, and Private Key. I connected to my Azure RM Account using my username / password. Using the built in commandlets, I would be able to pull the data I wanted. Obviously, I would need the server address:&lt;/p&gt;</description>
     </item>
   </channel>

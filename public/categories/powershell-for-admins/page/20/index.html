@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,196 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="microsoft did what?" 
+                     data-content="&lt;p&gt;unless you’ve been living under a rock for the last couple of days, you already know that microsoft announced last thursday that the shell/scripting language formerly known as “windows powershell” is now supported on linux and macos and that powershell has been open-sourced. and for days, thoughts of “how can i use this?” or “i wonder if ‘x’ will be supported” have been flying through the minds of every system architect as we internally grapple with the possibilities of what could be, while at the same time trying to understand microsoft’s motivation for this radical change.&lt;br&gt;
+only the change isn’t so surprising if you think about the changes that microsoft has been making leading up to this announcement. separating powershell desktop edition and core edition in wmf 5.1. announcing sql server on linux – after all, it professionals are going to need a way to administer that sql instance and it isn’t going to be through a gui. supporting powershell on linux seemed like a logical next step.&lt;br&gt;
+but it is likely just a step along the road to heterogeneous system management. microsoft technical fellow and powershell inventor jeffrey snover isn’t at all secretive over the fact that the vision is built upon microsoft’s operations management suite (oms), a suite of automation and management tools that needs to be able to configure, control, manage, monitor, and self-heal a workload that runs anywhere and on any operating system.&lt;br&gt;
+from the perspective of a system architect that isn’t typically on the bleeding edge of technology, i am still extremely excited over this announcement. why? the possibilities seem endless. for one, applications that run on either windows or linux or a combination of the two can now be configured by the same language, or maybe even the same set of well-designed scripts. second, the possibility of using desired state configuration (dsc), or third-party tooling such as chef or puppet in conjunction with dsc, means i can keep *all* servers in compliance with their configurations using the same tooling. third, what devops engineer wouldn’t love having spent a few years learning a scripting language like powershell only to have its reach extended to other platforms? this change invariably makes us more valuable to the company by being able to take on additional management responsibilities by using the skills we already have. it can then lead to even more cross-platform learnings and opportunities. i definitely plan to learn more about linux and how i can help build cross-platform tools. if you have similar interests, here are some great resources to get you started!&lt;br&gt;
+&lt;a href=&#34;https://www.pluralsight.com/courses/essential-tools-red-hat-enterprise-linux&#34;&gt;https://www.pluralsight.com/courses/essential-tools-red-hat-enterprise-linux&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.pluralsight.com/courses/linux-networking-advanced-lfce&#34;&gt;https://www.pluralsight.com/courses/linux-networking-advanced-lfce&lt;/a&gt;&lt;br&gt;
+i haven’t even scratched the surface of thinking about all of the ways i want to take advantage of powershell on linux, and i have lots of exploring to do to find out what can or can’t be done – but the energy of the entire powershell community over these changes certainly carries over to me as well. i’m excited to find out what is possible, to build what may not have been possible, and to contribute back to the powershell community. so kudos to you, “new microsoft”, for energizing the entire community of powershell enthusiasts. i can’t wait to see what’s next.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 23, 2016</time>
+                            
+                            <span>•</span>
+                            <span>Missy Januszko</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-08-23-microsoft-did-what/" class="hover:text-blue-600 transition-colors duration-200">
+                            Microsoft did WHAT?
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Unless you’ve been living under a rock for the last couple of days, you already know that Microsoft announced last Thursday that the shell/scripting language formerly known as “Windows Powershell” is now supported on Linux and MacOS and that Powershell has been open-sourced. And for days, thoughts of “how can I use this?” or “I wonder if ‘x’ will be supported” have been flying through the minds of every system architect as we internally grapple with the possibilities of what could be, while at the same time trying to understand Microsoft’s motivation for this radical change.<br>
+Only the change isn’t so surprising if you think about the changes that Microsoft has been making leading up to this announcement. Separating Powershell Desktop Edition and Core Edition in WMF 5.1. Announcing SQL Server on Linux – after all, IT professionals are going to need a way to administer that SQL instance and it isn’t going to be through a GUI. Supporting Powershell on Linux seemed like a logical next step.<br>
+But it is likely just a step along the road to heterogeneous system management. Microsoft Technical Fellow and Powershell inventor Jeffrey Snover isn’t at all secretive over the fact that the vision is built upon Microsoft’s Operations Management Suite (OMS), a suite of automation and management tools that needs to be able to configure, control, manage, monitor, and self-heal a workload that runs anywhere and on any operating system.<br>
+From the perspective of a system architect that isn’t typically on the bleeding edge of technology, I am still extremely excited over this announcement. Why? The possibilities seem endless. For one, applications that run on either Windows or Linux or a combination of the two can now be configured by the same language, or maybe even the same set of well-designed scripts. Second, the possibility of using Desired State Configuration (DSC), or third-party tooling such as Chef or Puppet in conjunction with DSC, means I can keep *all* servers in compliance with their configurations using the same tooling. Third, what Devops engineer wouldn’t love having spent a few years learning a scripting language like Powershell only to have its reach extended to other platforms? This change invariably makes us more valuable to the company by being able to take on additional management responsibilities by using the skills we already have. It can then lead to even more cross-platform learnings and opportunities. I definitely plan to learn more about Linux and how I can help build cross-platform tools. If you have similar interests, here are some great resources to get you started!<br>
+<a href="https://www.pluralsight.com/courses/essential-tools-red-hat-enterprise-linux">https://www.pluralsight.com/courses/essential-tools-red-hat-enterprise-linux</a><br>
+<a href="https://www.pluralsight.com/courses/linux-networking-advanced-lfce">https://www.pluralsight.com/courses/linux-networking-advanced-lfce</a><br>
+I haven’t even scratched the surface of thinking about all of the ways I want to take advantage of Powershell on Linux, and I have lots of exploring to do to find out what can or can’t be done – but the energy of the entire Powershell community over these changes certainly carries over to me as well. I’m excited to find out what is possible, to build what may not have been possible, and to contribute back to the Powershell community. So kudos to you, “new Microsoft”, for energizing the entire community of Powershell enthusiasts. I can’t wait to see what’s next.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-08-23-microsoft-did-what/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="why &#34;objects,&#34; remoting, and consistency are such a big deal in powershell" 
+                     data-content="&lt;p&gt;as powershell begins to move into a cross-platform world, it&amp;rsquo;s important to really understand &amp;ldquo;why powershell.&amp;rdquo; what is it, exactly, that sets powershell apart? notice that i do not mean, &amp;ldquo;what makes it better,&amp;rdquo; because &amp;ldquo;better&amp;rdquo; is something you&amp;rsquo;ll have to decide on your own. i just want to look at what makes it _different. _&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 22, 2016</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-08-22-why-objects-remoting-and-consistency-are-such-a-big-deal-in-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Why &#34;Objects,&#34; Remoting, and Consistency are Such a Big Deal in PowerShell
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As PowerShell begins to move into a cross-platform world, it&rsquo;s important to really understand &ldquo;why PowerShell.&rdquo; What is it, exactly, that sets PowerShell apart? Notice that I do not mean, &ldquo;what makes it better,&rdquo; because &ldquo;better&rdquo; is something you&rsquo;ll have to decide on your own. I just want to look at what makes it _different. _</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-08-22-why-objects-remoting-and-consistency-are-such-a-big-deal-in-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="create custom monitors with powershell" 
+                     data-content="&lt;p&gt;sometimes, as a developer, you want to be be able to keep track of free space on a drive, the size of a log, the load on your cpu, the number of users logged in, etc. with powershell, it is typically just a matter of finding the right cmdlet amidst the large (and rapidly growing) pool of cmdlets provided by microsoft and by third parties. then you just run &lt;em&gt;get-foo&lt;/em&gt; to check details about the &lt;em&gt;foo&lt;/em&gt; resource. and then you come back 5 minutes later and run it again because you want to see how it changes over time.&lt;br&gt;
+but wouldn&amp;rsquo;t it be nice if you could just have it run automatically at regular intervals in a separate window that you could just keep in the corner of your screen? well, i found the barebones of just such a utility sometime ago (authored by marc van orsouw,  aka ‘thepowershellguy’). his original post is no longer available, but i expanded upon his code and, over time, added features, bug fixes, and enhancements, making it more useful and more user-friendly. here are a few screenshots of the monitor factory in action.&lt;br&gt;
+&lt;em&gt;monitor the size of a database&lt;/em&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 21, 2016</time>
+                            
+                            <span>•</span>
+                            <span>msorens</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-08-21-create-custom-monitors-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Create Custom Monitors with PowerShell
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Sometimes, as a developer, you want to be be able to keep track of free space on a drive, the size of a log, the load on your CPU, the number of users logged in, etc. With PowerShell, it is typically just a matter of finding the right cmdlet amidst the large (and rapidly growing) pool of cmdlets provided by Microsoft and by third parties. Then you just run <em>Get-Foo</em> to check details about the <em>foo</em> resource. And then you come back 5 minutes later and run it again because you want to see how it changes over time.<br>
+But wouldn&rsquo;t it be nice if you could just have it run automatically at regular intervals in a separate window that you could just keep in the corner of your screen? Well, I found the barebones of just such a utility sometime ago (authored by Marc van Orsouw,  aka ‘thePowerShellGuy’). His original post is no longer available, but I expanded upon his code and, over time, added features, bug fixes, and enhancements, making it more useful and more user-friendly. Here are a few screenshots of the Monitor Factory in action.<br>
+<em>Monitor the size of a database</em></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-08-21-create-custom-monitors-with-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="why powershell on linux is such an accomplishment" 
+                     data-content="&lt;p&gt;yesterday, microsoft &lt;a href=&#34;https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/&#34;&gt;announced&lt;/a&gt; that windows powershell - which i suppose we&amp;rsquo;ll just call &amp;ldquo;powershell,&amp;rdquo; now - has been open-sourced, with powershell core builds being made available for various linux distros as well as macos.&lt;br&gt;
+this is a big deal, but not exactly for the reasons you might think.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Aug 19, 2016</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2016-08-19-why-powershell-on-linux-is-such-an-accomplishment/" class="hover:text-blue-600 transition-colors duration-200">
+                            Why PowerShell on Linux is Such an Accomplishment
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Yesterday, Microsoft <a href="https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/">announced</a> that Windows PowerShell - which I suppose we&rsquo;ll just call &ldquo;PowerShell,&rdquo; now - has been open-sourced, with PowerShell Core builds being made available for various Linux distros as well as macOS.<br>
+This is a big deal, but not exactly for the reasons you might think.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2016-08-19-why-powershell-on-linux-is-such-an-accomplishment/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="faq: powershell on linux/mac" 
                      data-content="&lt;p&gt;&lt;em&gt;be sure to check back often, as we&amp;rsquo;ll add to this.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;so-does-this-mean-ill-be-able-to-run-add-your-favorite-module-name-here-on-linuxmac&#34;&gt;so does this mean i&amp;rsquo;ll be able to run [add your favorite module name here] on linux/mac?&lt;/h2&gt;
@@ -447,7 +687,7 @@ ideally, of course, you can always remote to the os of your choice and run whate
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-08-18-faq-powershell-on-linuxmac/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-08-18-faq-powershell-on-linuxmac/" class="hover:text-blue-600 transition-colors duration-200">
                             FAQ: PowerShell on Linux/Mac
                         </a>
                     </h2>
@@ -460,7 +700,7 @@ So many add-in modules _won&rsquo;t, _in fact work on Linux - because they&rsq
 Ideally, of course, you can always remote to the OS of your choice and run whatever commands it has. And from <a href="http://www.theregister.co.uk/2016/08/18/microsoft_brings_powershell_to_linux_and_mac_publishes_as_open_source/">The Register</a>:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-08-18-faq-powershell-on-linuxmac/" 
+                        <a href="http://localhost:57259/articles/2016-08-18-faq-powershell-on-linuxmac/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -500,7 +740,7 @@ Ideally, of course, you can always remote to the OS of your choice and run whate
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-08-18-powershell-is-open-sourced/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-08-18-powershell-is-open-sourced/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell is Open Sourced
                         </a>
                     </h2>
@@ -513,7 +753,7 @@ Ideally, of course, you can always remote to the OS of your choice and run whate
 <p>Also see PowerShell blog</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-08-18-powershell-is-open-sourced/" 
+                        <a href="http://localhost:57259/articles/2016-08-18-powershell-is-open-sourced/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -583,7 +823,7 @@ finding if a number is in a range is pretty straight forward, for example:&lt;/p
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-08-11-a-date-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-08-11-a-date-with-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                             A date with PowerShell
                         </a>
                     </h2>
@@ -626,7 +866,7 @@ I thought it would be fun to add the star sign as well. I was after something th
 Finding if a number is in a range is pretty straight forward, For example:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-08-11-a-date-with-powershell/" 
+                        <a href="http://localhost:57259/articles/2016-08-11-a-date-with-powershell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -664,7 +904,7 @@ thanks!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-08-08-what-are-your-known-problems-solved-in-dsc/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-08-08-what-are-your-known-problems-solved-in-dsc/" class="hover:text-blue-600 transition-colors duration-200">
                             What are your &#34;known problems&#34; (solved) in DSC?
                         </a>
                     </h2>
@@ -675,7 +915,7 @@ And please - pass this around. If you&rsquo;ve never had a chance to contribute 
 Thanks!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-08-08-what-are-your-known-problems-solved-in-dsc/" 
+                        <a href="http://localhost:57259/articles/2016-08-08-what-are-your-known-problems-solved-in-dsc/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -711,7 +951,7 @@ it&amp;rsquo;s time to combine these ingredients with a quick, real-world walk t
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-07-27-deploying-modules-to-the-powershell-gallery/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-07-27-deploying-modules-to-the-powershell-gallery/" class="hover:text-blue-600 transition-colors duration-200">
                             Deploying Modules to the PowerShell Gallery
                         </a>
                     </h2>
@@ -720,7 +960,7 @@ it&amp;rsquo;s time to combine these ingredients with a quick, real-world walk t
 It&rsquo;s time to combine these ingredients with a quick, real-world walk through on <em>automatically publishing your PowerShell modules to the PowerShell Gallery</em>.  If you want a full run-down showing how to deploy PSDeploy with PSDeploy, <a href="http://ramblingcookiemonster.github.io/PSDeploy-Inception/">hit the link</a>; otherwise, we&rsquo;ll pick up the <a href="https://github.com/RamblingCookieMonster/PSStackExchange/tree/db1277453374cb16684b35cf93a8f5c97288c41f/PSStackExchange">PSStackExchange module</a> where we left off, and drop in some continuous integration and deployment goodness!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-07-27-deploying-modules-to-the-powershell-gallery/" 
+                        <a href="http://localhost:57259/articles/2016-07-27-deploying-modules-to-the-powershell-gallery/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -756,7 +996,7 @@ but do you &lt;em&gt;need&lt;/em&gt; quotes? remember powershell is a shell/comm
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-07-23-every-pithy-witticism-begins-with-quotation-marks/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2016-07-23-every-pithy-witticism-begins-with-quotation-marks/" class="hover:text-blue-600 transition-colors duration-200">
                             Every pithy witticism begins with quotation marks
                         </a>
                     </h2>
@@ -765,211 +1005,7 @@ but do you &lt;em&gt;need&lt;/em&gt; quotes? remember powershell is a shell/comm
 But do you <em>need</em> quotes? Remember PowerShell is a shell/command language so &ldquo;obviously&rdquo; you can do things like this:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-07-23-every-pithy-witticism-begins-with-quotation-marks/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="finding powershell sessions at conferences and events" 
-                     data-content="&lt;h3 id=&#34;the-current-state&#34;&gt;the current state&lt;/h3&gt;
-&lt;p&gt;so! if you visit the &lt;a href=&#34;https://powershell.org/events/&#34;&gt;powershell.org events&lt;/a&gt; page, you&amp;rsquo;ll find a bevy of powershell-focused events, from local powershell user groups to global powershell conferences.&lt;br&gt;
-what you won&amp;rsquo;t find, yet, is a list of powershell related sessions at the many other conferences and user groups you might consider attending.&lt;br&gt;
-maybe you&amp;rsquo;d like to find powershell oriented sessions at non-powershell user groups and mini conferences like sql saturdays, vmugs, azure user groups, security bsides, devopsdays, etc.  these are great small events that can build your knowledge, help you meet local folks in a particular field, and often provide provide you with some free food.&lt;br&gt;
-beyond these, there are plenty of summits and conferences that have a strong powershell track, or even just a handful of awesome powershell sessions, that might be worth knowing about. lisa, derbycon, mms, winops, techmentor, and many more.&lt;br&gt;
-how do you find these events?  there isn&amp;rsquo;t a solid option today, but hopefully we can change that.  before we go further though, why is this even helpful?&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 1, 2016</time>
-                            
-                            <span>•</span>
-                            <span>pscookiemonster</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-07-01-finding-powershell-sessions-at-conferences-and-events/" class="hover:text-blue-600 transition-colors duration-200">
-                            Finding PowerShell Sessions At Conferences and Events
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><h3 id="the-current-state">The Current State</h3>
-<p>So! If you visit the <a href="https://powershell.org/events/">PowerShell.org events</a> page, you&rsquo;ll find a bevy of PowerShell-focused events, from local PowerShell user groups to global PowerShell conferences.<br>
-What you won&rsquo;t find, yet, is a list of PowerShell related sessions at the many other conferences and user groups you might consider attending.<br>
-Maybe you&rsquo;d like to find PowerShell oriented sessions at non-PowerShell user groups and mini conferences like SQL Saturdays, VMUGs, Azure User Groups, Security BSides, DevOpsDays, etc.  These are great small events that can build your knowledge, help you meet local folks in a particular field, and often provide provide you with some free food.<br>
-Beyond these, there are plenty of summits and conferences that have a strong PowerShell track, or even just a handful of awesome PowerShell sessions, that might be worth knowing about. LISA, DerbyCon, MMS, WinOps, TechMentor, and many more.<br>
-How do you find these events?  There isn&rsquo;t a solid option today, but hopefully we can change that.  Before we go further though, why is this even helpful?</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-07-01-finding-powershell-sessions-at-conferences-and-events/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="to ping or not to ping..the powershell way" 
-                     data-content="&lt;p&gt;as this is my first blog here, here’s a bit about me. i’m a current lead sccm admin in the uk, and have found this great enjoyment for powershell in the last 18 months. i’ve started my own blog, &lt;a href=&#34;http://www.get-configmgr-content.co.uk/&#34;&gt;http://www.get-configmgr-content.co.uk/&lt;/a&gt;, to share my passion. the chance to blog on powershell.org was too exciting not to do!&lt;br&gt;
-the inspiration for this blog came from a forum post on powershell.org that i helped contributed on. the question asked was, how to display the name of failed ping, i.e. $computer is offline.&lt;br&gt;
-there were some great responses, the one i most liked which i slightly amended into a function was:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 27, 2016</time>
-                            
-                            <span>•</span>
-                            <span>Graham Beer</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-06-27-to-ping-or-not-to-ping-the-powershell-way/" class="hover:text-blue-600 transition-colors duration-200">
-                            To ping or not to ping..The PowerShell way
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As this is my first blog here, here’s a bit about me. I’m a current lead SCCM Admin in the UK, and have found this great enjoyment for PowerShell in the last 18 months. I’ve started my own blog, <a href="http://www.get-configmgr-content.co.uk/">http://www.get-configmgr-content.co.uk/</a>, to share my passion. The chance to blog on Powershell.org was too exciting not to do!<br>
-The inspiration for this blog came from a forum post on Powershell.org that I helped contributed on. The question asked was, how to display the name of failed ping, i.e. $computer is offline.<br>
-There were some great responses, the one I most liked which I slightly amended into a function was:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-06-27-to-ping-or-not-to-ping-the-powershell-way/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="complete guide to powershell punctuation" 
-                     data-content="&lt;p&gt;quick as you can, can you explain what each of these different parentheses-, brace-, and bracket-laden expressions does?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;${save-items} ${c:tmp.txt} $($x=1;$y=2;$x;$y) (1,2,3 -join &#39;*&#39;) (8 &#43; 4)/2 $hashtable.containskey($x) @(1) @{abc=&#39;hello&#39;} {param($color=&amp;quot;red&amp;quot;); &amp;quot;color=$color&amp;quot;} $hash[&#39;blue&#39;] [regex]::escape($x) [int]&amp;quot;5.2&amp;quot; &lt;/code&gt;when you&amp;rsquo;re reading someone else&amp;rsquo;s powershell code, you will come across many of these constructs, and more. and you know how challenging it can be to search for punctuation on the web (symbolhound.com not withstanding) !&lt;br&gt;
-that is why i put together a reference chart containing all of powershell&amp;rsquo;s symbology on one page. making it much easier when you need to look up a powershell symbol as you read code&amp;ndash;or to browse for the right construct when you are writing code.&lt;br&gt;
-&lt;img src=&#34;https://powershell.org/wp-content/uploads/2016/06/punctuation_thumbnail-300x152.png&#34; alt=&#34;powershell punctuation wall chart&#34;&gt;&lt;br&gt;
-download the &lt;strong&gt;complete guide to powershell punctuation&lt;/strong&gt; wallchart from &lt;a href=&#34;https://www.simple-talk.com/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 11, 2016</time>
-                            
-                            <span>•</span>
-                            <span>msorens</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-06-11-complete-guide-to-powershell-punctuation/" class="hover:text-blue-600 transition-colors duration-200">
-                            Complete Guide to PowerShell Punctuation
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Quick as you can, can you explain what each of these different parentheses-, brace-, and bracket-laden expressions does?</p>
-<p><code>${save-items} ${C:tmp.txt} $($x=1;$y=2;$x;$y) (1,2,3 -join '*') (8 + 4)/2 $hashTable.ContainsKey($x) @(1) @{abc='hello'} {param($color=&quot;red&quot;); &quot;color=$color&quot;} $hash['blue'] [Regex]::Escape($x) [int]&quot;5.2&quot; </code>When you&rsquo;re reading someone else&rsquo;s PowerShell code, you will come across many of these constructs, and more. And you know how challenging it can be to search for punctuation on the web (symbolhound.com not withstanding) !<br>
-That is why I put together a reference chart containing all of PowerShell&rsquo;s symbology on one page. making it much easier when you need to look up a PowerShell symbol as you read code&ndash;or to browse for the right construct when you are writing code.<br>
-<img src="https://powershell.org/wp-content/uploads/2016/06/punctuation_thumbnail-300x152.png" alt="PowerShell Punctuation wall chart"><br>
-Download the <strong>Complete Guide to PowerShell Punctuation</strong> wallchart from <a href="https://www.simple-talk.com/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/">here</a>.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-06-11-complete-guide-to-powershell-punctuation/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="my devops (dsc) camp detailed agenda" 
-                     data-content="&lt;p&gt;if you&amp;rsquo;re deep into dsc and delving into devops, then my summer &amp;ldquo;camp&amp;rdquo; event is probably meant for you - and now there&amp;rsquo;s a detailed agenda, overall agenda, and full event brochure. this is a really limited event - under 20, including product team participants, and we&amp;rsquo;re down to just a few seats left.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://donjones.com/2016/06/06/devops-and-dsc-camp-detailed-agenda/&#34;&gt;devops and dsc camp detailed agenda&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 6, 2016</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2016-06-06-my-devops-dsc-camp-detailed-agenda/" class="hover:text-blue-600 transition-colors duration-200">
-                            My DevOps (DSC) Camp Detailed Agenda
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>If you&rsquo;re deep into DSC and delving into DevOps, then my summer &ldquo;Camp&rdquo; event is probably meant for you - and now there&rsquo;s a detailed agenda, overall agenda, and full event brochure. This is a really limited event - under 20, including product team participants, and we&rsquo;re down to just a few seats left.</p>
-<blockquote>
-</blockquote>
-<blockquote>
-<p><a href="https://donjones.com/2016/06/06/devops-and-dsc-camp-detailed-agenda/">DevOps and DSC Camp Detailed Agenda</a></p>
-</blockquote></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2016-06-06-my-devops-dsc-camp-detailed-agenda/" 
+                        <a href="http://localhost:57259/articles/2016-07-23-every-pithy-witticism-begins-with-quotation-marks/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1244,7 +1280,7 @@ Download the <strong>Complete Guide to PowerShell Punctuation</strong> wallchart
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

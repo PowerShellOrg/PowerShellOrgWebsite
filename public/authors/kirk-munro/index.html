@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kirk Munro - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/authors/kirk-munro/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/authors/kirk-munro/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/authors/kirk-munro/">
+    <meta property="og:url" content="http://localhost:57259/authors/kirk-munro/">
     <meta property="og:title" content="Kirk Munro">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/authors/kirk-munro/">
+    <meta property="twitter:url" content="http://localhost:57259/authors/kirk-munro/">
     <meta property="twitter:title" content="Kirk Munro">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -430,13 +480,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/" class="hover:text-blue-600 transition-colors duration-200">
                                 New Technical Product Manager at Provance Technologies
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Today is my first day working in my new role as Technical Product Manager at <a href="http://www.provance.com/" title="Provance Technologies">Provance Technologies</a>.  A little while back Provance approached me to talk about this position, and it seemed like a very natural fit.  Rarely have I felt such a positive vibe from a company through the interview process, so I was really happy to accept the position of Technical Product Manager with them and I have been looking forward to starting work with them.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/" 
+                            <a href="http://localhost:57259/articles/2013-04-30-new-technical-product-manager-at-provance-technologies/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -466,13 +516,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/" class="hover:text-blue-600 transition-colors duration-200">
                                 Hands-on Workshop at the 2013 PowerShell Summit
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In my last post I hinted about more news coming soon for the 2013 PowerShell Summit.  In addition to the fantastic list of sessions that attendees will be able to attend, we also have a special event lined up for the last day of the event.  On Wednesday, April 24th, for the entire afternoon attendees will be able to attend a half-day Windows PowerShell scenario walkthrough, presented by the PowerShell Team.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/" 
+                            <a href="http://localhost:57259/articles/2012-11-06-hands-on-workshop-at-the-2013-powershell-summit/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -503,14 +553,14 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-11-02-powershell-summit-community-sessions-list/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-11-02-powershell-summit-community-sessions-list/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerShell Summit Community Sessions List [Updated]
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>[Update: April 19, 2013] <strong>Important Note:</strong> Due to some last minute schedule changes for some of our speakers, several of the sessions below were replaced with other sessions. Â To see the final list of sessions offered at the 2013 PowerShell Summit, please visit this page:Â <a href="https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/">https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/</a>{.vt-p}</p>
 <p>After almost 100 people voted for the sessions they would like to see the most at the <a href="http://powershellsummit.org/">2013 PowerShell Summit</a>{.vt-p}, the results are in!Â  These votes are for the sessions chosen by the community, and additional sessions from the PowerShell Team will be announced at a later date (as soon as I have them).</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-11-02-powershell-summit-community-sessions-list/" 
+                            <a href="http://localhost:57259/articles/2012-11-02-powershell-summit-community-sessions-list/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -542,7 +592,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/" class="hover:text-blue-600 transition-colors duration-200">
                                 Voting for the 2013 PowerShell Summit sessions is now open!
                             </a>
                         </h2>
@@ -550,7 +600,7 @@
 <p>As of this morning you can vote for the sessions that you want to see at the 2013 PowerShell Summit!  We have 97 session proposals (see below), plus additional content from the PowerShell Team.  Your vote is really important, so please take some time to indicate what you would like to see from a PowerShell-specific conference with deep technical depth.</p>
 <p>Here&quot;™s what you need to do:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/" 
+                            <a href="http://localhost:57259/articles/2012-10-15-voting-for-the-2013-powershell-summit-sessions-is-now-open-2/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -580,13 +630,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerShell Summit North America 2013 Call for Content
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In case you haven&quot;™t heard already, there is a great opportunity to learn a lot more about PowerShell coming up next year.  It&quot;™s the PowerShell Summit North America 2013 conference, and it is held on Microsoft campus in Redmond, WA from April 22 to 24, 2013.  This conference is run by the PowerShell.org community, and it will present a ton of deep technical content on anything to do with PowerShell.  What content will be covered, you ask?  Well, that&quot;™s up to you.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/" 
+                            <a href="http://localhost:57259/articles/2012-09-13-powershell-summit-north-america-2013-call-for-content/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -616,13 +666,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" class="hover:text-blue-600 transition-colors duration-200">
                                 Kirk Munro, Product Manager, Architect, and PowerShell MVP for hire
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>While I have loved working at Devfarm Software for the past 11 months, circumstances have unfortunately forced us to part ways and as a result I am a free agent now and looking for a new place to hang my hat.  Working with Ben Vierck and Brian Butler at Devfarm has been a fantastic experience, and if it wasn&quot;™t for the small yet annoying detail that there isn&quot;™t enough money in the company to continue to pay my salary and keep the business going full steam ahead, I&quot;™d still be working with them today.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" 
+                            <a href="http://localhost:57259/articles/2012-07-18-kirk-munro-product-manager-architect-and-powershell-mvp-for-hire/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -652,13 +702,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/" class="hover:text-blue-600 transition-colors duration-200">
                                 This April is &#34;Learn More About PowerShell&#34; Month with the 2012 Scripting Games, the 2012 Microsoft Management Summit, and the 2012 North American PowerShell Deep Dive!
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>It&quot;™s hard to believe that April is almost here already.  Last week we had record high temperatures reaching 31°C (that&quot;™s 87.8°F for those of you living south of the border), and the night before last it was -16°C (or 3.2°F).  What wonderful consistency.  Maybe that&quot;™s why I like PowerShell so much, because it provides great consistency that just isn&quot;™t apparent in so many other places in life (that&quot;™s a swell tagline: &ldquo;Use PowerShell, because it&rdquo;™s more consistent than the weather&quot;<img src="http://kirkmunro.files.wordpress.com/2012/03/wlemoticon-smile.png?w=595" alt="Smile"> ).  Anyway, I digress&quot;¦back to the topic at hand.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/" 
+                            <a href="http://localhost:57259/articles/2012-03-29-this-april-is-learn-more-about-powershell-month-with-the-2012-scripting-games-the-2012-microsoft-management-summit-and-the-2012-north-american-powershell-deep-dive/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -688,13 +738,13 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-03-06-windows-8reimagined/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-03-06-windows-8reimagined/" class="hover:text-blue-600 transition-colors duration-200">
                                 Windows 8&#34;¦reimagined?
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>The series of releases of client versions of Microsoft Windows seems to suffer all too much the same fate as Star Trek movies have in the past.  This concept has already been discussed before, and there are even blog posts about it, such as <a href="http://www.ewanspence.com/blog/2009/01/08/why-windows-7-reminds-me-of-the-star-trek-movies/">Ewan Spence&quot;™s comparison of Windows releases between versions 3.0 and Windows 7 to the Star Trek movies from &ldquo;The Motion Picture&rdquo; to &ldquo;First Contact&rdquo;</a>.  Windows 7 did indeed end up being a very impressive version of Windows, much like First Contact was a very impressive movie in the Star Trek franchise, and now we&quot;™re watching with anticipation since Windows 8 Consumer Preview is now available and Microsoft is marching steadfast towards its release.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-03-06-windows-8reimagined/" 
+                            <a href="http://localhost:57259/articles/2012-03-06-windows-8reimagined/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -725,14 +775,14 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerSE 2.7 KB: PowerShell profile does not load on startup
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Note: This blog post refers to an issue identified in PowerSE 2.7.0. It has been corrected in PowerSE 2.7.1, which is now available.</p>
 <p>With the release we published yesterday, both <a href="http://powerwf.com/products/powerse.aspx">PowerSE</a> and <a href="http://powerwf.com/products/powerwf.aspx">PowerWF</a> received a new feature: product-specific profiles.  This feature allows you to have profile scripts that you only want run in PowerSE or PowerWF run there so that you don&quot;™t have to use if statements to check the host name in your profile scripts.  With this feature we also created the initial PowerSE and PowerWF profile scripts such that they dot-source the native PowerShell profile script by default so that what runs in PowerShell also runs in PowerSE.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/" 
+                            <a href="http://localhost:57259/articles/2012-01-25-powerse-2-7-kb-powershell-profile-does-not-load-on-startup/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -765,7 +815,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/" class="hover:text-blue-600 transition-colors duration-200">
                                 PowerWF and PowerSE 2.7 are now available
                             </a>
                         </h2>
@@ -774,7 +824,7 @@
 <p><strong>New Start Page with New Workflows</strong></p>
 <p>The start page in PowerWF has been completely redesigned to provide immediate value out of the box for PowerWF customers.  The new design highlights the Workflow Library that is included with PowerWF, allowing customers to play workflows in the library without opening a workflow or script document.  Users can also customize the workflows on the start page and add their own groups of workflows for easier runbook automation.  This immediate out of the box value is included for PowerWF customers to allow them to leverage the power of Workflows and PowerShell in their environments without requiring any knowledge of PowerShell or Workflows.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/" 
+                            <a href="http://localhost:57259/articles/2012-01-24-powerwf-and-powerse-2-7-are-now-available/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -893,7 +943,7 @@
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

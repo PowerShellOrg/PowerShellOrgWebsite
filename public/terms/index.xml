@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms of Use on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/terms/</link>
+    <link>http://localhost:57259/terms/</link>
     <description>Recent content in Terms of Use on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://powershell.org/terms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/terms/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

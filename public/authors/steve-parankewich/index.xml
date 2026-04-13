@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steve Parankewich on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/steve-parankewich/</link>
+    <link>http://localhost:57259/authors/steve-parankewich/</link>
     <description>Recent content in Steve Parankewich on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 May 2016 23:05:43 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/steve-parankewich/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/steve-parankewich/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boston PSUG Kick Off Meeting Tomorrow</title>
-      <link>https://powershell.org/articles/2016-05-19-boston-psug-kick-off-meeting-tomorrow/</link>
+      <link>http://localhost:57259/articles/2016-05-19-boston-psug-kick-off-meeting-tomorrow/</link>
       <pubDate>Thu, 19 May 2016 23:05:43 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-05-19-boston-psug-kick-off-meeting-tomorrow/</guid>
+      <guid>http://localhost:57259/articles/2016-05-19-boston-psug-kick-off-meeting-tomorrow/</guid>
       <description>&lt;p&gt;Hello fellow PowerShell enthusiasts. I have been missing for a few months with a new child that has occupied most of my extra time! I look forward to get back in the blogging gear soon.&lt;br&gt;&#xA;I just wanted to send out a note that we are hosting our first kick off meeting for the Boston PowerShell User Group at the Microsoft MTC in Kendall Square Cambridge, MA.  Here are the two topics that will be delivered via &lt;a href=&#34;https://twitter.com/enigma0x3&#34;&gt;Matt Nelson&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/harmj0y&#34;&gt;Will Schroeder&lt;/a&gt;.&lt;br&gt;&#xA;&lt;em&gt;Offensive Active Directory With PowerShell&lt;/em&gt;&lt;br&gt;&#xA;Active Directory has been covered from a system administration aspect for as long as it has existed. However, much less information exists on how adversaries abuse and backdoor AD, leaving many defenders blind to the attacks being executed in their own environment. We&amp;rsquo;ll cover Active Directory from an offensive perspective, illustrating ways that attackers move through Windows networks with ease. PowerView (the PowerShell domain enumeration tool) will be highlighted, including how to use it for local administrator enumeration, domain trust hopping, user hunting, ACL auditing, and more.&lt;br&gt;&#xA;&lt;em&gt;Building an Empire With PowerShell&lt;/em&gt;&lt;br&gt;&#xA;Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks.&lt;br&gt;&#xA;Hope anyone local can make it. Sign up is live over at Meetup.com: &lt;a href=&#34;http://www.meetup.com/Boston-PowerShell-User-Group/events/230856302/&#34;&gt;http://www.meetup.com/Boston-PowerShell-User-Group/events/230856302/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convert VBA Macros To PowerShell for Microsoft Office Automation</title>
-      <link>https://powershell.org/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/</link>
+      <link>http://localhost:57259/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/</link>
       <pubDate>Thu, 18 Feb 2016 14:46:34 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/</guid>
+      <guid>http://localhost:57259/articles/2016-02-18-convert-vba-macros-to-powershell-for-microsoft-office-automation/</guid>
       <description>&lt;p&gt;There is a lot of documentation out there for interacting with Microsoft Office including Outlook, Excel, Word, etc with Visual Basic for Applications (VBA). A lot of time you may only be able to find VBA examples. VBA&amp;rsquo;s require template files to be sent to the desktop and are a real hassle when trying to automate across multiple machines.&lt;br&gt;&#xA;There are not many A to B examples of translating VBA to PowerShell so I took a problem I had solved in the past and presented the before and after. Hopefully it will provide enough information to allow others to convert VBA code into PowerShell for their scenarios.&lt;br&gt;&#xA;You can check out the full article on &lt;a href=&#34;http://wp.me/p7al1Q-5f&#34;&gt;PowerShellBlogger.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Connect to all Office 365 Services with PowerShell</title>
-      <link>https://powershell.org/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/</link>
+      <link>http://localhost:57259/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/</link>
       <pubDate>Tue, 02 Feb 2016 18:50:40 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/</guid>
+      <guid>http://localhost:57259/articles/2016-02-02-connect-to-all-office-365-services-with-powershell/</guid>
       <description>&lt;p&gt;If you are not on Office 365 or have a tenant set up with Microsoft yet, now is the time to reserve your tenant name! With utilizing Office 365, a lot of administration is only available from a PowerShell session. There is a mix of outdated information on what you actually need to install and execute in order to connect to all of the Office 365 services. As a result, I accumulated and wrote up the current download requirements and commands to connect and administer every Office 365 service from one PowerShell session. I hope this saves everyone a lot of time and effort!&lt;br&gt;&#xA;Head over to &lt;a href=&#34;http://wp.me/p7al1Q-53&#34;&gt;PowerShellBlogger.com&lt;/a&gt; to read the full article &lt;a href=&#34;http://wp.me/p7al1Q-53&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create Windows Shortcuts or Favorites With PowerShell</title>
-      <link>https://powershell.org/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/</link>
+      <link>http://localhost:57259/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/</link>
       <pubDate>Fri, 22 Jan 2016 16:37:59 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/</guid>
+      <guid>http://localhost:57259/articles/2016-01-22-create-windows-shortcuts-or-favorites-with-powershell/</guid>
       <description>&lt;p&gt;Creating windows shortcuts are usually done through the New Shortcut Wizard, MSI files, Group Policy Objects, or even a simple file copy. Shortcut files are .lnk files that Microsoft Windows uses for shortcuts to local files while .url is used for destinations such as web sites. As we all are aware, the .lnk filename extension is hidden in Windows Explorer even when &amp;ldquo;Hide extensions for known file types&amp;rdquo; is unchecked in File Type options. The reason for this is the NeverShowExt string value in HKEY_CLASSES_ROOT\lnkfile. Shortcuts are also displayed with a curled arrow overlay icon. The IsShortcut string value causes the arrow to be displayed.&lt;br&gt;&#xA;For a full run down on creating shortcuts and favorites with PowerShell head over to &lt;a href=&#34;http://powershellblogger.com/?p=301&#34;&gt;PowerShellBlogger.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improve Delivery of PowerShell Tools or Version Controlled Files</title>
-      <link>https://powershell.org/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/</link>
+      <link>http://localhost:57259/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/</link>
       <pubDate>Thu, 14 Jan 2016 17:04:54 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/</guid>
+      <guid>http://localhost:57259/articles/2016-01-14-improve-delivery-of-powershell-tools-or-version-controlled-files/</guid>
       <description>&lt;p&gt;I am back this week with a quick how-to article on delivering, installing, or launching version controlled files. In the past I ran into problems when having administrators launch my PowerShell tools from a network share. The performance was slow when launching it across the WAN, and the file would often be locked when I tried to replace it with a newer version. I came up with a solution to the problem by using none other than PowerShell.&lt;br&gt;&#xA;The solution dips into all kinds of PowerShell techniques including local environment variables, getting text file contents, file version checking and even shortcut (.lnk) creation. If you are also a user of Sapien&amp;rsquo;s PowerShell Studio, then definitely give this one a read. Check out the solution over on &lt;a href=&#34;http://powershellblogger.com/?p=275&#34;&gt;PowerShellBlogger.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Boston PowerShell User Group</title>
-      <link>https://powershell.org/articles/2016-01-11-new-boston-powershell-user-group/</link>
+      <link>http://localhost:57259/articles/2016-01-11-new-boston-powershell-user-group/</link>
       <pubDate>Mon, 11 Jan 2016 15:39:08 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-11-new-boston-powershell-user-group/</guid>
+      <guid>http://localhost:57259/articles/2016-01-11-new-boston-powershell-user-group/</guid>
       <description>&lt;p&gt;Its a new year with new goals and I hope to provide even more assistance and value to the PowerShell community in 2016. I have created a new Boston based PowerShell user group and will be working hard on creating sessions as frequently and regularly as possible. If you are in the greater Boston or New England area please join the user group. If we have any Microsoft employees or PowerShell MVPs visiting the Boston area in the future, we would love to have you deliver a session. I have arranged booking of a room in the Microsoft Technology Center located at Kendall Square, 255 Main Street, Cambridge, MA 02142 when required. I will also look into offering the meetings over Skype for Business if possible.&lt;br&gt;&#xA;Check out and join the Boston PowerShell User Group here: &lt;a href=&#34;http://www.meetup.com/Boston-PowerShell-User-Group&#34;&gt;http://www.meetup.com/Boston-PowerShell-User-Group&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Get Last Reboot or Computer Up Time With PowerShell</title>
-      <link>https://powershell.org/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/</link>
+      <link>http://localhost:57259/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/</link>
       <pubDate>Thu, 07 Jan 2016 14:20:24 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/</guid>
+      <guid>http://localhost:57259/articles/2016-01-07-get-last-reboot-or-computer-up-time-with-powershell/</guid>
       <description>&lt;p&gt;Hey everyone, hope you had a great 2015 and I am back with I hope to be weekly updates for everyone at PowerShell.org. I wrote up a quick article on how to retrieve the last reboot time or the current up time for any local or remote computer. I also include a function that can be used to query remote computers as well. There may be a situation where you want to determine whether you take action depending on the last reboot time, or you may simply want it to be displayed for debugging or logging purposes.&lt;br&gt;&#xA;You can check out the full article over on &lt;a href=&#34;http://powershellblogger.com/?p=248&#34;&gt;PowerShellBlogger.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keeping Windows PowerShell Help Up To Date</title>
-      <link>https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/</link>
+      <link>http://localhost:57259/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/</link>
       <pubDate>Tue, 24 Nov 2015 19:21:37 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/</guid>
+      <guid>http://localhost:57259/articles/2015-11-24-keeping-windows-powershell-help-up-to-date/</guid>
       <description>&lt;p&gt;After a two week hiatus I am back this week with a quick write up on how to automate the updating of PowerShell help. Update-Help should be one of the first things typed in PowerShell on a new workstation build. I jump into the topic and demonstrate how to automate the updating of the help files from the Internet or from a local network share. You can view the full article over at &lt;a href=&#34;http://powershellblogger.com/?p=237&#34;&gt;PowerShellBlogger.com&lt;/a&gt;.&lt;br&gt;&#xA;I look forward to getting another article out to everyone next week and I hope everyone in the US enjoys their long weekend!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Join Computer to Domain with Specified Computer Name and OU</title>
-      <link>https://powershell.org/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/</link>
+      <link>http://localhost:57259/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/</link>
       <pubDate>Fri, 30 Oct 2015 18:10:55 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/</guid>
+      <guid>http://localhost:57259/articles/2015-10-30-join-computer-to-domain-with-specified-computer-name-and-ou/</guid>
       <description>&lt;p&gt;I addressed a reader requested script for my article this week. PowerShell gives you the ability to add computers to Active Directory right from the command line with the built in PowerShell commandlets. This was introduced with PowerShell version 3 and can be used to automate imaging processes or to prompt an agent for the desired computer name and organizational unit. This is useful since a lot of organizations will use specific OUs for computers according to location or department. This allows them to set group policies that apply to those computer accounts accordingly. By default these computer accounts are created in the root Computers OU, but creating an account can be targeted. The highlighted examples should provide you everything you need to tackle that use case. I provide the basics of adding a computer to the domain as well as prompting the user to enter the computer name and location. Head on over to &lt;a href=&#34;http://powershellblogger.com/?p=220&#34;&gt;PowershellBlogger.com&lt;/a&gt; for the full write up and thanks for everyone&amp;rsquo;s continued support!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Find any E-Mail Address or Proxy Address In Active Directory</title>
-      <link>https://powershell.org/articles/2015-10-23-find-any-e-mail-address-or-proxy-address-in-active-directory/</link>
+      <link>http://localhost:57259/articles/2015-10-23-find-any-e-mail-address-or-proxy-address-in-active-directory/</link>
       <pubDate>Fri, 23 Oct 2015 16:58:00 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-23-find-any-e-mail-address-or-proxy-address-in-active-directory/</guid>
+      <guid>http://localhost:57259/articles/2015-10-23-find-any-e-mail-address-or-proxy-address-in-active-directory/</guid>
       <description>&lt;p&gt;I am back this week with some more Exchange and Unified Communications goodness. This is another request I see a lot, someone want&amp;rsquo;s to know where an e-mail address is assigned. This opens up the possibilities of user mailboxes, shared mailboxes, distribution lists, public folders, conference rooms, contacts or resources. I have also seen duplicate e-mail addresses being assigned outside of Exchange causing delivery failures. I take a look at how you can quickly find any e-mail address in your environment along with partial searches of e-mail addresses. The two attributes for e-mail addresses being mail and proxyAddresses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automate Sip Address and UPN name changes in Lync / Skype for Business</title>
-      <link>https://powershell.org/articles/2015-10-12-automate-sip-address-and-upn-name-changes-in-lync-skype-for-business/</link>
+      <link>http://localhost:57259/articles/2015-10-12-automate-sip-address-and-upn-name-changes-in-lync-skype-for-business/</link>
       <pubDate>Mon, 12 Oct 2015 18:37:56 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-12-automate-sip-address-and-upn-name-changes-in-lync-skype-for-business/</guid>
+      <guid>http://localhost:57259/articles/2015-10-12-automate-sip-address-and-upn-name-changes-in-lync-skype-for-business/</guid>
       <description>&lt;p&gt;Name changes are a common occurrence in the world of IT and usually the primary concern is the e-mail address. Exchange e-mail address policies will handle this for us but often times the Sip Address and User Principal Name are left behind. I tackle these changes with an automated way of changing the Lync / Skype for Business sip address (also known as sign-in address) and User Principal Name to match the e-mail address. I also include the link to download the Lync / Skype for Business meeting update tool that is required when a Sip Address is changed. Head on over to &lt;a href=&#34;http://powershellblogger.com/?p=164&#34;&gt;PowerShellBlogger.com&lt;/a&gt; for the full article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Export Subnets from Active Directory Sites and Services</title>
-      <link>https://powershell.org/articles/2015-10-09-export-subnets-from-active-directory-sites-and-services/</link>
+      <link>http://localhost:57259/articles/2015-10-09-export-subnets-from-active-directory-sites-and-services/</link>
       <pubDate>Sat, 10 Oct 2015 02:39:20 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-09-export-subnets-from-active-directory-sites-and-services/</guid>
+      <guid>http://localhost:57259/articles/2015-10-09-export-subnets-from-active-directory-sites-and-services/</guid>
       <description>&lt;p&gt;I am back this week with a quick write up on how to export your network subnets from Active Directory Sites and Services. Active Directory Sites and Services subnet assignments are important for healthy replication and for location based services to function properly. The need for this information has come across my desk on several occasions. Even a quick print out would be extremely helpful to keep at your desk.  I have included both Windows 7/2008 and Windows 8/2012 methods to ensure everyone is covered. Head on over to &lt;a href=&#34;http://powershellblogger.com/?p=121&#34;&gt;PowerShellBlogger.com&lt;/a&gt; for the full article. As always, leave a comment and I will be sure to respond.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Delete Specific E-Mail or E-Mails From All Exchange Mailboxes</title>
-      <link>https://powershell.org/articles/2015-10-02-delete-specific-e-mail-or-e-mails-from-all-exchange-mailboxes/</link>
+      <link>http://localhost:57259/articles/2015-10-02-delete-specific-e-mail-or-e-mails-from-all-exchange-mailboxes/</link>
       <pubDate>Fri, 02 Oct 2015 15:27:10 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-02-delete-specific-e-mail-or-e-mails-from-all-exchange-mailboxes/</guid>
+      <guid>http://localhost:57259/articles/2015-10-02-delete-specific-e-mail-or-e-mails-from-all-exchange-mailboxes/</guid>
       <description>&lt;p&gt;Well this is week number two in my quest to post an article once a week and I am back with a common request for Exchange administrators. There are a lot of scenarios that bring up a need to remove an e-mail or e-mails from all mailboxes in your environment. Perhaps there was a disgruntled employee, a virus outbreak, or a reply all to the whole company. We all know that the &amp;ldquo;Retract&amp;rdquo; button is best effort (yes I still miss GroupWise for that purpose).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automate enabling and disabling Lync / Skype for Business users</title>
-      <link>https://powershell.org/articles/2015-09-23-automate-enabling-and-disabling-lync-skype-for-business-users/</link>
+      <link>http://localhost:57259/articles/2015-09-23-automate-enabling-and-disabling-lync-skype-for-business-users/</link>
       <pubDate>Wed, 23 Sep 2015 21:30:58 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-09-23-automate-enabling-and-disabling-lync-skype-for-business-users/</guid>
+      <guid>http://localhost:57259/articles/2015-09-23-automate-enabling-and-disabling-lync-skype-for-business-users/</guid>
       <description>&lt;p&gt;Hello PowerShell.org community,&lt;/p&gt;&#xA;&lt;p&gt;This is my first post here at PowerShell.org, and I have a goal of posting tips, tricks, articles, and solutions once a week. My first exposure to scripting was on my x486 computer. I would always create .bat files to launch my DOS based games from the root folder. I learned complex scripting through the use of VB Script, automating the roll out and updating of Windows 2000 desktops and servers. I quickly transitioned to PowerShell as my preferred scripting language upon its release. I use PowerShell on a daily basis to administer Windows Server, SQL Server, Exchange, Lync / Skype for Business, Citrix XenApp / XenDesktop, Office 365, and Dell Active Roles Server. I have very much enjoyed watching the progression and adoption of PowerShell as the default scripting language. I hope my posts will be useful to other administrators around the world.&lt;/p&gt;</description>
     </item>
   </channel>

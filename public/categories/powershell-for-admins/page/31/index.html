@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,741 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="free ebook from microsoft&#39;s scripting guy: windows powershell networking guide" 
+                     data-content="&lt;p&gt;ed wilson, microsoft&amp;rsquo;s scripting guy, has created a free ebook, _windows powershell networking guide. _it&amp;rsquo;s designed to provide a super-quick powershell crash course, and then show you how to  manage various networking scenarios by using the shell.&lt;br&gt;
+and it&amp;rsquo;s free! just click the link to get your copy - and please, tell a friend!&lt;br&gt;
+&lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/02/poshnetworking.pdf.zip&#34;&gt;poshnetworking.pdf&lt;/a&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 19, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Books
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-02-19-free-ebook-from-microsofts-scripting-guy-windows-powershell-networking-guide/" class="hover:text-blue-600 transition-colors duration-200">
+                            Free eBook from Microsoft&#39;s Scripting Guy: Windows PowerShell Networking Guide
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Ed Wilson, Microsoft&rsquo;s Scripting Guy, has created a free ebook, _Windows PowerShell Networking Guide. _It&rsquo;s designed to provide a super-quick PowerShell crash course, and then show you how to  manage various networking scenarios by using the shell.<br>
+And it&rsquo;s free! Just click the link to get your copy - and please, tell a friend!<br>
+<a href="https://powershell.org/wp-content/uploads/2014/02/PoshNetworking.pdf.zip">PoshNetworking.pdf</a></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-02-19-free-ebook-from-microsofts-scripting-guy-windows-powershell-networking-guide/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="episode 255 – powerscripting podcast – steve roberts from amazon on aws and powershell" 
+                     data-content="&lt;p&gt;&lt;strong&gt;a podcast about windows powershell.&lt;/strong&gt;
+listen:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://traffic.libsyn.com/powerscripting/pspodcast-255.mp3&#34;&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;in this episode
+
+
+
+
+
+tonight on the powerscripting podcast, we talk to steve roberts from amazon on amazon web services and powershell.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;news
+
+
+
+
+
+- 
+
+
+    [the scripting games](https://powershell.org/category/announcements/scripting-games/) are going on now!
+
+
+
+
+
+- 
+
+
+    [powershell saturday #007](http://powershellsaturday.com/007/) is on february 8th
+
+
+
+
+
+- 
+
+
+    [powershell saturday #008](http://powershellsaturday.com/008/) is on february 15th
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;interview
+
+
+
+
+
+guest - steve roberts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;links
+
+
+
+
+
+- 
+
+
+    [amazon web services](http://aws.amazon.com/)
+
+
+
+
+
+- 
+
+
+    [aws tools for powershell](http://aws.amazon.com/powershell/)
+
+
+
+
+
+- 
+
+
+    aws .net / powershell team
+
+
+
+
+
+
+
+
+        [windows &amp;amp; .net developer center](http://aws.amazon.com/net/)
+
+
+
+
+
+    - 
+
+
+        [blog](http://aws.amazon.com/net/)
+
+
+
+
+
+    - 
+
+
+        twitter: [@awsfornet](https://twitter.com/awsfornet)
+
+
+
+
+
+
+
+
+- 
+
+
+    [handling credentials with powershell tools](http://blogs.aws.amazon.com/net/post/tx36natieamer5v/handling-credentials-with-aws-tools-for-windows-powershell)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chatroom highlights:
+
+
+
+
+
+[21:55:58]  [http://amzn.com/1430264519](http://amzn.com/1430264519)
+
+
+
+
+
+[21:56:13]  pro powershell for amazon web services
+
+
+
+
+
+[21:56:33]  steve (speaking) was a big help with the book
+
+
+
+
+
+[21:56:43]  his team was great
+
+
+
+
+
+ [https://powershell.org/community-events/summit/](https://powershell.org/community-events/summit/)
+
+
+
+
+
+ [http://www.panasonic.com/business/toughpad/us/7-inch-tablet-fz-m1.asp](http://www.panasonic.com/business/toughpad/us/7-inch-tablet-fz-m1.asp)
+
+
+
+
+
+ [http://aws.amazon.com/powershell/](http://aws.amazon.com/powershell/)
+
+
+
+
+
+ [http://docs.aws.amazon.com/powershell/latest/reference/index.html](http://docs.aws.amazon.com/powershell/latest/reference/index.html)
+
+
+
+
+
+ [http://aws.amazon.com/](http://aws.amazon.com/)
+
+
+
+
+
+ [http://amzn.com/1430264519](http://amzn.com/1430264519)
+
+
+
+
+
+ [http://docs.aws.amazon.com/powershell/latest/reference/index.html](http://docs.aws.amazon.com/powershell/latest/reference/index.html)
+
+
+
+
+
+ [http://aws.amazon.com/net/](http://aws.amazon.com/net/)
+
+
+
+
+
+ [http://blogs.aws.amazon.com/net](http://blogs.aws.amazon.com/net)
+
+
+
+
+
+ [http://www.musicradar.com/us/news/guitars/trent-reznor-talks-johnny-cash-168199](http://www.musicradar.com/us/news/guitars/trent-reznor-talks-johnny-cash-168199)
+
+
+
+
+
+ [https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1607005_10202465193703988_1046463679_n.jpg](https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1607005_10202465193703988_1046463679_n.jpg)
+
+
+
+
+
+ ## what does aws stand for again?
+
+
+
+
+
+ dexterposh, please add ## before your questions so they are easier for us to pick out
+
+
+
+
+
+ @jonwalz ...got it ##
+
+
+
+
+
+ ## can you give a quick/small example of the differences between aws and azure?
+
+
+
+
+
+ ## can i extend my local lab to include machines from aws ?
+
+
+
+
+
+ ## does he have a blog
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;the question - hero/power
+
+
+
+
+
+- 
+
+
+    thor
+&lt;/code&gt;&lt;/pre&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 28, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Jonathan Walz</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-27-episode-255-powerscripting-podcast-steve-roberts-from-amazon-on-aws-and-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            Episode 255 – PowerScripting Podcast – Steve Roberts from Amazon on AWS and PowerShell
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><strong>A Podcast about Windows PowerShell.</strong>
+Listen:</p>
+<p><strong><a href="http://traffic.libsyn.com/powerscripting/PSPodcast-255.mp3"><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></a></strong></p>
+<h2></h2>
+<pre><code>In This Episode
+
+
+
+
+
+Tonight on the PowerScripting Podcast, we talk to Steve Roberts from Amazon on Amazon Web Services and PowerShell.
+</code></pre>
+<h2></h2>
+<pre><code>News
+
+
+
+
+
+- 
+
+
+    [The Scripting Games](https://powershell.org/category/announcements/scripting-games/) are going on now!
+
+
+
+
+
+- 
+
+
+    [PowerShell Saturday #007](http://powershellsaturday.com/007/) is on February 8th
+
+
+
+
+
+- 
+
+
+    [PowerShell Saturday #008](http://powershellsaturday.com/008/) is on February 15th
+</code></pre>
+<h2></h2>
+<pre><code>Interview
+
+
+
+
+
+Guest - Steve Roberts
+</code></pre>
+<h4></h4>
+<pre><code>Links
+
+
+
+
+
+- 
+
+
+    [Amazon Web Services](http://aws.amazon.com/)
+
+
+
+
+
+- 
+
+
+    [AWS Tools for PowerShell](http://aws.amazon.com/powershell/)
+
+
+
+
+
+- 
+
+
+    AWS .Net / PowerShell team
+
+
+
+
+
+
+
+
+        [Windows &amp; .Net Developer Center](http://aws.amazon.com/net/)
+
+
+
+
+
+    - 
+
+
+        [Blog](http://aws.amazon.com/net/)
+
+
+
+
+
+    - 
+
+
+        Twitter: [@awsfornet](https://twitter.com/awsfornet)
+
+
+
+
+
+
+
+
+- 
+
+
+    [Handling credentials with PowerShell tools](http://blogs.aws.amazon.com/net/post/Tx36NATIEAMER5V/Handling-Credentials-with-AWS-Tools-for-Windows-PowerShell)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chatroom Highlights:
+
+
+
+
+
+[21:55:58]  [http://amzn.com/1430264519](http://amzn.com/1430264519)
+
+
+
+
+
+[21:56:13]  Pro PowerShell for Amazon Web Services
+
+
+
+
+
+[21:56:33]  Steve (speaking) was a big help with the book
+
+
+
+
+
+[21:56:43]  his team was great
+
+
+
+
+
+ [https://powershell.org/community-events/summit/](https://powershell.org/community-events/summit/)
+
+
+
+
+
+ [http://www.panasonic.com/business/toughpad/us/7-inch-tablet-fz-m1.asp](http://www.panasonic.com/business/toughpad/us/7-inch-tablet-fz-m1.asp)
+
+
+
+
+
+ [http://aws.amazon.com/powershell/](http://aws.amazon.com/powershell/)
+
+
+
+
+
+ [http://docs.aws.amazon.com/powershell/latest/reference/Index.html](http://docs.aws.amazon.com/powershell/latest/reference/Index.html)
+
+
+
+
+
+ [http://aws.amazon.com/](http://aws.amazon.com/)
+
+
+
+
+
+ [http://amzn.com/1430264519](http://amzn.com/1430264519)
+
+
+
+
+
+ [http://docs.aws.amazon.com/powershell/latest/reference/Index.html](http://docs.aws.amazon.com/powershell/latest/reference/Index.html)
+
+
+
+
+
+ [http://aws.amazon.com/net/](http://aws.amazon.com/net/)
+
+
+
+
+
+ [http://blogs.aws.amazon.com/net](http://blogs.aws.amazon.com/net)
+
+
+
+
+
+ [http://www.musicradar.com/us/news/guitars/trent-reznor-talks-johnny-cash-168199](http://www.musicradar.com/us/news/guitars/trent-reznor-talks-johnny-cash-168199)
+
+
+
+
+
+ [https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1607005_10202465193703988_1046463679_n.jpg](https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1607005_10202465193703988_1046463679_n.jpg)
+
+
+
+
+
+ ## what does AWS stand for again?
+
+
+
+
+
+ DexterPOSh, please add ## before your questions so they are easier for us to pick out
+
+
+
+
+
+ @JonWalz ...got it ##
+
+
+
+
+
+ ## can you give a quick/small example of the differences between AWS and Azure?
+
+
+
+
+
+ ## Can I extend my local Lab to include machines from AWS ?
+
+
+
+
+
+ ## does he have a blog
+</code></pre>
+<h4></h4>
+<pre><code>The Question - Hero/Power
+
+
+
+
+
+- 
+
+
+    Thor
+</code></pre></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-27-episode-255-powerscripting-podcast-steve-roberts-from-amazon-on-aws-and-powershell/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="up next: steve roberts from amazon talking about the aws tools" 
+                     data-content="&lt;p&gt;join us this thursday, jan 16, 2014 at 9:30 pm est as we talk with steve roberts from amazon about the aws tools. read more about it here: &lt;a href=&#34;http://aws.amazon.com/powershell/&#34;&gt;http://aws.amazon.com/powershell/&lt;/a&gt;&lt;br&gt;
+&lt;img src=&#34;http://www.commoncrawl.org/wp-content/uploads/2012/01/aws_logo_cmyk.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="lg:flex">
+                    <div class="lg:w-1/4 p-6 lg:pr-0">
+                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-podcast text-3xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="lg:w-3/4 p-6 lg:pl-8">
+                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
+                            <i class="fas fa-podcast mr-2"></i>
+                            <time>Jan 14, 2014</time>
+                            
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="http://localhost:57259/podcast/2014-01-14-up-next-steve-roberts-from-amazon-talking-about-the-aws-tools/" class="hover:text-purple-600 transition-colors duration-200">
+                                Up Next: Steve Roberts from Amazon talking about the AWS Tools
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4 line-clamp-3"><p>Join us this Thursday, Jan 16, 2014 at 9:30 PM EST as we talk with Steve Roberts from Amazon about the AWS Tools. Read more about it here: <a href="http://aws.amazon.com/powershell/">http://aws.amazon.com/powershell/</a><br>
+<img src="http://www.commoncrawl.org/wp-content/uploads/2012/01/AWS_LOGO_CMYK.png" alt=""></p></p>
+                        <div class="flex items-center space-x-4">
+                            <a href="http://localhost:57259/podcast/2014-01-14-up-next-steve-roberts-from-amazon-talking-about-the-aws-tools/" 
+                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors duration-200">
+                                <i class="fas fa-play mr-2"></i>Listen
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="script for setting up and demoing a dsc pull server" 
+                     data-content="&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/01/dsc.zip&#34;&gt;dsc setup and demo scripts&lt;/a&gt;&lt;br&gt;
+i recently set up a virtual machine to use for desired state configuration (dsc) demos. i wanted to make the demo-ing fairly brainless, as dsc requires a number of setup steps to get a pull server running. so i took some demo scripts microsoft offered from teched 2013, updated them to work with windows server 2012 r2 rtm, and thought i&amp;rsquo;d offer them to you.&lt;br&gt;
+&lt;strong&gt;setupdsc.ps1&lt;/strong&gt; is the main script. now, because i didn&amp;rsquo;t want to use good ol&amp;rsquo; start-demo, there&amp;rsquo;s a who crapload of kinda ugly write-debug statements. that way i can get an &amp;ldquo;about to do ____&amp;rdquo; message and then have the script pause before doing it. lets me explain to the class what&amp;rsquo;s about to happen. you can remove all that crud if you like.&lt;br&gt;
+&lt;strong&gt;installpullserverconfig.ps1&lt;/strong&gt; and &lt;strong&gt;pswsiisendpoint.psm1&lt;/strong&gt; are the updated microsoft scripts. setupdsc.ps1 calls these. they&amp;rsquo;re intended to run locally; you&amp;rsquo;ll need to be _on _the machine you want to make into a pull server, and it needs to be windows server 2012 r2 (the dsc pull server role is part of the os, not part of windows management framework v4). setup takes a few minutes, and will install iis. this sets up an http pull server.&lt;br&gt;
+&lt;strong&gt;sampleconfig.ps1&lt;/strong&gt; is a sample dsc configuration, targeted to a computer named member2. it just specifies that the windows server backup feature be installed. setupdsc.ps1 actually runs this, which produces a mof. setupdsc.ps1 also copies the mof to the dsc pull server configuration directory.&lt;br&gt;
+&lt;strong&gt;samplesetpullmode.ps1&lt;/strong&gt; also gets run by setupdsc.ps1. this contains a dsc local configuration manager configuration, targeted to member2, that turns on pull mode and directs member2 to pull the previously-created configuration. i think i have it refreshing every 5 minutes, which is totally unrealistic for production. again, this was made for class demos, but you can adjust the time or leave it off to default to 30min. running this script creates the mof and pushes it to member2. that, in turn, causes member2 to start pulling the sample config, which causes windows server backup to be installed.&lt;br&gt;
+setupdsc.ps1 has some additional code to show that windows server backup isn&amp;rsquo;t installed, and then is installed (after you give the pull time to occur).&lt;br&gt;
+anyway, might need some tweaking to use in production, but hopefully it&amp;rsquo;ll give you a snapshot of the whole dsc process. much thanks to &lt;a href=&#34;http://readsource.co.uk/blog/2013/10/1/configuring-powershell-dsc-pull-mode&#34;&gt;james dawson&amp;rsquo;s article on dsc&lt;/a&gt;, which gave me a couple of the tweaks i needed to get all this working on rtm code.&lt;br&gt;
+enjoy.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 5, 2014</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2014-01-05-script-for-setting-up-and-demoing-a-dsc-pull-server/" class="hover:text-blue-600 transition-colors duration-200">
+                            Script for Setting Up and Demoing a DSC Pull Server
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><a href="https://powershell.org/wp-content/uploads/2014/01/dsc.zip">DSC Setup and Demo Scripts</a><br>
+I recently set up a virtual machine to use for Desired State Configuration (DSC) demos. I wanted to make the demo-ing fairly brainless, as DSC requires a number of setup steps to get a pull server running. So I took some demo scripts Microsoft offered from TechEd 2013, updated them to work with Windows Server 2012 R2 RTM, and thought I&rsquo;d offer them to you.<br>
+<strong>SetupDSC.ps1</strong> is the main script. Now, because I didn&rsquo;t want to use good ol&rsquo; Start-Demo, there&rsquo;s a who crapload of kinda ugly Write-Debug statements. That way I can get an &ldquo;about to do ____&rdquo; message and then have the script pause before doing it. Lets me explain to the class what&rsquo;s about to happen. You can remove all that crud if you like.<br>
+<strong>InstallPullServerConfig.ps1</strong> and <strong>PSWSIISEndpoint.psm1</strong> are the updated Microsoft scripts. SetupDSC.ps1 calls these. They&rsquo;re intended to run locally; you&rsquo;ll need to be _on _the machine you want to make into a pull server, and it needs to be Windows Server 2012 R2 (the DSC pull server role is part of the OS, not part of Windows Management Framework v4). Setup takes a few minutes, and will install IIS. This sets up an HTTP pull server.<br>
+<strong>SampleConfig.ps1</strong> is a sample DSC configuration, targeted to a computer named MEMBER2. It just specifies that the Windows Server Backup feature be installed. SetupDSC.ps1 actually runs this, which produces a MOF. SetupDSC.ps1 also copies the MOF to the DSC pull server configuration directory.<br>
+<strong>SampleSetPullMode.ps1</strong> also gets run by SetupDSC.ps1. This contains a DSC Local Configuration Manager configuration, targeted to MEMBER2, that turns on pull mode and directs MEMBER2 to pull the previously-created configuration. I think I have it refreshing every 5 minutes, which is totally unrealistic for production. Again, this was made for class demos, but you can adjust the time or leave it off to default to 30min. Running this script creates the MOF and pushes it to MEMBER2. That, in turn, causes MEMBER2 to start pulling the sample config, which causes Windows Server Backup to be installed.<br>
+SetupDSC.ps1 has some additional code to show that Windows Server Backup isn&rsquo;t installed, and then is installed (after you give the pull time to occur).<br>
+Anyway, might need some tweaking to use in production, but hopefully it&rsquo;ll give you a snapshot of the whole DSC process. Much thanks to <a href="http://readsource.co.uk/blog/2013/10/1/configuring-powershell-dsc-pull-mode">James Dawson&rsquo;s article on DSC</a>, which gave me a couple of the tweaks I needed to get all this working on RTM code.<br>
+Enjoy.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2014-01-05-script-for-setting-up-and-demoing-a-dsc-pull-server/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="using install-windowsfeature with offline source" 
                      data-content="&lt;p&gt;as you probably know, the install-windowsfeature (used to be add-windowsfeature; that&amp;rsquo;s now an alias to install-) can add windows roles and features from powershell. if your server doesn&amp;rsquo;t have the installer source on the local disk, then the cmdlet will default to grabbing it from windows update - a pain for disconnected servers. install-windowsfeature does offer a means of using an alternate local source (like a dvd or file server location), but using it can be a bit hinky.&lt;br&gt;
 the cmdlet help indicates that you should point to a windows image (wim) file. that&amp;rsquo;ll work, but you can&amp;rsquo;t just provide the path of the wim. you also need to put a &lt;strong&gt;wim:/&lt;/strong&gt; prefix on the front of the path, and a suffix that tells the thing which edition of windows you&amp;rsquo;re working with, so that it grabs the right bits. for example, &lt;strong&gt;wim:/d:/sources/install.wim:4&lt;/strong&gt;. that &amp;ldquo;4&amp;rdquo; is the suffix for datacenter edition, telling the installer to look at index 4 within the wim for the necessary feature.&lt;/p&gt;"
@@ -443,7 +1228,7 @@ the cmdlet help indicates that you should point to a windows image (wim) file. t
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" class="hover:text-blue-600 transition-colors duration-200">
                             Using Install-WindowsFeature with Offline Source
                         </a>
                     </h2>
@@ -452,7 +1237,7 @@ the cmdlet help indicates that you should point to a windows image (wim) file. t
 The cmdlet help indicates that you should point to a Windows image (WIM) file. That&rsquo;ll work, but you can&rsquo;t just provide the path of the WIM. You also need to put a <strong>wim:/</strong> prefix on the front of the path, and a suffix that tells the thing which edition of Windows you&rsquo;re working with, so that it grabs the right bits. For example, <strong>wim:/d:/sources/install.wim:4</strong>. That &ldquo;4&rdquo; is the suffix for Datacenter Edition, telling the installer to look at index 4 within the WIM for the necessary feature.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" 
+                        <a href="http://localhost:57259/articles/2014-01-01-using-install-windowsfeature-with-offline-source/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -490,7 +1275,7 @@ to wit: if you need your script to output some status or tracking information, a
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" class="hover:text-blue-600 transition-colors duration-200">
                             How &#34;Quick and Dirty&#34; Becomes &#34;Permanent and Annoying.&#34;
                         </a>
                     </h2>
@@ -501,7 +1286,7 @@ And the point I&rsquo;m going to make doesn&rsquo;t just apply to Write-Host. It
 To wit: if you need your script to output some status or tracking information, as in the above, use Write-Verbose. Yes, Write-Verbose requires a script or function to have this at the top:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" 
+                        <a href="http://localhost:57259/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -538,7 +1323,7 @@ as a dba we need to design a maintenance plan according to our scenario and busi
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-06-monitoring-sql-server-backups/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-11-06-monitoring-sql-server-backups/" class="hover:text-blue-600 transition-colors duration-200">
                             Monitoring SQL Server Backups
                         </a>
                     </h2>
@@ -548,7 +1333,7 @@ as a dba we need to design a maintenance plan according to our scenario and busi
 As a DBA we need to design a maintenance plan according to our scenario and business requirements. Do we want to be able to recover data at any point of time? How much data loss can we accept? All these questions and many more must be answered before designing the plan. In this post we will assume a basic daily full backup to keep our data safe, we will assume that there is a job performing full backups to our databases every day at midnight.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-06-monitoring-sql-server-backups/" 
+                        <a href="http://localhost:57259/articles/2013-11-06-monitoring-sql-server-backups/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -595,7 +1380,7 @@ As a DBA we need to design a maintenance plan according to our scenario and busi
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-06-configuring-a-desired-state-configuration-client/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-11-06-configuring-a-desired-state-configuration-client/" class="hover:text-blue-600 transition-colors duration-200">
                             Configuring a Desired State Configuration Client
                         </a>
                     </h2>
@@ -615,7 +1400,7 @@ As a DBA we need to design a maintenance plan according to our scenario and busi
 <p>The Desired State Configuration agent included in Windows Management Framework 4 (or natively on Server 2012 R2 / Windows 8.1) is exposed through the Local Configuration Manager.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-06-configuring-a-desired-state-configuration-client/" 
+                        <a href="http://localhost:57259/articles/2013-11-06-configuring-a-desired-state-configuration-client/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -653,7 +1438,7 @@ for example, this works to replace all instances of &amp;ldquo;t&amp;rdquo; with
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-21-why-get-content-aint-yer-friend/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-10-21-why-get-content-aint-yer-friend/" class="hover:text-blue-600 transition-colors duration-200">
                             Why Get-Content Ain&#39;t Yer Friend
                         </a>
                     </h2>
@@ -664,7 +1449,7 @@ Worse, PowerShell has just enough under-the-hood smarts to make <em>some</em> t
 For example, this works to replace all instances of &ldquo;t&rdquo; with &ldquo;x&rdquo; in the file test.txt, outputting the result to new.txt:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-21-why-get-content-aint-yer-friend/" 
+                        <a href="http://localhost:57259/articles/2013-10-21-why-get-content-aint-yer-friend/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -704,7 +1489,7 @@ it&amp;rsquo;s pretty important to understand these potential differences. when 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-19-the-shell-vs-the-host/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-10-19-the-shell-vs-the-host/" class="hover:text-blue-600 transition-colors duration-200">
                             The Shell vs. The Host
                         </a>
                     </h2>
@@ -717,255 +1502,7 @@ Here&rsquo;s a perfect example: most of the &ldquo;built-in&rdquo; variables you
 It&rsquo;s pretty important to understand these potential differences. When a developer sets out to create their own host application - like most of the commercial script editors do - it can be very confusing and frustrating, because they essentially have to reverse-engineer much of what the PowerShell.exe console application is doing, so that they can provide an equivalent experience. But you should neverÂ <em>assume</em> that a script&rsquo;s behavior under one host will be consistent in all other hosts; test and verify.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-19-the-shell-vs-the-host/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="building a desired state configuration configuration – part 2" 
-                     data-content="&lt;p&gt;ok, let&amp;rsquo;s get back to creating a dsc configuration. â &lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;if you haven&amp;rsquo;t read the last post in this series, go back and do that now&lt;/a&gt;, i&amp;rsquo;ll wait. â now with that out of the way, let&amp;rsquo;s get back to it&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/&#34;&gt;configuring the pull server (rest version)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;creating configurations (&lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;one of two&lt;/a&gt;, two of two - this post)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;packaging custom resources&lt;/li&gt;
-&lt;li&gt;advanced client targeting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;picking-back-up&#34;&gt;picking back up&lt;/h3&gt;
-&lt;p&gt;now that we have some of the basics down, we can start to look deeper at how composable these configurations are. a dsc configuration defined in powershell offers several advantages, not the least of which is that a configuration can be parameterized.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 14, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Steven Murawski</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-14-building-a-desired-state-configuration-configuration-part-2/" class="hover:text-blue-600 transition-colors duration-200">
-                            Building a Desired State Configuration Configuration – Part 2
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Ok, let&rsquo;s get back to creating a DSC configuration. Â <a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">If you haven&rsquo;t read the last post in this series, go back and do that now</a>, I&rsquo;ll wait. Â Now with that out of the way, let&rsquo;s get back to it&hellip;</p>
-<h2 id="the-high-points">The High Points</h2>
-<ul>
-<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
-<li><a href="https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/">Configuring the Pull Server (REST version)</a></li>
-<li>Creating Configurations (<a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">one of two</a>, two of two - this post)</li>
-<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
-<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
-<li>Packaging Custom Resources</li>
-<li>Advanced Client Targeting</li>
-</ul>
-<h3 id="picking-back-up">Picking Back UP</h3>
-<p>Now that we have some of the basics down, we can start to look deeper at how composable these configurations are. A DSC configuration defined in PowerShell offers several advantages, not the least of which is that a configuration can be parameterized.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-14-building-a-desired-state-configuration-configuration-part-2/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="building a desired state configuration configuration" 
-                     data-content="&lt;p&gt;now that&amp;rsquo;s a title! â we&amp;rsquo;ve worked through my reasoning as to why i want desired state configuration (dsc) and how to build a pull server. â today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.&lt;/p&gt;
-&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/&#34;&gt;configuring the pull server (rest version)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;creating configurations (one of two - this post, &lt;a href=&#34;https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/&#34;&gt;two of two&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;packaging custom resources&lt;/li&gt;
-&lt;li&gt;advanced client targeting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;building-configurations&#34;&gt;building configurations&lt;/h2&gt;
-&lt;p&gt;configurations are the driving force for dsc. â a configuration is a &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx&#34;&gt;managed object format&lt;/a&gt; (mof) document that describes the how a specified server (or servers) should look.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 8, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Steven Murawski</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-08-building-a-desired-state-configuration-configuration/" class="hover:text-blue-600 transition-colors duration-200">
-                            Building a Desired State Configuration Configuration
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Now that&rsquo;s a title! Â We&rsquo;ve worked through my reasoning as to why I want Desired State Configuration (DSC) and how to build a pull server. Â Today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.</p>
-<h2 id="the-high-points">The High Points</h2>
-<ul>
-<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
-<li><a href="https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/">Configuring the Pull Server (REST version)</a></li>
-<li>Creating Configurations (one of two - this post, <a href="https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/">two of two</a>)</li>
-<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
-<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
-<li>Packaging Custom Resources</li>
-<li>Advanced Client Targeting</li>
-</ul>
-<h2 id="building-configurations">Building Configurations</h2>
-<p>Configurations are the driving force for DSC. Â A configuration is a <a href="http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx">Managed Object Format</a> (MOF) document that describes the how a specified server (or servers) should look.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-08-building-a-desired-state-configuration-configuration/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="building a desired state configuration pull server" 
-                     data-content="&lt;p&gt;quick recap, i&amp;rsquo;m working through a series of posts about the &lt;a href=&#34;http://technet.microsoft.com/en-us/library/dn249912.aspx&#34;&gt;desired state configuration&lt;/a&gt; infrastructure that i&amp;rsquo;m building at &lt;a href=&#34;http://stackexchange.com&#34;&gt;stack exchange&lt;/a&gt;, including some how-to&amp;rsquo;s.&lt;/p&gt;
-&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;configuring the pull server (rest version) (this post)&lt;/li&gt;
-&lt;li&gt;creating configurations (&lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;one of two&lt;/a&gt;, &lt;a href=&#34;https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/&#34;&gt;two of two&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;packaging custom resources&lt;/li&gt;
-&lt;li&gt;advanced client targeting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;i started with an overview of &lt;strong&gt;what&lt;/strong&gt; and &lt;strong&gt;why&lt;/strong&gt;. â today, i&amp;rsquo;m going to start the &lt;strong&gt;how&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;building-a-pull-server&#34;&gt;building a pull server&lt;/h3&gt;
-&lt;p&gt;i&amp;rsquo;m going to describe how to do this with server 2012 r2 rtm (note: this is not the general availability â release, so there may be changes at ga), since that&amp;rsquo;s the environment i&amp;rsquo;m working most in. â if there is enough demand, i may follow up with how to do this using the windows management framework on downlevel operating systems after the ga version of wmf 4 is released.&lt;br&gt;
-the first step is adding the required roles and features, including the dsc service.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 3, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Steven Murawski</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-03-building-a-desired-state-configuration-pull-server/" class="hover:text-blue-600 transition-colors duration-200">
-                            Building a Desired State Configuration Pull Server
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Quick recap, I&rsquo;m working through a series of posts about the <a href="http://technet.microsoft.com/en-us/library/dn249912.aspx">Desired State Configuration</a> infrastructure that I&rsquo;m building at <a href="http://stackexchange.com">Stack Exchange</a>, including some how-to&rsquo;s.</p>
-<h2 id="the-high-points">The High Points</h2>
-<ul>
-<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
-<li>Configuring the Pull Server (REST version) (this post)</li>
-<li>Creating Configurations (<a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">one of two</a>, <a href="https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/">two of two</a>)</li>
-<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
-<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
-<li>Packaging Custom Resources</li>
-<li>Advanced Client Targeting</li>
-</ul>
-<p>I started with an overview of <strong>what</strong> and <strong>why</strong>. Â Today, I&rsquo;m going to start the <strong>how</strong>.</p>
-<h3 id="building-a-pull-server">Building a Pull Server</h3>
-<p>I&rsquo;m going to describe how to do this with Server 2012 R2 RTM (NOTE: this is not the General Availability Â release, so there may be changes at GA), since that&rsquo;s the environment I&rsquo;m working most in. Â If there is enough demand, I may follow up with how to do this using the Windows Management Framework on downlevel operating systems after the GA version of WMF 4 is released.<br>
-The first step is adding the required roles and features, including the DSC Service.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-03-building-a-desired-state-configuration-pull-server/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="more congrats!" 
-                     data-content="&lt;p&gt;another kudos to jon walz, host of the long running powerscripting podcast, for his first and well-deserved mvp award!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Oct 1, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-01-more-congrats/" class="hover:text-blue-600 transition-colors duration-200">
-                            More Congrats!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Another kudos to Jon Walz, host of the long running PowerScripting Podcast, for his first and well-deserved MVP Award!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-01-more-congrats/" 
+                        <a href="http://localhost:57259/articles/2013-10-19-the-shell-vs-the-host/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1240,7 +1777,7 @@ The first step is adding the required roles and features, including the DSC Serv
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

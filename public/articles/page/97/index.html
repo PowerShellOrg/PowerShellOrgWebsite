@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,228 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell workflow articles" 
+                     data-content="&lt;p&gt;i&amp;quot;™ve written a series of articles on powershell workflows that are appearing on the scripting guy blog. the first two in the series have been published at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx&#34; title=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx&#34; title=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;enjoy&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2778/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2778/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2778&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Jan 3, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-01-03-powershell-workflow-articles/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell workflow articles
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&quot;™ve written a series of articles on PowerShell workflows that are appearing on the Scripting Guy blog. The first two in the series have been published at:</p>
+<p><a href="http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx" title="http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx</a></p>
+<p><a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx" title="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx</a></p>
+<p>Enjoy</p>
+<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2778/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2778/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2778&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-01-03-powershell-workflow-articles/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="writing 10961: first module in for review" 
+                     data-content="&lt;p&gt;microsoft course 10961, which will be a 5-day course on powershell 3.0, is officially in development! we received signoff on the outline this week, and i&amp;rsquo;ve submitted a first module for review. a big part of that review is making sure i&amp;rsquo;m using the template properly, as the authoring tool is fairly complex. it does, however, offer (more-or-less) one-touch publishing of the student manual, instructor slide deck, onenote trainer pack, lab answer key, and other documents, so it&amp;rsquo;s worth a bit of complexity.&lt;br&gt;
+the outline process, along with the actual details of the writing, has been challenging. i pored through the feedback for 10325a, and the only consistent thing i took away was a general feeling that students and instructors worldwide are &lt;em&gt;really, really&lt;/em&gt; different!&lt;br&gt;
+some european instructors cautioned against running class longer than 3 or 4pm. us instructors pointed out that a short day ending at 3pm often left students feeling shortchanged. er. to try and accommodate both crowds, most days in 10961a will end in a significant lab, letting folks kind of free-form the end of the day however they want.&lt;br&gt;
+many folks pointed out that they liked to get into variables early in the course, not so much for scripting purposes but to simplify command-line stuff. other instructors suggested i avoid variables too early, since they created the impression of a programming course, which scared off some students. again&amp;hellip; er. so i&amp;rsquo;m officially waffling on that one: i don&amp;rsquo;t &lt;em&gt;formally&lt;/em&gt; cover variables until fairly late in the course (well, midway), but i &lt;em&gt;introduce&lt;/em&gt; them quite early. it means students can potentially see and use variables on day 1, although i don&amp;rsquo;t get into all the details about how they work, naming rules, and so on. the way i&amp;rsquo;m writing them in, instructors also have the option to just gloss over them or skip them entirely if their students aren&amp;rsquo;t ready.&lt;br&gt;
+i asked a few mcts to look over some of my draft material and give me a delivery time estimate. i had pacing ranging from 2 minutes per slide to almost 8. er. so i&amp;rsquo;m going with fairly simple slides that have minimal bullets (always, in most folks&amp;rsquo; opinion, the right thing to do). instructors can then decide how deeply they&amp;rsquo;ll cover the material based on their class&amp;rsquo; needs. it does mean the instructor will need to be familiar with the material in advance - this will be a tough course to just pick up and teach ad-hoc. as, i believe, it should be.&lt;br&gt;
+if there&amp;rsquo;s a theme here, it&amp;rsquo;s that &lt;em&gt;you need a good instructor&lt;/em&gt; teaching you. as a courseware author, all i can really do is provide raw material, and an instructional design that leads &lt;em&gt;most&lt;/em&gt; students through a sensible learning progression. but the instructor&amp;rsquo;s value-add is to be able to switch things up to meet the specific needs of their class. every time an instructor tells me, &amp;ldquo;oh, i always move module 11 to the second day of class,&amp;rdquo; i don&amp;rsquo;t take it as a sign of bad instructional design - i take it as the sign of a good instructor who hopefully is making the change to benefit his class. but classes vary widely, and i kind of have to write for the worst-case scenario. that can sometimes make a course seem overly timid - but that&amp;rsquo;s why the instructor is there, to add their own value, experience, examples, and demonstrations to further instruct and clarify.&lt;br&gt;
+so the one thing i&amp;rsquo;m keeping in mind as i write 10961 is to &lt;em&gt;leave room for the instructor to shine.&lt;/em&gt; don&amp;rsquo;t fill the course so full of information that the instructor has no wiggle room. give the instructor the ability to go slowly and less deep for classes that need it, and to go faster and deeper for classes that need &lt;em&gt;that.&lt;/em&gt; provide instructors with notes on what can be skipped if necessary, and what&amp;rsquo;s absolutely critical, so that they can triage. i&amp;rsquo;ll be doing a prep video to help provide even more context to instructors in that regard, and to let them know that customizing the delivery is absolutely okay, provided they&amp;rsquo;re doing so with an understanding of the original instructional design.&lt;br&gt;
+fingers crossed.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 24, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-12-24-writing-10961-first-module-in-for-review/" class="hover:text-blue-600 transition-colors duration-200">
+                            Writing 10961: First Module in For Review
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Microsoft course 10961, which will be a 5-day course on PowerShell 3.0, is officially in development! We received signoff on the outline this week, and I&rsquo;ve submitted a first module for review. A big part of that review is making sure I&rsquo;m using the template properly, as the authoring tool is fairly complex. It does, however, offer (more-or-less) one-touch publishing of the student manual, instructor slide deck, OneNote trainer pack, Lab Answer Key, and other documents, so it&rsquo;s worth a bit of complexity.<br>
+The outline process, along with the actual details of the writing, has been challenging. I pored through the feedback for 10325A, and the only consistent thing I took away was a general feeling that students and instructors worldwide are <em>really, really</em> different!<br>
+Some European instructors cautioned against running class longer than 3 or 4pm. US instructors pointed out that a short day ending at 3pm often left students feeling shortchanged. Er. To try and accommodate both crowds, most days in 10961A will end in a significant lab, letting folks kind of free-form the end of the day however they want.<br>
+Many folks pointed out that they liked to get into variables early in the course, not so much for scripting purposes but to simplify command-line stuff. Other instructors suggested I avoid variables too early, since they created the impression of a programming course, which scared off some students. Again&hellip; er. So I&rsquo;m officially waffling on that one: I don&rsquo;t <em>formally</em> cover variables until fairly late in the course (well, midway), but I <em>introduce</em> them quite early. It means students can potentially see and use variables on day 1, although I don&rsquo;t get into all the details about how they work, naming rules, and so on. The way I&rsquo;m writing them in, instructors also have the option to just gloss over them or skip them entirely if their students aren&rsquo;t ready.<br>
+I asked a few MCTs to look over some of my draft material and give me a delivery time estimate. I had pacing ranging from 2 minutes per slide to almost 8. Er. So I&rsquo;m going with fairly simple slides that have minimal bullets (always, in most folks&rsquo; opinion, the right thing to do). Instructors can then decide how deeply they&rsquo;ll cover the material based on their class&rsquo; needs. It does mean the instructor will need to be familiar with the material in advance - this will be a tough course to just pick up and teach ad-hoc. As, I believe, it should be.<br>
+If there&rsquo;s a theme here, it&rsquo;s that <em>you need a good instructor</em> teaching you. As a courseware author, all I can really do is provide raw material, and an instructional design that leads <em>most</em> students through a sensible learning progression. But the instructor&rsquo;s value-add is to be able to switch things up to meet the specific needs of their class. Every time an instructor tells me, &ldquo;oh, I always move Module 11 to the second day of class,&rdquo; I don&rsquo;t take it as a sign of bad instructional design - I take it as the sign of a good instructor who hopefully is making the change to benefit his class. But classes vary widely, and I kind of have to write for the worst-case scenario. That can sometimes make a course seem overly timid - but that&rsquo;s why the instructor is there, to add their own value, experience, examples, and demonstrations to further instruct and clarify.<br>
+So the one thing I&rsquo;m keeping in mind as I write 10961 is to <em>leave room for the instructor to shine.</em> Don&rsquo;t fill the course so full of information that the instructor has no wiggle room. Give the instructor the ability to go slowly and less deep for classes that need it, and to go faster and deeper for classes that need <em>that.</em> Provide instructors with notes on what can be skipped if necessary, and what&rsquo;s absolutely critical, so that they can triage. I&rsquo;ll be doing a prep video to help provide even more context to instructors in that regard, and to let them know that customizing the delivery is absolutely okay, provided they&rsquo;re doing so with an understanding of the original instructional design.<br>
+Fingers crossed.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-12-24-writing-10961-first-module-in-for-review/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell.org: our first year in review" 
+                     data-content="&lt;p&gt;in september 2012, we incorporated powershell.org, inc., and founded powershell.org. our goal was to provide a solid q&amp;amp;a forum, and to act as a portal to the rest of the powershell community.&lt;br&gt;
+by any measure, we&amp;rsquo;ve had a great first showing.&lt;br&gt;
+we have more than a dozen shareholders in powershell.org, inc., making this the first community-owned powershell organization ever. we&amp;rsquo;ve signed on three platinum sponsors - &lt;a href=&#34;http://cbtnuggets.com&#34;&gt;cbt nuggets&lt;/a&gt;, &lt;a href=&#34;http://sapien.com&#34; title=&#34;writing 10961: remoting&#34;&gt;sapien technologies&lt;/a&gt;, and &lt;a href=&#34;http://interfacett.com&#34;&gt;interface technical training&lt;/a&gt;. we&amp;rsquo;re now funded for 2-3 years of operation, including providing (upon request), gift cards to help local user groups pay for pizza and other monthly meeting expenses.&lt;br&gt;
+powershell.org is now taking an average of 18,000 visits per month from more than 12,000 unique visitors, with a total of almost 57,000 monthly page views. our forums have helped more than 760 people answer more than 850 questions.&lt;br&gt;
+microsoft&amp;rsquo;s scripting guy, ed wilson, has handed off the &lt;a href=&#34;/games/&#34;&gt;scripting games for 2013&lt;/a&gt;, and we&amp;rsquo;re preparing for a small-scale &amp;ldquo;winter scripting camp&amp;rdquo; trial run that will include a purpose-built platform for reviewing events, submitting entries, and judging. and by the looks of things, that platform will run on powershell itself.&lt;br&gt;
+we&amp;rsquo;ve announced our first &lt;a href=&#34;/summit/&#34;&gt;powershell summit north america&lt;/a&gt;, and have completely sold out. we&amp;rsquo;re already doing initial planning for 2014, aiming for a larger venue and hoping to accommodate twice as many attendees, and to fully cover speaker travel expenses.&lt;br&gt;
+we&amp;rsquo;ve launched &lt;a href=&#34;/people/&#34;&gt;powershell people&lt;/a&gt;, accessible via powershell.net, where you can write a powershell script to create and post your own profile and &amp;ldquo;brag&amp;rdquo; page about your powershell activities and accomplishments.&lt;br&gt;
+we&amp;rsquo;ve launched three free powershell.org-branded &lt;a href=&#34;http://powershellbooks.com&#34;&gt;ebooks&lt;/a&gt;, and are preparing to launch our &lt;a href=&#34;/newsletter/&#34;&gt;powershell.org techletter&lt;/a&gt; &lt;em&gt;monthly&lt;/em&gt; (!!!) e-mail newsletter complete with feature articles, news updates, and more. that&amp;rsquo;s by (free) subscription only, so &lt;a href=&#34;/newsletter/&#34;&gt;sign up&lt;/a&gt; if you haven&amp;rsquo;t done so already! we&amp;rsquo;ve also had help from &lt;a href=&#34;http://twitter.com/jhofferle&#34;&gt;jason hofferle&lt;/a&gt; on our new books page, rounding up all the free and commercial powershell books out there.&lt;br&gt;
+it&amp;rsquo;s been a whirlwind year, and it&amp;rsquo;s all thanks to you for supporting it. by asking questions in the forums, offering answers, creating your people page, registering for the summit, signing up for the newsletter - all of these little activities spur us all on to new heights, and we appreciate all the feedback you&amp;rsquo;ve offered. there will be more to come - follow the &lt;a href=&#34;http://twitter.com/powershellorg&#34;&gt;community on twitter&lt;/a&gt; (and the &lt;a href=&#34;https://twitter.com/pshsummit&#34;&gt;summit&lt;/a&gt; too, while you&amp;rsquo;re at it) for the latest announcements.if you&amp;rsquo;d like to contribute, just drop a note in the suggestion box &lt;a href=&#34;/discuss/&#34;&gt;forum&lt;/a&gt; - whether you want to help monitor a discussion forum, write book reviews, or whatever, there&amp;rsquo;s always room to contribute.&lt;br&gt;
+there have been some setbacks. &lt;a href=&#34;http://twitter.com/pen_test&#34;&gt;will steele&lt;/a&gt;, who had volunteered to populate our events page, has had to step down due to health problems. will has been a great contributor to the site and to the overall community, and we miss him. our thoughts are with him and his family this holiday season.&lt;br&gt;
+as we all wind down and look forward to the new year, i wanted to personally express my gratitude to everyone who&amp;rsquo;s helped make all of this happen. happy holidays, happy new year, and i&amp;rsquo;ll see you again in 2013!&lt;br&gt;
+don jones&lt;br&gt;
+president and ceo, powershell.org, inc.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 21, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-12-21-powershell-org-our-first-year-in-review/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell.org: Our First Year in Review
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In September 2012, we incorporated PowerShell.org, Inc., and founded PowerShell.org. Our goal was to provide a solid Q&amp;A forum, and to act as a portal to the rest of the PowerShell community.<br>
+By any measure, we&rsquo;ve had a great first showing.<br>
+We have more than a dozen shareholders in PowerShell.org, Inc., making this the first community-owned PowerShell organization ever. We&rsquo;ve signed on three Platinum sponsors - <a href="http://cbtnuggets.com">CBT Nuggets</a>, <a href="http://sapien.com" title="Writing 10961: Remoting">SAPIEN Technologies</a>, and <a href="http://interfacett.com">Interface Technical Training</a>. We&rsquo;re now funded for 2-3 years of operation, including providing (upon request), gift cards to help local user groups pay for pizza and other monthly meeting expenses.<br>
+PowerShell.org is now taking an average of 18,000 visits per month from more than 12,000 unique visitors, with a total of almost 57,000 monthly page views. Our forums have helped more than 760 people answer more than 850 questions.<br>
+Microsoft&rsquo;s Scripting Guy, Ed Wilson, has handed off the <a href="/games/">Scripting Games for 2013</a>, and we&rsquo;re preparing for a small-scale &ldquo;Winter Scripting Camp&rdquo; trial run that will include a purpose-built platform for reviewing events, submitting entries, and judging. And by the looks of things, that platform will run on PowerShell itself.<br>
+We&rsquo;ve announced our first <a href="/summit/">PowerShell Summit North America</a>, and have completely sold out. We&rsquo;re already doing initial planning for 2014, aiming for a larger venue and hoping to accommodate twice as many attendees, and to fully cover speaker travel expenses.<br>
+We&rsquo;ve launched <a href="/people/">PowerShell People</a>, accessible via PowerShell.net, where you can write a PowerShell script to create and post your own profile and &ldquo;brag&rdquo; page about your PowerShell activities and accomplishments.<br>
+We&rsquo;ve launched three free PowerShell.org-branded <a href="http://powershellbooks.com">ebooks</a>, and are preparing to launch our <a href="/newsletter/">PowerShell.org TechLetter</a> <em>monthly</em> (!!!) e-mail newsletter complete with feature articles, news updates, and more. That&rsquo;s by (free) subscription only, so <a href="/newsletter/">sign up</a> if you haven&rsquo;t done so already! We&rsquo;ve also had help from <a href="http://twitter.com/jhofferle">Jason Hofferle</a> on our new Books page, rounding up all the free and commercial PowerShell books out there.<br>
+It&rsquo;s been a whirlwind year, and it&rsquo;s all thanks to you for supporting it. By asking questions in the forums, offering answers, creating your People page, registering for the Summit, signing up for the Newsletter - all of these little activities spur us all on to new heights, and we appreciate all the feedback you&rsquo;ve offered. There will be more to come - follow the <a href="http://twitter.com/powershellorg">community on Twitter</a> (and the <a href="https://twitter.com/PSHSummit">Summit</a> too, while you&rsquo;re at it) for the latest announcements.If you&rsquo;d like to contribute, just drop a note in the Suggestion Box <a href="/discuss/">forum</a> - whether you want to help monitor a discussion forum, write book reviews, or whatever, there&rsquo;s always room to contribute.<br>
+There have been some setbacks. <a href="http://twitter.com/pen_test">Will Steele</a>, who had volunteered to populate our Events page, has had to step down due to health problems. Will has been a great contributor to the site and to the overall community, and we miss him. Our thoughts are with him and his family this holiday season.<br>
+As we all wind down and look forward to the New Year, I wanted to personally express my gratitude to everyone who&rsquo;s helped make all of this happen. Happy Holidays, Happy New Year, and I&rsquo;ll see you again in 2013!<br>
+Don Jones<br>
+President and CEO, PowerShell.org, Inc.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-12-21-powershell-org-our-first-year-in-review/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="writing 10961: remoting" 
+                     data-content="&lt;p&gt;as i write this, we&amp;rsquo;re close to sign-off on the outline of 10961a, which is a new 5-day microsoft course on powershell v3. i sat down yesterday and starting doing some detailed-level design work on the proposed module 9, which will cover powershell remoting.&lt;br&gt;
+i &lt;em&gt;love&lt;/em&gt; remoting (and yes, i capitalize the &amp;ldquo;r&amp;rdquo; when referring to the specific feature, much as i would for workflow). and although i&amp;rsquo;ve taught remoting over and over and over since it was introduced in v2, although with this course i&amp;rsquo;m trying something a bit new.&lt;br&gt;
+i&amp;rsquo;m going to start by covering the basics: what remoting is, what ws-man is (and yes, i know it&amp;rsquo;s formally called ws-management, but you never see it referred to that way in-product), what winrm is, and so on. i cover invoke-command and enter-pssession. then i get into some advanced stuff, primarily covering how to pass arguments to invoke-command via its -argumentlist parameter and an in-scriptblock param() block. surprisingly, &lt;em&gt;this isn&amp;rsquo;t covered in the examples of invoke-command in the help.&lt;/em&gt; i was shocked to discover that. i need to use that technique in module 10, so i&amp;rsquo;m covering it in 9.&lt;br&gt;
+then i get into sessions, and i also cover disconnected sessions. then the cool begins.&lt;br&gt;
+i cover both implicit remoting (which is tons easier to do in v3) and delegated administration via custom session configurations (also vastly easier in v3). in the penultimate lab for the module, students will create a remoting endpoint that contains a single command (set-adaccountpassword), have that command run under domain admin credentials, and restrict the endpoint to members of a helpdesk domain user group. voila, delegated administration! we don&amp;rsquo;t go so far as to build a gui tool atop it all, but that would be out of scope for this course. as-is, the lab covers an &lt;em&gt;extremely&lt;/em&gt; real-world use of powershell and remoting, and does it in a very practical and production-ready way. i think it&amp;rsquo;s gonna be awesome.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 21, 2012</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2012-12-21-writing-10961-remoting/" class="hover:text-blue-600 transition-colors duration-200">
+                            Writing 10961: Remoting
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As I write this, we&rsquo;re close to sign-off on the outline of 10961A, which is a new 5-day Microsoft course on PowerShell v3. I sat down yesterday and starting doing some detailed-level design work on the proposed Module 9, which will cover PowerShell Remoting.<br>
+I <em>love</em> Remoting (and yes, I capitalize the &ldquo;R&rdquo; when referring to the specific feature, much as I would for Workflow). And although I&rsquo;ve taught Remoting over and over and over since it was introduced in v2, although with this course I&rsquo;m trying something a bit new.<br>
+I&rsquo;m going to start by covering the basics: What Remoting is, what WS-MAN is (and yes, I know it&rsquo;s formally called WS-Management, but you never see it referred to that way in-product), what WinRM is, and so on. I cover Invoke-Command and Enter-PSSession. Then I get into some advanced stuff, primarily covering how to pass arguments to Invoke-Command via its -ArgumentList parameter and an in-scriptblock Param() block. Surprisingly, <em>this isn&rsquo;t covered in the examples of Invoke-Command in the help.</em> I was shocked to discover that. I need to use that technique in Module 10, so I&rsquo;m covering it in 9.<br>
+Then I get into sessions, and I also cover disconnected sessions. Then the cool begins.<br>
+I cover both implicit remoting (which is tons easier to do in v3) and delegated administration via custom session configurations (also vastly easier in v3). In the penultimate lab for the module, students will create a Remoting endpoint that contains a single command (Set-ADAccountPassword), have that command run under Domain Admin credentials, and restrict the endpoint to members of a HelpDesk domain user group. Voila, delegated administration! We don&rsquo;t go so far as to build a GUI tool atop it all, but that would be out of scope for this course. As-is, the lab covers an <em>extremely</em> real-world use of PowerShell and Remoting, and does it in a very practical and production-ready way. I think it&rsquo;s gonna be awesome.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2012-12-21-writing-10961-remoting/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="uk powershell group sessions for 2013" 
                      data-content="&lt;p&gt;this is the list of proposed sessions for 2013. it is subject to change depending on circumstances.&lt;/p&gt;
 &lt;p&gt;all sessions are delivered by live meeting on tuesdays at 7:30 uk time&lt;/p&gt;
@@ -446,7 +718,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-20-uk-powershell-group-sessions-for-2013/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-20-uk-powershell-group-sessions-for-2013/" class="hover:text-blue-600 transition-colors duration-200">
                             UK PowerShell Group sessions for 2013
                         </a>
                     </h2>
@@ -467,7 +739,7 @@
 17 December – PowerShell error handling</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-20-uk-powershell-group-sessions-for-2013/" 
+                        <a href="http://localhost:57259/articles/2012-12-20-uk-powershell-group-sessions-for-2013/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -501,7 +773,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-20-wmf-compatibility/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-20-wmf-compatibility/" class="hover:text-blue-600 transition-colors duration-200">
                             WMF compatibility
                         </a>
                     </h2>
@@ -512,7 +784,7 @@
 <p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2775/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2775/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2775&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-20-wmf-compatibility/" 
+                        <a href="http://localhost:57259/articles/2012-12-20-wmf-compatibility/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -550,7 +822,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-19-renaming-a-user/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-19-renaming-a-user/" class="hover:text-blue-600 transition-colors duration-200">
                             Renaming a user
                         </a>
                     </h2>
@@ -565,7 +837,7 @@
 <p>cn</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-19-renaming-a-user/" 
+                        <a href="http://localhost:57259/articles/2012-12-19-renaming-a-user/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -606,7 +878,7 @@ i&amp;rsquo;m looking forward to getting into the actual writing of the module o
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-18-writing-10961-the-ultimate-lab/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-18-writing-10961-the-ultimate-lab/" class="hover:text-blue-600 transition-colors duration-200">
                             Writing 10961: The Ultimate Lab
                         </a>
                     </h2>
@@ -620,7 +892,7 @@ This is actually a trimmed-down, more methodical version of a workshop I just di
 I&rsquo;m looking forward to getting into the actual writing of the module once the outline is approved; I think this&rsquo;ll really be the highlight of the course. It replaces a module in the older 10325A course (which I also wrote) where you break down a script <em>someone else wrote,</em> customizing it to run in your environment. While I think that&rsquo;s a useful skill, the feedback I got was that it wasn&rsquo;t the most interesting lab possible, and that the script I provided (written by Jeffery Hicks, actually) was pretty complex given the time allotted. This new lab provides the same beginning-to-end scripting opportunity, but hopefully folks will find it to be a lot more practical and useful, both educationally and when they get back to the office.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-18-writing-10961-the-ultimate-lab/" 
+                        <a href="http://localhost:57259/articles/2012-12-18-writing-10961-the-ultimate-lab/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -654,7 +926,7 @@ I&rsquo;m looking forward to getting into the actual writing of the module once 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-18-powershell-deep-dives/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-18-powershell-deep-dives/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Deep Dives
                         </a>
                     </h2>
@@ -665,7 +937,7 @@ I&rsquo;m looking forward to getting into the actual writing of the module once 
 <p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2772/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2772/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2772&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-18-powershell-deep-dives/" 
+                        <a href="http://localhost:57259/articles/2012-12-18-powershell-deep-dives/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -712,7 +984,7 @@ I&rsquo;m looking forward to getting into the actual writing of the module once 
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-12-10-phillyposh-12062012-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2012-12-10-phillyposh-12062012-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 12/06/2012 meeting summary and presentation materials
                         </a>
                     </h2>
@@ -736,227 +1008,7 @@ I&rsquo;m looking forward to getting into the actual writing of the module once 
 </ul></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-12-10-phillyposh-12062012-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="what to do if you don&#39;t score a powershell summit ticket" 
-                     data-content="&lt;p&gt;as i write this, we&amp;rsquo;re down to one ticket for the &lt;a href=&#34;http://powershellsummit.org&#34;&gt;powershell summit north america 2013&lt;/a&gt;. so what do you do if you really wanted to go, but miss that last, golden ticket?&lt;/p&gt;
-&lt;h2 id=&#34;cry-a-little&#34;&gt;cry a little&lt;/h2&gt;
-&lt;p&gt;let&amp;rsquo;s face it, this was totally avoidable. it&amp;rsquo;s probably your boss&amp;rsquo; fault for not approving the expense, and so some subtle retribution may be in order. burn the coffee for a week. reboot domain controllers randomly. you know, just sulk.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 24, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-11-24-what-to-do-if-you-dont-score-a-powershell-summit-ticket/" class="hover:text-blue-600 transition-colors duration-200">
-                            What To Do If You Don&#39;t Score a PowerShell Summit Ticket
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>As I write this, we&rsquo;re down to one ticket for the <a href="http://powershellsummit.org">PowerShell Summit North America 2013</a>. So what do you do if you really wanted to go, but miss that last, golden ticket?</p>
-<h2 id="cry-a-little">Cry a Little</h2>
-<p>Let&rsquo;s face it, this was totally avoidable. It&rsquo;s probably your boss&rsquo; fault for not approving the expense, and so some subtle retribution may be in order. Burn the coffee for a week. Reboot domain controllers randomly. You know, just sulk.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-11-24-what-to-do-if-you-dont-score-a-powershell-summit-ticket/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="help beta-test a new free ebook on powershell reporting" 
-                     data-content="&lt;p&gt;i&amp;rsquo;ve &lt;a href=&#34;https://powershell.org/2012/11/16/charts-in-powershell-generated-reports/&#34; title=&#34;charts in powershell-generated reports&#34;&gt;written previously&lt;/a&gt; about my frustration with reporting in powershell - how i see admins struggle with ugly, low-level com code to manipulate excel spreadsheets, just so they can get nice-looking reports with a degree of automation.&lt;br&gt;
-enough.&lt;br&gt;
-the &lt;em&gt;right&lt;/em&gt; thing to do is put your data in sql server, and use sql server reporting services to generate &lt;em&gt;awesome&lt;/em&gt; looking reports, complete with charts and graphs. with the right setup, you can completely automate data collection, report generation, and delivery. and it doesn&amp;rsquo;t have to cost &lt;em&gt;a single dime.&lt;/em&gt; plus, the learning curve isn&amp;rsquo;t too steep, and the skills you&amp;rsquo;ll learn along the way will be &lt;em&gt;massively&lt;/em&gt; beneficial to you over the long haul - far more so than the time sunk into becoming an excel jockey.&lt;br&gt;
-so i&amp;rsquo;ve written a little book about it, which you&amp;rsquo;ll find on at &lt;a href=&#34;https://powershell.org/ebooks&#34;&gt;https://powershell.org/ebooks&lt;/a&gt;, entitled &lt;em&gt;making historical and trend reports in powershell.&lt;/em&gt; unlike my earlier book on html reporting, which was mainly around producing inventory reports, this one&amp;rsquo;s specifically designed to make reports based on collected-over-time data, like disk utilization, performance, and so on. and i&amp;rsquo;ve bundled in a powershell module that should make this &lt;em&gt;easy,&lt;/em&gt; insulating you from 99% of the sql server-related stuff.&lt;br&gt;
-right now (november 2012) i&amp;rsquo;m looking for folks to test stuff out and let me know (via comments here) if you find any problems. i want to make sure that what i&amp;rsquo;ve got in here works and is understandable. final publication is scheduled for january 2013, after which i&amp;rsquo;ll start taking suggestions for stuff to add to the book.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 18, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-11-18-help-beta-test-a-new-free-ebook-on-powershell-reporting/" class="hover:text-blue-600 transition-colors duration-200">
-                            Help Beta-Test a New Free eBook on PowerShell Reporting
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;ve <a href="https://powershell.org/2012/11/16/charts-in-powershell-generated-reports/" title="Charts in PowerShell-Generated Reports">written previously</a> about my frustration with reporting in PowerShell - how I see admins struggle with ugly, low-level COM code to manipulate Excel spreadsheets, just so they can get nice-looking reports with a degree of automation.<br>
-Enough.<br>
-The <em>right</em> thing to do is put your data in SQL Server, and use SQL Server Reporting Services to generate <em>awesome</em> looking reports, complete with charts and graphs. With the right setup, you can completely automate data collection, report generation, and delivery. And it doesn&rsquo;t have to cost <em>a single dime.</em> Plus, the learning curve isn&rsquo;t too steep, and the skills you&rsquo;ll learn along the way will be <em>massively</em> beneficial to you over the long haul - far more so than the time sunk into becoming an Excel jockey.<br>
-So I&rsquo;ve written a little book about it, which you&rsquo;ll find on at <a href="https://powershell.org/ebooks">https://powershell.org/ebooks</a>, entitled <em>Making Historical and Trend Reports in PowerShell.</em> Unlike my earlier book on HTML reporting, which was mainly around producing inventory reports, this one&rsquo;s specifically designed to make reports based on collected-over-time data, like disk utilization, performance, and so on. And I&rsquo;ve bundled in a PowerShell module that should make this <em>easy,</em> insulating you from 99% of the SQL Server-related stuff.<br>
-Right now (November 2012) I&rsquo;m looking for folks to test stuff out and let me know (via comments here) if you find any problems. I want to make sure that what I&rsquo;ve got in here works and is understandable. Final publication is scheduled for January 2013, after which I&rsquo;ll start taking suggestions for stuff to add to the book.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-11-18-help-beta-test-a-new-free-ebook-on-powershell-reporting/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="charts in powershell-generated reports" 
-                     data-content="&lt;p&gt;so, as you may know, i have an ongoing hobby project called _creating html reports in powershell. _i&amp;rsquo;m working on an update for next year, and one of the things i&amp;rsquo;ve been looking at are embedded charts within the report.&lt;br&gt;
-problem is, i don&amp;rsquo;t know what people would actually chart. now&amp;hellip; i&amp;rsquo;m going to ask you for ideas, but you need to read this whole post before you go popping a comment in. because there are some restrictions.&lt;br&gt;
-&lt;strong&gt;first&lt;/strong&gt;, i&amp;rsquo;m 
-not talking about historical data or trend reports
-. those require a data store of historical data. if you&amp;rsquo;re not using sql server for that (even free sql express), learn how. excel isâ 
-not
-your trend database, no matter how little learning it requires (and i bet if you added up all the time you&amp;rsquo;ve spent becoming an excel jockey, you&amp;rsquo;d be shocked). once you&amp;rsquo;ve got the data in sql (even express), you can use sql server reporting services (ssrs) to generate truly kick-butt reports with very little effort. reports which can be scheduled and e-mailed. truly, folks, this is worth spending time on - and i may make that my next ebook project.&lt;br&gt;
-**second, **don&amp;rsquo;t tell me &amp;ldquo;disk space.&amp;rdquo; i know that one. pie and stacked bar charts showing size/free space are a great idea. got it. anything else?&lt;br&gt;
-**third, **i&amp;rsquo;m not talking about performance charts. perfmon does those, and also, see my first point. powershell is not a performance monitoring tool. operations manager is. oh, and it dumps data into sql server and you can use ssrs to report on it. if your company needs historical performance reports (and most probably do) and is to cheap to get you a real monitoring solution, consider taking drastic measures. i&amp;rsquo;m not suggesting you put ex-lax in the boss&amp;rsquo; coffee every time he asks you to re-create opsman on your own. he&amp;rsquo;d deserve it, and it might help, but i&amp;rsquo;m not suggesting it.&lt;br&gt;
-in keeping with point 3, that means i don&amp;rsquo;t want suggestions like &amp;ldquo;charts showing network throughput.&amp;rdquo; that&amp;rsquo;s performance. i&amp;rsquo;m not suggesting such a thing wouldn&amp;rsquo;t be useful, because i know it would be. i&amp;rsquo;m saying it&amp;rsquo;s out of scope for this particular project. if you give me in-scope suggestions, i&amp;rsquo;ll build you a tool. fire off out-of-scope stuff and i&amp;rsquo;m just going to go build a kegerator for my beer instead.&lt;br&gt;
-&lt;strong&gt;so&lt;/strong&gt;&amp;hellip; given those restrictions, what sort of data could you query from a computer (say, using wmi/cim or something) that you&amp;rsquo;d want displayed in chart form? anything?&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 16, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-11-16-charts-in-powershell-generated-reports/" class="hover:text-blue-600 transition-colors duration-200">
-                            Charts in PowerShell-Generated Reports
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>So, as you may know, I have an ongoing hobby project called _Creating HTML Reports in PowerShell. _I&rsquo;m working on an update for next year, and one of the things I&rsquo;ve been looking at are embedded charts within the report.<br>
-Problem is, I don&rsquo;t know what people would actually chart. Now&hellip; I&rsquo;m going to ask you for ideas, but you need to read this whole post before you go popping a comment in. Because there are some restrictions.<br>
-<strong>First</strong>, I&rsquo;m 
-not talking about historical data or trend reports
-. Those require a data store of historical data. If you&rsquo;re not using SQL Server for that (even free SQL Express), learn how. Excel isÂ 
-not
-your trend database, no matter how little learning it requires (and I bet if you added up all the time you&rsquo;ve spent becoming an Excel jockey, you&rsquo;d be shocked). Once you&rsquo;ve got the data in SQL (even Express), you can use SQL Server Reporting Services (SSRS) to generate truly kick-butt reports with very little effort. Reports which can be scheduled and e-mailed. Truly, folks, this is worth spending time on - and I may make that my next ebook project.<br>
-**Second, **don&rsquo;t tell me &ldquo;disk space.&rdquo; I know that one. Pie and stacked bar charts showing size/free space are a great idea. Got it. Anything else?<br>
-**Third, **I&rsquo;m not talking about performance charts. PerfMon does those, and also, see my first point. PowerShell is not a performance monitoring tool. Operations Manager is. Oh, and it dumps data into SQL Server and you can use SSRS to report on it. If your company needs historical performance reports (and most probably do) and is to cheap to get you a real monitoring solution, consider taking drastic measures. I&rsquo;m not suggesting you put Ex-Lax in the boss&rsquo; coffee every time he asks you to re-create OpsMan on your own. He&rsquo;d deserve it, and it might help, but I&rsquo;m not suggesting it.<br>
-In keeping with point 3, that means I don&rsquo;t want suggestions like &ldquo;charts showing network throughput.&rdquo; That&rsquo;s performance. I&rsquo;m not suggesting such a thing wouldn&rsquo;t be useful, because I know it would be. I&rsquo;m saying it&rsquo;s out of scope for this particular project. If you give me in-scope suggestions, I&rsquo;ll build you a tool. Fire off out-of-scope stuff and I&rsquo;m just going to go build a kegerator for my beer instead.<br>
-<strong>SO</strong>&hellip; given those restrictions, what sort of data could you query from a computer (say, using WMI/CIM or something) that you&rsquo;d want displayed in chart form? Anything?</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-11-16-charts-in-powershell-generated-reports/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="verify your powershell skills" 
-                     data-content="&lt;p&gt;a long time ago&amp;hellip; about a year, in fact&amp;hellip; &lt;a href=&#34;http://twitter.com/thejasonhelmick&#34;&gt;jason helmick&lt;/a&gt;â and i started talking about a community-owned powershell &amp;ldquo;certification.&amp;rdquo; it went nowhere. well, not very far.&lt;br&gt;
-some background on exams: microsoft, in my opinion, will &lt;strong&gt;never&lt;/strong&gt; do a powershell cert. i say this having been part owner of a company that did outsourced exam development for the company. the deal is that microsoft tries to certifyâ _job tasks,â _notâ _tools.â _nobody (well, maybe me) wakes up thinking, &amp;ldquo;gonna do me some powershell today.&amp;rdquo; no, powershell is the means to an end: &amp;ldquo;gonna automate me some user creation today&amp;rdquo; is more likely. and microsoft tries to certify that end. powershell&amp;rsquo;s an important tool, and it already shows up on certification exams here and there.&lt;br&gt;
-for the most part, i agree with microsoft&amp;rsquo;s reasoning, there. the argument can be summarized as saying &amp;ldquo;bosses don&amp;rsquo;t hire it pros based on their ability to operate a low-level tool, they hire them to perform job tasks, whichâ &lt;em&gt;encompasses&lt;/em&gt; the tool.&amp;rdquo; except that, in the case of powershell, i think it&amp;rsquo;d beâ &lt;em&gt;tremendously&lt;/em&gt; useful for an employer to use powershell expertise as a discriminating factor in hiring. i mean, &amp;ldquo;someone who can automate stuff&amp;rdquo; is more valuable than &amp;ldquo;someone who can only do stuff manually,&amp;rdquo; in any situation.&lt;br&gt;
-so &amp;ldquo;powershell verified&amp;rdquo; was intended to be a way for someone to prove - at least to themselves - that they&amp;rsquo;ve taken their powershell skillsâ _to the minimum level necessary to be an effective automator.â _not a guru. not an expert. not &lt;a href=&#34;http://poshoholic.com&#34;&gt;poshoholic&lt;/a&gt;.â _minimally effective,â _who could then grow from there with experience.&lt;br&gt;
-so that&amp;rsquo;s what i&amp;rsquo;m going to put together.&lt;br&gt;
-i want to explain why i&amp;rsquo;m not using the word &amp;ldquo;certification,&amp;rdquo; though. in my mind, certifications come from, mainly, first-parties like microsoft. microsoft has to jump through a lot of hoops to make sure their exam content is accurate, legally defensible, blah blah blah. they worry about security, brain dumps, and other stuff that diminishes the value of the certification. i don&amp;rsquo;t have that kind of bandwidth or their resources, so in many ways my little program will be less effective than a &amp;ldquo;real&amp;rdquo; certification. plus, few bosses will give a rat&amp;rsquo;s patooty what that don jones guy said about your skillz (i can&amp;rsquo;t even convince bosses to buy you guys 12-core 64gb workstations for your desk). so my &amp;ldquo;verified&amp;rdquo; program is going to beâ _low stakes,â _meaning you take it to prove something toâ _
-yourself
-_.&lt;br&gt;
-here&amp;rsquo;s how this is going to go.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 9, 2012</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2012-11-09-verify-your-powershell-skills/" class="hover:text-blue-600 transition-colors duration-200">
-                            Verify Your PowerShell Skills
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>A long time ago&hellip; about a year, in fact&hellip; <a href="http://twitter.com/thejasonhelmick">Jason Helmick</a>Â and I started talking about a community-owned PowerShell &ldquo;certification.&rdquo; It went nowhere. Well, not very far.<br>
-Some background on exams: Microsoft, in my opinion, will <strong>never</strong> do a PowerShell cert. I say this having been part owner of a company that did outsourced exam development for the company. The deal is that Microsoft tries to certifyÂ _job tasks,Â _notÂ _tools.Â _Nobody (well, maybe me) wakes up thinking, &ldquo;gonna do me some PowerShell today.&rdquo; No, PowerShell is the means to an end: &ldquo;gonna automate me some user creation today&rdquo; is more likely. And Microsoft tries to certify that end. PowerShell&rsquo;s an important tool, and it already shows up on certification exams here and there.<br>
-For the most part, I agree with Microsoft&rsquo;s reasoning, there. The argument can be summarized as saying &ldquo;bosses don&rsquo;t hire IT pros based on their ability to operate a low-level tool, they hire them to perform job tasks, whichÂ <em>encompasses</em> the tool.&rdquo; Except that, in the case of PowerShell, I think it&rsquo;d beÂ <em>tremendously</em> useful for an employer to use PowerShell expertise as a discriminating factor in hiring. I mean, &ldquo;someone who can automate stuff&rdquo; is more valuable than &ldquo;someone who can only do stuff manually,&rdquo; in any situation.<br>
-So &ldquo;PowerShell Verified&rdquo; was intended to be a way for someone to prove - at least to themselves - that they&rsquo;ve taken their PowerShell skillsÂ _to the minimum level necessary to be an effective automator.Â _Not a guru. Not an expert. Not <a href="http://poshoholic.com">Poshoholic</a>.Â _Minimally effective,Â _who could then grow from there with experience.<br>
-So that&rsquo;s what I&rsquo;m going to put together.<br>
-I want to explain why I&rsquo;m not using the word &ldquo;Certification,&rdquo; though. In my mind, certifications come from, mainly, first-parties like Microsoft. Microsoft has to jump through a lot of hoops to make sure their exam content is accurate, legally defensible, blah blah blah. They worry about security, brain dumps, and other stuff that diminishes the value of the certification. I don&rsquo;t have that kind of bandwidth or their resources, so in many ways my little program will be less effective than a &ldquo;real&rdquo; certification. Plus, few bosses will give a rat&rsquo;s patooty what that Don Jones guy said about your skillz (I can&rsquo;t even convince bosses to buy you guys 12-core 64GB workstations for your desk). So my &ldquo;Verified&rdquo; program is going to beÂ _low stakes,Â _meaning you take it to prove something toÂ _
-yourself
-_.<br>
-Here&rsquo;s how this is going to go.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2012-11-09-verify-your-powershell-skills/" 
+                        <a href="http://localhost:57259/articles/2012-12-10-phillyposh-12062012-meeting-summary-and-presentation-materials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1438,7 +1490,7 @@ Here&rsquo;s how this is going to go.</p></p>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jonathan Medd on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/jonathan-medd/</link>
+    <link>http://localhost:57259/authors/jonathan-medd/</link>
     <description>Recent content in Jonathan Medd on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Feb 2014 17:41:19 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/jonathan-medd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/jonathan-medd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing for the Presence of a Registry Key and Value</title>
-      <link>https://powershell.org/articles/2014-02-10-testing-for-the-presence-of-a-registry-key-and-value/</link>
+      <link>http://localhost:57259/articles/2014-02-10-testing-for-the-presence-of-a-registry-key-and-value/</link>
       <pubDate>Mon, 10 Feb 2014 17:41:19 +0000</pubDate>
-      <guid>https://powershell.org/articles/2014-02-10-testing-for-the-presence-of-a-registry-key-and-value/</guid>
+      <guid>http://localhost:57259/articles/2014-02-10-testing-for-the-presence-of-a-registry-key-and-value/</guid>
       <description>&lt;p&gt;There are a number of different ways to test for the presence of a registry key and value in PowerShell. Here’s how I like to go about it. We’ll use an example key &lt;strong&gt;HKLM:\SOFTWARE\TestSoftware&lt;/strong&gt; with a single value &lt;strong&gt;Version&lt;/strong&gt;:&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-and-value.html&#34;&gt;Click here&lt;/a&gt; to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reporting On Installed Windows Programs Via The Registry</title>
-      <link>https://powershell.org/articles/2014-01-31-reporting-on-installed-windows-programs-via-the-registry/</link>
+      <link>http://localhost:57259/articles/2014-01-31-reporting-on-installed-windows-programs-via-the-registry/</link>
       <pubDate>Fri, 31 Jan 2014 14:37:18 +0000</pubDate>
-      <guid>https://powershell.org/articles/2014-01-31-reporting-on-installed-windows-programs-via-the-registry/</guid>
+      <guid>http://localhost:57259/articles/2014-01-31-reporting-on-installed-windows-programs-via-the-registry/</guid>
       <description>&lt;p&gt;Quite a common request for working with Windows machines is to report the software installed on them. If you don’t have a centralised system for reporting on client software (many places don’t) then you may turn to some form of scripted method to obtain this information.&lt;br&gt;&#xA;Most people tend to head to &lt;strong&gt;Add / Remove Programs&lt;/strong&gt; when thinking about what software is installed in Windows. However, not all applications will always populate information in there, depending on how they have been installed. Additionally, to query that information you would typically query the WMI class Win32_Product, however this &lt;a href=&#34;http://support.microsoft.com/kb/974524&#34;&gt;can lead to performance issues&lt;/a&gt;.&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jonathanmedd.net/2014/01/reporting-on-installed-windows-programs-via-the-registry.html&#34;&gt;Click here&lt;/a&gt; to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adding and Removing Items from a PowerShell Array</title>
-      <link>https://powershell.org/articles/2014-01-21-adding-and-removing-items-from-a-powershell-array/</link>
+      <link>http://localhost:57259/articles/2014-01-21-adding-and-removing-items-from-a-powershell-array/</link>
       <pubDate>Tue, 21 Jan 2014 11:46:35 +0000</pubDate>
-      <guid>https://powershell.org/articles/2014-01-21-adding-and-removing-items-from-a-powershell-array/</guid>
+      <guid>http://localhost:57259/articles/2014-01-21-adding-and-removing-items-from-a-powershell-array/</guid>
       <description>&lt;p&gt;Adding and removing Items from a PowerShell array is a topic which can lead to some confusion, so here are a few tips for you.&lt;br&gt;&#xA;Create an array and we will note the type &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.array(v=vs.110).aspx&#34;&gt;System.Array&lt;/a&gt;:&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jonathanmedd.net/2014/01/adding-and-removing-items-from-a-powershell-array.html&#34;&gt;Click here&lt;/a&gt; to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing for Admin Privileges in PowerShell</title>
-      <link>https://powershell.org/articles/2014-01-21-testing-for-admin-privileges-in-powershell/</link>
+      <link>http://localhost:57259/articles/2014-01-21-testing-for-admin-privileges-in-powershell/</link>
       <pubDate>Tue, 21 Jan 2014 10:27:53 +0000</pubDate>
-      <guid>https://powershell.org/articles/2014-01-21-testing-for-admin-privileges-in-powershell/</guid>
+      <guid>http://localhost:57259/articles/2014-01-21-testing-for-admin-privileges-in-powershell/</guid>
       <description>&lt;p&gt;Sometimes when running a PowerShell script you may need to test at the beginning whether the process it was called from had Windows admin privileges in order to be able to achieve what it needs to do. Prior to PowerShell v4 I had used something along the lines of the following to test for this condition – not the most obvious piece of code ever to be fair:&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jonathanmedd.net/2014/01/testing-for-admin-privileges-in-powershell.html&#34;&gt;Click here&lt;/a&gt; to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Winter Scripting Games 2014</title>
-      <link>https://powershell.org/articles/2014-01-14-winter-scripting-games-2014/</link>
+      <link>http://localhost:57259/articles/2014-01-14-winter-scripting-games-2014/</link>
       <pubDate>Tue, 14 Jan 2014 10:00:48 +0000</pubDate>
-      <guid>https://powershell.org/articles/2014-01-14-winter-scripting-games-2014/</guid>
+      <guid>http://localhost:57259/articles/2014-01-14-winter-scripting-games-2014/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2014/01/PowerShell-Scripting-Games-Logo.png&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2014/01/PowerShell-Scripting-Games-Logo.png&#34; alt=&#34;PowerShell-Scripting-Games-Logo&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;If you’re looking to learn or improve on existing skills as part of a new year goal and one of those in PowerShell, then you may find it useful to check out the &lt;a href=&#34;https://powershell.org/category/announcements/scripting-games/page/2/&#34;&gt;Winter Scripting Games 2014&lt;/a&gt;. When you are looking to improve your scripting skills it can sometimes be tricky if you don’t have a practical problem to solve. By taking part in these games you will have a number of opportunities to apply your skills to _real _problems.&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jonathanmedd.net/2014/01/winter-scripting-games-2014.html&#34;&gt;Click here&lt;/a&gt; to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.&lt;/p&gt;</description>
     </item>
   </channel>

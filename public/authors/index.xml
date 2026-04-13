@@ -2,556 +2,570 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PowerShell Authors on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/</link>
+    <link>http://localhost:57259/authors/</link>
     <description>Recent content in PowerShell Authors on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Mar 2026 14:24:01 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>James Petty</title>
-      <link>https://powershell.org/authors/james-petty/</link>
+      <link>http://localhost:57259/authors/james-petty/</link>
       <pubDate>Mon, 30 Mar 2026 14:24:01 +0000</pubDate>
-      <guid>https://powershell.org/authors/james-petty/</guid>
+      <guid>http://localhost:57259/authors/james-petty/</guid>
       <description></description>
     </item>
     <item>
       <title>Mike Kanakos</title>
-      <link>https://powershell.org/authors/mike-kanakos/</link>
+      <link>http://localhost:57259/authors/mike-kanakos/</link>
       <pubDate>Fri, 08 Mar 2024 18:11:49 +0000</pubDate>
-      <guid>https://powershell.org/authors/mike-kanakos/</guid>
+      <guid>http://localhost:57259/authors/mike-kanakos/</guid>
       <description></description>
     </item>
     <item>
       <title>Cole McDonald</title>
-      <link>https://powershell.org/authors/cole-mcdonald/</link>
+      <link>http://localhost:57259/authors/cole-mcdonald/</link>
       <pubDate>Thu, 28 Jul 2022 18:45:52 +0000</pubDate>
-      <guid>https://powershell.org/authors/cole-mcdonald/</guid>
+      <guid>http://localhost:57259/authors/cole-mcdonald/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chris Martin</title>
+      <link>http://localhost:57259/authors/chris-martin/</link>
+      <pubDate>Sat, 30 Apr 2022 05:42:47 +0000</pubDate>
+      <guid>http://localhost:57259/authors/chris-martin/</guid>
       <description></description>
     </item>
     <item>
       <title>Robin Dadswell</title>
-      <link>https://powershell.org/authors/robin-dadswell/</link>
+      <link>http://localhost:57259/authors/robin-dadswell/</link>
       <pubDate>Fri, 22 Oct 2021 19:03:25 +0000</pubDate>
-      <guid>https://powershell.org/authors/robin-dadswell/</guid>
+      <guid>http://localhost:57259/authors/robin-dadswell/</guid>
       <description></description>
     </item>
     <item>
       <title>N2501r</title>
-      <link>https://powershell.org/authors/n2501r/</link>
+      <link>http://localhost:57259/authors/n2501r/</link>
       <pubDate>Wed, 16 Dec 2020 22:34:38 +0000</pubDate>
-      <guid>https://powershell.org/authors/n2501r/</guid>
+      <guid>http://localhost:57259/authors/n2501r/</guid>
       <description></description>
     </item>
     <item>
       <title>Tobor79</title>
-      <link>https://powershell.org/authors/tobor79/</link>
+      <link>http://localhost:57259/authors/tobor79/</link>
       <pubDate>Thu, 05 Nov 2020 18:53:35 +0000</pubDate>
-      <guid>https://powershell.org/authors/tobor79/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jonathan Walz</title>
-      <link>https://powershell.org/authors/jonathan-walz/</link>
-      <pubDate>Sat, 11 Jul 2020 01:27:04 +0000</pubDate>
-      <guid>https://powershell.org/authors/jonathan-walz/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jeffery Hicks</title>
-      <link>https://powershell.org/authors/jeffery-hicks/</link>
-      <pubDate>Tue, 16 Jun 2020 21:17:21 +0000</pubDate>
-      <guid>https://powershell.org/authors/jeffery-hicks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mark Kraus (Markekraus)</title>
-      <link>https://powershell.org/authors/mark-kraus-markekraus/</link>
-      <pubDate>Sat, 21 Mar 2020 13:00:38 +0000</pubDate>
-      <guid>https://powershell.org/authors/mark-kraus-markekraus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Don Jones</title>
-      <link>https://powershell.org/authors/don-jones/</link>
-      <pubDate>Wed, 22 Jan 2020 16:42:23 +0000</pubDate>
-      <guid>https://powershell.org/authors/don-jones/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eric Brookman (Scriptingcaveman)</title>
-      <link>https://powershell.org/authors/eric-brookman-scriptingcaveman/</link>
-      <pubDate>Fri, 03 Jan 2020 19:47:36 +0000</pubDate>
-      <guid>https://powershell.org/authors/eric-brookman-scriptingcaveman/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pscookiemonster</title>
-      <link>https://powershell.org/authors/pscookiemonster/</link>
-      <pubDate>Tue, 15 Oct 2019 13:14:41 +0000</pubDate>
-      <guid>https://powershell.org/authors/pscookiemonster/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Colyn Via</title>
-      <link>https://powershell.org/authors/colyn-via/</link>
-      <pubDate>Thu, 12 Sep 2019 21:35:34 +0000</pubDate>
-      <guid>https://powershell.org/authors/colyn-via/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Missy Januszko</title>
-      <link>https://powershell.org/authors/missy-januszko/</link>
-      <pubDate>Tue, 03 Sep 2019 17:42:35 +0000</pubDate>
-      <guid>https://powershell.org/authors/missy-januszko/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mark Roloff</title>
-      <link>https://powershell.org/authors/mark-roloff/</link>
-      <pubDate>Fri, 26 Jul 2019 15:00:09 +0000</pubDate>
-      <guid>https://powershell.org/authors/mark-roloff/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nathaniel Webb (ArtisanByteCrafter)</title>
-      <link>https://powershell.org/authors/nathaniel-webb-artisanbytecrafter/</link>
-      <pubDate>Mon, 08 Jul 2019 21:28:23 +0000</pubDate>
-      <guid>https://powershell.org/authors/nathaniel-webb-artisanbytecrafter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Will Anderson</title>
-      <link>https://powershell.org/authors/will-anderson/</link>
-      <pubDate>Mon, 06 May 2019 16:00:29 +0000</pubDate>
-      <guid>https://powershell.org/authors/will-anderson/</guid>
+      <guid>http://localhost:57259/authors/tobor79/</guid>
       <description></description>
     </item>
     <item>
       <title>Pwshliquori</title>
-      <link>https://powershell.org/authors/pwshliquori/</link>
-      <pubDate>Mon, 29 Apr 2019 18:52:07 +0000</pubDate>
-      <guid>https://powershell.org/authors/pwshliquori/</guid>
+      <link>http://localhost:57259/authors/pwshliquori/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57259/authors/pwshliquori/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jonathan Walz</title>
+      <link>http://localhost:57259/authors/jonathan-walz/</link>
+      <pubDate>Sat, 11 Jul 2020 01:27:04 +0000</pubDate>
+      <guid>http://localhost:57259/authors/jonathan-walz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jeffery Hicks</title>
+      <link>http://localhost:57259/authors/jeffery-hicks/</link>
+      <pubDate>Tue, 16 Jun 2020 21:17:21 +0000</pubDate>
+      <guid>http://localhost:57259/authors/jeffery-hicks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mark Kraus (Markekraus)</title>
+      <link>http://localhost:57259/authors/mark-kraus-markekraus/</link>
+      <pubDate>Sat, 21 Mar 2020 13:00:38 +0000</pubDate>
+      <guid>http://localhost:57259/authors/mark-kraus-markekraus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adazlian12</title>
+      <link>http://localhost:57259/authors/adazlian12/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57259/authors/adazlian12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Don Jones</title>
+      <link>http://localhost:57259/authors/don-jones/</link>
+      <pubDate>Wed, 22 Jan 2020 16:42:23 +0000</pubDate>
+      <guid>http://localhost:57259/authors/don-jones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eric Brookman (Scriptingcaveman)</title>
+      <link>http://localhost:57259/authors/eric-brookman-scriptingcaveman/</link>
+      <pubDate>Fri, 03 Jan 2020 19:47:36 +0000</pubDate>
+      <guid>http://localhost:57259/authors/eric-brookman-scriptingcaveman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pscookiemonster</title>
+      <link>http://localhost:57259/authors/pscookiemonster/</link>
+      <pubDate>Tue, 15 Oct 2019 13:14:41 +0000</pubDate>
+      <guid>http://localhost:57259/authors/pscookiemonster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colyn Via</title>
+      <link>http://localhost:57259/authors/colyn-via/</link>
+      <pubDate>Thu, 12 Sep 2019 21:35:34 +0000</pubDate>
+      <guid>http://localhost:57259/authors/colyn-via/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Missy Januszko</title>
+      <link>http://localhost:57259/authors/missy-januszko/</link>
+      <pubDate>Tue, 03 Sep 2019 17:42:35 +0000</pubDate>
+      <guid>http://localhost:57259/authors/missy-januszko/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mark Roloff</title>
+      <link>http://localhost:57259/authors/mark-roloff/</link>
+      <pubDate>Fri, 26 Jul 2019 15:00:09 +0000</pubDate>
+      <guid>http://localhost:57259/authors/mark-roloff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nathaniel Webb (ArtisanByteCrafter)</title>
+      <link>http://localhost:57259/authors/nathaniel-webb-artisanbytecrafter/</link>
+      <pubDate>Mon, 08 Jul 2019 21:28:23 +0000</pubDate>
+      <guid>http://localhost:57259/authors/nathaniel-webb-artisanbytecrafter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Will Anderson</title>
+      <link>http://localhost:57259/authors/will-anderson/</link>
+      <pubDate>Mon, 06 May 2019 16:00:29 +0000</pubDate>
+      <guid>http://localhost:57259/authors/will-anderson/</guid>
       <description></description>
     </item>
     <item>
       <title>Brett</title>
-      <link>https://powershell.org/authors/brett/</link>
+      <link>http://localhost:57259/authors/brett/</link>
       <pubDate>Fri, 22 Feb 2019 16:00:51 +0000</pubDate>
-      <guid>https://powershell.org/authors/brett/</guid>
+      <guid>http://localhost:57259/authors/brett/</guid>
       <description></description>
     </item>
     <item>
       <title>Aaron Jensen</title>
-      <link>https://powershell.org/authors/aaron-jensen/</link>
+      <link>http://localhost:57259/authors/aaron-jensen/</link>
       <pubDate>Thu, 14 Feb 2019 18:17:40 +0000</pubDate>
-      <guid>https://powershell.org/authors/aaron-jensen/</guid>
+      <guid>http://localhost:57259/authors/aaron-jensen/</guid>
       <description></description>
     </item>
     <item>
       <title>Greg Tate</title>
-      <link>https://powershell.org/authors/greg-tate/</link>
+      <link>http://localhost:57259/authors/greg-tate/</link>
       <pubDate>Fri, 12 Oct 2018 15:00:00 +0000</pubDate>
-      <guid>https://powershell.org/authors/greg-tate/</guid>
+      <guid>http://localhost:57259/authors/greg-tate/</guid>
       <description></description>
     </item>
     <item>
       <title>Eli Hess</title>
-      <link>https://powershell.org/authors/eli-hess/</link>
+      <link>http://localhost:57259/authors/eli-hess/</link>
       <pubDate>Tue, 21 Aug 2018 18:16:02 +0000</pubDate>
-      <guid>https://powershell.org/authors/eli-hess/</guid>
+      <guid>http://localhost:57259/authors/eli-hess/</guid>
       <description></description>
     </item>
     <item>
       <title>Richard Siddaway</title>
-      <link>https://powershell.org/authors/richard-siddaway/</link>
+      <link>http://localhost:57259/authors/richard-siddaway/</link>
       <pubDate>Sun, 01 Apr 2018 00:01:32 +0000</pubDate>
-      <guid>https://powershell.org/authors/richard-siddaway/</guid>
+      <guid>http://localhost:57259/authors/richard-siddaway/</guid>
       <description></description>
     </item>
     <item>
       <title>Duffney</title>
-      <link>https://powershell.org/authors/duffney/</link>
+      <link>http://localhost:57259/authors/duffney/</link>
       <pubDate>Sun, 28 Jan 2018 10:46:03 +0000</pubDate>
-      <guid>https://powershell.org/authors/duffney/</guid>
+      <guid>http://localhost:57259/authors/duffney/</guid>
       <description></description>
     </item>
     <item>
       <title>Mark Wragg</title>
-      <link>https://powershell.org/authors/mark-wragg/</link>
+      <link>http://localhost:57259/authors/mark-wragg/</link>
       <pubDate>Tue, 09 Jan 2018 13:20:04 +0000</pubDate>
-      <guid>https://powershell.org/authors/mark-wragg/</guid>
+      <guid>http://localhost:57259/authors/mark-wragg/</guid>
       <description></description>
     </item>
     <item>
       <title>Alex Aymonier</title>
-      <link>https://powershell.org/authors/alex-aymonier/</link>
+      <link>http://localhost:57259/authors/alex-aymonier/</link>
       <pubDate>Sun, 19 Nov 2017 21:22:39 +0000</pubDate>
-      <guid>https://powershell.org/authors/alex-aymonier/</guid>
+      <guid>http://localhost:57259/authors/alex-aymonier/</guid>
       <description></description>
     </item>
     <item>
       <title>Liam Kemp</title>
-      <link>https://powershell.org/authors/liam-kemp/</link>
+      <link>http://localhost:57259/authors/liam-kemp/</link>
       <pubDate>Thu, 26 Oct 2017 11:11:31 +0000</pubDate>
-      <guid>https://powershell.org/authors/liam-kemp/</guid>
+      <guid>http://localhost:57259/authors/liam-kemp/</guid>
       <description></description>
     </item>
     <item>
       <title>Adam Bertram</title>
-      <link>https://powershell.org/authors/adam-bertram/</link>
+      <link>http://localhost:57259/authors/adam-bertram/</link>
       <pubDate>Wed, 23 Aug 2017 17:49:39 +0000</pubDate>
-      <guid>https://powershell.org/authors/adam-bertram/</guid>
+      <guid>http://localhost:57259/authors/adam-bertram/</guid>
       <description></description>
     </item>
     <item>
       <title>Thomas Malkewitz</title>
-      <link>https://powershell.org/authors/thomas-malkewitz/</link>
+      <link>http://localhost:57259/authors/thomas-malkewitz/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:43 +0000</pubDate>
-      <guid>https://powershell.org/authors/thomas-malkewitz/</guid>
+      <guid>http://localhost:57259/authors/thomas-malkewitz/</guid>
       <description></description>
     </item>
     <item>
       <title>Nick Rimmer</title>
-      <link>https://powershell.org/authors/nick-rimmer/</link>
+      <link>http://localhost:57259/authors/nick-rimmer/</link>
       <pubDate>Thu, 22 Jun 2017 13:30:58 +0000</pubDate>
-      <guid>https://powershell.org/authors/nick-rimmer/</guid>
+      <guid>http://localhost:57259/authors/nick-rimmer/</guid>
       <description></description>
     </item>
     <item>
       <title>David Jones</title>
-      <link>https://powershell.org/authors/david-jones/</link>
+      <link>http://localhost:57259/authors/david-jones/</link>
       <pubDate>Fri, 21 Apr 2017 16:29:24 +0000</pubDate>
-      <guid>https://powershell.org/authors/david-jones/</guid>
+      <guid>http://localhost:57259/authors/david-jones/</guid>
       <description></description>
     </item>
     <item>
       <title>Msorens</title>
-      <link>https://powershell.org/authors/msorens/</link>
+      <link>http://localhost:57259/authors/msorens/</link>
       <pubDate>Thu, 06 Apr 2017 21:30:23 +0000</pubDate>
-      <guid>https://powershell.org/authors/msorens/</guid>
+      <guid>http://localhost:57259/authors/msorens/</guid>
       <description></description>
     </item>
     <item>
       <title>WeiYen Tan</title>
-      <link>https://powershell.org/authors/weiyen-tan/</link>
+      <link>http://localhost:57259/authors/weiyen-tan/</link>
       <pubDate>Fri, 06 Jan 2017 07:45:36 +0000</pubDate>
-      <guid>https://powershell.org/authors/weiyen-tan/</guid>
+      <guid>http://localhost:57259/authors/weiyen-tan/</guid>
       <description></description>
     </item>
     <item>
       <title>Jaap Brasser</title>
-      <link>https://powershell.org/authors/jaap-brasser/</link>
+      <link>http://localhost:57259/authors/jaap-brasser/</link>
       <pubDate>Tue, 27 Sep 2016 07:28:04 +0000</pubDate>
-      <guid>https://powershell.org/authors/jaap-brasser/</guid>
+      <guid>http://localhost:57259/authors/jaap-brasser/</guid>
       <description></description>
     </item>
     <item>
       <title>Matthew Hodgkins</title>
-      <link>https://powershell.org/authors/matthew-hodgkins/</link>
+      <link>http://localhost:57259/authors/matthew-hodgkins/</link>
       <pubDate>Fri, 26 Aug 2016 05:25:27 +0000</pubDate>
-      <guid>https://powershell.org/authors/matthew-hodgkins/</guid>
+      <guid>http://localhost:57259/authors/matthew-hodgkins/</guid>
       <description></description>
     </item>
     <item>
       <title>Graham Beer</title>
-      <link>https://powershell.org/authors/graham-beer/</link>
+      <link>http://localhost:57259/authors/graham-beer/</link>
       <pubDate>Thu, 11 Aug 2016 20:42:40 +0000</pubDate>
-      <guid>https://powershell.org/authors/graham-beer/</guid>
+      <guid>http://localhost:57259/authors/graham-beer/</guid>
       <description></description>
     </item>
     <item>
       <title>Mike F Robbins</title>
-      <link>https://powershell.org/authors/mike-f-robbins/</link>
+      <link>http://localhost:57259/authors/mike-f-robbins/</link>
       <pubDate>Mon, 11 Jul 2016 18:21:52 +0000</pubDate>
-      <guid>https://powershell.org/authors/mike-f-robbins/</guid>
+      <guid>http://localhost:57259/authors/mike-f-robbins/</guid>
       <description></description>
     </item>
     <item>
       <title>Tim Curwick</title>
-      <link>https://powershell.org/authors/tim-curwick/</link>
+      <link>http://localhost:57259/authors/tim-curwick/</link>
       <pubDate>Sat, 21 May 2016 20:09:16 +0000</pubDate>
-      <guid>https://powershell.org/authors/tim-curwick/</guid>
+      <guid>http://localhost:57259/authors/tim-curwick/</guid>
       <description></description>
     </item>
     <item>
       <title>Steve Parankewich</title>
-      <link>https://powershell.org/authors/steve-parankewich/</link>
+      <link>http://localhost:57259/authors/steve-parankewich/</link>
       <pubDate>Thu, 19 May 2016 23:05:43 +0000</pubDate>
-      <guid>https://powershell.org/authors/steve-parankewich/</guid>
+      <guid>http://localhost:57259/authors/steve-parankewich/</guid>
       <description></description>
     </item>
     <item>
       <title>I255d</title>
-      <link>https://powershell.org/authors/i255d/</link>
+      <link>http://localhost:57259/authors/i255d/</link>
       <pubDate>Wed, 27 Apr 2016 02:32:52 +0000</pubDate>
-      <guid>https://powershell.org/authors/i255d/</guid>
+      <guid>http://localhost:57259/authors/i255d/</guid>
       <description></description>
     </item>
     <item>
       <title>Jacob Moran</title>
-      <link>https://powershell.org/authors/jacob-moran/</link>
+      <link>http://localhost:57259/authors/jacob-moran/</link>
       <pubDate>Wed, 20 Apr 2016 23:18:07 +0000</pubDate>
-      <guid>https://powershell.org/authors/jacob-moran/</guid>
+      <guid>http://localhost:57259/authors/jacob-moran/</guid>
       <description></description>
     </item>
     <item>
       <title>Carlo Mancini</title>
-      <link>https://powershell.org/authors/carlo-mancini/</link>
+      <link>http://localhost:57259/authors/carlo-mancini/</link>
       <pubDate>Fri, 15 Apr 2016 11:25:19 +0000</pubDate>
-      <guid>https://powershell.org/authors/carlo-mancini/</guid>
+      <guid>http://localhost:57259/authors/carlo-mancini/</guid>
       <description></description>
     </item>
     <item>
       <title>Timpringle</title>
-      <link>https://powershell.org/authors/timpringle/</link>
+      <link>http://localhost:57259/authors/timpringle/</link>
       <pubDate>Thu, 04 Feb 2016 07:08:25 +0000</pubDate>
-      <guid>https://powershell.org/authors/timpringle/</guid>
+      <guid>http://localhost:57259/authors/timpringle/</guid>
       <description></description>
     </item>
     <item>
       <title>Stephen Owen</title>
-      <link>https://powershell.org/authors/stephen-owen/</link>
+      <link>http://localhost:57259/authors/stephen-owen/</link>
       <pubDate>Mon, 11 Jan 2016 18:25:02 +0000</pubDate>
-      <guid>https://powershell.org/authors/stephen-owen/</guid>
+      <guid>http://localhost:57259/authors/stephen-owen/</guid>
       <description></description>
     </item>
     <item>
       <title>David Wilson</title>
-      <link>https://powershell.org/authors/david-wilson/</link>
+      <link>http://localhost:57259/authors/david-wilson/</link>
       <pubDate>Wed, 16 Dec 2015 01:30:17 +0000</pubDate>
-      <guid>https://powershell.org/authors/david-wilson/</guid>
+      <guid>http://localhost:57259/authors/david-wilson/</guid>
       <description></description>
     </item>
     <item>
       <title>John Mello</title>
-      <link>https://powershell.org/authors/john-mello/</link>
+      <link>http://localhost:57259/authors/john-mello/</link>
       <pubDate>Wed, 18 Nov 2015 01:24:39 +0000</pubDate>
-      <guid>https://powershell.org/authors/john-mello/</guid>
+      <guid>http://localhost:57259/authors/john-mello/</guid>
       <description></description>
     </item>
     <item>
       <title>Nohwnd</title>
-      <link>https://powershell.org/authors/nohwnd/</link>
+      <link>http://localhost:57259/authors/nohwnd/</link>
       <pubDate>Sun, 18 Oct 2015 19:15:14 +0000</pubDate>
-      <guid>https://powershell.org/authors/nohwnd/</guid>
+      <guid>http://localhost:57259/authors/nohwnd/</guid>
       <description></description>
     </item>
     <item>
       <title>Timothy Warner</title>
-      <link>https://powershell.org/authors/timothy-warner/</link>
+      <link>http://localhost:57259/authors/timothy-warner/</link>
       <pubDate>Mon, 12 Oct 2015 20:48:32 +0000</pubDate>
-      <guid>https://powershell.org/authors/timothy-warner/</guid>
+      <guid>http://localhost:57259/authors/timothy-warner/</guid>
       <description></description>
     </item>
     <item>
       <title>Mike Roberts</title>
-      <link>https://powershell.org/authors/mike-roberts/</link>
+      <link>http://localhost:57259/authors/mike-roberts/</link>
       <pubDate>Mon, 21 Sep 2015 18:43:21 +0000</pubDate>
-      <guid>https://powershell.org/authors/mike-roberts/</guid>
+      <guid>http://localhost:57259/authors/mike-roberts/</guid>
       <description></description>
     </item>
     <item>
       <title>Jonas Sommer Nielsen</title>
-      <link>https://powershell.org/authors/jonas-sommer-nielsen/</link>
+      <link>http://localhost:57259/authors/jonas-sommer-nielsen/</link>
       <pubDate>Thu, 17 Sep 2015 12:25:55 +0000</pubDate>
-      <guid>https://powershell.org/authors/jonas-sommer-nielsen/</guid>
+      <guid>http://localhost:57259/authors/jonas-sommer-nielsen/</guid>
       <description></description>
     </item>
     <item>
       <title>Matt Laird</title>
-      <link>https://powershell.org/authors/matt-laird/</link>
+      <link>http://localhost:57259/authors/matt-laird/</link>
       <pubDate>Wed, 16 Sep 2015 00:52:27 +0000</pubDate>
-      <guid>https://powershell.org/authors/matt-laird/</guid>
+      <guid>http://localhost:57259/authors/matt-laird/</guid>
       <description></description>
     </item>
     <item>
       <title>Thomas Rayner, MVP</title>
-      <link>https://powershell.org/authors/thomas-rayner-mvp/</link>
+      <link>http://localhost:57259/authors/thomas-rayner-mvp/</link>
       <pubDate>Tue, 08 Sep 2015 14:00:21 +0000</pubDate>
-      <guid>https://powershell.org/authors/thomas-rayner-mvp/</guid>
+      <guid>http://localhost:57259/authors/thomas-rayner-mvp/</guid>
       <description></description>
     </item>
     <item>
       <title>Adam Platt</title>
-      <link>https://powershell.org/authors/adam-platt/</link>
+      <link>http://localhost:57259/authors/adam-platt/</link>
       <pubDate>Thu, 03 Sep 2015 21:13:28 +0000</pubDate>
-      <guid>https://powershell.org/authors/adam-platt/</guid>
+      <guid>http://localhost:57259/authors/adam-platt/</guid>
       <description></description>
     </item>
     <item>
       <title>Stephen Moore</title>
-      <link>https://powershell.org/authors/stephen-moore/</link>
+      <link>http://localhost:57259/authors/stephen-moore/</link>
       <pubDate>Fri, 07 Aug 2015 09:03:51 +0000</pubDate>
-      <guid>https://powershell.org/authors/stephen-moore/</guid>
+      <guid>http://localhost:57259/authors/stephen-moore/</guid>
       <description></description>
     </item>
     <item>
       <title>Brian Bourque</title>
-      <link>https://powershell.org/authors/brian-bourque/</link>
+      <link>http://localhost:57259/authors/brian-bourque/</link>
       <pubDate>Wed, 29 Jul 2015 00:06:26 +0000</pubDate>
-      <guid>https://powershell.org/authors/brian-bourque/</guid>
+      <guid>http://localhost:57259/authors/brian-bourque/</guid>
       <description></description>
     </item>
     <item>
       <title>Sunny Chakraborty</title>
-      <link>https://powershell.org/authors/sunny-chakraborty/</link>
+      <link>http://localhost:57259/authors/sunny-chakraborty/</link>
       <pubDate>Fri, 10 Jul 2015 18:03:27 +0000</pubDate>
-      <guid>https://powershell.org/authors/sunny-chakraborty/</guid>
+      <guid>http://localhost:57259/authors/sunny-chakraborty/</guid>
       <description></description>
     </item>
     <item>
       <title>Joel Newton</title>
-      <link>https://powershell.org/authors/joel-newton/</link>
+      <link>http://localhost:57259/authors/joel-newton/</link>
       <pubDate>Wed, 27 May 2015 04:54:03 +0000</pubDate>
-      <guid>https://powershell.org/authors/joel-newton/</guid>
+      <guid>http://localhost:57259/authors/joel-newton/</guid>
       <description></description>
     </item>
     <item>
       <title>Terri Donahue</title>
-      <link>https://powershell.org/authors/terri-donahue/</link>
+      <link>http://localhost:57259/authors/terri-donahue/</link>
       <pubDate>Fri, 24 Apr 2015 14:01:21 +0000</pubDate>
-      <guid>https://powershell.org/authors/terri-donahue/</guid>
+      <guid>http://localhost:57259/authors/terri-donahue/</guid>
       <description></description>
     </item>
     <item>
       <title>NJPowerShell</title>
-      <link>https://powershell.org/authors/njpowershell/</link>
+      <link>http://localhost:57259/authors/njpowershell/</link>
       <pubDate>Mon, 06 Apr 2015 16:54:14 +0000</pubDate>
-      <guid>https://powershell.org/authors/njpowershell/</guid>
+      <guid>http://localhost:57259/authors/njpowershell/</guid>
       <description></description>
     </item>
     <item>
       <title>Jacob Benson</title>
-      <link>https://powershell.org/authors/jacob-benson/</link>
+      <link>http://localhost:57259/authors/jacob-benson/</link>
       <pubDate>Thu, 02 Apr 2015 13:08:21 +0000</pubDate>
-      <guid>https://powershell.org/authors/jacob-benson/</guid>
+      <guid>http://localhost:57259/authors/jacob-benson/</guid>
       <description></description>
     </item>
     <item>
       <title>Greg Altman</title>
-      <link>https://powershell.org/authors/greg-altman/</link>
+      <link>http://localhost:57259/authors/greg-altman/</link>
       <pubDate>Wed, 25 Mar 2015 15:34:48 +0000</pubDate>
-      <guid>https://powershell.org/authors/greg-altman/</guid>
+      <guid>http://localhost:57259/authors/greg-altman/</guid>
       <description></description>
     </item>
     <item>
       <title>Steve</title>
-      <link>https://powershell.org/authors/steve/</link>
+      <link>http://localhost:57259/authors/steve/</link>
       <pubDate>Sat, 07 Mar 2015 00:47:42 +0000</pubDate>
-      <guid>https://powershell.org/authors/steve/</guid>
+      <guid>http://localhost:57259/authors/steve/</guid>
       <description></description>
     </item>
     <item>
       <title>Bjorn Houben</title>
-      <link>https://powershell.org/authors/bjorn-houben/</link>
+      <link>http://localhost:57259/authors/bjorn-houben/</link>
       <pubDate>Mon, 06 Oct 2014 11:04:50 +0000</pubDate>
-      <guid>https://powershell.org/authors/bjorn-houben/</guid>
+      <guid>http://localhost:57259/authors/bjorn-houben/</guid>
       <description></description>
     </item>
     <item>
       <title>JasonMorgan</title>
-      <link>https://powershell.org/authors/jasonmorgan/</link>
+      <link>http://localhost:57259/authors/jasonmorgan/</link>
       <pubDate>Tue, 26 Aug 2014 15:32:29 +0000</pubDate>
-      <guid>https://powershell.org/authors/jasonmorgan/</guid>
+      <guid>http://localhost:57259/authors/jasonmorgan/</guid>
       <description></description>
     </item>
     <item>
       <title>ScriptingWife</title>
-      <link>https://powershell.org/authors/scriptingwife/</link>
+      <link>http://localhost:57259/authors/scriptingwife/</link>
       <pubDate>Mon, 16 Jun 2014 22:00:59 +0000</pubDate>
-      <guid>https://powershell.org/authors/scriptingwife/</guid>
+      <guid>http://localhost:57259/authors/scriptingwife/</guid>
       <description></description>
     </item>
     <item>
       <title>Steven Murawski</title>
-      <link>https://powershell.org/authors/steven-murawski/</link>
+      <link>http://localhost:57259/authors/steven-murawski/</link>
       <pubDate>Fri, 23 May 2014 13:00:25 +0000</pubDate>
-      <guid>https://powershell.org/authors/steven-murawski/</guid>
+      <guid>http://localhost:57259/authors/steven-murawski/</guid>
       <description></description>
     </item>
     <item>
       <title>Jonathan Medd</title>
-      <link>https://powershell.org/authors/jonathan-medd/</link>
+      <link>http://localhost:57259/authors/jonathan-medd/</link>
       <pubDate>Mon, 10 Feb 2014 17:41:19 +0000</pubDate>
-      <guid>https://powershell.org/authors/jonathan-medd/</guid>
+      <guid>http://localhost:57259/authors/jonathan-medd/</guid>
       <description></description>
     </item>
     <item>
       <title>Boe Prox</title>
-      <link>https://powershell.org/authors/boe-prox/</link>
+      <link>http://localhost:57259/authors/boe-prox/</link>
       <pubDate>Wed, 05 Feb 2014 03:59:24 +0000</pubDate>
-      <guid>https://powershell.org/authors/boe-prox/</guid>
+      <guid>http://localhost:57259/authors/boe-prox/</guid>
       <description></description>
     </item>
     <item>
       <title>ScriptWarrior</title>
-      <link>https://powershell.org/authors/scriptwarrior/</link>
+      <link>http://localhost:57259/authors/scriptwarrior/</link>
       <pubDate>Mon, 13 Jan 2014 13:37:14 +0000</pubDate>
-      <guid>https://powershell.org/authors/scriptwarrior/</guid>
+      <guid>http://localhost:57259/authors/scriptwarrior/</guid>
       <description></description>
     </item>
     <item>
       <title>Enrique Puig</title>
-      <link>https://powershell.org/authors/enrique-puig/</link>
+      <link>http://localhost:57259/authors/enrique-puig/</link>
       <pubDate>Thu, 07 Nov 2013 07:30:31 +0000</pubDate>
-      <guid>https://powershell.org/authors/enrique-puig/</guid>
+      <guid>http://localhost:57259/authors/enrique-puig/</guid>
       <description></description>
     </item>
     <item>
       <title>Darren Mar-Elia</title>
-      <link>https://powershell.org/authors/darren-mar-elia/</link>
+      <link>http://localhost:57259/authors/darren-mar-elia/</link>
       <pubDate>Tue, 09 Jul 2013 14:29:29 +0000</pubDate>
-      <guid>https://powershell.org/authors/darren-mar-elia/</guid>
+      <guid>http://localhost:57259/authors/darren-mar-elia/</guid>
       <description></description>
     </item>
     <item>
       <title>Bartek Bielawski</title>
-      <link>https://powershell.org/authors/bartek-bielawski/</link>
+      <link>http://localhost:57259/authors/bartek-bielawski/</link>
       <pubDate>Sat, 08 Jun 2013 20:46:30 +0000</pubDate>
-      <guid>https://powershell.org/authors/bartek-bielawski/</guid>
+      <guid>http://localhost:57259/authors/bartek-bielawski/</guid>
       <description></description>
     </item>
     <item>
       <title>Art Beane</title>
-      <link>https://powershell.org/authors/art-beane/</link>
+      <link>http://localhost:57259/authors/art-beane/</link>
       <pubDate>Fri, 07 Jun 2013 13:26:41 +0000</pubDate>
-      <guid>https://powershell.org/authors/art-beane/</guid>
+      <guid>http://localhost:57259/authors/art-beane/</guid>
       <description></description>
     </item>
     <item>
       <title>Glenn Sizemore</title>
-      <link>https://powershell.org/authors/glenn-sizemore/</link>
+      <link>http://localhost:57259/authors/glenn-sizemore/</link>
       <pubDate>Fri, 31 May 2013 20:42:17 +0000</pubDate>
-      <guid>https://powershell.org/authors/glenn-sizemore/</guid>
+      <guid>http://localhost:57259/authors/glenn-sizemore/</guid>
       <description></description>
     </item>
     <item>
       <title>June Blender</title>
-      <link>https://powershell.org/authors/june-blender/</link>
+      <link>http://localhost:57259/authors/june-blender/</link>
       <pubDate>Tue, 21 May 2013 18:03:27 +0000</pubDate>
-      <guid>https://powershell.org/authors/june-blender/</guid>
+      <guid>http://localhost:57259/authors/june-blender/</guid>
       <description></description>
     </item>
     <item>
       <title>Kirk Munro</title>
-      <link>https://powershell.org/authors/kirk-munro/</link>
+      <link>http://localhost:57259/authors/kirk-munro/</link>
       <pubDate>Tue, 30 Apr 2013 19:25:34 +0000</pubDate>
-      <guid>https://powershell.org/authors/kirk-munro/</guid>
+      <guid>http://localhost:57259/authors/kirk-munro/</guid>
       <description></description>
     </item>
     <item>
       <title>Poshoholic</title>
-      <link>https://powershell.org/authors/poshoholic/</link>
+      <link>http://localhost:57259/authors/poshoholic/</link>
       <pubDate>Mon, 22 Apr 2013 15:49:02 +0000</pubDate>
-      <guid>https://powershell.org/authors/poshoholic/</guid>
+      <guid>http://localhost:57259/authors/poshoholic/</guid>
       <description></description>
     </item>
     <item>
       <title>Keith Hill</title>
-      <link>https://powershell.org/authors/keith-hill/</link>
+      <link>http://localhost:57259/authors/keith-hill/</link>
       <pubDate>Fri, 05 Apr 2013 15:08:17 +0000</pubDate>
-      <guid>https://powershell.org/authors/keith-hill/</guid>
+      <guid>http://localhost:57259/authors/keith-hill/</guid>
       <description></description>
     </item>
   </channel>

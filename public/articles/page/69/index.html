@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,222 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="introducing the judges for winter 2014 scripting games" 
+                     data-content="&lt;p&gt;in the last few years there has been a long list of people judging the scripting games. those people were expected to view as many entries as possible, preferably all, and score the entries as well as providing feedback on the individual entries. that is a ton of work especially when you consider that the judges were all volunteers.&lt;br&gt;
+this time round we&amp;rsquo;re attempting to spread the load somewhat. mike robbins has done a superb job recruiting coaches for the &lt;a href=&#34;https://powershell.org/2013/12/23/introducing-the-coaches-of-the-2014-winter-scripting-games/&#34;&gt;&lt;/a&gt; its their job to look at the entries and make suggestions and hints to the teams - if the teams wish to take advantage of this option. looking at the list of coaches - i know i would take advantage of their assistance if i was competing.&lt;br&gt;
+that leaves judging. this time we&amp;rsquo;re using a small group of judges. we have prepared scoring criteria for the events with some additional style points available to the judges. this will make most of the scoring objective but we&amp;rsquo;ve a bit of subjectivity available for individual judges to pick out, and hopefully comment on, things they like or don&amp;rsquo;t like.&lt;br&gt;
+the judges are all very experienced powershell practitioners with more books written, talks given, blog posts created and classes taught between them than anyone would want to count. in alphabetical order your judges for the winter 2014 scripting games are:&lt;br&gt;
+don jones - founder and ceo of powershell.org. author of several powershell books including the highly recommended learn powershell v3 in a month of lunches and co-author of powershell in depth. don is a powershell mvp, powershell educator, columnist and course creator.&lt;br&gt;
+jason helmick - board member of powershell.org. a powershell mvp and author of learn iis in a month of lunches which includes lots of powershell. jason also delivered the recent two-part introducing powershell mva sessions with jeffrey snover. powershell educator, columnist and speaker.&lt;br&gt;
+jeffery hicks - board member of powershell.org. powershell mvp. co-author of powershell in depth, lead editor of powershell deep dives and author of other powershell books. jeffrey is also a powershell columnist and educator&lt;br&gt;
+ed wilson - the scripting guy. ed runs the hey! scripting guy &lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/&#34;&gt;&lt;/a&gt; author of several powershell books including windows powershell best practices and windows powershell scripting guide. ed also delivers powershell classes and is a much in demand speaker.&lt;br&gt;
+the list of judges is completed by&lt;br&gt;
+richard siddaway - board member of powershell.org. powershell mvp. co-author of powershell in depth and author of powershell in practice and powershell and wmi. frequent blogger on powershell related topics.&lt;br&gt;
+between them the judges have accumulated over 30 years of powershell experience that is focussed on judging the games. they are all looking forward to the games and hope to see your entries.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 28, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-12-28-introducing-the-judges-for-winter-2014-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                            Introducing the Judges for Winter 2014 Scripting Games
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In the last few years there has been a long list of people judging the Scripting Games. Those people were expected to view as many entries as possible, preferably all, and score the entries as well as providing feedback on the individual entries. That is a ton of work especially when you consider that the judges were all volunteers.<br>
+This time round we&rsquo;re attempting to spread the load somewhat. Mike Robbins has done a superb job recruiting coaches for the <a href="https://powershell.org/2013/12/23/introducing-the-coaches-of-the-2014-winter-scripting-games/"></a> Its their job to look at the entries and make suggestions and hints to the teams - if the teams wish to take advantage of this option. Looking at the list of coaches - I know I would take advantage of their assistance if I was competing.<br>
+That leaves judging. This time we&rsquo;re using a small group of judges. We have prepared scoring criteria for the events with some additional style points available to the judges. This will make MOST of the scoring objective but we&rsquo;ve a bit of subjectivity available for individual judges to pick out, and hopefully comment on, things they like or don&rsquo;t like.<br>
+The judges are all very experienced PowerShell practitioners with more books written, talks given, blog posts created and classes taught between them than anyone would want to count. In alphabetical order your judges for the Winter 2014 Scripting Games are:<br>
+Don Jones - founder and CEO of powershell.org. Author of several PowerShell books including the highly recommended Learn PowerShell v3 in a Month of Lunches and co-author of PowerShell in Depth. Don is a PowerShell MVP, PowerShell educator, columnist and course creator.<br>
+Jason Helmick - Board member of powershell.org. A PowerShell MVP and author of Learn IIS in a Month of Lunches which includes lots of PowerShell. Jason also delivered the recent two-part Introducing PowerShell MVA sessions with Jeffrey Snover. PowerShell educator, columnist and speaker.<br>
+Jeffery Hicks - Board member of powershell.org. PowerShell MVP. Co-author of PowerShell in Depth, lead editor of PowerShell Deep Dives and author of other PowerShell books. Jeffrey is also a PowerShell columnist and educator<br>
+Ed Wilson - The Scripting Guy. Ed runs the Hey! Scripting Guy <a href="http://blogs.technet.com/b/heyscriptingguy/"></a> Author of several PowerShell books including Windows PowerShell Best Practices and Windows PowerShell Scripting Guide. Ed also delivers PowerShell classes and is a much in demand speaker.<br>
+The list of judges is completed by<br>
+Richard Siddaway - Board member of powershell.org. PowerShell MVP. Co-author of PowerShell in Depth and author of PowerShell in Practice and PowerShell and WMI. Frequent blogger on PowerShell related topics.<br>
+Between them the judges have accumulated over 30 years of PowerShell experience that is focussed on judging the Games. They are all looking forward to the Games and hope to see your entries.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-12-28-introducing-the-judges-for-winter-2014-scripting-games/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="january charlotte powershell user group meeting" 
+                     data-content="&lt;p&gt;our monthly meeting will be held on january 2nd, 2014. this years scripting games is a team based event. what better place to find/join a team than a user group meeting? we look forward to seeing you there.&lt;/p&gt;
+&lt;p&gt;here is some additional information about the winter scripting games:&lt;/p&gt;
+&lt;h5 id=&#34;teams-can-consist-of-between-2-to-6-scripters-and-official-registration-opens-on-jan-2nd&#34;&gt;teams can consist of between 2 to 6 scripters and official registration opens on jan 2nd.&lt;/h5&gt;
+&lt;p&gt;there will be a total of 4 official events for the winter scripting games:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 27, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Terri Donahue</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-12-27-january-charlotte-powershell-user-group-meeting/" class="hover:text-blue-600 transition-colors duration-200">
+                            January Charlotte PowerShell User Group Meeting
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our monthly meeting will be held on January 2nd, 2014. This years Scripting Games is a team based event. What better place to find/join a team than a User Group meeting? We look forward to seeing you there.</p>
+<p>Here is some additional information about the Winter Scripting Games:</p>
+<h5 id="teams-can-consist-of-between-2-to-6-scripters-and-official-registration-opens-on-jan-2nd">Teams can consist of between 2 to 6 Scripters and official registration opens on Jan 2nd.</h5>
+<p>There will be a total of 4 official events for the Winter Scripting Games:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-12-27-january-charlotte-powershell-user-group-meeting/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="introducing the coaches of the 2014 winter scripting games" 
+                     data-content="&lt;p&gt;a few weeks ago, just before the announcement to start recruiting your team for the 2014 winter scripting games, i was contacted by don jones and richard siddaway about an opportunity to become the head coach for the winter scripting games. i was honored to have been contacted and i&amp;rsquo;m a firm believer of taking advantage of opportunities when they emerge, especially when they&amp;rsquo;re powershell related, so i graciously accepted.&lt;br&gt;
+one of my first responsibilities was to recruit a small team of coaches. i immediately went to work before potential coaches committed themselves to participating on teams. we had a huge number of people in the powershell community who had volunteered to be a coach and while we would have liked to have selected everyone who volunteered, we only had a specific number of positions to fill. without further ado, here is the list of the coaches for the 2014 winter scripting games:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 23, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Mike F Robbins</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-12-23-introducing-the-coaches-of-the-2014-winter-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                            Introducing the Coaches of the 2014 Winter Scripting Games
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>A few weeks ago, just before the announcement to start recruiting your team for the 2014 Winter Scripting Games, I was contacted by Don Jones and Richard Siddaway about an opportunity to become the Head Coach for the Winter Scripting Games. I was honored to have been contacted and I&rsquo;m a firm believer of taking advantage of opportunities when they emerge, especially when they&rsquo;re PowerShell related, so I graciously accepted.<br>
+One of my first responsibilities was to recruit a small team of coaches. I immediately went to work before potential coaches committed themselves to participating on teams. We had a huge number of people in the PowerShell community who had volunteered to be a coach and while we would have liked to have selected everyone who volunteered, we only had a specific number of positions to fill. Without further ado, here is the list of the coaches for the 2014 Winter Scripting Games:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-12-23-introducing-the-coaches-of-the-2014-winter-scripting-games/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="my outline for accelerated powershell training" 
+                     data-content="&lt;p&gt;when i teach powershell, either at a private client or in a public class, i tend to use my own outlines. i&amp;rsquo;m comfortable with them, and they work really well. they formed the basis for the microsoft 10961 and 55039 courses, although i had to make some changes to accommodate microsoft standards and varying mct delivery styles. but i&amp;rsquo;m often asked if there&amp;rsquo;s a &amp;ldquo;moc-equivalent&amp;rdquo; outline that combines the entry-level 10961 with the scripting-focused 55039.&lt;br&gt;
+yup.&lt;br&gt;
+first, do understand that i naturally teach at a very concise and accelerated pace. i don&amp;rsquo;t spend much time on slides; i tend to skip right to demos, and use those to explain what i&amp;rsquo;m explaining. if you follow a more common delivery style of around 5min per slide, plus taking your time on demos, my approach might not work well for you. i also tend to not tell a lot of ancillary stories, i tend to make students take break during lab time (rather than individually scheduling breaks), and i tend to be as concise as possible in my lectures.&lt;br&gt;
+also, when accelerating these courses together, you don&amp;rsquo;t do &lt;em&gt;all&lt;/em&gt; of the labs. for labs with multiple components (find these 20 command), i&amp;rsquo;ll do about 1/3 of them. for the 55039 main-sequence labs, i&amp;rsquo;ll tell students to pick the &amp;ldquo;a,&amp;rdquo; &amp;ldquo;b,&amp;rdquo; or &amp;ldquo;c&amp;rdquo; version rather than doing all three; sometimes i&amp;rsquo;ll just have them do the &amp;ldquo;d&amp;rdquo; version (which gives them a pre-done starting point for each module, rather than making them build on their own work from a previous module).&lt;br&gt;
+for day 1, i&amp;rsquo;ll cover modules 1-5, and maybe module 6, from 10961. day 2 will be modules 7, 9, 11, and 12 (covering 6 first, if i didn&amp;rsquo;t get it done on day 1). that&amp;rsquo;s the &amp;ldquo;core&amp;rdquo; powershell stuff. it&amp;rsquo;s a fast delivery; it&amp;rsquo;s possible to spread those out over three days if you prefer, but i explicitly skip modules 6, 8, and 10 at this stage.&lt;br&gt;
+when my students all have strong shell or scripting skills, 2 days often gets me through that. if they&amp;rsquo;re newer, i&amp;rsquo;ll go slower on modules 1-5, do more of the labs, and take 3 days to cover that 10961 material.&lt;br&gt;
+the remainder of the course comes from 55039. that&amp;rsquo;ll be 2 or 3 days, depending on how long it took you to do the 10961 material. regardless, i&amp;rsquo;ll cover modules 2-5. i&amp;rsquo;ll usually skip module 6, and try to end the day with module 7 on debugging. i&amp;rsquo;ll cover module 8, 9, and 10. that&amp;rsquo;s usually 2 days, so it&amp;rsquo;s the last thing i do if i took 3 days to cover the 10961 stuff.&lt;br&gt;
+if i got through 10961 in 2 days, i&amp;rsquo;ll finish the 55039 material, covering modules 11, 13, and 16. if students insist on workflows, i&amp;rsquo;ll throw that module in there - i have mixed feelings and results when it comes to workflow, so it&amp;rsquo;s not part of my standard accelerated delivery. if you have extra time, my priority then goes to modules 15, 13, and 14, in that order. 14 gets you some gui-building experience, so if the class is pushing for that i&amp;rsquo;ll include that module instead of workflow.&lt;br&gt;
+if all that seems a little informal - well, it is. i&amp;rsquo;m very good at reading my students, and making sure folks are actually keeping up, so i don&amp;rsquo;t press too hard. this is a &lt;em&gt;lot&lt;/em&gt; of conceptual and practical material to cover in a week.&lt;br&gt;
+price-wise, in the us, i see this kind of accelerated class going for around $3500, although a lot of training centers offer significant discounts. this accelerated outline is absolutely worth it: you&amp;rsquo;re literally taking someone from zero and teaching them how to build their own script modules and tools in powershell. it&amp;rsquo;s a &lt;em&gt;lot&lt;/em&gt; to cover; not every class will be up to it.&lt;br&gt;
+the labs in both courses are solid, and i&amp;rsquo;m especially happy with the ones in 55039 in terms of what they cover, and in how challenging they are. i&amp;rsquo;ll warn you that the 55039 labs don&amp;rsquo;t do a lot of hand-holding. students are expected to &lt;em&gt;learn&lt;/em&gt; the material and then execute the labs; the &amp;ldquo;answer keys&amp;rdquo; are outright sample solutions, not hints. but if you teach the material as provided, everything students &lt;em&gt;need&lt;/em&gt; is in there - if they&amp;rsquo;re willing to work hard and retain what you&amp;rsquo;ve shared.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Dec 20, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Training
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-12-20-my-outline-for-accelerated-powershell-training/" class="hover:text-blue-600 transition-colors duration-200">
+                            My outline for accelerated PowerShell training
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When I teach PowerShell, either at a private client or in a public class, I tend to use my own outlines. I&rsquo;m comfortable with them, and they work really well. They formed the basis for the Microsoft 10961 and 55039 courses, although I had to make some changes to accommodate Microsoft standards and varying MCT delivery styles. But I&rsquo;m often asked if there&rsquo;s a &ldquo;MOC-equivalent&rdquo; outline that combines the entry-level 10961 with the scripting-focused 55039.<br>
+Yup.<br>
+First, do understand that I naturally teach at a very concise and accelerated pace. I don&rsquo;t spend much time on slides; I tend to skip right to demos, and use those to explain what I&rsquo;m explaining. If you follow a more common delivery style of around 5min per slide, plus taking your time on demos, my approach might not work well for you. I also tend to not tell a lot of ancillary stories, I tend to make students take break during lab time (rather than individually scheduling breaks), and I tend to be as concise as possible in my lectures.<br>
+Also, when accelerating these courses together, you don&rsquo;t do <em>all</em> of the labs. For labs with multiple components (find these 20 command), I&rsquo;ll do about 1/3 of them. For the 55039 main-sequence labs, I&rsquo;ll tell students to pick the &ldquo;A,&rdquo; &ldquo;B,&rdquo; or &ldquo;C&rdquo; version rather than doing all three; sometimes I&rsquo;ll just have them do the &ldquo;D&rdquo; version (which gives them a pre-done starting point for each module, rather than making them build on their own work from a previous module).<br>
+For Day 1, I&rsquo;ll cover modules 1-5, and maybe module 6, from 10961. Day 2 will be modules 7, 9, 11, and 12 (covering 6 first, if I didn&rsquo;t get it done on Day 1). That&rsquo;s the &ldquo;core&rdquo; PowerShell stuff. It&rsquo;s a fast delivery; it&rsquo;s possible to spread those out over three days if you prefer, but I explicitly skip modules 6, 8, and 10 at this stage.<br>
+When my students all have strong shell or scripting skills, 2 days often gets me through that. If they&rsquo;re newer, I&rsquo;ll go slower on modules 1-5, do more of the labs, and take 3 days to cover that 10961 material.<br>
+The remainder of the course comes from 55039. That&rsquo;ll be 2 or 3 days, depending on how long it took you to do the 10961 material. Regardless, I&rsquo;ll cover modules 2-5. I&rsquo;ll usually skip module 6, and try to end the day with module 7 on debugging. I&rsquo;ll cover module 8, 9, and 10. That&rsquo;s usually 2 days, so it&rsquo;s the last thing I do if I took 3 days to cover the 10961 stuff.<br>
+If I got through 10961 in 2 days, I&rsquo;ll finish the 55039 material, covering modules 11, 13, and 16. If students insist on workflows, I&rsquo;ll throw that module in there - I have mixed feelings and results when it comes to workflow, so it&rsquo;s not part of my standard accelerated delivery. If you have extra time, my priority then goes to modules 15, 13, and 14, in that order. 14 gets you some GUI-building experience, so if the class is pushing for that I&rsquo;ll include that module instead of workflow.<br>
+If all that seems a little informal - well, it is. I&rsquo;m very good at reading my students, and making sure folks are actually keeping up, so I don&rsquo;t press too hard. This is a <em>lot</em> of conceptual and practical material to cover in a week.<br>
+Price-wise, in the US, I see this kind of accelerated class going for around $3500, although a lot of training centers offer significant discounts. This accelerated outline is absolutely worth it: you&rsquo;re literally taking someone from zero and teaching them how to build their own script modules and tools in PowerShell. It&rsquo;s a <em>lot</em> to cover; not every class will be up to it.<br>
+The labs in both courses are solid, and I&rsquo;m especially happy with the ones in 55039 in terms of what they cover, and in how challenging they are. I&rsquo;ll warn you that the 55039 labs don&rsquo;t do a lot of hand-holding. Students are expected to <em>learn</em> the material and then execute the labs; the &ldquo;answer keys&rdquo; are outright sample solutions, not hints. But if you teach the material as provided, everything students <em>need</em> is in there - if they&rsquo;re willing to work hard and retain what you&rsquo;ve shared.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-12-20-my-outline-for-accelerated-powershell-training/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="coaches and judges selected for winter scripting games" 
                      data-content="&lt;p&gt;we&amp;rsquo;ve had an outpouring of support for the upcoming games, with more volunteers than we know what to do with!&lt;br&gt;
 at this point, we have our judging panel completely full; we&amp;rsquo;re operating with a fairly small group of celebrity judges this time around. games master richard siddaway will introduce our judges in a few days.&lt;br&gt;
@@ -440,7 +706,7 @@ if you&amp;rsquo;ve volunteered but not heard from richard or mike, then you sho
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-19-coaches-and-judges-selected-for-winter-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-19-coaches-and-judges-selected-for-winter-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
                             Coaches and Judges Selected for Winter Scripting Games
                         </a>
                     </h2>
@@ -451,7 +717,7 @@ We&rsquo;ve also filled our roster of Coaches, and Head Coach Mike Robbins will 
 If you&rsquo;ve volunteered but not heard from Richard or Mike, then you should definitely start recruiting a team for when registration and team formation opens in a couple of weeks!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-19-coaches-and-judges-selected-for-winter-scripting-games/" 
+                        <a href="http://localhost:57259/articles/2013-12-19-coaches-and-judges-selected-for-winter-scripting-games/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -489,7 +755,7 @@ to wit: if you need your script to output some status or tracking information, a
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" class="hover:text-blue-600 transition-colors duration-200">
                             How &#34;Quick and Dirty&#34; Becomes &#34;Permanent and Annoying.&#34;
                         </a>
                     </h2>
@@ -500,7 +766,7 @@ And the point I&rsquo;m going to make doesn&rsquo;t just apply to Write-Host. It
 To wit: if you need your script to output some status or tracking information, as in the above, use Write-Verbose. Yes, Write-Verbose requires a script or function to have this at the top:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" 
+                        <a href="http://localhost:57259/articles/2013-12-10-how-quick-and-dirty-becomes-permanent-and-annoying/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -533,7 +799,7 @@ the challenge was to manipulate the image using powershell to find the hidden me
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-10-charlotte-powershell-user-group-holiday-themed-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-10-charlotte-powershell-user-group-holiday-themed-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
                             Charlotte Powershell User Group Holiday-themed Scripting Games
                         </a>
                     </h2>
@@ -543,7 +809,7 @@ the challenge was to manipulate the image using powershell to find the hidden me
 The challenge was to manipulate the image using PowerShell to find the hidden message. After some discussion, the code was cracked and the image was displayed. As is normal with Powershell, there were multiple ways to achieve the end goal. Feel free to stop reading here and grab the image if you want to give this a go yourself. Spoilers are below.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-10-charlotte-powershell-user-group-holiday-themed-scripting-games/" 
+                        <a href="http://localhost:57259/articles/2013-12-10-charlotte-powershell-user-group-holiday-themed-scripting-games/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -576,7 +842,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-09-phillyposh-12052013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-09-phillyposh-12052013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 12/05/2013 meeting summary and presentation materials
                         </a>
                     </h2>
@@ -586,7 +852,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
 <p> <a href="https://twitter.com/sunnyc7">Sunny Chakraborty</a> gave an in-depth presentation on WMI Eventing using PowerShell. A copy of his presentation and scripts can be found <a href="https://powershell.org/wp-content/uploads/2013/12/PhillyPosh_12_05_2014-Sunny.zip">here</a>, and a <a href="http://www.youtube.com/watch?v=h3V6K8ov1Ao">recording</a> of his presentation can be found on our <a href="http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg">YouTube channel</a>. If you want to learn even more about WMI, Sunny recommends checking out <a href="http://www.lissware.net/">Alain Lissoir&rsquo;s</a> webpage and downloading he WSH and VBS scripts hosted on his site for the two books he was written: &ldquo;<a href="http://www.amazon.com/exec/obidos/tg/detail/-/1555582664/qid=1048198398/sr=8-1/ref=sr_8_1/102-5879685-5285706?v=glance&amp;s=books&amp;n=507846">How to exploit the power of Microsoft&rsquo;s WMI to create mission-critical computing infrastructures</a>&rdquo; and &ldquo;<a href="http://www.amazon.com/exec/obidos/tg/detail/-/1555582990/qid=1048198398/sr=8-2/ref=sr_8_2/102-5879685-5285706?v=glance&amp;s=books&amp;n=507846">Leveraging Windows Management Instrumentation (WMI) Scripting</a>&rdquo;</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-09-phillyposh-12052013-meeting-summary-and-presentation-materials/" 
+                        <a href="http://localhost:57259/articles/2013-12-09-phillyposh-12052013-meeting-summary-and-presentation-materials/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -621,7 +887,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-12-02-scheduled-site-downtime/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-12-02-scheduled-site-downtime/" class="hover:text-blue-600 transition-colors duration-200">
                             Scheduled site downtime
                         </a>
                     </h2>
@@ -629,7 +895,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Windows Azure has advised us of scheduled downtime on Friday, December 6, from approximately 15:00 hours (US Pacific) until approximately midnight Pacific time.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-12-02-scheduled-site-downtime/" 
+                        <a href="http://localhost:57259/articles/2013-12-02-scheduled-site-downtime/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -664,7 +930,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-14-community-book-of-powershell-practices/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-11-14-community-book-of-powershell-practices/" class="hover:text-blue-600 transition-colors duration-200">
                             Community Book of PowerShell Practices
                         </a>
                     </h2>
@@ -672,215 +938,7 @@ The challenge was to manipulate the image using PowerShell to find the hidden me
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Released in our new Git repo:Â _The Community Book of PowerShell Practices,Â _an ongoing book started from this past Summer&rsquo;s &ldquo;Great Debates&rdquo; blog post series. Grab it fromÂ https://github.com/PowerShellOrg/ebooks/blob/master/Practices/2013Sep_Practices/2013Sep_Practices.doc and enjoy!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-14-community-book-of-powershell-practices/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="last chance for feedback on powershell course 10961a/b" 
-                     data-content="&lt;p&gt;i&amp;rsquo;m in the midst of working on 10961c, the windows server 2012 r2 / windows 8.1 / powershell 4.0 update of microsoft&amp;rsquo;s 10961a/b course, &amp;ldquo;automating administration with windows powershell.&amp;rdquo; i anticipate this being closed out by the end of november, 2013, so if you&amp;rsquo;ve taken or taught this course and have any feedback - even a typo - now&amp;rsquo;s the time to tell me. drop a comment below, or e-mail me (if you have my address). please, no twitter replies on this one.&lt;br&gt;
-the course will not be substantially changed from the b rev; because powershell v4 doesn&amp;rsquo;tâ &lt;em&gt;change&lt;/em&gt; much, especially at the entry-level covered by 10961, there wasn&amp;rsquo;t much to alter. but i&amp;rsquo;m trying to sweep up as many lingering bugs and typos as possible. kudos to mct jason yoder for firing over a list of fixes!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 14, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Training
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-14-last-chance-for-feedback-on-powershell-course-10961ab/" class="hover:text-blue-600 transition-colors duration-200">
-                            Last chance for feedback on PowerShell course 10961A/B
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;m in the midst of working on 10961C, the Windows Server 2012 R2 / Windows 8.1 / PowerShell 4.0 update of Microsoft&rsquo;s 10961A/B course, &ldquo;Automating Administration with Windows PowerShell.&rdquo; I anticipate this being closed out by the end of November, 2013, so if you&rsquo;ve taken or taught this course and have any feedback - even a typo - now&rsquo;s the time to tell me. Drop a comment below, or e-mail me (if you have my address). Please, no Twitter replies on this one.<br>
-The course will not be substantially changed from the B rev; because PowerShell v4 doesn&rsquo;tÂ <em>change</em> much, especially at the entry-level covered by 10961, there wasn&rsquo;t much to alter. But I&rsquo;m trying to sweep up as many lingering bugs and typos as possible. Kudos to MCT Jason Yoder for firing over a list of fixes!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-14-last-chance-for-feedback-on-powershell-course-10961ab/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="phillyposh 11/07/2013 meeting summary and presentation materials" 
-                     data-content="&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://mellositmusings.com/&#34;&gt;john mello&lt;/a&gt; gave a presentation on a script that searches a mailbox for an email by subject and downloads any attachments it may contain. a copy of his scripts can be obtained &lt;a href=&#34;http://mellositmusings.com/2013/10/29/powershell-script-to-download-attachments-from-an-email/&#34;&gt;here.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.jasonhelmick.com/&#34;&gt;jason helmick&lt;/a&gt;, senior technologist at &lt;a href=&#34;http://concentratedtech.com/&#34;&gt;concentrated tech&lt;/a&gt; andâ &lt;a href=&#34;http://mvp.microsoft.com/en-us/mvp/jason%20helmick-5000354&#34;&gt;windows powershell mvp&lt;/a&gt;, gave a presentation on &amp;ldquo;understanding the pipeline &amp;ldquo;“ getting your one-liners to work!&amp;rdquo; a copy of his script can be found &lt;a href=&#34;https://powershell.org/wp-content/uploads/2013/11/phillyposh_11_07_2013_jason_helmick.zip&#34;&gt;here&lt;/a&gt;.
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uvsmbxj6188&#34;&gt;a recording of jason helmick&amp;rdquo;™s presentation&lt;/a&gt; can be found on our &lt;a href=&#34;http://www.youtube.com/channel/ucac_ow5fijtrpvew__9iqzg&#34;&gt;youtube channel&lt;/a&gt;. due to audio issues, john mello&amp;quot;™s portion is not included in the recording.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;announcements
-&lt;ol&gt;
-&lt;li&gt;tickets are still available for the &lt;a href=&#34;https://powershell.org/community-events/summit/powershell-summit-north-america/&#34;&gt;2014 powershell summit north america&lt;/a&gt;, if you&amp;quot;™re going then make sure to say hi to &lt;a href=&#34;http://paglia.org/&#34;&gt;lido paglia&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;we are still trying to arrange for a powershell saturday sometime in 2014, if you are interested in presenting please let us know!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;we are assigning homework this week! hopefully this will be a fun task that we can discuss during our next meeting, so try your hand at the following problem:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;title&lt;/strong&gt;: on this day in pictures&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 13, 2013</time>
-                            
-                            <span>•</span>
-                            <span>John Mello</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-12-phillyposh-11072013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
-                            PhillyPoSH 11/07/2013 meeting summary and presentation materials
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><ol>
-<li><a href="http://mellositmusings.com/">John Mello</a> gave a presentation on a script that searches a mailbox for an email by subject and downloads any attachments it may contain. A copy of his scripts can be obtained <a href="http://mellositmusings.com/2013/10/29/powershell-script-to-download-attachments-from-an-email/">here.</a></li>
-<li><a href="http://www.jasonhelmick.com/">Jason Helmick</a>, Senior Technologist at <a href="http://concentratedtech.com/">Concentrated Tech</a> andÂ <a href="http://mvp.microsoft.com/en-us/mvp/Jason%20Helmick-5000354">Windows PowerShell MVP</a>, gave a presentation on &ldquo;Understanding the Pipeline &ldquo;“ Getting your one-liners to work!&rdquo; A copy of his script can be found <a href="https://powershell.org/wp-content/uploads/2013/11/PhillyPosh_11_07_2013_Jason_Helmick.zip">here</a>.
-<ol>
-<li><a href="https://www.youtube.com/watch?v=uVsMbxj6188">A recording of Jason Helmick&rdquo;™s presentation</a> can be found on our <a href="http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg">YouTube channel</a>. Due to audio issues, John Mello&quot;™s portion is not included in the recording.</li>
-</ol>
-</li>
-<li>Announcements
-<ol>
-<li>Tickets are still available for the <a href="https://powershell.org/community-events/summit/powershell-summit-north-america/">2014 PowerShell Summit North America</a>, if you&quot;™re going then make sure to say hi to <a href="http://paglia.org/">Lido Paglia</a>!</li>
-<li>We are still trying to arrange for a PowerShell Saturday sometime in 2014, if you are interested in presenting please let us know!</li>
-</ol>
-</li>
-<li>We are assigning homework this week! Hopefully this will be a fun task that we can discuss during our next meeting, so try your hand at the following problem:</li>
-</ol>
-<p><strong>Title</strong>: On This Day in Pictures</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-12-phillyposh-11072013-meeting-summary-and-presentation-materials/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="login now required for comments" 
-                     data-content="&lt;p&gt;a quick note and an apology: i&amp;rsquo;ve had to modify the site configuration to require users to be registered and logged in before they can comment. we&amp;rsquo;ve been taking aâ &lt;em&gt;ridiculous&lt;/em&gt; amount of comment spam, and it&amp;rsquo;s consuming more and more time to weed through it.&lt;br&gt;
-you can register using any major social media account, so you don&amp;rsquo;t have to remember yet another username and password with us, so hopefully that&amp;rsquo;ll mitigate the inconvenience.&lt;br&gt;
-have a great week!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 11, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-11-login-now-required-for-comments/" class="hover:text-blue-600 transition-colors duration-200">
-                            Login now required for comments
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>A quick note and an apology: I&rsquo;ve had to modify the site configuration to require users to be registered and logged in before they can comment. We&rsquo;ve been taking aÂ <em>ridiculous</em> amount of comment spam, and it&rsquo;s consuming more and more time to weed through it.<br>
-You can register using any major social media account, so you don&rsquo;t have to remember yet another username and password with us, so hopefully that&rsquo;ll mitigate the inconvenience.<br>
-Have a great week!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-11-login-now-required-for-comments/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="monitoring sql server backups" 
-                     data-content="&lt;p&gt;one of the most important tasks for the** **dbas is to ensure that there is a maintenance plan to recover data from a given disaster.
-â 
-as a dba we need to design a maintenance plan according to our scenario and business requirements. do we want to be able to recover data at any point of time? how much data loss can we accept? all these questions and many more must be answered before designing the plan. in this post we will assume a basic daily full backup to keep our data safe, we will assume that there is a job performing full backups to our databases every day at midnight.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Nov 7, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Enrique Puig</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-11-06-monitoring-sql-server-backups/" class="hover:text-blue-600 transition-colors duration-200">
-                            Monitoring SQL Server Backups
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>One of the most important tasks for the** **DBAs is to ensure that there is a maintenance plan to recover data from a given disaster.
-Â 
-As a DBA we need to design a maintenance plan according to our scenario and business requirements. Do we want to be able to recover data at any point of time? How much data loss can we accept? All these questions and many more must be answered before designing the plan. In this post we will assume a basic daily full backup to keep our data safe, we will assume that there is a job performing full backups to our databases every day at midnight.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-11-06-monitoring-sql-server-backups/" 
+                        <a href="http://localhost:57259/articles/2013-11-14-community-book-of-powershell-practices/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1362,7 +1420,7 @@ As a DBA we need to design a maintenance plan according to our scenario and busi
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

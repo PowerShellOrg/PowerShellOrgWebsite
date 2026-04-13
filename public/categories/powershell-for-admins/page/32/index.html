@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell for Admins - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/categories/powershell-for-admins/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="og:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="og:title" content="PowerShell for Admins">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/categories/powershell-for-admins/">
+    <meta property="twitter:url" content="http://localhost:57259/categories/powershell-for-admins/">
     <meta property="twitter:title" content="PowerShell for Admins">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,254 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="building a desired state configuration configuration – part 2" 
+                     data-content="&lt;p&gt;ok, let&amp;rsquo;s get back to creating a dsc configuration. â &lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;if you haven&amp;rsquo;t read the last post in this series, go back and do that now&lt;/a&gt;, i&amp;rsquo;ll wait. â now with that out of the way, let&amp;rsquo;s get back to it&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/&#34;&gt;configuring the pull server (rest version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;creating configurations (&lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;one of two&lt;/a&gt;, two of two - this post)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;packaging custom resources&lt;/li&gt;
+&lt;li&gt;advanced client targeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;picking-back-up&#34;&gt;picking back up&lt;/h3&gt;
+&lt;p&gt;now that we have some of the basics down, we can start to look deeper at how composable these configurations are. a dsc configuration defined in powershell offers several advantages, not the least of which is that a configuration can be parameterized.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Oct 14, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Steven Murawski</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-10-14-building-a-desired-state-configuration-configuration-part-2/" class="hover:text-blue-600 transition-colors duration-200">
+                            Building a Desired State Configuration Configuration – Part 2
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Ok, let&rsquo;s get back to creating a DSC configuration. Â <a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">If you haven&rsquo;t read the last post in this series, go back and do that now</a>, I&rsquo;ll wait. Â Now with that out of the way, let&rsquo;s get back to it&hellip;</p>
+<h2 id="the-high-points">The High Points</h2>
+<ul>
+<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
+<li><a href="https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/">Configuring the Pull Server (REST version)</a></li>
+<li>Creating Configurations (<a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">one of two</a>, two of two - this post)</li>
+<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
+<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
+<li>Packaging Custom Resources</li>
+<li>Advanced Client Targeting</li>
+</ul>
+<h3 id="picking-back-up">Picking Back UP</h3>
+<p>Now that we have some of the basics down, we can start to look deeper at how composable these configurations are. A DSC configuration defined in PowerShell offers several advantages, not the least of which is that a configuration can be parameterized.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-10-14-building-a-desired-state-configuration-configuration-part-2/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="building a desired state configuration configuration" 
+                     data-content="&lt;p&gt;now that&amp;rsquo;s a title! â we&amp;rsquo;ve worked through my reasoning as to why i want desired state configuration (dsc) and how to build a pull server. â today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.&lt;/p&gt;
+&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/&#34;&gt;configuring the pull server (rest version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;creating configurations (one of two - this post, &lt;a href=&#34;https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/&#34;&gt;two of two&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;packaging custom resources&lt;/li&gt;
+&lt;li&gt;advanced client targeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;building-configurations&#34;&gt;building configurations&lt;/h2&gt;
+&lt;p&gt;configurations are the driving force for dsc. â a configuration is a &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx&#34;&gt;managed object format&lt;/a&gt; (mof) document that describes the how a specified server (or servers) should look.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Oct 8, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Steven Murawski</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-10-08-building-a-desired-state-configuration-configuration/" class="hover:text-blue-600 transition-colors duration-200">
+                            Building a Desired State Configuration Configuration
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Now that&rsquo;s a title! Â We&rsquo;ve worked through my reasoning as to why I want Desired State Configuration (DSC) and how to build a pull server. Â Today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.</p>
+<h2 id="the-high-points">The High Points</h2>
+<ul>
+<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
+<li><a href="https://powershell.org/2013/10/03/building-a-desired-state-configuration-pull-server/">Configuring the Pull Server (REST version)</a></li>
+<li>Creating Configurations (one of two - this post, <a href="https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/">two of two</a>)</li>
+<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
+<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
+<li>Packaging Custom Resources</li>
+<li>Advanced Client Targeting</li>
+</ul>
+<h2 id="building-configurations">Building Configurations</h2>
+<p>Configurations are the driving force for DSC. Â A configuration is a <a href="http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx">Managed Object Format</a> (MOF) document that describes the how a specified server (or servers) should look.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-10-08-building-a-desired-state-configuration-configuration/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="building a desired state configuration pull server" 
+                     data-content="&lt;p&gt;quick recap, i&amp;rsquo;m working through a series of posts about the &lt;a href=&#34;http://technet.microsoft.com/en-us/library/dn249912.aspx&#34;&gt;desired state configuration&lt;/a&gt; infrastructure that i&amp;rsquo;m building at &lt;a href=&#34;http://stackexchange.com&#34;&gt;stack exchange&lt;/a&gt;, including some how-to&amp;rsquo;s.&lt;/p&gt;
+&lt;h2 id=&#34;the-high-points&#34;&gt;the high points&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;configuring the pull server (rest version) (this post)&lt;/li&gt;
+&lt;li&gt;creating configurations (&lt;a href=&#34;https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/&#34;&gt;one of two&lt;/a&gt;, &lt;a href=&#34;https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/&#34;&gt;two of two&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/&#34;&gt;configuring clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/&#34;&gt;building custom resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;packaging custom resources&lt;/li&gt;
+&lt;li&gt;advanced client targeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;i started with an overview of &lt;strong&gt;what&lt;/strong&gt; and &lt;strong&gt;why&lt;/strong&gt;. â today, i&amp;rsquo;m going to start the &lt;strong&gt;how&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;building-a-pull-server&#34;&gt;building a pull server&lt;/h3&gt;
+&lt;p&gt;i&amp;rsquo;m going to describe how to do this with server 2012 r2 rtm (note: this is not the general availability â release, so there may be changes at ga), since that&amp;rsquo;s the environment i&amp;rsquo;m working most in. â if there is enough demand, i may follow up with how to do this using the windows management framework on downlevel operating systems after the ga version of wmf 4 is released.&lt;br&gt;
+the first step is adding the required roles and features, including the dsc service.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Oct 3, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Steven Murawski</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-10-03-building-a-desired-state-configuration-pull-server/" class="hover:text-blue-600 transition-colors duration-200">
+                            Building a Desired State Configuration Pull Server
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Quick recap, I&rsquo;m working through a series of posts about the <a href="http://technet.microsoft.com/en-us/library/dn249912.aspx">Desired State Configuration</a> infrastructure that I&rsquo;m building at <a href="http://stackexchange.com">Stack Exchange</a>, including some how-to&rsquo;s.</p>
+<h2 id="the-high-points">The High Points</h2>
+<ul>
+<li><a href="https://powershell.org/2013/10/02/building-a-desired-state-configuration-infrastructure/">Overview</a></li>
+<li>Configuring the Pull Server (REST version) (this post)</li>
+<li>Creating Configurations (<a href="https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/">one of two</a>, <a href="https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/">two of two</a>)</li>
+<li><a href="https://powershell.org/2013/11/06/configuring-a-desired-state-configuration-client/">Configuring Clients</a></li>
+<li><a href="https://powershell.org/2014/03/13/building-desired-state-configuration-custom-resources/">Building Custom Resources</a></li>
+<li>Packaging Custom Resources</li>
+<li>Advanced Client Targeting</li>
+</ul>
+<p>I started with an overview of <strong>what</strong> and <strong>why</strong>. Â Today, I&rsquo;m going to start the <strong>how</strong>.</p>
+<h3 id="building-a-pull-server">Building a Pull Server</h3>
+<p>I&rsquo;m going to describe how to do this with Server 2012 R2 RTM (NOTE: this is not the General Availability Â release, so there may be changes at GA), since that&rsquo;s the environment I&rsquo;m working most in. Â If there is enough demand, I may follow up with how to do this using the Windows Management Framework on downlevel operating systems after the GA version of WMF 4 is released.<br>
+The first step is adding the required roles and features, including the DSC Service.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-10-03-building-a-desired-state-configuration-pull-server/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="more congrats!" 
+                     data-content="&lt;p&gt;another kudos to jon walz, host of the long running powerscripting podcast, for his first and well-deserved mvp award!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Oct 1, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-10-01-more-congrats/" class="hover:text-blue-600 transition-colors duration-200">
+                            More Congrats!
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Another kudos to Jon Walz, host of the long running PowerScripting Podcast, for his first and well-deserved MVP Award!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-10-01-more-congrats/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="congrats!" 
                      data-content="&lt;p&gt;congrats to our cfo, jason helmick, on receiving his first mvp award!&lt;/p&gt;"
                      >
@@ -442,7 +740,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-10-01-congrats/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-10-01-congrats/" class="hover:text-blue-600 transition-colors duration-200">
                             Congrats!
                         </a>
                     </h2>
@@ -450,7 +748,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Congrats to our CFO, Jason Helmick, on receiving his first MVP Award!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-10-01-congrats/" 
+                        <a href="http://localhost:57259/articles/2013-10-01-congrats/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -488,7 +786,7 @@ the operator can also do capturing expressions, and this is where it gets really
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-08-29-regular-expressions-are-a-replaces-best-friend/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-08-29-regular-expressions-are-a-replaces-best-friend/" class="hover:text-blue-600 transition-colors duration-200">
                             Regular Expressions are a -replace&#39;s best friend
                         </a>
                     </h2>
@@ -499,7 +797,7 @@ the operator can also do capturing expressions, and this is where it gets really
 The operator can also do capturing expressions, and this is where it gets really neat-o.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-08-29-regular-expressions-are-a-replaces-best-friend/" 
+                        <a href="http://localhost:57259/articles/2013-08-29-regular-expressions-are-a-replaces-best-friend/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -536,7 +834,7 @@ hmm.&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-08-20-so-your-company-doesnt-want-to-enable-powershell-remoting/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-08-20-so-your-company-doesnt-want-to-enable-powershell-remoting/" class="hover:text-blue-600 transition-colors duration-200">
                             So your company doesn&#39;t want to enable PowerShell Remoting?
                         </a>
                     </h2>
@@ -546,7 +844,7 @@ And I bet they never even thought about whyÂ <em>every *nix</em> _system, ever
 Hmm.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-08-20-so-your-company-doesnt-want-to-enable-powershell-remoting/" 
+                        <a href="http://localhost:57259/articles/2013-08-20-so-your-company-doesnt-want-to-enable-powershell-remoting/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -583,7 +881,7 @@ my past columns (all 77 of them) are still online and accessible, along with hun
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-08-12-my-powershell-workflow-series-on-technet-magazine/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-08-12-my-powershell-workflow-series-on-technet-magazine/" class="hover:text-blue-600 transition-colors duration-200">
                             My PowerShell Workflow Series on TechNet Magazine
                         </a>
                     </h2>
@@ -593,7 +891,7 @@ First, I&rsquo;m sorry for the interruption. Unfortunately, right now Microsoft 
 My past columns (all 77 of them) are still online and accessible, along with hundreds of other articles stretching back almost 8 years.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-08-12-my-powershell-workflow-series-on-technet-magazine/" 
+                        <a href="http://localhost:57259/articles/2013-08-12-my-powershell-workflow-series-on-technet-magazine/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -631,7 +929,7 @@ i&amp;rsquo;ve written a couple of articles hat focus on making the database con
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                             Working with the WSUS API and the SUSDB Database using PowerShell
                         </a>
                     </h2>
@@ -642,7 +940,7 @@ I&rsquo;ve written a couple of articles hat focus on making the database connect
 <a href="http://learn-powershell.net/2013/07/07/using-the-wsus-api-and-powershell-to-perform-maintenance-on-the-susdb-database/">Using the WSUS API and PowerShell to Perform Maintenance on the SUSDB Database</a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" 
+                        <a href="http://localhost:57259/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -678,7 +976,7 @@ I&rsquo;ve written a couple of articles hat focus on making the database connect
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-09-new-blog-posting-on-desired-state-configuration/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-07-09-new-blog-posting-on-desired-state-configuration/" class="hover:text-blue-600 transition-colors duration-200">
                             New Blog Posting on Desired State Configuration
                         </a>
                     </h2>
@@ -687,227 +985,7 @@ I&rsquo;ve written a couple of articles hat focus on making the database connect
 <a href="http://bit.ly/1868BYS">http://bit.ly/1868BYS</a></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-09-new-blog-posting-on-desired-state-configuration/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="how cloud-first design affects you" 
-                     data-content="&lt;p&gt;today, brad anderson (corporate vp in the windows server/system center unit) posted &lt;a href=&#34;http://blogs.technet.com/b/in_the_cloud/archive/2013/07/03/what-s-new-in-2012-r2-beginning-and-ending-with-customer-specific-scenarios.aspx&#34;&gt;the first in what should be a series of &amp;ldquo;what&amp;rsquo;s new in 2012 r2&amp;rdquo; articles&lt;/a&gt;. in it, anderson focuses on how microsoft squeezed so many features into the 2012r2 release in such a short period of time. the short answer, which has been stated by jeffrey snover before, is &amp;ldquo;we build for the cloud first.&amp;rdquo; that means features we&amp;rsquo;re getting in 2012r2 have, for the most part, already been developed, deployed, and in use in some of microsoft&amp;rsquo;s own cloud services. this is a huge deal. it means their cloud services (think azure, o365, and the like) get stuff first, where &lt;em&gt;microsoft&lt;/em&gt; can make sure it&amp;rsquo;s stable. they then package those and hand them off to us.&lt;br&gt;
-it means we get better stability, but it also means we get better manageability. look, you don&amp;rsquo;t get excited when you have to deploy a new server, right? you want to automate that stuff. well, azure gets &lt;em&gt;really&lt;/em&gt; ticked off if they can&amp;rsquo;t automate it, because they do it &lt;em&gt;thousands times more than you.&lt;/em&gt; so forcing themselves to run a ginormous datacenter also forces the company to make better management tools - which they then hand down to us in an os release.&lt;br&gt;
-if, that is, you&amp;rsquo;re managing your datacenter as if it was your own little&amp;hellip; dare i say it, &lt;em&gt;private cloud.&lt;/em&gt; in other words, if you think of your datacenter as a wee little cloud, and you manage it like one, then you&amp;rsquo;ll get the tech you need, because microsoft has to develop that tech for themselves. if you want to keep managing it the old-fashioned way&amp;hellip; well, you&amp;rsquo;ll get less love.&lt;br&gt;
-this whole approach, for me, is the ultimate expression of the microsoft phrase, &amp;ldquo;eat the dogfood.&amp;rdquo; meaning, &lt;em&gt;use our own products just as our customers would.&lt;/em&gt; you just have to make sure you&amp;rsquo;re eating the same flavor dogfood. not that ms expects everyone to have their own in-house azure. no, that&amp;rsquo;s not the point. the point is that they&amp;rsquo;re developing for a world where admins do nothing but create units of automation, and business processes (perhaps outside it) initiate those processes. you&amp;rsquo;re going to see more and more tools and technologies (um, powershell) to facilitate that model of it operations; you&amp;rsquo;ll see less and less tech that facilitates the old way (meaning, fewer and less robust gui tools, i&amp;rsquo;m guessing).&lt;br&gt;
-desired state configuration (dsc) is probably an ideal example of this new approach. in the past, when you wanted to configure a few hundred machines to look and behave a certain way, you went clicky-click a few hundred times in a gui. that&amp;rsquo;s &lt;em&gt;imperative&lt;/em&gt; configuration; you tell each machine &lt;em&gt;what to do.&lt;/em&gt; that doesn&amp;rsquo;t scale to cloud-sized proportions, and so now we&amp;rsquo;re getting dsc. dsc is &lt;em&gt;declarative&lt;/em&gt; configuration, meaning you tell a group of machines &lt;em&gt;what to be.&lt;/em&gt; the os itself figures out how to achieve that state of being. so admins have to shift from thinking &amp;ldquo;what do i make the machine do&amp;rdquo; and &amp;ldquo;how do i tell it what to be.&amp;rdquo; it&amp;rsquo;s not unlike group policy, actually, which is also declarative, except that dsc will eventually dwarf group policy in terms of reach and capability.&lt;br&gt;
-point being, if you&amp;rsquo;re in the old world of, &amp;ldquo;i just run through the wizard and set the machine up,&amp;rdquo; you&amp;rsquo;re not aligned with the new world order. expect fewer wizards, as product teams shift their investment to building things like dsc resources instead. with 12-18 month product cycles, time is in short supply for each new release. one-at-a-time approaches don&amp;rsquo;t scale to the cloud, so those are likely to get less of that limited amount of time.&lt;br&gt;
-anderson&amp;rsquo;s post is worth a read. it&amp;rsquo;s a little high-level - the man &lt;em&gt;is&lt;/em&gt; a corporate vp, after all - but it shows where microsoft is pointing their collective brain. it uses the word &amp;ldquo;delight.&amp;rdquo; it describes in great detail how microsoft is trying harder to put the customer in the front of every conversation - but, more subtly, it also shows how microsoft is moving the conversation past &amp;ldquo;what do customers tell us they want&amp;rdquo; and more toward &amp;ldquo;here&amp;rsquo;s what we see customers &lt;em&gt;needing.&lt;/em&gt;&amp;rdquo; henry ford would be proud.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 3, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-03-how-cloud-first-design-affects-you/" class="hover:text-blue-600 transition-colors duration-200">
-                            How Cloud-First Design Affects You
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Today, Brad Anderson (Corporate VP in the Windows Server/System Center unit) posted <a href="http://blogs.technet.com/b/in_the_cloud/archive/2013/07/03/what-s-new-in-2012-r2-beginning-and-ending-with-customer-specific-scenarios.aspx">the first in what should be a series of &ldquo;What&rsquo;s New in 2012 R2&rdquo; articles</a>. In it, Anderson focuses on how Microsoft squeezed so many features into the 2012R2 release in such a short period of time. The short answer, which has been stated by Jeffrey Snover before, is &ldquo;we build for the cloud first.&rdquo; That means features we&rsquo;re getting in 2012R2 have, for the most part, already been developed, deployed, and in use in some of Microsoft&rsquo;s own cloud services. This is a huge deal. It means their cloud services (think Azure, O365, and the like) get stuff first, where <em>Microsoft</em> can make sure it&rsquo;s stable. They then package those and hand them off to us.<br>
-It means we get better stability, but it also means we get better manageability. Look, you don&rsquo;t get excited when you have to deploy a new server, right? You want to automate that stuff. Well, Azure gets <em>really</em> ticked off if they can&rsquo;t automate it, because they do it <em>thousands times more than you.</em> So forcing themselves to run a ginormous datacenter also forces the company to make better management tools - which they then hand down to us in an OS release.<br>
-If, that is, you&rsquo;re managing your datacenter as if it was your own little&hellip; dare I say it, <em>private cloud.</em> In other words, if you think of your datacenter as a wee little cloud, and you manage it like one, then you&rsquo;ll get the tech you need, because Microsoft has to develop that tech for themselves. If you want to keep managing it the old-fashioned way&hellip; well, you&rsquo;ll get less love.<br>
-This whole approach, for me, is the ultimate expression of the Microsoft phrase, &ldquo;eat the dogfood.&rdquo; Meaning, <em>use our own products just as our customers would.</em> You just have to make sure you&rsquo;re eating the same flavor dogfood. Not that MS expects everyone to have their own in-house Azure. No, that&rsquo;s not the point. The point is that they&rsquo;re developing for a world where admins do nothing but create units of automation, and business processes (perhaps outside IT) initiate those processes. You&rsquo;re going to see more and more tools and technologies (um, PowerShell) to facilitate that model of IT operations; you&rsquo;ll see less and less tech that facilitates the old way (meaning, fewer and less robust GUI tools, I&rsquo;m guessing).<br>
-Desired State Configuration (DSC) is probably an ideal example of this new approach. In the past, when you wanted to configure a few hundred machines to look and behave a certain way, you went clicky-click a few hundred times in a GUI. That&rsquo;s <em>imperative</em> configuration; you tell each machine <em>what to do.</em> That doesn&rsquo;t scale to cloud-sized proportions, and so now we&rsquo;re getting DSC. DSC is <em>declarative</em> configuration, meaning you tell a group of machines <em>what to be.</em> The OS itself figures out how to achieve that state of being. So admins have to shift from thinking &ldquo;what do I make the machine do&rdquo; and &ldquo;how do I tell it what to be.&rdquo; It&rsquo;s not unlike Group Policy, actually, which is also declarative, except that DSC will eventually dwarf Group Policy in terms of reach and capability.<br>
-Point being, if you&rsquo;re in the old world of, &ldquo;I just run through the Wizard and set the machine up,&rdquo; you&rsquo;re not aligned with the new world order. Expect fewer wizards, as product teams shift their investment to building things like DSC resources instead. With 12-18 month product cycles, time is in short supply for each new release. One-at-a-time approaches don&rsquo;t scale to the cloud, so those are likely to get less of that limited amount of time.<br>
-Anderson&rsquo;s post is worth a read. It&rsquo;s a little high-level - the man <em>is</em> a Corporate VP, after all - but it shows where Microsoft is pointing their collective brain. It uses the word &ldquo;delight.&rdquo; It describes in great detail how Microsoft is trying harder to put the customer in the front of every conversation - but, more subtly, it also shows how Microsoft is moving the conversation past &ldquo;what do customers tell us they want&rdquo; and more toward &ldquo;here&rsquo;s what we see customers <em>needing.</em>&rdquo; Henry Ford would be proud.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-03-how-cloud-first-design-affects-you/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="come to powershell summer school!" 
-                     data-content="&lt;p&gt;through my company concentrated tech, i&amp;rsquo;ve decided to run a set of three &lt;a href=&#34;http://itpro.concentratedtech.com/training/summerschool.php&#34;&gt;powershell summer school&lt;/a&gt; classes (click that link for descriptions). these will be a combo of self-study and weekly online sessions, designed to teach toolmaking, practical applications of powershell, or how to teach powershell in a lunch &amp;rsquo;n&amp;rsquo; learn style format. registration is open from now until august 1st, and you&amp;rsquo;ll also get a discount on some great sapien products to use during class, if you like.&lt;br&gt;
-the toolmaking class will also prepare you for powershell verified effectiveâ„¢ certification, if you&amp;rsquo;ve been considering that.&lt;br&gt;
-two of the classes will incorporate group code reviews of student assignments, to help improve your style; the third will include mock delivery sessions to help polish your delivery skills. all will include a private q&amp;amp;a forum where you can ask questions both of me and of your fellow students while you&amp;rsquo;re in the self-stufy phase. classes will meet online, on wednesdays, for six weeks through august and september.&lt;br&gt;
-planning a vacation in the middle of summer school? it&amp;rsquo;s fine - we can schedule a make-up online session when you get home. i&amp;rsquo;m also willing to try and make other accommodations to help make this an effective learning experience for everyone.&lt;br&gt;
-all of these classes assume a basic level of powershell knowledge, although you&amp;rsquo;ll get plenty of review material to help you catch up, or dredge up old memories from when youâ &lt;em&gt;last&lt;/em&gt; tried to learn the shell.&lt;br&gt;
-tell a friend, tell a colleague - i don&amp;rsquo;t do these kinds of offerings all that often; my travel schedule usually precludes it. but a fortuitous schedule has made it possible, so consider taking advantage!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jul 1, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-07-01-come-to-powershell-summer-school/" class="hover:text-blue-600 transition-colors duration-200">
-                            Come to PowerShell Summer School!
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Through my company Concentrated Tech, I&rsquo;ve decided to run a set of three <a href="http://itpro.concentratedtech.com/training/summerschool.php">PowerShell Summer School</a> classes (click that link for descriptions). These will be a combo of self-study and weekly online sessions, designed to teach Toolmaking, Practical applications of PowerShell, or how to teach PowerShell in a lunch &rsquo;n&rsquo; learn style format. Registration is open from now until August 1st, and you&rsquo;ll also get a discount on some great SAPIEN products to use during class, if you like.<br>
-The Toolmaking class will also prepare you for PowerShell VERIFIED EFFECTIVEâ„¢ certification, if you&rsquo;ve been considering that.<br>
-Two of the classes will incorporate group code reviews of student assignments, to help improve your style; the third will include mock delivery sessions to help polish your delivery skills. All will include a private Q&amp;A forum where you can ask questions both of me and of your fellow students while you&rsquo;re in the self-stufy phase. Classes will meet online, on Wednesdays, for six weeks through August and September.<br>
-Planning a vacation in the middle of summer school? It&rsquo;s fine - we can schedule a make-up online session when you get home. I&rsquo;m also willing to try and make other accommodations to help make this an effective learning experience for everyone.<br>
-All of these classes assume a basic level of PowerShell knowledge, although you&rsquo;ll get plenty of review material to help you catch up, or dredge up old memories from when youÂ <em>last</em> tried to learn the shell.<br>
-Tell a friend, tell a colleague - I don&rsquo;t do these kinds of offerings all that often; my travel schedule usually precludes it. But a fortuitous schedule has made it possible, so consider taking advantage!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-07-01-come-to-powershell-summer-school/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="[update: it&#39;s safe] caution: don&#39;t run update-help right now" 
-                     data-content="&lt;p&gt;&lt;strong&gt;update 2 july 2013: microsoft is informing mvps that the fix is in, and new help files should be downloadable by (at latest) the morning of 3 july 2013. so get your update-help ready to run. &lt;a href=&#34;http://wp.me/p3pric-25s&#34;&gt;more info&lt;/a&gt;.&lt;/strong&gt;&lt;br&gt;
-if you haven&amp;rsquo;t recently run update-help&amp;hellip; don&amp;rsquo;t. there&amp;rsquo;s a problem with the help files that have been produced recently so that instead of:&lt;br&gt;
-**-computername **&lt;br&gt;
-you&amp;rsquo;re getting:&lt;br&gt;
-&lt;strong&gt;-computername&lt;/strong&gt;&lt;br&gt;
-this affects all parameters - no value types will be shown. this has been reported to microsoft, and they&amp;rsquo;ve acknowledged receipt of that report and are investigating. personally, i believe the problem may be related to internal-use-only tools that are used to create the syntax section of the help files, so hopefully it&amp;rsquo;ll be an easy fix.&lt;br&gt;
-the -full and -detail help still shows the correct information, so if you&amp;rsquo;ve downloaded the borked help files, you&amp;rsquo;re not totally out of luck.&lt;br&gt;
-as far as i can determine, this only currently affects core powershell cmdlets, not add-in modules from product teams like exchange, etc. i believe that&amp;rsquo;s because the core cmdlets were just updated and re-published, something the powershell team tends to do a bit more frequently than some of the other product groups.&lt;br&gt;
-i&amp;rsquo;ll keep you posted as i learn anything new.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 28, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-06-28-caution-dont-run-update-help-right-now/" class="hover:text-blue-600 transition-colors duration-200">
-                            [UPDATE: It&#39;s Safe] CAUTION: Don&#39;t Run Update-Help Right Now
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p><strong>UPDATE 2 JULY 2013: Microsoft is informing MVPs that the fix is in, and new help files should be downloadable by (at latest) the morning of 3 July 2013. So get your Update-Help ready to run. <a href="http://wp.me/p3priC-25s">More info</a>.</strong><br>
-If you haven&rsquo;t recently run Update-Help&hellip; don&rsquo;t. There&rsquo;s a problem with the help files that have been produced recently so that instead of:<br>
-**-computername **<br>
-You&rsquo;re getting:<br>
-<strong>-computername</strong><br>
-This affects all parameters - no value types will be shown. This has been reported to Microsoft, and they&rsquo;ve acknowledged receipt of that report and are investigating. Personally, I believe the problem may be related to internal-use-only tools that are used to create the syntax section of the help files, so hopefully it&rsquo;ll be an easy fix.<br>
-The -full and -detail help still shows the correct information, so if you&rsquo;ve downloaded the borked help files, you&rsquo;re not totally out of luck.<br>
-As far as I can determine, this only currently affects core PowerShell cmdlets, not add-in modules from product teams like Exchange, etc. I believe that&rsquo;s because the core cmdlets were just updated and re-published, something the PowerShell team tends to do a bit more frequently than some of the other product groups.<br>
-I&rsquo;ll keep you posted as I learn anything new.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-06-28-caution-dont-run-update-help-right-now/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="pipeline or script? that is the question" 
-                     data-content="&lt;p&gt;when i teach powershell classes, i often start by assuring students that, with the shell, you canâ _accomplish a great deal without ever writing a script.â _and it&amp;rsquo;s true - you can. unlike predecessor technologies like vbscript, powershell lets you pack a lot of goodness into a one-liner - or even into several lines run manually in the console.&lt;br&gt;
-what i never say isâ _you can accomplishâ 
-anything
-without ever writing a script.â _that isn&amp;rsquo;t true. i see folks struggle all the time to squeeze something into a one-liner pipeline, when life would be so much easier if they switched a script-style, procedural approach.&lt;br&gt;
-so what&amp;rsquo;s the tipping point?&lt;br&gt;
-actually, it&amp;rsquo;s really easy to spot. you should be writing a script if:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jun 21, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-06-21-pipeline-or-script-that-is-the-question/" class="hover:text-blue-600 transition-colors duration-200">
-                            Pipeline or Script? That is the Question
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When I teach PowerShell classes, I often start by assuring students that, with the shell, you canÂ _accomplish a great deal without ever writing a script.Â _And it&rsquo;s true - you can. Unlike predecessor technologies like VBScript, PowerShell lets you pack a lot of goodness into a one-liner - or even into several lines run manually in the console.<br>
-What I never say isÂ _you can accomplishÂ 
-anything
-without ever writing a script.Â _That isn&rsquo;t true. I see folks struggle all the time to squeeze something into a one-liner pipeline, when life would be so much easier if they switched a script-style, procedural approach.<br>
-So what&rsquo;s the tipping point?<br>
-Actually, it&rsquo;s really easy to spot. You should be writing a script if:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-06-21-pipeline-or-script-that-is-the-question/" 
+                        <a href="http://localhost:57259/articles/2013-07-09-new-blog-posting-on-desired-state-configuration/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1182,7 +1260,7 @@ Actually, it&rsquo;s really easy to spot. You should be writing a script if:</p>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

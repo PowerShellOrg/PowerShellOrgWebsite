@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boe Prox - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/authors/boe-prox/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/authors/boe-prox/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/authors/boe-prox/">
+    <meta property="og:url" content="http://localhost:57259/authors/boe-prox/">
     <meta property="og:title" content="Boe Prox">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/authors/boe-prox/">
+    <meta property="twitter:url" content="http://localhost:57259/authors/boe-prox/">
     <meta property="twitter:title" content="Boe Prox">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -433,7 +483,7 @@ the idea of parameter validation is that you can specify specific checks on a pa
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2014-02-04-using-powershell-parameter-validation-to-make-your-day-easier/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2014-02-04-using-powershell-parameter-validation-to-make-your-day-easier/" class="hover:text-blue-600 transition-colors duration-200">
                                 Using PowerShell Parameter Validation to Make Your Day Easier
                             </a>
                         </h2>
@@ -442,7 +492,7 @@ Writing functions or scripts require a variety of parameters which have differen
 The idea of parameter validation is that you can specify specific checks on a parameter that is being used on a function or script. If the value or collection that is passed to the parameter doesn’t meet the specified requirements, a terminating error is thrown and the execution of the code halts and gives you an error stating (usually readable) the reason for the halt. This is very powerful and allows you to have much tighter control over the input that is going into the function. You don’t want to have your script go crazy halfway into the code execution because the values sent to the parameter were completely off of the wall.<br>
 <a href="http://learn-powershell.net/2014/02/04/using-powershell-parameter-validation-to-make-your-day-easier/">Click here</a> to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2014-02-04-using-powershell-parameter-validation-to-make-your-day-easier/" 
+                            <a href="http://localhost:57259/articles/2014-02-04-using-powershell-parameter-validation-to-make-your-day-easier/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -482,7 +532,7 @@ in this article, i will show you a couple of new additions to the #requires stat
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2014-01-20-winter-scripting-games-2014-tip-2-use-requires-to-let-powershell-do-the-work-for-you/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2014-01-20-winter-scripting-games-2014-tip-2-use-requires-to-let-powershell-do-the-work-for-you/" class="hover:text-blue-600 transition-colors duration-200">
                                 Winter Scripting Games 2014 Tip #2: Use #Requires to let PowerShell do the work for you
                             </a>
                         </h2>
@@ -490,7 +540,7 @@ in this article, i will show you a couple of new additions to the #requires stat
 In this article, I will show you a couple of new additions to the #Requires statement that will make your life easier when writing functions that require specific pre-requisites rather than coding your own methods<br>
 <a href="http://learn-powershell.net/2014/01/20/winter-scripting-games-2014-tip-2-use-requires-to-let-powershell-do-the-work-for-you/">Click here</a> to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article..</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2014-01-20-winter-scripting-games-2014-tip-2-use-requires-to-let-powershell-do-the-work-for-you/" 
+                            <a href="http://localhost:57259/articles/2014-01-20-winter-scripting-games-2014-tip-2-use-requires-to-let-powershell-do-the-work-for-you/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -529,14 +579,14 @@ In this article, I will show you a couple of new additions to the #Requires stat
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2014-01-16-winter-scripting-games-2014-tip-1-avoid-the-aliases/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2014-01-16-winter-scripting-games-2014-tip-1-avoid-the-aliases/" class="hover:text-blue-600 transition-colors duration-200">
                                 Winter Scripting Games 2014 Tip #1: Avoid the aliases
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Having been a judge for the previous 2 Scripting Game competitions as well as competing in the 2 before that, I have seen my share of scripts submitted that didn&rsquo;t quite meet the cut of what I felt were the best scripts. It doesn&rsquo;t mean that they wouldn&rsquo;t work out in the real world in a production environment (Ok, some wouldn&rsquo;t :)), but some were just really hard to read or others were doing things that I wouldn&rsquo;t consider to be a good practice. The first of several articles that I will be doing will start out with the use of aliases in scripts and why this is not necessarily a good idea.<br>
 <a href="http://learn-powershell.net/2014/01/16/winter-scripting-games-2014-tip-1-avoid-the-aliases/">Click here</a> to be redirected to the original post of this article on the author’s blog site where you can read the remainder of the article.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2014-01-16-winter-scripting-games-2014-tip-1-avoid-the-aliases/" 
+                            <a href="http://localhost:57259/articles/2014-01-16-winter-scripting-games-2014-tip-1-avoid-the-aliases/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -577,7 +627,7 @@ i&amp;rsquo;ve written a couple of articles hat focus on making the database con
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" class="hover:text-blue-600 transition-colors duration-200">
                                 Working with the WSUS API and the SUSDB Database using PowerShell
                             </a>
                         </h2>
@@ -586,7 +636,7 @@ I&rsquo;ve written a couple of articles hat focus on making the database connect
 <a href="http://learn-powershell.net/2013/07/07/use-the-wsus-api-and-powershell-to-query-the-susdb-database/">Use the WSUS API and PowerShell to query the SUSDB Database</a><br>
 <a href="http://learn-powershell.net/2013/07/07/using-the-wsus-api-and-powershell-to-perform-maintenance-on-the-susdb-database/">Using the WSUS API and PowerShell to Perform Maintenance on the SUSDB Database</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" 
+                            <a href="http://localhost:57259/articles/2013-07-11-working-with-the-wsus-api-and-the-susdb-database-using-powershell/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -625,14 +675,14 @@ check out the rest of my notes on my &lt;a href=&#34;http://learn-powershell.net
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-06-09-scripting-games-2013-event-6-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-06-09-scripting-games-2013-event-6-notes/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 6 Notes
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>We have finally hit the final event of the 2013 Scripting Games! The past 6 weeks have given us many amazing scripts and some that were in need of extra work. Regardless, for those of you who have finished all 6 scripts in your respective, I say Congratulations! You have hit the finish line sprinting hard to the end! Now you can sit back and know that you made it and have learned (hopefully) some great things along the way. Remember, not only have you learned some new techniques, but also the techniques that you have used have taught others how to write better scripts!<br>
 Check out the rest of my notes on my <a href="http://learn-powershell.net/2013/06/09/scripting-games-2013-event-6-notes/">blog here</a>!</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-06-09-scripting-games-2013-event-6-notes/" 
+                            <a href="http://localhost:57259/articles/2013-06-09-scripting-games-2013-event-6-notes/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -664,7 +714,7 @@ with that, head over to my blog to check out my notes on event 5 &lt;a href=&#34
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-06-03-scripting-games-2013-event-5-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-06-03-scripting-games-2013-event-5-notes/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 5 Notes
                             </a>
                         </h2>
@@ -672,7 +722,7 @@ with that, head over to my blog to check out my notes on event 5 &lt;a href=&#34
 I was hoping to have this article completed prior to now, but between a flight to Tech Ed and forgetting my power cord for the laptop, I am just now getting this accomplished. Better late than never :).<br>
 With that, head over to my blog to check out my notes on Event 5 <a href="http://learn-powershell.net/2013/06/03/scripting-games-2013-event-5-notes/">here</a>.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-06-03-scripting-games-2013-event-5-notes/" 
+                            <a href="http://localhost:57259/articles/2013-06-03-scripting-games-2013-event-5-notes/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -703,14 +753,14 @@ of course, thisâ doesn&amp;rsquo;tâ mean that thereâ isn&amp;rsquo;tâ ro
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-05-23-scripting-games-2013-event-4-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-05-23-scripting-games-2013-event-4-notes/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 4 Notes
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>It is all downhill from here folks! Event 4 is in the books and we only have 2 more to go! Everyone has been doing an outstanding job with their submissions and it is becoming clear that people are learning new things and showing some great techniques with their code.<br>
 Of course, thisÂ doesn&rsquo;tÂ mean that thereÂ isn&rsquo;tÂ room for improvement with some submissions to make them even better or just some simple mistakes that can be cleaned up to make average submissions into amazing submissions. With that, its time to dive into my notes&quot;¦ You can check out the rest of this article <a href="http://learn-powershell.net/2013/05/23/scripting-games-2013-event-4-notes/">here</a>.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-05-23-scripting-games-2013-event-4-notes/" 
+                            <a href="http://localhost:57259/articles/2013-05-23-scripting-games-2013-event-4-notes/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -740,13 +790,13 @@ Of course, thisÂ doesn&rsquo;tÂ mean that thereÂ isn&rsquo;tÂ room for i
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-05-15-scripting-games-2013-event-3-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-05-15-scripting-games-2013-event-3-notes/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 3 Notes
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Wow, it is hard to believe that we are now halfway through the Scripting Games! As the events have progressed, I have seen a lot of improvement with the techniques as well as seeing new techniques that continue to impress me. On the flip side, I have seen some mistakes or assumptions when coding that cause a potential 5 star script to be a 2 or 3 star script. The best part about all of this is that we are all (yes, even the judges) learning new things that can only help to improve everyone&quot;™s scripting knowledge. Check out the rest of the <a href="http://learn-powershell.net/2013/05/15/scripting-games-2013-event-3-notes/">article here</a>.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-05-15-scripting-games-2013-event-3-notes/" 
+                            <a href="http://localhost:57259/articles/2013-05-15-scripting-games-2013-event-3-notes/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -776,13 +826,13 @@ Of course, thisÂ doesn&rsquo;tÂ mean that thereÂ isn&rsquo;tÂ room for i
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-05-12-scripting-games-2013-event-2-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-05-12-scripting-games-2013-event-2-notes/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 2 Notes
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>I spent some time last week and this weekend to compile a list of notes of what I have seenÂ with the Event 2 submissions that could show improvement. I touched up on some items with my <a href="http://learn-powershell.net/2013/05/08/scripting-games-2013-event-2-favorite-and-not-so-favorite/">previous article</a> where I picked out some submissions that I liked andÂ didn&rsquo;tÂ quite likeÂ but wanted to touch on a few more things.Â Some of this feels like a repeat of last week and even last years games, but that is Ok. This is all about learning and as long as everyone takes what all of the judges have been writing about, then there will be nothing but great improvements during the course of the games. <a href="http://learn-powershell.net/2013/05/12/scripting-games-2013-event-2-notes/">Click here</a> to go to continue reading this article.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-05-12-scripting-games-2013-event-2-notes/" 
+                            <a href="http://localhost:57259/articles/2013-05-12-scripting-games-2013-event-2-notes/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -813,14 +863,14 @@ check out my picks &lt;a href=&#34;http://learn-powershell.net/2013/05/08/script
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/articles/2013-05-08-scripting-games-2013-event-2-favorite-and-not-so-favorite/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/articles/2013-05-08-scripting-games-2013-event-2-favorite-and-not-so-favorite/" class="hover:text-blue-600 transition-colors duration-200">
                                 Scripting Games 2013: Event 2 &#34;˜Favorite&#34;™ and &#34;˜Not So Favorite&#34;™
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Event 2 is in the books and with that, it is time to take a look at all of the scripts submitted and make the difficult decisions as to which ones I liked and which ones IÂ didn&rsquo;tÂ quite like. Â Just because a script landed on my &ldquo;˜Not so Favorite&rdquo;™ listÂ doesn&rsquo;tÂ mean it was terrible. It was just that I felt that there were some things here and there that could have been looked at a little differently. In fact, the amount of submissions that were great really made my decisions much for difficult.Â Everyone has really shown just how much knowledge is out there and how there are many different approaches to a single problem!<br>
 Check out my picks <a href="http://learn-powershell.net/2013/05/08/scripting-games-2013-event-2-favorite-and-not-so-favorite/">here</a>.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/articles/2013-05-08-scripting-games-2013-event-2-favorite-and-not-so-favorite/" 
+                            <a href="http://localhost:57259/articles/2013-05-08-scripting-games-2013-event-2-favorite-and-not-so-favorite/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -932,7 +982,7 @@ Check out my picks <a href="http://learn-powershell.net/2013/05/08/scripting-gam
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

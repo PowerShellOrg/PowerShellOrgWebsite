@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Timpringle on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/timpringle/</link>
+    <link>http://localhost:57259/authors/timpringle/</link>
     <description>Recent content in Timpringle on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Feb 2016 07:08:25 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/timpringle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/timpringle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using PowerShell to make Azure Automation Graphical Runbooks – Part 2</title>
-      <link>https://powershell.org/articles/2016-02-03-using-powershell-to-make-azure-automation-graphical-runbooks-part-2/</link>
+      <link>http://localhost:57259/articles/2016-02-03-using-powershell-to-make-azure-automation-graphical-runbooks-part-2/</link>
       <pubDate>Thu, 04 Feb 2016 07:08:25 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-02-03-using-powershell-to-make-azure-automation-graphical-runbooks-part-2/</guid>
+      <guid>http://localhost:57259/articles/2016-02-03-using-powershell-to-make-azure-automation-graphical-runbooks-part-2/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;http://www.powershell.amsterdam/2016/01/29/using-powershell-to-make-azure-automation-graphical-runbooks-part-1/&#34;&gt;previous article&lt;/a&gt; in this series covered the release of the Microsoft Azure Automation Graphical Authoring SDK, and began to outline some of the classes used and, where possible, the visible elements they relate to in the Azure portal itself.&lt;br&gt;&#xA;This second part of the series focuses on probably the most time consuming and challenging part of scripting these runbooks, those to do with Activities.&lt;br&gt;&#xA;You can read the full article at &lt;a href=&#34;http://www.powershell.amsterdam/2016/02/03/using-powershell-to-make-azure-automation-graphical-runbooks-part-2/&#34;&gt;www.powershell.amsterdam&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using PowerShell to make Azure Automation Graphical Runbooks – Part 1</title>
-      <link>https://powershell.org/articles/2016-01-29-using-powershell-to-make-azure-automation-graphical-runbooks-part-1/</link>
+      <link>http://localhost:57259/articles/2016-01-29-using-powershell-to-make-azure-automation-graphical-runbooks-part-1/</link>
       <pubDate>Fri, 29 Jan 2016 15:52:51 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-29-using-powershell-to-make-azure-automation-graphical-runbooks-part-1/</guid>
+      <guid>http://localhost:57259/articles/2016-01-29-using-powershell-to-make-azure-automation-graphical-runbooks-part-1/</guid>
       <description>&lt;p&gt;Microsoft recently released another extension for Azure Automation developers, this time in the form of the Microsoft Azure Automation Graphical Authoring SDK.&lt;br&gt;&#xA;This SDK allows developers to make and edit graphic runbooks for using in Azure Automation. Although the examples given are in C#, it&amp;rsquo;s possible to apply the same methodologies to develop them in PowerShell with the accompanying SDK mentioned above.&lt;br&gt;&#xA;You can read the first article of this series on creating these Graphical Runbooks at &lt;a href=&#34;http://www.powershell.amsterdam/2016/01/29/using-powershell-to-make-azure-automation-graphical-runbooks-part-1/&#34;&gt;powershell.amsterdam&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Local Functions in a Scriptblock with Existing Code</title>
-      <link>https://powershell.org/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/</link>
+      <link>http://localhost:57259/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/</link>
       <pubDate>Mon, 18 Jan 2016 15:14:03 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/</guid>
+      <guid>http://localhost:57259/articles/2016-01-18-using-local-functions-remotely-in-an-existing-scriptblock/</guid>
       <description>&lt;p&gt;When you are wanting to run code remotely, it&amp;rsquo;s common to do this via the use of &lt;strong&gt;Invoke-Command&lt;/strong&gt; (though other options exist, such as through &lt;strong&gt;Start-Job&lt;/strong&gt; for example). The biggest downfall to date i&amp;rsquo;ve found with remoting is the lack of an option to combine the use of your local functions within a &lt;em&gt;ScriptBlock&lt;/em&gt; that has other code in it. As an example, the following is not possible:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;function Add ($param1, $param2) { $param1 + $param2 } function Multiply($param1,$param2) { $param1 * $param2 } Invoke-Command -ComputerName $env:COMPUTERNAME -ScriptBlock { $addResult = Add $args[0] $args[1] $multiplyResult = Multiply $args[0] $args[1] Write-Output &amp;quot;The result of the addition was : $addResult&amp;quot; Write-Output &amp;quot;The result of the multiplication was : $multiplyResult&amp;quot; } -ArgumentList 3, 2 &lt;/code&gt;However, there is a way to achieve this type of operation, and make as many local functions as you want available to be used and combined with other code in your &lt;em&gt;ScriptBlock&lt;/em&gt;. You can find the full article at &lt;a href=&#34;http://www.powershell.amsterdam/2015/11/09/using-local-functions-on-remote-computers/&#34;&gt;powershell.amsterdam&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learn Powershell in 5 Painless Steps – Loops (Foreach, For, While) – Step 4 - PowerShell.org - Welcome Automaters!</title>
@@ -17,7 +17,7 @@
     
     
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://powershell.org/articles/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4/">
+    <meta property="og:url" content="http://localhost:57259/articles/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4/">
     <meta property="og:title" content="Learn Powershell in 5 Painless Steps – Loops (Foreach, For, While) – Step 4">
     <meta property="og:description"
         content="DevOps = Developers &#43; Operations.  What if you&rsquo;re in Operations and don&rsquo;t have a developer at your disposal?  That should never stop you from …">
@@ -25,7 +25,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4/">
     <meta property="twitter:title" content="Learn Powershell in 5 Painless Steps – Loops (Foreach, For, While) – Step 4">
     <meta property="twitter:description"
         content="DevOps = Developers &#43; Operations.  What if you&rsquo;re in Operations and don&rsquo;t have a developer at your disposal?  That should never stop you from …">
@@ -176,10 +176,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -188,77 +186,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -266,7 +288,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -288,80 +310,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -421,17 +471,17 @@
                 
                 <div class="flex items-center space-x-2">
                     <span class="text-gray-600 text-sm mr-2">Share:</span>
-                    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpowershell.org%2farticles%2f2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4%2f&text=Learn%20Powershell%20in%205%20Painless%20Steps%20%e2%80%93%20Loops%20%28Foreach%2c%20For%2c%20While%29%20%e2%80%93%20Step%204" 
+                    <a href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a57259%2farticles%2f2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4%2f&text=Learn%20Powershell%20in%205%20Painless%20Steps%20%e2%80%93%20Loops%20%28Foreach%2c%20For%2c%20While%29%20%e2%80%93%20Step%204" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-400 transition-colors duration-200">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpowershell.org%2farticles%2f2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4%2f" 
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2flocalhost%3a57259%2farticles%2f2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4%2f" 
                        target="_blank" rel="noopener"
                        class="text-gray-500 hover:text-blue-600 transition-colors duration-200">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <button onclick="navigator.clipboard.writeText('https:\/\/powershell.org\/articles\/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4\/')" 
+                    <button onclick="navigator.clipboard.writeText('http:\/\/localhost:57259\/articles\/2022-07-28-learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4\/')" 
                             class="text-gray-500 hover:text-gray-700 transition-colors duration-200"
                             title="Copy link">
                         <i class="fas fa-link"></i>
@@ -498,12 +548,10 @@ $serverInfo_obj.add($newObject)</p>
 $serverInfo_obj.add($newObject)
 `Now, we&rsquo;ll just enter another object for each of our 3 million servers we&rsquo;re managing.. I&rsquo;ll wait. No? Let&rsquo;s see how we can make our script LOOP through a large number of things. We&rsquo;ll start by noticing our naming convention has a simple format that would be suited well to just bumping the number a bunch of times and setting the name of the server to &ldquo;Server-$instance&rdquo;. This will be simple to perform using a RANGE. To see how a range works, enter this into your console:</p>
 <blockquote>
-<p>1..100</p>
-</blockquote>
+<p>1..100</p></blockquote>
 <p>Cool&hellip; we made a computer count to 100. I may have played with this dumb little piece of code far too much when I first learned it. We&rsquo;ll note that the numbers don&rsquo;t have the leading zeroes to make them the same number of digits. It&rsquo;s easier to read a list of them if they all line up. This looks a little bit like I sneezed while typing but I&rsquo;ll explain it once we&rsquo;ve run it:</p>
 <blockquote>
-<p>1..100 | %{ &ldquo;{0:000}&rdquo; -f $_ }</p>
-</blockquote>
+<p>1..100 | %{ &ldquo;{0:000}&rdquo; -f $_ }</p></blockquote>
 <ol>
 <li>We know that the range generates all the numbers between 1 and 100.</li>
 <li>We know that the PIPE character passes data from the left to the right.</li>
@@ -578,7 +626,7 @@ $i++
 `Use whatever makes the code easier for you to read. Feel free to reformat the scripts you download from others as well to make them easier for you to read. I use the latter format for the reasons I stated in the comments. Let&rsquo;s get back to the for statement:</p>
 <blockquote>
 </blockquote>
-<p><code>for ($i=1; $i -lt 101; $i++) { &quot;server-{0:000}&quot; -f $i } </code>The command is FOR (initiate variable; condition; increment variable){code block}</p>
+<p><code>for ($i=1; $i -lt 101; $i++) { &quot;server-{0:000}&quot; -f $i } </code>The command is FOR (initiate variable; condition; increment variable){code block}</p>
 <p>We recognize the $i=1 We&rsquo;re setting the variable $i to the value 1 as a starting point. We can use the semi-colon ; to separate commands on the same line.</p>
 <p>The second part is called an evaluation. The -lt stands for &ldquo;less than.&rdquo; So the middle statement reads: $i is less than 101. Our FOR LOOP will run as long as this is true (or as powershell sees it, $TRUE as opposed to $FALSE).</p>
 <p>The third piece states what happens each time the loop comes back up to the top. In this case, we are incrementing our $i by 1. The ++ adds 1 to whatever integer based variable it&rsquo;s attached to. If we start at 0 instead of 1, we can loop through index numbers.</p>
@@ -588,42 +636,42 @@ $i++
 <p>It is simple in concept, it loops WHILE the condition () is true (careful, this first example will loop forever - keep an eye on the stop button at the top of the editor):</p>
 <blockquote>
 </blockquote>
-<p><code>While ( $TRUE ) { # Does a thing; Write-Output &quot;Can't sleep&quot; } While ( $FALSE ) { # Doesn't do a thing; Write-Output &quot;Clowns will catch me&quot; } </code>Let&rsquo;s talk TRUE and FALSE. There are special variables defined in almost every language for $TRUE and $FALSE. These are the two BOOLEAN conditions, the binary bread and butter of 1 and 0, so to speak. In fact, they are stored as a 1 and a 0 and can be used that way:</p>
+<p><code>While ( $TRUE ) { # Does a thing; Write-Output &quot;Can't sleep&quot; } While ( $FALSE ) { # Doesn't do a thing; Write-Output &quot;Clowns will catch me&quot; } </code>Let&rsquo;s talk TRUE and FALSE. There are special variables defined in almost every language for $TRUE and $FALSE. These are the two BOOLEAN conditions, the binary bread and butter of 1 and 0, so to speak. In fact, they are stored as a 1 and a 0 and can be used that way:</p>
 <blockquote>
 </blockquote>
-<p><code>While ( 1 ) { # Does a thing; Write-Output &quot;Can't Sleep&quot; } While ( 0 ) { # Doesn't do a thing; Write-Output &quot;Clowns will catch me&quot; } </code>Let&rsquo;s talk BOOLEAN a little bit (get it&hellip; bit? Like a single 1/0 piece of storage in the computer? I slay me).</p>
+<p><code>While ( 1 ) { # Does a thing; Write-Output &quot;Can't Sleep&quot; } While ( 0 ) { # Doesn't do a thing; Write-Output &quot;Clowns will catch me&quot; } </code>Let&rsquo;s talk BOOLEAN a little bit (get it&hellip; bit? Like a single 1/0 piece of storage in the computer? I slay me).</p>
 <p>During the for loop discussion, we looked at the -lt operator, which I mentioned was a boolean operator. This one will take some explanation.</p>
 <p>A boolean statement is any comparison that can be resolved to true or false. In our for loop, we had the statement $i -lt 101. As long as $i was less than 101, that statement resolved to $TRUE. As soon as it was equal (-eq) to 101, it was no longer less than it and therefore considered $FALSE. As seen in the simple statements above, $FALSE in the condition () part of the while loop &ldquo;# Doesn&rsquo;t do a thing.&rdquo; If we replace the $TRUE/$FALSE with a CONDITIONAL STATEMENT, we can build that same FOR loop using a WHILE loop.</p>
 <blockquote>
 </blockquote>
-<p><code>$i = 1 While ( $i -lt 101 ) { &quot;server-{0:000}&quot; -f $i $i++ } </code>We&rsquo;ve got a bunch of different boolean operators we can use against numbers:</p>
+<p><code>$i = 1 While ( $i -lt 101 ) { &quot;server-{0:000}&quot; -f $i $i++ } </code>We&rsquo;ve got a bunch of different boolean operators we can use against numbers:</p>
 <blockquote>
 </blockquote>
-<p><code>-eq Equal To -lt Less Than -le Less Than or Equal To -gt Greater Than -ge Greater Than or Equal To </code>A few for strings:</p>
+<p><code>-eq Equal To -lt Less Than -le Less Than or Equal To -gt Greater Than -ge Greater Than or Equal To </code>A few for strings:</p>
 <blockquote>
 </blockquote>
-<p><code>-like    This takes wildcards: &quot;server-1*&quot; -notlike same as above, but excludes instead of includes </code>EXTRA CREDIT! There are a few more that will evaluate multiple boolean statements as well:</p>
+<p><code>-like    This takes wildcards: &quot;server-1*&quot; -notlike same as above, but excludes instead of includes </code>EXTRA CREDIT! There are a few more that will evaluate multiple boolean statements as well:</p>
 <p>-and (both true)</p>
 <blockquote>
 </blockquote>
-<p><code>$true  -and $false = $false $true  -and $true  = $true $false -and $true  = $false $false -and $false = $false </code>-or (at least one true)</p>
+<p><code>$true  -and $false = $false $true  -and $true  = $true $false -and $true  = $false $false -and $false = $false </code>-or (at least one true)</p>
 <blockquote>
 </blockquote>
-<p><code>$true  -or $false = $true $true  -or $true  = $true $false -or $true  = $false $false -or $false = $false </code>-xor (one true, not both)<br>
+<p><code>$true  -or $false = $true $true  -or $true  = $true $false -or $true  = $false $false -or $false = $false </code>-xor (one true, not both)<br>
 (&ldquo;exclusive or&rdquo;, not the bad guy from a low budget 80s sci-fi movie)</p>
 <blockquote>
 </blockquote>
-<p><code>$true  -xor $false = $true $true  -xor $true  = $false $false -xor $true  = $true $false -xor $false = $false </code>-not (you&rsquo;re so negative, also known as !)</p>
+<p><code>$true  -xor $false = $true $true  -xor $true  = $false $false -xor $true  = $true $false -xor $false = $false </code>-not (you&rsquo;re so negative, also known as !)</p>
 <blockquote>
 </blockquote>
-<p><code>-not $false = $true !$false     = $true -not $true  = $false !$true      = $false</code># Returns $TRUE when $i is 50 to 100
+<p><code>-not $false = $true !$false     = $true -not $true  = $false !$true      = $false</code># Returns $TRUE when $i is 50 to 100
 ($i -gt 49) -and ($i -lt 101)</p>
 <h1 id="makes-more-sense-as">Makes more sense as</h1>
 <p>($i -ge 50) -and ($i -le 100)
 `You&rsquo;ll note the () I&rsquo;ve used. These are used in this case to indicate order of operations. The parentheticals are solved first. This turns them into a $TRUE or a $FALSE. Then those results are compared with the boolean operator. You can make these quite complex. Imagine you need to find all servers that have more than 8GB installed and smaller than 250GB disk, but not the ones named SQL-xxx</p>
 <blockquote>
 </blockquote>
-<p><code>( ( $server.memory -gt 8 ) -and ( $server.diskC -lt 250 ) ) -and ( $server.name -notlike &quot;SQL-*&quot; ) </code>This will evaluate the memory and disk space part first, then evaluate the server name, then check them against each other. This is great if all we&rsquo;re ever doing is checking whether to stop a loop. What if we want to adjust our dynamic memory settings on a VM based on its memory and disk configurations? We&rsquo;d need to be able to do this test, then have the results drive a DECISION! Have you guessed next week&rsquo;s topic yet?</p>
+<p><code>( ( $server.memory -gt 8 ) -and ( $server.diskC -lt 250 ) ) -and ( $server.name -notlike &quot;SQL-*&quot; ) </code>This will evaluate the memory and disk space part first, then evaluate the server name, then check them against each other. This is great if all we&rsquo;re ever doing is checking whether to stop a loop. What if we want to adjust our dynamic memory settings on a VM based on its memory and disk configurations? We&rsquo;d need to be able to do this test, then have the results drive a DECISION! Have you guessed next week&rsquo;s topic yet?</p>
 <p>Next week, we learn DECISIONS. Or as I like to call it, how SKYNET begins.</p>
 <h6></h6>
 <p><a href="https://powershell.org/?p=294979&amp;preview=true">Step 3: Input (Just you and me)</a> &lt;&ndash; Step 4: Loops(I can give you more) &ndash;&gt; <a href="https://powershell.org/?p=294983&amp;preview=true">Step 5: Decisions(The time has arrived)</a></p>
@@ -644,7 +692,7 @@ $i++
         <nav class="mt-12 pt-8 border-t border-gray-200">
             <div class="flex justify-between items-center">
                 
-                <a href="https://powershell.org/articles/2022-07-28-learn-powershell-in-5-painless-steps-input-console-file-applications-step-3/" 
+                <a href="http://localhost:57259/articles/2022-07-28-learn-powershell-in-5-painless-steps-input-console-file-applications-step-3/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <i class="fas fa-chevron-left mr-2"></i>
                     <span class="truncate max-w-xs">Learn Powershell in 5 Painless Steps – Input (Console, File, Applications) – Step 3</span>
@@ -652,7 +700,7 @@ $i++
                 
                 
                 
-                <a href="https://powershell.org/articles/2022-07-28-learn-powershell-in-5-painless-steps-decisions-if-else-switch-function-step-5/" 
+                <a href="http://localhost:57259/articles/2022-07-28-learn-powershell-in-5-painless-steps-decisions-if-else-switch-function-step-5/" 
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <span class="truncate max-w-xs">Learn Powershell in 5 Painless Steps – Decisions (If/Else, Switch, Function) – Step 5</span>
                     <i class="fas fa-chevron-right ml-2"></i>
@@ -730,7 +778,7 @@ $i++
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

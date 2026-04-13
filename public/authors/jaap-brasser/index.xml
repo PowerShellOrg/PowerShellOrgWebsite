@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jaap Brasser on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/jaap-brasser/</link>
+    <link>http://localhost:57259/authors/jaap-brasser/</link>
     <description>Recent content in Jaap Brasser on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Sep 2016 07:28:04 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/jaap-brasser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/jaap-brasser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recap of DuPSUG PowerShell Saturday 2016</title>
-      <link>https://powershell.org/articles/2016-09-27-recap-of-dupsug-powershell-saturday-2016/</link>
+      <link>http://localhost:57259/articles/2016-09-27-recap-of-dupsug-powershell-saturday-2016/</link>
       <pubDate>Tue, 27 Sep 2016 07:28:04 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-09-27-recap-of-dupsug-powershell-saturday-2016/</guid>
+      <guid>http://localhost:57259/articles/2016-09-27-recap-of-dupsug-powershell-saturday-2016/</guid>
       <description>&lt;p&gt;Last weekend we hosted our second PowerShell Saturday, this time the event was hosted by IPsoft in Amsterdam. During this event members of the Dutch PowerShell User Group gathered together to view a number of presentations and to engage in lively discussions on the various new developments in the PowerShell world.&lt;br&gt;&#xA;For more information about PowerShell Saturday, the Dutch PowerShell User Group or the slides and code used in the presentations please head over to the recap blog post here:&lt;br&gt;&#xA;&lt;a href=&#34;http://www.jaapbrasser.com/recap-of-dutch-powershell-saturday-september-2016/&#34;&gt;Recap of Dutch PowerShell Saturday September 2016&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dutch PowerShell User Group opens its doors on Slack</title>
-      <link>https://powershell.org/articles/2016-05-16-dutch-powershell-user-group-opens-its-doors-on-slack/</link>
+      <link>http://localhost:57259/articles/2016-05-16-dutch-powershell-user-group-opens-its-doors-on-slack/</link>
       <pubDate>Mon, 16 May 2016 13:07:17 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-05-16-dutch-powershell-user-group-opens-its-doors-on-slack/</guid>
+      <guid>http://localhost:57259/articles/2016-05-16-dutch-powershell-user-group-opens-its-doors-on-slack/</guid>
       <description>&lt;p&gt;In the past few weeks there has been a flurry of activity in the &lt;a href=&#34;http://www.dupsug.com&#34;&gt;DuPSUG&lt;/a&gt; organization. We have been working on organizing the first PowerShell Saturday in the Netherlands and we recently also opened our doors on Slack, with our &lt;a href=&#34;https://dupsug.slack.com/&#34;&gt;DuPSUG slack&lt;/a&gt; initiative.&lt;br&gt;&#xA;On Slack we will provide a platform on which we will share our content and provide another platform for our members and PowerShell enthusiasts worldwide to interact with the Dutch scripting community. If you are interested in participating in our events, either as a participant or perhaps at future events as a speaker, fill please out the following form:&lt;br&gt;&#xA;&lt;a href=&#34;http://goo.gl/forms/6La00HMeK7&#34;&gt;DuPSUG Slack Registration&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

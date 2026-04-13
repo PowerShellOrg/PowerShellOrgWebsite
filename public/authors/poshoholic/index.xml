@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poshoholic on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/poshoholic/</link>
+    <link>http://localhost:57259/authors/poshoholic/</link>
     <description>Recent content in Poshoholic on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2013 15:49:02 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/poshoholic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/poshoholic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[UPDATED] PowerShell Summit 2013 Conference Schedule</title>
-      <link>https://powershell.org/articles/2013-04-22-powershell-summit-2013-conference-schedule/</link>
+      <link>http://localhost:57259/articles/2013-04-22-powershell-summit-2013-conference-schedule/</link>
       <pubDate>Mon, 22 Apr 2013 15:49:02 +0000</pubDate>
-      <guid>https://powershell.org/articles/2013-04-22-powershell-summit-2013-conference-schedule/</guid>
+      <guid>http://localhost:57259/articles/2013-04-22-powershell-summit-2013-conference-schedule/</guid>
       <description>&lt;p&gt;If you are attending the PowerShell Summit next week in Redmond, you might want to make sure you have copies of the schedule on hand.Â  There are two tracks, and I have created two pdf documents, one for each track, that provide the full schedule including session abstracts and speaker bios.&lt;br&gt;&#xA;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2013/04/PowerShell-Summit-2013-Conference-Agenda-Track-1.pdf&#34;&gt;PowerShell Summit 2013 Conference Schedule - Track 1&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2013/04/PowerShell-Summit-2013-Conference-Agenda-Track-2.pdf&#34; title=&#34;PowerShell Summit 2013 Conference Schedule - Track 2.pdf&#34;&gt;PowerShell Summit 2013 Conference Schedule - Track 2&lt;/a&gt;&lt;br&gt;&#xA;While those details are very useful, some of the conference attendees have expressed an interest in having a consolidated view of the agenda so that they could see which sessions were taking place on each of the tracks and choose which they were more interested in.Â  Ask, and ye shall receive.Â  Here is a consolidated view of the conference sessions on all tracks, with each day on a separate page.&lt;br&gt;&#xA;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2013/04/PowerShell-Summit-2013-Conference-Agenda-At-a-glance.pdf&#34;&gt;PowerShell Summit 2013 Conference Schedule - At at glance&lt;/a&gt;&lt;br&gt;&#xA;Note that if you don&amp;quot;™t have a ticket for the conference, it is sold out for this year.Â  We&amp;quot;™re planning the 2014 conference now, so keep watching this blog for news about that conference as it becomes available.Â  There are already a few posts about it that are worth reviewing if you missed them.&lt;br&gt;&#xA;Thanks, and enjoy the conference next week!&lt;br&gt;&#xA;Kirk out.&lt;/p&gt;</description>
     </item>
   </channel>

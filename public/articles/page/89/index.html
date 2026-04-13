@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,178 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="powershell deep dives&#34;“another meap release" 
+                     data-content="&lt;p&gt;manning have released another set of chapters in their early access program for &lt;a href=&#34;http://www.manning.com/hicks/&#34;&gt;powershell deep dives&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;if you have an interest in powershell i would strongly urge you to buy a copy. it has chapters from a number of well known powershell authors together with some very good material from new authors.  best of all the royalties are going to charity.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2834/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2834/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2834&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 13, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-04-13-powershell-deep-dives-another-meap-release-2/" class="hover:text-blue-600 transition-colors duration-200">
+                            PowerShell Deep Dives&#34;“another MEAP release
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Manning have released another set of chapters in their early access program for <a href="http://www.manning.com/hicks/">PowerShell Deep Dives</a>.</p>
+<p>If you have an interest in PowerShell I would strongly urge you to buy a copy. It has chapters from a number of well known PowerShell authors together with some very good material from new authors.  Best of all the royalties are going to charity.</p>
+<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2834/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2834/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2834&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-04-13-powershell-deep-dives-another-meap-release-2/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="busy, busy, busy" 
+                     data-content="&lt;p&gt;a very busy time coming up in powershell land with the first powershell summit kicking off in just over a week&amp;quot;™s time.  the 2013 scripting games will also be starting very soon.&lt;/p&gt;
+&lt;p&gt;i&amp;quot;™ll try and post about both of them as time allows&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2832/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2832/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2832&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 13, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-04-13-busy-busy-busy-2/" class="hover:text-blue-600 transition-colors duration-200">
+                            Busy, busy, busy
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>A very busy time coming up in PowerShell land with the first PowerShell Summit kicking off in just over a week&quot;™s time.  The 2013 Scripting Games will also be starting very soon.</p>
+<p>I&quot;™ll try and post about both of them as time allows</p>
+<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2832/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2832/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2832&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-04-13-busy-busy-busy-2/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="creating a new disk" 
+                     data-content="&lt;p&gt;i really like windows server core. the concept has come of age in windows 2012.&lt;/p&gt;
+&lt;p&gt;i needed to add a new disk to a virtual machine  – that&amp;quot;™s easy using the hyper-v cmdlets. but what about formating the disk.&lt;/p&gt;
+&lt;p&gt;a module new to windows 2012 &amp;amp; windows can be used.  its the storage module.  i&amp;quot;™ve not had chance, or reason, to play with this module yet. so many cmdlets so little time.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 12, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-04-12-creating-a-new-disk-3/" class="hover:text-blue-600 transition-colors duration-200">
+                            Creating a new disk
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I really like Windows Server Core. The concept has come of age in Windows 2012.</p>
+<p>I needed to add a new disk to a virtual machine  – that&quot;™s easy using the Hyper-V cmdlets. But what about formating the disk.</p>
+<p>A module new to Windows 2012 &amp; Windows can be used.  Its the Storage module.  I&quot;™ve not had chance, or reason, to play with this module yet. So many cmdlets so little time.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-04-12-creating-a-new-disk-3/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="windows server backup" 
+                     data-content="&lt;p&gt;windows server 2012 has a powershell enabled backup utility. when you enable the feature you get a module called windowsserverbackup.  it has the cmldets you would expect for creating and managing backups. no surprise you may say as this was avialable in windows 2008 r2.&lt;/p&gt;
+&lt;p&gt;the difference with windows server 2012 is that you can do restores from powershell cmdlets whcih wasn&amp;quot;™t available in the earlier version.&lt;/p&gt;
+&lt;p&gt;the restore cmdlets are&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Apr 11, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-04-11-windows-server-backup-4/" class="hover:text-blue-600 transition-colors duration-200">
+                            Windows Server Backup
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Windows Server 2012 has a PowerShell enabled backup utility. When you enable the feature you get a module called WindowsServerBackup.  It has the cmldets you would expect for creating and managing backups. No surprise you may say as this was avialable in Windows 2008 R2.</p>
+<p>The difference with Windows Server 2012 is that you can do restores from PowerShell cmdlets whcih wasn&quot;™t available in the earlier version.</p>
+<p>The restore cmdlets are</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-04-11-windows-server-backup-4/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="[updated] time is running out to own a piece of powershell.org" 
                      data-content="&lt;p&gt;believe it or not, we are coming up on our one year anniversary, and will be winding down our capital campaign. if you&amp;rsquo;d like to become a stockholder in powershell.org, you will have until june 1st may 15 to do so. read the details at &lt;a href=&#34;https://powershell.org/discuss/viewtopic.php?f=26&amp;amp;t=239&#34;&gt;https://powershell.org/discuss/viewtopic.php?f=26&amp;amp;t=239&lt;/a&gt; if you&amp;rsquo;re interested!&lt;br&gt;
 &lt;strong&gt;updated&lt;/strong&gt; to show may 15 as the cutoff date. our shareholder meeting notices and ballots will go out on may 16, so we can&amp;rsquo;t accept new stock purchases after that date.&lt;/p&gt;"
@@ -438,7 +660,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-11-time-is-running-out-to-own-a-piece-of-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-11-time-is-running-out-to-own-a-piece-of-powershell-org/" class="hover:text-blue-600 transition-colors duration-200">
                             [UPDATED] Time is running out to own a piece of PowerShell.org
                         </a>
                     </h2>
@@ -447,7 +669,7 @@
 <strong>Updated</strong> to show May 15 as the cutoff date. Our shareholder meeting notices and ballots will go out on May 16, so we can&rsquo;t accept new stock purchases after that date.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-11-time-is-running-out-to-own-a-piece-of-powershell-org/" 
+                        <a href="http://localhost:57259/articles/2013-04-11-time-is-running-out-to-own-a-piece-of-powershell-org/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -484,7 +706,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-08-running-workflows/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-08-running-workflows/" class="hover:text-blue-600 transition-colors duration-200">
                             Running workflows
                         </a>
                     </h2>
@@ -498,7 +720,7 @@
 <p>Be aware of how you are running your workflows</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-08-running-workflows/" 
+                        <a href="http://localhost:57259/articles/2013-04-08-running-workflows/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -538,7 +760,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-07-phillyposh-04042013-meeting-summary/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-07-phillyposh-04042013-meeting-summary/" class="hover:text-blue-600 transition-colors duration-200">
                             PhillyPoSH 04/04/2013 meeting summary
                         </a>
                     </h2>
@@ -555,7 +777,7 @@
 </ol></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-07-phillyposh-04042013-meeting-summary/" 
+                        <a href="http://localhost:57259/articles/2013-04-07-phillyposh-04042013-meeting-summary/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -589,7 +811,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-06-ad-management-in-a-month-of-lunches/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-06-ad-management-in-a-month-of-lunches/" class="hover:text-blue-600 transition-colors duration-200">
                             AD Management in a Month of Lunches
                         </a>
                     </h2>
@@ -600,7 +822,7 @@
 <p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2826/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2826/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2826&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-06-ad-management-in-a-month-of-lunches/" 
+                        <a href="http://localhost:57259/articles/2013-04-06-ad-management-in-a-month-of-lunches/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -635,7 +857,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-06-2013-scripting-games-judges/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-06-2013-scripting-games-judges/" class="hover:text-blue-600 transition-colors duration-200">
                             2013 Scripting Games Judges
                         </a>
                     </h2>
@@ -643,7 +865,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>As described in the 2013 Scripting Games Competitors&rsquo; Guide, our expert judges this year will not be awarded numeric scores. Frankly, folks seem more interested in having their entries peer-reviewed than just getting a number - and why not? Expert review is a great way to learn! Unfortunately, there aren&rsquo;t enough judges in the world to review all the entries we&rsquo;ll receive, so our judges will be picking their own &ldquo;best and worst&rdquo; lists, and commenting on those (taking care to not reveal authors&rsquo; names, as much as possible).</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-06-2013-scripting-games-judges/" 
+                        <a href="http://localhost:57259/articles/2013-04-06-2013-scripting-games-judges/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -680,7 +902,7 @@ bet you&amp;rsquo;d like to meet the judges.&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-06-2013-scripting-games-mighty-panel-of-celebrity-judges/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-04-06-2013-scripting-games-mighty-panel-of-celebrity-judges/" class="hover:text-blue-600 transition-colors duration-200">
                             2013 Scripting Games&#39; Mighty Panel of Celebrity Judges
                         </a>
                     </h2>
@@ -690,197 +912,7 @@ bet you&amp;rsquo;d like to meet the judges.&lt;/p&gt;"
 Bet you&rsquo;d like to meet the judges.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-06-2013-scripting-games-mighty-panel-of-celebrity-judges/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="coming: tips for the scripting games" 
-                     data-content="&lt;p&gt;in preparation for the upcoming scripting games, the april 2013 issue of the free &lt;a href=&#34;/newsletter/&#34; title=&#34;powershell script that relaunches as admin&#34;&gt;powershell.org techletter&lt;/a&gt; will feature tips, examples, and advice for helping you do the best in the games! remember that the &lt;a href=&#34;/games/&#34;&gt;competitor guide&lt;/a&gt; is now available, so you can start reviewing how the games will be graded (by the community) and judged this year.&lt;br&gt;
-if you&amp;rsquo;re not already receiving the techletter, [subscribe by april 15th][3] to receive the april issue in your inbox!&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 6, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-05-coming-tips-for-the-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
-                            Coming: Tips for the Scripting Games
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>In preparation for the upcoming Scripting Games, the April 2013 issue of the free <a href="/newsletter/" title="PowerShell Script that Relaunches as Admin">PowerShell.org TechLetter</a> will feature tips, examples, and advice for helping you do the best in the Games! Remember that the <a href="/games/">Competitor Guide</a> is now available, so you can start reviewing how the Games will be graded (by the community) and judged this year.<br>
-If you&rsquo;re not already receiving the TechLetter, [subscribe by April 15th][3] to receive the April issue in your Inbox!</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-05-coming-tips-for-the-scripting-games/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell script that relaunches as admin" 
-                     data-content="&lt;p&gt;if were following good security practices we run our windows system with uac enabled.  this means that if you forget to launch your powershell prompt as administrator when you run a script that requires administrative privilege then that script will fail.&lt;/p&gt;
-&lt;p&gt;it would be nice to build a mechanism into our script to &amp;ldquo;auto-elevate&amp;rdquo; if uac is enabled.  the trick to doing this is to run start-process &amp;ldquo;“verb runas.  after that you only need to figure out if the current user is an administrator and if uac is enabled.  and you have to package up the script&amp;rdquo;™s parameters as an array of strings.  all of this can be accomplished fairly easily with this bit of powershell script:&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 5, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Keith Hill</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-05-powershell-script-that-relaunches-as-admin/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell Script that Relaunches as Admin
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>If were following good security practices we run our Windows system with UAC enabled.  This means that if you forget to launch your PowerShell prompt as Administrator when you run a script that requires administrative privilege then that script will fail.</p>
-<p>It would be nice to build a mechanism into our script to &ldquo;auto-elevate&rdquo; if UAC is enabled.  The trick to doing this is to run Start-Process &ldquo;“verb runas.  After that you only need to figure out if the current user is an administrator and if UAC is enabled.  And you have to package up the script&rdquo;™s parameters as an array of strings.  All of this can be accomplished fairly easily with this bit of PowerShell script:</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-05-powershell-script-that-relaunches-as-admin/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="manning deal of the day &#34;“ april 6 2013" 
-                     data-content="&lt;p&gt;my powershell and wmi book will be manning&amp;quot;™s deal of the day for 6 april 2013.  the deal will go live at midnight us et and will stay active for about 48 hours.&lt;/p&gt;
-&lt;p&gt;this is your chance to get the book with a 50% discount.&lt;/p&gt;
-&lt;p&gt;use code dotd0406au at &lt;a href=&#34;http://manning.com/siddaway2/&#34;&gt;manning.com/siddaway2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;the deal of the day offer also applies to &lt;em&gt;sharepoint workflow in action&lt;/em&gt; ****(&lt;a href=&#34;http://www.manning.com/wicklund/&#34;&gt;http://www.manning.com/wicklund/&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;enjoy&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2825/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2825/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2825&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 4, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-04-manning-deal-of-the-day-april-6-2013-2/" class="hover:text-blue-600 transition-colors duration-200">
-                            Manning Deal of the Day &#34;“ April 6 2013
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>My PowerShell and WMI book will be Manning&quot;™s deal of the day for 6 April 2013.  The deal will go live at Midnight US ET and will stay active for about 48 hours.</p>
-<p>This is your chance to get the book with a 50% discount.</p>
-<p>Use code dotd0406au at <a href="http://manning.com/siddaway2/">manning.com/siddaway2/</a></p>
-<p>The Deal of the Day offer also applies to <em>SharePoint Workflow in Action</em> ****(<a href="http://www.manning.com/wicklund/">http://www.manning.com/wicklund/</a>).</p>
-<p>Enjoy</p>
-<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2825/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2825/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2825&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-04-manning-deal-of-the-day-april-6-2013-2/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="2013 scripting games schedule" 
-                     data-content="&lt;p&gt;registration for the 2013 scripting games will begin april 22nd (check this post in case we need to make a change to that). you will register for &lt;strong&gt;either&lt;/strong&gt; the beginner or advanced track.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/games/beginnerpractice.pdf&#34;&gt;get the beginner track practice event&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://powershell.org/games/advancedpractice.pdf&#34;&gt;get the advanced track practice event&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;each event will kick off on a thursday, which is when you will be able to download the event details in a pdf file. you will have until the end of the following monday to upload your one and only entry. please pay attention to the time zone information displayed on the web site so that you don&amp;rsquo;t misunderstand when the event starts and stops!&lt;br&gt;
-the dates in this schedule refer to 00:00 hours, gmt, on the date given. so &amp;ldquo;april 25&amp;rdquo; means &amp;ldquo;00:00 hours on april 25, gmt,&amp;rdquo; or just as the clock ticks from april 24 to april 25 gmt. this is especially important for the end time - &amp;ldquo;april 30&amp;rdquo; means &amp;ldquo;as soon as it stops being april 29, gmt.&amp;rdquo;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Apr 4, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-04-03-2013-scripting-games-schedule/" class="hover:text-blue-600 transition-colors duration-200">
-                            2013 Scripting Games Schedule
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Registration for the 2013 Scripting Games will begin April 22nd (check this post in case we need to make a change to that). You will register for <strong>either</strong> the Beginner or Advanced track.</p>
-<ul>
-<li><a href="https://powershell.org/games/BeginnerPractice.pdf">Get the Beginner Track Practice Event</a></li>
-<li><a href="https://powershell.org/games/AdvancedPractice.pdf">Get the Advanced Track Practice Event</a></li>
-</ul>
-<p>Each event will kick off on a Thursday, which is when you will be able to download the event details in a PDF file. You will have until the end of the following Monday to upload your one and only entry. Please pay attention to the time zone information displayed on the Web site so that you don&rsquo;t misunderstand when the event starts and stops!<br>
-The dates in this schedule refer to 00:00 hours, GMT, on the date given. So &ldquo;April 25&rdquo; means &ldquo;00:00 hours on April 25, GMT,&rdquo; or just as the clock ticks from April 24 to April 25 GMT. This is especially important for the end time - &ldquo;April 30&rdquo; means &ldquo;as soon as it stops being April 29, GMT.&rdquo;</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-04-03-2013-scripting-games-schedule/" 
+                        <a href="http://localhost:57259/articles/2013-04-06-2013-scripting-games-mighty-panel-of-celebrity-judges/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1362,7 +1394,7 @@ The dates in this schedule refer to 00:00 hours, GMT, on the date given. So &ldq
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

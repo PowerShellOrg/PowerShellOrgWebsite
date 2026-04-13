@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The PowerShell Podcast - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/podcast/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/podcast/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/podcast/">
+    <meta property="og:url" content="http://localhost:57259/podcast/">
     <meta property="og:title" content="The PowerShell Podcast">
     <meta property="og:description"
         content="Building your career with PowerShell">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/podcast/">
+    <meta property="twitter:url" content="http://localhost:57259/podcast/">
     <meta property="twitter:title" content="The PowerShell Podcast">
     <meta property="twitter:description"
         content="Building your career with PowerShell">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,58 @@
         <div class="grid gap-8" id="episodes-container">
             
             
+            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="episode 34 &#34;“ vmware in the house" data-content="&lt;p&gt;&lt;strong&gt;a podcast about windows powershell.&lt;/strong&gt;&lt;br&gt;
+listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-034.mp3&#34;&gt;&lt;strong&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+we have a great show lined up for you today.â  we&amp;rsquo;ll be talking to carter shanklin from vmware about their powershell toolkit.â  he&amp;rsquo;s got some exciting new news to share with us, so that&amp;rsquo;s cool.â  we&amp;rsquo;ll also bring you news, resources, tips and whatever else we can scrape up.&lt;/p&gt;
+&lt;h3 id=&#34;news&#34;&gt;news&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;this segment is brought to you by &lt;a href=&#34;http://quest.com/powerscripting&#34;&gt;quest software&lt;/a&gt;.&lt;/em&gt;&lt;br&gt;
+_&lt;br&gt;
+_ &lt;em&gt;do you have what it takes to be the ultimate script warrior? find out with quest&amp;quot;™s powerpack challenge &amp;ldquo;™08.&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;quest software is sponsoring a powershell scripting contest where you can test your skills and get paid. just create some cool powershell scripts using quest&amp;rdquo;™s powergui and then post them to our site. you&amp;quot;™ll get a score and our celebrity judges will weigh in as well.&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;do you have the muscle to bring home the prize? check out the details &lt;a href=&#34;http://quest.com/powerscripting&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;">
+                <div class="lg:flex">
+                    <div class="lg:w-1/3 p-6 lg:pr-0">
+                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-4 lg:mb-0">
+                            <i class="fas fa-podcast text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="lg:w-2/3 p-6 lg:pl-8">
+                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
+                            <i class="fas fa-calendar mr-2"></i>
+                            <time>July 26, 2008</time>
+                            
+                        </div>
+                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            <a href="http://localhost:57259/podcast/2008-07-25-episode-34-vmware-in-the-house/" class="hover:text-purple-600 transition-colors duration-200">
+                                Episode 34 &#34;“ VMware in the House
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4 line-clamp-3"><p><strong>A Podcast about Windows PowerShell.</strong><br>
+Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-034.mp3"><strong><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></strong></a><br>
+We have a great show lined up for you today.Â  We&rsquo;ll be talking to Carter Shanklin from VMware about their PowerShell Toolkit.Â  He&rsquo;s got some exciting NEW news to share with us, so that&rsquo;s cool.Â  We&rsquo;ll also bring you news, resources, tips and whatever else we can scrape up.</p>
+<h3 id="news">News</h3>
+<p><em>This segment is brought to you by <a href="http://quest.com/powerscripting">Quest Software</a>.</em><br>
+_<br>
+_ <em>Do you have what it takes to be the ultimate script warrior? Find out with Quest&quot;™s PowerPack Challenge &ldquo;™08.</em><br>
+<em>Quest Software is sponsoring a PowerShell Scripting contest where you can test your skills and get paid. Just create some cool PowerShell scripts using Quest&rdquo;™s PowerGUI and then post them to our site. You&quot;™ll get a score and our celebrity judges will weigh in as well.</em><br>
+<em>Do you have the muscle to bring home the prize? Check out the details <a href="http://quest.com/powerscripting">here</a>.</em></p></p>
+                        <div class="flex flex-wrap items-center gap-4">
+                            <a href="http://localhost:57259/podcast/2008-07-25-episode-34-vmware-in-the-house/" 
+                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
+                                <i class="fas fa-play mr-2"></i>Listen Now
+                            </a>
+                            
+                            <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-034.mp3" target="_blank" rel="noopener"
+                               class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
+                                <i class="fas fa-external-link-alt mr-2"></i>Direct Link
+                            </a>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
             <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="marco shaw giving presentation about netcmdlets" data-content="&lt;p&gt;be sure to add this to your calendars:&lt;br&gt;
 from marco shaw&lt;/p&gt;
 &lt;blockquote&gt;
@@ -438,8 +540,7 @@ entry code: 6m&#43;7p&amp;amp;khn&lt;br&gt;
 location: &lt;a href=&#34;https://www.livemeeting.com/cc/usergroups&#34;&gt;https://www.livemeeting.com/cc/usergroups&lt;/a&gt;&lt;br&gt;
 this will be done via the internet (so the audio will be streaming&lt;br&gt;
 over the internet also). there won&amp;rsquo;t be telephone dial-in access.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
 &lt;p&gt;seriously marco, you guys need to get web 2.0 with this stuff.â  evite, upcoming.org, facebook events&amp;rdquo;¦something!â  🙂&lt;/p&gt;">
                 <div class="lg:flex">
                     <div class="lg:w-1/3 p-6 lg:pr-0">
@@ -454,7 +555,7 @@ over the internet also). there won&amp;rsquo;t be telephone dial-in access.&lt;/
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-07-22-marco-shaw-giving-presentation-about-netcmdlets/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-07-22-marco-shaw-giving-presentation-about-netcmdlets/" class="hover:text-purple-600 transition-colors duration-200">
                                 Marco Shaw giving presentation about NetCmdlets
                             </a>
                         </h2>
@@ -477,11 +578,10 @@ Entry Code: 6M+7p&amp;KhN<br>
 Location: <a href="https://www.livemeeting.com/cc/usergroups">https://www.livemeeting.com/cc/usergroups</a><br>
 This will be done via the Internet (so the audio will be streaming<br>
 over the Internet also). There won&rsquo;t be telephone dial-in access.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>Seriously Marco, you guys need to get web 2.0 with this stuff.Â  Evite, upcoming.org, Facebook events&rdquo;¦something!Â  🙂</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-07-22-marco-shaw-giving-presentation-about-netcmdlets/" 
+                            <a href="http://localhost:57259/podcast/2008-07-22-marco-shaw-giving-presentation-about-netcmdlets/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -506,13 +606,13 @@ over the Internet also). There won&rsquo;t be telephone dial-in access.</li>
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-07-21-podcast-to-be-released-on-friday/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-07-21-podcast-to-be-released-on-friday/" class="hover:text-purple-600 transition-colors duration-200">
                                 Recent Shows
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-07-21-podcast-to-be-released-on-friday/" 
+                            <a href="http://localhost:57259/podcast/2008-07-21-podcast-to-be-released-on-friday/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -543,7 +643,7 @@ listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-0
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-07-13-episode-33-cage-match-powerscripting-vs-quest/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-07-13-episode-33-cage-match-powerscripting-vs-quest/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 33 &#34;“ Cage Match: PowerScripting vs. Quest
                             </a>
                         </h2>
@@ -555,7 +655,7 @@ Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-033.mp3"
 <p><em>Today&rsquo;s news is brought to you by iTripoli.</em><br>
 <em>&ldquo;Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself&ndash; Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com.&rdquo;</em></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-07-13-episode-33-cage-match-powerscripting-vs-quest/" 
+                            <a href="http://localhost:57259/podcast/2008-07-13-episode-33-cage-match-powerscripting-vs-quest/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -617,7 +717,7 @@ our interview today is with peter schulz from citrix.â  enjoy.â  here&amp;rs
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-07-07-episode-32-citrix-does-powershell/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-07-07-episode-32-citrix-does-powershell/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 32 &#34;“ Citrix does PowerShell
                             </a>
                         </h2>
@@ -655,7 +755,7 @@ Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-032.mp3"
 _<br>
 Our interview today is with Peter Schulz from Citrix.Â  Enjoy.Â  Here&rsquo;s our notes from the conversation:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-07-07-episode-32-citrix-does-powershell/" 
+                            <a href="http://localhost:57259/podcast/2008-07-07-episode-32-citrix-does-powershell/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -690,7 +790,7 @@ Our interview today is with Peter Schulz from Citrix.Â  Enjoy.Â  Here&rsquo;
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-07-01-how-to-submit-links-to-the-showquickly/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-07-01-how-to-submit-links-to-the-showquickly/" class="hover:text-purple-600 transition-colors duration-200">
                                 How to Submit Links to the Show&#34;”Quickly!
                             </a>
                         </h2>
@@ -701,7 +801,7 @@ Our interview today is with Peter Schulz from Citrix.Â  Enjoy.Â  Here&rsquo;
 <li>Do you use <a href="http://google.com/reader">Google Reader</a>?Â  Add <a href="mailto:JonWalz@gmail.com">JonWalz AT gmail</a> as a friend and share the bookmark.</li>
 </ol></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-07-01-how-to-submit-links-to-the-showquickly/" 
+                            <a href="http://localhost:57259/podcast/2008-07-01-how-to-submit-links-to-the-showquickly/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -739,7 +839,7 @@ adminscripteditor.com.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;">
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-06-30-episode-31-money-for-nothin-and-tips-for-free/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-06-30-episode-31-money-for-nothin-and-tips-for-free/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 31 &#34;“ Money for Nothin&#34;™ and Tips for Free
                             </a>
                         </h2>
@@ -758,7 +858,7 @@ will offer support for the dynamic installation of cmdlets! Come see for<br>
 yourself&ndash; Admin Script Editor v3.5 is availble for a 45 day trial at<br>
 AdminScriptEditor.com.&rdquo;</em></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-06-30-episode-31-money-for-nothin-and-tips-for-free/" 
+                            <a href="http://localhost:57259/podcast/2008-06-30-episode-31-money-for-nothin-and-tips-for-free/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -804,7 +904,7 @@ we have a ton of stuff for you today.â  our interview is with thorbjörn sjöv
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-06-22-episode-30-teched-report/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-06-22-episode-30-teched-report/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 30 &#34;“ TechEd Report
                             </a>
                         </h2>
@@ -826,7 +926,7 @@ We have a ton of stuff for you today.Â  Our interview is with Thorbjörn Sjöv
 <em>For a limited time, Quest is offering Powerscripting Podcast listeners a free copy of Jeffery Hicks upcoming book, Managing Active Directory with Windows PowerShell: TFM from Sapien Press.</em><br>
 <em>Go to</em> <a href="http://www.quest.com/powerscripting"><em>www.quest.com/powerscripting</em></a> <em>to register for your copy and download their free graphical user interface, script editor and Active Directory commands</em>.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-06-22-episode-30-teched-report/" 
+                            <a href="http://localhost:57259/podcast/2008-06-22-episode-30-teched-report/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -858,7 +958,7 @@ listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-t
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-06-11-powerscripting-podcast-bonus-episode-teched-day1/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-06-11-powerscripting-podcast-bonus-episode-teched-day1/" class="hover:text-purple-600 transition-colors duration-200">
                                 PowerScripting Podcast – Bonus Episode – TechEd Day1
                             </a>
                         </h2>
@@ -866,7 +966,7 @@ listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-t
 Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-TechEd-Day1.mp3"><strong><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></strong></a></p>
 <p>Hal gives us an update from day 1 of TechEd08. Enjoy!</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-06-11-powerscripting-podcast-bonus-episode-teched-day1/" 
+                            <a href="http://localhost:57259/podcast/2008-06-11-powerscripting-podcast-bonus-episode-teched-day1/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -916,7 +1016,7 @@ listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-0
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-06-08-episode-29-exchange-with-ilse-van-criekinge/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2008-06-08-episode-29-exchange-with-ilse-van-criekinge/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 29 &#34;“ Exchange with Ilse Van Criekinge
                             </a>
                         </h2>
@@ -942,54 +1042,12 @@ Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-029.mp3"
 <h3 id="interview">Interview</h3>
 <p><em>Our interview today is brought to you by</em> <a href="http://quest.com/powershell"><em>Quest Software</em></a><em>.</em></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-06-08-episode-29-exchange-with-ilse-van-criekinge/" 
+                            <a href="http://localhost:57259/podcast/2008-06-08-episode-29-exchange-with-ilse-van-criekinge/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
                             
                             <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-029.mp3" target="_blank" rel="noopener"
-                               class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
-                                <i class="fas fa-external-link-alt mr-2"></i>Direct Link
-                            </a>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="episode 28 – jeffrey snover talks about winrm" data-content="&lt;p&gt;&lt;strong&gt;a podcast about windows powershell.&lt;/strong&gt;&lt;br&gt;
-listen: &lt;a href=&#34;http://media.libsyn.com/media/powerscripting/pspodcast-028.mp3&#34;&gt;&lt;strong&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;in-this-episode&#34;&gt;in this episode&lt;/h3&gt;
-&lt;p&gt;we have a great show for you guys today.â  several weeks back we had jeffrey snover on the show.â  we had teased at the time that there was a third portion to the interview that deals with winrm and ws-mgmt.â  we&amp;rsquo;re going to play that today for you.â  also on tap: news, resources, and a bunch of powershell tips for you.&lt;/p&gt;">
-                <div class="lg:flex">
-                    <div class="lg:w-1/3 p-6 lg:pr-0">
-                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-4 lg:mb-0">
-                            <i class="fas fa-podcast text-4xl text-white"></i>
-                        </div>
-                    </div>
-                    <div class="lg:w-2/3 p-6 lg:pl-8">
-                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
-                            <i class="fas fa-calendar mr-2"></i>
-                            <time>June 1, 2008</time>
-                            
-                        </div>
-                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2008-06-01-powerscripting-podcast-episode-28-jeffrey-snover-talks-about-winrm/" class="hover:text-purple-600 transition-colors duration-200">
-                                Episode 28 – Jeffrey Snover talks about WinRM
-                            </a>
-                        </h2>
-                        <p class="text-gray-600 mb-4 line-clamp-3"><p><strong>A Podcast about Windows PowerShell.</strong><br>
-Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-028.mp3"><strong><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></strong></a></p>
-<h3 id="in-this-episode">In This Episode</h3>
-<p>We have a great show for you guys today.Â  Several weeks back we had Jeffrey Snover on the show.Â  We had teased at the time that there was a third portion to the interview that deals with WinRM and WS-MGMT.Â  We&rsquo;re going to play that today for you.Â  Also on tap: news, resources, and a bunch of PowerShell tips for you.</p></p>
-                        <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2008-06-01-powerscripting-podcast-episode-28-jeffrey-snover-talks-about-winrm/" 
-                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
-                                <i class="fas fa-play mr-2"></i>Listen Now
-                            </a>
-                            
-                            <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-028.mp3" target="_blank" rel="noopener"
                                class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
                                 <i class="fas fa-external-link-alt mr-2"></i>Direct Link
                             </a>
@@ -1689,7 +1747,7 @@ Listen: <a href="http://media.libsyn.com/media/powerscripting/PSPodcast-028.mp3"
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

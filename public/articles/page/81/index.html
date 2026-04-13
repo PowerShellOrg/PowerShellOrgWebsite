@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,182 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="scheduled powershell.org maintenance may 17-18" 
+                     data-content="&lt;p&gt;we&amp;rsquo;ll be doing some maintenance on the site friday and saturday, and it may be down for periods during the maintenance. don&amp;rsquo;t panic. this will not affect access to the scripting games web site at all.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>May 17, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-05-16-scheduled-powershell-org-maintenance-may-17-18/" class="hover:text-blue-600 transition-colors duration-200">
+                            Scheduled PowerShell.org Maintenance May 17-18
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>We&rsquo;ll be doing some maintenance on the site Friday and Saturday, and it may be down for periods during the maintenance. Don&rsquo;t panic. This will not affect access to The Scripting Games Web site at all.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-05-16-scheduled-powershell-org-maintenance-may-17-18/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="jan egil&#39;s event 3 learning points" 
+                     data-content="&lt;p&gt;another judge steps up with some tips! &lt;a href=&#34;http://blog.powershell.no/2013/05/16/2013-scripting-games-learning-points-from-event-3/&#34;&gt;http://blog.powershell.no/2013/05/16/2013-scripting-games-learning-points-from-event-3/&lt;/a&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>May 16, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-05-16-jan-egils-event-3-learning-points/" class="hover:text-blue-600 transition-colors duration-200">
+                            Jan Egil&#39;s Event 3 Learning Points
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Another judge steps up with some tips! <a href="http://blog.powershell.no/2013/05/16/2013-scripting-games-learning-points-from-event-3/">http://blog.powershell.no/2013/05/16/2013-scripting-games-learning-points-from-event-3/</a></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-05-16-jan-egils-event-3-learning-points/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="more updates to the scripting games" 
+                     data-content="&lt;p&gt;i&amp;rsquo;ve been making some more programming changes to the scripting games, based on folks&amp;rsquo; feedback. &lt;strong&gt;if you run into problems, please notify me via the feedback forums link at the bottom of every page on the site.&lt;/strong&gt; use the email address provided. don&amp;rsquo;t post a comment here, because i might not see it quickly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;multiple comments per reviewer -&lt;/strong&gt; you can now leave multiple comments on an entry. combined with the ability to mark your comment as pertaining to a line or range of lines, this should allow for more granular commenting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;comment without voting -&lt;/strong&gt; you are now free to offer comments without offering a score.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;delete comments&lt;/strong&gt; - you can now delete the comments you have written.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;i&amp;rsquo;m still plugging away at some ie9/10-related errors, which are causing the code reviewer/voter/commenter to not display on some entries. in the meantime, safari, chrome, and firefox seem to be working fine.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>May 16, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-05-16-more-updates-to-the-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
+                            More Updates to the Scripting Games
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;ve been making some more programming changes to the Scripting Games, based on folks&rsquo; feedback. <strong>If you run into problems, please notify me via the Feedback Forums link at the bottom of every page on the site.</strong> Use the email address provided. Don&rsquo;t post a comment here, because I might not see it quickly.</p>
+<ul>
+<li><strong>Multiple comments per reviewer -</strong> you can now leave multiple comments on an entry. Combined with the ability to mark your comment as pertaining to a line or range of lines, this should allow for more granular commenting.</li>
+<li><strong>Comment without voting -</strong> you are now free to offer comments without offering a score.</li>
+<li><strong>Delete comments</strong> - you can now delete the comments you have written.</li>
+</ul>
+<p>I&rsquo;m still plugging away at some IE9/10-related errors, which are causing the code reviewer/voter/commenter to not display on some entries. In the meantime, Safari, Chrome, and Firefox seem to be working fine.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-05-16-more-updates-to-the-scripting-games/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="tobias&#39; notes for event 3" 
+                     data-content="&lt;p&gt;tobias has some notes for event 3 for you: &lt;a href=&#34;http://www.powertheshell.com/scripting-games-task-3-commentary/&#34;&gt;http://www.powertheshell.com/scripting-games-task-3-commentary/&lt;/a&gt;&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>May 16, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-05-16-tobias-notes-for-event-3/" class="hover:text-blue-600 transition-colors duration-200">
+                            Tobias&#39; Notes for Event 3
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Tobias has some notes for Event 3 for you: <a href="http://www.powertheshell.com/scripting-games-task-3-commentary/">http://www.powertheshell.com/scripting-games-task-3-commentary/</a></p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-05-16-tobias-notes-for-event-3/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="judge notes for event 3" 
                      data-content="&lt;p&gt;this event&amp;rsquo;s entries are impressive. scoring appears to beâ higher than in the earlier events, so this one must have been easier to solve. so this time, instead of talking about good and bad scripts, i&amp;rsquo;m going to comment on some of the techniques i saw.&lt;br&gt;
 there was some &amp;ldquo;conversation&amp;rdquo; over whether win32_volume or win32_logicaldisk was the better approach to take. fact is, either will return the requested data. so it really doesn&amp;rsquo;t matter which oneâ you use. the controversy seemed to include misreading or misunderstanding the requirement of reporting on &amp;ldquo;local hard drives&amp;rdquo;, which implies that you need to use &lt;em&gt;-filter &amp;ldquo;drivetype=3&amp;rdquo;&lt;/em&gt; (or equivalent) with either to eliminate network or cd/dvd drives.&lt;br&gt;
@@ -439,7 +665,7 @@ hope these ideas help. good luck in event 4.&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-16-judge-notes-for-event-3/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-16-judge-notes-for-event-3/" class="hover:text-blue-600 transition-colors duration-200">
                             Judge notes for event 3
                         </a>
                     </h2>
@@ -453,7 +679,7 @@ Lastly, a caution when including an optional credentials parameter. It&rsquo;s p
 Hope these ideas help. Good luck in Event 4.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-16-judge-notes-for-event-3/" 
+                        <a href="http://localhost:57259/articles/2013-05-16-judge-notes-for-event-3/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -484,7 +710,7 @@ Hope these ideas help. Good luck in Event 4.</p></p>
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-15-scripting-games-2013-event-3-notes/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-15-scripting-games-2013-event-3-notes/" class="hover:text-blue-600 transition-colors duration-200">
                             Scripting Games 2013: Event 3 Notes
                         </a>
                     </h2>
@@ -492,7 +718,7 @@ Hope these ideas help. Good luck in Event 4.</p></p>
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Wow, it is hard to believe that we are now halfway through the Scripting Games! As the events have progressed, I have seen a lot of improvement with the techniques as well as seeing new techniques that continue to impress me. On the flip side, I have seen some mistakes or assumptions when coding that cause a potential 5 star script to be a 2 or 3 star script. The best part about all of this is that we are all (yes, even the judges) learning new things that can only help to improve everyone&quot;™s scripting knowledge. Check out the rest of the <a href="http://learn-powershell.net/2013/05/15/scripting-games-2013-event-3-notes/">article here</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-15-scripting-games-2013-event-3-notes/" 
+                        <a href="http://localhost:57259/articles/2013-05-15-scripting-games-2013-event-3-notes/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -527,7 +753,7 @@ Hope these ideas help. Good luck in Event 4.</p></p>
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-15-meet-the-scripting-games-judges-bartek-bielawski/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-15-meet-the-scripting-games-judges-bartek-bielawski/" class="hover:text-blue-600 transition-colors duration-200">
                             Meet the Scripting Games Judges: Bartek Bielawski
                         </a>
                     </h2>
@@ -535,7 +761,7 @@ Hope these ideas help. Good luck in Event 4.</p></p>
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Bartosz (Bartek) Bielawski is a busy IT Administrator with an international company, PAREXEL. He loves PowerShell and automation. That love earned him the honor of Microsoft MVP. He shares his knowledge mainly on his blogs: in English (<a href="http://becomelotr.wordpress.com">http://becomelotr.wordpress.com</a>) and Polish (<a href="http://powershellpl.net">http://powershellpl.net</a>) and through articles published in the Polish IT Professional (<a href="http://it-professional.pl">http://it-professional.pl</a>) magazine. He is co-author of PowerShell Deep Dives book (<a href="http://www.manning.com/hicks/)">http://www.manning.com/hicks/)</a>. He loves good code that takes advantage of PowerShell pipeline and advanced functions grouped in modules.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-15-meet-the-scripting-games-judges-bartek-bielawski/" 
+                        <a href="http://localhost:57259/articles/2013-05-15-meet-the-scripting-games-judges-bartek-bielawski/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -571,7 +797,7 @@ winners: you can log into &lt;a href=&#34;http://scriptinggames.org/&#34;&gt;the
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-14-scripting-games-event-1-winners-1/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-14-scripting-games-event-1-winners-1/" class="hover:text-blue-600 transition-colors duration-200">
                             Scripting Games Event 2 Winners
                         </a>
                     </h2>
@@ -580,7 +806,7 @@ winners: you can log into &lt;a href=&#34;http://scriptinggames.org/&#34;&gt;the
 Winners: You can log into <a href="http://scriptinggames.org/">The Scripting Games Web site</a> and go to your Profile page to see your prize. You will be given a prize redemption code and either a URL where you can redeem it, or an e-mail address of the prize provider (they will need the redemption code). All prizes must be claimed by the end of July 2013. I will list winners by username; if you used your e-mail address as your username, then a portion of that will be truncated for your privacy. Anyone can log in and check their Profile page to see if they&rsquo;ve won a prize.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-14-scripting-games-event-1-winners-1/" 
+                        <a href="http://localhost:57259/articles/2013-05-14-scripting-games-event-1-winners-1/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -632,7 +858,7 @@ full details will always be available online at &lt;a href=&#34;http://powershel
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-14-announcing-the-powershell-summit-north-america-2014/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-14-announcing-the-powershell-summit-north-america-2014/" class="hover:text-blue-600 transition-colors duration-200">
                             Announcing the PowerShell Summit North America 2014
                         </a>
                     </h2>
@@ -657,7 +883,7 @@ FULL DETAILS will always be available online at <a href="http://PowerShellSummit
 <strong>UPDATE</strong>: I know there&rsquo;s a bit of disappointment that we&rsquo;re not &ldquo;on campus.&rdquo; First&hellip; understand that we were a little under-the-radar in 2013, in terms of outside groups doing what we did in those particular locations. We also need to grow the event a bit in order to make it financially self-sustaining. And, the real clincher, no place &ldquo;on campus&rdquo; could accommodate us. However, &ldquo;campus&rdquo; (this is why I keep putting it in quotes) spans Redmond and Bellevue - we&rsquo;re actually adjacent to Microsoft offices, in 2014, and we&rsquo;re scheduling an evening event (community/team mixer, with team Q&amp;A stations) in MS facilities. We&rsquo;ll also try to wrangle a company store/museum visit (there&rsquo;s a company Connector Shuttle that runs to Commons, which is where the store and museum are located). Most importantly, our location will ensure team participation - which is what doing this in the Seattle metro was all about. In fact, we&rsquo;re planning expanded team participation, with the addition of team-led &ldquo;lightning demos&rdquo; that will highlight cool features and tricks, and which will be a prelude to that evening&rsquo;s community/team mixer (so you can ask follow-up questions in smaller groups). So&hellip; given all of the possible alternatives, we felt this was the best solution. After all, the main session content is just you sitting in a room - shouldn&rsquo;t matter where that room is. The big thing for us is the team engagement, and the opportunity to do <em>fun</em> stuff on campus, and we think we&rsquo;ve got that nailed. More to come.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-14-announcing-the-powershell-summit-north-america-2014/" 
+                        <a href="http://localhost:57259/articles/2013-05-14-announcing-the-powershell-summit-north-america-2014/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -688,7 +914,7 @@ FULL DETAILS will always be available online at <a href="http://PowerShellSummit
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-13-event-3-my-way/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-05-13-event-3-my-way/" class="hover:text-blue-600 transition-colors duration-200">
                             Event 3: My way…
                         </a>
                     </h2>
@@ -696,203 +922,7 @@ FULL DETAILS will always be available online at <a href="http://PowerShellSummit
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Third event is open for voting, but as usual - before I see any of the scripts submitted by you, I&rsquo;m posting my version. Tried to sneak in few tricks I&rsquo;ve learned here and there, hope you will enjoy reading and will tell me why I&rsquo;m wrong. 😉 You can find whole post <a href="http://becomelotr.wordpress.com/2013/05/14/event-3-my-way/">here</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-13-event-3-my-way/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="scripting games 2013: event 2 notes" 
-                     data-content="&lt;p&gt;i spent some time last week and this weekend to compile a list of notes of what i have seenâ with the event 2 submissions that could show improvement. i touched up on some items with my &lt;a href=&#34;http://learn-powershell.net/2013/05/08/scripting-games-2013-event-2-favorite-and-not-so-favorite/&#34;&gt;previous article&lt;/a&gt; where i picked out some submissions that i liked andâ didn&amp;rsquo;tâ quite likeâ but wanted to touch on a few more things.â some of this feels like a repeat of last week and even last years games, but that is ok. this is all about learning and as long as everyone takes what all of the judges have been writing about, then there will be nothing but great improvements during the course of the games. &lt;a href=&#34;http://learn-powershell.net/2013/05/12/scripting-games-2013-event-2-notes/&#34;&gt;click here&lt;/a&gt; to go to continue reading this article.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 13, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Boe Prox</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-12-scripting-games-2013-event-2-notes/" class="hover:text-blue-600 transition-colors duration-200">
-                            Scripting Games 2013: Event 2 Notes
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I spent some time last week and this weekend to compile a list of notes of what I have seenÂ with the Event 2 submissions that could show improvement. I touched up on some items with my <a href="http://learn-powershell.net/2013/05/08/scripting-games-2013-event-2-favorite-and-not-so-favorite/">previous article</a> where I picked out some submissions that I liked andÂ didn&rsquo;tÂ quite likeÂ but wanted to touch on a few more things.Â Some of this feels like a repeat of last week and even last years games, but that is Ok. This is all about learning and as long as everyone takes what all of the judges have been writing about, then there will be nothing but great improvements during the course of the games. <a href="http://learn-powershell.net/2013/05/12/scripting-games-2013-event-2-notes/">Click here</a> to go to continue reading this article.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-12-scripting-games-2013-event-2-notes/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="people who are blogging about the 2013 scripting games" 
-                     data-content="&lt;p&gt;i&amp;rsquo;m sure that most people can easily find any of the blogs of the official judges from the 2013 scripting games. i recommend reading those blogs whether you&amp;rsquo;re competing in the scripting games or not since there&amp;rsquo;s a wealth of great information contained in them. the best place to find those blogs if you don&amp;rsquo;t know already is theâ &lt;a href=&#34;https://powershell.org/category/announcements/scripting-games/judges-notes/&#34;&gt;judges notes section&lt;/a&gt;â under theâ &lt;a href=&#34;https://powershell.org/category/announcements/scripting-games/&#34;&gt;scripting games area&lt;/a&gt;â onâ &lt;a href=&#34;https://powershell.org/&#34;&gt;powershell.org&lt;/a&gt;â so there&amp;rsquo;s no reason to duplicate them here.&lt;br&gt;
-there are also a number of people who are competing in the scripting games that areâ writingâ blog articles of their own blog sites. a couple of the ones that i&amp;rsquo;m aware of are listed below and while they&amp;rsquo;re myâ competition in the advanced class and have links promoting theirâ scriptingâ games entries in their blogs (i do the same thing), â i don&amp;rsquo;t mind promoting their blog articles because there&amp;rsquo;s some great information to be found in them. i&amp;rsquo;m actually glad they provided links to their entries because both of these guys are excellent powershell scripters and you could learn a lot from viewing their scripting games entries.â ultimately the scripting games is all about the community learning more about using powershell best practices in a friendly competition that&amp;rsquo;s just for fun. &lt;a href=&#34;http://mikefrobbins.com/2013/05/11/people-who-are-blogging-about-the-2013-scripting-games/&#34;&gt;click here&lt;/a&gt; to be redirected to the original post of this article on the author&amp;rsquo;s blog site where you can read the remainder of the article.&lt;br&gt;
-âµ&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 11, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Mike F Robbins</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-11-people-who-are-blogging-about-the-2013-scripting-games/" class="hover:text-blue-600 transition-colors duration-200">
-                            People Who are Blogging About the 2013 Scripting Games
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;m sure that most people can easily find any of the blogs of the official judges from the 2013 Scripting Games. I recommend reading those blogs whether you&rsquo;re competing in the scripting games or not since there&rsquo;s a wealth of great information contained in them. The best place to find those blogs if you don&rsquo;t know already is theÂ <a href="https://powershell.org/category/announcements/scripting-games/judges-notes/">Judges Notes section</a>Â under theÂ <a href="https://powershell.org/category/announcements/scripting-games/">Scripting Games area</a>Â onÂ <a href="https://powershell.org/">PowerShell.org</a>Â so there&rsquo;s no reason to duplicate them here.<br>
-There are also a number of people who are competing in the Scripting Games that areÂ writingÂ blog articles of their own blog sites. A couple of the ones that I&rsquo;m aware of are listed below and while they&rsquo;re myÂ competition in the advanced class and have links promoting theirÂ ScriptingÂ Games entries in their blogs (I do the same thing), Â I don&rsquo;t mind promoting their blog articles because there&rsquo;s some great information to be found in them. I&rsquo;m actually glad they provided links to their entries because both of these guys are excellent PowerShell scripters and you could learn a lot from viewing their Scripting Games entries.Â Ultimately the scripting games is all about the community learning more about using PowerShell best practices in a friendly competition that&rsquo;s just for fun. <a href="http://mikefrobbins.com/2013/05/11/people-who-are-blogging-about-the-2013-scripting-games/">Click here</a> to be redirected to the original post of this article on the author&rsquo;s blog site where you can read the remainder of the article.<br>
-Âµ</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-11-people-who-are-blogging-about-the-2013-scripting-games/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="changes in scripting games displays" 
-                     data-content="&lt;p&gt;i want to point out some changes that are being made to the games:&lt;br&gt;
-effective immediately, entry author names and current scores will not be shown for events that are still open for new votes. this is intended to help ensure everyone submitting a score isn&amp;rsquo;t influenced by other people. i&amp;rsquo;ve seen a bit of ganging-up that i&amp;rsquo;d rather not see.&lt;br&gt;
-archived events - those completely closed and for which prizes have been awarded - will display full information, including user names of comment authors.&lt;br&gt;
-the new event viewer, which is currently under development, will display comment author names. these will be visible to an entry&amp;rsquo;s author immediately, and to the public once the event is no longer open for voting.&lt;br&gt;
-entry authors: this means you won&amp;rsquo;t be able to see your score while it&amp;rsquo;s still open for voting, unless you use the new beta viewer (which i&amp;rsquo;ll be wrapping up this weekend).&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 10, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-10-changes-in-scripting-games-displays/" class="hover:text-blue-600 transition-colors duration-200">
-                            Changes in Scripting Games Displays
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I want to point out some changes that are being made to the Games:<br>
-Effective immediately, entry author names and current scores will not be shown for events that are still open for new votes. This is intended to help ensure everyone submitting a score isn&rsquo;t influenced by other people. I&rsquo;ve seen a bit of ganging-up that I&rsquo;d rather not see.<br>
-Archived events - those completely closed and for which prizes have been awarded - will display full information, including user names of comment authors.<br>
-The new event viewer, which is currently under development, will display comment author names. These will be visible to an entry&rsquo;s author immediately, and to the public once the event is no longer open for voting.<br>
-Entry authors: This means you won&rsquo;t be able to see your score while it&rsquo;s still open for voting, unless you use the new beta viewer (which I&rsquo;ll be wrapping up this weekend).</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-10-changes-in-scripting-games-displays/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="scripting games beta entry viewer" 
-                     data-content="&lt;p&gt;if you&amp;rsquo;d like a quick peek at something, log into the &lt;a href=&#34;http://scriptinggames.org/&#34;&gt;scripting games web site&lt;/a&gt;, and go look at the entries in event 1. your url should look like this:&lt;br&gt;
-&lt;strong&gt;&lt;a href=&#34;http://scriptinggames.org/entrylist.php?eventid=11&#34;&gt;http://scriptinggames.org/entrylist.php?eventid=11&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-change it to this:&lt;br&gt;
-&lt;strong&gt;&lt;a href=&#34;http://scriptinggames.org/entrylist_.php?eventid=11&#34;&gt;http://scriptinggames.org/entrylist_.php?eventid=11&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-this is the new viewer i&amp;rsquo;m building. it isn&amp;rsquo;t rigged up to accept votes or comments, yet, but i&amp;rsquo;m working on that. it&amp;rsquo;s being developed for firefox; i&amp;rsquo;ll test the other major browsers once it&amp;rsquo;s a bit more complete. this is under development, so it may be offline or unreliable. don&amp;rsquo;t &lt;em&gt;tell&lt;/em&gt; me about it - i&amp;rsquo;m &lt;em&gt;already working on it&lt;/em&gt; .&lt;br&gt;
-you can probably use this on event 2 as well. the voting and commenting should be working. note that you must vote before you can comment, and right now it&amp;rsquo;ll only accept one comment per person. that will probably remain the case for the current iteration of the games based on some back-end dependencies. however, you can tie a comment to a particular line number or range of lines, and when viewing the comment it&amp;rsquo;ll highlight those lines. it&amp;rsquo;s pretty neat, i think.&lt;br&gt;
-oh, and i know the coloring on block comments is wonky. i need to dive into the color-er&amp;rsquo;s regexes and see if i can tweak that. any regex wizards who want to volunteer to help with that, drop me a line. right now the powershell syntax in the color-er is a little primitive. actually, there are probably several regexes we could add to this to spruce up the listings.&lt;br&gt;
-and yes, i know the comments now show the author&amp;rsquo;s user name. that&amp;rsquo;s been a big back-and-forth. i&amp;rsquo;m not a huge fan of anonymous commenting, and right now it&amp;rsquo;s just your username anyway. hopefully nobody said anything truly offensive simply because they thought they were anonymous :).&lt;br&gt;
-back to work.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>May 10, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Scripting Games
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-05-10-scripting-games-beta-entry-viewer/" class="hover:text-blue-600 transition-colors duration-200">
-                            Scripting Games beta entry viewer
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>If you&rsquo;d like a quick peek at something, log into the <a href="http://scriptinggames.org/">Scripting Games Web site</a>, and go look at the entries in Event 1. Your URL should look like this:<br>
-<strong><a href="http://scriptinggames.org/entrylist.php?eventid=11">http://scriptinggames.org/entrylist.php?eventid=11</a></strong><br>
-Change it to this:<br>
-<strong><a href="http://scriptinggames.org/entrylist_.php?eventid=11">http://scriptinggames.org/entrylist_.php?eventid=11</a></strong><br>
-This is the new viewer I&rsquo;m building. It isn&rsquo;t rigged up to accept votes or comments, yet, but I&rsquo;m working on that. It&rsquo;s being developed for Firefox; I&rsquo;ll test the other major browsers once it&rsquo;s a bit more complete. This is under development, so it may be offline or unreliable. Don&rsquo;t <em>tell</em> me about it - I&rsquo;m <em>already working on it</em> .<br>
-You can probably use this on Event 2 as well. The voting and commenting should be working. Note that you must vote before you can comment, and right now it&rsquo;ll only accept one comment per person. That will probably remain the case for the current iteration of the Games based on some back-end dependencies. However, you CAN tie a comment to a particular line number or range of lines, and when viewing the comment it&rsquo;ll highlight those lines. It&rsquo;s pretty neat, I think.<br>
-Oh, and I know the coloring on block comments is wonky. I need to dive into the color-er&rsquo;s regexes and see if I can tweak that. Any regex wizards who want to volunteer to help with that, drop me a line. Right now the PowerShell syntax in the color-er is a little primitive. Actually, there are probably several regexes we could add to this to spruce up the listings.<br>
-And yes, I know the comments now show the author&rsquo;s user name. That&rsquo;s been a big back-and-forth. I&rsquo;m not a huge fan of anonymous commenting, and right now it&rsquo;s just your username anyway. Hopefully nobody said anything truly offensive simply because they thought they were anonymous :).<br>
-Back to work.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-05-10-scripting-games-beta-entry-viewer/" 
+                        <a href="http://localhost:57259/articles/2013-05-13-event-3-my-way/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1374,7 +1404,7 @@ Back to work.</p></p>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

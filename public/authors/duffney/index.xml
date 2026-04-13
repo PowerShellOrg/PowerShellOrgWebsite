@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Duffney on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/duffney/</link>
+    <link>http://localhost:57259/authors/duffney/</link>
     <description>Recent content in Duffney on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jan 2018 10:46:03 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/duffney/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/duffney/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerShell Story Continued Becoming a Craftsman</title>
-      <link>https://powershell.org/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/</link>
+      <link>http://localhost:57259/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/</link>
       <pubDate>Sun, 28 Jan 2018 10:46:03 +0000</pubDate>
-      <guid>https://powershell.org/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/</guid>
+      <guid>http://localhost:57259/articles/2018-01-28-powershell-story-continued-becoming-a-craftsman/</guid>
       <description>&lt;p&gt;My journey started off by figuring out how to automate a daily disk space report on the mailserver, which ran most of the company, and emailing the report to my boss at the time. After PowerShell sent that first email, something clicked. I sat back in my chair and thought to myself, “Wow, I don’t have to do this anymore”. I can still feel how exciting and relieving that thought was. Fast forward a few years and I had made automation about 80% of my job. I had moved into a few new roles - Tier 2 Support to Systems Engineer, to Senior Systems Engineer. My last post left off when I left my role as a Senior Systems Engineer and landed a gig as a DevOps Engineer. At the time I thought this was the end of the road. I thought, “I’ll pick up a few new tricks and further improve my PowerShell skills”. I couldn’t have been more wrong. This post picks up at the beginning of my transition into the world of DevOps, where I learned no matter how much you know, you know nothing. Continue reading to hear the rest of the story…&lt;br&gt;&#xA;&lt;a href=&#34;http://duffney.io/PowerShell-Story-Continued-BecomingACraftsman&#34;&gt;http://duffney.io/PowerShell-Story-Continued-BecomingACraftsman&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Practical Guide for Using Regex in PowerShell</title>
-      <link>https://powershell.org/articles/2016-10-04-a-practical-guide-for-using-regex-in-powershell/</link>
+      <link>http://localhost:57259/articles/2016-10-04-a-practical-guide-for-using-regex-in-powershell/</link>
       <pubDate>Tue, 04 Oct 2016 00:49:59 +0000</pubDate>
-      <guid>https://powershell.org/articles/2016-10-04-a-practical-guide-for-using-regex-in-powershell/</guid>
+      <guid>http://localhost:57259/articles/2016-10-04-a-practical-guide-for-using-regex-in-powershell/</guid>
       <description>&lt;p&gt;Regular Expressions is often referred to as wizardry or magic and for that reason I stayed away from it for most of my career. I used it only when I had to and most of the time just reused examples that I found online. There&amp;rsquo;s nothing wrong with that of course, but I never took the time to learn it. I thought it was reserved for the elite. Turns out that it&amp;rsquo;s not that complicated and that I had been using it for years without knowing it.&lt;br&gt;&#xA;In an effort to shorten the learning curve for others and to show you the value of learning regular expression I&amp;rsquo;ve written a blog post titled &lt;a href=&#34;http://duffney.io/APracticalGuideforUsingRegexinPowerShell&#34;&gt;A Practical Guide for Using Regex in PowerShell&lt;/a&gt;. It will walk you through how to use regular expression in PowerShell and gives you a glimpse into how powerful regular expression is.&lt;br&gt;&#xA;Below is an example of how to use regular expression to extract a user&amp;rsquo;s name from their distinguished name in Active Directory. To learn more check out this &lt;a href=&#34;http://duffney.io/APracticalGuideforUsingRegexinPowerShell&#34;&gt;blog post&lt;/a&gt;.&lt;br&gt;&#xA;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2016/10/matches-1.png&#34; alt=&#34;matches&#34;&gt;&lt;br&gt;&#xA;Topics Covered&lt;/p&gt;</description>
     </item>
   </channel>

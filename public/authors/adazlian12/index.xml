@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adazlian12 on PowerShell.org - Welcome Automaters!</title>
-    <link>http://localhost:1313/authors/adazlian12/</link>
+    <link>http://localhost:57259/authors/adazlian12/</link>
     <description>Recent content in Adazlian12 on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/adazlian12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/adazlian12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Powershell with Ansible – Part 1</title>
-      <link>http://localhost:1313/articles/2020-01-27-/</link>
+      <link>http://localhost:57259/articles/2020-01-27-/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/2020-01-27-/</guid>
+      <guid>http://localhost:57259/articles/2020-01-27-/</guid>
       <description>&lt;p&gt;This is the first part of a 5 part series on working with Powershell &amp;amp; Ansible. In this first part we&amp;rsquo;ll be discussing the basics of Ansible itself.&lt;br&gt;&#xA;For those unfamiliar Ansible is a free &amp;amp; open source infrastructure configuration tool. If you&amp;rsquo;re familiar with tools such as Chef, Puppet, or Terraform it&amp;rsquo;s broadly similar. Tools like Ansible are designed to configure infrastructure solely through code and allow you to easily test &amp;amp; audit that configuration. Infrastructure can be anything from servers, to databases, to network switches, to cloud resources. Thee tools define a configuration language as well as the means of testing state, pushing out changes, verifying changes, etc.&lt;br&gt;&#xA;Using a tool like Ansible lets you maintain the state - how its configured - of your infrastructure in code. This lets you easily deploy configuration changes to many servers at once, satisfy security or regulatory compliance issues with infrastructure, apply peer review to configurations (as its all just code), reduce errors in configuration due to missed settings, and rapidly roll out changes to many pieces of infrastructure at once. Scripting tools like Powershell let you extend Ansible to other scenarios.&lt;/p&gt;</description>
     </item>
   </channel>

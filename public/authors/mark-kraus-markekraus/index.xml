@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mark Kraus (Markekraus) on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/mark-kraus-markekraus/</link>
+    <link>http://localhost:57259/authors/mark-kraus-markekraus/</link>
     <description>Recent content in Mark Kraus (Markekraus) on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Mar 2020 13:00:38 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/mark-kraus-markekraus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/mark-kraus-markekraus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerShell Conference Book Volume 3 Call For Authors</title>
-      <link>https://powershell.org/articles/2020-03-21-powershell-conference-book-volume-3-call-for-authors/</link>
+      <link>http://localhost:57259/articles/2020-03-21-powershell-conference-book-volume-3-call-for-authors/</link>
       <pubDate>Sat, 21 Mar 2020 13:00:38 +0000</pubDate>
-      <guid>https://powershell.org/articles/2020-03-21-powershell-conference-book-volume-3-call-for-authors/</guid>
+      <guid>http://localhost:57259/articles/2020-03-21-powershell-conference-book-volume-3-call-for-authors/</guid>
       <description>&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: We have extended the CFA to May 25th!&lt;/p&gt;&#xA;&lt;p&gt;The &#xA;_&#xA;PowerShell Conference Book Volume 3&#xA;_&#xA; Call for Authors (CFA) is now open!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://bit.ly/PSConfBook3CFA&#34;&gt;&#xA;http://bit.ly/PSConfBook3CFA&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The timeline for this process should be as follows:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Close submissions on Monday, May 4th, at 11:00 PM PDT&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Notify everyone by May 25th&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Final drafts will be due by June 1st&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Finalize publication by September 30th&lt;/p&gt;&#xA;&lt;p&gt;We are looking for one chapter per author on the topics of PowerShell, DevOps, WinOps, Open Source, or IT Careers. Topic depths can range from novice to expert. Chapters can be technical or cover cultural aspects. Authors can be new or well established. The book will be written in American English, but non-native speakers are welcome (our editorial team will support you)!&lt;/p&gt;</description>
     </item>
   </channel>

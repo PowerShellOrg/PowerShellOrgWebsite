@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,204 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="find location of locked out accounts" 
+                     data-content="&lt;h1 id=&#34;im-locked-out-help&#34;&gt;i&amp;rsquo;m locked out, help!&lt;/h1&gt;
+&lt;p&gt;if you&amp;rsquo;ve been a sys admin for more than a week you&amp;rsquo;ve probably heard this&amp;hellip;&amp;ldquo;i&amp;rsquo;m locked-out, help!&amp;rdquo;.  normally the user has made their way to your cube and is impatiently tapping their foot waiting for you to magically solve there problem.  so you find their account, reset their password and everything is right with the world&amp;hellip;or is it?  two minutes later they show up again because their account was locked-out before they even got back to their desk.  now what do you do?&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 8, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Matt Laird</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-09-08-find-location-of-locked-out-accounts/" class="hover:text-blue-600 transition-colors duration-200">
+                            Find Location of Locked Out Accounts
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><h1 id="im-locked-out-help">I&rsquo;m Locked Out, Help!</h1>
+<p>If you&rsquo;ve been a sys admin for more than a week you&rsquo;ve probably heard this&hellip;&ldquo;I&rsquo;m locked-out, help!&rdquo;.  Normally the user has made their way to your cube and is impatiently tapping their foot waiting for you to magically solve there problem.  So you find their account, reset their password and everything is right with the world&hellip;Or is it?  Two minutes later they show up again because their account was locked-out before they even got back to their desk.  Now what do you do?</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-09-08-find-location-of-locked-out-accounts/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="writing and publishing powershell modules" 
+                     data-content="&lt;p&gt;earlier in august &lt;a href=&#34;https://powershell.org/2015/08/16/abstraction-and-configuration-data/&#34;&gt;we mentioned&lt;/a&gt; that modularity and abstraction are quite helpful. powershell modules can help enable these concepts.&lt;/p&gt;
+&lt;p&gt;you might ask &amp;ldquo;modules&amp;hellip; why can&amp;rsquo;t i just write a function?&amp;rdquo; there are a number of benefits to bundling your functions into modules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;simplify code organization&lt;/li&gt;
+&lt;li&gt;group related functions together&lt;/li&gt;
+&lt;li&gt;share state between functions, but not with the user&lt;/li&gt;
+&lt;li&gt;re-use &amp;ldquo;helper functions&amp;rdquo; that you don&amp;rsquo;t want exposed to the user&lt;/li&gt;
+&lt;li&gt;improve discoverability:
+&lt;code&gt;find-module mymodule&lt;/code&gt;get-command -module mymodule
+&lt;code&gt;* simplify distribution:  &lt;/code&gt;install-module mymodule
+`where does that last bullet come from?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-powershell-gallery&#34;&gt;the powershell gallery&lt;/h2&gt;
+&lt;p&gt;if you&amp;rsquo;ve worked with perl, you&amp;rsquo;ve probably used &lt;a href=&#34;https://www.perl.org/about/whitepapers/perl-cpan.html&#34;&gt;cpan&lt;/a&gt;, which archives more than 150,000 modules. other languages have similar tools, like &lt;a href=&#34;https://pypi.python.org/pypi&#34;&gt;pypi&lt;/a&gt; for python, or &lt;a href=&#34;https://rubygems.org/&#34;&gt;rubygems&lt;/a&gt; for ruby.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 6, 2015</time>
+                            
+                            <span>•</span>
+                            <span>pscookiemonster</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            PowerShell for Admins
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-09-06-writing-and-publishing-powershell-modules/" class="hover:text-blue-600 transition-colors duration-200">
+                            Writing and Publishing PowerShell Modules
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Earlier in August <a href="https://powershell.org/2015/08/16/abstraction-and-configuration-data/">we mentioned</a> that modularity and abstraction are quite helpful. PowerShell modules can help enable these concepts.</p>
+<p>You might ask &ldquo;Modules&hellip; why can&rsquo;t I just write a function?&rdquo; There are a number of benefits to bundling your functions into modules:</p>
+<ul>
+<li>Simplify code organization</li>
+<li>Group related functions together</li>
+<li>Share state between functions, but not with the user</li>
+<li>Re-use &ldquo;helper functions&rdquo; that you don&rsquo;t want exposed to the user</li>
+<li>Improve discoverability:
+<code>Find-Module MyModule</code>Get-Command -Module MyModule
+<code>* Simplify distribution:  </code>Install-Module MyModule
+`Where does that last bullet come from?</li>
+</ul>
+<h2 id="the-powershell-gallery">The PowerShell Gallery</h2>
+<p>If you&rsquo;ve worked with Perl, you&rsquo;ve probably used <a href="https://www.perl.org/about/whitepapers/perl-cpan.html">CPAN</a>, which archives more than 150,000 modules. Other languages have similar tools, like <a href="https://pypi.python.org/pypi">PyPI</a> for Python, or <a href="https://rubygems.org/">RubyGems</a> for Ruby.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-09-06-writing-and-publishing-powershell-modules/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="20115-september scripting games puzzle" 
+                     data-content="&lt;p&gt;our september 2015 puzzle is another one-liner, to help get you out of summer mood and back into work mode. this time, it&amp;rsquo;s a pretty real-world scenario, designed to test your understanding of the pipeline and how data can be manipulated within it. you&amp;rsquo;ll need to really grasp pipeline parameter binding to make this work in the shortest command possible.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 5, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Scripting Games
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-09-05-september-2015-scripting-games-puzzle/" class="hover:text-blue-600 transition-colors duration-200">
+                            20115-September Scripting Games Puzzle
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Our September 2015 puzzle is another one-liner, to help get you out of Summer Mood and back into Work Mode. This time, it&rsquo;s a pretty real-world scenario, designed to test your understanding of the pipeline and how data can be manipulated within it. You&rsquo;ll need to really grasp pipeline parameter binding to make this work in the shortest command possible.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-09-05-september-2015-scripting-games-puzzle/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="#mspsug virtual meeting: the art of #powershell runspaces – september 8th 2015" 
+                     data-content="&lt;p&gt;join the mississippi powershell user group virtually on tuesday, september 8th at 8:30pm central time when powershell mvp &lt;a href=&#34;http://learn-powershell.net/&#34;&gt;boe prox&lt;/a&gt; will present “&lt;em&gt;&lt;strong&gt;the art of powershell runspaces&lt;/strong&gt;&lt;/em&gt;”.&lt;/p&gt;
+&lt;p&gt;powershell runspaces are a known but little documented area that can help to provide performance improvements in your scripts. besides just using this for performance gains, you can use this to provide a snappier approach to building guis in powershell. this presentation will show you examples of using runspaces, runspacepools as well as utilizing shared variables that can be viewed and modified in multiple runspaces during runtime. also being demoed is a module called &lt;a href=&#34;https://github.com/proxb/poshrsjob&#34;&gt;poshrsjob&lt;/a&gt; which provides runspace multhreading in a familiar jobs infrastructure.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Sep 4, 2015</time>
+                            
+                            <span>•</span>
+                            <span>Mike F Robbins</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2015-09-04-mspsug-virtual-meeting-the-art-of-powershell-runspaces-september-8th-2015/" class="hover:text-blue-600 transition-colors duration-200">
+                            #MSPSUG Virtual Meeting: The Art of #PowerShell Runspaces – September 8th 2015
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Join the Mississippi PowerShell User Group virtually on Tuesday, September 8th at 8:30pm Central Time when PowerShell MVP <a href="http://learn-powershell.net/">Boe Prox</a> will present “<em><strong>The Art of PowerShell Runspaces</strong></em>”.</p>
+<p>PowerShell runspaces are a known but little documented area that can help to provide performance improvements in your scripts. Besides just using this for performance gains, you can use this to provide a snappier approach to building GUIs in PowerShell. This presentation will show you examples of using Runspaces, RunspacePools as well as utilizing shared variables that can be viewed and modified in multiple runspaces during runtime. Also being demoed is a module called <a href="https://github.com/proxb/PoshRSJob">PoshRSJob</a> which provides runspace multhreading in a familiar jobs infrastructure.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2015-09-04-mspsug-virtual-meeting-the-art-of-powershell-runspaces-september-8th-2015/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="use import-localizeddata to internationalize your scripts" 
                      data-content="&lt;p&gt;whether you&amp;rsquo;re working with an enterprise client with a global presence or building a tool that you want to share with the world, you may find yourself wanting to build support for multiple languages into your scripts. the import-localizeddata cmdlet is a simple and powerful way to achieve this. i put up a pair of posts about my recent experience with a globalization effort and how we were able to get a lot of functionality with only a few lines of code.&lt;/p&gt;"
                      >
@@ -437,7 +685,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-09-03-use-import-localizeddata-to-internationalize-your-scripts/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-09-03-use-import-localizeddata-to-internationalize-your-scripts/" class="hover:text-blue-600 transition-colors duration-200">
                             Use Import-LocalizedData to Internationalize your Scripts
                         </a>
                     </h2>
@@ -445,7 +693,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Whether you&rsquo;re working with an enterprise client with a global presence or building a tool that you want to share with the world, you may find yourself wanting to build support for multiple languages into your scripts. The Import-LocalizedData Cmdlet is a simple and powerful way to achieve this. I put up a pair of posts about my recent experience with a globalization effort and how we were able to get a lot of functionality with only a few lines of code.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-09-03-use-import-localizeddata-to-internationalize-your-scripts/" 
+                        <a href="http://localhost:57259/articles/2015-09-03-use-import-localizeddata-to-internationalize-your-scripts/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -480,7 +728,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-09-01-basic-exchange-monitoring/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-09-01-basic-exchange-monitoring/" class="hover:text-blue-600 transition-colors duration-200">
                             Basic Exchange Monitoring
                         </a>
                     </h2>
@@ -488,7 +736,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Hello Powershell.org!  This is the first time I&rsquo;ve posted for anyone outside of my own powershell blog site <a href="http://www.powershellmasters.com">PowerShellMasters.com</a> and I just want to thank PowerShell.org for everything they do for our community.  I think most of you would agree that this site is one of the best PowerShell sites out there today and I am grateful for the opportunity to reach so many PowerShell people.  OK enough with the touchy-feely stuff. 🙂</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-09-01-basic-exchange-monitoring/" 
+                        <a href="http://localhost:57259/articles/2015-09-01-basic-exchange-monitoring/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -523,7 +771,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-28-list-users-logged-on-to-your-machines/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-08-28-list-users-logged-on-to-your-machines/" class="hover:text-blue-600 transition-colors duration-200">
                             List users logged on to your machines
                         </a>
                     </h2>
@@ -531,7 +779,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Password policies are the best 😀 Sometimes they lead to account logouts when someone forgets to logout of a session somewhere on the network though. It might be the TS session they use once a quarter for reporting or maybe you know the feeling when you RDP to a server only to find that it is locked by 2 other admins who forgot to logoff when they left. (Off cause this never happens… we all use PowerShell…) Anyway, this had me searching for a user session somewhere on the network. The worst thing is when my own password expires. I hate when my account ends up being locked. Therefor I made it a rule to just check all servers before I change password. There are multiple ways to do this but of course I tend to go the PowerShell route. </p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-28-list-users-logged-on-to-your-machines/" 
+                        <a href="http://localhost:57259/articles/2015-08-28-list-users-logged-on-to-your-machines/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -568,7 +816,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-26-techsession-webinar-the-top-10-considerations-when-writing-powershell-advanced-functions/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-08-26-techsession-webinar-the-top-10-considerations-when-writing-powershell-advanced-functions/" class="hover:text-blue-600 transition-colors duration-200">
                             TechSession Webinar: The Top 10 Considerations When Writing #PowerShell Advanced Functions
                         </a>
                     </h2>
@@ -578,7 +826,7 @@
 <p>There are lots of things to consider when writing an advanced function in PowerShell depending on what the function will be designed to accomplish, what operating system and PowerShell versions it will be written for, and who will be using it. During this session, PowerShell MVP Mike F Robbins will walk you through the top 10 items that he takes into consideration along with his thought process when creating advanced functions in PowerShell. We’ll briefly discuss comment based help, parameters, parameter validation, pipeline input, and error handling. This will NOT be a deep dive into any one of these topics as the focus of this session will be on writing advanced functions to maximize code reusability by minimizing static values. Prior experience with PowerShell is recommended.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-26-techsession-webinar-the-top-10-considerations-when-writing-powershell-advanced-functions/" 
+                        <a href="http://localhost:57259/articles/2015-08-26-techsession-webinar-the-top-10-considerations-when-writing-powershell-advanced-functions/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -614,7 +862,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-20-multithreading-using-jobs/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-08-20-multithreading-using-jobs/" class="hover:text-blue-600 transition-colors duration-200">
                             Multithreading using jobs
                         </a>
                     </h2>
@@ -623,7 +871,7 @@
 <p>A few years back I found a nice little script for multithreading which I have been using quite often. Unfortunately this wasn&rsquo;t a module. And I can&rsquo;t remember where it came from. So this week I set my mind on recreating this as a module and to see if I can publish it on <a href="https://www.powershellgallery.com/">PowerShell Gallery</a>.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-20-multithreading-using-jobs/" 
+                        <a href="http://localhost:57259/articles/2015-08-20-multithreading-using-jobs/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -656,7 +904,7 @@ maximo trinidad
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-17-philadelphia-powershell-user-group-meeting-september-3rd-2015-with-max-trinidad/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2015-08-17-philadelphia-powershell-user-group-meeting-september-3rd-2015-with-max-trinidad/" class="hover:text-blue-600 transition-colors duration-200">
                             Philadelphia PowerShell User Group Meeting  – September 3rd 2015 with Max Trinidad
                         </a>
                     </h2>
@@ -666,197 +914,7 @@ Maximo Trinidad
 </a> will be giving a talk called a &ldquo;<strong>Creating a SQL Server Database Report with PowerShell</strong>&rdquo;. As describe by Maximo: This is a deep dive on how to create a SQL Server report using PowerShell and SMO. At the same time, you will learn how to create and work with PowerShell objects, scriptblocks, formatting properties, and generating output results. We&rsquo;ll be looking into creating a report to identify database properties irregularities. This will be a good start to help begin documenting your SQL Server on the network.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-17-philadelphia-powershell-user-group-meeting-september-3rd-2015-with-max-trinidad/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="test it: new iisadministration module" 
-                     data-content="&lt;p&gt;it&amp;rsquo;s no secret that microsoft&amp;rsquo;s webadministration module isn&amp;rsquo;t universally loved. it&amp;rsquo;s functionality isn&amp;rsquo;t deep, and it doesn&amp;rsquo;t play well in the powershell pipeline. there are also a number of things in it that run really slowly, making bulk administration a pain.&lt;/p&gt;
-&lt;p&gt;last week, &lt;a href=&#34;http://blogs.iis.net/bariscaglar/iisadministration-powershell-cmdlets-new-feature-in-windows-10-server-2016&#34;&gt;baris caglar announced that windows 10 contains a new iisadministration module&lt;/a&gt;, which is a rough draft of what is hoped to be a final module in windows server 2016. &lt;strong&gt;if you use iis, get hold of this and start testing so the team can get feedback.&lt;/strong&gt; note that this is a _feature of windows 10; _i haven&amp;rsquo;t yet been able to test and see if file-copying it to another version of windows will work or not (if you try, please post your results in a comment). the module seems to rely heavily on the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/microsoft.web.administration.servermanager(v=vs.90).aspx&#34;&gt;iis administration .net class&lt;/a&gt;, going so far as giving you easy access to an instance of it so you can code against it directly for whatever the module itself doesn&amp;rsquo;t offer.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 17, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-17-test-it-new-iisadministration-module/" class="hover:text-blue-600 transition-colors duration-200">
-                            TEST IT: New IISAdministration Module
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>It&rsquo;s no secret that Microsoft&rsquo;s WebAdministration module isn&rsquo;t universally loved. It&rsquo;s functionality isn&rsquo;t deep, and it doesn&rsquo;t play well in the PowerShell pipeline. There are also a number of things in it that run really slowly, making bulk administration a pain.</p>
-<p>Last week, <a href="http://blogs.iis.net/bariscaglar/iisadministration-powershell-cmdlets-new-feature-in-windows-10-server-2016">Baris Caglar announced that Windows 10 contains a new IISAdministration module</a>, which is a rough draft of what is hoped to be a final module in Windows Server 2016. <strong>If you use IIS, get hold of this and start testing so the team can get feedback.</strong> Note that this is a _feature of Windows 10; _I haven&rsquo;t yet been able to test and see if file-copying it to another version of Windows will work or not (if you try, please post your results in a comment). The module seems to rely heavily on the <a href="https://msdn.microsoft.com/en-us/library/microsoft.web.administration.servermanager(v=vs.90).aspx">IIS Administration .NET class</a>, going so far as giving you easy access to an instance of it so you can code against it directly for whatever the module itself doesn&rsquo;t offer.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-17-test-it-new-iisadministration-module/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="abstraction and configuration data" 
-                     data-content="&lt;p&gt;modularity and abstraction are a huge benefit in scripting and coding. which of the following blocks of code are easier to understand?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$sqlconnection = new-object system.data.sqlclient.sqlconnection $sqlconnection.connectionstring = &#39;server=sqlserver1;database=mydb;integrated security=true;connect timeout=15&#39; $cmd = new-object system.data.sqlclient.sqlcommand(&amp;quot;select * from table1&amp;quot;,$sqlconnection) $ds = new-object system.data.dataset $da = new-object system.data.sqlclient.sqldataadapter($cmd) [void]$da.fill($ds) $sqlconnection.close() $ds.tables[0] &lt;/code&gt;or&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;# invoke-sqlcmd2 -serverinstance sqlserver1 -database mydb -query &#39;select * from table1&#39; &lt;/code&gt;if you aren&amp;rsquo;t a masochist, &lt;a href=&#34;https://raw.githubusercontent.com/ramblingcookiemonster/powershell/master/invoke-sqlcmd2.ps1&#34;&gt;the latter&lt;/a&gt; probably looks a bit nicer. oh, and it offers other parameters, error handling, parameterized sql queries, built in help, and other benefits the .net code block misses.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 16, 2015</time>
-                            
-                            <span>•</span>
-                            <span>pscookiemonster</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-16-abstraction-and-configuration-data/" class="hover:text-blue-600 transition-colors duration-200">
-                            Abstraction and Configuration Data
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Modularity and abstraction are a huge benefit in scripting and coding. Which of the following blocks of code are easier to understand?</p>
-<p><code>$SQLConnection = New-Object System.Data.SqlClient.SQLConnection $SQLConnection.ConnectionString = 'Server=SqlServer1;Database=MyDB;Integrated Security=True;Connect Timeout=15' $cmd = New-Object system.Data.SqlClient.SqlCommand(&quot;SELECT * FROM Table1&quot;,$SQLConnection) $ds = New-Object system.Data.DataSet $da = New-Object system.Data.SqlClient.SqlDataAdapter($cmd) [void]$da.fill($ds) $SQLConnection.Close() $ds.Tables[0] </code>Or&hellip;</p>
-<p><code># Invoke-Sqlcmd2 -ServerInstance SQLServer1 -Database MyDB -Query 'SELECT * FROM Table1' </code>If you aren&rsquo;t a masochist, <a href="https://raw.githubusercontent.com/RamblingCookieMonster/PowerShell/master/Invoke-Sqlcmd2.ps1">the latter</a> probably looks a bit nicer. Oh, and it offers other parameters, error handling, parameterized SQL queries, built in help, and other benefits the .NET code block misses.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-16-abstraction-and-configuration-data/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="template based parsing and progress bars" 
-                     data-content="&lt;p&gt;working with wifi i have often needed to do a survey of the surroundings, and therefor i loved that windows 7 (maybe even vista) introduced more advanced netsh with wifi support.&lt;/p&gt;
-&lt;p&gt;there’s a lot of useful information but it might be nice to have a more graphical overview. the thing is that a text blob like this is not very handy to work with.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://powershell.org/wp-content/uploads/2015/08/image1.png&#34;&gt;&lt;img src=&#34;https://powershell.org/wp-content/uploads/2015/08/image1.png&#34; alt=&#34;image1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;some time late last year i heard a guy from the powershell team on the powerscripting podcast talk about convertfrom-string and the new template based parsing. and it occurred to me that you can combine this with a simple powershell progress bar (write-progress) to give a visual representation of signal strength.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 12, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Jonas Sommer Nielsen</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-12-template-based-parsing-and-progress-bars/" class="hover:text-blue-600 transition-colors duration-200">
-                            Template based parsing and progress bars
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Working with wifi I have often needed to do a survey of the surroundings, and therefor I loved that windows 7 (maybe even Vista) introduced more advanced netsh with wifi support.</p>
-<p>There’s a lot of useful information but it might be nice to have a more graphical overview. The thing is that a text blob like this is not very handy to work with.</p>
-<p><a href="https://powershell.org/wp-content/uploads/2015/08/image1.png"><img src="https://powershell.org/wp-content/uploads/2015/08/image1.png" alt="image1"></a></p>
-<p>Some time late last year I heard a guy from the powershell team on the Powerscripting podcast talk about ConvertFrom-String and the new template based parsing. And it occurred to me that you can combine this with a simple powershell progress bar (write-progress) to give a visual representation of signal strength.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-12-template-based-parsing-and-progress-bars/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="the start sharing challenge" 
-                     data-content="&lt;p&gt;i&amp;rsquo;m back from &lt;a href=&#34;https://techmentorevents.com/home.aspx&#34;&gt;techmentor redmond 2015&lt;/a&gt; which was my first public speaking talk ever. it went great. i met a ton of great people and really enjoyed myself. when speaking to it pros one of the questions i typically ask them is &amp;ldquo;&lt;strong&gt;are you blogging or sharing your knowledge?&lt;/strong&gt;&amp;rdquo;. 9 times out of 10 i get a big, fat no. why? it&amp;rsquo;s because they feel like they have nothing to share. they feel like no one would be interested in their ho-hum, mundane life as an it guy. i always followup that comment with &amp;ldquo;how do you know?&amp;rdquo; which ultimately results in a shrug. you don&amp;rsquo;t know that your life isn&amp;rsquo;t interesting and can teach others something. &lt;strong&gt;why are you making the decision for others?&lt;/strong&gt; you&amp;rsquo;ve acquired lots of knowledge in your career. don&amp;rsquo;t be stingy! share it!&lt;br&gt;
-as a personal challenge to you, i have a copy of don jones&amp;rsquo; and jeff hicks&amp;rsquo; &lt;a href=&#34;http://www.manning.com/jones4/&#34;&gt;learn powershell toolmaking in a month of lunches&lt;/a&gt; book. if you don&amp;rsquo;t have a blog today, start one. if you do and haven&amp;rsquo;t blogged in awhile, dust it off and start writing again. the first one to contact me on my blog &lt;a href=&#34;http://adamtheautomator.com&#34;&gt;adam, the automator&lt;/a&gt; with a link to their blog with at least 5 good posts will win the book. don&amp;rsquo;t try to sneak those piddly little one paragraph posts by me just to get a free book! minimum post length is 500 words.&lt;br&gt;
-you have nothing to lose but perhaps a few hours of your time and some further opportunities in your career. give back and you will be rewarded.&lt;br&gt;
-p.s. did you know i used to blog about selling used books on amazon? talk about a niche topic. at it&amp;rsquo;s peak it was getting over 1,000 readers/day. now, don&amp;rsquo;t you think it is just a wee bit bigger than that? if i can blog about selling used books and get 1,000 readers/day you can spend just an hour a week writing a blog post about your it experiences and you &lt;em&gt;will&lt;/em&gt; help more people than you think.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Aug 10, 2015</time>
-                            
-                            <span>•</span>
-                            <span>Adam Bertram</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            Announcements
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2015-08-10-the-start-sharing-challenge/" class="hover:text-blue-600 transition-colors duration-200">
-                            The Start Sharing Challenge
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&rsquo;m back from <a href="https://techmentorevents.com/Home.aspx">Techmentor Redmond 2015</a> which was my first public speaking talk ever. It went great. I met a ton of great people and really enjoyed myself. When speaking to IT pros one of the questions I typically ask them is &ldquo;<strong>Are you blogging or sharing your knowledge?</strong>&rdquo;. 9 times out of 10 I get a big, fat no. Why? It&rsquo;s because they feel like they have nothing to share. They feel like no one would be interested in their ho-hum, mundane life as an IT guy. I always followup that comment with &ldquo;How do you know?&rdquo; which ultimately results in a shrug. You don&rsquo;t know that your life isn&rsquo;t interesting and can teach others something. <strong>Why are you making the decision for others?</strong> You&rsquo;ve acquired lots of knowledge in your career. Don&rsquo;t be stingy! Share it!<br>
-As a personal challenge to you, I have a copy of Don Jones&rsquo; and Jeff Hicks&rsquo; <a href="http://www.manning.com/jones4/">Learn PowerShell Toolmaking in a Month of Lunches</a> book. If you don&rsquo;t have a blog today, start one. If you do and haven&rsquo;t blogged in awhile, dust it off and start writing again. The first one to contact me on my blog <a href="http://adamtheautomator.com">Adam, The Automator</a> with a link to their blog with at least 5 good posts will win the book. Don&rsquo;t try to sneak those piddly little one paragraph posts by me just to get a free book! Minimum post length is 500 words.<br>
-You have nothing to lose but perhaps a few hours of your time and some further opportunities in your career. Give back and you will be rewarded.<br>
-P.S. Did you know I used to blog about selling used books on Amazon? Talk about a niche topic. At it&rsquo;s peak it was getting over 1,000 readers/day. Now, don&rsquo;t you think IT is just a wee bit bigger than that? If I can blog about selling used books and get 1,000 readers/day you can spend just an hour a week writing a blog post about your IT experiences and you <em>will</em> help more people than you think.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2015-08-10-the-start-sharing-challenge/" 
+                        <a href="http://localhost:57259/articles/2015-08-17-philadelphia-powershell-user-group-meeting-september-3rd-2015-with-max-trinidad/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1338,7 +1396,7 @@ P.S. Did you know I used to blog about selling used books on Amazon? Talk about 
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

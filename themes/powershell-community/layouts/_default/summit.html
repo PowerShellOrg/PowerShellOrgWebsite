@@ -1,0 +1,106 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="powershell-blue py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        <div class="inline-flex items-center bg-blue-400 text-blue-900 px-4 py-2 rounded-full text-sm font-bold mb-6">
+            <i class="fas fa-calendar-alt mr-2"></i>
+            {{ .Site.Params.summit.dates }}
+        </div>
+        <h1 class="text-4xl lg:text-6xl font-black mb-6 leading-tight">{{ .Site.Params.summit.title }}</h1>
+        <p class="text-xl lg:text-2xl mb-4 opacity-90">{{ .Site.Params.summit.location }}</p>
+        <p class="text-lg mb-10 opacity-80 max-w-3xl mx-auto">{{ .Description }}</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="{{ .Site.Params.summit.registration_url }}"
+               class="summit-gradient text-white px-8 py-4 rounded-lg text-lg font-bold hover:opacity-90 transition-opacity duration-200 inline-flex items-center">
+                <i class="fas fa-ticket-alt mr-2"></i>Register Now
+            </a>
+            <a href="#details"
+               class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-white hover:text-blue-700 transition-colors duration-200 inline-flex items-center">
+                <i class="fas fa-info-circle mr-2"></i>Learn More
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Details Section -->
+<section id="details" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8 mb-16">
+            <!-- When -->
+            <div class="text-center p-8 bg-gray-50 rounded-xl">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-calendar-days text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">When</h3>
+                <p class="text-gray-600 text-lg">{{ .Site.Params.summit.dates }}</p>
+            </div>
+            <!-- Where -->
+            <div class="text-center p-8 bg-gray-50 rounded-xl">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-location-dot text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Where</h3>
+                <p class="text-gray-600 text-lg">{{ .Site.Params.summit.location }}</p>
+            </div>
+            <!-- What -->
+            <div class="text-center p-8 bg-gray-50 rounded-xl">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-users text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">What</h3>
+                <p class="text-gray-600 text-lg">4 days of sessions, workshops, and networking</p>
+            </div>
+        </div>
+
+        <!-- Content from markdown -->
+        {{ if .Content }}
+        <div class="prose prose-lg max-w-3xl mx-auto prose-blue prose-headings:font-bold prose-headings:text-gray-900 prose-a:text-blue-600">
+            {{ .Content }}
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Highlights Section -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">What to Expect</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <i class="fas fa-chalkboard-teacher text-blue-600 text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Deep Technical Sessions</h3>
+                <p class="text-gray-600">Expert-led talks on PowerShell, DevOps, automation, and cloud infrastructure.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <i class="fas fa-laptop-code text-blue-600 text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Hands-On Workshops</h3>
+                <p class="text-gray-600">Interactive labs where you build real solutions with guidance from experts.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <i class="fas fa-handshake text-blue-600 text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Community Networking</h3>
+                <p class="text-gray-600">Connect with PowerShell professionals, MVPs, and the product team.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <i class="fas fa-lightbulb text-blue-600 text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Lightning Demos</h3>
+                <p class="text-gray-600">Quick-fire demos showcasing innovative tools and techniques from the community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 powershell-blue">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-4">Don't Miss Out</h2>
+        <p class="text-xl mb-8 opacity-90">Join hundreds of PowerShell professionals in {{ .Site.Params.summit.location }} this {{ .Site.Params.summit.year }}.</p>
+        <a href="{{ .Site.Params.summit.registration_url }}"
+           class="summit-gradient text-white px-8 py-4 rounded-lg text-lg font-bold hover:opacity-90 transition-opacity duration-200 inline-flex items-center">
+            <i class="fas fa-ticket-alt mr-2"></i>Register for Summit {{ .Site.Params.summit.year }}
+        </a>
+    </div>
+</section>
+
+{{ end }}

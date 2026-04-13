@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The PowerShell Podcast - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/podcast/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/podcast/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/podcast/">
+    <meta property="og:url" content="http://localhost:57259/podcast/">
     <meta property="og:title" content="The PowerShell Podcast">
     <meta property="og:description"
         content="Building your career with PowerShell">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/podcast/">
+    <meta property="twitter:url" content="http://localhost:57259/podcast/">
     <meta property="twitter:title" content="The PowerShell Podcast">
     <meta property="twitter:description"
         content="Building your career with PowerShell">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -419,6 +469,70 @@
         <div class="grid gap-8" id="episodes-container">
             
             
+            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="episode 278 – powerscripting podcast – karsten bott from emc on emc storage integrator" data-content="&lt;p&gt;listen:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://traffic.libsyn.com/powerscripting/pspodcast-278.mp3&#34;&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;watch the recording: (&lt;a href=&#34;https://www.youtube.com/watch?v=ig7rvt9gbwg&#34;&gt;behind the scenes&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;karsten-bott-from-emc-on-emc-storage-integrator&#34;&gt;karsten bott from emc on emc storage integrator&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;news&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the powershell team has posted &lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2014/07/17/powershell-dsc-resource-kit-wave-5-arrives.aspx&#34;&gt;dsc resource kit wave 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the xdscresourcedesigner module &lt;a href=&#34;http://gallery.technet.microsoft.com/scriptcenter/xdscresourcedesigne-module-22eddb29&#34;&gt;has been updated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;don has posted his &lt;a href=&#34;http://tbirdbrent.wordpress.com/2014/07/11/done-jones-provides-powershell-learnings/&#34;&gt;practical powershell sessions&lt;/a&gt; from the powershell summit na 2014&lt;/li&gt;
+&lt;li&gt;louposh is &lt;a href=&#34;http://www.eventbrite.com/e/louposh-powershell-fundamentals-tickets-12111318279&#34;&gt;meeting on july 21st&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the perth sql server user group is &lt;a href=&#34;http://www.eventbrite.com/e/pssug-powershell-with-a-focus-on-automation-cody-konior-tickets-12236797591?aff=es2&amp;amp;rank=1&#34;&gt;meeting on july 24th&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the qld sql server user group is &lt;a href=&#34;http://www.eventbrite.com/e/july-2014-qld-sql-server-user-group-tickets-12323922183?aff=es2&amp;amp;rank=2&#34;&gt;meeting on july 24th&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;interview&#34;&gt;interview&lt;/h2&gt;
+&lt;p&gt;guest - karsten bott&lt;/p&gt;">
+                <div class="lg:flex">
+                    <div class="lg:w-1/3 p-6 lg:pr-0">
+                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-4 lg:mb-0">
+                            <i class="fas fa-podcast text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="lg:w-2/3 p-6 lg:pl-8">
+                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
+                            <i class="fas fa-calendar mr-2"></i>
+                            <time>July 19, 2014</time>
+                            
+                        </div>
+                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            <a href="http://localhost:57259/podcast/2014-07-19-episode-278-powerscripting-podcast-karsten-bott-from-emc-on-emc-storage-integrator/" class="hover:text-purple-600 transition-colors duration-200">
+                                Episode 278 – PowerScripting Podcast – Karsten Bott from EMC on EMC Storage Integrator
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4 line-clamp-3"><p>Listen:</p>
+<p><strong><a href="http://traffic.libsyn.com/powerscripting/PSPodcast-278.mp3"><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></a></strong></p>
+<p>Watch the recording: (<a href="https://www.youtube.com/watch?v=Ig7Rvt9gbwg">behind the scenes</a>)</p>
+<h2 id="karsten-bott-from-emc-on-emc-storage-integrator">Karsten Bott from EMC on EMC Storage Integrator</h2>
+<p><strong>News</strong></p>
+<ul>
+<li>The PowerShell Team has posted <a href="http://blogs.msdn.com/b/powershell/archive/2014/07/17/powershell-dsc-resource-kit-wave-5-arrives.aspx">DSC Resource Kit Wave 5</a></li>
+<li>The xDSCResourceDesigner Module <a href="http://gallery.technet.microsoft.com/scriptcenter/xDscResourceDesigne-Module-22eddb29">has been updated</a></li>
+<li>Don has posted his <a href="http://tbirdbrent.wordpress.com/2014/07/11/done-jones-provides-powershell-learnings/">Practical PowerShell sessions</a> from the PowerShell Summit NA 2014</li>
+<li>LouPOSH is <a href="http://www.eventbrite.com/e/louposh-powershell-fundamentals-tickets-12111318279">meeting on July 21st</a></li>
+<li>The Perth SQL Server User Group is <a href="http://www.eventbrite.com/e/pssug-powershell-with-a-focus-on-automation-cody-konior-tickets-12236797591?aff=es2&amp;rank=1">meeting on July 24th</a></li>
+<li>The QLD SQL Server User Group is <a href="http://www.eventbrite.com/e/july-2014-qld-sql-server-user-group-tickets-12323922183?aff=es2&amp;rank=2">meeting on July 24th</a></li>
+</ul>
+<h2 id="interview">Interview</h2>
+<p>Guest - Karsten Bott</p></p>
+                        <div class="flex flex-wrap items-center gap-4">
+                            <a href="http://localhost:57259/podcast/2014-07-19-episode-278-powerscripting-podcast-karsten-bott-from-emc-on-emc-storage-integrator/" 
+                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
+                                <i class="fas fa-play mr-2"></i>Listen Now
+                            </a>
+                            
+                            <a href="http://traffic.libsyn.com/powerscripting/PSPodcast-278.mp3" target="_blank" rel="noopener"
+                               class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
+                                <i class="fas fa-external-link-alt mr-2"></i>Direct Link
+                            </a>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
             <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="episode 277 – powerscripting podcast – mvp pat richard on powershell and lync" data-content="&lt;p&gt;&lt;strong&gt;a podcast about windows powershell.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;listen:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://traffic.libsyn.com/powerscripting/pspodcast-277.mp3&#34;&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -456,7 +570,7 @@
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-07-13-episode-277-powerscripting-podcast-mvp-pat-richard-on-powershell-and-lync/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-07-13-episode-277-powerscripting-podcast-mvp-pat-richard-on-powershell-and-lync/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 277 – PowerScripting Podcast – MVP Pat Richard on PowerShell and Lync
                             </a>
                         </h2>
@@ -485,7 +599,7 @@
 <li>
 <p>The Florida PowerShell User group is <a href="http://www.eventbrite.com/e/florida-powershell-user-group-monthly-meeting-july-2014-tickets-11827017929?aff=es2&amp;rank=8">meeting virtually July 17th</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-07-13-episode-277-powerscripting-podcast-mvp-pat-richard-on-powershell-and-lync/" 
+                            <a href="http://localhost:57259/podcast/2014-07-13-episode-277-powerscripting-podcast-mvp-pat-richard-on-powershell-and-lync/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -551,7 +665,7 @@ or even &lt;a href=&#34;https://plus.google.com/103225533481178551610/posts/hulv
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-07-07-episode-276-powerscripting-podcast-josh-atwell/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-07-07-episode-276-powerscripting-podcast-josh-atwell/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 276 – PowerScripting Podcast – Josh Atwell
                             </a>
                         </h2>
@@ -593,7 +707,7 @@ or even &lt;a href=&#34;https://plus.google.com/103225533481178551610/posts/hulv
 <a href="https://plus.google.com/103225533481178551610/">https://plus.google.com/103225533481178551610/</a><br>
 or even <a href="https://plus.google.com/103225533481178551610/posts/HULvrSEFzbT">https://plus.google.com/103225533481178551610/posts/HULvrSEFzbT</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-07-07-episode-276-powerscripting-podcast-josh-atwell/" 
+                            <a href="http://localhost:57259/podcast/2014-07-07-episode-276-powerscripting-podcast-josh-atwell/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -647,7 +761,7 @@ here ya go ehorley &lt;a href=&#34;https://github.com/powershellorg/dsc/issues/n
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-06-24-episode-275-powerscripting-podcast-powershell-mvp-steve-murawski/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-06-24-episode-275-powerscripting-podcast-powershell-mvp-steve-murawski/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 275 – PowerScripting Podcast – PowerShell MVP Steve Murawski
                             </a>
                         </h2>
@@ -682,7 +796,7 @@ here ya go ehorley <a href="https://github.com/PowerShellOrg/DSC/issues/new">htt
 <a href="https://github.com/PowerShellOrg/DSC/blob/master/Tooling/DscDevelopment/New-MofFile.ps1">https://github.com/PowerShellOrg/DSC/blob/master/Tooling/DscDevelopment/New-MofFile.ps1</a><br>
 <a href="https://github.com/PowerShellOrg/DSC/issues/26">https://github.com/PowerShellOrg/DSC/issues/26</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-06-24-episode-275-powerscripting-podcast-powershell-mvp-steve-murawski/" 
+                            <a href="http://localhost:57259/podcast/2014-06-24-episode-275-powerscripting-podcast-powershell-mvp-steve-murawski/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -736,7 +850,7 @@ here ya go ehorley <a href="https://github.com/PowerShellOrg/DSC/issues/new">htt
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-06-20-episode-274-powerscripting-podcast-microsoft-distinguished-engineer-jeffrey-snover-on-jea/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-06-20-episode-274-powerscripting-podcast-microsoft-distinguished-engineer-jeffrey-snover-on-jea/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 274 – PowerScripting Podcast – Microsoft Distinguished Engineer Jeffrey Snover on JEA
                             </a>
                         </h2>
@@ -766,7 +880,7 @@ here ya go ehorley <a href="https://github.com/PowerShellOrg/DSC/issues/new">htt
 <li>
 <p>JEA premises</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-06-20-episode-274-powerscripting-podcast-microsoft-distinguished-engineer-jeffrey-snover-on-jea/" 
+                            <a href="http://localhost:57259/podcast/2014-06-20-episode-274-powerscripting-podcast-microsoft-distinguished-engineer-jeffrey-snover-on-jea/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -818,7 +932,7 @@ here ya go ehorley <a href="https://github.com/PowerShellOrg/DSC/issues/new">htt
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-06-15-episode-273-powerscripting-podcast-the-scripting-games-team-winners/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-06-15-episode-273-powerscripting-podcast-the-scripting-games-team-winners/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 273 – PowerScripting Podcast – The Scripting Games Team Winners
                             </a>
                         </h2>
@@ -846,7 +960,7 @@ here ya go ehorley <a href="https://github.com/PowerShellOrg/DSC/issues/new">htt
 <h2 id="interview">Interview</h2>
 <p>Guest - Stephen Owen &amp; Julie Andreacola, Jason Morgan</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-06-15-episode-273-powerscripting-podcast-the-scripting-games-team-winners/" 
+                            <a href="http://localhost:57259/podcast/2014-06-15-episode-273-powerscripting-podcast-the-scripting-games-team-winners/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -935,7 +1049,7 @@ omg&amp;hellip;&lt;a href=&#34;https://www.youtube.com/watch?v=qni4odonpuc&#34;&
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-06-08-episode-272-powerscripting-podcast-steve-hall-alan-sharp-paul-from-scriptrock/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-06-08-episode-272-powerscripting-podcast-steve-hall-alan-sharp-paul-from-scriptrock/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 272 – PowerScripting Podcast – Steve Hall &amp; Alan Sharp-Paul from ScriptRock
                             </a>
                         </h2>
@@ -1000,7 +1114,7 @@ Does this work? <a href="http://vaughnlive.tv/embed/video/jonwalz">http://vaughn
 <a href="http://www.scriptrock.com/">http://www.scriptrock.com/</a>
 omg&hellip;<a href="https://www.youtube.com/watch?v=QNI4oDOnPuc">https://www.youtube.com/watch?v=QNI4oDOnPuc</a> &ldquo;DevOps in a Box&rdquo;</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-06-08-episode-272-powerscripting-podcast-steve-hall-alan-sharp-paul-from-scriptrock/" 
+                            <a href="http://localhost:57259/podcast/2014-06-08-episode-272-powerscripting-podcast-steve-hall-alan-sharp-paul-from-scriptrock/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -1111,7 +1225,7 @@ guests - ferdinand rios and david corrales from sapien
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-05-28-episode-271-powerscripting-podcast-ferdinand-rios-and-david-corrales-from-sapien/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-05-28-episode-271-powerscripting-podcast-ferdinand-rios-and-david-corrales-from-sapien/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 271 – PowerScripting Podcast – Ferdinand Rios and David Corrales from SAPIEN
                             </a>
                         </h2>
@@ -1198,7 +1312,7 @@ Guests - Ferdinand Rios and David Corrales from SAPIEN
 <p><a href="http://www.sapien.com/blog/2014/05/05/i-already-have-the-ise-do-i-need/">http://www.sapien.com/blog/2014/05/05/i-already-have-the-ise-do-i-need/</a>
 @JonWalz: <a href="http://www.sapien.com/blog/2013/08/26/introducing-powerregex-community-preview/">http://www.sapien.com/blog/2013/08/26/introducing-powerregex-community-preview/</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-05-28-episode-271-powerscripting-podcast-ferdinand-rios-and-david-corrales-from-sapien/" 
+                            <a href="http://localhost:57259/podcast/2014-05-28-episode-271-powerscripting-podcast-ferdinand-rios-and-david-corrales-from-sapien/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -1229,14 +1343,14 @@ Guests - Ferdinand Rios and David Corrales from SAPIEN
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-05-27-up-next-steve-hall-and-alan-sharp-paul-from-script-rock/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-05-27-up-next-steve-hall-and-alan-sharp-paul-from-script-rock/" class="hover:text-purple-600 transition-colors duration-200">
                                 Up Next: Steve Hall and Alan Sharp-Paul from Script Rock
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>Thursday May 29th, guests on the PowerScripting Podcast will be Steve Hall and Alan Sharp-Paul from <a href="http://www.scriptrock.com/">http://www.scriptrock.com/</a>  Please join us at 9:30 PM EDT.</p>
 <p>We will Rock you!</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-05-27-up-next-steve-hall-and-alan-sharp-paul-from-script-rock/" 
+                            <a href="http://localhost:57259/podcast/2014-05-27-up-next-steve-hall-and-alan-sharp-paul-from-script-rock/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
@@ -1366,7 +1480,7 @@ category list in sidebar &lt;a href=&#34;http://gallery.technet.microsoft.com/sc
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-05-20-episode-270-powerscripting-podcast-mvp-jim-christopher-on-studioshell-and-more/" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2014-05-20-episode-270-powerscripting-podcast-mvp-jim-christopher-on-studioshell-and-more/" class="hover:text-purple-600 transition-colors duration-200">
                                 Episode 270 – PowerScripting Podcast – MVP Jim Christopher on StudioShell and More
                             </a>
                         </h2>
@@ -1477,142 +1591,12 @@ talk about the summit reminds me.  Snover put out the article on using JEA toda
 Stuwee: SHhhh. <a href="https://msconfiggallery.cloudapp.net/">https://msconfiggallery.cloudapp.net/</a>
 category list in sidebar <a href="http://gallery.technet.microsoft.com/scriptcenter/">http://gallery.technet.microsoft.com/scriptcenter/</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-05-20-episode-270-powerscripting-podcast-mvp-jim-christopher-on-studioshell-and-more/" 
+                            <a href="http://localhost:57259/podcast/2014-05-20-episode-270-powerscripting-podcast-mvp-jim-christopher-on-studioshell-and-more/" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen Now
                             </a>
                             
                             <a href="http://traffic.libsyn.com/powerscripting/PSPodcast-270.mp3" target="_blank" rel="noopener"
-                               class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
-                                <i class="fas fa-external-link-alt mr-2"></i>Direct Link
-                            </a>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden podcast-episode" data-title="episode 269 – powerscripting podcast – u.s. powershell summit recap" data-content="&lt;p&gt;&lt;strong&gt;a podcast about windows powershell.&lt;/strong&gt; listen:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://traffic.libsyn.com/powerscripting/pspodcast-269.mp3&#34;&gt;&lt;img src=&#34;http://powerscripting.libsyn.com/img/podcasticon.gif&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;p&gt;in this episode&lt;/p&gt;
-&lt;p&gt;tonight on the powerscripting podcast, we talk to eric courville, dave wyatt, jeff truman, jason hofferle, and teresa wilson about the powershell summit&lt;/p&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;p&gt;news&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;a new version of the wmf 5.0 preview [dropped today](http://blogs.msdn.com/b/powershell/archive/2014/05/14/windows-management-framework-5-0-preview-may-2014-is-now-available.aspx)!
-
-
-
-
-
-
-
-
-    [teched session](http://channel9.msdn.com/events/teched/northamerica/2014/dcim-b318#fbid=) with jeffrey snover and don jones
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;[techdays sf](http://techdays.org/) is coming up june 5-6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;[atlanta techstravaganza](http://www.atltechstravaganza.com/) is coming june 6th
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;the microsoft infrastructure &amp;amp; management group is [meeting on may 19th](http://www.eventbrite.com/e/microsoft-infrastructure-management-user-group-19052014-tickets-11493038989?aff=es2&amp;amp;rank=4)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;the powershell portland user group is [scheduled to meet on may 20th](http://www.eventbrite.com/e/powershell-portland-user-group-poshpug-tickets-7869547027?aff=es2&amp;amp;rank=5)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;the greater milwaukee script club is [meeting may 20th ](http://www.eventbrite.com/e/powershell-portland-user-group-poshpug-tickets-7869547027?aff=es2&amp;amp;rank=5)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;p&gt;interview&lt;/p&gt;">
-                <div class="lg:flex">
-                    <div class="lg:w-1/3 p-6 lg:pr-0">
-                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-4 lg:mb-0">
-                            <i class="fas fa-podcast text-4xl text-white"></i>
-                        </div>
-                    </div>
-                    <div class="lg:w-2/3 p-6 lg:pl-8">
-                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
-                            <i class="fas fa-calendar mr-2"></i>
-                            <time>May 15, 2014</time>
-                            
-                        </div>
-                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2014-05-14-episode-269-powerscripting-podcast-u-s-powershell-summit-recap/" class="hover:text-purple-600 transition-colors duration-200">
-                                Episode 269 – PowerScripting Podcast – U.S. PowerShell Summit Recap
-                            </a>
-                        </h2>
-                        <p class="text-gray-600 mb-4 line-clamp-3"><p><strong>A Podcast about Windows PowerShell.</strong> Listen:</p>
-<p><strong><a href="http://traffic.libsyn.com/powerscripting/PSPodcast-269.mp3"><img src="http://powerscripting.libsyn.com/img/podcastIcon.gif" alt=""></a></strong></p>
-<h2></h2>
-<p>In This Episode</p>
-<p>Tonight on the PowerScripting Podcast, we talk to Eric Courville, Dave Wyatt, Jeff Truman, Jason Hofferle, and Teresa Wilson about the PowerShell Summit</p>
-<h2></h2>
-<p>News</p>
-<ul>
-<li></li>
-</ul>
-<pre><code>A new version of the WMF 5.0 Preview [dropped today](http://blogs.msdn.com/b/powershell/archive/2014/05/14/windows-management-framework-5-0-preview-may-2014-is-now-available.aspx)!
-
-
-
-
-
-
-
-
-    [TechEd session](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DCIM-B318#fbid=) with Jeffrey Snover and Don Jones
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<pre><code>[TechDays SF](http://techdays.org/) is coming up June 5-6
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<pre><code>[Atlanta Techstravaganza](http://www.atltechstravaganza.com/) is coming June 6th
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<pre><code>The Microsoft Infrastructure &amp; Management Group is [meeting on May 19th](http://www.eventbrite.com/e/microsoft-infrastructure-management-user-group-19052014-tickets-11493038989?aff=es2&amp;rank=4)
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<pre><code>The PowerShell Portland User Group is [scheduled to meet on May 20th](http://www.eventbrite.com/e/powershell-portland-user-group-poshpug-tickets-7869547027?aff=es2&amp;rank=5)
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<pre><code>The Greater Milwaukee Script Club is [meeting May 20th ](http://www.eventbrite.com/e/powershell-portland-user-group-poshpug-tickets-7869547027?aff=es2&amp;rank=5)
-</code></pre>
-<h2></h2>
-<p>Interview</p></p>
-                        <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2014-05-14-episode-269-powerscripting-podcast-u-s-powershell-summit-recap/" 
-                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
-                                <i class="fas fa-play mr-2"></i>Listen Now
-                            </a>
-                            
-                            <a href="http://traffic.libsyn.com/powerscripting/PSPodcast-269.mp3" target="_blank" rel="noopener"
                                class="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium">
                                 <i class="fas fa-external-link-alt mr-2"></i>Direct Link
                             </a>
@@ -2312,7 +2296,7 @@ category list in sidebar <a href="http://gallery.technet.microsoft.com/scriptcen
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

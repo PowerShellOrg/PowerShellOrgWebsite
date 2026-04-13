@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Timothy Warner on PowerShell.org - Welcome Automaters!</title>
-    <link>https://powershell.org/authors/timothy-warner/</link>
+    <link>http://localhost:57259/authors/timothy-warner/</link>
     <description>Recent content in Timothy Warner on PowerShell.org - Welcome Automaters!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Oct 2015 20:48:32 +0000</lastBuildDate>
-    <atom:link href="https://powershell.org/authors/timothy-warner/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57259/authors/timothy-warner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Package Management in Windows PowerShell v3</title>
-      <link>https://powershell.org/articles/2015-10-12-using-package-management-in-windows-powershell-v3/</link>
+      <link>http://localhost:57259/articles/2015-10-12-using-package-management-in-windows-powershell-v3/</link>
       <pubDate>Mon, 12 Oct 2015 20:48:32 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-12-using-package-management-in-windows-powershell-v3/</guid>
+      <guid>http://localhost:57259/articles/2015-10-12-using-package-management-in-windows-powershell-v3/</guid>
       <description>&lt;p&gt;Hey now! The &lt;a href=&#34;http://blogs.msdn.com/b/powershell/archive/2015/10/09/package-management-preview-for-powershell-4-amp-3-is-now-available.aspx&#34;&gt;PowerShell team&lt;/a&gt; published a preview version of &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=49186&#34;&gt;PackageManagement&lt;/a&gt; for Windows PowerShell v3 and v4. As it happens, I have a Windows 7 SP1 box running PowerShell v3&amp;ndash;why not run a little experiment?&lt;/p&gt;&#xA;&lt;p&gt;`$PSVersionTable.PSVersion&#xA;Major   Minor   Build   Revision&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;3       0      -1       -1&#xA;`## Preparing the Environment&lt;/p&gt;&#xA;&lt;p&gt;You need &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=40779&#34;&gt;.NET Framework 4.5&lt;/a&gt; or later, so take care of that prerequisite before you install the following two assets:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=34595&#34;&gt;Windows Management Framework (WMF) v3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=49186&#34;&gt;PackageManagement PowerShell Modules Preview&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I restarted the computer after each installation just to be safe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing PowerShell Direct with Windows Server 2016 TP3 Hyper-V</title>
-      <link>https://powershell.org/articles/2015-10-08-testing-powershell-direct-with-windows-server-2016-tp3-hyper-v/</link>
+      <link>http://localhost:57259/articles/2015-10-08-testing-powershell-direct-with-windows-server-2016-tp3-hyper-v/</link>
       <pubDate>Thu, 08 Oct 2015 14:03:48 +0000</pubDate>
-      <guid>https://powershell.org/articles/2015-10-08-testing-powershell-direct-with-windows-server-2016-tp3-hyper-v/</guid>
+      <guid>http://localhost:57259/articles/2015-10-08-testing-powershell-direct-with-windows-server-2016-tp3-hyper-v/</guid>
       <description>&lt;p&gt;Hey there! I  thought we could test &lt;a href=&#34;http://blogs.technet.com/b/virtualization/archive/2015/05/14/powershell-direct-running-powershell-inside-a-virtual-machine-from-the-hyper-v-host.aspx&#34;&gt;PowerShell Direct&lt;/a&gt; together today. Here&amp;rsquo;s the elevator pitch: In Windows Server 2016 and Windows 10, we can send PowerShell commands from the Hyper-V host directly to its corresponding virtual machines (VMs), &lt;em&gt;&lt;strong&gt;even in the absence of guest VM networking&lt;/strong&gt;&lt;/em&gt;. Yeah, that&amp;rsquo;s cool, isn&amp;rsquo;t it?&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s just as impressive is that PowerShell Direct works _&lt;strong&gt;even if PowerShell remoting is disabled on the guest VM!&lt;/strong&gt; _PowerShell Direct also circumvents Windows Firewall. Note that PowerShell Direct requires that commands are sent only from a Hyper-V host to its local VMs.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Articles - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/articles/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/articles/">
+    <meta property="og:url" content="http://localhost:57259/articles/">
     <meta property="og:title" content="Articles">
     <meta property="og:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/articles/">
+    <meta property="twitter:url" content="http://localhost:57259/articles/">
     <meta property="twitter:title" content="Articles">
     <meta property="twitter:description"
         content="PowerShell articles, tutorials, and guides from community experts.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -414,6 +464,218 @@
             
             
             <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="uk powershell group&#34;“advanced functions" 
+                     data-content="&lt;p&gt;when: tuesday, feb 26, 2013 7:30 pm (gmt)&lt;/p&gt;
+&lt;p&gt;where: virtual&lt;/p&gt;
+&lt;p&gt;*&lt;del&gt;*&lt;/del&gt;*&lt;del&gt;*&lt;/del&gt;*&lt;del&gt;*&lt;/del&gt;*&lt;del&gt;*&lt;/del&gt;*~*&lt;/p&gt;
+&lt;p&gt;advanced functions give you ability to create functions that act like cmdlets. learn how to get the most from this powerful part of the powershell functionality&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;richard siddaway has invited you to attend an online meeting using live meeting.&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;https://www.livemeeting.com/cc/usergroups/join?id=g79dnp&amp;amp;role=attend&amp;amp;pw=9%24t%23%26pk%238&#34;&gt;join the meeting.&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;audio information&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;computer audio&lt;/strong&gt;&lt;br&gt;
+to use computer audio, you need speakers and microphone, or a headset.&lt;br&gt;
+&lt;strong&gt;first time users:&lt;/strong&gt;&lt;br&gt;
+to save time before the meeting, &lt;a href=&#34;http://go.microsoft.com/fwlink/?linkid=90703&#34;&gt;check your system&lt;/a&gt; to make sure it is ready to use microsoft office live meeting.&lt;br&gt;
+&lt;strong&gt;troubleshooting&lt;/strong&gt;&lt;br&gt;
+unable to join the meeting? follow these steps:&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 18, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-02-18-uk-powershell-group-advanced-functions/" class="hover:text-blue-600 transition-colors duration-200">
+                            UK PowerShell Group&#34;“Advanced functions
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>When: Tuesday, Feb 26, 2013 7:30 PM (GMT)</p>
+<p>Where: Virtual</p>
+<p>*<del>*</del>*<del>*</del>*<del>*</del>*<del>*</del>*~*</p>
+<p>Advanced functions give you ability to create functions that act like cmdlets. Learn how to get the most from this powerful part of the PowerShell functionality</p>
+<p><strong>Notes</strong></p>
+<p>Richard Siddaway has invited you to attend an online meeting using Live Meeting.<br>
+<strong><a href="https://www.livemeeting.com/cc/usergroups/join?id=G79DNP&amp;role=attend&amp;pw=9%24t%23%26PK%238">Join the meeting.</a></strong><br>
+<strong>Audio Information</strong><br>
+<strong>Computer Audio</strong><br>
+To use computer audio, you need speakers and microphone, or a headset.<br>
+<strong>First Time Users:</strong><br>
+To save time before the meeting, <a href="http://go.microsoft.com/fwlink/?LinkId=90703">check your system</a> to make sure it is ready to use Microsoft Office Live Meeting.<br>
+<strong>Troubleshooting</strong><br>
+Unable to join the meeting? Follow these steps:</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-02-18-uk-powershell-group-advanced-functions/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="filtering" 
+                     data-content="&lt;p&gt;i&amp;quot;™ve been grading the scripts in the warm up events for the scripting games and noticed a lot of people doing this:&lt;/p&gt;
+&lt;p&gt;get-wmiobject -class win32_logicaldisk | where {$_.drivetype -eq 3}&lt;/p&gt;
+&lt;p&gt;ok now it works but there are a couple of things wrong with this approach.&lt;/p&gt;
+&lt;p&gt;firstly, you are ignoring the built in capabilities of the get-wmiobject cmdlet&lt;/p&gt;
+&lt;p&gt;ps&amp;gt; get-command get-wmiobject -syntax&lt;/p&gt;
+&lt;p&gt;get-wmiobject [-class]  [[-property] ] &lt;strong&gt;[-filter ]&lt;/strong&gt; [-amended] [-directread] [-asjob]&lt;br&gt;
+[-impersonation ] [-authentication ] [-locale ]&lt;br&gt;
+[-enableallprivileges] [-authority ] [-credential
+] [-throttlelimit ] [-computername&lt;br&gt;
+] [-namespace ] []&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 18, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Richard Siddaway</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-02-18-filtering/" class="hover:text-blue-600 transition-colors duration-200">
+                            Filtering
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>I&quot;™ve been grading the scripts in the warm up events for the Scripting Games and noticed a lot of people doing this:</p>
+<p>Get-WmiObject -Class Win32_LogicalDisk | where {$_.DriveType -eq 3}</p>
+<p>Ok now it works but there are a couple of things wrong with this approach.</p>
+<p>Firstly, you are ignoring the built in capabilities of the get-wmiobject cmdlet</p>
+<p>PS&gt; Get-Command Get-WmiObject -Syntax</p>
+<p>Get-WmiObject [-Class]  [[-Property] ] <strong>[-Filter ]</strong> [-Amended] [-DirectRead] [-AsJob]<br>
+[-Impersonation ] [-Authentication ] [-Locale ]<br>
+[-EnableAllPrivileges] [-Authority ] [-Credential
+] [-ThrottleLimit ] [-ComputerName<br>
+] [-Namespace ] []</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-02-18-filtering/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="&#34;verified effective&#34; about ready to go live" 
+                     data-content="&lt;p&gt;before the verification exam becomes available to the public, i need one or two people to be the first through the complete program. this is not a &amp;ldquo;beta;&amp;rdquo; the exam is finalized and you will have to pay for your verification. the first one or two people will be semi-automated as i nail down the final payment integration bits, and then we&amp;rsquo;ll throw it open to the public.&lt;br&gt;
+if you&amp;rsquo;re interested, contact me at don at concentrated tech.com. first come, first served.&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 18, 2013</time>
+                            
+                            <span>•</span>
+                            <span>Don Jones</span>
+                            
+                        </div>
+                        
+                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                            Announcements
+                        </span>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-02-18-verified-effective-about-ready-to-go-live/" class="hover:text-blue-600 transition-colors duration-200">
+                            &#34;Verified Effective&#34; About Ready to Go Live
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Before the verification exam becomes available to the public, I need ONE OR TWO people to be the first through the complete program. This is not a &ldquo;beta;&rdquo; the exam is finalized and you will have to pay for your verification. The first one or two people will be semi-automated as I nail down the final payment integration bits, and then we&rsquo;ll throw it open to the public.<br>
+If you&rsquo;re interested, contact me at don at Concentrated Tech.com. First come, first served.</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-02-18-verified-effective-about-ready-to-go-live/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
+                     data-title="phillyposh 02/07/2013 meeting summary and presentation materials" 
+                     data-content="&lt;p&gt;&lt;a href=&#34;http://jdhitsolutions.com/&#34;&gt;jeff hicks&lt;/a&gt; (microsoft mvp and &lt;a href=&#34;http://www.manning.com/search/results?cx=008207406337866288189%3avej9zumcdec&amp;amp;cof=forid%3a9&amp;amp;ie=utf-8&amp;amp;q=jeffery&#43;hicks&amp;amp;sa=search&#34;&gt;author&lt;/a&gt;) gave a presentation on &amp;ldquo;getting started with powershell advanced functions&amp;rdquo;. you can download the presentation and example scripts &lt;a href=&#34;https://powershell.org/wp-content/uploads/2013/02/phillyposh_2013-02-07_presentations.zip&#34;&gt;here&lt;/a&gt; and watch a recording of the presentation below on our &lt;a href=&#34;http://www.youtube.com/channel/ucac_ow5fijtrpvew__9iqzg?feature=watch&#34;&gt;youtube channel&lt;/a&gt;.&lt;br&gt;
+[youtube_sc url=&amp;ldquo;http://www.youtube.com/watch?v=77vboo14dfe&amp;amp;feature=youtu.be&amp;rdquo;]&lt;br&gt;
+you can keep up with jeff at his &lt;a href=&#34;http://jdhitsolutions.com/blog/&#34;&gt;blog&lt;/a&gt;, on &lt;a href=&#34;twitter.com/jeffhicks&#34;&gt;twitter,â &lt;/a&gt;and on &lt;a href=&#34;http:/gplus.to/jeffhicks&#34;&gt;google plus&lt;/a&gt;&lt;br&gt;
+we would also like to thank &lt;a href=&#34;http://www.interfacett.com/&#34;&gt;interfacett&lt;/a&gt; and &lt;a href=&#34;https://powershell.org/&#34;&gt;powershell.org&lt;/a&gt; for providing funding for this meeting!&lt;/p&gt;"
+                     >
+                
+                
+                
+                <div class="p-6">
+                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
+                        <div class="flex items-center space-x-3">
+                            <time>Feb 17, 2013</time>
+                            
+                            <span>•</span>
+                            <span>John Mello</span>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">
+                        <a href="http://localhost:57259/articles/2013-02-16-phillyposh-02072013-meeting-summary-and-presentation-materials/" class="hover:text-blue-600 transition-colors duration-200">
+                            PhillyPoSH 02/07/2013 meeting summary and presentation materials
+                        </a>
+                    </h2>
+                    
+                    <p class="text-gray-600 mb-4 line-clamp-3"><p><a href="http://jdhitsolutions.com/">Jeff Hicks</a> (Microsoft MVP and <a href="http://www.manning.com/search/results?cx=008207406337866288189%3Avej9zumcdec&amp;cof=FORID%3A9&amp;ie=UTF-8&amp;q=Jeffery+Hicks&amp;sa=Search">Author</a>) gave a presentation on &ldquo;Getting Started with PowerShell Advanced Functions&rdquo;. You can download the presentation and example scripts <a href="https://powershell.org/wp-content/uploads/2013/02/PhillyPosh_2013-02-07_Presentations.zip">here</a> and watch a recording of the presentation below on our <a href="http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg?feature=watch">YouTube channel</a>.<br>
+[youtube_sc url=&ldquo;http://www.youtube.com/watch?v=77VbOO14DFE&amp;feature=youtu.be&rdquo;]<br>
+You can keep up with Jeff at his <a href="http://jdhitsolutions.com/blog/">blog</a>, on <a href="twitter.com/jeffhicks">Twitter,Â </a>and on <a href="http:/gplus.to/JeffHicks">Google Plus</a><br>
+We would also like to thank <a href="http://www.interfacett.com/">Interfacett</a> and <a href="https://powershell.org/">Powershell.org</a> for providing funding for this meeting!</p></p>
+                    
+                    <div class="flex items-center justify-between">
+                        <a href="http://localhost:57259/articles/2013-02-16-phillyposh-02072013-meeting-summary-and-presentation-materials/" 
+                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
                      data-title="powershell workflow&#34;“the complete series" 
                      data-content="&lt;p&gt;the series of articles on powershell workflows that are appearing on the scripting guy blog is now complete.&lt;/p&gt;
 &lt;p&gt;the articles in the series that have been published are:&lt;/p&gt;
@@ -445,7 +707,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-13-powershell-workflow-the-complete-series/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-13-powershell-workflow-the-complete-series/" class="hover:text-blue-600 transition-colors duration-200">
                             PowerShell Workflow&#34;“the complete series
                         </a>
                     </h2>
@@ -465,7 +727,7 @@
 <p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2803/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2803/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2803&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-13-powershell-workflow-the-complete-series/" 
+                        <a href="http://localhost:57259/articles/2013-02-13-powershell-workflow-the-complete-series/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -500,7 +762,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-11-winter-scripting-camp-the-post-mortem/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-11-winter-scripting-camp-the-post-mortem/" class="hover:text-blue-600 transition-colors duration-200">
                             Winter Scripting Camp: The Post Mortem
                         </a>
                     </h2>
@@ -508,7 +770,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3"><p>Ok, aftermath time. In Winter Scripting Camp I saw some very cool stuff, but I know folks want to learn from this event too, so I want to call out some stuff that I didn&rsquo;t like so much, and explain why. I&rsquo;m keeping these brief - if you&rsquo;d like a longer explanation, hit me up in the <a href="/discuss/">PowerShell Q&amp;A forum</a>. BTW, none of the discussion below implies anything about the grade I awarded the entry. I considered a much broader range of criteria and opinions in awarding grades.</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-11-winter-scripting-camp-the-post-mortem/" 
+                        <a href="http://localhost:57259/articles/2013-02-11-winter-scripting-camp-the-post-mortem/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -550,7 +812,7 @@ the &amp;ldquo;main&amp;rdquo; assignment in each form is harder. you&amp;rsquo;
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-05-want-to-be-verified-effective-for-powershell-heres-what-to-expect/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-05-want-to-be-verified-effective-for-powershell-heres-what-to-expect/" class="hover:text-blue-600 transition-colors duration-200">
                             Want to be VERIFIED EFFECTIVE for PowerShell? Here&#39;s what to expect.
                         </a>
                     </h2>
@@ -565,7 +827,7 @@ Some assignments are straightforward: write a script that does this, this, and t
 The &ldquo;main&rdquo; assignment in each form is harder. You&rsquo;re given a shell transcript, and you&rsquo;re asked to look at it and duplicate the tools you see used in it. For example:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-05-want-to-be-verified-effective-for-powershell-heres-what-to-expect/" 
+                        <a href="http://localhost:57259/articles/2013-02-05-want-to-be-verified-effective-for-powershell-heres-what-to-expect/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -597,7 +859,7 @@ The &ldquo;main&rdquo; assignment in each form is harder. You&rsquo;re given a s
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-05-scripting-games-warm-up/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-05-scripting-games-warm-up/" class="hover:text-blue-600 transition-colors duration-200">
                             Scripting Games warm up
                         </a>
                     </h2>
@@ -606,7 +868,7 @@ The &ldquo;main&rdquo; assignment in each form is harder. You&rsquo;re given a s
 <p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2802/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2802/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2802&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-05-scripting-games-warm-up/" 
+                        <a href="http://localhost:57259/articles/2013-02-05-scripting-games-warm-up/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -650,7 +912,7 @@ i look forward to hearing from you!&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-02-verified-effective-powershell-certification-program-now-ready-for-beta/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-02-verified-effective-powershell-certification-program-now-ready-for-beta/" class="hover:text-blue-600 transition-colors duration-200">
                             VERIFIED EFFECTIVE PowerShell &#34;certification&#34; program now ready for beta
                         </a>
                     </h2>
@@ -667,7 +929,7 @@ The first exam will be <strong>PowerShell 3.0 Toolmaking</strong>. You should be
 I look forward to hearing from you!</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-02-verified-effective-powershell-certification-program-now-ready-for-beta/" 
+                        <a href="http://localhost:57259/articles/2013-02-02-verified-effective-powershell-certification-program-now-ready-for-beta/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -704,7 +966,7 @@ if you want to participate, here&amp;rsquo;s how:&lt;/p&gt;"
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-02-01-winter-scripting-camp-opened-to-the-public/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/articles/2013-02-01-winter-scripting-camp-opened-to-the-public/" class="hover:text-blue-600 transition-colors duration-200">
                             Winter Scripting Camp Opened to the Public
                         </a>
                     </h2>
@@ -714,199 +976,7 @@ if you want to participate, here&amp;rsquo;s how:&lt;/p&gt;"
 If you want to participate, here&rsquo;s how:</p></p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-02-01-winter-scripting-camp-opened-to-the-public/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell and active directory recording" 
-                     data-content="&lt;p&gt;the recording, slides and demo script from yesterday&amp;quot;™s powershell and active directory session can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43cfa46a74cf3e96&amp;amp;id=43cfa46a74cf3e96%2140563&#34; title=&#34;https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43cfa46a74cf3e96&amp;amp;id=43cfa46a74cf3e96%2140563&#34;&gt;https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43cfa46a74cf3e96&amp;amp;id=43cfa46a74cf3e96%2140563&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2801/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2801/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2801&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 30, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-01-30-powershell-and-active-directory-recording/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell and Active Directory recording
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The recording, slides and demo script from yesterday&quot;™s PowerShell and Active Directory session can be found here:</p>
-<p><a href="https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43CFA46A74CF3E96&amp;id=43CFA46A74CF3E96%2140563" title="https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43CFA46A74CF3E96&amp;id=43CFA46A74CF3E96%2140563">https://skydrive.live.com/?cid=43cfa46a74cf3e96#cid=43CFA46A74CF3E96&amp;id=43CFA46A74CF3E96%2140563</a></p>
-<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2801/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2801/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2801&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-01-30-powershell-and-active-directory-recording/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell workflows&#34;“now we are six" 
-                     data-content="&lt;p&gt;the sixth in the series of articles on powershell workflows that are appearing on the scripting guy blog has been published.&lt;/p&gt;
-&lt;p&gt;the articles in the series that have been published are:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/09/powershell-workflows-nesting.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/09/powershell-workflows-nesting.aspx&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/16/powershell-workflows-job-engine.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/16/powershell-workflows-job-engine.aspx&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/23/powershell-workflows-restarting-the-computer.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/23/powershell-workflows-restarting-the-computer.aspx&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/30/powershell-workflows-using-parameters.aspx&#34;&gt;http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/30/powershell-workflows-using-parameters.aspx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;look for the next article in one weeks time.&lt;/p&gt;
-&lt;p&gt;until then enjoy!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2800/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2800/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2800&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 30, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-01-30-powershell-workflows-now-we-are-six/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell workflows&#34;“now we are six
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>The sixth in the series of articles on PowerShell workflows that are appearing on the Scripting Guy blog has been published.</p>
-<p>The articles in the series that have been published are:</p>
-<p><a href="http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2012/12/26/powershell-workflows-the-basics.aspx</a><br>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/02/powershell-workflows-restrictions.aspx</a><br>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/09/powershell-workflows-nesting.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/09/powershell-workflows-nesting.aspx</a><br>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/16/powershell-workflows-job-engine.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/16/powershell-workflows-job-engine.aspx</a><br>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/23/powershell-workflows-restarting-the-computer.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/23/powershell-workflows-restarting-the-computer.aspx</a><br>
-<a href="http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/30/powershell-workflows-using-parameters.aspx">http://blogs.technet.com/b/heyscriptingguy/archive/2013/01/30/powershell-workflows-using-parameters.aspx</a></p>
-<p>Look for the next article in one weeks time.</p>
-<p>Until then Enjoy!</p>
-<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2800/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2800/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2800&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-01-30-powershell-workflows-now-we-are-six/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="the 2013 winter scripting camp" 
-                     data-content="&lt;p&gt;we&amp;rsquo;ll be announcing winter scripting camp the first week of february. this is a special invite-only event that will be open to subscribers of the &lt;a href=&#34;/newsletter/&#34; title=&#34;first german powershell community conference&#34;&gt;powershell.org techletter&lt;/a&gt;. it will work just like the scripting games, but will feature only a couple of events and will not include any prizes. we will, however, announce the top scorers.&lt;br&gt;
-scripting camp is primarily an opportunity for us to audition our new platform, to kick the tires, and make sure everything&amp;rsquo;s ready for the official games, which will kick off in april at the &lt;a href=&#34;/summit/&#34;&gt;powershell summit 2013 north america&lt;/a&gt;.&lt;br&gt;
-if you&amp;rsquo;re interested in camping with us, please sign up for the techletter this week (prior to feb 1st). we&amp;rsquo;ll be sending out a special notification to the techletter subscriber list with sign-up instructions.&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 28, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Don Jones</span>
-                            
-                        </div>
-                        
-                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                            PowerShell for Admins
-                        </span>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-01-28-the-2013-winter-scripting-camp/" class="hover:text-blue-600 transition-colors duration-200">
-                            The 2013 Winter Scripting Camp
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>We&rsquo;ll be announcing Winter Scripting Camp the first week of February. This is a special invite-only event that will be open to subscribers of the <a href="/newsletter/" title="First German PowerShell Community Conference">PowerShell.org TechLetter</a>. It will work just like the Scripting Games, but will feature only a couple of events and will not include any prizes. We will, however, announce the top scorers.<br>
-Scripting Camp is primarily an opportunity for us to audition our new platform, to kick the tires, and make sure everything&rsquo;s ready for the official Games, which will kick off in April at the <a href="/summit/">PowerShell Summit 2013 North America</a>.<br>
-If you&rsquo;re interested in Camping with us, please sign up for the TechLetter this week (prior to Feb 1st). We&rsquo;ll be sending out a special notification to the TechLetter subscriber list with sign-up instructions.</p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-01-28-the-2013-winter-scripting-camp/" 
-                           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
-                            Read More <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        
-                        
-                    </div>
-                </div>
-                
-            </article>
-            
-            <article class="content-item bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden" 
-                     data-title="powershell and active directory&#34;“reminder" 
-                     data-content="&lt;p&gt;quick reminder for tomorrow&amp;quot;™s session from the uk powershell group.  details from:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx&#34; title=&#34;http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx&#34;&gt;http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2799/&#34;&gt;&lt;img src=&#34;http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2799/&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;amp;blog=16267735&amp;amp;%23038;post=2799&amp;amp;%23038;subd=richardspowershellblog&amp;amp;%23038;ref=&amp;amp;%23038;feed=1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;"
-                     >
-                
-                
-                
-                <div class="p-6">
-                    <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
-                        <div class="flex items-center space-x-3">
-                            <time>Jan 28, 2013</time>
-                            
-                            <span>•</span>
-                            <span>Richard Siddaway</span>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="https://powershell.org/articles/2013-01-28-powershell-and-active-directory-reminder/" class="hover:text-blue-600 transition-colors duration-200">
-                            PowerShell and Active Directory&#34;“reminder
-                        </a>
-                    </h2>
-                    
-                    <p class="text-gray-600 mb-4 line-clamp-3"><p>Quick reminder for tomorrow&quot;™s session from the UK PowerShell group.  Details from:</p>
-<p><a href="http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx" title="http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx">http://msmvps.com/blogs/richardsiddaway/archive/2013/01/16/uk-powershell-group-29-january-2013.aspx</a></p>
-<p><a href="http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2799/"><img src="http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2799/" alt=""></a><img src="http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&amp;blog=16267735&amp;%23038;post=2799&amp;%23038;subd=richardspowershellblog&amp;%23038;ref=&amp;%23038;feed=1" alt=""></p></p>
-                    
-                    <div class="flex items-center justify-between">
-                        <a href="https://powershell.org/articles/2013-01-28-powershell-and-active-directory-reminder/" 
+                        <a href="http://localhost:57259/articles/2013-02-01-winter-scripting-camp-opened-to-the-public/" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>
@@ -1388,7 +1458,7 @@ If you&rsquo;re interested in Camping with us, please sign up for the TechLetter
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

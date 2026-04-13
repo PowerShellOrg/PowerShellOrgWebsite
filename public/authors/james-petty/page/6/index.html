@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>James Petty - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/authors/james-petty/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/authors/james-petty/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/authors/james-petty/">
+    <meta property="og:url" content="http://localhost:57259/authors/james-petty/">
     <meta property="og:title" content="James Petty">
     <meta property="og:description"
         content="">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/authors/james-petty/">
+    <meta property="twitter:url" content="http://localhost:57259/authors/james-petty/">
     <meta property="twitter:title" content="James Petty">
     <meta property="twitter:description"
         content="">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -431,14 +481,14 @@ whether you&amp;rsquo;re just starting your automation journey or you&amp;rsquo;
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-21-the-powershell-podcast-the-powershell-podcast-summit-sessions-with-adam-rivera-asmar-fontenot-luis-orta/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-21-the-powershell-podcast-the-powershell-podcast-summit-sessions-with-adam-rivera-asmar-fontenot-luis-orta/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast The Powershell Podcast Summit sessions with Adam Rivera, Asmar Fontenot, &amp; Luis Orta
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In this episode of the PowerShell Podcast, we bring you another Summit Sessions special recorded live at the PowerShell + DevOps Global Summit 2025! This episode is a celebration of first-time attendees, newcomers to the PowerShell community, and those discovering their voice in tech. Andrew Pla sits down with passionate IT professionals who share their personal stories of growth, connection, and finding purpose through PowerShell and community.<br>
 Whether you&rsquo;re just starting your automation journey or you&rsquo;re looking to reconnect with your &ldquo;why,&rdquo; this episode is packed with inspiration, encouragement, and honest reflections on what it means to grow in public, contribute meaningfully, and be part of something bigger.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-21-the-powershell-podcast-the-powershell-podcast-summit-sessions-with-adam-rivera-asmar-fontenot-luis-orta/" 
+                            <a href="http://localhost:57259/podcast/2025-04-21-the-powershell-podcast-the-powershell-podcast-summit-sessions-with-adam-rivera-asmar-fontenot-luis-orta/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -475,7 +525,7 @@ Whether you&rsquo;re just starting your automation journey or you&rsquo;re looki
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-14-the-powershell-podcast-the-powershell-podcast-summit-2025-missy-leslie-hailey/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-14-the-powershell-podcast-the-powershell-podcast-summit-2025-missy-leslie-hailey/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast The PowerShell Podcast Summit 2025 – Missy, Leslie, &amp; Hailey
                             </a>
                         </h2>
@@ -488,7 +538,7 @@ Whether you&rsquo;re just starting your automation journey or you&rsquo;re looki
 </ul>
 <p>The PowerShell Podcast on YouTube: <a href="https://youtu.be/87axet9zvyQ">https://youtu.be/87axet9zvyQ</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-14-the-powershell-podcast-the-powershell-podcast-summit-2025-missy-leslie-hailey/" 
+                            <a href="http://localhost:57259/podcast/2025-04-14-the-powershell-podcast-the-powershell-podcast-summit-2025-missy-leslie-hailey/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -518,13 +568,13 @@ Whether you&rsquo;re just starting your automation journey or you&rsquo;re looki
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-10-the-powershell-podcast-powershell-summit-bar-sessions-2025-david-r/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-10-the-powershell-podcast-powershell-summit-bar-sessions-2025-david-r/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – David R
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In this casual bar-session chat recorded at the PowerShell + DevOps Global Summit 2025, host Andrew Pla sits down with David R, a first-time attendee with a passion for learning PowerShell. David shares how the PowerShell Podcast itself inspired him to attend and helped shape his scripting journey. What began as a work assignment turned into a powerful learning path, community connection, and a personal transformation.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-10-the-powershell-podcast-powershell-summit-bar-sessions-2025-david-r/" 
+                            <a href="http://localhost:57259/podcast/2025-04-10-the-powershell-podcast-powershell-summit-bar-sessions-2025-david-r/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -557,7 +607,7 @@ Whether you&rsquo;re just starting your automation journey or you&rsquo;re looki
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-09-the-powershell-podcast-powershell-summit-bar-sessions-2025-frank-lesniak/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-09-the-powershell-podcast-powershell-summit-bar-sessions-2025-frank-lesniak/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Frank Lesniak
                             </a>
                         </h2>
@@ -566,7 +616,7 @@ Whether you&rsquo;re just starting your automation journey or you&rsquo;re looki
 <p>The PowerShell Podcast: <a href="https://pdq.com/the-powershell-podcast">https://pdq.com/the-powershell-podcast </a></p>
 <p>The PowerShell Podcast on YouTube: <a href="https://youtu.be/HoYKzgiJxkk">https://youtu.be/HoYKzgiJxkk</a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-09-the-powershell-podcast-powershell-summit-bar-sessions-2025-frank-lesniak/" 
+                            <a href="http://localhost:57259/podcast/2025-04-09-the-powershell-podcast-powershell-summit-bar-sessions-2025-frank-lesniak/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -608,7 +658,7 @@ get more updates from summit from linkedin:&lt;br&gt;
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-08-the-powershell-podcast-powershell-summit-bar-sessions-2025-steven-judd/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-08-the-powershell-podcast-powershell-summit-bar-sessions-2025-steven-judd/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Steven Judd
                             </a>
                         </h2>
@@ -626,7 +676,7 @@ Get more updates from Summit from LinkedIn:<br>
 <p>PowerShell Podcast on YouTube: <a href="https://youtu.be/6WTIsOnT5PU">https://youtu.be/6WTIsOnT5PU</a></p>
 <p>The PowerShell Podcast: <a href="https://pdq.com/the-powershell-podcast">https://pdq.com/the-powershell-podcast </a></p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-08-the-powershell-podcast-powershell-summit-bar-sessions-2025-steven-judd/" 
+                            <a href="http://localhost:57259/podcast/2025-04-08-the-powershell-podcast-powershell-summit-bar-sessions-2025-steven-judd/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -656,13 +706,13 @@ Get more updates from Summit from LinkedIn:<br>
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-04-07-the-powershell-podcast-discovering-the-deeper-layers-of-powershell-with-jeff-hicks/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-04-07-the-powershell-podcast-discovering-the-deeper-layers-of-powershell-with-jeff-hicks/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast Discovering the Deeper Layers of PowerShell with Jeff Hicks
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In this episode of the PowerShell Podcast, we’re joined by the legendary Jeff Hicks, PowerShell educator, author, speaker, and community pillar. With decades of experience shaping the PowerShell landscape, Jeff returns to the podcast to share insights from his latest projects, discuss the evolution of the community, and offer wisdom for both new and experienced PowerShell users. From PowerShell Summit to writing foundational books and building up new contributors, Jeff continues to play a critical role in shaping the PowerShell ecosystem.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-04-07-the-powershell-podcast-discovering-the-deeper-layers-of-powershell-with-jeff-hicks/" 
+                            <a href="http://localhost:57259/podcast/2025-04-07-the-powershell-podcast-discovering-the-deeper-layers-of-powershell-with-jeff-hicks/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -696,7 +746,7 @@ Get more updates from Summit from LinkedIn:<br>
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-03-31-the-powershell-podcast-from-proper-football-to-databases-with-jess-pomfret/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-03-31-the-powershell-podcast-from-proper-football-to-databases-with-jess-pomfret/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast From Proper Football to Databases with Jess Pomfret
                             </a>
                         </h2>
@@ -706,7 +756,7 @@ Get more updates from Summit from LinkedIn:<br>
 <li>
 <p>Jess’s transition from footballer to DBA – How a soccer scholarship led her to a tech career in the U.S.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-03-31-the-powershell-podcast-from-proper-football-to-databases-with-jess-pomfret/" 
+                            <a href="http://localhost:57259/podcast/2025-03-31-the-powershell-podcast-from-proper-football-to-databases-with-jess-pomfret/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -736,13 +786,13 @@ Get more updates from Summit from LinkedIn:<br>
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-03-24-the-powershell-podcast-how-to-build-an-it-career-from-the-ground-up-with-kevin-apolinario-kevtech/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-03-24-the-powershell-podcast-how-to-build-an-it-career-from-the-ground-up-with-kevin-apolinario-kevtech/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast How to Build an IT Career from the Ground Up with Kevin Apolinario (KevTech)
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In this episode of the PowerShell Podcast, we welcome Kevin of KevTech IT Support, a well-known mentor and educator in the IT community. With a background in fast food and law enforcement, Kevin shares his inspiring journey into IT and how he leveraged mentorship, home labs, and community engagement to build a thriving career. We dive into help desk fundamentals, breaking into IT, career development, and Kevin helps give you a map to career success.Key topics in this episode include:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-03-24-the-powershell-podcast-how-to-build-an-it-career-from-the-ground-up-with-kevin-apolinario-kevtech/" 
+                            <a href="http://localhost:57259/podcast/2025-03-24-the-powershell-podcast-how-to-build-an-it-career-from-the-ground-up-with-kevin-apolinario-kevtech/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -773,14 +823,14 @@ key topics in this episode include:&lt;/p&gt;">
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-03-17-the-powershell-podcast-exploring-powershell-for-physical-security-and-automation-with-cody-paternostro/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-03-17-the-powershell-podcast-exploring-powershell-for-physical-security-and-automation-with-cody-paternostro/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast Exploring PowerShell for Physical Security and Automation with Cody Paternostro
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3"><p>In this episode of the PowerShell Podcast, we welcome Cody Paternostro, a rising star in PowerShell automation, to discuss his unique journey into IT, the power of persistence in learning, and his work on RemotePro, a sophisticated PowerShell-based security camera management tool. Cody shares how he transitioned from food delivery to IT, leveraged PowerShell to streamline operations in physical security, and how asking the right questions helped accelerate his growth.<br>
 Key topics in this episode include:</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-03-17-the-powershell-podcast-exploring-powershell-for-physical-security-and-automation-with-cody-paternostro/" 
+                            <a href="http://localhost:57259/podcast/2025-03-17-the-powershell-podcast-exploring-powershell-for-physical-security-and-automation-with-cody-paternostro/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -814,7 +864,7 @@ key topics in this episode include:&lt;/p&gt;
                             
                         </div>
                         <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
-                            <a href="https://powershell.org/podcast/2025-03-10-the-powershell-podcast-how-powershell-and-the-right-mindset-can-transform-your-it-career-with-steven-wight/" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="http://localhost:57259/podcast/2025-03-10-the-powershell-podcast-how-powershell-and-the-right-mindset-can-transform-your-it-career-with-steven-wight/" class="hover:text-blue-600 transition-colors duration-200">
                                 The PowerShell Podcast How PowerShell and the Right Mindset Can Transform Your IT Career with Steven Wight
                             </a>
                         </h2>
@@ -824,7 +874,7 @@ Key topics in this episode include:</p>
 <li>
 <p>How PowerShell changed Steven’s IT career – From his early days avoiding manual tasks to building automation solutions.</p></p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="https://powershell.org/podcast/2025-03-10-the-powershell-podcast-how-powershell-and-the-right-mindset-can-transform-your-it-career-with-steven-wight/" 
+                            <a href="http://localhost:57259/podcast/2025-03-10-the-powershell-podcast-how-powershell-and-the-right-mindset-can-transform-your-it-career-with-steven-wight/" 
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -1102,7 +1152,7 @@ Key topics in this episode include:</p>
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →

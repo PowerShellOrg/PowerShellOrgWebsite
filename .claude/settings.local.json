@@ -48,7 +48,10 @@
       "Bash(npx --version)",
       "Bash(npx --yes sharp-cli -- -i \"C:/Users/James/Creative Cloud Files  jamesp@powershell.org 988C53795B1EA2570A495C3F@AdobeID/Logos/New Website Logo/logo_400x300.png\" -o \"C:/scripts/PowerShellOrgWebsite/static/favicon-32x32.png\" resize 32 32 --fit contain --background \"rgba\\(255,255,255,0\\)\")",
       "Bash(npx:*)",
-      "Bash(\"C:/scripts/PowerShellOrgWebsite/static/favicon.ico\")"
+      "Bash(\"C:/scripts/PowerShellOrgWebsite/static/favicon.ico\")",
+      "Bash(wc -l /Users/jamespetty/git/PowerShellOrgWebsite/content/articles/*.md)",
+      "Bash(git -C /Users/jamespetty/git/PowerShellOrgWebsite log --oneline)",
+      "Bash(hugo --gc --minify --destination /tmp/hugo-test-build)"
     ]
   }
 }

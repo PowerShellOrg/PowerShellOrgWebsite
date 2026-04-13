@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57259&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PowerShell Authors - PowerShell.org - Welcome Automaters!</title>
@@ -16,10 +16,10 @@
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="https://powershell.org/authors/index.xml" title="PowerShell.org - Welcome Automaters!" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:57259/authors/index.xml" title="PowerShell.org - Welcome Automaters!" />
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://powershell.org/authors/">
+    <meta property="og:url" content="http://localhost:57259/authors/">
     <meta property="og:title" content="PowerShell Authors">
     <meta property="og:description"
         content="Discover authors writing about PowerShell, scripting, and automation.">
@@ -27,7 +27,7 @@
 
     
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://powershell.org/authors/">
+    <meta property="twitter:url" content="http://localhost:57259/authors/">
     <meta property="twitter:title" content="PowerShell Authors">
     <meta property="twitter:description"
         content="Discover authors writing about PowerShell, scripting, and automation.">
@@ -178,10 +178,8 @@
         <div class="flex justify-between items-center py-4">
             
             <div class="flex items-center">
-                <a href="https://powershell.org/" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 powershell-blue rounded-lg flex items-center justify-center">
-                        <i class="fas fa-terminal text-white text-lg"></i>
-                    </div>
+                <a href="http://localhost:57259/" class="flex items-center space-x-3">
+                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>
@@ -190,77 +188,101 @@
             </div>
             
             
-            <nav class="hidden md:flex space-x-8">
+            <nav class="hidden md:flex space-x-8 items-center">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/community/"
+                       class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center ">
+                        Community
+                        <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                    </a>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-150" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-blue-600 font-semibold"
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
             </nav>
             
@@ -268,7 +290,7 @@
             <div class="hidden md:flex items-center space-x-4">
                 <a href="https://powershellsummit.org" 
                    class="summit-gradient text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity duration-200">
-                    Summit 2026
+                    Summit 2027
                 </a>
                 <a href="https://aka.ms/psdiscord"
                    target="_blank" rel="noopener"
@@ -290,80 +312,108 @@
         <div id="mobile-menu" class="hidden md:hidden pb-4">
             <div class="space-y-2">
                 
-                <a href="/" 
+                
+                <a href="/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Home
                     
                 </a>
                 
-                <a href="/podcast/" 
+                
+                
+                <a href="/podcast/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Podcast
                     
                 </a>
                 
-                <a href="/summit/" 
+                
+                
+                <a href="/summit/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Summit
                     
                 </a>
                 
-                <a href="/community/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Community
-                    
-                </a>
                 
-                <a href="/articles/" 
+                
+                <a href="/articles/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Articles
                     
                 </a>
                 
-                <a href="/learning/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Learning
-                    
-                </a>
                 
-                <a href="/calendar/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   >
-                    Calendar
-                    
-                </a>
                 
-                <a href="/plaster/" 
+                
+                <div x-data="{ open: false }">
+                    <div class="flex items-center justify-between">
+                        <a href="/community/"
+                           class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium flex-1 ">
+                            Community
+                        </a>
+                        <button @click="open = !open" class="px-3 py-2 text-gray-500 hover:text-blue-600">
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="open ? 'transform rotate-180' : ''"></i>
+                        </button>
+                    </div>
+                    <div x-show="open" x-transition class="pl-6 space-y-1" style="display: none;">
+                        
+                        <a href="/learning/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Learning
+                            
+                        </a>
+                        
+                        <a href="/calendar/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Calendar
+                            
+                        </a>
+                        
+                        <a href="/authors/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Authors
+                            
+                        </a>
+                        
+                        <a href="https://forums.powershell.org"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           target="_blank" rel="noopener">
+                            Forums
+                            <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                        </a>
+                        
+                        <a href="/discord/"
+                           class="block text-gray-600 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-sm"
+                           >
+                            Discord Archive
+                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <a href="/plaster/"
                    class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
                    >
                     Plaster
                     
                 </a>
                 
-                <a href="/authors/" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-blue-50"
-                   >
-                    Authors
-                    
-                </a>
-                
-                <a href="https://forums.powershell.org" 
-                   class="block text-gray-700 hover:text-blue-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium "
-                   target="_blank" rel="noopener">
-                    Forums
-                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                </a>
                 
                 <div class="pt-2 border-t border-gray-200">
                     <a href="https://powershellsummit.org" 
                        class="block summit-gradient text-white px-3 py-2 rounded-lg text-center font-medium hover:opacity-90 transition-opacity duration-200">
-                        Register for Summit 2026
+                        Register for Summit 2027
                     </a>
                 </div>
             </div>
@@ -423,19 +473,19 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jonathan-walz/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jonathan-walz/" class="hover:text-blue-600 transition-colors duration-200">
                             Jonathan Walz
                         </a>
                     </h2>
 
                     
                     <p class="text-center text-gray-600 mb-6">
-                        <span class="text-3xl font-bold text-blue-600">586</span><br>
+                        <span class="text-3xl font-bold text-blue-600">587</span><br>
                         <span class="text-sm">articles published</span>
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jonathan-walz/"
+                    <a href="http://localhost:57259/authors/jonathan-walz/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -454,7 +504,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/don-jones/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/don-jones/" class="hover:text-blue-600 transition-colors duration-200">
                             Don Jones
                         </a>
                     </h2>
@@ -466,7 +516,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/don-jones/"
+                    <a href="http://localhost:57259/authors/don-jones/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -485,7 +535,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/james-petty/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/james-petty/" class="hover:text-blue-600 transition-colors duration-200">
                             James Petty
                         </a>
                     </h2>
@@ -497,7 +547,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/james-petty/"
+                    <a href="http://localhost:57259/authors/james-petty/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -516,7 +566,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/richard-siddaway/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/richard-siddaway/" class="hover:text-blue-600 transition-colors duration-200">
                             Richard Siddaway
                         </a>
                     </h2>
@@ -528,7 +578,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/richard-siddaway/"
+                    <a href="http://localhost:57259/authors/richard-siddaway/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -547,19 +597,19 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/robin-dadswell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/robin-dadswell/" class="hover:text-blue-600 transition-colors duration-200">
                             Robin Dadswell
                         </a>
                     </h2>
 
                     
                     <p class="text-center text-gray-600 mb-6">
-                        <span class="text-3xl font-bold text-blue-600">102</span><br>
+                        <span class="text-3xl font-bold text-blue-600">103</span><br>
                         <span class="text-sm">articles published</span>
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/robin-dadswell/"
+                    <a href="http://localhost:57259/authors/robin-dadswell/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -578,7 +628,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mark-roloff/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mark-roloff/" class="hover:text-blue-600 transition-colors duration-200">
                             Mark Roloff
                         </a>
                     </h2>
@@ -590,7 +640,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mark-roloff/"
+                    <a href="http://localhost:57259/authors/mark-roloff/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -609,7 +659,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/john-mello/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/john-mello/" class="hover:text-blue-600 transition-colors duration-200">
                             John Mello
                         </a>
                     </h2>
@@ -621,7 +671,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/john-mello/"
+                    <a href="http://localhost:57259/authors/john-mello/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -640,7 +690,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/kirk-munro/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/kirk-munro/" class="hover:text-blue-600 transition-colors duration-200">
                             Kirk Munro
                         </a>
                     </h2>
@@ -652,7 +702,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/kirk-munro/"
+                    <a href="http://localhost:57259/authors/kirk-munro/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -671,7 +721,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/pscookiemonster/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/pscookiemonster/" class="hover:text-blue-600 transition-colors duration-200">
                             Pscookiemonster
                         </a>
                     </h2>
@@ -683,7 +733,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/pscookiemonster/"
+                    <a href="http://localhost:57259/authors/pscookiemonster/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -702,7 +752,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mike-f-robbins/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mike-f-robbins/" class="hover:text-blue-600 transition-colors duration-200">
                             Mike F Robbins
                         </a>
                     </h2>
@@ -714,7 +764,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mike-f-robbins/"
+                    <a href="http://localhost:57259/authors/mike-f-robbins/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -733,7 +783,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/will-anderson/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/will-anderson/" class="hover:text-blue-600 transition-colors duration-200">
                             Will Anderson
                         </a>
                     </h2>
@@ -745,7 +795,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/will-anderson/"
+                    <a href="http://localhost:57259/authors/will-anderson/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -764,7 +814,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/scriptingwife/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/scriptingwife/" class="hover:text-blue-600 transition-colors duration-200">
                             ScriptingWife
                         </a>
                     </h2>
@@ -776,7 +826,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/scriptingwife/"
+                    <a href="http://localhost:57259/authors/scriptingwife/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -795,7 +845,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/steve-parankewich/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/steve-parankewich/" class="hover:text-blue-600 transition-colors duration-200">
                             Steve Parankewich
                         </a>
                     </h2>
@@ -807,7 +857,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/steve-parankewich/"
+                    <a href="http://localhost:57259/authors/steve-parankewich/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -826,7 +876,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/boe-prox/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/boe-prox/" class="hover:text-blue-600 transition-colors duration-200">
                             Boe Prox
                         </a>
                     </h2>
@@ -838,7 +888,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/boe-prox/"
+                    <a href="http://localhost:57259/authors/boe-prox/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -857,7 +907,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/greg-tate/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/greg-tate/" class="hover:text-blue-600 transition-colors duration-200">
                             Greg Tate
                         </a>
                     </h2>
@@ -869,7 +919,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/greg-tate/"
+                    <a href="http://localhost:57259/authors/greg-tate/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -888,7 +938,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/keith-hill/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/keith-hill/" class="hover:text-blue-600 transition-colors duration-200">
                             Keith Hill
                         </a>
                     </h2>
@@ -900,7 +950,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/keith-hill/"
+                    <a href="http://localhost:57259/authors/keith-hill/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -919,7 +969,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/steven-murawski/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/steven-murawski/" class="hover:text-blue-600 transition-colors duration-200">
                             Steven Murawski
                         </a>
                     </h2>
@@ -931,7 +981,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/steven-murawski/"
+                    <a href="http://localhost:57259/authors/steven-murawski/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -950,7 +1000,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/terri-donahue/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/terri-donahue/" class="hover:text-blue-600 transition-colors duration-200">
                             Terri Donahue
                         </a>
                     </h2>
@@ -962,7 +1012,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/terri-donahue/"
+                    <a href="http://localhost:57259/authors/terri-donahue/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -981,7 +1031,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/bartek-bielawski/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/bartek-bielawski/" class="hover:text-blue-600 transition-colors duration-200">
                             Bartek Bielawski
                         </a>
                     </h2>
@@ -993,7 +1043,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/bartek-bielawski/"
+                    <a href="http://localhost:57259/authors/bartek-bielawski/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1012,7 +1062,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jacob-benson/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jacob-benson/" class="hover:text-blue-600 transition-colors duration-200">
                             Jacob Benson
                         </a>
                     </h2>
@@ -1024,7 +1074,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jacob-benson/"
+                    <a href="http://localhost:57259/authors/jacob-benson/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1043,7 +1093,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/msorens/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/msorens/" class="hover:text-blue-600 transition-colors duration-200">
                             Msorens
                         </a>
                     </h2>
@@ -1055,7 +1105,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/msorens/"
+                    <a href="http://localhost:57259/authors/msorens/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1074,7 +1124,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/art-beane/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/art-beane/" class="hover:text-blue-600 transition-colors duration-200">
                             Art Beane
                         </a>
                     </h2>
@@ -1086,7 +1136,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/art-beane/"
+                    <a href="http://localhost:57259/authors/art-beane/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1105,7 +1155,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/david-jones/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/david-jones/" class="hover:text-blue-600 transition-colors duration-200">
                             David Jones
                         </a>
                     </h2>
@@ -1117,7 +1167,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/david-jones/"
+                    <a href="http://localhost:57259/authors/david-jones/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1136,7 +1186,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/june-blender/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/june-blender/" class="hover:text-blue-600 transition-colors duration-200">
                             June Blender
                         </a>
                     </h2>
@@ -1148,7 +1198,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/june-blender/"
+                    <a href="http://localhost:57259/authors/june-blender/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1167,7 +1217,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/missy-januszko/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/missy-januszko/" class="hover:text-blue-600 transition-colors duration-200">
                             Missy Januszko
                         </a>
                     </h2>
@@ -1179,7 +1229,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/missy-januszko/"
+                    <a href="http://localhost:57259/authors/missy-januszko/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1198,7 +1248,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/cole-mcdonald/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/cole-mcdonald/" class="hover:text-blue-600 transition-colors duration-200">
                             Cole McDonald
                         </a>
                     </h2>
@@ -1210,7 +1260,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/cole-mcdonald/"
+                    <a href="http://localhost:57259/authors/cole-mcdonald/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1229,7 +1279,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mike-kanakos/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mike-kanakos/" class="hover:text-blue-600 transition-colors duration-200">
                             Mike Kanakos
                         </a>
                     </h2>
@@ -1241,7 +1291,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mike-kanakos/"
+                    <a href="http://localhost:57259/authors/mike-kanakos/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1260,7 +1310,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/glenn-sizemore/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/glenn-sizemore/" class="hover:text-blue-600 transition-colors duration-200">
                             Glenn Sizemore
                         </a>
                     </h2>
@@ -1272,7 +1322,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/glenn-sizemore/"
+                    <a href="http://localhost:57259/authors/glenn-sizemore/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1291,7 +1341,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jonas-sommer-nielsen/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jonas-sommer-nielsen/" class="hover:text-blue-600 transition-colors duration-200">
                             Jonas Sommer Nielsen
                         </a>
                     </h2>
@@ -1303,7 +1353,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jonas-sommer-nielsen/"
+                    <a href="http://localhost:57259/authors/jonas-sommer-nielsen/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1322,7 +1372,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jonathan-medd/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jonathan-medd/" class="hover:text-blue-600 transition-colors duration-200">
                             Jonathan Medd
                         </a>
                     </h2>
@@ -1334,7 +1384,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jonathan-medd/"
+                    <a href="http://localhost:57259/authors/jonathan-medd/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1353,7 +1403,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/matthew-hodgkins/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/matthew-hodgkins/" class="hover:text-blue-600 transition-colors duration-200">
                             Matthew Hodgkins
                         </a>
                     </h2>
@@ -1365,7 +1415,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/matthew-hodgkins/"
+                    <a href="http://localhost:57259/authors/matthew-hodgkins/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1384,7 +1434,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/n2501r/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/n2501r/" class="hover:text-blue-600 transition-colors duration-200">
                             N2501r
                         </a>
                     </h2>
@@ -1396,7 +1446,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/n2501r/"
+                    <a href="http://localhost:57259/authors/n2501r/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1415,7 +1465,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/nathaniel-webb-artisanbytecrafter/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/nathaniel-webb-artisanbytecrafter/" class="hover:text-blue-600 transition-colors duration-200">
                             Nathaniel Webb (ArtisanByteCrafter)
                         </a>
                     </h2>
@@ -1427,69 +1477,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/nathaniel-webb-artisanbytecrafter/"
-                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
-                        <i class="fas fa-arrow-right mr-2"></i>View Profile
-                    </a>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
-                 data-author="adam bertram">
-                <div class="p-8">
-                    
-                    <div class="flex justify-center mb-6">
-                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
-                            <i class="fas fa-user text-2xl"></i>
-                        </div>
-                    </div>
-
-                    
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/adam-bertram/" class="hover:text-blue-600 transition-colors duration-200">
-                            Adam Bertram
-                        </a>
-                    </h2>
-
-                    
-                    <p class="text-center text-gray-600 mb-6">
-                        <span class="text-3xl font-bold text-blue-600">4</span><br>
-                        <span class="text-sm">articles published</span>
-                    </p>
-
-                    
-                    <a href="https://powershell.org/authors/adam-bertram/"
-                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
-                        <i class="fas fa-arrow-right mr-2"></i>View Profile
-                    </a>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
-                 data-author="matt laird">
-                <div class="p-8">
-                    
-                    <div class="flex justify-center mb-6">
-                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
-                            <i class="fas fa-user text-2xl"></i>
-                        </div>
-                    </div>
-
-                    
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/matt-laird/" class="hover:text-blue-600 transition-colors duration-200">
-                            Matt Laird
-                        </a>
-                    </h2>
-
-                    
-                    <p class="text-center text-gray-600 mb-6">
-                        <span class="text-3xl font-bold text-blue-600">4</span><br>
-                        <span class="text-sm">articles published</span>
-                    </p>
-
-                    
-                    <a href="https://powershell.org/authors/matt-laird/"
+                    <a href="http://localhost:57259/authors/nathaniel-webb-artisanbytecrafter/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1508,8 +1496,39 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/pwshliquori/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/pwshliquori/" class="hover:text-blue-600 transition-colors duration-200">
                             Pwshliquori
+                        </a>
+                    </h2>
+
+                    
+                    <p class="text-center text-gray-600 mb-6">
+                        <span class="text-3xl font-bold text-blue-600">5</span><br>
+                        <span class="text-sm">articles published</span>
+                    </p>
+
+                    
+                    <a href="http://localhost:57259/authors/pwshliquori/"
+                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                        <i class="fas fa-arrow-right mr-2"></i>View Profile
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
+                 data-author="adam bertram">
+                <div class="p-8">
+                    
+                    <div class="flex justify-center mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-user text-2xl"></i>
+                        </div>
+                    </div>
+
+                    
+                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
+                        <a href="http://localhost:57259/authors/adam-bertram/" class="hover:text-blue-600 transition-colors duration-200">
+                            Adam Bertram
                         </a>
                     </h2>
 
@@ -1520,7 +1539,38 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/pwshliquori/"
+                    <a href="http://localhost:57259/authors/adam-bertram/"
+                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                        <i class="fas fa-arrow-right mr-2"></i>View Profile
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
+                 data-author="matt laird">
+                <div class="p-8">
+                    
+                    <div class="flex justify-center mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-user text-2xl"></i>
+                        </div>
+                    </div>
+
+                    
+                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
+                        <a href="http://localhost:57259/authors/matt-laird/" class="hover:text-blue-600 transition-colors duration-200">
+                            Matt Laird
+                        </a>
+                    </h2>
+
+                    
+                    <p class="text-center text-gray-600 mb-6">
+                        <span class="text-3xl font-bold text-blue-600">4</span><br>
+                        <span class="text-sm">articles published</span>
+                    </p>
+
+                    
+                    <a href="http://localhost:57259/authors/matt-laird/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1539,7 +1589,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/weiyen-tan/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/weiyen-tan/" class="hover:text-blue-600 transition-colors duration-200">
                             WeiYen Tan
                         </a>
                     </h2>
@@ -1551,7 +1601,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/weiyen-tan/"
+                    <a href="http://localhost:57259/authors/weiyen-tan/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1570,7 +1620,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/eli-hess/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/eli-hess/" class="hover:text-blue-600 transition-colors duration-200">
                             Eli Hess
                         </a>
                     </h2>
@@ -1582,7 +1632,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/eli-hess/"
+                    <a href="http://localhost:57259/authors/eli-hess/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1601,7 +1651,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/njpowershell/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/njpowershell/" class="hover:text-blue-600 transition-colors duration-200">
                             NJPowerShell
                         </a>
                     </h2>
@@ -1613,7 +1663,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/njpowershell/"
+                    <a href="http://localhost:57259/authors/njpowershell/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1632,7 +1682,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/stephen-owen/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/stephen-owen/" class="hover:text-blue-600 transition-colors duration-200">
                             Stephen Owen
                         </a>
                     </h2>
@@ -1644,7 +1694,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/stephen-owen/"
+                    <a href="http://localhost:57259/authors/stephen-owen/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1663,7 +1713,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/sunny-chakraborty/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/sunny-chakraborty/" class="hover:text-blue-600 transition-colors duration-200">
                             Sunny Chakraborty
                         </a>
                     </h2>
@@ -1675,7 +1725,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/sunny-chakraborty/"
+                    <a href="http://localhost:57259/authors/sunny-chakraborty/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1694,7 +1744,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/tim-curwick/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/tim-curwick/" class="hover:text-blue-600 transition-colors duration-200">
                             Tim Curwick
                         </a>
                     </h2>
@@ -1706,7 +1756,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/tim-curwick/"
+                    <a href="http://localhost:57259/authors/tim-curwick/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1725,7 +1775,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/timpringle/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/timpringle/" class="hover:text-blue-600 transition-colors duration-200">
                             Timpringle
                         </a>
                     </h2>
@@ -1737,7 +1787,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/timpringle/"
+                    <a href="http://localhost:57259/authors/timpringle/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1756,7 +1806,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/tobor79/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/tobor79/" class="hover:text-blue-600 transition-colors duration-200">
                             Tobor79
                         </a>
                     </h2>
@@ -1768,7 +1818,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/tobor79/"
+                    <a href="http://localhost:57259/authors/tobor79/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1787,7 +1837,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/brett/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/brett/" class="hover:text-blue-600 transition-colors duration-200">
                             Brett
                         </a>
                     </h2>
@@ -1799,7 +1849,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/brett/"
+                    <a href="http://localhost:57259/authors/brett/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1818,7 +1868,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/carlo-mancini/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/carlo-mancini/" class="hover:text-blue-600 transition-colors duration-200">
                             Carlo Mancini
                         </a>
                     </h2>
@@ -1830,7 +1880,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/carlo-mancini/"
+                    <a href="http://localhost:57259/authors/carlo-mancini/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1849,7 +1899,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/colyn-via/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/colyn-via/" class="hover:text-blue-600 transition-colors duration-200">
                             Colyn Via
                         </a>
                     </h2>
@@ -1861,7 +1911,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/colyn-via/"
+                    <a href="http://localhost:57259/authors/colyn-via/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1880,7 +1930,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/david-wilson/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/david-wilson/" class="hover:text-blue-600 transition-colors duration-200">
                             David Wilson
                         </a>
                     </h2>
@@ -1892,7 +1942,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/david-wilson/"
+                    <a href="http://localhost:57259/authors/david-wilson/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1911,7 +1961,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/duffney/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/duffney/" class="hover:text-blue-600 transition-colors duration-200">
                             Duffney
                         </a>
                     </h2>
@@ -1923,7 +1973,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/duffney/"
+                    <a href="http://localhost:57259/authors/duffney/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1942,7 +1992,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/enrique-puig/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/enrique-puig/" class="hover:text-blue-600 transition-colors duration-200">
                             Enrique Puig
                         </a>
                     </h2>
@@ -1954,7 +2004,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/enrique-puig/"
+                    <a href="http://localhost:57259/authors/enrique-puig/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -1973,7 +2023,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/graham-beer/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/graham-beer/" class="hover:text-blue-600 transition-colors duration-200">
                             Graham Beer
                         </a>
                     </h2>
@@ -1985,7 +2035,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/graham-beer/"
+                    <a href="http://localhost:57259/authors/graham-beer/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2004,7 +2054,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jaap-brasser/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jaap-brasser/" class="hover:text-blue-600 transition-colors duration-200">
                             Jaap Brasser
                         </a>
                     </h2>
@@ -2016,7 +2066,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jaap-brasser/"
+                    <a href="http://localhost:57259/authors/jaap-brasser/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2035,7 +2085,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/stephen-moore/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/stephen-moore/" class="hover:text-blue-600 transition-colors duration-200">
                             Stephen Moore
                         </a>
                     </h2>
@@ -2047,7 +2097,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/stephen-moore/"
+                    <a href="http://localhost:57259/authors/stephen-moore/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2066,7 +2116,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/timothy-warner/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/timothy-warner/" class="hover:text-blue-600 transition-colors duration-200">
                             Timothy Warner
                         </a>
                     </h2>
@@ -2078,7 +2128,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/timothy-warner/"
+                    <a href="http://localhost:57259/authors/timothy-warner/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2097,7 +2147,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/aaron-jensen/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/aaron-jensen/" class="hover:text-blue-600 transition-colors duration-200">
                             Aaron Jensen
                         </a>
                     </h2>
@@ -2109,7 +2159,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/aaron-jensen/"
+                    <a href="http://localhost:57259/authors/aaron-jensen/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2128,7 +2178,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/adam-platt/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/adam-platt/" class="hover:text-blue-600 transition-colors duration-200">
                             Adam Platt
                         </a>
                     </h2>
@@ -2140,7 +2190,38 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/adam-platt/"
+                    <a href="http://localhost:57259/authors/adam-platt/"
+                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                        <i class="fas fa-arrow-right mr-2"></i>View Profile
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
+                 data-author="adazlian12">
+                <div class="p-8">
+                    
+                    <div class="flex justify-center mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-user text-2xl"></i>
+                        </div>
+                    </div>
+
+                    
+                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
+                        <a href="http://localhost:57259/authors/adazlian12/" class="hover:text-blue-600 transition-colors duration-200">
+                            Adazlian12
+                        </a>
+                    </h2>
+
+                    
+                    <p class="text-center text-gray-600 mb-6">
+                        <span class="text-3xl font-bold text-blue-600">1</span><br>
+                        <span class="text-sm">article published</span>
+                    </p>
+
+                    
+                    <a href="http://localhost:57259/authors/adazlian12/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2159,7 +2240,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/alex-aymonier/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/alex-aymonier/" class="hover:text-blue-600 transition-colors duration-200">
                             Alex Aymonier
                         </a>
                     </h2>
@@ -2171,7 +2252,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/alex-aymonier/"
+                    <a href="http://localhost:57259/authors/alex-aymonier/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2190,7 +2271,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/bjorn-houben/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/bjorn-houben/" class="hover:text-blue-600 transition-colors duration-200">
                             Bjorn Houben
                         </a>
                     </h2>
@@ -2202,7 +2283,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/bjorn-houben/"
+                    <a href="http://localhost:57259/authors/bjorn-houben/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2221,7 +2302,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/brian-bourque/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/brian-bourque/" class="hover:text-blue-600 transition-colors duration-200">
                             Brian Bourque
                         </a>
                     </h2>
@@ -2233,7 +2314,38 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/brian-bourque/"
+                    <a href="http://localhost:57259/authors/brian-bourque/"
+                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                        <i class="fas fa-arrow-right mr-2"></i>View Profile
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
+                 data-author="chris martin">
+                <div class="p-8">
+                    
+                    <div class="flex justify-center mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-user text-2xl"></i>
+                        </div>
+                    </div>
+
+                    
+                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
+                        <a href="http://localhost:57259/authors/chris-martin/" class="hover:text-blue-600 transition-colors duration-200">
+                            Chris Martin
+                        </a>
+                    </h2>
+
+                    
+                    <p class="text-center text-gray-600 mb-6">
+                        <span class="text-3xl font-bold text-blue-600">1</span><br>
+                        <span class="text-sm">article published</span>
+                    </p>
+
+                    
+                    <a href="http://localhost:57259/authors/chris-martin/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2252,7 +2364,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/darren-mar-elia/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/darren-mar-elia/" class="hover:text-blue-600 transition-colors duration-200">
                             Darren Mar-Elia
                         </a>
                     </h2>
@@ -2264,7 +2376,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/darren-mar-elia/"
+                    <a href="http://localhost:57259/authors/darren-mar-elia/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2283,7 +2395,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/eric-brookman-scriptingcaveman/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/eric-brookman-scriptingcaveman/" class="hover:text-blue-600 transition-colors duration-200">
                             Eric Brookman (Scriptingcaveman)
                         </a>
                     </h2>
@@ -2295,7 +2407,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/eric-brookman-scriptingcaveman/"
+                    <a href="http://localhost:57259/authors/eric-brookman-scriptingcaveman/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2314,7 +2426,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/greg-altman/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/greg-altman/" class="hover:text-blue-600 transition-colors duration-200">
                             Greg Altman
                         </a>
                     </h2>
@@ -2326,7 +2438,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/greg-altman/"
+                    <a href="http://localhost:57259/authors/greg-altman/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2345,7 +2457,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/i255d/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/i255d/" class="hover:text-blue-600 transition-colors duration-200">
                             I255d
                         </a>
                     </h2>
@@ -2357,7 +2469,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/i255d/"
+                    <a href="http://localhost:57259/authors/i255d/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2376,7 +2488,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jacob-moran/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jacob-moran/" class="hover:text-blue-600 transition-colors duration-200">
                             Jacob Moran
                         </a>
                     </h2>
@@ -2388,7 +2500,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jacob-moran/"
+                    <a href="http://localhost:57259/authors/jacob-moran/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2407,7 +2519,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jasonmorgan/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jasonmorgan/" class="hover:text-blue-600 transition-colors duration-200">
                             JasonMorgan
                         </a>
                     </h2>
@@ -2419,7 +2531,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jasonmorgan/"
+                    <a href="http://localhost:57259/authors/jasonmorgan/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2438,7 +2550,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/jeffery-hicks/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/jeffery-hicks/" class="hover:text-blue-600 transition-colors duration-200">
                             Jeffery Hicks
                         </a>
                     </h2>
@@ -2450,7 +2562,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/jeffery-hicks/"
+                    <a href="http://localhost:57259/authors/jeffery-hicks/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2469,7 +2581,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/joel-newton/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/joel-newton/" class="hover:text-blue-600 transition-colors duration-200">
                             Joel Newton
                         </a>
                     </h2>
@@ -2481,7 +2593,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/joel-newton/"
+                    <a href="http://localhost:57259/authors/joel-newton/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2500,7 +2612,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/liam-kemp/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/liam-kemp/" class="hover:text-blue-600 transition-colors duration-200">
                             Liam Kemp
                         </a>
                     </h2>
@@ -2512,7 +2624,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/liam-kemp/"
+                    <a href="http://localhost:57259/authors/liam-kemp/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2531,7 +2643,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mark-kraus-markekraus/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mark-kraus-markekraus/" class="hover:text-blue-600 transition-colors duration-200">
                             Mark Kraus (Markekraus)
                         </a>
                     </h2>
@@ -2543,7 +2655,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mark-kraus-markekraus/"
+                    <a href="http://localhost:57259/authors/mark-kraus-markekraus/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2562,7 +2674,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mark-wragg/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mark-wragg/" class="hover:text-blue-600 transition-colors duration-200">
                             Mark Wragg
                         </a>
                     </h2>
@@ -2574,7 +2686,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mark-wragg/"
+                    <a href="http://localhost:57259/authors/mark-wragg/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2593,7 +2705,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/mike-roberts/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/mike-roberts/" class="hover:text-blue-600 transition-colors duration-200">
                             Mike Roberts
                         </a>
                     </h2>
@@ -2605,7 +2717,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/mike-roberts/"
+                    <a href="http://localhost:57259/authors/mike-roberts/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2624,7 +2736,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/nick-rimmer/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/nick-rimmer/" class="hover:text-blue-600 transition-colors duration-200">
                             Nick Rimmer
                         </a>
                     </h2>
@@ -2636,7 +2748,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/nick-rimmer/"
+                    <a href="http://localhost:57259/authors/nick-rimmer/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2655,7 +2767,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/nohwnd/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/nohwnd/" class="hover:text-blue-600 transition-colors duration-200">
                             Nohwnd
                         </a>
                     </h2>
@@ -2667,7 +2779,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/nohwnd/"
+                    <a href="http://localhost:57259/authors/nohwnd/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2686,7 +2798,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/poshoholic/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/poshoholic/" class="hover:text-blue-600 transition-colors duration-200">
                             Poshoholic
                         </a>
                     </h2>
@@ -2698,7 +2810,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/poshoholic/"
+                    <a href="http://localhost:57259/authors/poshoholic/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2717,7 +2829,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/scriptwarrior/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/scriptwarrior/" class="hover:text-blue-600 transition-colors duration-200">
                             ScriptWarrior
                         </a>
                     </h2>
@@ -2729,7 +2841,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/scriptwarrior/"
+                    <a href="http://localhost:57259/authors/scriptwarrior/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2748,7 +2860,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/steve/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/steve/" class="hover:text-blue-600 transition-colors duration-200">
                             Steve
                         </a>
                     </h2>
@@ -2760,7 +2872,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/steve/"
+                    <a href="http://localhost:57259/authors/steve/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2779,7 +2891,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/thomas-malkewitz/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/thomas-malkewitz/" class="hover:text-blue-600 transition-colors duration-200">
                             Thomas Malkewitz
                         </a>
                     </h2>
@@ -2791,7 +2903,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/thomas-malkewitz/"
+                    <a href="http://localhost:57259/authors/thomas-malkewitz/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2810,7 +2922,7 @@
 
                     
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="https://powershell.org/authors/thomas-rayner-mvp/" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="http://localhost:57259/authors/thomas-rayner-mvp/" class="hover:text-blue-600 transition-colors duration-200">
                             Thomas Rayner, MVP
                         </a>
                     </h2>
@@ -2822,7 +2934,7 @@
                     </p>
 
                     
-                    <a href="https://powershell.org/authors/thomas-rayner-mvp/"
+                    <a href="http://localhost:57259/authors/thomas-rayner-mvp/"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
@@ -2901,7 +3013,7 @@
                 <div class="space-y-4">
                     <div class="bg-gray-800 p-4 rounded-lg">
                         <h4 class="font-medium text-white mb-1">PowerShell &#43; DevOps Global Summit</h4>
-                        <p class="text-sm text-gray-400 mb-2">April 13-16, 2026</p>
+                        <p class="text-sm text-gray-400 mb-2">April 5-8, 2027</p>
                         <a href="https://powershellsummit.org" 
                            class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200">
                             Learn More →
