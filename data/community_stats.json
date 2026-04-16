@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Getting Accurate Membership counts for A...\"",
-      "time": "Just now",
+      "time": "4 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19355,
-    "total_posts": 118009,
+    "total_posts": 118012,
     "active_users": 9585,
-    "topics_this_week": 3
+    "topics_this_week": 2
   },
-  "last_updated": "2026-04-15T20:23:01.291Z"
+  "last_updated": "2026-04-16T00:51:09.316Z"
 }
