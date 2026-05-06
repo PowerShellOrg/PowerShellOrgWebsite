@@ -2,15 +2,9 @@
   "activities": [
     {
       "message": "New reply in \"PowerShell 7.x ISE-Style App — Looking f...\"",
-      "time": "10 hours ago",
+      "time": "17 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
-    },
-    {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -23,7 +17,7 @@
     "total_topics": 19356,
     "total_posts": 118040,
     "active_users": 9576,
-    "topics_this_week": 1
+    "topics_this_week": 0
   },
-  "last_updated": "2026-05-06T05:12:00.209Z"
+  "last_updated": "2026-05-06T12:47:15.017Z"
 }
