@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Run command get-service and include the ...\"",
-      "time": "18 hours ago",
+      "time": "22 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19358,
-    "total_posts": 118052,
-    "active_users": 9573,
-    "topics_this_week": 2
+    "total_topics": 19359,
+    "total_posts": 118056,
+    "active_users": 9574,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-05-12T09:06:00.217Z"
+  "last_updated": "2026-05-12T12:50:35.777Z"
 }
