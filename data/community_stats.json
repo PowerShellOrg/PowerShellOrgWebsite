@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Run command get-service and include the ...\"",
-      "time": "22 hours ago",
+      "message": "New reply in \"Server goes dorment after 5 instances...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "4 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19358,
-    "total_posts": 118058,
+    "total_topics": 19360,
+    "total_posts": 118065,
     "active_users": 9574,
-    "topics_this_week": 2
+    "topics_this_week": 4
   },
-  "last_updated": "2026-05-13T16:53:22.326Z"
+  "last_updated": "2026-05-13T20:39:10.973Z"
 }
