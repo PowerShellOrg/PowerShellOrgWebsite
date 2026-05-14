@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Server goes dorment after 5 instances...\"",
-      "time": "Just now",
+      "time": "4 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "4 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19360,
     "total_posts": 118065,
     "active_users": 9574,
-    "topics_this_week": 4
+    "topics_this_week": 3
   },
-  "last_updated": "2026-05-13T20:39:10.973Z"
+  "last_updated": "2026-05-14T01:00:13.545Z"
 }
