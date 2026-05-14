@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Server goes dorment after 5 instances...\"",
-      "time": "20 hours ago",
+      "time": "Yesterday",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -25,5 +25,5 @@
     "active_users": 9576,
     "topics_this_week": 2
   },
-  "last_updated": "2026-05-14T16:46:17.751Z"
+  "last_updated": "2026-05-14T20:36:11.069Z"
 }
