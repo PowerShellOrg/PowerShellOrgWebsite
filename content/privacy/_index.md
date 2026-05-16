@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "PowerShell.org privacy policy and data handling practices."
-layout: "single"
+layout: "page"
 ---
 
 ## Who We Are

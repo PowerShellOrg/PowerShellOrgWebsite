@@ -1,7 +1,7 @@
 ---
 title: "PowerShell Community Awards"
 description: "Recognizing outstanding contributions to the PowerShell community."
-layout: "single"
+layout: "page"
 ---
 
 The DevOps Collective has established a set of three awards to recognize and honor the contributions of community members who have gone above and beyond in their efforts to support and promote the PowerShell community. The awards are presented at the annual PowerShell + DevOps Global Summit. It is hoped that these awards will motivate and inspire members of the PowerShell community.

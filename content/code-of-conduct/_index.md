@@ -1,7 +1,7 @@
 ---
 title: "Code of Conduct"
 description: "PowerShell.org community and event code of conduct."
-layout: "single"
+layout: "page"
 ---
 
 # PowerShellOrg Code of Conduct

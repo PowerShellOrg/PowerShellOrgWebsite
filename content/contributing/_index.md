@@ -1,7 +1,7 @@
 ---
 title: "Contributing"
 description: "How to contribute to PowerShell.org - blogging, ebooks, forums, and more."
-layout: "single"
+layout: "page"
 ---
 
 You're not only welcome to contribute to PowerShell.org, everyone who helps runs it, and everyone who visits, would deeply appreciate it. This is an all-volunteer situation, so we only get as much help, assistance, and education as we're all willing to provide each other. It doesn't need to be a proud, elite few doing all the work - *everyone* has something valuable to offer.
