@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Run command get-service and include the ...\"",
-      "time": "3 hours ago",
+      "message": "New reply in \"Powershell is Missing Easy Command Subst...\"",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "4 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19360,
-    "total_posts": 118073,
-    "active_users": 9576,
-    "topics_this_week": 3
+    "total_topics": 19361,
+    "total_posts": 118074,
+    "active_users": 9577,
+    "topics_this_week": 4
   },
-  "last_updated": "2026-05-15T20:31:07.981Z"
+  "last_updated": "2026-05-16T00:54:20.951Z"
 }
