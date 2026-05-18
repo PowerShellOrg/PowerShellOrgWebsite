@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Powershell is Missing Easy Command Subst...\"",
-      "time": "Just now",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "4 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19361,
-    "total_posts": 118078,
+    "total_posts": 118079,
     "active_users": 9572,
-    "topics_this_week": 4
+    "topics_this_week": 3
   },
-  "last_updated": "2026-05-18T13:25:40.084Z"
+  "last_updated": "2026-05-18T17:04:23.762Z"
 }
