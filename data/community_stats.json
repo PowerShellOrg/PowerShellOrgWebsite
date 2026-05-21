@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Print test page on default printer...\"",
-      "time": "18 hours ago",
+      "time": "21 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "19 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19378,
-    "total_posts": 118161,
+    "total_topics": 19362,
+    "total_posts": 118144,
     "active_users": 9584,
-    "topics_this_week": 19
+    "topics_this_week": 3
   },
-  "last_updated": "2026-05-21T13:18:19.725Z"
+  "last_updated": "2026-05-21T17:00:32.067Z"
 }
