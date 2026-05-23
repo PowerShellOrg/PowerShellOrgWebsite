@@ -2,6 +2,7 @@ baseURL: 'https://powershell.org'
 languageCode: 'en-us'
 title: 'PowerShell.org - Welcome Automaters!'
 theme: 'powershell-community'
+timeZone: UTC
 
 # Enable RSS feeds
 enableRSSFeed: true
@@ -96,7 +97,28 @@ params:
     
   # Analytics (GitHub Pages compatible)
   google_analytics: ""
+
+  ical:
+    timezone: UTC
   
+module:
+  imports:
+    - path: github.com/finkregh/hugo-theme-component-ical
+
+mediaTypes:
+  text/calendar:
+    suffixes:
+      - ics
+
+outputFormats:
+  Calendar:
+    baseName: calendar
+    mediaType: text/calendar
+    isPlainText: true
+    permalinkable: true
+    suffix: ics
+    protocol: https://
+
 # Output formats
 outputs:
   home:

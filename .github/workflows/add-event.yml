@@ -1,0 +1,103 @@
+name: Add Community Event
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add-event:
+    if: |
+      github.event.label.name == 'approved' &&
+      contains(github.event.issue.labels.*.name, 'community-event')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse issue and create event content file
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, re
+
+          body = os.environ['ISSUE_BODY']
+          issue_num = os.environ['ISSUE_NUMBER']
+
+          def field(label):
+              m = re.search(rf'### {re.escape(label)}\s+(.+?)(?=\n###|\Z)', body, re.DOTALL)
+              if not m:
+                  return ''
+              val = m.group(1).strip()
+              return '' if val in ('_No response_', '') else val
+
+          name       = field('Event Name')
+          url        = field('Event Website')
+          start_date = field('Start Date')
+          end_date   = field('End Date')
+          location   = field('Location')
+          virtual_s  = field('Is this a virtual event?')
+          description = field('Event Description')
+
+          virtual = 'true' if virtual_s.startswith(('Yes', 'Hybrid')) else 'false'
+
+          # Generate a URL-safe slug: name + year
+          slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+          slug = f"{slug}-{start_date[:4]}"
+
+          end_line = f'\nendDate: "{end_date}"' if end_date else ''
+          content = f"""---
+          title: "{name}"
+          startDate: "{start_date}"{end_line}
+          where: "{location}"
+          externalUrl: "{url}"
+          virtual: {virtual}
+          ---
+          {description}
+          """
+          # Dedent (the heredoc indents every line)
+          import textwrap
+          content = textwrap.dedent(content)
+
+          filepath = f'content/calendar/{slug}.md'
+          os.makedirs('content/calendar', exist_ok=True)
+          with open(filepath, 'w') as f:
+              f.write(content)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f'slug={slug}\n')
+              out.write(f'filepath={filepath}\n')
+              out.write(f'event_name={name}\n')
+
+          print(f'Created {filepath}')
+          PYEOF
+
+      - name: Open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          FILEPATH: ${{ steps.parse.outputs.filepath }}
+          EVENT_NAME: ${{ steps.parse.outputs.event_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH="event/issue-${ISSUE_NUMBER}-${SLUG}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "$FILEPATH"
+          git commit -m "Add event: ${EVENT_NAME} (closes #${ISSUE_NUMBER})"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Add event: ${EVENT_NAME}" \
+            --body "Closes #${ISSUE_NUMBER}
+
+          Auto-generated from community event submission." \
+            --base main \
+            --head "$BRANCH"

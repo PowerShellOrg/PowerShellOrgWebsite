@@ -1,0 +1,26 @@
+{{- /* Override of component event.ics — uses .Site.Language.Lang instead of .Locale (requires Hugo 0.159+) */ -}}
+{{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnidf "debug-partial-used" "Partial used: %s" templates.Current.Name }}{{ end -}}
+{{- $timezone := partial "ical/get_timezone.ics" . -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $endDate := "" -}}
+{{- if .Params.endDate -}}
+  {{- $endDate = (time.AsTime .Params.endDate $timezone) | time.In $timezone -}}
+{{- end -}}
+{{- with dict `` `
+  ` "description"  (dict "text" .Plain "lang" $lang) `` `
+  ` "summary"      (dict "text" .Title "lang" $lang) `` `
+  ` "eventStart"   (dict "dateTime" ((time.AsTime .Params.startDate $timezone) | time.In $timezone) "timeZoneID" $timezone) `` `
+  ` "eventEnd"     (cond (ne $endDate "") (dict "dateTime" $endDate "timeZoneID" $timezone) nil) `` `
+  ` "location"     (dict "text" (or .Params.where .Params.location) "lang" $lang) `` `
+  ` "url"          (or .Params.externalUrl ((.OutputFormats.Get "HTML").Permalink)) `` `
+  ` "contact"      (cond (and .Params.orga .Params.orgaEmail) (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" $lang) nil) `` `
+  ` "color"        "7C3AED" `` `
+  ` "status"       (cond (.Params.cancelled | default false) "CANCELLED" "CONFIRMED") `` `
+  ` "uid"          .File.UniqueID `` `
+  ` "timestamp"    .Date `` `
+  ` "created"      .Date `` `
+  ` "lastmod"      .Lastmod `` `
+  ` "recurrenceRule" .Params.recurrenceRule `` `
+  ` "_rruleTimezone" $timezone `` `
+  ` -}}{{ partial "ical/comp_event.ics" . }}
+{{ end -}}

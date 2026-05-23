@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for submitting an event to the PowerShell.org community calendar!
-        Please fill out the details below.
+        Please fill out the details below. A maintainer will review and approve it.
 
   - type: input
     id: event_name
@@ -29,15 +29,17 @@ body:
     id: start_date
     attributes:
       label: Start Date
-      placeholder: "YYYY-MM-DD"
+      description: "Format: YYYY-MM-DD"
+      placeholder: "2026-10-15"
     validations:
       required: true
 
   - type: input
     id: end_date
     attributes:
-      label: End Date (leave blank for single-day events)
-      placeholder: "YYYY-MM-DD"
+      label: End Date
+      description: "Format: YYYY-MM-DD — leave blank for single-day events"
+      placeholder: "2026-10-17"
     validations:
       required: false
 
@@ -45,7 +47,8 @@ body:
     id: location
     attributes:
       label: Location
-      placeholder: "City, State/Country or 'Virtual'"
+      description: "City, State/Country — use 'Virtual' for online-only events"
+      placeholder: "Austin, TX"
     validations:
       required: true
 
@@ -64,14 +67,7 @@ body:
     id: description
     attributes:
       label: Event Description
-      placeholder: "Brief description of the event (1-2 sentences)."
+      description: "1–2 sentences shown on the calendar page."
+      placeholder: "Brief description of the event."
     validations:
       required: true
-
-  - type: textarea
-    id: additional_info
-    attributes:
-      label: Additional Information
-      placeholder: "Anything else we should know? (e.g., CFP deadlines, discount codes, etc.)"
-    validations:
-      required: false

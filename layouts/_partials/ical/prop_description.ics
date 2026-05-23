@@ -1,0 +1,5 @@
+{{- /* Override: keeps trailing newline so LOCATION starts on a new line */ -}}
+DESCRIPTION
+{{- with .lang -}};{{- partial "ical/param_language.ics" . -}}{{- end -}}
+{{- with .alt -}};{{- partial "ical/param_altrep.ics" . -}}{{- end -}}
+:{{- partial "ical/dt_text.ics" .text }}

@@ -9,6 +9,13 @@
             </div>
             <h1 class="text-4xl lg:text-5xl font-bold mb-2">{{ .Title }}</h1>
             <p class="text-xl opacity-90 max-w-2xl mx-auto">{{ .Params.description }}</p>
+            {{ with .OutputFormats.Get "Calendar" }}
+            <div class="mt-6">
+                <a href="{{ .Permalink }}" class="inline-flex items-center bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-200">
+                    <i class="fas fa-calendar-plus mr-2"></i>Subscribe (.ics)
+                </a>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>
@@ -17,15 +24,15 @@
 <section class="py-10 bg-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {{/* Sort events by start_date and split into upcoming vs past */}}
+        {{/* Sort events by startDate and split into upcoming vs past */}}
         {{ $now := now.Format "2006-01-02" }}
-        {{ $allEvents := sort .Site.Data.events "start_date" }}
+        {{ $allEvents := sort .RegularPages "Params.startDate" }}
         {{ $upcoming := slice }}
         {{ $past := slice }}
         {{ range $allEvents }}
-            {{ $compare := .start_date }}
-            {{ if .end_date }}
-                {{ $compare = .end_date }}
+            {{ $compare := .Params.startDate }}
+            {{ if .Params.endDate }}
+                {{ $compare = .Params.endDate }}
             {{ end }}
             {{ if ge $compare $now }}
                 {{ $upcoming = $upcoming | append . }}
@@ -45,36 +52,36 @@
         {{ if $upcoming }}
         <div class="space-y-5 mb-10">
             {{ range $upcoming }}
-            <a href="{{ .url }}" target="_blank" rel="noopener"
+            <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener"
                class="block bg-gray-50 rounded-xl border border-gray-200 hover:border-purple-400 hover:shadow-md transition-all duration-200 overflow-hidden">
                 <div class="md:flex">
                     <!-- Date Block -->
                     <div class="md:w-36 bg-purple-600 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0">
-                        {{ $startDate := time .start_date }}
+                        {{ $startDate := time .Params.startDate }}
                         <span class="text-sm font-medium uppercase tracking-wide opacity-90">{{ $startDate.Format "Jan" }}</span>
                         <span class="text-4xl font-bold leading-none my-1">{{ $startDate.Format "2" }}</span>
                         <span class="text-sm opacity-90">{{ $startDate.Format "2006" }}</span>
                     </div>
                     <!-- Event Details -->
                     <div class="p-6 flex-1">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">{{ .name }}</h3>
-                        <p class="text-gray-600 mb-3">{{ .description }}</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">{{ .Title }}</h3>
+                        <p class="text-gray-600 mb-3">{{ .Summary }}</p>
                         <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
                             <div class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-purple-600 mr-2"></i>
-                                {{ .location }}
+                                {{ .Params.where }}
                             </div>
                             <div class="flex items-center">
                                 <i class="fas fa-calendar text-purple-600 mr-2"></i>
-                                {{ $startDate := time .start_date }}
-                                {{ if .end_date }}
-                                    {{ $endDate := time .end_date }}
+                                {{ $startDate := time .Params.startDate }}
+                                {{ if .Params.endDate }}
+                                    {{ $endDate := time .Params.endDate }}
                                     {{ $startDate.Format "Jan 2" }}&ndash;{{ $endDate.Format "Jan 2, 2006" }}
                                 {{ else }}
                                     {{ $startDate.Format "January 2, 2006" }}
                                 {{ end }}
                             </div>
-                            {{ if .virtual }}
+                            {{ if .Params.virtual }}
                             <div class="flex items-center">
                                 <i class="fas fa-video text-purple-600 mr-2"></i>
                                 Virtual
@@ -107,21 +114,21 @@
             <h2 class="text-3xl font-bold text-gray-900">Past Events</h2>
         </div>
         <div class="space-y-4 mb-10">
-            {{ range (sort $past "start_date" "desc") }}
+            {{ range (sort $past "Params.startDate" "desc") }}
             <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 opacity-75">
                 <div class="flex items-center justify-between">
                     <div>
-                        <h3 class="font-semibold text-gray-700">{{ .name }}</h3>
+                        <h3 class="font-semibold text-gray-700">{{ .Title }}</h3>
                         <div class="flex flex-wrap items-center gap-3 text-sm text-gray-500 mt-1">
-                            <span><i class="fas fa-map-marker-alt mr-1"></i>{{ .location }}</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i>{{ .Params.where }}</span>
                             <span><i class="fas fa-calendar mr-1"></i>
-                                {{ $startDate := time .start_date }}
+                                {{ $startDate := time .Params.startDate }}
                                 {{ $startDate.Format "January 2, 2006" }}
                             </span>
                         </div>
                     </div>
-                    {{ if .url }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener" class="text-purple-600 hover:text-purple-700 text-sm font-medium">
+                    {{ if .Params.externalUrl }}
+                    <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" class="text-purple-600 hover:text-purple-700 text-sm font-medium">
                         <i class="fas fa-external-link-alt"></i>
                     </a>
                     {{ end }}
