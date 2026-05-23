@@ -13,10 +13,10 @@ Here's a quick one for ya. Perfect kitchen timer. Who doesn't have a laptop with
 
 
 start-sleep (60*9); write-host ("`a"*4)</pre>
-<p>Start-Sleep works in seconds, so you see where I've done some quick<br />
-math to get nine minutes. Not sure if the ()'s were required, but they<br />
-don't hurt. I didn't know the precedence of parameter parsing versus<br />
-multiplication off the top of my head. Next is Write-Host with some<br />
+Start-Sleep works in seconds, so you see where I've done some quick
+math to get nine minutes. Not sure if the ()'s were required, but they
+don't hurt. I didn't know the precedence of parameter parsing versus
+multiplication off the top of my head. Next is Write-Host with some
 more multiplication. This one uses "`a" which is the special character
 
 which emits a beep (old schoolers know this as the ASCII code for
