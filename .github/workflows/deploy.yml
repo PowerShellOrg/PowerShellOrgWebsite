@@ -1,18 +1,15 @@
-name: Build and Deploy Hugo Site
+name: Deploy Hugo Site
 
 on:
   push:
     branches:
       - main
-  pull_request:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.155.1
@@ -21,27 +18,27 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-          
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          
+
       - name: Install Node dependencies
         run: |
           if [ -f package.json ]; then
             npm install
           fi
-          
+
       - name: Create data directory
         run: mkdir -p data
-          
+
       - name: Update community stats
         run: |
           if [ -f .github/scripts/fetch-discourse-activity.js ]; then
@@ -116,49 +113,42 @@ jobs:
           }
           EOF
           fi
-          
+
       - name: Verify community stats file exists
         run: |
           if [ -f data/community_stats.json ]; then
-            echo "✅ Community stats file created successfully"
-            echo "File contents:"
+            echo "Community stats file created successfully"
             cat data/community_stats.json
           else
-            echo "❌ Community stats file not found"
+            echo "Community stats file not found"
             exit 1
           fi
-          
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          # Clean docs directory
           rm -rf docs
-          
-          # Build Hugo site to docs directory
           hugo \
             --gc \
             --minify \
-            --destination docs \
-            
+            --destination docs
+
       - name: Add .nojekyll file
         run: touch docs/.nojekyll
-        
+
       - name: Commit and push to main
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          # Add files that exist
+
           git add docs/ || echo "No docs directory to add"
-          
-          # Only add data files if they exist
+
           if [ -f data/community_stats.json ]; then
             git add data/community_stats.json
           fi
-          
-          # Only commit if there are changes
+
           if ! git diff --staged --quiet; then
             git commit -m "Deploy Hugo site to docs/ [skip ci]"
             git push

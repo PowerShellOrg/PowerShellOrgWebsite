@@ -1,0 +1,79 @@
+name: Build Hugo Site
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.155.1
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Node dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Update community stats
+        run: |
+          if [ -f .github/scripts/fetch-discourse-activity.js ]; then
+            echo "Running Discourse activity script..."
+            node .github/scripts/fetch-discourse-activity.js || true
+          fi
+
+          if [ ! -f data/community_stats.json ]; then
+            echo "Creating fallback community stats..."
+            cat > data/community_stats.json << 'EOF'
+          {
+            "activities": [
+              {
+                "message": "PowerShell community thriving",
+                "time": "Ongoing",
+                "type": "community",
+                "color": "bg-blue-500"
+              }
+            ],
+            "stats": {
+              "total_topics": 15000,
+              "total_posts": 80000,
+              "active_users": 12000,
+              "topics_this_week": 40
+            },
+            "last_updated": "2024-01-01T00:00:00.000Z",
+            "fallback": true
+          }
+          EOF
+          fi
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --destination docs
