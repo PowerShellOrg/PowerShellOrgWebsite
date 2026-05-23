@@ -1,8 +1,31 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Episode 57 – Carter Shanklin and the VI Toolkit - PowerShell.org - Welcome Automaters!</title>
-<meta name=description content="A Podcast about Windows PowerShell.
-Listen: In This Episode Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about the …"><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><meta property="og:type" content="article"><meta property="og:url" content="https://powershell.org/podcast/2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit/"><meta property="og:title" content="Episode 57 – Carter Shanklin and the VI Toolkit"><meta property="og:description" content="A Podcast about Windows PowerShell.
-Listen: In This Episode Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about the …"><meta property="og:site_name" content="PowerShell.org - Welcome Automaters!"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://powershell.org/podcast/2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit/"><meta property="twitter:title" content="Episode 57 – Carter Shanklin and the VI Toolkit"><meta property="twitter:description" content="A Podcast about Windows PowerShell.
-Listen: In This Episode Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about the …"><link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css rel=stylesheet><style>.prose{color:#374151;line-height:1.75}.prose h2{font-size:1.5em;font-weight:700;color:#111827;margin-top:2em;margin-bottom:1em;line-height:1.33;border-bottom:1px solid #e5e7eb;padding-bottom:.3em}.prose h3{font-size:1.25em;font-weight:600;color:#111827;margin-top:1.6em;margin-bottom:.6em;line-height:1.6}.prose h4{font-size:1em;font-weight:600;color:#111827;margin-top:1.5em;margin-bottom:.5em}.prose p{margin-top:1.25em;margin-bottom:1.25em}.prose ul{list-style-type:disc;padding-left:1.625em;margin-top:1.25em;margin-bottom:1.25em}.prose ol{list-style-type:decimal;padding-left:1.625em;margin-top:1.25em;margin-bottom:1.25em}.prose li{margin-top:.5em;margin-bottom:.5em}.prose a{color:#2563eb;text-decoration:underline}.prose a:hover{color:#1d4ed8}.prose strong{font-weight:700;color:#111827}.prose em{font-style:italic}.prose blockquote{border-left:4px solid #e5e7eb;padding-left:1em;color:#6b7280;font-style:italic;margin-top:1.6em;margin-bottom:1.6em}.prose code{color:#7c3aed;background-color:#f5f3ff;padding:.125em .25em;border-radius:.25rem;font-size:.875em;font-weight:500}.prose pre{background-color:#111827;color:#e5e7eb;padding:1em 1.5em;border-radius:.5rem;overflow-x:auto;margin-top:1.75em;margin-bottom:1.75em}.prose pre code{background:0 0;color:inherit;padding:0;font-size:.875em;font-weight:400}.prose hr{border-color:#e5e7eb;margin-top:3em;margin-bottom:3em}.prose table{width:100%;border-collapse:collapse;margin-top:2em;margin-bottom:2em}.prose th{font-weight:600;border-bottom:2px solid #d1d5db;padding:.5em .75em;text-align:left}.prose td{border-bottom:1px solid #e5e7eb;padding:.5em .75em}.prose img{margin-top:2em;margin-bottom:2em;border-radius:.5rem}.prose>:first-child{margin-top:0}.powershell-blue{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%)}.powershell-dark{background:#1e1e1e}.code-terminal{background:#0c0c0c;border:1px solid #323130;font-family:cascadia code,consolas,monospace}.hero-pattern{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%);position:relative}.hero-pattern::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 25% 25%,rgba(255,255,255,3%) 0%,transparent 40%),radial-gradient(circle at 75% 75%,rgba(255,255,255,2%) 0%,transparent 40%);pointer-events:none}.podcast-card:hover{transform:translateY(-4px)}.summit-gradient{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}html{scroll-behavior:smooth}.focus\:ring-powershell:focus{--tw-ring-color:#0078D4;--tw-ring-opacity:0.5}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn .6s ease-out}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap';.gotham-black{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:900;letter-spacing:-.02em}.gotham-bold{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;letter-spacing:-.01em}.gotham-medium{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500}.conference-gradient{background:linear-gradient(135deg,#0082c6 0%,#00aeef 50%,#2b2d78 100%)}@keyframes float{0%,100%{transform:translateY(0)rotate(0)}50%{transform:translateY(-20px)rotate(180deg)}}.float{animation:float 20s ease-in-out infinite}</style></head><body class="bg-gray-50 text-gray-900"><header class="bg-white shadow-lg sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center py-4"><div class="flex items-center"><a href=https://powershell.org class="flex items-center space-x-3"><img src=/images/logo.png alt="PowerShell.org Logo" class="w-10 h-10"><div><h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1><p class="text-sm text-gray-600">Community Hub</p></div></a></div><nav class="hidden md:flex space-x-8 items-center"><a href=/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Episode 57 – Carter Shanklin and the VI Toolkit - PowerShell.org - Welcome Automaters!</title><meta name=description content="A Podcast about Windows PowerShell.
+Listen: 
+
+In This Episode
+
+
+
+
+
+Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about …"><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><meta property="og:type" content="article"><meta property="og:url" content="https://powershell.org/podcast/2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit/"><meta property="og:title" content="Episode 57 – Carter Shanklin and the VI Toolkit"><meta property="og:description" content="A Podcast about Windows PowerShell.
+Listen: 
+
+In This Episode
+
+
+
+
+
+Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about …"><meta property="og:site_name" content="PowerShell.org - Welcome Automaters!"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://powershell.org/podcast/2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit/"><meta property="twitter:title" content="Episode 57 – Carter Shanklin and the VI Toolkit"><meta property="twitter:description" content="A Podcast about Windows PowerShell.
+Listen: 
+
+In This Episode
+
+
+
+
+
+Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about …"><link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css rel=stylesheet><style>.prose{color:#374151;line-height:1.75}.prose h2{font-size:1.5em;font-weight:700;color:#111827;margin-top:2em;margin-bottom:1em;line-height:1.33;border-bottom:1px solid #e5e7eb;padding-bottom:.3em}.prose h3{font-size:1.25em;font-weight:600;color:#111827;margin-top:1.6em;margin-bottom:.6em;line-height:1.6}.prose h4{font-size:1em;font-weight:600;color:#111827;margin-top:1.5em;margin-bottom:.5em}.prose p{margin-top:1.25em;margin-bottom:1.25em}.prose ul{list-style-type:disc;padding-left:1.625em;margin-top:1.25em;margin-bottom:1.25em}.prose ol{list-style-type:decimal;padding-left:1.625em;margin-top:1.25em;margin-bottom:1.25em}.prose li{margin-top:.5em;margin-bottom:.5em}.prose a{color:#2563eb;text-decoration:underline}.prose a:hover{color:#1d4ed8}.prose strong{font-weight:700;color:#111827}.prose em{font-style:italic}.prose blockquote{border-left:4px solid #e5e7eb;padding-left:1em;color:#6b7280;font-style:italic;margin-top:1.6em;margin-bottom:1.6em}.prose code{color:#7c3aed;background-color:#f5f3ff;padding:.125em .25em;border-radius:.25rem;font-size:.875em;font-weight:500}.prose pre{background-color:#111827;color:#e5e7eb;padding:1em 1.5em;border-radius:.5rem;overflow-x:auto;margin-top:1.75em;margin-bottom:1.75em}.prose pre code{background:0 0;color:inherit;padding:0;font-size:.875em;font-weight:400}.prose hr{border-color:#e5e7eb;margin-top:3em;margin-bottom:3em}.prose table{width:100%;border-collapse:collapse;margin-top:2em;margin-bottom:2em}.prose th{font-weight:600;border-bottom:2px solid #d1d5db;padding:.5em .75em;text-align:left}.prose td{border-bottom:1px solid #e5e7eb;padding:.5em .75em}.prose img{margin-top:2em;margin-bottom:2em;border-radius:.5rem}.prose>:first-child{margin-top:0}.powershell-blue{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%)}.powershell-dark{background:#1e1e1e}.code-terminal{background:#0c0c0c;border:1px solid #323130;font-family:cascadia code,consolas,monospace}.hero-pattern{background:linear-gradient(135deg,#0078D4 0%,#00BCF2 100%);position:relative}.hero-pattern::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 25% 25%,rgba(255,255,255,3%) 0%,transparent 40%),radial-gradient(circle at 75% 75%,rgba(255,255,255,2%) 0%,transparent 40%);pointer-events:none}.podcast-card:hover{transform:translateY(-4px)}.summit-gradient{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}html{scroll-behavior:smooth}.focus\:ring-powershell:focus{--tw-ring-color:#0078D4;--tw-ring-opacity:0.5}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn .6s ease-out}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap';.gotham-black{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:900;letter-spacing:-.02em}.gotham-bold{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:700;letter-spacing:-.01em}.gotham-medium{font-family:inter,gotham,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;font-weight:500}.conference-gradient{background:linear-gradient(135deg,#0082c6 0%,#00aeef 50%,#2b2d78 100%)}@keyframes float{0%,100%{transform:translateY(0)rotate(0)}50%{transform:translateY(-20px)rotate(180deg)}}.float{animation:float 20s ease-in-out infinite}</style></head><body class="bg-gray-50 text-gray-900"><header class="bg-white shadow-lg sticky top-0 z-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center py-4"><div class="flex items-center"><a href=https://powershell.org/ class="flex items-center space-x-3"><img src=/images/logo.png alt="PowerShell.org Logo" class="w-10 h-10"><div><h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1><p class="text-sm text-gray-600">Community Hub</p></div></a></div><nav class="hidden md:flex space-x-8 items-center"><a href=/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home
 </a><a href=/podcast/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Podcast
 </a><a href=/summit/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Summit
 </a><a href=/articles/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Articles</a><div class=relative x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false"><a href=/community/ class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 inline-flex items-center">Community
@@ -29,14 +52,14 @@ Listen: In This Episode Tonight on the PowerScripting Podcast Carter Shanklin fr
 <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpowershell.org%2fpodcast%2f2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit%2f&text=Episode%2057%20%e2%80%93%20Carter%20Shanklin%20and%20the%20VI%20Toolkit" target=_blank rel=noopener class="text-gray-500 hover:text-blue-400 transition-colors duration-200"><i class="fab fa-twitter"></i>
 </a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpowershell.org%2fpodcast%2f2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit%2f" target=_blank rel=noopener class="text-gray-500 hover:text-blue-600 transition-colors duration-200"><i class="fab fa-linkedin"></i>
 </a><button onclick='navigator.clipboard.writeText("https://powershell.org/podcast/2009-02-01-episode-57-carter-shanklin-and-the-vi-toolkit/")' class="text-gray-500 hover:text-gray-700 transition-colors duration-200" title="Copy link">
-<i class="fas fa-link"></i></button></div></div></header><div class="mb-8 p-6 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl"><div class="flex items-center mb-4"><div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"><i class="fas fa-podcast text-white"></i></div><div><h3 class="font-semibold text-gray-900">Listen to this Episode</h3><p class="text-gray-600 text-sm">Audio available</p></div></div><audio controls class=w-full><source src=http://media.libsyn.com/media/powerscripting/PSPodcast-057.mp3 type=audio/mpeg>Your browser does not support the audio element.</audio></div><div class=prose style=max-width:none;font-size:1.125rem><p><strong>A Podcast about Windows PowerShell.</strong><br>Listen: <a href=http://media.libsyn.com/media/powerscripting/PSPodcast-057.mp3><strong><img src=http://powerscripting.libsyn.com/img/podcastIcon.gif alt></strong></a></p><h2 id=heading></h2><pre><code>In This Episode
+<i class="fas fa-link"></i></button></div></div></header><div class="mb-8 p-6 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl"><div class="flex items-center mb-4"><div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"><i class="fas fa-podcast text-white"></i></div><div><h3 class="font-semibold text-gray-900">Listen to this Episode</h3><p class="text-gray-600 text-sm">Audio available</p></div></div><audio controls class=w-full><source src=http://media.libsyn.com/media/powerscripting/PSPodcast-057.mp3 type=audio/mpeg>Your browser does not support the audio element.</audio></div><div class=prose style=max-width:none;font-size:1.125rem><p><strong>A Podcast about Windows PowerShell.</strong><br>Listen: <a href=http://media.libsyn.com/media/powerscripting/PSPodcast-057.mp3><strong><img src=http://powerscripting.libsyn.com/img/podcastIcon.gif alt></strong></a></p><h2></h2><pre><code>In This Episode
 
 
 
 
 
 Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to talk about the new version of the VI toolkit for PowerShell.
-</code></pre><h2 id=heading-1></h2><pre><code>News
+</code></pre><h2></h2><pre><code>News
 
 
 
@@ -75,7 +98,7 @@ Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to ta
         [There's some great news](http://developer.db4o.com/blogs/product_news/archive/2008/12/30/storing-powershell-objects-into-a-db4o-database.aspx)
 </code></pre><p>from the DB4o team with regards to PowerShell support.</p><pre><code>      - 
         The Micrsofot Clustering &amp; HA teamÂ [recently announced](http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx) their upcoming support for PowerShell in 2008 Server R2. Â Over 30 new cmdlets!
-</code></pre><h2 id=heading-2></h2><pre><code>      Interview
+</code></pre><h2></h2><pre><code>      Interview
 
 
 
@@ -110,10 +133,10 @@ Tonight on the PowerScripting Podcast Carter Shanklin from VMWare joins us to ta
 
 
               **
-</code></pre><h4 id=heading-3></h4><p>*New stuff:
+</code></pre><h4></h4><p>*New stuff:
 *</p><pre><code>                  - 
 </code></pre><p><em>buncha new cmdlets</em></p><pre><code>                  - 
-</code></pre><p><em>invoke-vmscript, remoting into VMs</em></p><h4 id=heading-4></h4><p>*Questions:
+</code></pre><p><em>invoke-vmscript, remoting into VMs</em></p><h4></h4><p>*Questions:
 *</p><p><em>meson : ## So what about a XenServer PowerShell book? 😉
 rfoust : ## what is the best way to get started with the vi toolkit - is there a &ldquo;getting started&rdquo; guide?</em>
 jeffculb-1 : ## Why aren&rsquo;t the release notes for the vitoolkit accessible from the download page</p><p><em>palen : ## Is 1.5 developed with PoSh v2 in mind, or is it still largely targetted at v1?</em></p><p><em>rfoust : ## are there any limitations in this version or is all of the api stuff available through cmdlets?</em></p><p><em>bsonposh : ## make vmotion easier</em></p><p><em>jon_medd : ## can Carter tell us about the new command that lets you run powershell code into vm guests?</em></p><p>*rfoust : ## does vmware provide an opsmgr mp? if not, why?
@@ -135,7 +158,7 @@ jeffculb-1 : ## Why aren&rsquo;t the release notes for the vitoolkit accessible 
 </code></pre><p><em>jeffculb-1 : ## is version specific info referenced in the help for the commandlets</em></p><p>*glnsize : ## what does the release cycle for the toolkit look like only major revs, or will you release as you go?
 *</p><p>*aleksandar : ## could carter say something about his experience with running ThinApped PowerShell?
 *</p><p><em>Pasdargent : ## Are there plans to monetize the VI Toolkit or are you determined for this to be free indefinitely?</em></p><pre><code>                  **
-</code></pre><h2 id=heading-5></h2><pre><code>                      Resources
+</code></pre><h2></h2><pre><code>                      Resources
 
 
 
@@ -157,7 +180,7 @@ jeffculb-1 : ## Why aren&rsquo;t the release notes for the vitoolkit accessible 
 *</p><pre><code>                          - 
 </code></pre><p><em><a href=http://poshcode.org/829>PoshCode #829 New-Task</a>, &ldquo;Allows for the creation of tasks in Microsoft Outlook from Windows PowerShell. The majority of task options available can be configured with the function.&rdquo;</em></p><pre><code>                          - 
 </code></pre><p><em><a href="http://www.youtube.com/view_play_list?p=807CCBBC67873456">Cool PowerGUI video tutorials</a> latest video is onÂ <a href="http://www.youtube.com/watch?v=jY2pZYxad_0&amp;feature=PlayList&amp;p=807CCBBC67873456&amp;index=5">how to use debugging</a>.</em></p><pre><code>                      **
-</code></pre><h2 id=heading-6></h2><pre><code>                        Tips
+</code></pre><h2></h2><pre><code>                        Tips
 
 
 
@@ -169,7 +192,7 @@ jeffculb-1 : ## Why aren&rsquo;t the release notes for the vitoolkit accessible 
 
                         - 
                           [How to open a remote powershell tab in ISE](http://halr9000.com/article/690) (V2 CTP3)
-</code></pre><h2 id=heading-7></h2><pre><code>                        One-Liner
+</code></pre><h2></h2><pre><code>                        One-Liner
 
 
 
@@ -178,7 +201,7 @@ jeffculb-1 : ## Why aren&rsquo;t the release notes for the vitoolkit accessible 
 
 
                   &gt; 
-</code></pre><blockquote></blockquote><p>Write-Host -ForegroundColor Yellow &ldquo;Modules loaded: $(get-module)&rdquo;</p><blockquote></blockquote><h2 id=heading-8></h2><pre><code>                      Giveaway
+</code></pre><blockquote></blockquote><p>Write-Host -ForegroundColor Yellow &ldquo;Modules loaded: $(get-module)&rdquo;</p><blockquote></blockquote><h2></h2><pre><code>                      Giveaway
 
 
 

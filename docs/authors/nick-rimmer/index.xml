@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nick Rimmer on PowerShell.org - Welcome Automaters!</title><link>https://powershell.org/authors/nick-rimmer/</link><description>Recent content in Nick Rimmer on PowerShell.org - Welcome Automaters!</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Jun 2017 13:30:58 +0000</lastBuildDate><atom:link href="https://powershell.org/authors/nick-rimmer/index.xml" rel="self" type="application/rss+xml"/><item><title>Taking Powershell to the next level</title><link>https://powershell.org/articles/2017-06-22-taking-powershell-to-the-next-level/</link><pubDate>Thu, 22 Jun 2017 13:30:58 +0000</pubDate><guid>https://powershell.org/articles/2017-06-22-taking-powershell-to-the-next-level/</guid><description>I recently decided to &amp;lsquo;up my game&amp;rsquo; with powershell and go beyond the simple scripts I&amp;rsquo;ve rolled out in the past.
-So I simply want to share with you, the path I took to enhance my skills (inc. alot of practice)
-Books:
-Learn Powershell In A Month of Lunches
-Learn Powershell Toolmaking in a month of Lunches
-Windows Powershell In Action 3rd Edition
-Online:
-Advanced Tools And Scripting with Powershell 3.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nick Rimmer on PowerShell.org - Welcome Automaters!</title><link>https://powershell.org/authors/nick-rimmer/</link><description>Recent content in Nick Rimmer on PowerShell.org - Welcome Automaters!</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Jun 2017 13:30:58 +0000</lastBuildDate><atom:link href="https://powershell.org/authors/nick-rimmer/index.xml" rel="self" type="application/rss+xml"/><item><title>Taking Powershell to the next level</title><link>https://powershell.org/articles/2017-06-22-taking-powershell-to-the-next-level/</link><pubDate>Thu, 22 Jun 2017 13:30:58 +0000</pubDate><guid>https://powershell.org/articles/2017-06-22-taking-powershell-to-the-next-level/</guid><description>&lt;p&gt;I recently decided to &amp;lsquo;up my game&amp;rsquo; with powershell and go beyond the simple scripts I&amp;rsquo;ve rolled out in the past.&lt;br&gt;
+So I simply want to share with you, the path I took to enhance my skills (inc. alot of practice)&lt;br&gt;
+&lt;strong&gt;Books:&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-second-edition"&gt;Learn Powershell In A Month of Lunches&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.manning.com/books/learn-powershell-toolmaking-in-a-month-of-lunches"&gt;Learn Powershell Toolmaking in a month of Lunches&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.manning.com/books/windows-powershell-in-action-third-edition"&gt;Windows Powershell In Action 3rd Edition&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Online:&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://mva.microsoft.com/en-US/training-courses/advanced-tools-scripting-with-powershell-30-jump-start-8277?l=WOWaGUWy_8604984382"&gt;Advanced Tools And Scripting with Powershell 3.0 Jump Start&lt;/a&gt;&lt;br&gt;
+&lt;a href="http://channel9.msdn.com/events/Ignite/2015/BRK4452"&gt;Writing Powershell Powershell DSC Resources And Configuration&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.powershellgallery.com/packages/nDemos_BRK4452/1.0"&gt;Demo Code&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
