@@ -1,5 +1,4 @@
 [build]
-  base = "/"
   command = "hugo --minify"
   publish = "public"
 
