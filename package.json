@@ -9,7 +9,7 @@
     "preview": "hugo server --environment production"
   },
   "devDependencies": {
-    "hugo-extended": "^0.121.0",
+    "hugo-extended": "^0.155.1",
     "node-fetch": "^3.3.2"
   }
 }
