@@ -1,4 +1,4 @@
-{{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnidf "debug-partial-used" "Partial used: %s" templates.Current.Name }}{{ end -}}
+{{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnf "Partial used: %s" templates.Current.Name }}{{ end -}}
 {{/* Override of component header.ics — uses .Site.Language.Lang instead of .Locale (requires Hugo 0.159+) */}}
 {{ with dict `` `
   ` "name"         (dict "text" "PowerShell.org Community Calendar" "lang" .Site.Language.Lang) `` `
