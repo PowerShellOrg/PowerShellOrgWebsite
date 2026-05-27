@@ -1,5 +1,5 @@
 {{- /* Override of component event.ics — uses .Site.Language.Lang instead of .Locale (requires Hugo 0.159+) */ -}}
-{{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnidf "debug-partial-used" "Partial used: %s" templates.Current.Name }}{{ end -}}
+{{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnf "Partial used: %s" templates.Current.Name }}{{ end -}}
 {{- $timezone := partial "ical/get_timezone.ics" . -}}
 {{- $lang := .Site.Language.Lang -}}
 {{- $endDate := "" -}}
