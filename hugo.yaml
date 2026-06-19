@@ -55,18 +55,34 @@ menu:
     - name: "Learning"
       url: "/learning/"
       weight: 10
+      params:
+        icon: "fas fa-graduation-cap"
+        description: "Guides, tutorials, and resources to grow your PowerShell skills."
     - name: "Calendar"
       url: "/calendar/"
       weight: 20
+      params:
+        icon: "fas fa-calendar-days"
+        description: "Upcoming user group meetings, webinars, and community events."
     - name: "Authors"
       url: "/authors/"
       weight: 30
+      params:
+        icon: "fas fa-pen-nib"
+        description: "Meet the community members writing articles and sharing knowledge."
     - name: "Forums"
       url: "https://forums.powershell.org"
       weight: 40
+      params:
+        icon: "fas fa-comments"
+        description: "Ask questions and discuss PowerShell with the wider community."
+        external: true
     - name: "Discord Archive"
       url: "/discord/"
       weight: 50
+      params:
+        icon: "fab fa-discord"
+        description: "Searchable archive of conversations from our Discord server."
 
 # Site parameters
 params:
