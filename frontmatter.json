@@ -1,0 +1,286 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.defaultContentType": "page",
+  "frontMatter.content.dateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+      "id": "authors",
+      "options": []
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "article",
+      "pageBundle": false,
+      "previewPath": "/articles",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string",
+          "description": "1-2 sentence summary used for SEO, social cards, and article list excerpts.",
+          "required": true
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "description": "Display name of the primary author.",
+          "required": true
+        },
+        {
+          "title": "Authors",
+          "name": "authors",
+          "type": "list",
+          "taxonomyId": "authors",
+          "description": "One or more authors. Drives the author taxonomy pages."
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Aliases",
+          "name": "aliases",
+          "type": "list",
+          "description": "Legacy URLs that should redirect to this article."
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        }
+      ]
+    },
+    {
+      "name": "podcast",
+      "pageBundle": false,
+      "previewPath": "/podcast",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string",
+          "description": "1-2 sentence summary of the episode."
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Authors",
+          "name": "authors",
+          "type": "list",
+          "taxonomyId": "authors"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Podcast URL",
+          "name": "podcast_url",
+          "type": "string",
+          "description": "Direct URL to the episode audio file (mp3)."
+        },
+        {
+          "title": "Aliases",
+          "name": "aliases",
+          "type": "list"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        }
+      ]
+    },
+    {
+      "name": "event",
+      "pageBundle": false,
+      "previewPath": "/calendar",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Start date",
+          "name": "startDate",
+          "type": "datetime",
+          "isPublishDate": true,
+          "required": true
+        },
+        {
+          "title": "End date",
+          "name": "endDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Where",
+          "name": "where",
+          "type": "string",
+          "description": "Location, e.g. \"Prague, Czech Republic\" or \"Online\"."
+        },
+        {
+          "title": "External URL",
+          "name": "externalUrl",
+          "type": "string",
+          "description": "Link to the event website or registration page."
+        },
+        {
+          "title": "Virtual",
+          "name": "virtual",
+          "type": "boolean",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "page",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "choice",
+          "description": "Theme layout used to render this section page.",
+          "choices": [
+            "staticpage",
+            "learning",
+            "summit",
+            "plaster",
+            "authors",
+            "calendar"
+          ]
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        }
+      ]
+    },
+    {
+      "name": "author",
+      "pageBundle": false,
+      "previewPath": "/authors",
+      "fields": [
+        {
+          "title": "Name",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Bio",
+          "name": "description",
+          "type": "string",
+          "description": "Short author biography."
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string",
+          "default": "authors"
+        },
+        {
+          "title": "Website",
+          "name": "website",
+          "type": "string"
+        },
+        {
+          "title": "Twitter / X",
+          "name": "twitter",
+          "type": "string"
+        },
+        {
+          "title": "GitHub",
+          "name": "github",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Articles",
+      "path": "[[workspace]]/content/articles",
+      "contentTypes": ["article"],
+      "filePrefix": "{{year}}-{{month}}-{{day}}"
+    },
+    {
+      "title": "Podcast",
+      "path": "[[workspace]]/content/podcast",
+      "contentTypes": ["podcast"],
+      "filePrefix": "{{year}}-{{month}}-{{day}}"
+    },
+    {
+      "title": "Events",
+      "path": "[[workspace]]/content/calendar",
+      "contentTypes": ["event"]
+    },
+    {
+      "title": "Authors",
+      "path": "[[workspace]]/content/authors",
+      "contentTypes": ["author"]
+    },
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content",
+      "contentTypes": ["page"]
+    }
+  ]
+}

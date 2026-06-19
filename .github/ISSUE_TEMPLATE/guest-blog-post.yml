@@ -36,6 +36,48 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: "A 1-2 sentence summary used for SEO, social cards, and the article list."
+      placeholder: "Learn how to enable and customize PSReadLine predictive IntelliSense for a faster console."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: "Pick the category that best fits your article."
+      options:
+        - "Announcements"
+        - "Books"
+        - "DevOps"
+        - "Events"
+        - "Graph"
+        - "In Case You Missed It"
+        - "News"
+        - "PowerShell Summit"
+        - "PowerShell for Admins"
+        - "PowerShell for Developers"
+        - "Scripting Games"
+        - "Tips and Tricks"
+        - "Tools"
+        - "Training"
+        - "Tutorials"
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags (optional)
+      description: "Comma-separated keywords, e.g. psreadline, console, productivity."
+      placeholder: "psreadline, console, productivity"
+    validations:
+      required: false
+
   - type: textarea
     id: summary
     attributes:
