@@ -1,0 +1,119 @@
+name: Add Guest Article
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add-article:
+    if: |
+      github.event.label.name == 'approved' &&
+      contains(github.event.issue.labels.*.name, 'article')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse issue and create article content file
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, datetime, yaml
+
+          body = os.environ['ISSUE_BODY']
+
+          def field(label):
+              m = re.search(rf'### {re.escape(label)}\s+(.+?)(?=\n###|\Z)', body, re.DOTALL)
+              if not m:
+                  return ''
+              val = m.group(1).strip()
+              return '' if val in ('_No response_', '') else val
+
+          title       = field('Article Title')
+          author      = field('Author Name')
+          description = field('Description')
+          category    = field('Category')
+          tags_raw    = field('Tags (optional)')
+          content     = field('Article Content (Markdown)')
+
+          # The Article Content field is rendered as a ```markdown fenced block — unwrap it.
+          content = re.sub(r'^```[a-zA-Z]*\n', '', content)
+          content = re.sub(r'\n```$', '', content).strip()
+
+          if not title:
+              raise SystemExit('No article title found; aborting.')
+          if not content:
+              # A pitch with no draft — nothing to publish yet.
+              print('No article content provided (pitch only); skipping file creation.')
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+                  out.write('skip=true\n')
+              raise SystemExit(0)
+
+          tags = [t.strip() for t in re.split(r'[,\n]', tags_raw) if t.strip()]
+
+          today = datetime.datetime.now(datetime.timezone.utc)
+          date_str = today.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+
+          slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+          filename = f"{today.strftime('%Y-%m-%d')}-{slug}.md"
+
+          fm = {
+              'title': title,
+              'author': author,
+              'authors': [author] if author else [],
+              'date': date_str,
+              'description': description,
+          }
+          if category:
+              fm['categories'] = [category]
+          if tags:
+              fm['tags'] = tags
+
+          front = yaml.safe_dump(fm, default_flow_style=False, allow_unicode=True, sort_keys=False)
+          document = '---\n' + front + '---\n\n' + content + '\n'
+
+          filepath = f'content/articles/{filename}'
+          os.makedirs('content/articles', exist_ok=True)
+          with open(filepath, 'w', encoding='utf-8') as f:
+              f.write(document)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f'skip=false\n')
+              out.write(f'slug={slug}\n')
+              out.write(f'filepath={filepath}\n')
+              out.write(f'article_title={title}\n')
+
+          print(f'Created {filepath}')
+          PYEOF
+
+      - name: Open PR
+        if: steps.parse.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          FILEPATH: ${{ steps.parse.outputs.filepath }}
+          ARTICLE_TITLE: ${{ steps.parse.outputs.article_title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH="article/issue-${ISSUE_NUMBER}-${SLUG}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "$FILEPATH"
+          git commit -m "Add article: ${ARTICLE_TITLE} (closes #${ISSUE_NUMBER})"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Add article: ${ARTICLE_TITLE}" \
+            --body "Closes #${ISSUE_NUMBER}
+
+          Auto-generated from guest blog post submission. Please review front matter and content before merging." \
+            --base main \
+            --head "$BRANCH"

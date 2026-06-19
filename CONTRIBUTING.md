@@ -27,6 +27,7 @@ If you're not comfortable with Git, you can pitch or submit your article through
    ```yaml
    ---
    title: "Your Article Title"
+   description: "A 1-2 sentence summary used for SEO, social cards, and the article list."
    author: Your Name
    authors:
      - Your Name
@@ -40,6 +41,11 @@ If you're not comfortable with Git, you can pitch or submit your article through
 
    Your article content in Markdown goes here.
    ```
+
+   > Tip: If you have the [Front Matter CMS](https://frontmatter.codes/) extension
+   > installed in VS Code, run **"Create content"** in the `content/articles`
+   > folder — it scaffolds the file name (`YYYY-MM-DD-slug.md`) and all of the
+   > front matter fields above for you.
 
 5. Submit a pull request with a brief description of your article
 
