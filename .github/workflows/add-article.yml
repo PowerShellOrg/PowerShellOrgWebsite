@@ -28,7 +28,12 @@ jobs:
           python3 - <<'PYEOF'
           import os, re, datetime, yaml
 
-          body = os.environ['ISSUE_BODY']
+          # Normalize line endings — issue bodies can contain CRLF.
+          body = os.environ['ISSUE_BODY'].replace('\r\n', '\n').replace('\r', '\n')
+
+          def strip_html(s):
+              # Strip raw HTML from scalar front matter values (matches add-event.yml).
+              return re.sub(r'<[^>]+>', '', s).strip()
 
           def field(label):
               m = re.search(rf'### {re.escape(label)}\s+(.+?)(?=\n###|\Z)', body, re.DOTALL)
@@ -37,16 +42,17 @@ jobs:
               val = m.group(1).strip()
               return '' if val in ('_No response_', '') else val
 
-          title       = field('Article Title')
-          author      = field('Author Name')
-          description = field('Description')
-          category    = field('Category')
-          tags_raw    = field('Tags (optional)')
+          title       = strip_html(field('Article Title'))
+          author      = strip_html(field('Author Name'))
+          description = strip_html(field('Description'))
+          category    = strip_html(field('Category'))
+          tags_raw    = strip_html(field('Tags (optional)'))
           content     = field('Article Content (Markdown)')
 
-          # The Article Content field is rendered as a ```markdown fenced block — unwrap it.
-          content = re.sub(r'^```[a-zA-Z]*\n', '', content)
-          content = re.sub(r'\n```$', '', content).strip()
+          # The Article Content field is rendered as a ```markdown fenced block — unwrap it,
+          # tolerating surrounding whitespace/blank lines around the fences.
+          content = re.sub(r'^\s*```[a-zA-Z]*[ \t]*\n', '', content)
+          content = re.sub(r'\n```[ \t]*\s*$', '', content).strip()
 
           if not title:
               raise SystemExit('No article title found; aborting.')
@@ -63,6 +69,9 @@ jobs:
           date_str = today.strftime('%Y-%m-%dT%H:%M:%S+00:00')
 
           slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+          if not slug:
+              # Title was only punctuation / non-ASCII — fall back to the issue number.
+              slug = f"article-{os.environ['ISSUE_NUMBER']}"
           filename = f"{today.strftime('%Y-%m-%d')}-{slug}.md"
 
           fm = {
