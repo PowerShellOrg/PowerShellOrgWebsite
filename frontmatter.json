@@ -148,13 +148,15 @@
           "title": "Start date",
           "name": "startDate",
           "type": "datetime",
+          "dateFormat": "yyyy-MM-dd",
           "isPublishDate": true,
           "required": true
         },
         {
           "title": "End date",
           "name": "endDate",
-          "type": "datetime"
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd"
         },
         {
           "title": "Where",
