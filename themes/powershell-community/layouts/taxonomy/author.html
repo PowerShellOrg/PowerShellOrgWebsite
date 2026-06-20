@@ -18,7 +18,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {{ $articles := where .Pages "Section" "articles" }}
-        {{ $podcasts := where .Pages "Section" "podcast" }}
+        {{ $podcastAll := where .Pages "Section" "podcast" }}
+        {{ $podcasts := where $podcastAll "Params.podcast_url" "!=" nil }}
 
         <!-- Articles before podcast episodes so authored content appears first -->
         {{ $combined := $articles | append $podcasts }}
