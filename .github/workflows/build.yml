@@ -76,4 +76,4 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --destination docs
+            --destination public

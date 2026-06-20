@@ -4,12 +4,19 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.155.1
@@ -124,34 +131,31 @@ jobs:
             exit 1
           fi
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          rm -rf docs
           hugo \
             --gc \
             --minify \
-            --destination docs
+            --destination public
 
-      - name: Add .nojekyll file
-        run: touch docs/.nojekyll
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
-      - name: Commit and push to main
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-
-          git add docs/ || echo "No docs directory to add"
-
-          if [ -f data/community_stats.json ]; then
-            git add data/community_stats.json
-          fi
-
-          if ! git diff --staged --quiet; then
-            git commit -m "Deploy Hugo site to docs/ [skip ci]"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
