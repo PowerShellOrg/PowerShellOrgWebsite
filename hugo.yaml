@@ -113,6 +113,10 @@ params:
     github: "https://github.com/powershellOrg"
     discord: "https://aka.ms/psdiscord"
     bluesky: "https://bsky.app/profile/powershell.org"
+    forums: "https://forums.powershell.org"
+
+  # GitHub repository URL
+  github_repo: "https://github.com/PowerShellOrg/PowerShellOrgWebsite"
   
   # Podcast settings
   podcast:

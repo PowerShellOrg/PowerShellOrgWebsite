@@ -101,7 +101,7 @@
                             <time>{{ .Date.Format "Jan 2, 2006" }}</time>
                             {{ with .Params.author }}
                             <span>•</span>
-                            <span>{{ . }}</span>
+                            <a href="{{ "/authors/" | relURL }}{{ . | urlize }}/" class="hover:text-blue-600 transition-colors duration-200">{{ . }}</a>
                             {{ end }}
                         </div>
                         {{ with .Params.categories }}
