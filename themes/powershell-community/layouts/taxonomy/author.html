@@ -16,6 +16,13 @@
 <!-- Author Details & Articles -->
 <section class="py-10 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {{ $articles := where .Pages "Section" "articles" }}
+        {{ $podcasts := where .Pages "Section" "podcast" }}
+
+        <!-- Articles before podcast episodes so authored content appears first -->
+        {{ $combined := $articles | append $podcasts }}
+
         <!-- Author Summary -->
         <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
             <div class="flex items-center mb-4">
@@ -24,18 +31,61 @@
                 </div>
                 <div>
                     <h2 class="text-3xl font-bold text-gray-900">{{ .Title }}</h2>
-                    <p class="text-gray-600">{{ .Pages | len }} article{{ if gt (.Pages | len) 1 }}s{{ end }} published</p>
+                    <p class="text-gray-600">
+                        {{ len $articles }} article{{ if ne (len $articles) 1 }}s{{ end }}
+                        {{ if $podcasts }}
+                        &nbsp;•&nbsp; {{ len $podcasts }} podcast episode{{ if ne (len $podcasts) 1 }}s{{ end }}
+                        {{ end }}
+                    </p>
                 </div>
             </div>
         </div>
 
-        <!-- Articles Grid -->
+        <!-- Content Grid -->
         <div class="grid gap-6 mb-8">
-            {{ $paginator := .Paginate .Pages }}
+            {{ $paginator := .Paginate $combined }}
             {{ range $paginator.Pages }}
-            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card" 
-                     data-title="{{ .Title | lower }}" 
+            <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden article-card"
+                     data-title="{{ .Title | lower }}"
                      data-content="{{ .Summary | lower }}">
+
+                {{ if eq .Section "podcast" }}
+                <!-- Podcast Episode Layout -->
+                <div class="lg:flex">
+                    <div class="lg:w-1/3 p-6 lg:pr-0">
+                        <div class="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-podcast text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="lg:w-2/3 p-6 lg:pl-8">
+                        <div class="flex items-center text-purple-600 text-sm font-medium mb-3">
+                            <i class="fas fa-podcast mr-2"></i>
+                            <span class="mr-2">Podcast Episode</span>
+                            <span class="mx-2">•</span>
+                            <time>{{ .Date.Format "January 2, 2006" }}</time>
+                            {{ if .ReadingTime }}
+                            <span class="mx-2">•</span>
+                            <i class="fas fa-clock mr-1"></i>
+                            <span>{{ .ReadingTime }} min</span>
+                            {{ end }}
+                        </div>
+                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            <a href="{{ .Permalink }}" class="hover:text-purple-600 transition-colors duration-200">
+                                {{ .Title }}
+                            </a>
+                        </h2>
+                        <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
+                        <div class="flex flex-wrap items-center gap-4">
+                            <a href="{{ .Permalink }}"
+                               class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
+                                <i class="fas fa-play mr-2"></i>Listen to Episode
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {{ else }}
+                <!-- Article Layout -->
                 <div class="lg:flex">
                     <div class="lg:w-1/3 p-6 lg:pr-0">
                         <div class="aspect-square bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
@@ -59,7 +109,7 @@
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
                         <div class="flex flex-wrap items-center gap-4">
-                            <a href="{{ .Permalink }}" 
+                            <a href="{{ .Permalink }}"
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                                 <i class="fas fa-book mr-2"></i>Read Article
                             </a>
@@ -75,6 +125,8 @@
                         </div>
                     </div>
                 </div>
+                {{ end }}
+
             </article>
             {{ end }}
         </div>
@@ -84,27 +136,27 @@
         <nav class="flex justify-center" aria-label="Pagination">
             <div class="flex items-center space-x-1">
                 {{ if $paginator.HasPrev }}
-                <a href="{{ $paginator.Prev.URL }}" 
+                <a href="{{ $paginator.Prev.URL }}"
                    class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">
                     <i class="fas fa-chevron-left"></i>
                 </a>
                 {{ end }}
-                
+
                 {{ range $paginator.Pagers }}
                 {{ if eq . $paginator }}
                 <span class="px-3 py-2 bg-blue-600 text-white rounded-lg font-medium">
                     {{ .PageNumber }}
                 </span>
                 {{ else }}
-                <a href="{{ .URL }}" 
+                <a href="{{ .URL }}"
                    class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">
                     {{ .PageNumber }}
                 </a>
                 {{ end }}
                 {{ end }}
-                
+
                 {{ if $paginator.HasNext }}
-                <a href="{{ $paginator.Next.URL }}" 
+                <a href="{{ $paginator.Next.URL }}"
                    class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">
                     <i class="fas fa-chevron-right"></i>
                 </a>
