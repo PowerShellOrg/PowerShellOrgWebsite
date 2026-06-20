@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Be the Community: Insights and Event Log Automati
 author: James Petty
 authors:
   - James Petty
+  - Phil Bossman
 date: "2024-08-26T19:51:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/55teaye732gyetgq/The_PowerShell_Podcast_episode_133_Phil_Bossman88mv9.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast From SharePoint to Security with David Sass
 author: James Petty
 authors:
   - James Petty
+  - David Sass
 date: "2026-01-19T15:47:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x7p6sxbxutpqe9sk/The_PowerShell_Podcast_episode_210_David_Sassag3cr.mp3"
 aliases:

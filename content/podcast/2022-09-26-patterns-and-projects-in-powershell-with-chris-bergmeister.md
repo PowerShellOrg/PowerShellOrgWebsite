@@ -3,6 +3,7 @@ title: Patterns and Projects in PowerShell with Chris Bergmeister
 author: James Petty
 authors:
   - James Petty
+  - Christopher Bergmeister
 date: "2022-09-26T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/b2u7y7/PowerShell_Podcast_episode_31_Chris_Burgmeisterbeg5c.mp3"
 aliases:

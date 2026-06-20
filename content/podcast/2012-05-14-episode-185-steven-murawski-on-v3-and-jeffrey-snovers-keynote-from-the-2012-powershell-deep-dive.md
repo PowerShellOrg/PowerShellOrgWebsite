@@ -3,6 +3,7 @@ title: "Episode 185 – Steven Murawski on v3 and Jeffrey Snover's Keynote from 
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Steven Murawski
 date: "2012-05-15T03:32:39+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-185.mp3"
 aliases:

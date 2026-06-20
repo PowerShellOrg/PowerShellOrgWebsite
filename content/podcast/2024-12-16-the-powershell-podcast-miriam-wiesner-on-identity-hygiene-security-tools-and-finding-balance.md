@@ -3,6 +3,7 @@ title: The PowerShell Podcast Miriam Wiesner on Identity Hygiene, Security Tools
 author: James Petty
 authors:
   - James Petty
+  - Miriam C. Wiesner
 date: "2024-12-16T15:59:24+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cbm3ybeqz2b6d7re/The_PowerShell_Podcast_episode_149_Miriam_Wiesnerafpmg.mp3"
 aliases:

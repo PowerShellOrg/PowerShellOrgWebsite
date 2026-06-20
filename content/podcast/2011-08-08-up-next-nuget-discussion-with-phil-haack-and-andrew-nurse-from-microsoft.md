@@ -3,6 +3,8 @@ title: "UP NEXT: NuGet discussion with Phil Haack and Andrew Nurse from Microsof
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Phil Haack
+  - Andrew Nurse
 date: "2011-08-08T10:00:00+00:00"
 aliases:
   - /2011/08/up-next-nuget-discussion-with-phil-haack-and-andrew-nurse-from-microsoft/

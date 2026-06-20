@@ -3,6 +3,7 @@ title: "Up Next: PowerEvents with Trevor Sullivan!"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Trevor Sullivan
 date: "2010-12-07T04:53:08+00:00"
 aliases:
   - /2010/12/up-next-powerevents-with-trevor-sullivan/

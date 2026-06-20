@@ -3,6 +3,8 @@ title: "Episode 187- Teresa \"ScriptingWife\" Wilson and Staci \"HalsWife\" Rott
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Teresa Wilson
+  - Staci Rottenberg
 date: "2012-05-28T15:17:09+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-187.mp3"
 aliases:

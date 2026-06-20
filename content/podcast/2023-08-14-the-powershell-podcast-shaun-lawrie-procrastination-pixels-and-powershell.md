@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Shaun Lawrie: Procrastination, Pixels and PowerSh
 author: James Petty
 authors:
   - James Petty
+  - Shaun Lawrie
 date: "2023-08-14T14:40:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7zqije/The_PowerShell_Podcast_episode_78_Shaun_Lawriea1pm8.mp3"
 aliases:

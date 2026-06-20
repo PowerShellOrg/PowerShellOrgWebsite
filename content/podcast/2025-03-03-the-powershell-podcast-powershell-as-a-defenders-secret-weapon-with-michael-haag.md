@@ -3,6 +3,7 @@ title: The PowerShell Podcast PowerShell as a Defender’s Secret Weapon with Mi
 author: James Petty
 authors:
   - James Petty
+  - Michael Haag
 date: "2025-03-03T15:27:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5v4jz9w9kam2pmbd/The_PowerShell_Podcast_episode_160_Michael_Haag7tm67.mp3"
 aliases:

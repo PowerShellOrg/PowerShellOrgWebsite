@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Unveiling PowerShell’s Past: An Interview with 
 author: James Petty
 authors:
   - James Petty
+  - Jeffrey Snover
 date: "2024-04-01T14:31:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v94vdk/The_PowerShell_Podcast_episode_111_Jeffrey_Snover7nemc.mp3"
 aliases:

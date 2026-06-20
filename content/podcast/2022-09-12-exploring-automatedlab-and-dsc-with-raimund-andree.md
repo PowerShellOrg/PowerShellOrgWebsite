@@ -3,6 +3,7 @@ title: Exploring AutomatedLab and DSC with Raimund Andrée
 author: James Petty
 authors:
   - James Petty
+  - Raimund Andrée
 date: "2022-09-12T18:21:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7nx4kr/PowerShell_Podcast_episode_29_Raimund_Andr_e_8wouu.mp3"
 aliases:

@@ -3,6 +3,8 @@ title: The PowerShell Podcast PSStucco, Accessibility, and the Power of Templati
 author: James Petty
 authors:
   - James Petty
+  - Gilbert Sanchez
+  - Jake Hildreth
 date: "2025-08-11T14:48:46+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/kyqaqi2sdqkyr57j/The_PowerShell_Podcast_episode_187_Jake_and_Gilbert8sah8.mp3"
 aliases:

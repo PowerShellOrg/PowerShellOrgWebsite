@@ -3,6 +3,8 @@ title: Episode 334 – PowerScripting Podcast – Glenn Sarti & Michael Lombardi
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Glenn Sarti
+  - Michael Lombardi
 date: "2020-03-26T04:03:49+00:00"
 categories:
   - PowerShell for Admins

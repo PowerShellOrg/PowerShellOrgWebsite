@@ -3,6 +3,7 @@ title: The PowerShell Podcast Building a Game in PowerShell from the Ground Up w
 author: James Petty
 authors:
   - James Petty
+  - Greg Martin
 date: "2025-02-17T15:13:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/98sz9kx8fr8tgm8c/The_PowerShell_Podcast_episode_158_Greg_Martin76kop.mp3"
 aliases:

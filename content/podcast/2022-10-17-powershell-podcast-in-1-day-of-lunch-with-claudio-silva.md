@@ -3,6 +3,7 @@ title: PowerShell Podcast in 1 day of Lunch with Claudio Silva
 author: James Petty
 authors:
   - James Petty
+  - Claudio Silva
 date: "2022-10-17T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tnd2fd/PowerShell_Podcast_episode_34_Claudio_Silva7pyu9.mp3"
 aliases:

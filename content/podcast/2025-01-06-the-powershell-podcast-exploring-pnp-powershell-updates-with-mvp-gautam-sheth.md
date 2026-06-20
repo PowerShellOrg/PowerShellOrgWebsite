@@ -3,6 +3,7 @@ title: The PowerShell Podcast Exploring PnP PowerShell Updates with MVP Gautam S
 author: James Petty
 authors:
   - James Petty
+  - Gautam Sheth
 date: "2025-01-06T15:39:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zr9mz5qnxcyi2w5s/The_PowerShell_Podcast_episode_152_Gautam_Sheth7j4if.mp3"
 aliases:

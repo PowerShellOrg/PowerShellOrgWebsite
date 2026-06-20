@@ -3,6 +3,7 @@ title: Oh the Places you will go… with PowerShell – Mike F. Robbins
 author: James Petty
 authors:
   - James Petty
+  - Mike F. Robbins
 date: "2022-08-01T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ksapre/PowerShell_Podcast_episode_23_Mike_Robbins6doyc.mp3"
 aliases:

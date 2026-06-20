@@ -3,6 +3,8 @@ title: The PowerShell Podcast Cross-Platform PowerShell and Sending Emails with 
 author: James Petty
 authors:
   - James Petty
+  - Frank Lesniak
+  - Neha Patil
 date: "2024-10-21T15:10:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/w9su4gc9r2ntjq9b/The_PowerShell_Podcast_episode_141_Neha_and_Frank8p8k1.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast Turning the tables. An interview with Andrew Pla
 author: James Petty
 authors:
   - James Petty
+  - Andrew Pla
 date: "2024-12-02T15:44:25+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2354ed79seiv92hh/The_PowerShell_Podcast_episode_147_Andrew_Pla6uf45.mp3"
 aliases:

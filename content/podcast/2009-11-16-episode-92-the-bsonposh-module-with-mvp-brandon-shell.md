@@ -3,6 +3,7 @@ title: Episode 92 – The BSonPosh Module with MVP Brandon Shell
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Brandon Shell
 date: "2009-11-17T04:41:25+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-092.mp3"
 aliases:

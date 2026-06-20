@@ -3,6 +3,8 @@ title: "The PowerShell Podcast Crafting a Fulfilling Career: Wisdom from Industr
 author: James Petty
 authors:
   - James Petty
+  - Jeffery Hicks
+  - Mike F. Robbins
 date: "2024-03-04T15:07:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5d2988/The_PowerShell_Podcast_episode_107_Jeff_Hicks_Mike_Robbinsa1o7e.mp3"
 aliases:

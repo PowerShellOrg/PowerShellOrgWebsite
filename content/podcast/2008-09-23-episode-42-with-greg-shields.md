@@ -3,6 +3,7 @@ title: Episode 42 – with Greg Shields
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Greg Shields
 date: "2008-09-24T02:40:10+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-042.mp3"
 aliases:

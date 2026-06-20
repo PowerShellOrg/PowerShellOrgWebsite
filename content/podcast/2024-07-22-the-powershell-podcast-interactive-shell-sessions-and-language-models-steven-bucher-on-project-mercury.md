@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Interactive Shell Sessions and Language Models: S
 author: James Petty
 authors:
   - James Petty
+  - Steven Bucher
 date: "2024-07-22T14:14:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xebv5rcfthyupahx/The_PowerShell_Podcast_episode_128_Steven_Buchera0wv9.mp3"
 aliases:

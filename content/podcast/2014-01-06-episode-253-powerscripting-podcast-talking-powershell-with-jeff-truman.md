@@ -3,6 +3,7 @@ title: Episode 253 – PowerScripting Podcast – Talking PowerShell with Jeff T
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeff Truman
 date: "2014-01-07T04:13:23+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-253.mp3"
 aliases:

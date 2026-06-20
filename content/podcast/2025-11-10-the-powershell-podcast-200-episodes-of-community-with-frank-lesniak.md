@@ -3,6 +3,7 @@ title: The PowerShell Podcast 200 Episodes of Community with Frank Lesniak
 author: James Petty
 authors:
   - James Petty
+  - Frank Lesniak
 date: "2025-11-10T15:42:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/56hts9nzxigkhprs/The_PowerShell_Podcast_episode_200_Frank_Lesniak8qdfp.mp3"
 aliases:

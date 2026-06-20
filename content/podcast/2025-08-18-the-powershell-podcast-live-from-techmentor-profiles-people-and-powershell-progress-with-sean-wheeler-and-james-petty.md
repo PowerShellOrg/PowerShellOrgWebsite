@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Live from TechMentor: Profiles, People, and Power
 author: James Petty
 authors:
   - James Petty
+  - Sean Wheeler
 date: "2025-08-18T14:17:11+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uxr5fjwhhqhpj9yj/The_PowerShell_Podcast_episode_188_Techmentorbckv5.mp3"
 aliases:

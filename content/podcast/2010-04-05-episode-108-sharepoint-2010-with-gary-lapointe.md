@@ -3,6 +3,7 @@ title: Episode 108 – SharePoint 2010 with Gary LaPointe
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Gary LaPointe
 date: "2010-04-06T03:57:50+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-108.mp3"
 aliases:

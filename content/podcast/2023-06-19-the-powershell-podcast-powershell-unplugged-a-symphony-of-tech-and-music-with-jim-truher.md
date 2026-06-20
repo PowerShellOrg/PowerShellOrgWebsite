@@ -3,6 +3,7 @@ title: "The PowerShell Podcast PowerShell Unplugged: A Symphony of Tech and Musi
 author: James Petty
 authors:
   - James Petty
+  - Jim Truher
 date: "2023-06-19T14:22:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ca7y3m/The_PowerShell_Podcast_episode_70_Jim_Truher6g5pw.mp3"
 aliases:

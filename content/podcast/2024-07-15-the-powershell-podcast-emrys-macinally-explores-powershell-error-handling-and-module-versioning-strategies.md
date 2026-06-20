@@ -3,6 +3,7 @@ title: The PowerShell Podcast Emrys MacInally Explores PowerShell Error Handling
 author: James Petty
 authors:
   - James Petty
+  - Emrys MacInally
 date: "2024-07-15T14:51:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jyxq67pf2sadfy6q/The_PowerShell_Podcast_episode_127_Emrys_Maclnally7p01i.mp3"
 aliases:

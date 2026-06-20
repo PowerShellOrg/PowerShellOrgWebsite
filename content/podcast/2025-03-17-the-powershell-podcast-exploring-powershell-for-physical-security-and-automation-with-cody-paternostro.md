@@ -3,6 +3,7 @@ title: The PowerShell Podcast Exploring PowerShell for Physical Security and Aut
 author: James Petty
 authors:
   - James Petty
+  - Cody Paternostro
 date: "2025-03-17T14:36:33+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pvm8q2j5zyj67qm5/The_PowerShell_Podcast_episode_162_Cody7v63e.mp3"
 aliases:

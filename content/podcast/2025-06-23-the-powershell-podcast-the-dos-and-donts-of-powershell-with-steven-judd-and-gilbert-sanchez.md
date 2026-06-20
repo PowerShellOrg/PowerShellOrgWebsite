@@ -3,6 +3,8 @@ title: The PowerShell Podcast The Dos and Don’ts of PowerShell with Steven Jud
 author: James Petty
 authors:
   - James Petty
+  - Steven Judd
+  - Gilbert Sanchez
 date: "2025-06-23T14:32:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3rwjh3qa8sxqxhcs/The_PowerShell_Podcast_episode_179_Andrew_Steven_Gilbert9oeal.mp3"
 aliases:

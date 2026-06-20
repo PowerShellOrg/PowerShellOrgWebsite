@@ -3,6 +3,7 @@ title: "Repositories with Adil Leghari: Do not take orally"
 author: James Petty
 authors:
   - James Petty
+  - Adil Leghari
 date: "2022-06-27T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vinuie/PowerShell_Podcast_episode_18_Adilacfkg.mp3"
 aliases:

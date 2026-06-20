@@ -3,6 +3,8 @@ title: Episode 60 – Scripting UI with Joel Bennett and James Brundage
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Joel Bennett
+  - James Brundage
 date: "2009-02-23T04:08:31+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-060.mp3"
 aliases:

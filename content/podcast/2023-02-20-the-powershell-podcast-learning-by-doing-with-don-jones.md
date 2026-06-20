@@ -3,6 +3,7 @@ title: The PowerShell Podcast Learning by Doing with Don Jones
 author: James Petty
 authors:
   - James Petty
+  - Don Jones
 date: "2023-02-20T15:16:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/s5eztj/PowerShell_Podcast_episode_52_Don_Jones9m4tm.mp3"
 aliases:

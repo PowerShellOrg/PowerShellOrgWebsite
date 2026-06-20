@@ -3,6 +3,7 @@ title: The PowerShell Podcast Building Fast Tools and Smarter Workflows with Jus
 author: James Petty
 authors:
   - James Petty
+  - Justin Grote
 date: "2025-05-26T14:09:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/79s6h9dx5axezaj4/The_PowerShell_Podcast_episode_175_Justin_Grote6utkq.mp3"
 aliases:

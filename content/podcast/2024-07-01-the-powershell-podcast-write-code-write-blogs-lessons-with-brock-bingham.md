@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Write Code, Write Blogs: Lessons with Brock Bingh
 author: James Petty
 authors:
   - James Petty
+  - Brock Bingham
 date: "2024-07-01T14:04:06+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z745y2xy6dhi4kxw/The_PowerShell_Podcast_episode_125_Brock62ai8.mp3"
 aliases:

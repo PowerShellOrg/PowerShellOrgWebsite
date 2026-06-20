@@ -3,6 +3,7 @@ title: The PowerShell Podcast Kubernetes is Easy with Anthony Nocentino
 author: James Petty
 authors:
   - James Petty
+  - Anthony Nocentino
 date: "2024-08-19T14:17:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7a3vtnxmjn8vgdz6/The_PowerShell_Podcast_episode_132_Anthony_Nocentino6082x.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: Toasting Git with Cory Knox
 author: James Petty
 authors:
   - James Petty
+  - Cory Knox
 date: "2022-08-29T19:30:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/gx2bfx/PowerShell_Podcast_episode_27_Corey_Knox851s5.mp3"
 aliases:

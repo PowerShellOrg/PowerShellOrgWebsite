@@ -3,6 +3,8 @@ title: Episode 90 – SCOM with Jeremy Pavleck and Scott Moss with special guest
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeremy Pavleck
+  - Scott Moss
 date: "2009-11-02T03:02:44+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-090.mp3"
 aliases:

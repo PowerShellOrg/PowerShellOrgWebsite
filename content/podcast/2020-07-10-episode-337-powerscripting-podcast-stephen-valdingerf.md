@@ -3,6 +3,7 @@ title: Episode 337 – PowerScripting Podcast – Stephen Valdinger
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Stephen Valdinger
 date: "2020-07-11T01:27:04+00:00"
 categories:
   - PowerShell for Admins

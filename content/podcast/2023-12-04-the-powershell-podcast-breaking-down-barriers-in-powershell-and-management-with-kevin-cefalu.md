@@ -3,6 +3,7 @@ title: The PowerShell Podcast Breaking Down Barriers in PowerShell and Managemen
 author: James Petty
 authors:
   - James Petty
+  - Kevin Cefalu
 date: "2023-12-04T15:55:27+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x4i4x5/The_PowerShell_Podcast_episode_94_Kevin_Cefalu64jc2.mp3"
 aliases:

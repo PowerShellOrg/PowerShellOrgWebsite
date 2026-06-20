@@ -3,6 +3,8 @@ title: The PowerShell Podcast The Powershell Podcast Summit sessions with Adam R
 author: James Petty
 authors:
   - James Petty
+  - Adam Rivera
+  - Luis Orta
 date: "2025-04-21T14:34:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5wjy2362rqf6xjun/The_Powershell_Podcast_episode_170_Summit_sessions7w4t0.mp3"
 aliases:

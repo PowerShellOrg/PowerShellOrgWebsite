@@ -3,6 +3,7 @@ title: "The PowerShell Podcast PowerShell Exposed: Security, Remoting, and More 
 author: James Petty
 authors:
   - James Petty
+  - Fred Weinmann
 date: "2023-06-12T14:46:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cdc95x/PowerShell_Podcast_episode_69_Fred_Weinmann88f7x.mp3"
 aliases:

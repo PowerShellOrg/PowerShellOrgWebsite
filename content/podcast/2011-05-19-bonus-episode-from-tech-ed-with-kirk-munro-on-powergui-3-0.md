@@ -3,6 +3,7 @@ title: Bonus Episode from Tech-Ed with Kirk Munro on PowerGUI 3.0
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Kirk Munro
 date: "2011-05-20T03:00:52+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-PowerGui.mp3"
 aliases:

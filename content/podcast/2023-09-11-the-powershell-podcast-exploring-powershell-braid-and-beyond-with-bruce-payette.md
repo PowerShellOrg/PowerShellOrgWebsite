@@ -3,6 +3,7 @@ title: The PowerShell Podcast Exploring PowerShell, Braid, and beyond with Bruce
 author: James Petty
 authors:
   - James Petty
+  - Bruce Payette
 date: "2023-09-11T14:55:12+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/faz3be/The_PowerShell_Podcast_episode_82_Bruce_Payette69cl4.mp3"
 aliases:

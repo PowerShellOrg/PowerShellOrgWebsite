@@ -3,6 +3,7 @@ title: Episode 335 – PowerScripting Podcast – Mike Kanakos and Guest Host Ad
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Mike Kanakos
 date: "2020-04-24T01:02:22+00:00"
 categories:
   - PowerShell for Admins

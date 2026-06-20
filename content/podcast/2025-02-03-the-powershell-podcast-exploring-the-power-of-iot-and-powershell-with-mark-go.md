@@ -3,6 +3,7 @@ title: The PowerShell Podcast Exploring the Power of IoT and PowerShell with Mar
 author: James Petty
 authors:
   - James Petty
+  - Mark Go
 date: "2025-02-03T15:59:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mkfnappypnea5zbr/The_PowerShell_Podcast_episode_156_Mark_Gobr5ap.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast Blogging secrets with Christian Ritter
 author: James Petty
 authors:
   - James Petty
+  - Christian Ritter
 date: "2023-06-05T14:08:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/catkem/PowerShell_Podcast_episode_68_Christian7o8ef.mp3"
 aliases:

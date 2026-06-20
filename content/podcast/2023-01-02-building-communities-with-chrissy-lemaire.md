@@ -3,6 +3,7 @@ title: Building Communities with Chrissy LeMaire
 author: James Petty
 authors:
   - James Petty
+  - Chrissy LeMaire
 date: "2023-01-02T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qer7m3/PowerShell_Podcast_episode_45_Chrissy_Lemaire7fqxg.mp3"
 aliases:

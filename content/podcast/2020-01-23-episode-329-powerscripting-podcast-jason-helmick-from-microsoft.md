@@ -3,6 +3,7 @@ title: Episode 329 – PowerScripting Podcast – Jason Helmick from Microsoft
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jason Helmick
 date: "2020-01-23T02:43:42+00:00"
 categories:
   - PowerShell for Admins

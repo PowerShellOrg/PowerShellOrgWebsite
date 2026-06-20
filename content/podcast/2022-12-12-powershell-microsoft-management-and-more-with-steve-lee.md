@@ -3,6 +3,7 @@ title: PowerShell, Microsoft, Management, and more with Steve Lee
 author: James Petty
 authors:
   - James Petty
+  - Steve Lee
 date: "2022-12-12T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f3eqs3/PowerShell_Podcast_episode_42_Steve_Leea2fev.mp3"
 aliases:

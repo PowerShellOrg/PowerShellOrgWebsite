@@ -3,6 +3,10 @@ title: Episode 186- The Scripting Games Winners with Jeffrey Snover and Ed Wilso
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeffrey Snover
+  - Ed Wilson
+  - Rohn Edwards
+  - Lido Paglia
 date: "2012-05-22T02:21:47+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-186.mp3"
 aliases:

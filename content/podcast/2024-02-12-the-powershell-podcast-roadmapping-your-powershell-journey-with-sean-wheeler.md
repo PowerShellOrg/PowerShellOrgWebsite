@@ -3,6 +3,7 @@ title: The PowerShell Podcast Roadmapping your PowerShell Journey with Sean Whee
 author: James Petty
 authors:
   - James Petty
+  - Sean Wheeler
 date: "2024-02-12T15:57:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cn9qw7/The_PowerShell_Podcast_episode_104_Sean_Wheeler7ctcr.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast PowerShell Changed My Life… with Adam Bacon.
 author: James Petty
 authors:
   - James Petty
+  - Adam Bacon
 date: "2025-01-13T15:24:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/teqdhfyg92g4rh9i/The_PowerShell_Podcast_episode_153_Adam_Baconbf44b.mp3"
 aliases:

@@ -3,6 +3,8 @@ title: "UP Next: Show UI with Doug Finke, Joel Bennett and James Brundage"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Doug Finke
+  - James Brundage
 date: "2011-07-18T18:11:00+00:00"
 aliases:
   - /2011/07/up-next-show-ui-with-doug-finke-joel-bennett-and-james-brundage/

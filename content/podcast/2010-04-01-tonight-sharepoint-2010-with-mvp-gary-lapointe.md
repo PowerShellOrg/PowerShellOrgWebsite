@@ -3,6 +3,7 @@ title: Tonight! Sharepoint 2010 with MVP Gary Lapointe
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Gary Lapointe
 date: "2010-04-01T23:04:52+00:00"
 aliases:
   - /2010/04/tonight-sharepoint-2010-with-mvp-gary-lapointe/

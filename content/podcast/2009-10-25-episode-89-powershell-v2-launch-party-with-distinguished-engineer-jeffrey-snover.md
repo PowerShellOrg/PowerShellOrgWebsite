@@ -3,6 +3,7 @@ title: Episode 89 – PowerShell V2 Launch Party with Distinguished Engineer Jef
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeffrey Snover
 date: "2009-10-26T03:51:38+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-089.mp3"
 aliases:

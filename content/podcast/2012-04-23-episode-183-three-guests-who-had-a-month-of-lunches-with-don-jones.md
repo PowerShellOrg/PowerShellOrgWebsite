@@ -3,6 +3,7 @@ title: Episode 183 – Three Guests Who Had a Month of Lunches With Don Jones
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Don Jones
 date: "2012-04-24T03:55:39+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-183.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: Episode 333 – PowerScripting Podcast – Mark Kraus
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Mark Kraus
 date: "2020-03-16T02:12:07+00:00"
 categories:
   - PowerShell for Admins

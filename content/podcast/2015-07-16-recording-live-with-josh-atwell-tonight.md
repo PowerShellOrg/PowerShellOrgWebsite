@@ -3,6 +3,7 @@ title: Recording live with Josh Atwell tonight!
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Josh Atwell
 date: "2015-07-16T16:39:44+00:00"
 aliases:
   - /2015/07/recording-live-with-josh-atwell-tonight/

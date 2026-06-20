@@ -3,6 +3,7 @@ title: The PowerShell Podcast Building Secure PowerShell Solutions with Jake Hil
 author: James Petty
 authors:
   - James Petty
+  - Jake Hildreth
 date: "2025-02-10T15:42:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7d982fpqia9ezb8i/The_PowerShell_Podcast_episode_157_Jake_H7k4e0.mp3"
 aliases:

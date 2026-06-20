@@ -3,6 +3,7 @@ title: "The PowerShell Podcast The eye of the Tyger: Clayton Tyger, A PowerShell
 author: James Petty
 authors:
   - James Petty
+  - Clayton Tyger
 date: "2023-10-23T14:05:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wvfnve/The_PowerShell_Podcast_episode_88_Clayton_Tyger68vpn.mp3"
 aliases:

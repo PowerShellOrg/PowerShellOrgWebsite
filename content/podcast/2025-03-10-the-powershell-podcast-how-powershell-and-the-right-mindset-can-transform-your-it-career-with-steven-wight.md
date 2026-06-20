@@ -3,6 +3,7 @@ title: The PowerShell Podcast How PowerShell and the Right Mindset Can Transform
 author: James Petty
 authors:
   - James Petty
+  - Steven Wight
 date: "2025-03-10T15:02:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vvbefbgf2unjskq7/The_PowerShell_Podcast_episode_161_Young_Teamb8jyo.mp3"
 aliases:

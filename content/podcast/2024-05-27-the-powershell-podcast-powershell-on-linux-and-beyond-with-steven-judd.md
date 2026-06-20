@@ -3,6 +3,7 @@ title: The PowerShell Podcast PowerShell on Linux and Beyond with Steven Judd
 author: James Petty
 authors:
   - James Petty
+  - Steven Judd
 date: "2024-05-27T14:14:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2ikakrh4tjr43je5/The_PowerShell_Podcast_episode_120_Steven_Judd86c81.mp3"
 aliases:

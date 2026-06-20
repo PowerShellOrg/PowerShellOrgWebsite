@@ -3,6 +3,7 @@ title: Episode 336 – PowerScripting Podcast – Don Jones – A Shell of an Id
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Don Jones
 date: "2020-06-02T03:56:30+00:00"
 categories:
   - PowerShell for Admins

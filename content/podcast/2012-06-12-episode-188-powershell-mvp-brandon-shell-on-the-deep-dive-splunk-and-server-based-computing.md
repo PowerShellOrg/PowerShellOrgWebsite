@@ -3,6 +3,7 @@ title: Episode 188- PowerShell MVP Brandon Shell on the Deep Dive, Splunk and Se
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Brandon Shell
 date: "2012-06-13T02:15:02+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-188.mp3"
 aliases:

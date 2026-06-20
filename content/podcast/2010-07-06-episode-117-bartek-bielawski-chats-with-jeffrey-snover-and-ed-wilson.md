@@ -3,6 +3,8 @@ title: Episode 117 – Bartek Bielawski Chats with Jeffrey Snover and Ed Wilson
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeffrey Snover
+  - Ed Wilson
 date: "2010-07-07T04:21:26+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-117.mp3"
 aliases:

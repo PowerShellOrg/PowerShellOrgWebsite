@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Building Modern PowerShell Solutions: Justin Grot
 author: James Petty
 authors:
   - James Petty
+  - Justin Grote
 date: "2024-09-16T14:25:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/g2cpprrpivid67zs/The_PowerShell_Podcast_episode_136_Justin_Groteavjgu.mp3"
 aliases:

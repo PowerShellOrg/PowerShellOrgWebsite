@@ -3,6 +3,7 @@ title: Episode 332 – PowerScripting Podcast – Dr. Tobias Weltner
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Tobias Weltner
 date: "2020-03-04T18:02:16+00:00"
 categories:
   - PowerShell for Admins

@@ -3,6 +3,7 @@ title: Episode 326 – PowerScripting Podcast – Adam Bertram
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Adam Bertram
 date: "2019-11-21T03:59:14+00:00"
 featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-326.mp3"

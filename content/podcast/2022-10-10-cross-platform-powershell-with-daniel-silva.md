@@ -3,6 +3,7 @@ title: Cross-Platform PowerShell with Daniel Silva
 author: James Petty
 authors:
   - James Petty
+  - Daniel Silva
 date: "2022-10-10T18:03:14+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tdmuj7/PowerShell_Podcast_episode_33_Daniel_Silva7p1je.mp3"
 aliases:

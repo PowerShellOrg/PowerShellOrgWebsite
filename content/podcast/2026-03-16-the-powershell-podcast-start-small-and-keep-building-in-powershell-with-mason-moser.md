@@ -3,6 +3,7 @@ title: The PowerShell Podcast Start Small and Keep Building in PowerShell with M
 author: James Petty
 authors:
   - James Petty
+  - Mason Moser
 date: "2026-03-16T14:28:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/nrgp6ua842mcsk3k/The_PowerShell_Podcast_episode_218_Mason_Moser91wbl.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast From School IT Intern to Systems Architect with Ch
 author: James Petty
 authors:
   - James Petty
+  - Chris Thomas
 date: "2026-03-23T14:51:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/i9htxsxdpkf5h9ru/The_PowerShell_Podcast_episode_219_Chris_Thomas6034q.mp3"
 aliases:

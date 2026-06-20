@@ -3,6 +3,7 @@ title: "The PowerShell Podcast From Engineer to Manager: Mike Kanakos on Transit
 author: James Petty
 authors:
   - James Petty
+  - Mike Kanakos
 date: "2024-01-01T16:00:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jj7je5/The_PowerShell_Podcast_episode_98_Mike_Kanokos6v9kw.mp3"
 aliases:

@@ -3,6 +3,8 @@ title: Episode 141 – The PowerShell Deep Dive Conference with Jeffrey Snover a
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeffrey Snover
+  - Kenneth Hansen
 date: "2011-03-15T03:42:56+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-141.mp3"
 aliases:

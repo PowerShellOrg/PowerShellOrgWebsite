@@ -3,6 +3,7 @@ title: Episode 106 – SQL PSX with Chad Miller
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Chad Miller
 date: "2010-03-23T03:01:49+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-106.mp3"
 aliases:

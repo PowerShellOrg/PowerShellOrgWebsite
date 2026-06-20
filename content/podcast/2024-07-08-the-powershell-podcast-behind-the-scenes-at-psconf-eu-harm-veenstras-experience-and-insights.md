@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Behind the Scenes at PSConf.EU: Harm Veenstra’s
 author: James Petty
 authors:
   - James Petty
+  - Harm Veenstra
 date: "2024-07-08T14:25:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/kmvxt4adp7ijtcbk/The_PowerShell_Podcast_episode_126_Harm_26z8y8.mp3"
 aliases:

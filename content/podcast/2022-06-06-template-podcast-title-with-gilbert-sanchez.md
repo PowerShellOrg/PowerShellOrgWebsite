@@ -3,6 +3,7 @@ title: Template Podcast Title with Gilbert Sanchez
 author: James Petty
 authors:
   - James Petty
+  - Gilbert Sanchez
 date: "2022-06-06T18:24:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z9t6jq/PowerShell_Podcast_episode_15_Gilbert68nn0.mp3"
 aliases:

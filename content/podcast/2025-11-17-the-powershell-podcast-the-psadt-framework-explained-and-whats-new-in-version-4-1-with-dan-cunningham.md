@@ -3,6 +3,7 @@ title: The PowerShell Podcast The PSADT Framework Explained and What’s New in 
 author: James Petty
 authors:
   - James Petty
+  - Dan Cunningham
 date: "2025-11-17T15:16:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x8dwd9hf9m8fvu4v/The_PowerShell_Podcast_episode_201_Dan_Cunninghama8b4o.mp3"
 aliases:

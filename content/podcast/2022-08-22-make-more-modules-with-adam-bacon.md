@@ -3,6 +3,7 @@ title: Make More Modules with Adam Bacon
 author: James Petty
 authors:
   - James Petty
+  - Adam Bacon
 date: "2022-08-22T17:54:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/rqmrxq/PowerShell_Podcast_episode_26_Adam_Bacon7scdi.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: "Up Next: Cooking Up PowerShell with Lee Holmes!"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Lee Holmes
 date: "2010-09-09T17:22:03+00:00"
 aliases:
   - /2010/09/up-next-cooking-up-powershell-with-lee-holmes-2/

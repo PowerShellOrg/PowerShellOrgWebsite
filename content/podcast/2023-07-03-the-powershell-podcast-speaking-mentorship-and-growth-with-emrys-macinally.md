@@ -3,6 +3,7 @@ title: The PowerShell Podcast Speaking, Mentorship, and Growth with Emrys MacIna
 author: James Petty
 authors:
   - James Petty
+  - Emrys MacInally
 date: "2023-07-03T14:36:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hej7ny/PowerShell_Podcast_episode_72_Emrys_MacInally75aih.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: Episode 325 – PowerScripting Podcast – Todd Klindt
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Todd Klindt
 date: "2019-05-22T02:28:35+00:00"
 featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-325.mp3"

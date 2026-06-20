@@ -3,6 +3,7 @@ title: Shy Bairns Get Nowt with Brett Miller
 author: James Petty
 authors:
   - James Petty
+  - Brett Miller
 date: "2022-09-19T18:12:31+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/iavbys/PowerShell_Podcast_episode_30_Brett_Miller8amv4.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: The PowerShell Podcast From EntraAuth to PSConfEU with Fred Weinmann
 author: James Petty
 authors:
   - James Petty
+  - Fred Weinmann
 date: "2025-08-04T14:16:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4t6xus3mttxyryt5/The_PowerShell_Podcast_episode_186_Fred_Wbvjof.mp3"
 aliases:

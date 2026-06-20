@@ -3,6 +3,7 @@ title: The PowerShell Podcast Owning Your Career and Your Time with Don Jones
 author: James Petty
 authors:
   - James Petty
+  - Don Jones
 date: "2026-02-02T15:53:06+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/h7uxvzfjr22gitma/The_PowerShell_Podcast_episode_212_Don_Jones8e38f.mp3"
 aliases:

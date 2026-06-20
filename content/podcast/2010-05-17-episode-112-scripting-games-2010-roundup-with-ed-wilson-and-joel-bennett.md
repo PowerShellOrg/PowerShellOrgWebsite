@@ -3,6 +3,8 @@ title: Episode 112 – Scripting Games 2010 Roundup with Ed Wilson and Joel Benn
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Ed Wilson
+  - Joel Bennett
 date: "2010-05-17T10:36:26+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-112.mp3"
 aliases:

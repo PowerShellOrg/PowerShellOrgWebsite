@@ -3,6 +3,7 @@ title: The PowerShell Podcast The Life and Code of The PoSh Wolf
 author: James Petty
 authors:
   - James Petty
+  - Anthony Howell
 date: "2025-06-16T15:01:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4ae2sx9ununfw369/The_PowerShell_Podcast_episode_178_The_PoShwolfafou9.mp3"
 aliases:

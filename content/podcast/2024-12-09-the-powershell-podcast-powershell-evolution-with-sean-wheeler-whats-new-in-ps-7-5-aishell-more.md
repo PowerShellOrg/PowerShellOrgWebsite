@@ -3,6 +3,7 @@ title: "The PowerShell Podcast PowerShell Evolution with Sean Wheeler: What’s 
 author: James Petty
 authors:
   - James Petty
+  - Sean Wheeler
 date: "2024-12-09T15:24:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3ct4uijaeewx92re/The_PowerShell_Podcast_episode_148_Sean_Wheelerb4ve6.mp3"
 aliases:

@@ -3,6 +3,8 @@ title: Episode 105 – PSCX 2.0 with Keith Hill and Oisin Grehan
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Keith Hill
+  - Oisin Grehan
 date: "2010-03-15T02:43:18+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-105.mp3"
 aliases:

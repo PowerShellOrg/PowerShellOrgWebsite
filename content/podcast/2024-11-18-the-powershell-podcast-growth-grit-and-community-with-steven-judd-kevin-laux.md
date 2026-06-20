@@ -3,6 +3,8 @@ title: The PowerShell Podcast Growth, Grit, and Community with Steven Judd & Kev
 author: James Petty
 authors:
   - James Petty
+  - Steven Judd
+  - Kevin Laux
 date: "2024-11-18T15:26:32+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/698n2tpwetb3j7kg/The_PowerShell_Podcast_episode_145_Steven_Judd_and_Kevin9efep.mp3"
 aliases:

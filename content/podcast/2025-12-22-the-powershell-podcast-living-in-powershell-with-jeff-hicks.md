@@ -3,6 +3,7 @@ title: The PowerShell Podcast Living in PowerShell with Jeff Hicks
 author: James Petty
 authors:
   - James Petty
+  - Jeff Hicks
 date: "2025-12-22T15:41:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/56twdqceuwzdgmxa/The_PowerShell_Podcast_episode_206_Jeff_Hicks9e3pe.mp3"
 aliases:

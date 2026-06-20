@@ -3,6 +3,7 @@ title: The PowerShell Podcast Learning PowerShell in 2026 with Tara
 author: James Petty
 authors:
   - James Petty
+  - Tara Sinquefield
 date: "2026-02-16T15:13:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v438wire44266xvi/The_PowerShell_Podcast_episode_214_Tara7qsbv.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: Recording *Tonight* with Jeff Atwood!
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Jeff Atwood
 date: "2009-11-17T13:46:42+00:00"
 aliases:
   - /2009/11/recording-tonight-with-jeff-atwood/

@@ -3,6 +3,7 @@ title: Chatting about Chatbots with Mike Kanakos, Microsoft MVP
 author: James Petty
 authors:
   - James Petty
+  - Mike Kanakos
 date: "2022-03-25T20:55:45+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vx87gi/PowerShell_Podcast_episode_4aglii.mp3"
 aliases:

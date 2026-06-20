@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Culinary to Command Line: Catching Up with Drew M
 author: James Petty
 authors:
   - James Petty
+  - Drew McClellan
 date: "2024-10-07T17:03:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ack53hrnng5xd2a5/The_PowerShell_Podcast_episode_139_Drew8s7je.mp3"
 aliases:

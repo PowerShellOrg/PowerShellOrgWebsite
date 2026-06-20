@@ -3,6 +3,7 @@ title: Episode 324 – PowerScripting Podcast – Don Jones
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Don Jones
 date: "2019-05-22T02:12:47+00:00"
 featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-324.mp3"

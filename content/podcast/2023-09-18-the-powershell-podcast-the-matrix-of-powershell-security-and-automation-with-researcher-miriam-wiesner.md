@@ -3,6 +3,7 @@ title: "The PowerShell Podcast The Matrix of PowerShell: Security and Automation
 author: James Petty
 authors:
   - James Petty
+  - Miriam C. Wiesner
 date: "2023-09-18T14:29:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/esjbuf/The_PowerShell_Podcast_episode_83_Miriam_Wiesnerb4gwt.mp3"
 aliases:

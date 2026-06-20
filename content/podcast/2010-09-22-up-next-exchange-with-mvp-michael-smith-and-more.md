@@ -3,6 +3,7 @@ title: "Up Next: Exchange with MVP Michael Smith and More!"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Michael Smith
 date: "2010-09-23T03:18:34+00:00"
 aliases:
   - /2010/09/up-next-exchange-with-mvp-michael-smith-and-more/

@@ -3,6 +3,7 @@ title: The PowerShell Podcast From Sysadmin to Security at Microsoft with Thomas
 author: James Petty
 authors:
   - James Petty
+  - Thomas Rayner
 date: "2025-09-29T14:34:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wtvq8irvenq4mshx/The_PowerShell_Podcast_episode_194_Thomas_Raynerble10.mp3"
 aliases:

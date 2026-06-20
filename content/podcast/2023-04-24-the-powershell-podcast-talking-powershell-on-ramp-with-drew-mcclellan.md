@@ -3,6 +3,7 @@ title: The PowerShell Podcast Talking PowerShell on Ramp with Drew McClellan
 author: James Petty
 authors:
   - James Petty
+  - Drew McClellan
 date: "2023-04-24T14:37:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vhu7jc/PowerShell_Podcast_episode_61_Drew_McClellanbqdab.mp3"
 aliases:

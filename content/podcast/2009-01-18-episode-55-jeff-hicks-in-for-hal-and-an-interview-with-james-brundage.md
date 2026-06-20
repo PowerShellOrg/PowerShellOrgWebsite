@@ -3,6 +3,7 @@ title: Episode 55 – Jeff Hicks in for Hal and an interview with James Brundage
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - James Brundage
 date: "2009-01-19T03:23:51+00:00"
 aliases:
   - /2009/01/episode-55-jeff-hicks-in-for-hal-and-an-interview-with-james-brundage/

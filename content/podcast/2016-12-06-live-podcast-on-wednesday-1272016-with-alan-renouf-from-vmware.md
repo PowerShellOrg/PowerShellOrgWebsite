@@ -3,6 +3,7 @@ title: Live Podcast on Wednesday 12/7/2016 with Alan Renouf from VMware
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Alan Renouf
 date: "2016-12-06T23:34:20+00:00"
 aliases:
   - /2016/12/live-podcast-on-wednesday-1272016-with-alan-renouf-from-vmware/

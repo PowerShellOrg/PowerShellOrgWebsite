@@ -3,6 +3,7 @@ title: Episode 189- PowerShell MVP Kirk Munro on WMIX
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Kirk Munro
 date: "2012-06-20T01:52:09+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-189.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: "Episode 29 \"“ Exchange with Ilse Van Criekinge"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Ilse Van Criekinge
 date: "2008-06-08T17:32:48+00:00"
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-029.mp3"
 aliases:

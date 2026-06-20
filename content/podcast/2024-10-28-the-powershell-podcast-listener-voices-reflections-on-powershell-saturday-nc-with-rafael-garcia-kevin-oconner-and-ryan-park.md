@@ -3,6 +3,8 @@ title: "The PowerShell Podcast Listener Voices: Reflections on PowerShell Saturd
 author: James Petty
 authors:
   - James Petty
+  - Rafael Garcia
+  - Ryan Park
 date: "2024-10-28T14:40:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2mymmpcyqbdz3mkh/The_PowerShell_Podcast_episode_142_Rafael_Kevin_then_Ryan8cagq.mp3"
 aliases:

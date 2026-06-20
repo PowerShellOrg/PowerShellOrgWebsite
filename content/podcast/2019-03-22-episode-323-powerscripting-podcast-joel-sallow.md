@@ -3,6 +3,7 @@ title: Episode 323 – PowerScripting Podcast – Joel Sallow
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Joel Sallow
 date: "2019-03-22T03:56:29+00:00"
 featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-323.mp3"

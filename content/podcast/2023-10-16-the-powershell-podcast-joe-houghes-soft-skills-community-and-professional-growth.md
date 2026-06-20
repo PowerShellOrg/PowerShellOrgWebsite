@@ -3,6 +3,7 @@ title: The PowerShell Podcast Joe Houghes; Soft Skills, Community, and Professio
 author: James Petty
 authors:
   - James Petty
+  - Joe Houghes
 date: "2023-10-16T14:36:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tfvehj/The_PowerShell_Podcast_episode_87_Joe_Houghesbr6xn.mp3"
 aliases:

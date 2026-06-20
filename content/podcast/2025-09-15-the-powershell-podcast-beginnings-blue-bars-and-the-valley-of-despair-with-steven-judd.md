@@ -3,6 +3,7 @@ title: The PowerShell Podcast Beginnings, Blue Bars, and the Valley of Despair w
 author: James Petty
 authors:
   - James Petty
+  - Steven Judd
 date: "2025-09-15T14:28:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/e2kqcvdw8ni9ca92/The_PowerShell_Podcast_episode_192_Steven_Juddbdrua.mp3"
 aliases:

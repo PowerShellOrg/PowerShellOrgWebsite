@@ -3,6 +3,7 @@ title: The Value of Mentorship with Jeff Hicks
 author: James Petty
 authors:
   - James Petty
+  - Jeffery Hicks
 date: "2022-05-09T16:57:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6x3vr8/PowerShell_Podcast_episode_11_Jeff_Hicks7syhe.mp3"
 aliases:

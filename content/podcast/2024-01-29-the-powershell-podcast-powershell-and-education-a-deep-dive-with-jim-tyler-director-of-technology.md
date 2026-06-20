@@ -3,6 +3,7 @@ title: "The PowerShell Podcast PowerShell and Education: A Deep Dive with Jim Ty
 author: James Petty
 authors:
   - James Petty
+  - Jim Tyler
 date: "2024-01-29T15:41:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/h3m7wi/The_PowerShell_Podcast_episode_102_Jim_Tylerbr88l.mp3"
 aliases:

@@ -3,6 +3,7 @@ title: Episode 330 – PowerScripting Podcast – MVP Adam Driscoll
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Adam Driscoll
 date: "2020-02-26T04:08:26+00:00"
 categories:
   - PowerShell for Admins

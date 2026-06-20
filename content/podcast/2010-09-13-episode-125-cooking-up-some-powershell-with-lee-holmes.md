@@ -3,6 +3,7 @@ title: Episode 125 – Cooking Up Some PowerShell with Lee Holmes
 author: Jonathan Walz
 authors:
   - Jonathan Walz
+  - Lee Holmes
 date: "2010-09-14T03:49:18+00:00"
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-125.mp3"
 aliases:
