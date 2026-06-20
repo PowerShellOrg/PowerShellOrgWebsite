@@ -1,0 +1,20 @@
+{{- /* Reusable terminal-chrome code block. Matches the styled blocks on the Plaster page.
+        Usage:
+          {{< terminal title="requirements.psd1" lang="powershell" >}}
+          @{ psake = 'latest' }
+          {{< /terminal >}}
+        Highlighting is handled client-side by Prism via the language-* class. */ -}}
+{{- $lang := .Get "lang" | default "powershell" -}}
+{{- $title := .Get "title" | default "PowerShell" -}}
+{{- $code := trim .Inner "\n" -}}
+<div class="code-terminal ps-terminal rounded-xl overflow-hidden shadow-xl my-6">
+    <div class="flex items-center px-4 py-3 border-b border-gray-700">
+        <div class="flex space-x-2 mr-4">
+            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+        </div>
+        <span class="text-gray-400 text-sm font-mono">{{ $title }}</span>
+    </div>
+    <pre class="text-sm leading-relaxed"><code class="language-{{ $lang }}">{{ $code }}</code></pre>
+</div>

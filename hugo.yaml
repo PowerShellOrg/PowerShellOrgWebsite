@@ -48,9 +48,13 @@ menu:
       weight: 50
       params:
         hasChildren: true
-    - name: "Plaster"
-      url: "/plaster/"
+        childMenu: community
+    - name: "Modules"
+      url: "/modules/"
       weight: 60
+      params:
+        hasChildren: true
+        childMenu: modules
   community:
     - name: "Learning"
       url: "/learning/"
@@ -83,6 +87,19 @@ menu:
       params:
         icon: "fab fa-discord"
         description: "Searchable archive of conversations from our Discord server."
+  modules:
+    - name: "Plaster"
+      url: "/modules/plaster/"
+      weight: 10
+      params:
+        icon: "fas fa-layer-group"
+        description: "The template engine for PowerShell — scaffold projects, modules, and files."
+    - name: "PSDepend"
+      url: "/modules/psdepend/"
+      weight: 20
+      params:
+        icon: "fas fa-sitemap"
+        description: "Declarative PowerShell dependency handler driven by a .psd1 file."
 
 # Site parameters
 params:

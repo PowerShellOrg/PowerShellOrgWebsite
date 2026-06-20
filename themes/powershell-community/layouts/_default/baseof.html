@@ -80,6 +80,10 @@
             font-family: 'Cascadia Code', 'Consolas', monospace;
         }
 
+        /* Neutralize .prose pre styling inside the terminal shortcode so the
+           terminal chrome renders flush; Prism handles token colors. */
+        .ps-terminal pre { background: transparent; color: #ccc; margin: 0; border-radius: 0; padding: 1.25rem; overflow-x: auto; }
+
         .hero-pattern {
             background: linear-gradient(135deg, #0078D4 0%, #00BCF2 100%);
             position: relative;
