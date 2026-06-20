@@ -53,7 +53,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
@@ -75,7 +75,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### Chatroom Buzz
 
@@ -92,7 +92,7 @@ aliases:
   [22:43:26]  Check out this uptime on a Hyper-V server (production) that runs 2008R2 Server Core: [http://mikefrobbins.files.wordpress.com/2012/07/hyperv-uptime-162.jpg](http://mikefrobbins.files.wordpress.com/2012/07/hyperv-uptime-162.jpg)
 
 
-  [22:43:45]  get-help get-command -showwindow Â Â <-- showwindow is my current favorite
+  [22:43:45]  get-help get-command -showwindow   <-- showwindow is my current favorite
 
 
   [22:44:10]  iscsicpl runs (iSCSI Control Panel) on server core
@@ -125,7 +125,7 @@ aliases:
   [22:53:21]  my citrix admin is a Button Monkey
 
 
-****Â ****
+**** ****
 
 #### The Question -
 
@@ -137,7 +137,7 @@ aliases:
 
 ## Resources
 
-****Â ****
+**** ****
 
   * 
 

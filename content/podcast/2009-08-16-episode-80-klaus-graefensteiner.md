@@ -90,7 +90,7 @@ Interview
 
 
           *
- Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+ Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -169,15 +169,15 @@ Interview
 
 
                     - 
-                      lmrobins: ## Can you categorize tests the same way you can with nunit? Â When running the tests, can you run only specific categories or exclude specific categories?
+                      lmrobins: ## Can you categorize tests the same way you can with nunit?  When running the tests, can you run only specific categories or exclude specific categories?
 
 
                     - 
-                      jasonmarcher: ## Can PSUnit return the test results as objects? Â Like TestName, Result, Description
+                      jasonmarcher: ## Can PSUnit return the test results as objects?  Like TestName, Result, Description
 
 
                     - 
-                      lmrobins: ## Your work is a .net shop? Â How do you plan to integrate the framework into that? Â Create instances of your C# classes inside ps?
+                      lmrobins: ## Your work is a .net shop?  How do you plan to integrate the framework into that?  Create instances of your C# classes inside ps?
 
 
                     - 

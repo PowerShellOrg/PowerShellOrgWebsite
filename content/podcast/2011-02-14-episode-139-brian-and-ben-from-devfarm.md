@@ -44,19 +44,19 @@ In This Episode
 
 
 
-    Â 
+     
 
 
 
 
 
-    *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).*
+    *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
 
 
 
-    Â 
+     
 
 
 
@@ -125,13 +125,13 @@ Interview
 
 
 
-    The news is brought to you byÂ [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
+    The news is brought to you by [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
 
 
 
 
 
-    Â 
+     
 
 
 
@@ -144,11 +144,11 @@ Interview
 
 
     - 
-      PowerWF:Â [http://powerwf.com/](http://powerwf.com/)[](http://virtualisedreality.com/2010/12/17/dell-equallogic-powershell-quick-reference-guide/)
+      PowerWF: [http://powerwf.com/](http://powerwf.com/)[](http://virtualisedreality.com/2010/12/17/dell-equallogic-powershell-quick-reference-guide/)
 
 
     - 
-      PowerSE:Â [http://powerwf.com/products/powerse.aspx](http://powerwf.com/products/powerse.aspx)
+      PowerSE: [http://powerwf.com/products/powerse.aspx](http://powerwf.com/products/powerse.aspx)
 
 
 
@@ -156,7 +156,7 @@ Interview
 
 
 
-    Â 
+     
 
 
 
@@ -174,7 +174,7 @@ Interview
 
 
 
-    21:48  ## If you're using SE, can you update the workflow? Â Can you use this to split up tough pipelines into eaiser chunks?
+    21:48  ## If you're using SE, can you update the workflow?  Can you use this to split up tough pipelines into eaiser chunks?
 
 
 
@@ -208,7 +208,7 @@ Resources
 
 
       - 
-        Cool script toÂ [remove local profiles](http://boeprox.wordpress.com/2011/01/27/use-powershell-to-remove-local-profiles/)
+        Cool script to [remove local profiles](http://boeprox.wordpress.com/2011/01/27/use-powershell-to-remove-local-profiles/)
 
 
       - 
@@ -238,23 +238,23 @@ Resources
 
 > 
 
-I have written my first script.Â  From Jerry Lee Ford Jr"™s book, the script is the knock knock joke.Â  And when I run it I get the message "execution of scripts is disabled on this system.Â  Please see get-help about-signing".
+I have written my first script.  From Jerry Lee Ford Jr"™s book, the script is the knock knock joke.  And when I run it I get the message "execution of scripts is disabled on this system.  Please see get-help about-signing".
 
 
 
 
-So of course I want to run the script right away and so I type "get-executionpolicy"Â  and I see that it is restricted. So I "set-executionpolicy remotesigned".
+So of course I want to run the script right away and so I type "get-executionpolicy"  and I see that it is restricted. So I "set-executionpolicy remotesigned".
 
 
 
 
-Â 
+ 
 
 
-So finally my question, can I leave "executionpolicy remotesigned" ? Â Do I need to be concerned about security?Â  Would I be better off to sign all my scripts?
+So finally my question, can I leave "executionpolicy remotesigned" ?  Do I need to be concerned about security?  Would I be better off to sign all my scripts?
 
 
- Â 
+  
 
 Thanks,
 

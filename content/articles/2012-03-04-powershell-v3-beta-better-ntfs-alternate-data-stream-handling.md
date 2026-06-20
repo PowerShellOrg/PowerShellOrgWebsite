@@ -8,26 +8,26 @@ aliases:
   - /2012/03/powershell-v3-beta-better-ntfs-alternate-data-stream-handling/
 ---
 
-One of the many new features in Windows PowerShell V3 is better support for alternate data streams (ADS) in NTFS files.Â  ADS allows an NTFS file to contain additional data that is not part of the "main" stream i.e. the file"™s primary content.Â  Tools like Windows Explorer or even PowerShell"™s **Get-ChildItem** cmdlet don"™t show these extra data streams.Â  In fact the file size reported by both of these tools does not take into account the data stored in the alternate streams.Â  For more information on ADS check out the [NTFS topic on Wikipedia][1].
+One of the many new features in Windows PowerShell V3 is better support for alternate data streams (ADS) in NTFS files.  ADS allows an NTFS file to contain additional data that is not part of the "main" stream i.e. the file"™s primary content.  Tools like Windows Explorer or even PowerShell"™s **Get-ChildItem** cmdlet don"™t show these extra data streams.  In fact the file size reported by both of these tools does not take into account the data stored in the alternate streams.  For more information on ADS check out the [NTFS topic on Wikipedia][1].
 
-A common use of ADS is to indicate that a file downloaded by Internet Explorer came from the Internet Zone.Â  Files coming from the internet could be potentially dangerous.Â  Various applications check for this stream and if it is present and contains information indicating the "Internet" zone, they might block access or in the case of PowerShell"™s _RemoteSigned_ execution policy, only execute the file if it is signed.
+A common use of ADS is to indicate that a file downloaded by Internet Explorer came from the Internet Zone.  Files coming from the internet could be potentially dangerous.  Various applications check for this stream and if it is present and contains information indicating the "Internet" zone, they might block access or in the case of PowerShell"™s _RemoteSigned_ execution policy, only execute the file if it is signed.
 
-Previous to PowerShell V3, you could use the [SysInternals streams.exe tool][2] to list and remove alternate data streams.Â  A common application of this tool was to delete all streams in a file.Â  That was a rather crude but effective way to "unblock" a file downloaded from the internet.
+Previous to PowerShell V3, you could use the [SysInternals streams.exe tool][2] to list and remove alternate data streams.  A common application of this tool was to delete all streams in a file.  That was a rather crude but effective way to "unblock" a file downloaded from the internet.
 
-This is also one area where CMD.EXE was one up on PowerShell.Â  From a CMD prompt, you can use "dir /r" to list files and their alternate data streams.Â  You can also create/overwrite streams with CMD.exe like so "
+This is also one area where CMD.EXE was one up on PowerShell.  From a CMD prompt, you can use "dir /r" to list files and their alternate data streams.  You can also create/overwrite streams with CMD.exe like so "
 echo.>test.exe:Zone.Identifier
-" which would "unblock" an internet zone file.Â  You can also unblock such files by selecting the file"™s Properties in Windows Explorer and pressing the "Unblock" button at the bottom right of the general tab.Â  However this is not convenient if you need to do this to dozens or hundreds of files.Â  With the [PowerShell Community Extensions][3] 2.0, we introduced an **Unblock-File** cmdlet that would delete only the stream named Zone.Identifier.Â  That is the stream that Internet Explorer creates when you download a file.Â  Fortunately with PowerShell V3, we can obsolete that cmdlet because V3 offers several ways to manage alternate data streams.
+" which would "unblock" an internet zone file.  You can also unblock such files by selecting the file"™s Properties in Windows Explorer and pressing the "Unblock" button at the bottom right of the general tab.  However this is not convenient if you need to do this to dozens or hundreds of files.  With the [PowerShell Community Extensions][3] 2.0, we introduced an **Unblock-File** cmdlet that would delete only the stream named Zone.Identifier.  That is the stream that Internet Explorer creates when you download a file.  Fortunately with PowerShell V3, we can obsolete that cmdlet because V3 offers several ways to manage alternate data streams.
 
 First up is PowerShell"™s own **Unblock-File** cmdlet which, like the PSCX equivalent, is quite easy to use:
 
 
 `C:\PS> Get-Command Unblock-File -All
-Capability      NameÂ Â  ModuleName
+Capability      Name   ModuleName
 ----------      ----                                     ----------
 Cmdlet          Unblock-File                             Pscx
 Cmdlet          Unblock-File                             Microsoft.PowerShell.Utility
 C:\PS> Get-ChildItem *.ps1 | Microsoft.PowerShell.Utility\Unblock-File
-`Note that you wouldn"™t normally need to prefix **Unblock-File** with _Microsoft.PowerShell.Utility_.Â  In this case, I wanted to make sure I was using the PowerShell **Unblock-File** and not the one from PSCX.
+`Note that you wouldn"™t normally need to prefix **Unblock-File** with _Microsoft.PowerShell.Utility_.  In this case, I wanted to make sure I was using the PowerShell **Unblock-File** and not the one from PSCX.
 
 In addition to using the big gun of **Unblock-File** you can also manipulate streams with the following cmdlets:
 
@@ -90,7 +90,7 @@ C:\PS> Get-Content .\Pscx-2.0.0.1.zip -Stream Zone.Identifier
 ZoneId=3
 `Finally, **Set-Content "“Stream** can be used to modify the content of an existing stream.
 
-The newÂ  **Unblock-File** cmdlet as well as the upgrades to the ***-Content** and **Get/Remove-Item**Â  cmdlets are a very welcome enhancement to PowerShell"™s file handling capabilities.
+The new  **Unblock-File** cmdlet as well as the upgrades to the ***-Content** and **Get/Remove-Item**  cmdlets are a very welcome enhancement to PowerShell"™s file handling capabilities.
 
 [![](http://feeds.wordpress.com/1.0/comments/rkeithhill.wordpress.com/248/)](http://feeds.wordpress.com/1.0/gocomments/rkeithhill.wordpress.com/248/)![](http://stats.wordpress.com/b.gif?host=rkeithhill.wordpress.com&blog=18780344&%23038;post=248&%23038;subd=rkeithhill&%23038;ref=&%23038;feed=1)
 

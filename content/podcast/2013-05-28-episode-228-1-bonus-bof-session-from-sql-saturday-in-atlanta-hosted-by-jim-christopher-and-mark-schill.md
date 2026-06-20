@@ -16,7 +16,7 @@ aliases:
   **[![](http://powerscripting.libsyn.com/img/podcastIcon.gif)](http://traffic.libsyn.com/powerscripting/PSPodcast-228.1.mp3)**
 
 
-  Recorded live at:Â [http://sqlsaturday.com/220/](http://sqlsaturday.com/220/)
+  Recorded live at: [http://sqlsaturday.com/220/](http://sqlsaturday.com/220/)
 
 
   [Jim Christopher](https://twitter.com/beefarino)

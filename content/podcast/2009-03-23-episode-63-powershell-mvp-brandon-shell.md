@@ -41,7 +41,7 @@ _
 
 
 
-      *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!*
+      *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!*
 
 
 
@@ -57,37 +57,37 @@ _
 
           - 
             EBGreen on the PowerShellCommunity
-Â 
+ 
 [is trying to get a St. Louis Script Club](http://powershellcommunity.org/Forums/tabid/54/aff/18/afv/topic/aft/3714/Default.aspx)
-Â 
+ 
 together. If you are in his neck of the woods, get in touch!
 
 
           - 
             PowerShell UG
-Â 
+ 
 [meeting on Mar26th](http://richardsiddaway.spaces.live.com/blog/cns!43CFA46A74CF3E96!2157.entry)
 
 
           - 
             Congrats to Jeffrey Snover:
-Â 
+ 
 [Distinguished Engineer](http://www.microsoft.com/presspass/exec/de/snover/default.mspx)
-Â 
+ 
 !
 
 
           - 
             SDM Software
-Â 
+ 
 [has released version 1.3](http://sdmsoftware.com/blog/2009/03/gpmc_cmdlets_update.html)
-Â 
+ 
 of the GPMC cmdlets. Free download!
 
 
           - 
             You can
-Â 
+ 
 [influence the PowerShell Cookbook V2](http://www.leeholmes.com/blog/WantToInfluenceThePowerShellCookbookV2.aspx)
 
 
@@ -112,13 +112,13 @@ of the GPMC cmdlets. Free download!
 
 
 
-                  Â 
+                   
 
 
 
 
 
-                  Â 
+                   
 
 
 
@@ -130,14 +130,14 @@ of the GPMC cmdlets. Free download!
 
 
 ## 
-                      InterviewÂ 
+                      Interview 
 
 
 
 
 
                       *This segment is brought to you by
-Â 
+ 
 [SAPIEN Technologies](http://sapien.com/).*
 
 
@@ -266,7 +266,7 @@ mkline : ## hopefully not OT, is the powershell university course from Sapien an
                       - 
 
 cerobins :
-Â 
+ 
 [http://blogs.msdn.com/adpowershell/archive/2009/02/25/ad-powershell-quick-start-guide.aspx](http://blogs.msdn.com/adpowershell/archive/2009/02/25/ad-powershell-quick-start-guide.aspx)
 
 
@@ -275,9 +275,9 @@ cerobins :
                       - 
 
 mkline : good quick video over at TechNet Edge on recychle bin
-Â 
+ 
 [http://edge.technet.com/Media/Active-Directory-Recycle-Bin](http://edge.technet.com/Media/Active-Directory-Recycle-Bin)
-Â 
+ 
 
 
 
@@ -310,7 +310,7 @@ mkline : good quick video over at TechNet Edge on recychle bin
 
 
                             For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
- Is your scripting might equal to the challenge? Put the power in your hands "“Â [*download PowerGUI today*](http://quest.com/powerscripting)*.*
+ Is your scripting might equal to the challenge? Put the power in your hands "“ [*download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 
@@ -318,43 +318,43 @@ mkline : good quick video over at TechNet Edge on recychle bin
 
                               - 
                                 Alan Renouf
-Â 
+ 
 [posted a VI Toolkit Quick Reference Guide](http://www.virtu-al.net/2009/02/23/vi-toolkit-quick-reference-guide/)
 
 
                               - 
                                 Keith Hill shows us
-Â 
+ 
 [how to yank lines](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!6937.entry)
-Â 
+ 
 in the ISE
 
 
                               - 
                                 Jason Shirk from the PowerShell team has posted to their blog a
-Â 
+ 
 [really cool example](http://blogs.msdn.com/powershell/archive/2009/03/13/dir-a-d.aspx)
-Â 
+ 
 of how to proxy a command.
 
 
                               - 
                                 There is a PowerShell
-Â 
+ 
 [group on LinkedIn](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2168.entry)
 
 
                               - 
                                 Hal made
-Â 
+ 
 [a script to work with Gmail filters](http://halr9000.com/article/708)
 
 
                               - 
                                 Oisin
-Â 
+ 
 [posted a script](http://www.nivot.org/2009/03/10/CTP3ProxyCommandTricksExtendingGetHelpToCoverNETTypesAndMembers.aspx)
-Â 
+ 
 that extends get-help to cover .NET types and members
 
 
@@ -365,7 +365,7 @@ that extends get-help to cover .NET types and members
 
 
 
-                                Â 
+                                 
 
 
 
@@ -377,7 +377,7 @@ that extends get-help to cover .NET types and members
 ## 
                                 Tips
 
-Â 
+ 
 
 
 
@@ -386,14 +386,14 @@ that extends get-help to cover .NET types and members
 
 
                                 - 
-                                  From Keith Hill,Â [How to resize images](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!6943.entry)
-Â 
+                                  From Keith Hill, [How to resize images](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!6943.entry)
+ 
 using the PowerShell Community Extensions
 
 
                                 - 
                                   Dmitry writes about
-Â 
+ 
 [consistent naming conventions](http://dmitrysotnikov.wordpress.com/2009/03/16/citrixs-inconsistent-cmdlets-naming/)
 
 
@@ -415,9 +415,9 @@ using the PowerShell Community Extensions
 
                                 - 
                                   On StackOverflow there's a one-liner to
-Â 
+ 
 [list all COM objects](http://stackoverflow.com/questions/660319/where-can-i-find-all-of-the-com-objects-that-can-be-created-in-powershell/660382#660382)
-Â 
+ 
 on a system. This was sent in by Steve Murawski from Mind of Root.
 
 
@@ -426,7 +426,7 @@ on a system. This was sent in by Steve Murawski from Mind of Root.
 
 
 
-                                Â 
+                                 
 
 
 
@@ -434,7 +434,7 @@ on a system. This was sent in by Steve Murawski from Mind of Root.
 
 
 
-                              Â 
+                               
 
 
 

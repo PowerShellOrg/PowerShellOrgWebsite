@@ -42,53 +42,53 @@ In This Episode
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 *
- VisitÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+ Visit [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 
 
 
 
     - 
-      [PowerTab](http://powertab.codeplex.com/)Â 0.99.6 focus on improved performance and stability ([release notes](http://powertab.codeplex.com/releases/view/49687))
+      [PowerTab](http://powertab.codeplex.com/) 0.99.6 focus on improved performance and stability ([release notes](http://powertab.codeplex.com/releases/view/49687))
 
 
     - 
@@ -155,7 +155,7 @@ Resources
 
 
     - 
-      Check out [ILovePowershell.com](http://www.ilovepowershell.com/)Â (and [follow Michael on Twitter](http://twitter.com/#!/Michael_Simmons)), cool site with lots of great resources and tips.
+      Check out [ILovePowershell.com](http://www.ilovepowershell.com/) (and [follow Michael on Twitter](http://twitter.com/#!/Michael_Simmons)), cool site with lots of great resources and tips.
 
 
 
@@ -168,7 +168,7 @@ Resources
 
 
 Tips
-**Â 
+** 
 
 
 
@@ -196,7 +196,7 @@ Tips
 
 
 
-    Â 
+     
  **
 
 

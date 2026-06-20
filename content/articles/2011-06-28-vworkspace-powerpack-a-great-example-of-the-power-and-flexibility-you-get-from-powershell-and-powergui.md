@@ -1,5 +1,5 @@
 ---
-title: "vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUIÂ®"
+title: "vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUI®"
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -8,7 +8,7 @@ aliases:
   - /2011/06/vworkspace-powerpack-a-great-example-of-the-power-and-flexibility-you-get-from-powershell-and-powergui/
 ---
 
-Last week, the [Quest vWorkspace][1] guys showed their prowess once again when they released the first version of the [vWorkspace PowerPack][2] for [PowerGUIÂ® Pro][3] and [PowerGUI][4]Â®.  I love this PowerPack because it really demonstrates how PowerGUI is so complementary to PowerShell.  To see what I mean, take a look at the following screenshot:
+Last week, the [Quest vWorkspace][1] guys showed their prowess once again when they released the first version of the [vWorkspace PowerPack][2] for [PowerGUI® Pro][3] and [PowerGUI][4]®.  I love this PowerPack because it really demonstrates how PowerGUI is so complementary to PowerShell.  To see what I mean, take a look at the following screenshot:
 
 [![vWorkspace PowerPack - multi-farm management](http://kirkmunro.files.wordpress.com/2011/06/image_thumb.png?w=604&h=364)](http://kirkmunro.files.wordpress.com/2011/06/image.png)
 

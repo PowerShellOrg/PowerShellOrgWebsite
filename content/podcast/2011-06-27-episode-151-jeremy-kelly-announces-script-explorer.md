@@ -23,7 +23,7 @@ Tonight on the PowerScripting Podcast, we talk to Jeremy Kelly from Microsoft ab
 ## News
 
 This segment brought to you by Start-Automating  
-Start Scripting to Your Fullest Potential.Â  At Start-Automating, we can help you unleash the full Power of PowerShell V2.Â  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?Â  Find out more at [Start-Automating.com][1].
+Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com][1].
 
   * [PowerWF just announced the acquisition of icomasoft"™s VI PowerScripter][2]
   * Quest has released a [PowerPack for vWorkspace][3]
@@ -50,7 +50,7 @@ Links:
 [21:58]  Release date on that?  
 [22:00]  ## would it be possible to search network shares?  
 [22:00]  ## Can the repositories be a shared network folder or in a source control system?  
-[22:03]  ## Any vendor relationships with other manufacturer's who have Powershell tools?Â  Cisco? NetApp? VMware? Citrix? F5?  
+[22:03]  ## Any vendor relationships with other manufacturer's who have Powershell tools?  Cisco? NetApp? VMware? Citrix? F5?  
 [22:06]  When do we get the video demo? I want to see this in action.
 
 ##### Superhero: Time travel & telepathy

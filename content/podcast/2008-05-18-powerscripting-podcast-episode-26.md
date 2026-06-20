@@ -14,7 +14,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ## In This Episode
 
-We've got a great show lined up for you today.Â  I am really pleased to announce our guest: Keith Hill, a well-known developer in the PowerShell Community.Â  Also, as we hinted during the last show, your participation and support makes advertisers happy, and when they're happy, they give away stuff.Â  This one is cool because many will enter--and many will win!Â  Stay tuned for details.Â  And as usual, we've got a bunch of news, tips, and resources to share.
+We've got a great show lined up for you today.  I am really pleased to announce our guest: Keith Hill, a well-known developer in the PowerShell Community.  Also, as we hinted during the last show, your participation and support makes advertisers happy, and when they're happy, they give away stuff.  This one is cool because many will enter--and many will win!  Stay tuned for details.  And as usual, we've got a bunch of news, tips, and resources to share.
 
 ## News
 
@@ -32,7 +32,7 @@ This week's show is brought to you by Quest Software.
 blog post
 ][3]{#5.} it's about 80 pages and is an overview intended for administrators that are new to PowerShell.
 
-## Â Interview
+##  Interview
 
   * Keith Hill's [blog][4]
   * [Effective PowerShell series][5]
@@ -65,7 +65,7 @@ PowerShell V2 introduces a new capability which allows you to remotely manage ma
 
           [Fun with Script Cmdlets](http://blogs.msdn.com/powershell/archive/2008/05/09/fun-with-script-cmdlets.aspx) (PowerShell Team blog)
 
- Script Cmdlets are one of the coolest things about the newer version of PowerShell.Â  A Script cmdlet allows you to use all of the variety of cmdlet parameter sets inside of PowerShell functions.
+ Script Cmdlets are one of the coolest things about the newer version of PowerShell.  A Script cmdlet allows you to use all of the variety of cmdlet parameter sets inside of PowerShell functions.
 
 
 

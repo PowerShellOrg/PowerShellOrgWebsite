@@ -31,38 +31,38 @@ Listen:
 ## News
 
 _Now a word from our new sponsor, PowerWF._  
-_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com][1]{#j2hk}._  
+_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com][1]{#j2hk}._  
 _  
 _ 
 
-  * Want to try PowerShell on a USB key or a system without .NET? Check outÂ [Portable PowerShell][2]{#swn_}, now in private beta.
+  * Want to try PowerShell on a USB key or a system without .NET? Check out [Portable PowerShell][2]{#swn_}, now in private beta.
   * User Group News! 
-      * Ed will also be at theÂ [SE Michigan PowerShell script club][3]{#lt40}Â on March 16! Go follow him like a roadie!
+      * Ed will also be at the [SE Michigan PowerShell script club][3]{#lt40} on March 16! Go follow him like a roadie!
       * [First meeting of the Indianapolis PowerShell User Group meets April 6th][4]{#kglo}
       * [Tampa PSUG - first meeting March 11th!][5]{#tz5q}
       * [Atlanta PowerShell User Group - first meeting March 16!][6]{#z2af}
-      * [New York City PSUG][7]{#x5g2}:Â [New website][8]{#nu02}Â and new day for the inaugural meeting - now April 12th. Other news: drinks afterwards and first round is on Tome!
-  * PowerGUI Pro and MobileShellÂ [is on sale for $99][9]{#rl30}Â for a limited time
-  * Doug FinkeÂ [will be doing a PowerShell deep dive][10]{#uwre}Â on March 6th at NYC Code Camp
-  * [You can get a 40% discount][11]{#tnpf}Â on the forthcoming PowerShell in Practice
-  * CodePlex news:Â [PowerShell Remote File Explorer][12]{#kmtn}Â v0.1 just released
+      * [New York City PSUG][7]{#x5g2}: [New website][8]{#nu02} and new day for the inaugural meeting - now April 12th. Other news: drinks afterwards and first round is on Tome!
+  * PowerGUI Pro and MobileShell [is on sale for $99][9]{#rl30} for a limited time
+  * Doug Finke [will be doing a PowerShell deep dive][10]{#uwre} on March 6th at NYC Code Camp
+  * [You can get a 40% discount][11]{#tnpf} on the forthcoming PowerShell in Practice
+  * CodePlex news: [PowerShell Remote File Explorer][12]{#kmtn} v0.1 just released
 
-Â 
+ 
 
-  * Â 
+  *  
 
 ## Interview
 
-Â 
+ 
 
 
   *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory.*
 
 
-  *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook)Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+  *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
-Â 
+ 
 
 #### Links
 
@@ -86,17 +86,17 @@ _
 
 ## Resources
 
-_This segment is brought to you byÂ _[_SAPIEN Technologies_][13]{#zah2}_._  
+_This segment is brought to you by _[_SAPIEN Technologies_][13]{#zah2}_._  
 _  
 _ 
 
-  * Joel Bennett has created a Yahoo Pipe that combines PowerShell scripts from several RSS feeds into oneÂ [Script Pipe][14]{#hqwb}.
-  * Jeffery HicksÂ [published a whitepaper][15]{#veu6}Â on PowerShell in the Enterprise
+  * Joel Bennett has created a Yahoo Pipe that combines PowerShell scripts from several RSS feeds into one [Script Pipe][14]{#hqwb}.
+  * Jeffery Hicks [published a whitepaper][15]{#veu6} on PowerShell in the Enterprise
   * [PowerWF can now deploy workflows to SCOM][16]{#jc4k}
-  * Chad Miller did a series onÂ [Querying Oracle from PowerShell][17]{#kia5}
-  * New blog:Â [Captain's PowerShell Blog][18]{#w_ep}Â (thx @marcoshaw)
-  * PSTerminalServices -Â [A PowerShell module for Terminal Services][19]{#h26u}
-  * Tobias and new MVP Aleksandar, and Richard Giles just published their huge 38 pg.Â [Administrator's Guide to PowerShell Remoting][20]{#f19t}Â on PowerShell.com
+  * Chad Miller did a series on [Querying Oracle from PowerShell][17]{#kia5}
+  * New blog: [Captain's PowerShell Blog][18]{#w_ep} (thx @marcoshaw)
+  * PSTerminalServices - [A PowerShell module for Terminal Services][19]{#h26u}
+  * Tobias and new MVP Aleksandar, and Richard Giles just published their huge 38 pg. [Administrator's Guide to PowerShell Remoting][20]{#f19t} on PowerShell.com
 
 **  
 ** 
@@ -105,15 +105,15 @@ _
   **Tips**
 
 
-Â 
+ 
 
 
   Our tips are brought to you today by ServerFault and StackOverflow, the best place to find answers to your toughest questions!
 
 
-Â 
+ 
 
-  * Need to prompt a user for information with a GUI dialog box?Â [PowerShell InputBox][21]{#swxq}Â to the rescue!
+  * Need to prompt a user for information with a GUI dialog box? [PowerShell InputBox][21]{#swxq} to the rescue!
 
  [1]: http://powerwf.com/ "PowerWF.com"
  [2]: http://shelltools.wik.is/Portable_PowerShell "Portable PowerShell"

@@ -187,7 +187,7 @@ Subexpressions - "This is some text $($server.name)"
 
 
 
-Â **Thanks for listening! Please send us you feedback.**
+ **Thanks for listening! Please send us you feedback.**
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Happy 4th Birthday PowerGUIÂ®!
+title: Happy 4th Birthday PowerGUI®!
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -12,7 +12,7 @@ Today is [PowerGUI][1]"™s 4th birthday, and what would a birthday be without c
 
 [![image](http://kirkmunro.files.wordpress.com/2011/03/image2.png?w=504&h=316)](http://www.powergui.org/servlet/KbServlet/download/3422-102-5427/1920x1200.jpg)
 
-It"™s hard to believe it"™s been 4 years already since PowerGUI was first made available for download on March 28, 2007.  What an amazing 4 years it has been too! What started out as a free extensible Administrative Console based on Windows PowerShell has grown into an award winning product that also includes a free extensible Script Editor with tons of useful features like Intellisense, syntax highlighting, script snippets, script signing, and many, many more.  There"™s even a Pro version called [PowerGUIÂ® Pro][3] that adds Version Control, Easy Remote Script Execution, and a component called MobileShell that allows you to perform systems management from your handheld device!
+It"™s hard to believe it"™s been 4 years already since PowerGUI was first made available for download on March 28, 2007.  What an amazing 4 years it has been too! What started out as a free extensible Administrative Console based on Windows PowerShell has grown into an award winning product that also includes a free extensible Script Editor with tons of useful features like Intellisense, syntax highlighting, script snippets, script signing, and many, many more.  There"™s even a Pro version called [PowerGUI® Pro][3] that adds Version Control, Easy Remote Script Execution, and a component called MobileShell that allows you to perform systems management from your handheld device!
 
 It"™s been great fun having a direct hand in helping make this happen, but this product would not be what it is today without the support that we have received from the community!  Your feedback and support through our [PowerGUI.org][1] community site, on Twitter, on FaceBook, and blogs and articles around the web has been fantastic and it"™s something that I appreciate every single day!  Thank you for helping this product to continue to grow!
 

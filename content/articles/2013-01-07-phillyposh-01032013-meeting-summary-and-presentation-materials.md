@@ -8,7 +8,7 @@ aliases:
   - /2013/01/phillyposh-01032013-meeting-summary-and-presentation-materials/
 ---
 
-1. User group memberÂ [Greg Martin][1] gave a presentation on Active Directory and PowerShell. A copy of his presentation can be found [here][2] and included the following topics: 
+1. User group member [Greg Martin][1] gave a presentation on Active Directory and PowerShell. A copy of his presentation can be found [here][2] and included the following topics: 
       1. Building a copy of your production AD domain
       2. Notifying users of expiring passwords
       3. Dealing with expired computer accounts

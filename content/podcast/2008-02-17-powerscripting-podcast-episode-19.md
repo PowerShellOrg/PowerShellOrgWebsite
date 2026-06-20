@@ -31,7 +31,7 @@ Windows PowerShell : The Semantic Gap
 
   * New Video Podcast: [
 PowerShell-Basics.com
-][3] This is created by Steve from the A Couple of Admins Podcast.Â  He wanted to create a screencast-only video podcast.Â  His first show should be out by the time you hear this.
+][3] This is created by Steve from the A Couple of Admins Podcast.  He wanted to create a screencast-only video podcast.  His first show should be out by the time you hear this.
 
 ### Cmdlets
 
@@ -58,11 +58,11 @@ Import-Clixml
   * Newsgroup post from Hal: 
       * gscanga writes about his frustration that PowerShell cannot do anything remotely
   * [
-Managing Terminal Services attributes with PowerShell Â« Dmitry"™s PowerBlog: PowerShell and beyond
+Managing Terminal Services attributes with PowerShell « Dmitry"™s PowerBlog: PowerShell and beyond
 ](http://dmitrysotnikov.wordpress.com/2008/02/13/managing-terminal-services-attributes-with-powershell/) Terminal Services properties is definitely a set of properties you would want to bulk-manage, and as we all know PowerShell is the best tool for any bulk operations.
   * [
 10 Cool Things You Can Do with PowerShell
-][4] - I got this from 'Entwickler' on Twitter.Â  Some examples:
+][4] - I got this from 'Entwickler' on Twitter.  Some examples:
 
   1. Report all of the USB devices installed
   2. Background a time-consuming task

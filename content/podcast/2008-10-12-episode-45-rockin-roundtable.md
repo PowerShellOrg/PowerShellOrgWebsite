@@ -69,7 +69,7 @@ Today we have a rockin' roundtable which includes:
 
 
 
-      *What can you really do with PowerShell?Â  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?Â  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.Â  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.Â  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.*
+      *What can you really do with PowerShell?  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.*
 
 
 
@@ -82,19 +82,19 @@ Today we have a rockin' roundtable which includes:
 
 
         - 
-          Be sure to catch the UKÂ [PowerShell UG: November 20th in Reading](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%211806.entry)
+          Be sure to catch the UK [PowerShell UG: November 20th in Reading](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%211806.entry)
 
 
         - 
-          Dmitry will be presenting some PowerShell sessions atÂ [Quest Connect](http://dmitrysotnikov.wordpress.com/2008/10/08/quest-connect/) on OctÂ 22nd-23rd.
+          Dmitry will be presenting some PowerShell sessions at [Quest Connect](http://dmitrysotnikov.wordpress.com/2008/10/08/quest-connect/) on Oct 22nd-23rd.
 
 
         - 
-          New software release onÂ IIS.net:Â [Microsoft Web Deployment Tool - Beta 1 Go Live](http://www.iis.net/downloads/default.aspx?tabid=34&i=1602&g=6)
+          New software release on IIS.net: [Microsoft Web Deployment Tool - Beta 1 Go Live](http://www.iis.net/downloads/default.aspx?tabid=34&i=1602&g=6)
 
 
         - 
-          If you'd like to get an early peek at Richard Siddaway's new bookÂ [
+          If you'd like to get an early peek at Richard Siddaway's new book [
 PowerShell in Practice
 ](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%211783.entry), you can do so on Manning's site.
 
@@ -163,7 +163,7 @@ PowerShell in Practice
             "PowerShell isn't complete?" 
 
 
-                Â noÂ adminÂ worthÂ hisÂ saltÂ isÂ goingÂ toÂ goÂ throughÂ andÂ updateÂ hundredsÂ ofÂ serversÂ withÂ yetÂ anotherÂ thingÂ toÂ patch,Â anotherÂ toÂ mantain,Â anotherÂ securityÂ toÂ worryÂ about,Â reboots,Â touchingÂ things,Â etc,Â justÂ toÂ beÂ ableÂ toÂ runÂ aÂ nonÂ completeÂ technologyÂ thatÂ theyÂ haven'tÂ learnedÂ yetÂ becauseÂ itÂ isÂ aÂ painÂ inÂ theÂ ass,Â andÂ oh,Â it'sÂ notÂ complete
+                 no admin worth his salt is going to go through and update hundreds of servers with yet another thing to patch, another to mantain, another security to worry about, reboots, touching things, etc, just to be able to run a non complete technology that they haven't learned yet because it is a pain in the ass, and oh, it's not complete
 
 
               - 
@@ -212,7 +212,7 @@ missing
 
 
             - 
-              rfoust : ## what is the easiest way for non-developers to find .net methods to work with in powershell? Â searching msdn is a pain
+              rfoust : ## what is the easiest way for non-developers to find .net methods to work with in powershell?  searching msdn is a pain
 
 
             - 
@@ -228,7 +228,7 @@ missing
 
 
             - 
-              rfoust : ## do you see cmdlet naming conflicts becoming a problem in the future? Â not the namespace but the actual cmdlet name
+              rfoust : ## do you see cmdlet naming conflicts becoming a problem in the future?  not the namespace but the actual cmdlet name
 
 
             - 
@@ -274,8 +274,8 @@ missing
 
 
 
-        *This segmentÂ isÂ broughtÂ toÂ youÂ byÂ Idera.
- WantÂ toÂ makeÂ WindowsÂ PowerShellÂ easierÂ thanÂ everÂ toÂ learnÂ andÂ master?Â CheckoutÂ Idera'sÂ PowerShellPlusÂ ProfessionalÂ EditionÂ whichÂ isÂ nowÂ availableÂ forÂ download!Â TheÂ newÂ versionÂ hasÂ vastlyÂ improvedÂ codeÂ completionÂ andÂ aÂ slickÂ interactiveÂ LearningÂ Center.Â GoÂ toÂ www.idera.com/PodcastPeopleÂ toÂ getÂ yourÂ copyÂ today!*
+        *This segment is brought to you by Idera.
+ Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to www.idera.com/PodcastPeople to get your copy today!*
 
 
 
@@ -285,15 +285,15 @@ missing
 
 
               - 
-                From the SAPIEN blog:Â [PrimalScript: Did you know about Snippets?](http://blog.sapien.com/index.php/2008/10/08/primalscript-did-you-know-about-snippets/)
+                From the SAPIEN blog: [PrimalScript: Did you know about Snippets?](http://blog.sapien.com/index.php/2008/10/08/primalscript-did-you-know-about-snippets/)
 
 
               - 
-                New PowerGUI PowerPack:Â [PowerShell for WSUS](http://dmitrysotnikov.wordpress.com/2008/09/30/powershell-for-wsus/)
+                New PowerGUI PowerPack: [PowerShell for WSUS](http://dmitrysotnikov.wordpress.com/2008/09/30/powershell-for-wsus/)
 
 
               - 
-                From Brandon Shell, now writing on TurboChargeAD.org:Â 
+                From Brandon Shell, now writing on TurboChargeAD.org: 
 [Bulking Importing User from CSV file using Quest cmdlets](http://turbochargead.org/articles/index.php/2008/10/bulking-importing-user-from-csv-file-using-quest-cmdlets/#more-85) 
 
 
@@ -381,7 +381,7 @@ net share test2=c:test2 /grant:everyone,full
 
 
 
-When I do the net share command in Powershell, the /Grant returns a syntax error. Â Until I remembered about the comma!!Â  The following works great.
+When I do the net share command in Powershell, the /Grant returns a syntax error.  Until I remembered about the comma!!  The following works great.
 
 
 

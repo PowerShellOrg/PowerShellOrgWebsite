@@ -1,5 +1,5 @@
 ---
-title: PowerGUIÂ® Pro and PowerGUIÂ® 3.0 are now available
+title: PowerGUI® Pro and PowerGUI® 3.0 are now available
 author: Kirk Munro
 authors:
   - Kirk Munro

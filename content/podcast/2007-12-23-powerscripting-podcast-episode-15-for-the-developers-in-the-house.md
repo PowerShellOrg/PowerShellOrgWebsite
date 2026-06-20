@@ -28,7 +28,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### Resources
 
-  * [Expresso Regular Expression Development Tool][8]Very cool tool to create regexes.Â  Free registration required.[![image](http://halr9000.com/stuff/PowerScriptingPodcastEpisode15Forthedeve_C63E/image.png)][8]
+  * [Expresso Regular Expression Development Tool][8]Very cool tool to create regexes.  Free registration required.[![image](http://halr9000.com/stuff/PowerScriptingPodcastEpisode15Forthedeve_C63E/image.png)][8]
 
 ### Tips
 

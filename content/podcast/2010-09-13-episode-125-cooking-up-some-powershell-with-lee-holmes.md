@@ -30,46 +30,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * Breaking news: [Poshcode.org][2]{#cf0f} has been given permission to publish over 100 scripts from Lee Holmes PowerShell Cookbook!
   * [New PowerShell, AD and PowerGui training][3]{#dvpm}
@@ -78,7 +78,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 
 ## Interview
 
-This segment is brought to you byÂ [SAPIEN Technologies][6].
+This segment is brought to you by [SAPIEN Technologies][6].
 
 #### Links
 
@@ -87,13 +87,13 @@ This segment is brought to you byÂ [SAPIEN Technologies][6].
 #### Notable Comments from the Chatroom
 
 
-   ##Right now we are seeing a lot of Connect items for SQL Server being closed as 'fixed in next version'. Â Are any members of the PowerShell team working with the SQL folks in the various areas that would benefit from better PowerShell support like SSIS
+   ##Right now we are seeing a lot of Connect items for SQL Server being closed as 'fixed in next version'.  Are any members of the PowerShell team working with the SQL folks in the various areas that would benefit from better PowerShell support like SSIS
 
 
- ##Good Point. Â What are MSFT thoughts on how to make scheduling PoSh scripts a lot easier for everyone else (it's simple for me, just schedule with SQL Agent)
+ ##Good Point.  What are MSFT thoughts on how to make scheduling PoSh scripts a lot easier for everyone else (it's simple for me, just schedule with SQL Agent)
 
 
-   ##Lee how did you pick what to include in the book. Â Did you have some recipies that you had to cut from the book?
+   ##Lee how did you pick what to include in the book.  Did you have some recipies that you had to cut from the book?
 
 
    ##How excited are you that all your cookbook scripts are about to go up on PoshCode.org?
@@ -102,13 +102,13 @@ This segment is brought to you byÂ [SAPIEN Technologies][6].
    you can tell him you heard a rumor I got permission 😉
 
 
-   ## I love the concept of Invoke-SQLCommand.ps1 but I work in an all Office 2010 environment and it doesn't seem to work with Excel. Â Ist there a easy fix for that?
+   ## I love the concept of Invoke-SQLCommand.ps1 but I work in an all Office 2010 environment and it doesn't seem to work with Excel.  Ist there a easy fix for that?
 
 
    ## Are there any of your scripts which you think really ought to be built-in?
 
 
-Â 
+ 
 
 
   **

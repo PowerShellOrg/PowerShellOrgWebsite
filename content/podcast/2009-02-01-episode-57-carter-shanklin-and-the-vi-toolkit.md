@@ -39,7 +39,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-    *WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+    *When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
  *
 
 
@@ -73,25 +73,25 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
           - 
             [VMware announces](http://blogs.vmware.com/vipowershell/2009/01/vi-toolkit-15-released.html)
 
-version 1.5 of their VI PowerShell toolkit is now out!Â [Download](http://www.vmware.com/sdk/vitk_win/index.html)
+version 1.5 of their VI PowerShell toolkit is now out! [Download](http://www.vmware.com/sdk/vitk_win/index.html)
 
- --Â [Release notes](http://www.vmware.com/support/developer/windowstoolkit/wintk15/windowstoolkit15-200901-releasenotes.html)
+ -- [Release notes](http://www.vmware.com/support/developer/windowstoolkit/wintk15/windowstoolkit15-200901-releasenotes.html)
 
- --Â [intro videos](http://www.vimeo.com/videos/search:vi-toolkit%2015-release) --Â [demo scripts](http://cid-9d77e103d96b1fe8.skydrive.live.com/browse.aspx/Public/PowerShell%20Demos)
+ -- [intro videos](http://www.vimeo.com/videos/search:vi-toolkit%2015-release) -- [demo scripts](http://cid-9d77e103d96b1fe8.skydrive.live.com/browse.aspx/Public/PowerShell%20Demos)
 
 
           - 
             [Don Jones](http://concentratedtech.com/content/)
 
-is working on a new OSS project calledÂ [Cahoots](http://sourceforge.net/projects/cahoots). Please help himÂ [test](http://test.concentratedtech.com/)!
+is working on a new OSS project called [Cahoots](http://sourceforge.net/projects/cahoots). Please help him [test](http://test.concentratedtech.com/)!
 
 
           - 
-            According toÂ [Marco Shaw](http://marcoshaw.blogspot.com/2009/01/microsoft-scripting-games-2009.html) the 2009 Scripting Games will be held this summer
+            According to [Marco Shaw](http://marcoshaw.blogspot.com/2009/01/microsoft-scripting-games-2009.html) the 2009 Scripting Games will be held this summer
 
 
           - 
-            The PowerShell team isÂ [looking for some feedback](http://blogs.msdn.com/powershell/archive/2009/01/12/please-give-us-feedback.aspx)
+            The PowerShell team is [looking for some feedback](http://blogs.msdn.com/powershell/archive/2009/01/12/please-give-us-feedback.aspx)
 
 
           - 
@@ -101,7 +101,7 @@ from the DB4o team with regards to PowerShell support.
 
 
           - 
-            The Micrsofot Clustering & HA teamÂ [recently announced](http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx) their upcoming support for PowerShell in 2008 Server R2. Â Over 30 new cmdlets!
+            The Micrsofot Clustering & HA team [recently announced](http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx) their upcoming support for PowerShell in 2008 Server R2.  Over 30 new cmdlets!
 
 
 
@@ -497,13 +497,13 @@ from the DB4o team with regards to PowerShell support.
 
                               - 
 
-*eJournal:Â [Windows Administration in Realtime](http://nexus.realtimepublishers.com/RTWA.htm), look for the Practical PowerShell columns*
+*eJournal: [Windows Administration in Realtime](http://nexus.realtimepublishers.com/RTWA.htm), look for the Practical PowerShell columns*
 
 
 
                               - 
 
-*In case you missed it Jeffrey Snover was on theÂ [Mind of Root podcast](http://www.mindofroot.com/2009/01/19/episode-83-whos-the-ws-man/) discussing WSMAN
+*In case you missed it Jeffrey Snover was on the [Mind of Root podcast](http://www.mindofroot.com/2009/01/19/episode-83-whos-the-ws-man/) discussing WSMAN
  *
 
 
@@ -516,7 +516,7 @@ from the DB4o team with regards to PowerShell support.
 
                               - 
 
-*[Cool PowerGUI video tutorials](http://www.youtube.com/view_play_list?p=807CCBBC67873456) latest video is onÂ [how to use debugging](http://www.youtube.com/watch?v=jY2pZYxad_0&feature=PlayList&p=807CCBBC67873456&index=5).*
+*[Cool PowerGUI video tutorials](http://www.youtube.com/view_play_list?p=807CCBBC67873456) latest video is on [how to use debugging](http://www.youtube.com/watch?v=jY2pZYxad_0&feature=PlayList&p=807CCBBC67873456&index=5).*
 
 
 
@@ -591,7 +591,7 @@ Write-Host -ForegroundColor Yellow "Modules loaded: $(get-module)"
 
 
 
-                          Our book offer is brought to you by SAPIEN Press. Â You can find information about their books at sapienpress.com.
+                          Our book offer is brought to you by SAPIEN Press.  You can find information about their books at sapienpress.com.
 
 
 
@@ -599,9 +599,9 @@ Write-Host -ForegroundColor Yellow "Modules loaded: $(get-module)"
 
 
 
-                            We're giving away two copies of Hal's upcoming book:Â [Managing VMware Infrastructure with PowerShell: TFM](http://sapienpress.com/vmware.asp). Â If you'd like to win a copy, leave us a review on iTunes, or Podcast Alley, or your own blog, or mention us on your Facebook page or whatever. Send a link toÂ [feedback@powerscripting.net](mailto:feedback@powerscripting.net)
+                            We're giving away two copies of Hal's upcoming book: [Managing VMware Infrastructure with PowerShell: TFM](http://sapienpress.com/vmware.asp).  If you'd like to win a copy, leave us a review on iTunes, or Podcast Alley, or your own blog, or mention us on your Facebook page or whatever. Send a link to [feedback@powerscripting.net](mailto:feedback@powerscripting.net)
 
- and let us know what and where to verify and you are entered to win! Â Be sure to include your mailing address and name.
+ and let us know what and where to verify and you are entered to win!  Be sure to include your mailing address and name.
 
 
 

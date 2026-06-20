@@ -37,7 +37,7 @@ aliases:
 
 
     This segment brought to you by Start-Automating
- Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+ Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
 
@@ -62,8 +62,8 @@ aliases:
 
 
 
-    This segment is brought to you byÂ PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
- At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution.Â [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
+    This segment is brought to you by PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
+ At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
  Links:
 
 
@@ -100,10 +100,10 @@ aliases:
  [21:59]  WPF is .Net 3.0+
  [21:59] <@scriptingwife> @Bartek are you awake?
  [22:02]  ## Any thoughts on the upcoming Build Conference. Rumors on WPF being "upgraded" to DirectUI etc?
- [22:04]  ## Â I'm admin and I want to use WPF. It looks like Win7 element, so users don't feel like in time machine...
+ [22:04]  ##  I'm admin and I want to use WPF. It looks like Win7 element, so users don't feel like in time machine...
  [22:05]  ## Speaking of Windows 8 -- do you think PowerShell + WPF or Winforms can develop apps for the new Direct UI?
- [22:06]  #### Primal for iPad? Â I need to write scripts on the go! 🙂
- [22:08]  ## What do you see as the main use of PrimalForms (or, more generally, of administrators building UI in PowerShell)? Â Is it asking for input? Showing output (charts, graphs)? Interactive apps (twitter, notepad)?
+ [22:06]  #### Primal for iPad?  I need to write scripts on the go! 🙂
+ [22:08]  ## What do you see as the main use of PrimalForms (or, more generally, of administrators building UI in PowerShell)?  Is it asking for input? Showing output (charts, graphs)? Interactive apps (twitter, notepad)?
  [22:08]  ## Any upcoming changes for the #iOS app?
  [22:11]  ##Does PrimalForms integrate with source control?
  [22:17]  ##Will that be ported to Android???

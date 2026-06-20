@@ -219,7 +219,7 @@ PoshRSS -
       Don't forget our challenge from last week. If you submit a solution, we'll feature it on the show and the website, and you'll get a little something for your trouble. 🙂 Here is the email from Dale which we forgot to put in last week's show notes:
  *"While trying to find a solution to a problem that popped up at work, I stumbled upon an open-source dotnet object-oriented database called Db4o. It is intended to be used as an embedded database in programs where some persistent storage is needed, but instead of storing data in related tables, it stores objects.*
 
-*I've tried to access the functions via reflection, but I am just learning Powershell and I don't know if this is the right technique.Â  I haven't gotten very far.*
+*I've tried to access the functions via reflection, but I am just learning Powershell and I don't know if this is the right technique.  I haven't gotten very far.*
 
 
 *I was wondering if you or someone else who listens to the show could take a look at it, and see if it can be useful as an object store in powershell scripts."*

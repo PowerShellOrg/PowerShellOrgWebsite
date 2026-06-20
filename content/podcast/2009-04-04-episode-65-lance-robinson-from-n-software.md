@@ -102,7 +102,7 @@ of their
 
         *When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools!*
  *For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.*
- *Is your scripting might equal to the challenge? Put the power in your hands "“Â [download PowerGUI today*](http://quest.com/powerscripting)*.*
+ *Is your scripting might equal to the challenge? Put the power in your hands "“ [download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 

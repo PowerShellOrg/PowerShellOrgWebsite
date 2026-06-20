@@ -1,5 +1,5 @@
 ---
-title: "PowerGUIÂ® 3.0 Hotfix: Double-clicking on a ps1, psm1, or psd1 file to open the Script Editor shows the Start Page as the active page in the Script Editor"
+title: "PowerGUI® 3.0 Hotfix: Double-clicking on a ps1, psm1, or psd1 file to open the Script Editor shows the Start Page as the active page in the Script Editor"
 author: Kirk Munro
 authors:
   - Kirk Munro

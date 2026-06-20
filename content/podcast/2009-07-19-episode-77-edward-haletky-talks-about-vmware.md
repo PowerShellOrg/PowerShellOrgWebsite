@@ -89,15 +89,15 @@ Interview
 
 
 
-        Edward L. Haletky is the author ofÂ [
+        Edward L. Haletky is the author of [
 
 VMware vSphere(TM) and Virtual Infrastructure Security: Securing the Virtual Environment
 
-](http://www.astroarch.com/wiki/index.php/VMware_Virtual_Infrastructure_Security) as well asÂ [
+](http://www.astroarch.com/wiki/index.php/VMware_Virtual_Infrastructure_Security) as well as [
 
 VMWare ESX Server in the Enterprise: Planning and Securing Virtualization Servers
 
-](http://www.astroarch.com/wiki/index.php/VMWare_ESX_Server_in_the_Enterprise). Edward ownsÂ [
+](http://www.astroarch.com/wiki/index.php/VMWare_ESX_Server_in_the_Enterprise). Edward owns [
 
 AstroArch Consulting, Inc.
 
@@ -235,4 +235,4 @@ by Virtu-Al
 
 
       - 
-        Kirk Munro posted a great article outliningÂ [operator and enclosure precedence](http://poshoholic.com/2009/07/08/essential-powershell-know-your-operator-and-enclosure-precedence/)
+        Kirk Munro posted a great article outlining [operator and enclosure precedence](http://poshoholic.com/2009/07/08/essential-powershell-know-your-operator-and-enclosure-precedence/)

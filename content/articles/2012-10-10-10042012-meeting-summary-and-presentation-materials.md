@@ -17,7 +17,7 @@ Our inaugural meeting was as follows:
   4. Live remoting demo 
       1. See the zip file in the post for a text file of the PowerShell demo
 
-On the topic of deploying a GPO to set your script execution policy, [BhargavÂ Shukla][4] from the [Philadelphia Exchange User Group][5] brought to our attention [KB2467565][6] which address the following issue:Â  Â "You cannot install an update rollup for Exchange Server 2010 with a deployed GPO that defines a PowerShell execution policy for the server to be updated". So if you do set the script execution policy through group policy don"™t apply it to your Exchange 2010 servers!  
+On the topic of deploying a GPO to set your script execution policy, [Bhargav Shukla][4] from the [Philadelphia Exchange User Group][5] brought to our attention [KB2467565][6] which address the following issue:   "You cannot install an update rollup for Exchange Server 2010 with a deployed GPO that defines a PowerShell execution policy for the server to be updated". So if you do set the script execution policy through group policy don"™t apply it to your Exchange 2010 servers!  
 Meeting materials zip file: [PhillyPosh_2012-1004][3]
 
  [1]: http://www.jamsscheduler.com/

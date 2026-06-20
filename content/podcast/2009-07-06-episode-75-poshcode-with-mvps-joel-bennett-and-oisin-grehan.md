@@ -32,10 +32,10 @@ Tonight on the PowerScripting Podcast we talk to PowerShell MVPs Joel Bennett an
 Interview
 
 
-  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ *
+  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to *
 
 
-Â 
+ 
 
 
 
@@ -77,7 +77,7 @@ Interview
       - 
 
 
-          aleksandar:Â [http://karlprosser.com/coder/2009/02/16/searching-poshcode-repository-from-your-desktop-in-windows-7/](http://karlprosser.com/coder/2009/02/16/searching-poshcode-repository-from-your-desktop-in-windows-7/)
+          aleksandar: [http://karlprosser.com/coder/2009/02/16/searching-poshcode-repository-from-your-desktop-in-windows-7/](http://karlprosser.com/coder/2009/02/16/searching-poshcode-repository-from-your-desktop-in-windows-7/)
 
 
 
@@ -127,7 +127,7 @@ Interview
 
 
 
-      9:56 glnsize-1: ## talk about the upcomming module support... can i use poshcode v2 as an svn for my v2 modules. Â Could/should poshcode replace codplex as the goto for big powershell projects.
+      9:56 glnsize-1: ## talk about the upcomming module support... can i use poshcode v2 as an svn for my v2 modules.  Could/should poshcode replace codplex as the goto for big powershell projects.
 
 
 
@@ -156,11 +156,11 @@ Interview
 
 
           - 
-            Â Â  Â Oisin - Johnny Alpha
+                Oisin - Johnny Alpha
 
 
           - 
-            Â Â  Â Joel - Zorro
+                Joel - Zorro
 
 
 
@@ -173,8 +173,8 @@ Interview
 
 
 For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.  
-_Is your scripting might equal to the challenge? Put the power in your hands "“Â _[__Â __][1]Â   
-[__www.idera.com/PodcastPeople__][2]__Â to get your copy today!__
+_Is your scripting might equal to the challenge? Put the power in your hands "“ _[__ __][1]   
+[__www.idera.com/PodcastPeople__][2]__ to get your copy today!__
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-075.mp3
  [2]: http://www.idera.com/PodcastPeople

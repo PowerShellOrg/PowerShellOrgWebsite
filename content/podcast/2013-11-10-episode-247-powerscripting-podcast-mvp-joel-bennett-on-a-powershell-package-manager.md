@@ -32,13 +32,13 @@ aliases:
 
   * 
 
-      [PowerShell Packaging Manager](https://github.com/PoshCode/poshcode)Â (on Github)
+      [PowerShell Packaging Manager](https://github.com/PoshCode/poshcode) (on Github)
 
 
 
   * 
 
-      Compared to:Â [PsGet](http://psget.net/),Â [Chocolatey](http://chocolatey.org/)Â (andÂ [Ep 243](http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/))
+      Compared to: [PsGet](http://psget.net/), [Chocolatey](http://chocolatey.org/) (and [Ep 243](http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/))
 
 
 
@@ -56,7 +56,7 @@ aliases:
 
   * 
 
-      Call for action:Â [Download the beta](https://github.com/PoshCode/poshcode)Â and bang on it!
+      Call for action: [Download the beta](https://github.com/PoshCode/poshcode) and bang on it!
 
 
 
@@ -66,76 +66,76 @@ aliases:
   <14ScriptingWife> ##Does that mean Python instead of PowerShell or in addition to PowerShell
 
 
-  <14gpduck> ## how does updating to a new version work? Â both creating new updated package and installing new package locally?
+  <14gpduck> ## how does updating to a new version work?  both creating new updated package and installing new package locally?
 
 
   <0organicit> ## what the heck is the 10th question?
 
 
-   you can download the script, unblock it, and run it by hand: Â [http://PoshCode.org/Modules/Install.ps1](http://poshcode.org/Modules/Install.ps1)
+   you can download the script, unblock it, and run it by hand:  [http://PoshCode.org/Modules/Install.ps1](http://poshcode.org/Modules/Install.ps1)
 
 
-   Did you guys see the blog I posted today about the new SAPIEN TFM book on PowerShell v4?Â [http://mikefrobbins.com/2013/10/31/windows-powershell-4-0-tfm-book-by-sapien-press/](http://mikefrobbins.com/2013/10/31/windows-powershell-4-0-tfm-book-by-sapien-press/)
+   Did you guys see the blog I posted today about the new SAPIEN TFM book on PowerShell v4? [http://mikefrobbins.com/2013/10/31/windows-powershell-4-0-tfm-book-by-sapien-press/](http://mikefrobbins.com/2013/10/31/windows-powershell-4-0-tfm-book-by-sapien-press/)
 
 
-  Â [http://norcalposh.org](http://norcalposh.org)Â for more details
+   [http://norcalposh.org](http://norcalposh.org) for more details
 
 
-  Â [http://en.wikipedia.org/wiki/Electric_Sheep](http://en.wikipedia.org/wiki/Electric_Sheep)
+   [http://en.wikipedia.org/wiki/Electric_Sheep](http://en.wikipedia.org/wiki/Electric_Sheep)
 
 
-   do check outÂ [http://www.electricsheep.org/](http://www.electricsheep.org/)
+   do check out [http://www.electricsheep.org/](http://www.electricsheep.org/)
 
 
    irm -Uri http://feeds.feedburner.com/PowerScripting | where title -like *joel*bennett* | select title
 
 
-  Â [https://github.com/PoshCode/poshcode](https://github.com/PoshCode/poshcode)
+   [https://github.com/PoshCode/poshcode](https://github.com/PoshCode/poshcode)
 
 
-  Â [http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/](http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/)
+   [http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/](http://powerscripting.wordpress.com/2013/10/01/episode-243-powerscripting-podcast-rob-reynolds-on-puppet-and-chocolatey/)
 
 
-  Â [https://github.com/psget/psget](https://github.com/psget/psget)
+   [https://github.com/psget/psget](https://github.com/psget/psget)
 
 
-  Â [http://psget.net/](http://psget.net/)
+   [http://psget.net/](http://psget.net/)
 
 
-  [Â http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package)
+  [ http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package)
 
 
-  Â [https://powershell.org/tag/dsc/](https://powershell.org/tag/dsc/)
+   [https://powershell.org/tag/dsc/](https://powershell.org/tag/dsc/)
 
 
-   orÂ [https://github.com/powershellorg](https://github.com/powershellorg)
+   or [https://github.com/powershellorg](https://github.com/powershellorg)
 
 
-   Can I do install-moduleÂ [http://bit.ly/pscx](http://bit.ly/pscx)
+   Can I do install-module [http://bit.ly/pscx](http://bit.ly/pscx)
 
 
-  Â [http://www.electricsheep.org/](http://www.electricsheep.org/)
+   [http://www.electricsheep.org/](http://www.electricsheep.org/)
 
 
-  Â [http://en.wikipedia.org/wiki/Electric_Sheep](http://en.wikipedia.org/wiki/Electric_Sheep)
+   [http://en.wikipedia.org/wiki/Electric_Sheep](http://en.wikipedia.org/wiki/Electric_Sheep)
 
 
-  Â [http://www.electricsheep.org/download](http://www.electricsheep.org/download)
+   [http://www.electricsheep.org/download](http://www.electricsheep.org/download)
 
 
-   site seems up now:Â [http://www.electricsheep.org/](http://www.electricsheep.org/)
+   site seems up now: [http://www.electricsheep.org/](http://www.electricsheep.org/)
 
 
-  Â [http://poshcode.org/Modules/Install.ps1](http://poshcode.org/Modules/Install.ps1)
+   [http://poshcode.org/Modules/Install.ps1](http://poshcode.org/Modules/Install.ps1)
 
 
-   these are great:Â [http://en.wikipedia.org/wiki/Raymond_E._Feist#The_Riftwar_Saga](http://en.wikipedia.org/wiki/Raymond_E._Feist#The_Riftwar_Saga)
+   these are great: [http://en.wikipedia.org/wiki/Raymond_E._Feist#The_Riftwar_Saga](http://en.wikipedia.org/wiki/Raymond_E._Feist#The_Riftwar_Saga)
 
 
-  Â [http://www.electricsheep.org/](http://www.electricsheep.org/)
+   [http://www.electricsheep.org/](http://www.electricsheep.org/)
 
 
-  Â [http://www.reddit.com/r/creepy_gif](http://www.reddit.com/r/creepy.gif)
+   [http://www.reddit.com/r/creepy_gif](http://www.reddit.com/r/creepy.gif)
 
 
 The Question - Favorite Book: Asimov"™s Foundation books

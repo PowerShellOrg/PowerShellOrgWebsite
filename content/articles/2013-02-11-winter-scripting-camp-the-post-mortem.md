@@ -33,7 +33,7 @@ Next up, a script with this:
 
 
 `#$script:DebugPreference = "Continue" # debug msgs on
-$script:DebugPreferenceÂ =Â Â "SilentlyContinue"Â # debug msgs off
+$script:DebugPreference =  "SilentlyContinue" # debug msgs off
 `This only bugged me because this was in a script that contained a function; the function implemented [CmdletBinding()]. That means the function would suppress Write-Debug by default, and enable it when run with -Debug. Never a need to mess with those preference variables in an advanced function.
 
 ## Redundant Code
@@ -41,7 +41,7 @@ $script:DebugPreferenceÂ =Â Â "SilentlyContinue"Â # debug msgs off
 I noticed this:
 
 
-`END{Clear-VariableÂ -NameÂ obj}
+`END{Clear-Variable -Name obj}
 `Nothing wrong with that, but it's redundant. The variable $obj was created inside the function; PowerShell deletes the variable when its enclosing scope is destroyed. So the END block is just unnecessary code and an unnecessary step - forcing the shell to delete something before removing the scope, which would have deleted it anyway.
 
 ## No Examples?
@@ -59,17 +59,17 @@ I'm gonna get a class of whiskey. Be right back.
 Ah, that's better. Next up is this:
 
 
-`[Parameter(Mandatory=$true,Â ValueFromPipeline=$true)][string[]]$ComputerNames
+`[Parameter(Mandatory=$true, ValueFromPipeline=$true)][string[]]$ComputerNames
 `Try to stay consistent with PowerShell's own naming. Look at Get-WmiObject. What parameter does it use to accept computer names? -ComputerName. Not -ComputerNames. So your commands should all use -ComputerName, even if they're accepting more than one computer name. Keep your public interface - your parameter and command names - consistent.
 
 ## You're Not an Accumulator
 
 
-`beginÂ { Â Â Â Â Â Â Â Â $resultsÂ =Â @() Â Â Â Â }
+`begin {         $results = @()     }
 process { $results += # whatever }
-endÂ {
-Â Â Â Â Â Â Â Â $resultsÂ |Â Format-TableÂ -AutoSize
-Â Â Â Â }
+end {
+        $results | Format-Table -AutoSize
+    }
 `Ouch. Don't like to see this. The purpose of the pipeline is to accumulate output - you shouldn't be building internal arrays to do that. And you also shouldn't ever, ever, ever, ever, almost ever use a Format command in your function. When you do that, you're preventing me from piping the output of your command to a CSV, or to XML, or into a GridView, or anyplace else. You've made your command non-reusable outside of your original scenario, a very poor programming practice. Just use Write-Output to write objects to the pipeline, and let the shell handle it from there.
 
 ## $Args[0]

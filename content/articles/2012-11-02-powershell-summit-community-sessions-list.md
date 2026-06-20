@@ -8,13 +8,13 @@ aliases:
   - /2012/11/powershell-summit-community-sessions-list/
 ---
 
-[Update: April 19, 2013] **Important Note:** Due to some last minute schedule changes for some of our speakers, several of the sessions below were replaced with other sessions. Â To see the final list of sessions offered at the 2013 PowerShell Summit, please visit this page:Â <https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/>{.vt-p}
+[Update: April 19, 2013] **Important Note:** Due to some last minute schedule changes for some of our speakers, several of the sessions below were replaced with other sessions.  To see the final list of sessions offered at the 2013 PowerShell Summit, please visit this page: <https://powershell.org/2013/04/19/powershell-summit-2013-conference-schedule/>{.vt-p}
 
-After almost 100 people voted for the sessions they would like to see the most at the [2013 PowerShell Summit][1]{.vt-p}, the results are in!Â  These votes are for the sessions chosen by the community, and additional sessions from the PowerShell Team will be announced at a later date (as soon as I have them).
+After almost 100 people voted for the sessions they would like to see the most at the [2013 PowerShell Summit][1]{.vt-p}, the results are in!  These votes are for the sessions chosen by the community, and additional sessions from the PowerShell Team will be announced at a later date (as soon as I have them).
 
-Below you will find the not-quite-finalized list of community sessions that will be included in the 2013 PowerShell Summit, sorted alphabetically by speaker.Â  It is not quite finalized because I am still awaiting final confirmation from a handful of speakers (those marked with an asterisk).Â  I will update this post as the final confirmations come in.
+Below you will find the not-quite-finalized list of community sessions that will be included in the 2013 PowerShell Summit, sorted alphabetically by speaker.  It is not quite finalized because I am still awaiting final confirmation from a handful of speakers (those marked with an asterisk).  I will update this post as the final confirmations come in.
 
-Thank you to everyone who submitted a session proposal for this conference.Â  There were a lot of great proposals this year, and I personally think no matter which sessions were voted for, the conference would have been fantastic.Â  Also thank you to anyone who took the time to vote for their favorite sessions.Â  Your votes really helped us a lot here, both for the upcoming 2013 conference and for conferences we"™ll be planning in the future too!
+Thank you to everyone who submitted a session proposal for this conference.  There were a lot of great proposals this year, and I personally think no matter which sessions were voted for, the conference would have been fantastic.  Also thank you to anyone who took the time to vote for their favorite sessions.  Your votes really helped us a lot here, both for the upcoming 2013 conference and for conferences we"™ll be planning in the future too!
 
 If you would like to attend this conference so that you can learn from these great sessions and others that are not yet announced, and so that you can participate in the fantastic conversations that happen at such an event, you can purchase your ticket here: <https://powershell.org/summit/>{.vt-p}.
 

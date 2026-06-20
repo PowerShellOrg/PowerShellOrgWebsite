@@ -8,7 +8,7 @@ aliases:
   - /2012/01/up-next-matt-graeber-and-powersyringe/
 ---
 
-Matt Graeber ([@mattifestation][1]), an aspiring security researcher, Â joins us to talk about PowerSyringe. [PowerSyringe][2] is PowerShell-Based Code/DLL Injection Utility. Please join us Thursday January 26th at 9:30 pm EDT at our new and permanent live chat location [live.powerscripting.net!][3]
+Matt Graeber ([@mattifestation][1]), an aspiring security researcher,  joins us to talk about PowerSyringe. [PowerSyringe][2] is PowerShell-Based Code/DLL Injection Utility. Please join us Thursday January 26th at 9:30 pm EDT at our new and permanent live chat location [live.powerscripting.net!][3]
 
 
   ![](http://powerscripting.files.wordpress.com/2012/01/powersyringe.png?w=300)

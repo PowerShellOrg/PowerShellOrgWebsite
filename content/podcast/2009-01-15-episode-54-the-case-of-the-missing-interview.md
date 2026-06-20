@@ -14,7 +14,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-Â 
+ 
 
 
 
@@ -47,11 +47,11 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
           - 
-            PowerShell CTP3Â [was released](http://blogs.msdn.com/powershell/archive/2008/12/23/early-christmas-present-from-powershell-team-community-technology-preview-3-ctp3-of-windows-powershell-v2.aspx)!
+            PowerShell CTP3 [was released](http://blogs.msdn.com/powershell/archive/2008/12/23/early-christmas-present-from-powershell-team-community-technology-preview-3-ctp3-of-windows-powershell-v2.aspx)!
 
 
           - 
-            Jeffrey Snover will be on theÂ [
+            Jeffrey Snover will be on the [
 Mind of Root
 ](http://mindofroot.com/) podcast next Wednesday to talk about WSMAN and WinRM
 
@@ -76,11 +76,11 @@ PowerShell Analyzer to support CTP3
 
 
           - 
-            Not to be outdone, PrimalScript 2009Â [is just a month away](http://hosted.verticalresponse.com/172892/3e2a4f0323/176000219/56208e9fa1/).
+            Not to be outdone, PrimalScript 2009 [is just a month away](http://hosted.verticalresponse.com/172892/3e2a4f0323/176000219/56208e9fa1/).
 
 
           - 
-            Twitter has just taken off for PowerShell since Jeffrey SnoverÂ [joined up](http://twitter.com/jsnover)
+            Twitter has just taken off for PowerShell since Jeffrey Snover [joined up](http://twitter.com/jsnover)
 
  and Steve Murawski started tracking "[PowerShell Twitterers](http://www.mindofroot.com/powershell-twitterers/)".
 
@@ -88,7 +88,7 @@ PowerShell Analyzer to support CTP3
           - 
             [Joel Bennett](http://huddledmasses.org/)
 
-has released a new project calledÂ [PowerBoots](http://huddledmasses.org/powerboots/). He's also posted a neatÂ [video walkthrough](http://huddledmasses.org/powerboots-tutorial-walkthrough/).
+has released a new project called [PowerBoots](http://huddledmasses.org/powerboots/). He's also posted a neat [video walkthrough](http://huddledmasses.org/powerboots-tutorial-walkthrough/).
 
 
 
@@ -115,7 +115,7 @@ has released a new project calledÂ [PowerBoots](http://huddledmasses.org/power
 
 
             *
-WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
 
 
 Is your scripting might equal to the challenge? Put the power in your hands "“ 
@@ -139,13 +139,13 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 [Joe Pruitt](http://devcentral.f5.com/weblogs/Joe/Default.aspx)
 
-has been rocking with a great series calledÂ [PowerShell ABCs](http://technorati.com/tag/PowerShell%20ABCs). He's already up to N!
+has been rocking with a great series called [PowerShell ABCs](http://technorati.com/tag/PowerShell%20ABCs). He's already up to N!
 
 
 
             - 
 
-[CTP3] [Thomas Lee](http://tfl09.blogspot.com/) hasÂ [made a cool web service script](http://powershell.com/cs/media/p/692.aspx)
+[CTP3] [Thomas Lee](http://tfl09.blogspot.com/) has [made a cool web service script](http://powershell.com/cs/media/p/692.aspx)
 
  that uses the V2 cmdlet: New-WebServiceProxy
 
@@ -153,25 +153,25 @@ has been rocking with a great series calledÂ [PowerShell ABCs](http://technora
 
             - 
 
-Steve Murawski has made it easy toÂ [follow the PowerShell twitterers](http://www.mindofroot.com/2008/12/26/are-you-following-the-powershell-twitterers/)
+Steve Murawski has made it easy to [follow the PowerShell twitterers](http://www.mindofroot.com/2008/12/26/are-you-following-the-powershell-twitterers/)
 
 
 
             - 
 
-James Brundage hasÂ [posted a CTP2 to CTP3 conversion guide](http://blogs.msdn.com/powershell/archive/2008/12/24/windows-powershell-ctp2-to-ctp3-conversion-guide.aspx)
+James Brundage has [posted a CTP2 to CTP3 conversion guide](http://blogs.msdn.com/powershell/archive/2008/12/24/windows-powershell-ctp2-to-ctp3-conversion-guide.aspx)
 
 
 
             - 
 
-Play with PowerShell V1 in aÂ [TechNet virtual lab](http://blogs.msdn.com/powershell/archive/2008/12/24/experiment-with-powershell-v1-without-installing-it.aspx)
+Play with PowerShell V1 in a [TechNet virtual lab](http://blogs.msdn.com/powershell/archive/2008/12/24/experiment-with-powershell-v1-without-installing-it.aspx)
 
 
 
             - 
 
-PowerShell ISEÂ [can do more than you think](http://blogs.msdn.com/powershell/archive/2008/12/29/powershell-ise-can-do-a-lot-more-than-you-think.aspx)
+PowerShell ISE [can do more than you think](http://blogs.msdn.com/powershell/archive/2008/12/29/powershell-ise-can-do-a-lot-more-than-you-think.aspx)
 
 
 
@@ -221,7 +221,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-            Â 
+             
 
 
 
@@ -254,7 +254,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-        Â 
+         
 
 
 

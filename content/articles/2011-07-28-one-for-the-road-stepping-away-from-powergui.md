@@ -1,5 +1,5 @@
 ---
-title: "One for the road: Stepping away from PowerGUIÂ®"
+title: "One for the road: Stepping away from PowerGUI®"
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -8,7 +8,7 @@ aliases:
   - /2011/07/one-for-the-road-stepping-away-from-powergui/
 ---
 
-Today was one of my most difficult days in my 7Â½+ year career at Quest Software.  The same week that I was given a performance raise (I got that email on Monday), this afternoon I got a phone call from the director over my business unit letting me know that my position has been cut effective immediately.  Part of a book balancing effort it seems –  funny (or not so much) how life works sometimes.
+Today was one of my most difficult days in my 7½+ year career at Quest Software.  The same week that I was given a performance raise (I got that email on Monday), this afternoon I got a phone call from the director over my business unit letting me know that my position has been cut effective immediately.  Part of a book balancing effort it seems –  funny (or not so much) how life works sometimes.
 
 I"™ve accomplished a lot while working at Quest, and spent a ton of professional and personal energy on the company and its products, particularly [PowerGUI][1] (far too much energy if you ask my wife, and today I must say I"™m tending to agree).
 

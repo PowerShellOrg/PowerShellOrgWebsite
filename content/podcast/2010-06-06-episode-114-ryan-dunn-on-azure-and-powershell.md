@@ -48,7 +48,7 @@ Tonight on the PowerScripting Podcast we talk to Ryan Dunn about managing Azure 
 
         *
 
-PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â Get a live demo and meet the PowerWF development team at Tech-Ed.Â  Or download a 30 day trial today atÂ [PowerWF.com](http://powerwf.com/)
+PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  Get a live demo and meet the PowerWF development team at Tech-Ed.  Or download a 30 day trial today at [PowerWF.com](http://powerwf.com/)
 
 *
 
@@ -141,7 +141,7 @@ Gather SQL Server Performance Data with PowerShell
 
         *
 
-Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy orÂ [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy or [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 *
 
@@ -158,27 +158,27 @@ Links
 
 
         - 
-          Azure Cmdlets:Â [http://code.msdn.microsoft.com/azurecmdlets](http://code.msdn.microsoft.com/azurecmdlets)
+          Azure Cmdlets: [http://code.msdn.microsoft.com/azurecmdlets](http://code.msdn.microsoft.com/azurecmdlets)
 
 
         - 
-          Azure Management Tool:Â [http://code.msdn.microsoft.com/windowsazuremmc](http://code.msdn.microsoft.com/windowsazuremmc)
+          Azure Management Tool: [http://code.msdn.microsoft.com/windowsazuremmc](http://code.msdn.microsoft.com/windowsazuremmc)
 
 
         - 
-          CloudDrive:Â [http://clouddrive.codeplex.com/](http://clouddrive.codeplex.com/)
+          CloudDrive: [http://clouddrive.codeplex.com/](http://clouddrive.codeplex.com/)
 
 
         - 
-          Blog:Â [http://dunnry.com](http://dunnry.com/blog/)
+          Blog: [http://dunnry.com](http://dunnry.com/blog/)
 
 
         - 
-          Twitter:Â [http://twitter.com/dunnry](http://twitter.com/dunnry)
+          Twitter: [http://twitter.com/dunnry](http://twitter.com/dunnry)
 
 
         - 
-          Cloud Cover Show:Â [http://channel9.msdn.com/shows/Cloud+Cover/](http://channel9.msdn.com/shows/Cloud+Cover/)
+          Cloud Cover Show: [http://channel9.msdn.com/shows/Cloud+Cover/](http://channel9.msdn.com/shows/Cloud+Cover/)
 
 
 
@@ -215,7 +215,7 @@ Questions
 
 
         - 
-           ## does he share his scripts like the PDC one? Â the bootstrapper?
+           ## does he share his scripts like the PDC one?  the bootstrapper?
 
 
         - 
@@ -233,7 +233,7 @@ Questions
            ## Will the Azure cmdlets work with MSBuild 4.0? 
 
 
-              See Scott Densmore's blog:Â [http://scottdensmore.typepad.com/](http://scottdensmore.typepad.com/) |Â [http://blogs.msdn.com/b/scottdensmore/](http://blogs.msdn.com/b/scottdensmore/)
+              See Scott Densmore's blog: [http://scottdensmore.typepad.com/](http://scottdensmore.typepad.com/) | [http://blogs.msdn.com/b/scottdensmore/](http://blogs.msdn.com/b/scottdensmore/)
 
 
 

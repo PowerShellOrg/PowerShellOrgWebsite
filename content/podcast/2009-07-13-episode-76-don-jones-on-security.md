@@ -50,7 +50,7 @@ News
 
 
   - 
-    Community member Cody from Baton Rouge wants to start up a PowerShell script club. Â Discuss it atÂ [PoshComm](http://powershellcommunity.org/tabid/54/aff/18/afv/topic/aft/4003/Default.aspx).
+    Community member Cody from Baton Rouge wants to start up a PowerShell script club.  Discuss it at [PoshComm](http://powershellcommunity.org/tabid/54/aff/18/afv/topic/aft/4003/Default.aspx).
 
 
 
@@ -79,7 +79,7 @@ Interview
 
 
       - 
-        Concentrated Tech:Â [http://concentratedtech.com/](http://concentratedtech.com/)
+        Concentrated Tech: [http://concentratedtech.com/](http://concentratedtech.com/)
 
 
 
@@ -110,7 +110,7 @@ Interview
 
 
       - 
-        slipsec: ## what's "bypass" Â [enum]::getvalues([Microsoft.PowerShell.ExecutionPolicy])UnrestrictedRemoteSignedAllSignedRestrictedRestrictedBypass
+        slipsec: ## what's "bypass"  [enum]::getvalues([Microsoft.PowerShell.ExecutionPolicy])UnrestrictedRemoteSignedAllSignedRestrictedRestrictedBypass
 
 
       - 
@@ -177,7 +177,7 @@ into PowerShell security
 
 
   - 
-    Jeff Hicks has a new blog:Â [http://jdhitsolutions.blogspot.com/](http://jdhitsolutions.blogspot.com/)
+    Jeff Hicks has a new blog: [http://jdhitsolutions.blogspot.com/](http://jdhitsolutions.blogspot.com/)
 
 
   - 

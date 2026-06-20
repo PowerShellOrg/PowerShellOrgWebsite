@@ -22,7 +22,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-Today on the PowerScripting Podcast we will be speaking Alex Riedel, lead developer for PrimalScript at SAPIEN Technologies.Â  While he was on he gave away a bunch of [great prizes](http://blog.sapien.com/index.php/2008/08/29/podcast-interview-and-prizes/) to the people on Ustream (see what you missed?) We also have a contest for a copy of PrimalScript at the end of the show if you missed it live.
+Today on the PowerScripting Podcast we will be speaking Alex Riedel, lead developer for PrimalScript at SAPIEN Technologies.  While he was on he gave away a bunch of [great prizes](http://blog.sapien.com/index.php/2008/08/29/podcast-interview-and-prizes/) to the people on Ustream (see what you missed?) We also have a contest for a copy of PrimalScript at the end of the show if you missed it live.
 
 
 
@@ -45,7 +45,7 @@ Today on the PowerScripting Podcast we will be speaking Alex Riedel, lead develo
 
 
     - 
-      [PowerShellizing Facebook Â« Dmitry"™s PowerBlog: PowerShell and beyond](http://dmitrysotnikov.wordpress.com/2008/08/14/powershellizing-facebook/#comment-4207)
+      [PowerShellizing Facebook « Dmitry"™s PowerBlog: PowerShell and beyond](http://dmitrysotnikov.wordpress.com/2008/08/14/powershellizing-facebook/#comment-4207)
 
 
 
@@ -91,7 +91,7 @@ Today on the PowerScripting Podcast we will be speaking Alex Riedel, lead develo
 
     *This segment is brought to you by iTripoli!*
  *
- What can you really do with PowerShell?Â  With Admin Script Editor the question becomes what **can't** you do with PowerShell?Â  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.Â  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.Â  Check it out at [adminscripteditor.com/player](http://adminscripteditor.com/player).*
+ What can you really do with PowerShell?  With Admin Script Editor the question becomes what **can't** you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at [adminscripteditor.com/player](http://adminscripteditor.com/player).*
  We had a great talk with Alex Riedel, listen to the show to hear it!
 
 

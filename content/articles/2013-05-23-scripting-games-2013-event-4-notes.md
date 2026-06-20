@@ -9,4 +9,4 @@ aliases:
 ---
 
 It is all downhill from here folks! Event 4 is in the books and we only have 2 more to go! Everyone has been doing an outstanding job with their submissions and it is becoming clear that people are learning new things and showing some great techniques with their code.  
-Of course, thisÂ doesn'tÂ mean that thereÂ isn'tÂ room for improvement with some submissions to make them even better or just some simple mistakes that can be cleaned up to make average submissions into amazing submissions. With that, its time to dive into my notes"¦ You can check out the rest of this article [here](http://learn-powershell.net/2013/05/23/scripting-games-2013-event-4-notes/).
+Of course, this doesn't mean that there isn't room for improvement with some submissions to make them even better or just some simple mistakes that can be cleaned up to make average submissions into amazing submissions. With that, its time to dive into my notes"¦ You can check out the rest of this article [here](http://learn-powershell.net/2013/05/23/scripting-games-2013-event-4-notes/).

@@ -44,7 +44,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-      *This segment is brought to you byÂ [SAPIEN Technologies](http://sapien.com/).*
+      *This segment is brought to you by [SAPIEN Technologies](http://sapien.com/).*
 
 
 
@@ -64,11 +64,11 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
         - 
-          ["I Love PowerShell" ](http://ye110beard.spaces.live.com/blog/cns!952F95CB5DE3F349!1610.entry)song byÂ [ye110beard](http://friendfeed.com/ye110wbeard)
+          ["I Love PowerShell" ](http://ye110beard.spaces.live.com/blog/cns!952F95CB5DE3F349!1610.entry)song by [ye110beard](http://friendfeed.com/ye110wbeard)
 
 
         - 
-          A PowerShell V2 book is on the wayÂ ["Windows PowerShell 2.0 Administrator's Pocket Consultant"](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2009/03/05/upcoming-book-windows-powershell-2-0-administrator-s-pocket-consultant.aspx)
+          A PowerShell V2 book is on the way ["Windows PowerShell 2.0 Administrator's Pocket Consultant"](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2009/03/05/upcoming-book-windows-powershell-2-0-administrator-s-pocket-consultant.aspx)
 
 
         - 
@@ -76,7 +76,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
         - 
-          Thomas Lee has aÂ [link on his blog](http://tfl09.blogspot.com/) to a $50 off deal on PowerShell Plus Professional Edition
+          Thomas Lee has a [link on his blog](http://tfl09.blogspot.com/) to a $50 off deal on PowerShell Plus Professional Edition
 
 
         - 
@@ -84,11 +84,11 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
         - 
-          TimeTag time series database hasÂ [a new blog](http://blog.timetag.net/) and is[approaching beta release](http://blog.timetag.net/timetag-alpha-13-release/)
+          TimeTag time series database has [a new blog](http://blog.timetag.net/) and is[approaching beta release](http://blog.timetag.net/timetag-alpha-13-release/)
 
 
         - 
-          [PowerGUI VMware PowerPack v2.1.5 released](http://poshoholic.com/2009/03/09/vmware-infrastructure-powerpack-2-1-5-released/) (thxÂ [Virtu-Al](http://www.virtu-al.net/2009/03/09/powergui-vmware-powerpack-215-released/)) 
+          [PowerGUI VMware PowerPack v2.1.5 released](http://poshoholic.com/2009/03/09/vmware-infrastructure-powerpack-2-1-5-released/) (thx [Virtu-Al](http://www.virtu-al.net/2009/03/09/powergui-vmware-powerpack-215-released/)) 
 
             ![](https://docs.google.com/a/powerscripting.net/File?id=dgxpvkr_14hc9cjrhj_b)
 
@@ -120,7 +120,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
             - 
-              ustreamer-22944 : #Question: Has Jeff mastered Black Hole Sun at Hard level on Rock Band yet? Â 🙂
+              ustreamer-22944 : #Question: Has Jeff mastered Black Hole Sun at Hard level on Rock Band yet?  🙂
 
 
             - 
@@ -174,27 +174,27 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
             - 
-              Keith Hill has taken his Effective PowerShell blog posts and turned them into an ebook that he hasÂ [posted for free](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!6930.entry)
+              Keith Hill has taken his Effective PowerShell blog posts and turned them into an ebook that he has [posted for free](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!6930.entry)
 
 
             - 
-              Joel Bennett has put upÂ [a short guide](http://huddledmasses.org/a-guide-to-advanced-functions/) on how to get started writing Advanced Functions in PowerShell v2.
+              Joel Bennett has put up [a short guide](http://huddledmasses.org/a-guide-to-advanced-functions/) on how to get started writing Advanced Functions in PowerShell v2.
 
 
             - 
-              As Ferdinand mentioned in the interview here is a post aboutÂ [iPowerShell the first iPhone app for PowerShell](http://blog.sapien.com/index.php/2009/03/03/ipowershell-brings-powershell-help-to-iphone/)
+              As Ferdinand mentioned in the interview here is a post about [iPowerShell the first iPhone app for PowerShell](http://blog.sapien.com/index.php/2009/03/03/ipowershell-brings-powershell-help-to-iphone/)
 
 
             - 
-              Hal put upÂ [a neat script](http://halr9000.com/article/706) (v2 required) that will copy files with the familiar GUI progress window
+              Hal put up [a neat script](http://halr9000.com/article/706) (v2 required) that will copy files with the familiar GUI progress window
 
 
             - 
-              From the Active Directory PowerShell Blog comes aÂ [great overview of the new AD cmdlets in V2](http://blogs.msdn.com/adpowershell/archive/2009/03/05/active-directory-powershell-overview.aspx)
+              From the Active Directory PowerShell Blog comes a [great overview of the new AD cmdlets in V2](http://blogs.msdn.com/adpowershell/archive/2009/03/05/active-directory-powershell-overview.aspx)
 
 
             - 
-              Jeff Hicks recently wroteÂ [an article introducing PolyMonRT](http://redmondmag.com/columns/article.asp?EditorialsID=3009)
+              Jeff Hicks recently wrote [an article introducing PolyMonRT](http://redmondmag.com/columns/article.asp?EditorialsID=3009)
 
 
 
@@ -256,7 +256,7 @@ fsutil file createnew c:tempfoo.bar $(1mb)
 
 
             - 
-              Hal talks aboutÂ [WMI job status](http://halr9000.com/article/703) in version 2
+              Hal talks about [WMI job status](http://halr9000.com/article/703) in version 2
 
 
 
@@ -274,7 +274,7 @@ fsutil file createnew c:tempfoo.bar $(1mb)
 
 > 
 
-"I'm a big fan of the show. Â It has been very helpful to me in my quest
+"I'm a big fan of the show.  It has been very helpful to me in my quest
 
 
 
@@ -289,17 +289,17 @@ I just finished listening to Episode 61 and wanted to comment on the
 
 
 
-discussion regarding disk alignment. Â I too had never heard of disk
+discussion regarding disk alignment.  I too had never heard of disk
 
 
 
 
-alignment until LogicsOne told us about it a couple years ago. Â Since
+alignment until LogicsOne told us about it a couple years ago.  Since
 
 
 
 
-then aligning disks has been a part of our VM build process. Â You can
+then aligning disks has been a part of our VM build process.  You can
 
 
 

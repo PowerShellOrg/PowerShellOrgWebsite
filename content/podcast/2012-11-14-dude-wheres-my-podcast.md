@@ -12,7 +12,7 @@ With Thanksgiving and Christmas coming up I thought I would put up a quick post 
 11/8 - with Dave Kennedy (post production slowed by illness, I'm hoping to post it this week)  
 11/15 - no show (Hal is traveling)  
 11/22 - no show (Thanksgiving in the US)  
-11/29 -Â Oisin and Keith talk about PSX  
-If that's not enough PowerShell audio for you please check out the [Get-Scripting Podcast][1]Â if you haven't already. Jonathan Medd and Alan Renouf put out some good stuff.
+11/29 - Oisin and Keith talk about PSX  
+If that's not enough PowerShell audio for you please check out the [Get-Scripting Podcast][1] if you haven't already. Jonathan Medd and Alan Renouf put out some good stuff.
 
  [1]: http://get-scripting.blogspot.com/

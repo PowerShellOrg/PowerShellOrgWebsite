@@ -10,7 +10,7 @@ aliases:
 
 [Jeff Hicks][1] (Microsoft MVP and [Author][2]) gave a presentation on "Getting Started with PowerShell Advanced Functions". You can download the presentation and example scripts [here][3] and watch a recording of the presentation below on our [YouTube channel][4].  
 [youtube_sc url="http://www.youtube.com/watch?v=77VbOO14DFE&feature=youtu.be"]  
-You can keep up with Jeff at his [blog][5], on [Twitter,Â ][6]and on [Google Plus][7]  
+You can keep up with Jeff at his [blog][5], on [Twitter, ][6]and on [Google Plus][7]  
 We would also like to thank [Interfacett][8] and [Powershell.org][9] for providing funding for this meeting!
 
  [1]: http://jdhitsolutions.com/

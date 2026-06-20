@@ -34,33 +34,33 @@ Listen:
   *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory.*
 
 
-  *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook)Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+  *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
-Â 
+ 
 
   * User Group News! 
-      * UKÂ [Virtual PowerShell User Group has a meeting][1]{#gsh5}Â on March 2nd (You can check out the February meeting recordingÂ [here][2]{#m0ys})
+      * UK [Virtual PowerShell User Group has a meeting][1]{#gsh5} on March 2nd (You can check out the February meeting recording [here][2]{#m0ys})
       * [Atlanta PowerShell User Group - first meeting March 16!][3]{#z2af}
-      * [New York City comes online][4]{#t.vx}Â on the same day!
-  * Hal'sÂ [PowerCLI video training course][5]{#kmpz}Â is now available
+      * [New York City comes online][4]{#t.vx} on the same day!
+  * Hal's [PowerCLI video training course][5]{#kmpz} is now available
   * [Jonathan and Al recently interviewed Luc Dekens on the Get-Scripting Podcast][6]{#o_ro}
-  * [PowerShell V2 training][7]{#udfc}Â May 17-21 with Don Jones in Seattle, WA
+  * [PowerShell V2 training][7]{#udfc} May 17-21 with Don Jones in Seattle, WA
 
-Â Â Â 
+   
 
 ## Interview
 
-_This segment is brought to you byÂ _[_SAPIEN Technologies_][8]{#zah2}_._
+_This segment is brought to you by _[_SAPIEN Technologies_][8]{#zah2}_._
 
 ## Resources
 
-  * [Download all our episodes][9]{#zz63}Â with PowerShell and BITS
+  * [Download all our episodes][9]{#zz63} with PowerShell and BITS
   * [TechNet Virtual Lab: Windows Server 2008 R2: Server Management and PowerShell V2][10]{#ftyi}
   * [Script to download PowerGUI, Primal Forms and Quest AD cmdlets automatically][11]{#d87q}
-  * The SharePoint Mad Scientist has aÂ [cheat sheet with the new SP2010 cmdlets][12]{#av.y}
-  * Jeffery Hicks has aÂ [script for profiling scripts][13]{#e7-u}
-  * Did you know you canÂ [connect to a mySQL database from PowerShell][14]{#hy4-}?
+  * The SharePoint Mad Scientist has a [cheat sheet with the new SP2010 cmdlets][12]{#av.y}
+  * Jeffery Hicks has a [script for profiling scripts][13]{#e7-u}
+  * Did you know you can [connect to a mySQL database from PowerShell][14]{#hy4-}?
 
 **  
 ** 
@@ -69,17 +69,17 @@ _This segment is brought to you byÂ _[_SAPIEN Technologies_][8]{#zah2}_._
   **Tips**
 
 
-Â 
+ 
 
 
   Our tips are brought to you today by ServerFault and StackOverflow, the best place to find answers to your toughest questions!
 
 
-Â 
+ 
 
-  * Hal tells how toÂ [speed up your PowerCLI login][15]{#re0w}
+  * Hal tells how to [speed up your PowerCLI login][15]{#re0w}
   * [Out-GridView Dirty Tricks][16]{#iman}
-  * [Make PowerShell your default shell][17]{#zse2}Â in Server Core 2008 R2
+  * [Make PowerShell your default shell][17]{#zse2} in Server Core 2008 R2
 
  [1]: http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2738.entry "Virtual PowerShell User Group has a meeting"
  [2]: http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2752.entry "here"

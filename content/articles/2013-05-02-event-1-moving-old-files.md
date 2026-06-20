@@ -8,14 +8,14 @@ aliases:
   - /2013/05/event-1-moving-old-files/
 ---
 
-As a celebrity judge, I'm not required to blog "“ I'm just here for my good looks :> -- but I'm having a great time reading the blogs posted by the Expert Judges about the [Event #1][1] candidate solutions.Â  Much of the judging is subjective, but I'll add the criteria that I use to distinguish a working solution from a great solution.  
+As a celebrity judge, I'm not required to blog "“ I'm just here for my good looks :> -- but I'm having a great time reading the blogs posted by the Expert Judges about the [Event #1][1] candidate solutions.  Much of the judging is subjective, but I'll add the criteria that I use to distinguish a working solution from a great solution.  
 Before I do, though, I want to congratulate everyone who submitted an entry. Most of the entries work and you probably learned just from playing with the challenge. Keep it up and come back year after year.  
 One hint to everyone: **TEST!** Most of the entries work, but many fail if the directory for the application (e.g. App1 in \\NASServer\Archives\App1) does not already exist. And, a few fail with regular expression errors on the Replace operator (more in the blog). There are lots of great test strategies, but you can just run your code on file in your own directories or step through the code in the Windows PowerShell ISE debugger.
 
 ## Get-Help: An Archival Atrocity
 
 Let's start with a quick review of the event challenge. You can read the beginner challenge [here][1].  
-Basically, the task is to move log files older than 90 days old from their current locations in application-specific subdirectories of C:\Application\Log Â (such as C:\Application\Log\\.log) to an archive share, \\NASServer\Archives.  
+Basically, the task is to move log files older than 90 days old from their current locations in application-specific subdirectories of C:\Application\Log  (such as C:\Application\Log\\.log) to an archive share, \\NASServer\Archives.  
 The files have GUID filenames (read: you can't predict them). You need to maintain the subdirectory structure, so if a log file starts in the App582 subdirectory of C:\Application\Log, after the move, it should be in the App852 subdirectory of NASServer\Archives.  
 The final instruction/hint is that the applications generate the files and never touch them again. I'm not an expert, but I interpreted this to mean that the CreationTime property and the LastWriteTime property of these log files will be the same and you can use either in your solution. (Is that right?)  
 The advanced challenge involves the same task, but generalized into a reusable tool, so you want to create a script with parameters for the log path and archive paths. This is one of those advanced challenges that many beginners should be able to do. For giggles, try it on your beginner solution.  
@@ -40,16 +40,16 @@ Get-ChildItem C:\Application\Log\ *\*.log
 ((Get-Date) - $file.LastWriteTime).Days -gt 90
 `Because the only really tricky part in this challenge is moving the file and maintaining the directory structure, I'm concentrating on that part.
 
-  * First,Â  you need to get the current subdirectory and make sure the file goes in that same subdirectory in the new location.
+  * First,  you need to get the current subdirectory and make sure the file goes in that same subdirectory in the new location.
   * Second, if you try to copy or move an item to a directory that doesn't exist, the command fails "“ and the Force parameter will not build the path for you.
 
 ## Get-MyVote
 
 Here are the elements that I look for in a solution.
 
-  * **Preserve the path**:Â  I look for solutions that preserve or build the new path correctly. This is required by the challenge, but it's also a place for some creativity.
+  * **Preserve the path**:  I look for solutions that preserve or build the new path correctly. This is required by the challenge, but it's also a place for some creativity.
   * **Test-Path/New-Item**: I look for solutions that test to see if the path exists in the new location (Test-Path) and creates the directories in the path if they don't already exist, typically by using Mkdir (md) or New-Item "“Type Directory.
-  * **New-Item | Out-Null**: Â When you create a new path, New-Item and Mkdir return a directory object. This can be confusing to users who run your script, so I give extra points for suppressing the output. I typically do this by piping the output to Out-Null. Here's a possible solution, but I'm open to creative variation. 
+  * **New-Item | Out-Null**:  When you create a new path, New-Item and Mkdir return a directory object. This can be confusing to users who run your script, so I give extra points for suppressing the output. I typically do this by piping the output to Out-Null. Here's a possible solution, but I'm open to creative variation. 
 
 `New-Item -Type Directory -Path C:\Application\Log\$p | Out-Null
 `* **Help** (of course). More below
@@ -136,11 +136,11 @@ For example:
 
 `Regular expression pattern is not valid: C:\Application\Log.
 At C:\ps-test\ScriptingGames2013\Move-TestEsc.ps1:5 char:5
-+Â Â Â Â  $newName = $file.fullname -replace 'C:\Application\Log','\\NASServer\Archive ...
-+Â Â Â Â  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-+ CategoryInfoÂ Â Â Â Â Â Â Â Â  : InvalidOperation: (C:\Application\Log:String) [], RuntimeException
++     $newName = $file.fullname -replace 'C:\Application\Log','\\NASServer\Archive ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidOperation: (C:\Application\Log:String) [], RuntimeException
 + FullyQualifiedErrorId : InvalidRegularExpression
-`The problem here is that you didn't intend to supply a regular expression as input, but the Replace operator interprets the text that it is replacing (the first operand) as a regular expression. In this case, it interprets the backslashes as escape characters.Â  To resolve the error, escape the backslashes by doubling them, that is, preceding each backslash with another backslash.  
+`The problem here is that you didn't intend to supply a regular expression as input, but the Replace operator interprets the text that it is replacing (the first operand) as a regular expression. In this case, it interprets the backslashes as escape characters.  To resolve the error, escape the backslashes by doubling them, that is, preceding each backslash with another backslash.  
 For example:
 
 
@@ -214,7 +214,7 @@ Many of the solutions included enumerated paths, like this:
 
 ## Don't use aliases
 
-Aliases are terrific for interactive commands and commands that you don't share with others. But for anything else, including the Scritping Games, avoid them. Can you imagine a beginner trying to intepret a solution in which "?" is used instead of Where-Object? How would the person search for that "?"?Â  Because understanding is the goal, I have no trouble with eliminating the "Object" in Where-Object, Sort-Object, Select-Object, but it's better to leave it in.  
+Aliases are terrific for interactive commands and commands that you don't share with others. But for anything else, including the Scritping Games, avoid them. Can you imagine a beginner trying to intepret a solution in which "?" is used instead of Where-Object? How would the person search for that "?"?  Because understanding is the goal, I have no trouble with eliminating the "Object" in Where-Object, Sort-Object, Select-Object, but it's better to leave it in.  
 In general, you should also include the names of positional parameters, although I don't mind omitting the most frequently used ones. Other people might be pickier, but I don't use "Where-Object -Property" or "Get-ChildItem -Path" in my own code and I don't require it from others.
 
 ## One-Liners

@@ -23,11 +23,11 @@ Quick recap, I'm working through a series of posts about the [Desired State Conf
   * Packaging Custom Resources
   * Advanced Client Targeting
 
-I started with an overview of **what** and **why**. Â Today, I'm going to start the **how**.
+I started with an overview of **what** and **why**.  Today, I'm going to start the **how**.
 
 ### Building a Pull Server
 
-I'm going to describe how to do this with Server 2012 R2 RTM (NOTE: this is not the General Availability Â release, so there may be changes at GA), since that's the environment I'm working most in. Â If there is enough demand, I may follow up with how to do this using the Windows Management Framework on downlevel operating systems after the GA version of WMF 4 is released.  
+I'm going to describe how to do this with Server 2012 R2 RTM (NOTE: this is not the General Availability  release, so there may be changes at GA), since that's the environment I'm working most in.  If there is enough demand, I may follow up with how to do this using the Windows Management Framework on downlevel operating systems after the GA version of WMF 4 is released.  
 The first step is adding the required roles and features, including the DSC Service.
 
 
@@ -51,7 +51,7 @@ Next we need to set up the IIS web site:
 & $appCmd unlock config -section:anonymousAuthentication
 & $appCmd unlock config -section:basicAuthentication
 & $appCmd unlock config -section:windowsAuthentication
-`Now we need to set up the location where the pull server content will be served from. Â Installing the DSC Service feature creates a default location ( $env:programfiles\WindowsPowerShell\DscService ). Â There'll you find sub-directories for configuration and modules. Â We can use these folders or we can create another location. Â I'm going to stick with the defaults for now. Â We've got a few steps left.  
-First, we need to copy the Devices.mdb fromÂ $pshome/modules/psdesiredstateconfiguration/pullserver to the root of our pull server data location (in this case,Â $env:programfiles\WindowsPowerShell\DscService )  
-Update the web.config app settings with the following settings:`After that your pull server should be up and running. Â You should see something like this if you navigate to http://yourpullserver/psdscpullserver.svc  
+`Now we need to set up the location where the pull server content will be served from.  Installing the DSC Service feature creates a default location ( $env:programfiles\WindowsPowerShell\DscService ).  There'll you find sub-directories for configuration and modules.  We can use these folders or we can create another location.  I'm going to stick with the defaults for now.  We've got a few steps left.  
+First, we need to copy the Devices.mdb from $pshome/modules/psdesiredstateconfiguration/pullserver to the root of our pull server data location (in this case, $env:programfiles\WindowsPowerShell\DscService )  
+Update the web.config app settings with the following settings:`After that your pull server should be up and running.  You should see something like this if you navigate to http://yourpullserver/psdscpullserver.svc  
 [![PullServerDefaultUrl](https://powershell.org/wp-content/uploads/2013/10/PullServerDefaultUrl-300x83.png)](https://powershell.org/wp-content/uploads/2013/10/PullServerDefaultUrl.png)

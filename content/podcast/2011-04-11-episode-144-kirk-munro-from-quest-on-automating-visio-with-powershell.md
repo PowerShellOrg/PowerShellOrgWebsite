@@ -28,22 +28,22 @@ Tonight on the PowerScripting Podcast, we talk to Kirk Munro from Quest Software
   This segment brought to you by Start-Automating
 
 
-Â 
+ 
 
 
-  *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).*
+  *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
-Â 
+ 
 
   * Big PowerScripting congrats to this PowerShell geek: 
       * 
 
 
 
-[**Paul__Iddon**](http://twitter.com/#!/Paul__Iddon)Â 
+[**Paul__Iddon**](http://twitter.com/#!/Paul__Iddon) 
 Paul Iddon
-Â 
+ 
 
 
 
@@ -55,7 +55,7 @@ Paul Iddon
 
 
 
-GeeksÂ [#powershell](http://twitter.com/#!/search?q=%23powershell)Â way of finding out how much time until my wedding. [DateTime] "10/12/2012,15:30" - [DateTime]::Now
+Geeks [#powershell](http://twitter.com/#!/search?q=%23powershell) way of finding out how much time until my wedding. [DateTime] "10/12/2012,15:30" - [DateTime]::Now
 
 
 
@@ -78,11 +78,11 @@ Interview
 **
 
 
-  This segment is brought to you byÂ *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
+  This segment is brought to you by *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
 
 
 _  
-At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution.Â [Get PowerGUI Pro at quest.com/powerguipro][10]{#q7ty}_
+At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro][10]{#q7ty}_
 
 
   **Links:**
@@ -101,7 +101,7 @@ At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organi
 
 
 **Resources**
-Â 
+ 
 
 
   * 
@@ -113,7 +113,7 @@ Technet blogs: [Using SCVMM 2012, NetApp SMI-S provider, and Visio to visualize 
   * [How to get started with Office365 + PowerShell][12]{#x_3.}
   * [Xen Desktop 5 PowerShell Primer][13]{#n5m1}
   * SQL MVP Allen White has a great [getting started with PowerShell & SQL Server article on Technet][14]{#p63w}
-  * [More info on DSLs][15]{#eyq9}Â 
+  * [More info on DSLs][15]{#eyq9} 
 
 
 

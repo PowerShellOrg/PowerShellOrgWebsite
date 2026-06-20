@@ -14,14 +14,14 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### In This Episode
 
-We have a great show lined up for you today.Â  We'll be talking with [Brandon Shell](http://bsonposh.com) ([PowerShell](http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) MVP) and [Steve Murawski](http://mindofroot.com) (Mind of Root podcast co-host) in a roundtable discussion.Â  And of course we have news, tips, resources, and more!
+We have a great show lined up for you today.  We'll be talking with [Brandon Shell](http://bsonposh.com) ([PowerShell](http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) MVP) and [Steve Murawski](http://mindofroot.com) (Mind of Root podcast co-host) in a roundtable discussion.  And of course we have news, tips, resources, and more!
 
 ### News
 
 __  
 _Thanks to [iTripoli][2] for sponsoring this segment._  
-_"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_  
-Â 
+_"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_  
+ 
 
   * VMWare is kicking off a [PowerShell scripting contest][3] 
       * 1st prize: Airfare, hotel and admission to VMWorld 2008 in Las Vegas
@@ -29,7 +29,7 @@ _"Admin Script Editor provides a true integrated scripting environment for Power
       * 3rd prize: XBox 360 Elite
   * Marco Shaw is doing [NetCmdlets presentation][4] for the UK User group on July 31st
   * [PowerShell Team Blog : PowerShell Build Environment for Windows SDK][5] - The Windows SDK team would like your feedback on what features you would like most in a future Windows SDK. One of your choices is a PowerShell Build Environment.
-  * [Introducing psake - James Kovacs][6]Â  - psake is a build automation tool written in PowerShell. It avoids the angle-bracket tax associated with executable XML by leveraging the PowerShell syntax in your build scripts.
+  * [Introducing psake - James Kovacs][6]  - psake is a build automation tool written in PowerShell. It avoids the angle-bracket tax associated with executable XML by leveraging the PowerShell syntax in your build scripts.
 
 ### Roundtable
 
@@ -51,7 +51,7 @@ Here are a few notes from the panel discussion:
           4. win32_services
       3. AD
       4. training classes
-  2. Covering too much V2?Â   well, more thaqt there is this whole world of people who still are just discovering that there are basics to cover.
+  2. Covering too much V2?   well, more thaqt there is this whole world of people who still are just discovering that there are basics to cover.
   3. XML?
   4. [Polymon](http://www.codeplex.com/polymon)
 

@@ -36,7 +36,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -100,7 +100,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -112,7 +112,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -130,7 +130,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -188,7 +188,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -314,7 +314,7 @@ aliases:
 
 
 
-    glnsize: as the storage guy in the room... Server 2012 + smi-s works great Â as a general interface. Â There is always room to improve as SMI-S is a least common toolset but it works just fine.
+    glnsize: as the storage guy in the room... Server 2012 + smi-s works great  as a general interface.  There is always room to improve as SMI-S is a least common toolset but it works just fine.
 
 
 
@@ -326,13 +326,13 @@ aliases:
 
 
 
-    glnsize: ## how do we combine System Center Orchestrator and Windows 2012? Â SC2012 is the heart of the MSFT cloud, and SCO is the heart of SC2012. Â Yet SCO doesn't leverage the V3 workflow engine... infact calling powershell from SCO is still clumbsy at best.
+    glnsize: ## how do we combine System Center Orchestrator and Windows 2012?  SC2012 is the heart of the MSFT cloud, and SCO is the heart of SC2012.  Yet SCO doesn't leverage the V3 workflow engine... infact calling powershell from SCO is still clumbsy at best.
 
 
 
 
 
-    RichP: ## JSnover, do you work with Windows Intune at all? Â If so, are there any plans to market that to consumers? Â My family is spread across the country and it would make it much easier to assist them and keep their computers updated.
+    RichP: ## JSnover, do you work with Windows Intune at all?  If so, are there any plans to market that to consumers?  My family is spread across the country and it would make it much easier to assist them and keep their computers updated.
 
 
 
@@ -350,7 +350,7 @@ aliases:
 
 
 
-    Craig: 2012 Sounds good, but don't see my company going there anytime soon. Â We just got up to 2010
+    Craig: 2012 Sounds good, but don't see my company going there anytime soon.  We just got up to 2010
 
 
 
@@ -368,7 +368,7 @@ aliases:
 
 
 
-    KeithH: Has anybody asked Jeffrey about PowerShell for Windows RT yet? Â What are the limitations, etc?
+    KeithH: Has anybody asked Jeffrey about PowerShell for Windows RT yet?  What are the limitations, etc?
 
 
 
@@ -386,7 +386,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 

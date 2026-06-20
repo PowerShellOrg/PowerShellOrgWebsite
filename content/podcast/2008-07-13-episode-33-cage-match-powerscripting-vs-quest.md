@@ -14,16 +14,16 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### In This Episode
 
-We have a great show lined up for you today.Â  With us via Skype will be MVPs Kirk Munro and Dmitry Sotnikov both from Quest.Â  And no show would be complete without News, Resources, and Tips!
+We have a great show lined up for you today.  With us via Skype will be MVPs Kirk Munro and Dmitry Sotnikov both from Quest.  And no show would be complete without News, Resources, and Tips!
 
 ### News
 
 _Today's news is brought to you by iTripoli._  
-_"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_
+_"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_
 
-  * [Preview video][2] up of a very interesting new open-source project called [PoshBoard][3].Â  It's a solid clone of iGoogle, including the AJAX widgets, but the widgets are...PowerShell code!
-  * And we have more videos.Â  Marco Shaw has [posted the videos][4] from PS VUG meeting #6.
-  * We're really excited about [PoshCode.org][5].Â  This is a new domain but an old resource with a bit of a facelift and some new features.Â  This is the same script repository back end featured at PowerShellCommunity.org and PowerShellCentral.com.Â  Joel Bennett is [adding features][6] to make this a very useful tool.
+  * [Preview video][2] up of a very interesting new open-source project called [PoshBoard][3].  It's a solid clone of iGoogle, including the AJAX widgets, but the widgets are...PowerShell code!
+  * And we have more videos.  Marco Shaw has [posted the videos][4] from PS VUG meeting #6.
+  * We're really excited about [PoshCode.org][5].  This is a new domain but an old resource with a bit of a facelift and some new features.  This is the same script repository back end featured at PowerShellCommunity.org and PowerShellCentral.com.  Joel Bennett is [adding features][6] to make this a very useful tool.
 
 ### Panel
 
@@ -32,7 +32,7 @@ _
 _ _Do you have what it takes to be the ultimate script warrior? Find out with Quest"™s PowerPack Challenge "™08._  
 _Quest Software is sponsoring a PowerShell Scripting contest where you can test your skills and get paid. Just create some cool PowerShell scripts using Quest"™s PowerGUI and then post them to our site. You"™ll get a score and our celebrity judges will weigh in as well._  
 _Do you have the muscle to bring home the prize? Check out the details [here][7]._  
-We decided to do something different for the interview section.Â  Instead of an interview, we picked a few topics and went at it round-robin.Â  Hope you like it!
+We decided to do something different for the interview section.  Instead of an interview, we picked a few topics and went at it round-robin.  Hope you like it!
 
   1. Providers vs cmdlets (e.g. IIS7 providers)
   2. Does PowerShell belong on a web server?
@@ -43,11 +43,11 @@ We decided to do something different for the interview section.Â  Instead of a
 This section is brought to you by [SAPIEN Technologies](http://www.sapien.com/)
 
   * [DevInfra-US][8] - Very cool English version of a French PowerShell blog. In his words: "Microsoft Infrastructure Development solutions with PowerShell, C#, ASP.NET and silverlight... Best Effort English translation from Devinfra.blogspot.com :)"
-  * Antoine from DevInfra has written three articles ([one][9], [two][10], [three][11]) on how to call PowerShell script from within an ASP page.Â  Very cool stuff!
+  * Antoine from DevInfra has written three articles ([one][9], [two][10], [three][11]) on how to call PowerShell script from within an ASP page.  Very cool stuff!
   * [get-admin][12] - This is a new "Enterprise Administration and Automation" blog by Glenn S. He starts off with a nice screencast showing you how to run a posh script as a scheduled task.
   * [HyperVoria | Hyper-V PowerShell library - now on Codeplex][13] "“ Thanks to Steve Murawski for pointing this one out. The Codeplex project page is [here][14].
 
-Thanks for listening!Â  Don"™t forget to follow [Jon][15] and [Hal][16] on Twitter.
+Thanks for listening!  Don"™t forget to follow [Jon][15] and [Hal][16] on Twitter.
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-033.mp3
  [2]: http://www.vimeo.com/1280433?pg=embed&sec=1280433&hd=1

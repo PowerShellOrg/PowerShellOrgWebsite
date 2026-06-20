@@ -234,13 +234,13 @@ $new = Get-ChildItem -recurse | get-Acl |Where-Object {$_.sddl.contains('FA;;;SY
 
           - 
 
-Â [Security Descriptor Definition Language](http://shrinkster.com/pjm)
+ [Security Descriptor Definition Language](http://shrinkster.com/pjm)
 
 
 
           - 
 
-This is Mark's answer, check out [his blog](http://questforfire.spaces.live.com).Â  get-childitem -recurse | get-acl | where-object {$_.AccessToString -notlike "*SYSTEM AllowÂ  FullCon*"}
+This is Mark's answer, check out [his blog](http://questforfire.spaces.live.com).  get-childitem -recurse | get-acl | where-object {$_.AccessToString -notlike "*SYSTEM Allow  FullCon*"}
 
 
 
@@ -268,7 +268,7 @@ New-QADUser
             - 
 
 
-Â 
+ 
 
 Make sure you set the samAccountName and the UPN
 

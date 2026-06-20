@@ -32,19 +32,19 @@ aliases:
 
   * 
 
-      MVAÂ [Advanced Tools & Scripts with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start#fbid=XvTVyxieoRZ)
+      MVA [Advanced Tools & Scripts with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/advanced-tools-scripting-with-powershell-3-0-jump-start#fbid=XvTVyxieoRZ)
 
 
 
   * 
 
-      MVPÂ [Adam Driscoll is working a new project](http://csharpening.net/?p=1673)Â called PoshTools
+      MVP [Adam Driscoll is working a new project](http://csharpening.net/?p=1673) called PoshTools
 
 
 
   * 
 
-      The Florida PowerShell user group isÂ [meeting August 20th](https://powershell.org/event/florida-powershell-user-group-monthly-meeting-august-2013/)
+      The Florida PowerShell user group is [meeting August 20th](https://powershell.org/event/florida-powershell-user-group-monthly-meeting-august-2013/)
 
 
 
@@ -76,7 +76,7 @@ aliases:
 
   * 
 
-      dictionary:Â [nuget](http://www.nuget.org/)Â |Â [roslyn](http://msdn.microsoft.com/en-us/vstudio/hh500769.aspx)Â |Â [sublime text](http://www.sublimetext.com/)Â |Â [REPL](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)Â | Â [MEF](http://msdn.microsoft.com/en-us/library/dd460648.aspx)
+      dictionary: [nuget](http://www.nuget.org/) | [roslyn](http://msdn.microsoft.com/en-us/vstudio/hh500769.aspx) | [sublime text](http://www.sublimetext.com/) | [REPL](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) |  [MEF](http://msdn.microsoft.com/en-us/library/dd460648.aspx)
 
 
 
@@ -100,37 +100,37 @@ aliases:
 
 #### Chatroom Buzz
 
-<BellyTimber>Â <http://poshcode.org/4325>  
-Â <http://webbrain.com/brainpage/brain/4685C1B4-FE68-2D62-3AFA-CE674E67F742#-638>  
+<BellyTimber> <http://poshcode.org/4325>  
+ <http://webbrain.com/brainpage/brain/4685C1B4-FE68-2D62-3AFA-CE674E67F742#-638>  
 <MikeFRobbins> irm -Uri http://feeds.feedburner.com/PowerScripting | where title -like \*jim\*christopher* | select title  
 
-Â <http://scriptcs.net/>  
-Â <http://www.nuget.org/>  
-Â <http://msdn.microsoft.com/en-us/vstudio/hh500769.aspx>  
-Â <https://github.com/scriptcs/scriptcs>  
-[Â http://www.sublimetext.com/][1]  
-Â <http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop>  
+ <http://scriptcs.net/>  
+ <http://www.nuget.org/>  
+ <http://msdn.microsoft.com/en-us/vstudio/hh500769.aspx>  
+ <https://github.com/scriptcs/scriptcs>  
+[ http://www.sublimetext.com/][1]  
+ <http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop>  
 
-Â <https://github.com/scriptcs/scriptcs-samples/tree/master/wpf>  
- scriptcs sublime plugin -Â <https://github.com/scriptcs/scriptcs-sublime>  
-<beefarino> ouch:Â <http://visualstudiomagazine.com/articles/2013/08/07/devs-angry-over-msdn-redesign.aspx>  
- scriptcs webapi script pack + exampleÂ <https://github.com/scriptcs/scriptcs-webapi>  
-Â <http://www.youtube.com/watch?v=cKqKrH0O9yg>  
-Â <http://msdn.microsoft.com/en-us/library/dd460648.aspx>  
- Stuwee:Â <http://scriptcs.net/>  
-Â <http://software.muzychenko.net/eng/vac.htm>  
- Re Roslyn check out this session from PDC \*\*08\*\* at about time index 1:04:00Â <http://channel9.msdn.com/Blogs/pdc2008/TL16>  
-Â [http://en.wikipedia.org/wiki/Virtual_Audio_Cable][2]  
- Jaykul: It's pretty interesting. He mentions that there is a little Roslyn in VS2013. The Roslyn portion starts around 34minutes in.Â <http://channel9.msdn.com/Events/Build/2013/9-006>  
-<BellyTimber>Â <http://theoatmeal.com/blog/fix_computer>  
-<sepeck> BellyTimber:Â <http://channel9.msdn.com/>Â <-- has lots and lots of coding stuff on it as well  
-<ScriptingWife>Â <http://csharpening.net/>  
-<beefarino> BTW, here's the ScriptCS powershell module:Â <https://github.com/beefarino/ScriptCS-PowerShell-Module>  
-<MikeFRobbins> Here's my library:Â [http://mikefrobbins.files.wordpress.com/2013/08/library.jpg](http://mikefrobbins.files.wordpress.com/2013/08/library.jpg)  
-<sepeck> halr9000:Â <http://calibre-ebook.com/>Â makes it go away  
-<BellyTimber>Â <http://www.codinghorror.com/blog/2010/09/go-that-way-really-fast.html>  
+ <https://github.com/scriptcs/scriptcs-samples/tree/master/wpf>  
+ scriptcs sublime plugin - <https://github.com/scriptcs/scriptcs-sublime>  
+<beefarino> ouch: <http://visualstudiomagazine.com/articles/2013/08/07/devs-angry-over-msdn-redesign.aspx>  
+ scriptcs webapi script pack + example <https://github.com/scriptcs/scriptcs-webapi>  
+ <http://www.youtube.com/watch?v=cKqKrH0O9yg>  
+ <http://msdn.microsoft.com/en-us/library/dd460648.aspx>  
+ Stuwee: <http://scriptcs.net/>  
+ <http://software.muzychenko.net/eng/vac.htm>  
+ Re Roslyn check out this session from PDC \*\*08\*\* at about time index 1:04:00 <http://channel9.msdn.com/Blogs/pdc2008/TL16>  
+ [http://en.wikipedia.org/wiki/Virtual_Audio_Cable][2]  
+ Jaykul: It's pretty interesting. He mentions that there is a little Roslyn in VS2013. The Roslyn portion starts around 34minutes in. <http://channel9.msdn.com/Events/Build/2013/9-006>  
+<BellyTimber> <http://theoatmeal.com/blog/fix_computer>  
+<sepeck> BellyTimber: <http://channel9.msdn.com/> <-- has lots and lots of coding stuff on it as well  
+<ScriptingWife> <http://csharpening.net/>  
+<beefarino> BTW, here's the ScriptCS powershell module: <https://github.com/beefarino/ScriptCS-PowerShell-Module>  
+<MikeFRobbins> Here's my library: [http://mikefrobbins.files.wordpress.com/2013/08/library.jpg](http://mikefrobbins.files.wordpress.com/2013/08/library.jpg)  
+<sepeck> halr9000: <http://calibre-ebook.com/> makes it go away  
+<BellyTimber> <http://www.codinghorror.com/blog/2010/09/go-that-way-really-fast.html>  
  http://www.hanselminutes.com/161/bbss-and-wildcat-from-mustang-software  
- we have an org,Â <https://github.com/scriptcs>  
+ we have an org, <https://github.com/scriptcs>  
 <11beefarino> #### this one is for beefarino: how does one maintain such a ruggedly handsome demeanor?  
 <11BellyTimber> ##What's the difference?  
 <1BrendanLiamT> ### will this be recorded?  

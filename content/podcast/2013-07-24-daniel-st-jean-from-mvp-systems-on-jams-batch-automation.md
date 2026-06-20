@@ -32,25 +32,25 @@ aliases:
 
   * 
 
-      The Bangalore PowerShell User Group isÂ [meeting July 27th](https://powershell.org/event/bangalore-powershell-user-group-psbug-june-meeting-1/)
+      The Bangalore PowerShell User Group is [meeting July 27th](https://powershell.org/event/bangalore-powershell-user-group-psbug-june-meeting-1/)
 
 
 
   * 
 
-      TheÂ [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/)Â is meeting August 1st
+      The [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/) is meeting August 1st
 
 
 
   * 
 
-      TheÂ [Charlotte PowerShell group](https://powershell.org/event/charlotte-powershell-users-group-monthly-meeting-3/2013-08-01/)Â is meeting August 1st
+      The [Charlotte PowerShell group](https://powershell.org/event/charlotte-powershell-users-group-monthly-meeting-3/2013-08-01/) is meeting August 1st
 
 
 
   * 
 
-      Where should theÂ [PowerShell Summit Europe](https://powershell.org/2013/07/16/powershell-summit-city-selection-criteria/)Â be?
+      Where should the [PowerShell Summit Europe](https://powershell.org/2013/07/16/powershell-summit-city-selection-criteria/) be?
 
 
 
@@ -62,7 +62,7 @@ aliases:
 
   * 
 
-      PowerShell.org is planningÂ [TechSession webinars](https://powershell.org/2013/07/23/techsessions-free-powershell-webinars/). Speakers wanted!
+      PowerShell.org is planning [TechSession webinars](https://powershell.org/2013/07/23/techsessions-free-powershell-webinars/). Speakers wanted!
 
 
 
@@ -210,7 +210,7 @@ aliases:
 
   * 
 
-      <0organicit> don't know if people caught this tweet from Shay Levy today with this link. Â Warning it is not for children's eyes Â [http://foaas.herokuapp.com](http://foaas.herokuapp.com)
+      <0organicit> don't know if people caught this tweet from Shay Levy today with this link.  Warning it is not for children's eyes  [http://foaas.herokuapp.com](http://foaas.herokuapp.com)
 
 
 
@@ -222,61 +222,61 @@ aliases:
 
   * 
 
-      Â [http://www.zombiepodcast.com/](http://www.zombiepodcast.com/)
+       [http://www.zombiepodcast.com/](http://www.zombiepodcast.com/)
 
 
 
   * 
 
-      <2DavidK_> Architecture looks like this:Â [http://www.jamsscheduler.com/Architecture.aspx](http://www.jamsscheduler.com/Architecture.aspx)
+      <2DavidK_> Architecture looks like this: [http://www.jamsscheduler.com/Architecture.aspx](http://www.jamsscheduler.com/Architecture.aspx)
 
 
 
   * 
 
-      <4Vern_Anderson>Â [http://www.azlyrics.com/lyrics/barenakedladies/oneweek.html](http://www.azlyrics.com/lyrics/barenakedladies/oneweek.html)
+      <4Vern_Anderson> [http://www.azlyrics.com/lyrics/barenakedladies/oneweek.html](http://www.azlyrics.com/lyrics/barenakedladies/oneweek.html)
 
 
 
   * 
 
-      <2DavidK_> @Stuwee - Of course:Â [http://www.jamsscheduler.com/DownloadCentral.aspx](http://www.jamsscheduler.com/DownloadCentral.aspx)
+      <2DavidK_> @Stuwee - Of course: [http://www.jamsscheduler.com/DownloadCentral.aspx](http://www.jamsscheduler.com/DownloadCentral.aspx)
 
 
 
   * 
 
-      <4Vern_Anderson>Â [http://www.jamsscheduler.com/DownloadCentral.aspx](http://www.jamsscheduler.com/DownloadCentral.aspx)
+      <4Vern_Anderson> [http://www.jamsscheduler.com/DownloadCentral.aspx](http://www.jamsscheduler.com/DownloadCentral.aspx)
 
 
 
   * 
 
-      <0organicit>Â [http://www.twilio.com/sms/api](http://www.twilio.com/sms/api)
+      <0organicit> [http://www.twilio.com/sms/api](http://www.twilio.com/sms/api)
 
 
 
   * 
 
-      <4Vern_Anderson>[Â http://www.devexpress.com/](http://www.devexpress.com/)
+      <4Vern_Anderson>[ http://www.devexpress.com/](http://www.devexpress.com/)
 
 
 
   * 
 
-      <4Vern_Anderson>[Â http://en.wikipedia.org/wiki/Secure_Shell](http://en.wikipedia.org/wiki/Secure_Shell)
+      <4Vern_Anderson>[ http://en.wikipedia.org/wiki/Secure_Shell](http://en.wikipedia.org/wiki/Secure_Shell)
 
 
 
   * 
 
-      <4Vern_Anderson>Â [http://mow001.blogspot.com/](http://mow001.blogspot.com/)
+      <4Vern_Anderson> [http://mow001.blogspot.com/](http://mow001.blogspot.com/)
 
 
 
   * 
 
-      <15TheScriptingWife> Newest book that came in the mail this week.Â [http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735676151](http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735676151)
+      <15TheScriptingWife> Newest book that came in the mail this week. [http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735676151](http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735676151)
 
 
 
@@ -288,13 +288,13 @@ aliases:
 
   * 
 
-      <2DavidK_>[Â http://jamsscheduler.com/Training.aspx](http://jamsscheduler.com/Training.aspx)
+      <2DavidK_>[ http://jamsscheduler.com/Training.aspx](http://jamsscheduler.com/Training.aspx)
 
 
 
   * 
 
-      <0organicit>[Â https://www.youtube.com/user/JAMSSupport](https://www.youtube.com/user/JAMSSupport)
+      <0organicit>[ https://www.youtube.com/user/JAMSSupport](https://www.youtube.com/user/JAMSSupport)
 
 
 
@@ -310,7 +310,7 @@ aliases:
 
   * 
 
-      [NAudioPlay Module](https://github.com/gpduck/NAudioPlayer)Â from Chris Duck
+      [NAudioPlay Module](https://github.com/gpduck/NAudioPlayer) from Chris Duck
 
 
 

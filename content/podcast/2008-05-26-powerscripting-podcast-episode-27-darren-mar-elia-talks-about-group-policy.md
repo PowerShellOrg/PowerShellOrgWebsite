@@ -14,12 +14,12 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### In This Episode
 
-We have an interview this week with noted group policy expert, Darren Mar-Elia.Â  And we have no news for you today, but a lot of resources, tips, and one-liners to ease your scripting pains.Â  And don't forget about Quest's excellent book giveaway offer.Â  Keep listening for details on that.
+We have an interview this week with noted group policy expert, Darren Mar-Elia.  And we have no news for you today, but a lot of resources, tips, and one-liners to ease your scripting pains.  And don't forget about Quest's excellent book giveaway offer.  Keep listening for details on that.
 
 ### Interview
 
 _Interview sponsored by_ [_iTripoli_][2]_._  
-_Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.Â  Let's not forget about the exclusive PowerShell forms designer. What's coming up? Soon its innovative and feature-rich ScriptPackger tool will offer support for the dynamic installation of cmdlets! Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at_ [_AdminScriptEditor.com_][3]_._  
+_Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.  Let's not forget about the exclusive PowerShell forms designer. What's coming up? Soon its innovative and feature-rich ScriptPackger tool will offer support for the dynamic installation of cmdlets! Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at_ [_AdminScriptEditor.com_][3]_._  
 Be sure to listen to the show for the interview, it's a great one!
 
 ### Resources

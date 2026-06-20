@@ -31,4 +31,4 @@ What I'd like to know from you, if you don't mind dropping a comment below, is w
   * http://youtu.be/pL_Ry5LzX3w Creating HTML Reports with Style - Jeff Hicks - PowerShell Summit 2013
   * http://youtu.be/-ERyfmOmyoI Remoting Configuration Deep Dive - Don Jones - PowerShell Summit 2013
   * http://youtu.be/jMVBN5V0G4Y Advanced Network Scripting with PowerShell - Lee Holmes - PowerShell Summit 2013
-  * http://youtu.be/GXkLtEOM-DMÂ Build Your Demo Environment with Windows PowerShell - Aleksandar Nikolic - PowerShell Summit 2013
+  * http://youtu.be/GXkLtEOM-DM Build Your Demo Environment with Windows PowerShell - Aleksandar Nikolic - PowerShell Summit 2013

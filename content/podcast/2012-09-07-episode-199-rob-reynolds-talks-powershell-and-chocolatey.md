@@ -82,13 +82,13 @@ aliases:
   Superhero: Hiro
 
 
-****Â ****
+**** ****
 
 
   Chatroom Banter
 
 
-****Â ****
+**** ****
 
 
   [22:22:16]  http://chocolatey.org/

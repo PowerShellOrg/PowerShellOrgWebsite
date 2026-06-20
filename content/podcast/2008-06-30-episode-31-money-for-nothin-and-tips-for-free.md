@@ -14,15 +14,15 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 #### In This Episode
 
-We have a ton of stuff foryou today.Â  News, Resources, Tips, and even an old favorite, the Cmdlet of the Week.
+We have a ton of stuff foryou today.  News, Resources, Tips, and even an old favorite, the Cmdlet of the Week.
 
 #### News
 
 The news is brought to you by [iTripoli][2].  
 _"Admin Script Editor provides a true integrated scripting environment for  
-PowerShell.Â  Advanced features include an integrated PowerShell debugger,  
+PowerShell.  Advanced features include an integrated PowerShell debugger,  
 advanced code generating tools for Active Directory, Databases, XML files  
-and more.Â  Let's not forget about the exclusive PowerShell forms designer.  
+and more.  Let's not forget about the exclusive PowerShell forms designer.  
 What's coming up? Soon its innovative and feature-rich ScriptPackger tool  
 will offer support for the dynamic installation of cmdlets! Come see for  
 yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at  
@@ -49,7 +49,7 @@ AdminScriptEditor.com."_
 
 #### Resources
 
-This segment brought to you by [Sapien Technologies](http://www.sapien.com/)Â 
+This segment brought to you by [Sapien Technologies](http://www.sapien.com/) 
 
   * Joel Bennett brings us a great blog post on [setting up your user profile][7] it's called "Getting Started with PowerShell 2 - Part1"
   * Tomas R. has written several articles on his blog that deal with integrating Biztalk with PowerShell. 
@@ -67,7 +67,7 @@ _Quest Software is sponsoring a PowerShell Scripting contest where you can test 
 _Do you have the muscle to bring home the prize? Check out the details_ [_here_][13]_._
 
   * "[Unix like command for tac?][14]" (reverse cat, or in our case Tnetnoc-Teg) 
-      * Keith Hill proposes a neat solution using System.IO.FileStream which I found interesting simply because I had never seen that .NET object used before.Â  However, there was some discusssion on the IRC channel about this and Jaykul pointed out that it would be much faster (for moderate-size files) to just read the whole thing in and print it out in reverse.
+      * Keith Hill proposes a neat solution using System.IO.FileStream which I found interesting simply because I had never seen that .NET object used before.  However, there was some discusssion on the IRC channel about this and Jaykul pointed out that it would be much faster (for moderate-size files) to just read the whole thing in and print it out in reverse.
       * $foo = gc .tac.ps1; [array]::reverse($foo); $foo
   * Brandon Shell [shows us how to use ADSI][15] to change the local admin password
   * Hal has a script up called [Get-Parameter][16].

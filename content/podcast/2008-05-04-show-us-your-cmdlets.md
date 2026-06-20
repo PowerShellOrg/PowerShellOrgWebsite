@@ -16,7 +16,7 @@ This little one-liner will show the most common verbs among all the cmdlets inst
 
 `1:
  PS > gcm -CommandType cmdlet | Group Verb | Sort Count -Descending | Select -First 10`2:
-Â`3:
+`3:
  Count Name                      Group`4:
  ----- ----                      -----`5:
    128 Get                       {Get-Acl, Get-ADObject, Get-Alias, Get-Authentico...`6:
@@ -29,5 +29,5 @@ This little one-liner will show the most common verbs among all the cmdlets inst
     11 Out                       {Out-Chart, Out-Clipboard, Out-Default, Out-File,...`13:
     10 Add                       {Add-Contact, Add-Content, Add-History, Add-Membe...`14:
     10 Move                      {Move-Cluster, Move-Datacenter, Move-Folder, Move...
-`I just realized the above is the CLI equivalent of looking at a screenshot of someone"™s Windows desktop and wondering what all those tray icons do.Â  🙂  
-What snapins do you think I have installed?Â  What about you guys?
+`I just realized the above is the CLI equivalent of looking at a screenshot of someone"™s Windows desktop and wondering what all those tray icons do.  🙂  
+What snapins do you think I have installed?  What about you guys?

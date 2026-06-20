@@ -28,7 +28,7 @@ In This Episode
 
 
 
-Tonight on the PowerScripting Podcast we talk to Josh Jones from the CS TechcastÂ 
+Tonight on the PowerScripting Podcast we talk to Josh Jones from the CS Techcast 
 
 
 
@@ -57,11 +57,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -69,7 +69,7 @@ quest.com/powershellbook
 
 
 
-        Â 
+         
 
 
 
@@ -110,7 +110,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -146,11 +146,11 @@ quest.com/powershellbook
 
 
         - 
-          jtruman0917: ## Josh what are your feelings about SSRS? Â Do you use it?
+          jtruman0917: ## Josh what are your feelings about SSRS?  Do you use it?
 
 
         - 
-          AaronHoover: ## Josh, is most of your stuff back-end? Â Any front-end design? Â If so, what tools?
+          AaronHoover: ## Josh, is most of your stuff back-end?  Any front-end design?  If so, what tools?
 
 
         - 
@@ -158,7 +158,7 @@ quest.com/powershellbook
 
 
         - 
-          AaronHoover: ## Josh, is most of your stuff back-end? Â Any front-end design? Â If so, what tools?
+          AaronHoover: ## Josh, is most of your stuff back-end?  Any front-end design?  If so, what tools?
 
 
         - 
@@ -191,11 +191,11 @@ Resources
 
 
         - 
-          Tutorial:Â [PowerWF and PowerCLI](http://blog.powerwf.com/post/221107418/tutorial-leveraging-powershell-and-powercli)
+          Tutorial: [PowerWF and PowerCLI](http://blog.powerwf.com/post/221107418/tutorial-leveraging-powershell-and-powercli)
 
 
         - 
-          Virtu-Al'sÂ [PowerCLI quick reference guide](http://www.virtu-al.net/2009/12/04/powercli-quick-reference-guide/)Â updated for 4.0 U1
+          Virtu-Al's [PowerCLI quick reference guide](http://www.virtu-al.net/2009/12/04/powercli-quick-reference-guide/) updated for 4.0 U1
 
 
 
@@ -222,15 +222,15 @@ Tips
 
 
             - 
-              JSON in PowerShell fromÂ [Jaykul](http://huddledmasses.org/json-from-powershell-but-why/)Â andÂ [Hal](http://poshcode.org/1529)
+              JSON in PowerShell from [Jaykul](http://huddledmasses.org/json-from-powershell-but-why/) and [Hal](http://poshcode.org/1529)
 
 
             - 
-              [Creating new objects with a hashtable](http://blogs.msdn.com/powershell/archive/2009/12/05/new-object-psobject-property-hashtable.aspx)Â (v2)
+              [Creating new objects with a hashtable](http://blogs.msdn.com/powershell/archive/2009/12/05/new-object-psobject-property-hashtable.aspx) (v2)
 
 
             - 
-              PoshCode helper script for even more new-object goodness:Â [New-PSOCustomObject](http://poshcode.org/1543)
+              PoshCode helper script for even more new-object goodness: [New-PSOCustomObject](http://poshcode.org/1543)
 
 
             - 

@@ -37,7 +37,7 @@ Tonight on the PowerScripting Podcast we talk to Premier Field Engineer Clint Hu
 ## 
 
 News
-*Â *
+* *
 
 
 
@@ -57,11 +57,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -69,7 +69,7 @@ quest.com/powershellbook
 
 
 
-        Â 
+         
 
 
 
@@ -83,7 +83,7 @@ quest.com/powershellbook
           MVPs! 
 
 
-              WelcomeÂ [Aleksandar NikoliÄ‡](https://mvp.support.microsoft.com/profile/Aleksandar)
+              Welcome [Aleksandar NikoliÄ‡](https://mvp.support.microsoft.com/profile/Aleksandar)
 
 
 
@@ -98,11 +98,11 @@ quest.com/powershellbook
 
 
             - 
-              [North Texas PC UserGroup](http://www.ntpcug.org/)Â has aÂ [PowerShell SIG](http://sites.google.com/site/powershellsig/)Â that is meeting Jan 16th
+              [North Texas PC UserGroup](http://www.ntpcug.org/) has a [PowerShell SIG](http://sites.google.com/site/powershellsig/) that is meeting Jan 16th
 
 
             - 
-              Joel BennettÂ [has started PowerShellGroup.org](http://huddledmasses.org/announcing-powershellgroup-org-a-home-for-powershell-user-groups/)
+              Joel Bennett [has started PowerShellGroup.org](http://huddledmasses.org/announcing-powershellgroup-org-a-home-for-powershell-user-groups/)
 
 
             - 
@@ -117,11 +117,11 @@ quest.com/powershellbook
           CodePlex News 
 
 
-              [SQLPSX](http://sqlpsx.codeplex.com/)Â - new version released
+              [SQLPSX](http://sqlpsx.codeplex.com/) - new version released
 
 
             - 
-              [PSClass project](http://psclass.codeplex.com/)Â - create new "real" classes in PowerShell without reverting to cSharp code
+              [PSClass project](http://psclass.codeplex.com/) - create new "real" classes in PowerShell without reverting to cSharp code
 
 
             - 
@@ -129,7 +129,7 @@ quest.com/powershellbook
 
 
             - 
-              [PoshBoard v3 sneak preview video](http://www.poshboard.com/index.php?option=com_content&view=article&id=35:poshboard-30-aux-ms-techdays-2010&catid=1:poshboard&Itemid=19&lang=en)Â (with multitouch!)
+              [PoshBoard v3 sneak preview video](http://www.poshboard.com/index.php?option=com_content&view=article&id=35:poshboard-30-aux-ms-techdays-2010&catid=1:poshboard&Itemid=19&lang=en) (with multitouch!)
 
 
 
@@ -141,7 +141,7 @@ quest.com/powershellbook
 
 
         - 
-          Â 
+           
 
 
 
@@ -159,7 +159,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -174,15 +174,15 @@ quest.com/powershellbook
 
 
           - 
-            PAL:Â [http://pal.codeplex.com/](http://pal.codeplex.com/)
+            PAL: [http://pal.codeplex.com/](http://pal.codeplex.com/)
 
 
           - 
-            Interview on Runas:Â [http://www.runasradio.com/default.aspx?showNum=136](http://www.runasradio.com/default.aspx?showNum=136)
+            Interview on Runas: [http://www.runasradio.com/default.aspx?showNum=136](http://www.runasradio.com/default.aspx?showNum=136)
 
 
           - 
-            PAL 2.0 Alpha 3:Â [http://pal.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=36824](http://pal.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=36824)
+            PAL 2.0 Alpha 3: [http://pal.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=36824](http://pal.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=36824)
 
 
 
@@ -201,7 +201,7 @@ quest.com/powershellbook
 
 
           - 
-            StevenMurawski: ## Â Will the new PAL templates be described in PowerShell or some other format?
+            StevenMurawski: ##  Will the new PAL templates be described in PowerShell or some other format?
 
 
           - 
@@ -209,7 +209,7 @@ quest.com/powershellbook
 
 
           - 
-            jtruman0917: ## So how Â does PAL allow for Recording of results like PerfMOn
+            jtruman0917: ## So how  does PAL allow for Recording of results like PerfMOn
 
 
           - 
@@ -234,7 +234,7 @@ quest.com/powershellbook
 
 #### 
 
-Hero -Â 
+Hero - 
 
 
 
@@ -252,23 +252,23 @@ Resources
 
 
         - 
-          Jeff Hicks helps us toÂ [think objectively](http://jdhitsolutions.com/blog/2009/12/think-objectively/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
+          Jeff Hicks helps us to [think objectively](http://jdhitsolutions.com/blog/2009/12/think-objectively/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
 
 
         - 
-          From Redmond MagazineÂ ["PowerShell 2.0: Why It Matters"](http://redmondmag.com/Articles/2010/01/01/PowerShell-2-Why-It-Matters.aspx?Page=1)Â by Jeff Hicks
+          From Redmond Magazine ["PowerShell 2.0: Why It Matters"](http://redmondmag.com/Articles/2010/01/01/PowerShell-2-Why-It-Matters.aspx?Page=1) by Jeff Hicks
 
 
         - 
-          [10 PowerShell posts from Doug Finke](http://dougfinke.com/blog/index.php/2010/01/01/10-powershell-posts-i-did-in-2009/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+DevelopmentInABlink+(Development+in+a+Blink)&utm_content=FeedBurner)Â and a great cartoon
+          [10 PowerShell posts from Doug Finke](http://dougfinke.com/blog/index.php/2010/01/01/10-powershell-posts-i-did-in-2009/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+DevelopmentInABlink+(Development+in+a+Blink)&utm_content=FeedBurner) and a great cartoon
 
 
         - 
-          Dmitry SotnikovÂ [blogs about a cool download manager powerpack](http://dmitrysotnikov.wordpress.com/2010/01/07/powershell-based-download-manager/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed:+DmitrysPowerblog+(Dmitry's+PowerBlog))Â for PowerGUI that uses BITS
+          Dmitry Sotnikov [blogs about a cool download manager powerpack](http://dmitrysotnikov.wordpress.com/2010/01/07/powershell-based-download-manager/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed:+DmitrysPowerblog+(Dmitry's+PowerBlog)) for PowerGUI that uses BITS
 
 
         - 
-          James Brundage posts a script toÂ [get the nearby computers on your network](http://blogs.msdn.com/mediaandmicrocode/archive/2010/01/06/get-computersnearme.aspx)
+          James Brundage posts a script to [get the nearby computers on your network](http://blogs.msdn.com/mediaandmicrocode/archive/2010/01/06/get-computersnearme.aspx)
 
 
 
@@ -299,15 +299,15 @@ Tips
 
             - 
 
-21 of Don Jones'sÂ 
+21 of Don Jones's 
 
 [most popular PowerShell tips in a PDF doc](http://concentratedtech.com/item/view/id/27/title/21_PowerShell_Tips)
 
 
 
             - 
-              Jonathan Medd hasÂ [a tip about Enter-PSSession](http://www.jonathanmedd.net/2010/01/powershell-2-0-one-cmdlet-at-a-time-31-enter-pssession.html)
+              Jonathan Medd has [a tip about Enter-PSSession](http://www.jonathanmedd.net/2010/01/powershell-2-0-one-cmdlet-at-a-time-31-enter-pssession.html)
 
 
             - 
-              Tobias Weltner (MVP) hasÂ [a tip about using the Force!](http://powershell.com/cs/blogs/tips/archive/2010/01/07/use-the-force.aspx)Â (parameter)
+              Tobias Weltner (MVP) has [a tip about using the Force!](http://powershell.com/cs/blogs/tips/archive/2010/01/07/use-the-force.aspx) (parameter)

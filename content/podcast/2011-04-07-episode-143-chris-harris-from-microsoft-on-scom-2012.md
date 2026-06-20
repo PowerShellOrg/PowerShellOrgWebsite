@@ -25,13 +25,13 @@ Tonight on the PowerScripting Podcast, we talk to Chris Harris from Microsoft ab
 ## News
 
 
-  This segment is brought to you byÂ *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
+  This segment is brought to you by *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
 
 
 _  
 At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro][1]{#q7ty}_
 
-  * James Brundage is blogging over atÂ <http://blog.start-automating.com/>
+  * James Brundage is blogging over at <http://blog.start-automating.com/>
   * [Hal's new PowerCLI TrainSignal course is out!][2]{#xhkm}
   * User group news: 
       * [NYC Apr 11th, MVP Aleksandar Nikolic will be talking about PowerShell Remoting][3]{#r1_0}
@@ -49,29 +49,29 @@ Interview
   This segment brought to you by Start-Automating
 
 
-Â 
+ 
 
 
-  *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).*
+  *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
-Â 
+ 
 
 
   **Links:**
 
 
-Â 
+ 
 
 #### Chatroom Buzz:
 
 21:47  ## are you deprecating or removing your old commands?
 
 
-  21:50  ## Is there a way we can pull the OpsMgr alerts and perf numbers from a VISIO diagram?Â 
+  21:50  ## Is there a way we can pull the OpsMgr alerts and perf numbers from a VISIO diagram? 
 
 
-  21:52  ## monitoring other devices, any intentions for storage arrays? Â NetApp has Powershell SDK.Â 
+  21:52  ## monitoring other devices, any intentions for storage arrays?  NetApp has Powershell SDK. 
 
 
   21:52  ## F5 BigIP also supports PowerShell, any intention to hook inot that API?
@@ -80,7 +80,7 @@ Interview
   21:56  ## Will SCOM 2012 deliver any new features associated with monitoring cross platform?
 
 
-  21:58  ## Does the new 2012 design and the removal of the Root Management Server provide support for a larger number of Windows and Web Console users?Â 
+  21:58  ## Does the new 2012 design and the removal of the Root Management Server provide support for a larger number of Windows and Web Console users? 
 
 
   **Superhero: Jesus**
@@ -93,7 +93,7 @@ Interview
 **Resources**
 
 
-Â 
+ 
 
   * 
 Tobias posted a one-hour [Getting Started with PowerShell video](http://powershell.com/cs/media/p/9371.aspx)
@@ -103,7 +103,7 @@ Tobias posted a one-hour [Getting Started with PowerShell video](http://powershe
   * [Making the most of the 2011 Scripting Games][11]{#p4pk}
   * Ravi posted a very cool PowerShell ISE Addon: [Get-History GUI][12]{#e2xa}
 
-Â   
+   
 
 
 
@@ -134,26 +134,26 @@ My question is how do you contain an OR to only a certain portion of a Where-Obj
 SQL Example:  
 
 
-WHEREÂ 
+WHERE 
 
 
 (
 
 
-NAMEÂ 
+NAME 
 LIKE
-Â 
+ 
 '%SQL%'
 
 
 
 
 
-Â Â Â Â Â Â Â 
+       
 OR
-Â NAMEÂ 
+ NAME 
 LIKE
-Â 
+ 
 'Reporting%'
 
 )
@@ -162,24 +162,24 @@ LIKE
 
 
 
-Â Â Â 
+   
 AND
-Â StartModeÂ 
+ StartMode 
 =
-Â 
+ 
 'Auto'
 
 
 
 
 
-Â Â Â 
+   
 AND
-Â 
+ 
 Started
-Â 
+ 
 !=
-Â 
+ 
 'True'
 
 
@@ -196,13 +196,13 @@ PowerShell Example (that doesn't work)
 Get-WmiObject
 
 
-Â 
+ 
 win32_service
-Â 
+ 
 -ComputerName
-Â 
+ 
 AARON
-Â 
+ 
 |
 
 
@@ -212,7 +212,7 @@ AARON
 Where
 
 
-Â 
+ 
 {
 
 $_
@@ -220,25 +220,25 @@ $_
 .
 
 name
-Â 
+ 
 -match
-Â 
+ 
 "^*SQL*"
-Â 
+ 
 -or
-Â 
+ 
 $_
 
 .
 
 name
-Â 
+ 
 -match
-Â 
+ 
 "Report"
 
 }
-Â 
+ 
 |
 
 
@@ -248,7 +248,7 @@ name
 Where
 
 
-Â 
+ 
 {
 
 $_
@@ -256,25 +256,25 @@ $_
 .
 
 StartMode
-Â 
+ 
 -eq
-Â 
+ 
 "Auto"
-Â 
+ 
 -and
-Â 
+ 
 $_
 
 .
 
 Started
-Â 
+ 
 -ne
-Â 
+ 
 "True"
 
 }
-Â 
+ 
 |
 
 
@@ -284,33 +284,33 @@ Started
 Select
 
 
-Â 
+ 
 SystemName
 
 ,
-Â 
+ 
 Name
 
 ,
-Â 
+ 
 StartName
 
 ,
-Â 
+ 
 Started
 
 ,
-Â 
+ 
 StartMode
-Â 
+ 
 |
-Â 
+ 
 Ft
-Â 
+ 
 -a
 
 
-  Hal's answer:Â 
+  Hal's answer: 
 
 
 Review the [Operator Precedence help page][15]{#dsyu}, you'll see that -and -or are near the bottom, so you need parentheses to make this work. For example:  

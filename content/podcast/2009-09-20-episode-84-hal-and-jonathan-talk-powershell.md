@@ -47,7 +47,7 @@ News
 
 
 
-      *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+      *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -56,11 +56,11 @@ News
 
 
         - 
-          You could have a chance toÂ [influence PowerShell documentation](http://marcoshaw.blogspot.com/2009/09/call-to-action-please-read-if-you-want.html)
+          You could have a chance to [influence PowerShell documentation](http://marcoshaw.blogspot.com/2009/09/call-to-action-please-read-if-you-want.html)
 
 
         - 
-          There is aÂ [Atlanta System Management User Group](http://www.systemcentercentral.com/UserGroups/tabid/120/view/groupdetail/groupid/3/Default.aspx) meeting coming up on October 9th.
+          There is a [Atlanta System Management User Group](http://www.systemcentercentral.com/UserGroups/tabid/120/view/groupdetail/groupid/3/Default.aspx) meeting coming up on October 9th.
 
 
         - 
@@ -109,27 +109,27 @@ Resources
 
 
         - 
-          Lee Holmes has written a script toÂ [download Facebook image albums](http://www.leeholmes.com/blog/MoreAdvancedHTTPScriptingFacebookPhotoAlbumDownloader.aspx)
+          Lee Holmes has written a script to [download Facebook image albums](http://www.leeholmes.com/blog/MoreAdvancedHTTPScriptingFacebookPhotoAlbumDownloader.aspx)
 
 
         - 
-          PowerShell v2'sÂ [graphical help system](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212515.entry)
+          PowerShell v2's [graphical help system](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212515.entry)
 
 
         - 
-          Doug Finke wrote a script to make it easier toÂ [create custom objects](http://dougfinke.com/blog/index.php/2009/09/12/powershell-function-factory/)
+          Doug Finke wrote a script to make it easier to [create custom objects](http://dougfinke.com/blog/index.php/2009/09/12/powershell-function-factory/)
 
 
         - 
-          The AD team has postedÂ [a neat script to analyze nested groups](http://blogs.msdn.com/adpowershell/archive/2009/09/05/token-bloat-troubleshooting-by-analyzing-group-nesting-in-ad.aspx)
+          The AD team has posted [a neat script to analyze nested groups](http://blogs.msdn.com/adpowershell/archive/2009/09/05/token-bloat-troubleshooting-by-analyzing-group-nesting-in-ad.aspx)
 
 
         - 
-          Get-GuiDate - a cool PowerShell calendar toolÂ [from the Sapien blog](http://blog.sapien.com/index.php/2009/08/24/writing-form-centered-scripts-with-primalforms/)
+          Get-GuiDate - a cool PowerShell calendar tool [from the Sapien blog](http://blog.sapien.com/index.php/2009/08/24/writing-form-centered-scripts-with-primalforms/)
 
 
         - 
-          [Scripting Guys PowerShell Owner's Guide](http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/default.mspx), especially theÂ [shortcut keys listing](http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/hotkeys.mspx).
+          [Scripting Guys PowerShell Owner's Guide](http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/default.mspx), especially the [shortcut keys listing](http://www.microsoft.com/technet/scriptcenter/topics/winpsh/manual/hotkeys.mspx).
 
 
 
@@ -150,7 +150,7 @@ Resources
 
 
           - 
-            A tip forÂ [managing PowerShell Modules](http://powershell.com/cs/blogs/tips/archive/2009/09/17/managing-powershell-modules.aspx)
+            A tip for [managing PowerShell Modules](http://powershell.com/cs/blogs/tips/archive/2009/09/17/managing-powershell-modules.aspx)
 
 
           - 
@@ -200,10 +200,10 @@ Resources
 
 
 
-          Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF. Â Get started by readingÂ [this thread on PowerShellCommunity.org](http://powershellcommunity.org/Forums/tabid/54/aff/1/aft/4177/afv/topic/Default.aspx).
+          Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF.  Get started by reading [this thread on PowerShellCommunity.org](http://powershellcommunity.org/Forums/tabid/54/aff/1/aft/4177/afv/topic/Default.aspx).
 
 
 
 
 
-          Did we forget to mention there are prizes? Â You can win an Amazon $25 gift certificate and a book from SAPIEN!
+          Did we forget to mention there are prizes?  You can win an Amazon $25 gift certificate and a book from SAPIEN!

@@ -1,5 +1,5 @@
 ---
-title: PowerGUIÂ® Spring 2011 Desktop Wallpaper
+title: PowerGUI® Spring 2011 Desktop Wallpaper
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -8,11 +8,11 @@ aliases:
   - /2011/03/powergui-spring-2011-desktop-wallpaper/
 ---
 
-Spring is here already, and even though it doesn"™t seem like it"™s Spring everywhere just yet (it has been snowing most of the day here in Ottawa), with the change in seasons comes a change in desktop wallpaper.Â  The Spring 2011 wallpaper for [PowerGUI Pro][1] and [PowerGUI][2] is now available:
+Spring is here already, and even though it doesn"™t seem like it"™s Spring everywhere just yet (it has been snowing most of the day here in Ottawa), with the change in seasons comes a change in desktop wallpaper.  The Spring 2011 wallpaper for [PowerGUI Pro][1] and [PowerGUI][2] is now available:
 
 [![PowerGUI Spring 2011 Wallpaper Thumbnail](http://www.powergui.org/servlet/KbServlet/downloadImage/3402-102-425/thumbnail.jpg)](http://www.powergui.org/servlet/KbServlet/download/3402-102-5388/1920x1200.jpg)
 
-To download this wallpaper, simply visit the [PowerGUI downloads page][3] and scroll down to see all of the sizes and varieties that are available.Â  We have Fall wallpaper there as well for our friends in the southern hemisphere.Â  As always, all of our wallpaper images are stored in the [Wallpaper folder][4] on [PowerGUI.org][2], so if you want to use one from a previous year or a different season or holiday, take a look around"¦there are currently 27 different varieties to choose from.
+To download this wallpaper, simply visit the [PowerGUI downloads page][3] and scroll down to see all of the sizes and varieties that are available.  We have Fall wallpaper there as well for our friends in the southern hemisphere.  As always, all of our wallpaper images are stored in the [Wallpaper folder][4] on [PowerGUI.org][2], so if you want to use one from a previous year or a different season or holiday, take a look around"¦there are currently 27 different varieties to choose from.
 
 Enjoy!
 

@@ -14,13 +14,13 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### In This Episode
 
-We have a great show lined up for you today.Â  We're interviewing Peter Schulz with Citrix to talk about their PowerShell product Workflow Studio.Â  And as always: News, Resources, Tips, and more!
+We have a great show lined up for you today.  We're interviewing Peter Schulz with Citrix to talk about their PowerShell product Workflow Studio.  And as always: News, Resources, Tips, and more!
 
 ### News
 
 _Today's news is brought to you by SAPIEN Technologies._
 
-  * [Windows PowerShell : IIS7 PowerShell Provider Tech Preview 2][2].Â  What's new with TP2? 
+  * [Windows PowerShell : IIS7 PowerShell Provider Tech Preview 2][2].  What's new with TP2? 
       * IIS7 Powershell provider now supports SSL (installing and acquiring a certificate, creating an ssl site binding)
       * Tech Preview 2 ships with 40 new cmdlets.
   * PowerGUI hit a major milestone in [surpassing 100,000 downloads!][3]
@@ -35,9 +35,9 @@ _Today's news is brought to you by SAPIEN Technologies._
 ### Interview
 
 _This interview is brought to you by iTripoli.  
-"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."  
+"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."  
 _  
-Our interview today is with Peter Schulz from Citrix.Â  Enjoy.Â  Here's our notes from the conversation:
+Our interview today is with Peter Schulz from Citrix.  Enjoy.  Here's our notes from the conversation:
 
   1. Intro 
       1. Peter Schulz has been with Citrix for over 8 years in Consulting, Engineering, Product Marketing, and is now the Technical Product Manager for Citrix Workflow Studio, a new IT Process Automation tool that is currently available as a technology preview.
@@ -56,9 +56,9 @@ Our interview today is with Peter Schulz from Citrix.Â  Enjoy.Â  Here's our 
                   2. input/output: user choice
                   3. flow control: split task
           3. Can workflows be executed on remote systems directly?
-          4. You can double-click on a task and you drill down into a function?Â  How does this work?
+          4. You can double-click on a task and you drill down into a function?  How does this work?
       3. Will the product remain free? 
-          1. There will always be a free version similar to what is in the tech preview now.Â  The commercial version will of course have more stuff in it.
+          1. There will always be a free version similar to what is in the tech preview now.  The commercial version will of course have more stuff in it.
       4. Ship date? 
           1. Second half of this year
       5. How are customers using it so far?
@@ -81,20 +81,20 @@ _Do you have the muscle to bring home the prize? Check out the details_ [_here_]
   * And Jaykul from HuddledMasses.org has posted [part two of the powershell profile article][11] we mentioned last week.
   * Oisin brings us a script that will [resolve all Aliases in a script][12]. Uses CTP2 tokenizer
 
-### TipsÂ 
+### Tips 
 
   * Variable expansion in strings. We've talked about it before, but I saw someone fighting with it just yesterday. 
       * "$object.parameter something else" does not work. Use "$($object.parameter) something else" instead
   * From Poshoholic: [Essential PowerShell: Name your custom object types][13] 
       * One important thing that is often overlooked when people are writing scripts that do this is that they can also give those objects a type name.
-  * Sepeck on the #PowerShell IRC channel (irc.freenode.net) shared a link with us [about his experiences with PowerShell help files][14].Â  It's a good before-and-after story with a lesson.Â  :)Â  He links to one of [Don Jones' articles][15] with further advice on the topic.
+  * Sepeck on the #PowerShell IRC channel (irc.freenode.net) shared a link with us [about his experiences with PowerShell help files][14].  It's a good before-and-after story with a lesson.  :)  He links to one of [Don Jones' articles][15] with further advice on the topic.
 
 ### One-Liner
 
   * [system.directoryservices.activedirectory.domain]::GetCurrentDomain().DomainControllers | fl Name
 
-Â   
-A big thanks to Peter Schulz for coming on the show tonight.Â  We're looking forward to interviewing the Kirk and Dmitry from the PowerGUI team.Â  Send in your questions!Â  As always, you can contact the show by email to .Â  You can also leave us reviews on iTunes and comments on the blog.Â  Don't forget to check out Quest's contest details at [quest.com/powerscripting][6].  
+   
+A big thanks to Peter Schulz for coming on the show tonight.  We're looking forward to interviewing the Kirk and Dmitry from the PowerGUI team.  Send in your questions!  As always, you can contact the show by email to .  You can also leave us reviews on iTunes and comments on the blog.  Don't forget to check out Quest's contest details at [quest.com/powerscripting][6].  
 Other ways to interact with us: [Facebook Group][16] (forums, networking), Twitter ([jonwalz][17] & [halr9000][18])
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-032.mp3

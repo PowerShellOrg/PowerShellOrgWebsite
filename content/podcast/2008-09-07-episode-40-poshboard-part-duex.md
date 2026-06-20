@@ -26,7 +26,7 @@ Today on the PowerScripting Podcast we have an awesome roundtable discussion wit
 *
 "
 *
-*What"™s better than getting the new version of PowerShellPlus for $79? ...... Getting it for FREE! ... Tobias Weltner, well-known PowerShell guru, has partnered with Idera Software to bring you PowerShellPlus Professional Edition. The new version has vastly improved code completion and a slick interactive help center.Â  Idera is offering listeners of *
+*What"™s better than getting the new version of PowerShellPlus for $79? ...... Getting it for FREE! ... Tobias Weltner, well-known PowerShell guru, has partnered with Idera Software to bring you PowerShellPlus Professional Edition. The new version has vastly improved code completion and a slick interactive help center.  Idera is offering listeners of *
 
 
 *this podcast*
@@ -38,7 +38,7 @@ while supplies last
 [
 *www.idera.com/podcastpeople*
 ](http://www.idera.com/podcastpeople)
-* to download the beta.Â  When PowerShellPlus goes GA at the end of September, Idera will automatically send you a license key"¦for free."*
+* to download the beta.  When PowerShellPlus goes GA at the end of September, Idera will automatically send you a license key"¦for free."*
 
 
 
@@ -85,7 +85,7 @@ while supplies last
  *Quest Software is sponsoring a PowerShell Scripting contest where you can test your skills and get paid. Just create some cool PowerShell scripts using Quest"™s PowerGUI and then post them to our site. You"™ll get a score and our celebrity judges will weigh in as well.*
  *Do you have the muscle to bring home the prize? Check out the details *[*here*](https://quest.com/powerscripting)*.*
  We had a great discussion with our guests [Jeffrey Snover](http://blogs.msdn.com/powershell), [Keith Hill](http://keithhill.spaces.live.com/), [Oisin Grehan](http://www.nivot.org/default.aspx), and [Joel Bennett](http://huddledmasses.org/).
- Â 
+  
 
 
 
@@ -93,14 +93,14 @@ while supplies last
 
 
 
-    Â 
+     
 
 
 
 ## Resource
 
 _This segment is brought to you by iTripoli!_  
-_____Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.Â  Let's not forget about the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com._
+_____Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.  Let's not forget about the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com._
 
 
 
@@ -154,7 +154,7 @@ Stuart H. writes:
 
 
       - 
-        Congrats also to Robbie F.Â Â Â Â Â Â Â 
+        Congrats also to Robbie F.       
 
 
 
@@ -164,7 +164,7 @@ Stuart H. writes:
 
 
 
-    Â 
+     
 
 
 

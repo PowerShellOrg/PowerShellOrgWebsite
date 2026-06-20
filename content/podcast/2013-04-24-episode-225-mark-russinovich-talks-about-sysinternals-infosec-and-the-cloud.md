@@ -22,7 +22,7 @@ aliases:
   Tonight on the PowerScripting Podcast, we talk to Mark Russinovich about Sysinternals, Infosec, and the Cloud!
 
 
-****Â ****
+**** ****
 
 ## News
 

@@ -107,13 +107,13 @@ Remove-Job
 
 *
 
-`Here"™s the output:Â Â Â Â Â Â Â Â Â Â   
+`Here"™s the output:            
 1  
 2  
 3  
 4  
 5  
-_In case you were wondering "Wait-Job \*" waits for all existing jobs to complete before continuing. "Receive-Job \*" will receive the output from all jobs (that have any output.) You guessed it! "Remove-Job *" removes all existing jobs._Â   
+_In case you were wondering "Wait-Job \*" waits for all existing jobs to complete before continuing. "Receive-Job \*" will receive the output from all jobs (that have any output.) You guessed it! "Remove-Job *" removes all existing jobs._   
 Sweet! We"™re in business. Or at least that"™s what I thought until I started to do some actual work. This does what I would expect"¦
 
 
@@ -162,46 +162,46 @@ remove-job
 *
 
 `Returns:  
-PSPathÂ Â Â Â Â Â Â Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem::C:Userse42793.imindmap  
-PSParentPathÂ Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem::C:Userse42793  
-PSChildNameÂ Â Â Â Â Â  : .imindmap  
-PSDriveÂ Â Â Â Â Â Â Â Â Â  : C  
-PSProviderÂ Â Â Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem  
-PSIsContainerÂ Â Â Â  : True  
-ModeÂ Â Â Â Â Â Â Â Â Â Â Â Â  : d\----  
-NameÂ Â Â Â Â Â Â Â Â Â Â Â Â  : .imindmap  
-ParentÂ Â Â Â Â Â Â Â Â Â Â  : e42793  
-ExistsÂ Â Â Â Â Â Â Â Â Â Â  : True  
-RootÂ Â Â Â Â Â Â Â Â Â Â Â Â  : C:  
-FullNameÂ Â Â Â Â Â Â Â Â  : C:Userse42793.imindmap  
-ExtensionÂ Â Â Â Â Â Â Â  : .imindmap  
-CreationTimeÂ Â Â Â Â  : 3/30/2009 10:18:08 AM  
-CreationTimeUtcÂ Â  : 3/30/2009 2:18:08 PM  
-LastAccessTimeÂ Â Â  : 12/1/2009 10:23:12 AM  
+PSPath            : Microsoft.PowerShell.CoreFileSystem::C:Userse42793.imindmap  
+PSParentPath      : Microsoft.PowerShell.CoreFileSystem::C:Userse42793  
+PSChildName       : .imindmap  
+PSDrive           : C  
+PSProvider        : Microsoft.PowerShell.CoreFileSystem  
+PSIsContainer     : True  
+Mode              : d\----  
+Name              : .imindmap  
+Parent            : e42793  
+Exists            : True  
+Root              : C:  
+FullName          : C:Userse42793.imindmap  
+Extension         : .imindmap  
+CreationTime      : 3/30/2009 10:18:08 AM  
+CreationTimeUtc   : 3/30/2009 2:18:08 PM  
+LastAccessTime    : 12/1/2009 10:23:12 AM  
 LastAccessTimeUtc : 12/1/2009 3:23:12 PM  
-LastWriteTimeÂ Â Â Â  : 12/1/2009 10:23:12 AM  
-LastWriteTimeUtcÂ  : 12/1/2009 3:23:12 PM  
-AttributesÂ Â Â Â Â Â Â  : Directory, NotContentIndexed  
-PSPathÂ Â Â Â Â Â Â Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem::C:Userse42793B35ABFD8A0A842348EC0B194B2098055.TMP  
-PSParentPathÂ Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem::C:Userse42793  
-PSChildNameÂ Â Â Â Â Â  : B35ABFD8A0A842348EC0B194B2098055.TMP  
-PSDriveÂ Â Â Â Â Â Â Â Â Â  : C  
-PSProviderÂ Â Â Â Â Â Â  : Microsoft.PowerShell.CoreFileSystem  
-PSIsContainerÂ Â Â Â  : True  
-ModeÂ Â Â Â Â Â Â Â Â Â Â Â Â  : d\----  
-NameÂ Â Â Â Â Â Â Â Â Â Â Â Â  : B35ABFD8A0A842348EC0B194B2098055.TMP  
-ParentÂ Â Â Â Â Â Â Â Â Â Â  : e42793  
-ExistsÂ Â Â Â Â Â Â Â Â Â Â  : True  
-RootÂ Â Â Â Â Â Â Â Â Â Â Â Â  : C:  
-FullNameÂ Â Â Â Â Â Â Â Â  : C:Userse42793B35ABFD8A0A842348EC0B194B2098055.TMP  
-ExtensionÂ Â Â Â Â Â Â Â  : .TMP  
-CreationTimeÂ Â Â Â Â  : 3/20/2009 11:21:54 AM  
-CreationTimeUtcÂ Â  : 3/20/2009 3:21:54 PM  
-LastAccessTimeÂ Â Â  : 12/1/2009 10:23:21 AM  
+LastWriteTime     : 12/1/2009 10:23:12 AM  
+LastWriteTimeUtc  : 12/1/2009 3:23:12 PM  
+Attributes        : Directory, NotContentIndexed  
+PSPath            : Microsoft.PowerShell.CoreFileSystem::C:Userse42793B35ABFD8A0A842348EC0B194B2098055.TMP  
+PSParentPath      : Microsoft.PowerShell.CoreFileSystem::C:Userse42793  
+PSChildName       : B35ABFD8A0A842348EC0B194B2098055.TMP  
+PSDrive           : C  
+PSProvider        : Microsoft.PowerShell.CoreFileSystem  
+PSIsContainer     : True  
+Mode              : d\----  
+Name              : B35ABFD8A0A842348EC0B194B2098055.TMP  
+Parent            : e42793  
+Exists            : True  
+Root              : C:  
+FullName          : C:Userse42793B35ABFD8A0A842348EC0B194B2098055.TMP  
+Extension         : .TMP  
+CreationTime      : 3/20/2009 11:21:54 AM  
+CreationTimeUtc   : 3/20/2009 3:21:54 PM  
+LastAccessTime    : 12/1/2009 10:23:21 AM  
 LastAccessTimeUtc : 12/1/2009 3:23:21 PM  
-LastWriteTimeÂ Â Â Â  : 12/1/2009 10:23:21 AM  
-LastWriteTimeUtcÂ  : 12/1/2009 3:23:21 PM  
-AttributesÂ Â Â Â Â Â Â  : Directory, NotContentIndexed  
+LastWriteTime     : 12/1/2009 10:23:21 AM  
+LastWriteTimeUtc  : 12/1/2009 3:23:21 PM  
+Attributes        : Directory, NotContentIndexed  
 Etc. Etc. You get the idea. What I really need though is the FullName property. This is where things get weird. Check this out:
 
 
@@ -329,15 +329,15 @@ remove-job
 *
 
 `Returns:  
-RunspaceIdÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : 8d57fad2-dfc1-4895-a986-6ea6b53ffc8d  
-ModuleÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : CommonLanguageRuntimeLibrary  
-AssemblyÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089  
-TypeHandleÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : System.RuntimeTypeHandle  
-BaseTypeÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : System.Object  
-UnderlyingSystemTypeÂ Â Â Â Â  : System.Collections.ArrayList  
-**FullNameÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : System.Collections.ArrayList**  
-AssemblyQualifiedNameÂ Â Â Â  : System.Collections.ArrayList, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089  
-NamespaceÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  : System.Collections  
+RunspaceId                : 8d57fad2-dfc1-4895-a986-6ea6b53ffc8d  
+Module                    : CommonLanguageRuntimeLibrary  
+Assembly                  : mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089  
+TypeHandle                : System.RuntimeTypeHandle  
+BaseType                  : System.Object  
+UnderlyingSystemType      : System.Collections.ArrayList  
+**FullName                  : System.Collections.ArrayList**  
+AssemblyQualifiedName     : System.Collections.ArrayList, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089  
+Namespace                 : System.Collections  
 I cut out the rest of the output but you can see that $_ is an array. Well, if $_ is an array than what was $input?
 
 

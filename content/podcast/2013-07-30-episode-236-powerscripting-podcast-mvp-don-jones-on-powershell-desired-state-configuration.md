@@ -26,37 +26,37 @@ aliases:
 
   * 
 
-      TheÂ [Getting Started with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start)Â videos are up
+      The [Getting Started with PowerShell 3.0 Jump Start](http://www.microsoftvirtualacademy.com/training-courses/getting-started-with-powershell-3-0-jump-start) videos are up
 
 
 
   * 
 
-      [Advanced Tools & Scripting with PowerShell 3.0](http://www.microsoftvirtualacademy.com/liveevents/Adv-PowerShell-Jump-Start?CR_CC=200226341)Â is August 1st
+      [Advanced Tools & Scripting with PowerShell 3.0](http://www.microsoftvirtualacademy.com/liveevents/Adv-PowerShell-Jump-Start?CR_CC=200226341) is August 1st
 
 
 
   * 
 
-      PowerShell sessions, slides and demos from TechEd 2013Â [have been posted](http://blogs.msdn.com/b/powershell/archive/2013/07/29/powershell-sessions-slides-and-demos-from-teched-2013.aspx)
+      PowerShell sessions, slides and demos from TechEd 2013 [have been posted](http://blogs.msdn.com/b/powershell/archive/2013/07/29/powershell-sessions-slides-and-demos-from-teched-2013.aspx)
 
 
 
   * 
 
-      TheÂ [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/)Â is meeting August 1st
+      The [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/) is meeting August 1st
 
 
 
   * 
 
-      TheÂ [Charlotte PowerShell group](https://powershell.org/event/charlotte-powershell-users-group-monthly-meeting-3/2013-08-01/)Â is meeting August 1st
+      The [Charlotte PowerShell group](https://powershell.org/event/charlotte-powershell-users-group-monthly-meeting-3/2013-08-01/) is meeting August 1st
 
 
 
   * 
 
-      TheÂ [Arizona PowerShell group](https://powershell.org/event/arizona-powershell-azposh-user-group-meeting/2013-08-07/)Â is meeting August 7th
+      The [Arizona PowerShell group](https://powershell.org/event/arizona-powershell-azposh-user-group-meeting/2013-08-07/) is meeting August 7th
 
 
 
@@ -132,7 +132,7 @@ aliases:
 
   * 
 
-      organicit: ##will there be a way to extend this beyond server roles? Â Hooks into lower level dependencies such as applications servers like weblogic, Tomcat, Jboss,apache"¦etc
+      organicit: ##will there be a way to extend this beyond server roles?  Hooks into lower level dependencies such as applications servers like weblogic, Tomcat, Jboss,apache"¦etc
 
 
 

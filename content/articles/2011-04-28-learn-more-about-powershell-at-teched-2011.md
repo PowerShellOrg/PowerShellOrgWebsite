@@ -1052,7 +1052,7 @@ Below you will find a list of all of the PowerShell-related sessions and resourc
 
 #### Quest Software Ask the Experts Session on PowerShell
 
-There are other items that won"™t show up in the schedule builder as well. For example, Quest Software has regular Ask the Experts sessions throughout the event, and one of those sessions will be focused on PowerShell, allowing you to ask questions to myself and Dmitry Sotnikov, watch some demos of the next version of [PowerGUIÂ® Pro][2], and have a chance to meet us at the event.  If this interests you, mark your calendar and join Dmitry and I in the Quest Software booth in the expo hall on **Tuesday, May 17** from **12:30PM to 1:00PM**, and bring your PowerShell and [PowerGUI Pro][2] questions!
+There are other items that won"™t show up in the schedule builder as well. For example, Quest Software has regular Ask the Experts sessions throughout the event, and one of those sessions will be focused on PowerShell, allowing you to ask questions to myself and Dmitry Sotnikov, watch some demos of the next version of [PowerGUI® Pro][2], and have a chance to meet us at the event.  If this interests you, mark your calendar and join Dmitry and I in the Quest Software booth in the expo hall on **Tuesday, May 17** from **12:30PM to 1:00PM**, and bring your PowerShell and [PowerGUI Pro][2] questions!
 
 #### 
 

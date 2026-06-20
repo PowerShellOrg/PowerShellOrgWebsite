@@ -29,7 +29,7 @@ Tonight on the PowerScripting Podcast we talk to Glenn Sizemore about TechEd 201
 
   *
 
-Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ [quest.com/powershellbook](http://quest.com/powershellbook)Â to register for your free copy orÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy or [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 *
 
@@ -47,14 +47,14 @@ _
       * [PowerShell toolkit community portal][7]{#l46b}
       * [PowerPoint overview deck][8]{#p3az}
       * [Sample scripts][9]{#nq_x}
-  * [vEcoShell update][10]{#w.jl}Â 
+  * [vEcoShell update][10]{#w.jl} 
 
 ## Interview
 
 
 *
 
-PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â You can download a 30-day trial today atÂ [PowerWF.com](http://powerwf.com/)
+PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  You can download a 30-day trial today at [PowerWF.com](http://powerwf.com/)
 
 
  *
@@ -64,8 +64,8 @@ PowerWF is a business process automation tool based on Windows Workflow and fuel
 Links
 
 
-  * Glenn Sizemore blog:Â <http://get-admin.com/blog/>
-  * Twitter:Â [http://twitter.com/glnsize][11]
+  * Glenn Sizemore blog: <http://get-admin.com/blog/>
+  * Twitter: [http://twitter.com/glnsize][11]
 
 #### Superhero: Batman
 
@@ -82,7 +82,7 @@ This segment is brought to you by [SAPIEN Technologies][12]{#hbu4}.
   * Jeff Hicks has [put together an MDT Wizard in PowerShell][13]{#u9dn}
   * [A beginning PowerShell series][14]{#t4_2}
   * [Hey, Scripting Guy! How Can I Have Files Copied to a USB Drive When the Drive Is Inserted into a Computer?][15]{#b7.4}
-  * Don Jones [explains here-strings][16]{#stad}Â 
+  * Don Jones [explains here-strings][16]{#stad} 
   * [There is a PowerShell for Dummies book now!][17]{#wjq0}**
 
 

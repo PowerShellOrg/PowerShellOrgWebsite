@@ -136,7 +136,7 @@ https://powershell.slack.com/files/halr9000/F14CPDZ8U/2016-04-27_22-45-42.png
  ## does a inventory scan for current server configuration ?
 
 
- ## With the Redhat purchase of Ansible, what things are they doing to show that Windows is a ââ‚¬Å“first classââ‚¬Â citizen? as this seems to further reinforce that ansible is unix tool by unix devs for for unix admins for unix servers?
+ ## With the Redhat purchase of Ansible, what things are they doing to show that Windows is a ââ‚¬Å“first classââ‚¬ citizen? as this seems to further reinforce that ansible is unix tool by unix devs for for unix admins for unix servers?
 
 
  ##What is needed in the WinRM configuration of each server you will need to manage? Will admins still have to manually configure WinRM on systems that are not joined to the domain?

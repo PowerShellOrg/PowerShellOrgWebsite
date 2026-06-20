@@ -1,5 +1,5 @@
 ---
-title: "Earth Day 2011 \"“ PowerGUIÂ® Style!"
+title: "Earth Day 2011 \"“ PowerGUI® Style!"
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -8,7 +8,7 @@ aliases:
   - /2011/04/earth-day-2011-powergui-style/
 ---
 
-Today is Earth Day 2011, and you can celebrate your green side in style with the latest [PowerGUI][1]Â® wallpaper.  As an ecoholic myself, this wallpaper is definitely among my favorites.
+Today is Earth Day 2011, and you can celebrate your green side in style with the latest [PowerGUI][1]® wallpaper.  As an ecoholic myself, this wallpaper is definitely among my favorites.
 
 [![](http://www.powergui.org/servlet/KbServlet/download/3472-102-5523/1920x1200.jpg)](http://www.powergui.org/servlet/KbServlet/download/3472-102-5523/1920x1200.jpg)
 

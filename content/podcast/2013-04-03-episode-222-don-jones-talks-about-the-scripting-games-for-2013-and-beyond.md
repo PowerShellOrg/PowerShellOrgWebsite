@@ -22,11 +22,11 @@ aliases:
   Tonight on the PowerScripting Podcast, we talk to Don Jones about the 2013 Scripting Games!
 
 
-****Â ****
+**** ****
 
 ## News
 
-****Â ****
+**** ****
 
   * 
 
@@ -66,7 +66,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -92,7 +92,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### Chatroom Buzz
 
@@ -199,11 +199,11 @@ aliases:
   16[2013-03-28 22:30:09] <7JimBirley> Great book review: 22http://mikefrobbins.com/2013/03/28/book-review-windows-powershell-cookbook-3rd-edition/
 
 
-****Â ****
+**** ****
 
 #### The Question -
 
-****Â ****
+**** ****
 
   * 
 

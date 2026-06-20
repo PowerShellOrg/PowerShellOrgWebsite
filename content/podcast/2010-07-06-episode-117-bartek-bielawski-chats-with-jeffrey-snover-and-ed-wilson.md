@@ -29,7 +29,7 @@ Tonight on the PowerScripting Podcast we talk to Jeffrey Snover, Ed Wilson, and 
 
   *
 
-Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ [quest.com/powershellbook](http://quest.com/powershellbook)Â to register for your free copy orÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy or [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 *
 
@@ -55,7 +55,7 @@ _
 
 *
 
-PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â You can download a 30-day trial today atÂ [PowerWF.com](http://powerwf.com/)
+PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  You can download a 30-day trial today at [PowerWF.com](http://powerwf.com/)
 
 
  *
@@ -66,7 +66,7 @@ Links:
 
 
   * [Bartek's blog: http://become-lotr.spaces.live.com/default.aspx][12]{#elgs}
-  * NetApp blog post:Â <http://blogs.msdn.com/b/powershell/archive/2010/06/16/kudos-to-netapp-for-data-ontap-powershell-toolkit.aspx>
+  * NetApp blog post: <http://blogs.msdn.com/b/powershell/archive/2010/06/16/kudos-to-netapp-for-data-ontap-powershell-toolkit.aspx>
 
 #### 
 Questions:
@@ -88,10 +88,10 @@ Questions:
   * < finked: ## Any thoughts on LINQ and PowerShell?
   * Hal: Provisioning framework?
   * < ChadMiller: ##What are your thoughts on better module distribtution ala apt-get, CPAN/PPM.
-  * < MaxTrinidad: Question: Â Any possibility to see an PS addin or integration with MSOffice?
+  * < MaxTrinidad: Question:  Any possibility to see an PS addin or integration with MSOffice?
   * rfoust: ## is there a powershell compiler that will convert a script into a compiled .net program?
   * < SQLvariant-1: ##How do we get a ScriptingGuys bobble-head?
-  * aleksandar: ## online PowerShell help topics are now very different (bugs/typos fixed) than built-in help topics. when can we get a chance to download them and use them offline as well?Â 
+  * aleksandar: ## online PowerShell help topics are now very different (bugs/typos fixed) than built-in help topics. when can we get a chance to download them and use them offline as well? 
   * philiplavoie: ## are internal MS SDETS using PS> to test your apps?
   * SQLvariant: ##When will we be able to backup our Zune desktop software configurations with a PowerShell script 🙂
 
@@ -108,4 +108,4 @@ Questions:
  [9]: http://www.sqlsaturday.com/40/eventhome.aspx "#40 in S. Florida on July 31st"
  [10]: http://www.sqlpass.org/summit/na2010/ "SQL PASS Summit"
  [11]: http://sqlpass.eventpoint.com/topic/details/T1C41B "Use Powershell to get the most out of SQL Server"
- [12]: http://become-lotr.spaces.live.com/default.aspx "Bartek's blog:Â http://become-lotr.spaces.live.com/default.aspx"
+ [12]: http://become-lotr.spaces.live.com/default.aspx "Bartek's blog: http://become-lotr.spaces.live.com/default.aspx"

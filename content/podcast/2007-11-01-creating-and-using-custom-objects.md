@@ -180,7 +180,7 @@ populating custom object
 
 
 > $k = $k + 1  
-> $coÂ += $values # this populates the array
+> $co += $values # this populates the array
 
 
   })

@@ -27,6 +27,6 @@ From Marco Shaw
 > This will be done via the Internet (so the audio will be streaming  
 > over the Internet also). There won't be telephone dial-in access.
 
-Seriously Marco, you guys need to get web 2.0 with this stuff.Â  Evite, upcoming.org, Facebook events"¦something!Â  🙂
+Seriously Marco, you guys need to get web 2.0 with this stuff.  Evite, upcoming.org, Facebook events"¦something!  🙂
 
  [1]: http://marcoshaw.blogspot.com/2008/07/uk-user-group-presentation-netcmdlets.html

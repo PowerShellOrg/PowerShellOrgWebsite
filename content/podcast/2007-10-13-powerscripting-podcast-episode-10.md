@@ -81,13 +81,13 @@ node
  }
 
 the limit has to do with how many connections per host you can have.
- Well i banged out this config file using PowershellÂ 1..216 | % {"node 10.10.10." + $_ + " {`n Â  limit 1`n}"} | out-file
+ Well i banged out this config file using Powershell 1..216 | % {"node 10.10.10." + $_ + " {`n   limit 1`n}"} | out-file
  bigipconf.txt - Thanks Andy!
 
 
 **One-Liners**
 
-  * Â $ErrorActionPreference = "silentlycontinue"
+  *  $ErrorActionPreference = "silentlycontinue"
   * gc scott.txt | %{$u=$_; trap {"$u,deleted"} if(get-qaduser $_ -disabled){"$_,disabled"}else{"$_,active"}} | out-file "User Status.csv"
 
 **Gotchas**

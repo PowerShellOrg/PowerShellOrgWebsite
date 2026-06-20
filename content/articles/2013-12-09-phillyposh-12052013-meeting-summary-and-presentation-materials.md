@@ -33,7 +33,7 @@ aliases:
     >   1. Your script should look into a directory that may contain sub folders for image files (you may want to support .jpg, .jpeg, .png, etc.).
     >   2. The script should then determine the date a photo was taken. Examining the [EXIF][8] meta-data might be handy.
     >   3. Get the date the script runs and find all the photos taken on the same day other than the current year.
-    >   4. Â Finally send an email containing the photos taken on this day in history*
+    >   4.  Finally send an email containing the photos taken on this day in history*
 
 
  [1]: https://twitter.com/sunnyc7

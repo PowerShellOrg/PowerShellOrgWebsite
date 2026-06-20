@@ -40,7 +40,7 @@ News
 
 
 
-    *Â *
+    * *
 
 
 
@@ -53,19 +53,19 @@ News
 
 
       - 
-        Project OnyxÂ [finally has a public alpha](http://blogs.vmware.com/vipowershell/2009/11/project-onyx-is-here.html)Â (also see Al Renouf'sÂ [blog post](http://www.virtu-al.net/2009/11/16/the-onyx-has-landed/))
+        Project Onyx [finally has a public alpha](http://blogs.vmware.com/vipowershell/2009/11/project-onyx-is-here.html) (also see Al Renouf's [blog post](http://www.virtu-al.net/2009/11/16/the-onyx-has-landed/))
 
 
       - 
-        PowerShell V2 isÂ [supported for Exchange 2007 SP](http://msgoodies.blogspot.com/2009/11/powershell-20-is-supported-for-exchange.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/msgoodies+(msgoodies+RSS))2
+        PowerShell V2 is [supported for Exchange 2007 SP](http://msgoodies.blogspot.com/2009/11/powershell-20-is-supported-for-exchange.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/msgoodies+(msgoodies+RSS))2
 
 
       - 
-        [TechMentor 2010 is now open for registration](http://www.techmentorevents.com/Events/TechMentor-Spring-2010/Home.aspx), and they have aÂ [PowerShell track](http://techmentorevents.com/events/techmentor-spring-2010/tracks/windows-powershell-focus-topic.aspx).
+        [TechMentor 2010 is now open for registration](http://www.techmentorevents.com/Events/TechMentor-Spring-2010/Home.aspx), and they have a [PowerShell track](http://techmentorevents.com/events/techmentor-spring-2010/tracks/windows-powershell-focus-topic.aspx).
 
 
       - 
-        PowerShell Help 2.0 Community EditionÂ [has been released by SAPIEN](http://blog.sapien.com/index.php/2009/11/16/powershell-help-2-0-community-edition/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+SapienBlog+(SAPIEN+Technologies+Blog))
+        PowerShell Help 2.0 Community Edition [has been released by SAPIEN](http://blog.sapien.com/index.php/2009/11/16/powershell-help-2-0-community-edition/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+SapienBlog+(SAPIEN+Technologies+Blog))
 
 
 
@@ -83,7 +83,7 @@ News
 
 
 
-      *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+      *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -160,15 +160,15 @@ Resources
 
 
       - 
-        Rich SiddawayÂ [has a script](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2605.entry)Â that shows you how to create a scheduled task to clear your temp files using the TaskScheduler module from theÂ [PowerShellPack](http://code.msdn.microsoft.com/PowerShellPack). Rich also hasÂ [a follow-up article](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2607.entry)Â where he goes into more depth on the cmdlets included in the TaskScheduler module.
+        Rich Siddaway [has a script](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2605.entry) that shows you how to create a scheduled task to clear your temp files using the TaskScheduler module from the [PowerShellPack](http://code.msdn.microsoft.com/PowerShellPack). Rich also has [a follow-up article](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2607.entry) where he goes into more depth on the cmdlets included in the TaskScheduler module.
 
 
       - 
-        Klaus GraefensteinerÂ [has a script](http://www.tellingmachine.com/post/Enumerating-and-un-installing-products-by-name-using-PowerShell-and-MSIConfigexe.aspx)Â for un-installing products by name
+        Klaus Graefensteiner [has a script](http://www.tellingmachine.com/post/Enumerating-and-un-installing-products-by-name-using-PowerShell-and-MSIConfigexe.aspx) for un-installing products by name
 
 
       - 
-        [Creating word clouds with PowerShell and PowerPoint](http://blogs.technet.com/jamesone/archive/2009/11/17/making-word-clouds-part-1-how-it-works.aspx)Â from James O'Neill
+        [Creating word clouds with PowerShell and PowerPoint](http://blogs.technet.com/jamesone/archive/2009/11/17/making-word-clouds-part-1-how-it-works.aspx) from James O'Neill
 
 
 
@@ -195,7 +195,7 @@ Tips
 
 
           - 
-            MVP Joel Bennett tells how toÂ [sign PowerShell scripts automatically](http://huddledmasses.org/signing-powershell-scripts-automatically/)
+            MVP Joel Bennett tells how to [sign PowerShell scripts automatically](http://huddledmasses.org/signing-powershell-scripts-automatically/)
 
 
           - 
@@ -203,11 +203,11 @@ Tips
 
 
           - 
-            Ed WilsonÂ [gives us a great post](http://blogs.technet.com/heyscriptingguy/archive/2009/11/17/hey-scripting-guy-november-17-2009.aspx)Â showing how to use web services from PowerShell
+            Ed Wilson [gives us a great post](http://blogs.technet.com/heyscriptingguy/archive/2009/11/17/hey-scripting-guy-november-17-2009.aspx) showing how to use web services from PowerShell
 
 
           - 
-            Steve MurawskiÂ [posted a script](http://poshcode.org/1471)Â to pull tables out of Crystal Reports
+            Steve Murawski [posted a script](http://poshcode.org/1471) to pull tables out of Crystal Reports
 
 
           - 
@@ -229,7 +229,7 @@ Tips
 
 
 
-          AsÂ [documented recently](http://blogs.msdn.com/powershell/archive/2009/11/15/i-can-do-that-with-1-line-of-powershell-installed-software.aspx)Â on the PowerShell team blog:
+          As [documented recently](http://blogs.msdn.com/powershell/archive/2009/11/15/i-can-do-that-with-1-line-of-powershell-installed-software.aspx) on the PowerShell team blog:
 
 
 

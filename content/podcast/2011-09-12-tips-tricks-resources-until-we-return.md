@@ -12,7 +12,7 @@ The PowerScripting Podcast Studio and Headquarters (also known as Jonathan"™s 
 
 To keep you going until we return, here are a few items from Twitter and blogs that we"™re watching:
 
-  * Adding $Clipboard automatic variable support to [#**PowerShell**][1] Â« James O'Neill's Blog <http://bit.ly/nTHq8D>
+  * Adding $Clipboard automatic variable support to [#**PowerShell**][1] « James O'Neill's Blog <http://bit.ly/nTHq8D>
   * 2-pane "more console-like" mode for ISE | Microsoft Connect<http://j.mp/pH26mD> [#**powershell**][2] < vote me up!
   * My answer to Stack Exchange Stack Overflow Q: Powershell to shut down a VM <http://stackoverflow.com/q/7365303/6637>
   * Please vote: We need a Get-Parameter cmdlet <http://j.mp/n8ical> [#**powershell**][2]

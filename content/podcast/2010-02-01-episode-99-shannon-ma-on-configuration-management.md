@@ -37,7 +37,7 @@ Tonight on the PowerScripting Podcast we talk to Shannon Ma about configuration 
 ## 
 
 News
-*Â *
+* *
 
 
 
@@ -57,11 +57,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -69,7 +69,7 @@ quest.com/powershellbook
 
 
 
-        Â 
+         
 
 
 
@@ -80,19 +80,19 @@ quest.com/powershellbook
 
 
         - 
-          Jonathan MeddÂ [posted](http://www.jonathanmedd.net/2010/01/uk-powershell-user-group-events-in-jan-and-feb-2010.html)Â the Jan/Feb dates for the UK PowerShell User Group
+          Jonathan Medd [posted](http://www.jonathanmedd.net/2010/01/uk-powershell-user-group-events-in-jan-and-feb-2010.html) the Jan/Feb dates for the UK PowerShell User Group
 
 
         - 
-          SAPIEN willÂ [soon be releasing v2](http://blog.sapien.com/index.php/2010/01/05/ipowershell-2-0/)Â of iPowerShell to the iPhone app store
+          SAPIEN will [soon be releasing v2](http://blog.sapien.com/index.php/2010/01/05/ipowershell-2-0/) of iPowerShell to the iPhone app store
 
 
         - 
-          DmitryÂ [posted a video](http://dmitrysotnikov.wordpress.com/2010/01/15/mobileshell-demo/)Â of MobileShell
+          Dmitry [posted a video](http://dmitrysotnikov.wordpress.com/2010/01/15/mobileshell-demo/) of MobileShell
 
 
         - 
-          [Buy PowerGadgets](http://www.softwarefx.com//regionalpromotions/landing.aspx/?sPromotionCode=PGHAITI)Â by Jan 31st for $49 and 100% of proceeds go to help Haiti
+          [Buy PowerGadgets](http://www.softwarefx.com//regionalpromotions/landing.aspx/?sPromotionCode=PGHAITI) by Jan 31st for $49 and 100% of proceeds go to help Haiti
 
 
 
@@ -101,7 +101,7 @@ quest.com/powershellbook
 
 
         - 
-          Â 
+           
 
 
 
@@ -119,7 +119,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -134,15 +134,15 @@ quest.com/powershellbook
 
 
           - 
-            NetPointÂ [http://www.neutex.net/](http://www.neutex.net/)
+            NetPoint [http://www.neutex.net/](http://www.neutex.net/)
 
 
           - 
-            NetPoint PowerGUI PowerPack:Â [http://powergui.org/entry.jspa?externalID=2582&categoryID=296](http://powergui.org/entry.jspa?externalID=2582&categoryID=296)
+            NetPoint PowerGUI PowerPack: [http://powergui.org/entry.jspa?externalID=2582&categoryID=296](http://powergui.org/entry.jspa?externalID=2582&categoryID=296)
 
 
           - 
-            Blog:Â [http://shannon.neutex.net/](http://shannon.neutex.net/)
+            Blog: [http://shannon.neutex.net/](http://shannon.neutex.net/)
 
 
 
@@ -177,11 +177,11 @@ Resources
 
 
         - 
-          Don Jones onÂ [AD cmdlets and implicit remoting](http://concentratedtech.com/item/view/id/340/title/Active-Directory-cmdlets-and-Implicit-Remoting)
+          Don Jones on [AD cmdlets and implicit remoting](http://concentratedtech.com/item/view/id/340/title/Active-Directory-cmdlets-and-Implicit-Remoting)
 
 
         - 
-          The Scripting GuyÂ [talks about PowerShell Modules](http://blogs.technet.com/heyscriptingguy/archive/2010/01/21/hey-scripting-guy-january-21-2010.aspx)
+          The Scripting Guy [talks about PowerShell Modules](http://blogs.technet.com/heyscriptingguy/archive/2010/01/21/hey-scripting-guy-january-21-2010.aspx)
 
 
 
@@ -239,8 +239,8 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
               - 
-                ShayÂ [posted a couple of one-liners](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/19/quicktip-one-liners-to-get-winrm-port-numbers.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic))Â to get WinRM port numbers
+                Shay [posted a couple of one-liners](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/19/quicktip-one-liners-to-get-winrm-port-numbers.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic)) to get WinRM port numbers
 
 
               - 
-                The Scripting Guy is working on his Module week with:Â [Hey, Scripting Guy! How Do I Work with Windows PowerShell Module Paths?](http://blogs.technet.com/heyscriptingguy/archive/2010/01/20/hey-scripting-guy-january-20-2010.aspx)
+                The Scripting Guy is working on his Module week with: [Hey, Scripting Guy! How Do I Work with Windows PowerShell Module Paths?](http://blogs.technet.com/heyscriptingguy/archive/2010/01/20/hey-scripting-guy-january-20-2010.aspx)

@@ -24,11 +24,11 @@ their new PowerShell book!
 ## News
 
 This segment brought to you by Start-Automating  
-Start Scripting to Your Fullest Potential.Â  At Start-Automating, we can help you  
-unleash the full Power of PowerShell V2.Â  You can use our deep PowerShell  
+Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you  
+unleash the full Power of PowerShell V2.  You can use our deep PowerShell  
 expertise to build rich PowerShell solutions, or we can train you to use  
 PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and  
-Start-Automating?Â  Find out more at [Start-Automating.com][1].
+Start-Automating?  Find out more at [Start-Automating.com][1].
 
   * [The PowerShell sessions from TechEd 2011 are up][2]
   * Oisin Grehan released a [new version][3] of his [PSEventing Codeplex project][4]

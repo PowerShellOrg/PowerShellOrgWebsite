@@ -1,5 +1,5 @@
 ---
-title: "Episode 128 \"“ Kirk Munro from Quest on the 2010 PowerPackÂ Challenge"
+title: "Episode 128 \"“ Kirk Munro from Quest on the 2010 PowerPack Challenge"
 author: Jonathan Walz
 authors:
   - Jonathan Walz
@@ -24,27 +24,27 @@ aliases:
 
 
 
-    Tonight on the PowerScripting Podcast, we talk to Kirk Munro from Quest Software about PowerGUI Pro and the 2010 PowerPack Challenge!Â 
+    Tonight on the PowerScripting Podcast, we talk to Kirk Munro from Quest Software about PowerGUI Pro and the 2010 PowerPack Challenge! 
 
 
 
 ## News
 
 Execute commands and scripts from anywhere including the office and remote locations, as well as from a Web browser or smart phone with PowerGUI Pro from Quest Software. With the MobileShell feature, administrators can quickly run commands to troubleshoot problems or make changes, even when away from your desk! This gives teams more flexibility to work remotely while traveling, and to leverage admins from other offices in case of an emergency.  
-_Â·Â Â Â Â Â Â Â Â Â Execute queries remotely to determine if services or processes are running_  
-_Â·Â Â Â Â Â Â Â Â Â Restart services, processes, or entire servers_  
-_Â·Â Â Â Â Â Â Â Â Â Check mailbox settings_  
-_Â·Â Â Â Â Â Â Â Â Â Unlock user accounts_  
-_Â·Â Â Â Â Â Â Â Â Â Reset passwords_  
-_Â·Â Â Â Â Â Â Â Â Â Run custom scripts_  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+_·         Execute queries remotely to determine if services or processes are running_  
+_·         Restart services, processes, or entire servers_  
+_·         Check mailbox settings_  
+_·         Unlock user accounts_  
+_·         Reset passwords_  
+_·         Run custom scripts_  
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * [Central Ohio PowerShell User Group next meeting: Oct 27th][2]{#w4ye}
-  * There are plans in the works forÂ [PowerShell sessions during the Worldwide Online TechDay 2010][3]{#ze-4}
+  * There are plans in the works for [PowerShell sessions during the Worldwide Online TechDay 2010][3]{#ze-4}
   * [Automating Administration with Windows PowerShell 2.0][4]{#e5zg}
-  * Congrats to our new PowerShell MVP: Efran Cobisi fromÂ [PowerShell.IT][5]{#i5kd}
+  * Congrats to our new PowerShell MVP: Efran Cobisi from [PowerShell.IT][5]{#i5kd}
 
-Â 
+ 
 
 ## **Interview**
 
@@ -60,18 +60,18 @@ Links:
 
   *  Can the version control features in PowerGUI Pro help keep a consistent scripting environment from multiple places? Home, Work, Laptop etc.
 
-**Hero -Â [Taskmaster][9]{#fvpp}**
+**Hero - [Taskmaster][9]{#fvpp}**
 
 ## **Resources**
 
-This segment brought to you byÂ [ServerFault.com][10]{#u8o0}
+This segment brought to you by [ServerFault.com][10]{#u8o0}
 
-  * Use PowerShell toÂ [scan ports on multiple hosts][11]{#ntz-}
-  * PowerWF tutorial:Â [Integration with Service Manager][12]{#vitk}
+  * Use PowerShell to [scan ports on multiple hosts][11]{#ntz-}
+  * PowerWF tutorial: [Integration with Service Manager][12]{#vitk}
   * [Did you know Quest's AD cmdlets now include support for automating PKI?][13]{#vuw6}
   * [Kirk Munro explains how to create add-ons for PowerGUI][14]{#e1zc}
-  * [New Technet page][15]{#m_rs}Â lists PowerShell "features" offered by various product groups within Microsoft
-  * Don Jones isÂ [working on a PowerShell punctuation cheat sheet][16]{#basa}
+  * [New Technet page][15]{#m_rs} lists PowerShell "features" offered by various product groups within Microsoft
+  * Don Jones is [working on a PowerShell punctuation cheat sheet][16]{#basa}
 
 **  
 Tips**
@@ -85,9 +85,9 @@ Tips**
   * Greg reminds us that both the forward and backwards slash will work as path separators
   * Gregg-with-two-G's says to go to SQL Saturday!
   * Ken says: 
-      * You can find lots of goodies in Twitter, especially by followingÂ [Hal][17]{#kdi9}Â &Â [Jon][18]{#kntt}, as well asÂ [@alexandair/powershellmvp][19]{#wwfk}
+      * You can find lots of goodies in Twitter, especially by following [Hal][17]{#kdi9} & [Jon][18]{#kntt}, as well as [@alexandair/powershellmvp][19]{#wwfk}
       * get-help * | %{get-help $_.name -full >"c:posh$($_.name).txt"}
-  * [Jan has some tips][20]{#t_o2}Â for how to create graphs using visifire and PowerShell
+  * [Jan has some tips][20]{#t_o2} for how to create graphs using visifire and PowerShell
 
 
   **Contest**

@@ -14,7 +14,7 @@ Let"™s start with a quick description of ValidateScript and its siblings. For 
 ## What is ValidateScript?
 
 ValidateScript and its siblings are _parameter validation attributes_. These attributes are statements that are added to the parameter definition. They tell Windows PowerShell to examine the parameter values that are used when the function is called and determine whether the parameter values meet some specified conditions. In particular, ValidateScript lets you write a script block to test the conditions that the values must satisfy. Windows PowerShell runs the validation script on the parameter values and, if the script returns $False, it throws a terminating error.  
-Before we get to the details, let"™s talk about why you"™d want to use something like this. The answer is simplicity. "What!!?!," you say, incredulously? The syntax of this thing looks like a sampler of Windows PowerShell enclosures. There"™s a square bracket "[" or two "]", a pair of parentheses "( )" and even some curly braces "{Â  }". So it doesn"™t look simple.  
+Before we get to the details, let"™s talk about why you"™d want to use something like this. The answer is simplicity. "What!!?!," you say, incredulously? The syntax of this thing looks like a sampler of Windows PowerShell enclosures. There"™s a square bracket "[" or two "]", a pair of parentheses "( )" and even some curly braces "{  }". So it doesn"™t look simple.  
 But once you get over the syntax, you realize that putting the parameter value validation into the parameter definition means that you don"™t need to test the parameter value in your script. Instead, the Windows PowerShell engine tests the parameter value and you can use the script to do scripty things.
 
 # Using ValidateScript
@@ -33,7 +33,7 @@ Here"™s what I mean. Here"™s a silly function that will serve as our example
 }
 `The Get-EventDate function has a $EventDate parameter. If the value of the $EventDate parameter is a DateTime object and it"™s later than now, the function writes a nice sentence with the date to the console or host program. But, if the value of $EventDate is not a DateTime object, or it"™s not a future date, the function generates an error. (To be complete, this info would be in the Help for the function.)  
 But much of this little function is wrapped around validating the value of the $EventDate parameter. So let"™s see if we can get Windows PowerShell to validate it for us.  
-In this version, we add aÂ parameter value type enclosed in square brackets ([DateTime]) on the line before the parameter name ($EventDate).  
+In this version, we add a parameter value type enclosed in square brackets ([DateTime]) on the line before the parameter name ($EventDate).  
 But that"™s enough to allow us to delete the "if $EventDate "“is [DateTime]" from the If statement and from the error message.
 
 
@@ -57,8 +57,8 @@ Get-EventDate : Cannot process argument transformation on parameter
 value of type "System.Diagnostics.Process" to type "System.DateTime".
 At line:15 char:26
 + Get-EventDate -EventDate (Get-Process PowerShell)
-+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  ~~~~~~~~~~~~~~~~~~~~~~~~
-+ CategoryInfoÂ Â Â Â Â Â Â Â Â  : InvalidData: (:) [Get -EventDate],
++                          ~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidData: (:) [Get -EventDate],
 ParameterBindingArgumentTransformationException
 + FullyQualifiedErrorId : ParameterArgumentTransformationError,Get-EventDate
 `Now, let"™s get Windows PowerShell to test the other date condition for us. Here"™s where ValidateScript comes in.  
@@ -88,8 +88,8 @@ The "$_ -gt (Get-Date)" validation script for the argument with value
 script failed and then try the command again.
 At line:1 char:26
 + Get-EventDate -EventDate (Get-Date -Month 9 -Day 21 -Year 2007)
-+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-+ CategoryInfoÂ Â Â Â Â Â Â Â Â  : InvalidData: (:) [Get-EventDate], ParameterBindingValidationException
++                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidData: (:) [Get-EventDate], ParameterBindingValidationException
 + FullyQualifiedErrorId : ParameterArgumentValidationError,Get-EventDate
 `And, just for kicks, let"™s pass it a date in the future. This one works.
 

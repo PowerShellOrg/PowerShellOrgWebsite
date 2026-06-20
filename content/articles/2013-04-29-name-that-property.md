@@ -48,9 +48,9 @@ d----        10/24/2012   1:27 PM    Snippets
 -a--          9/29/2010   6:57 AM    Compare-ParameterSets.ps1
 -ar--        10/24/2012  12:44 PM    Compare-UpdatableHelpVersion.ps1
 `Note: I omitted the Length property here so the table is easier to display, but you can add it back if you'd like.  
-This value is called a _calculated property_. You can use calculated properties in Select-Object, Format-Table, and Format-List commands, and in commandsÂ that useÂ other cmdlets where it's noted in the help topic.  
+This value is called a _calculated property_. You can use calculated properties in Select-Object, Format-Table, and Format-List commands, and in commands that use other cmdlets where it's noted in the help topic.  
 A _calculated property_ is a hash table (@{Name=Value; Name=Value"¦} ). The first key is either **Name** or **Label** and the second key is **Expression**. The value of the **Name** (or **Label**) key is the name that you want to assign to the property. The value of the **Expression** key is a script block (inside braces) that gets the property value.  
-In this case, I just want to rename the "Mode" property to "Attributes," so the value of theÂ **Name** key is "Attributes" and the value of the **Expression** keyÂ is a tiny script block that gets the value of the Mode property of each object that is passed to it.
+In this case, I just want to rename the "Mode" property to "Attributes," so the value of the **Name** key is "Attributes" and the value of the **Expression** key is a tiny script block that gets the value of the Mode property of each object that is passed to it.
 
 
 `@{Name = "Attributes"; Expression = {$_.Mode}}
@@ -77,7 +77,7 @@ d----        10/24/2012   1:27 PM    Snippets
 -a--           3/2/2011   7:42 PM    Check-Examples.ps1
 -a--          9/29/2010   6:57 AM    Compare-ParameterSets.ps1
 -ar--        10/24/2012  12:44 PM    Compare-UpdatableHelpVersion.ps1
-`After you've played with this for a while, try changing the value of theÂ **Expression** key so that it gets exactly the value that you need instead of the default property value.  
+`After you've played with this for a while, try changing the value of the **Expression** key so that it gets exactly the value that you need instead of the default property value.  
 What if the big boss wants that Updated (LastWriteTime) value in Coordinated Universal Time (UTC)? No problem! Just change the expression to call the ToUniversalTime method of DateTime objects. And while we're perfecting, let's change the property name to better describe its new value.  
 Here's the calculated property:
 

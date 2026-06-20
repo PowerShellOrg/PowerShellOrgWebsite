@@ -9,7 +9,7 @@ aliases:
   - /2008/03/one-liner-pop-up-a-message-box/
 ---
 
-You could paste this into a scheduled task or something if you want an annoying reminder to pop up on your screen.Â  :)Â  Now if only schtasks.exe was as easy to use as PowerShell...
+You could paste this into a scheduled task or something if you want an annoying reminder to pop up on your screen.  :)  Now if only schtasks.exe was as easy to use as PowerShell...
 
 
 `PowerShell -NoProfile -NonInteractive -Command [reflection.assembly]::loadwithpartialname('system.windows.forms'); [system.Windows.Forms.MessageBox]::show('reminder: buy milk')

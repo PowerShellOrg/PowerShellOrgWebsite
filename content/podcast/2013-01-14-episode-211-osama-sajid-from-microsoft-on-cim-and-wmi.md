@@ -104,7 +104,7 @@ aliases:
         - 
 
 
-            Grzegorz Â GaÅ‚Ä™zowski
+            Grzegorz  GaÅ‚Ä™zowski
 
 
 
@@ -153,7 +153,7 @@ aliases:
 
 
 
-    Â **
+     **
 
 
 
@@ -193,7 +193,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -205,7 +205,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 

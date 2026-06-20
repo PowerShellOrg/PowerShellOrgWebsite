@@ -8,7 +8,7 @@ aliases:
   - /2010/09/make-ps1exewrapper/
 ---
 
-Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShell can"™t do this by itself but this can be done with PowerShell script.Â  Essentially what you can do is create a simple console EXE program that embeds the script as a resource and the EXE, upon loading retrieves the script and throws it at a PowerShell runspace to execute.Â  Here"™s the script for a feasibility test of doing this very thing.
+Occasionally folks want to be able to create an EXE from PoweShell.  PowerShell can"™t do this by itself but this can be done with PowerShell script.  Essentially what you can do is create a simple console EXE program that embeds the script as a resource and the EXE, upon loading retrieves the script and throws it at a PowerShell runspace to execute.  Here"™s the script for a feasibility test of doing this very thing.
 
 
 
@@ -20,13 +20,13 @@ Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShe
 
 
 
-      **Updated 6-21-2011:** The migration from Windows Live Spaces to WordPress seems to have messed with the formatting of the script.Â  You can nowÂ [download the script from my SkyDrive](https://skydrive.live.com/?cid=5a8d2641e0963a97&sc=documents&uc=2&id=5A8D2641E0963A97%217251#).
+      **Updated 6-21-2011:** The migration from Windows Live Spaces to WordPress seems to have messed with the formatting of the script.  You can now [download the script from my SkyDrive](https://skydrive.live.com/?cid=5a8d2641e0963a97&sc=documents&uc=2&id=5A8D2641E0963A97%217251#).
 
 
 
 
 
-      **Updated 3-4-2012:** I have added the ability to handle positional parameters passed into the EXE as well as a -NET40 switch to compile using the v4.0 C# compiler.Â  The script is beside the original and is named Make-PS1ExeWrapperWithArgs.ps1:
+      **Updated 3-4-2012:** I have added the ability to handle positional parameters passed into the EXE as well as a -NET40 switch to compile using the v4.0 C# compiler.  The script is beside the original and is named Make-PS1ExeWrapperWithArgs.ps1:
 
 
 
@@ -55,17 +55,17 @@ Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShe
  .EXAMPLE
  C:\PS> .\Make-PS1ExeWrapper.ps1 .\MyScript.ps1 .\MyScript.exe .\app.ico
  This creates an console application called MyScript.exe that internally hosts the PowerShell
- engine and runs the script specified by MyScript.ps1.Â  Optionally the file app.ico is
+ engine and runs the script specified by MyScript.ps1.  Optionally the file app.ico is
  embedded into the EXE as the application's icon.
  .NOTES
  Author: Keith Hill
- Date:Â Â  Aug 7, 2010
- Issues: This implementation is more of a feasibility test and isn't fully functional.Â  It doesn't
+ Date:   Aug 7, 2010
+ Issues: This implementation is more of a feasibility test and isn't fully functional.  It doesn't
  support an number of PSHostUserInterface members as well as a number of PSHostRawUserInterface
- members.Â  This approach also suffers from the same problem of running script "interactively"
+ members.  This approach also suffers from the same problem of running script "interactively"
  and not loading it from a file. That is, the entire script output is run through Out-Default
- and PowerShell gets confused.Â  It formats the first types it sees correctly but after that the
- formatting is off.Â  To correct this, you have to append | Out-Default where you script outputs
+ and PowerShell gets confused.  It formats the first types it sees correctly but after that the
+ formatting is off.  To correct this, you have to append | Out-Default where you script outputs
  to the host without using a Write-* cmdlet e.g.:
 
 
@@ -77,15 +77,15 @@ Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShe
  ——————————-
  Get-Process svchost
  Get-Date | Out-Default
- Dir C:\Â  | Out-Default
+ Dir C:\  | Out-Default
  Dir c:\idontexist | Out-Default
  $DebugPreference = 'Continue'
  $VerbosePreference = 'Continue'
- Write-HostÂ Â Â  "host"
+ Write-Host    "host"
  Write-Warning "warning"
  Write-Verbose "verbose"
- Write-DebugÂ Â  "debug"
- Write-ErrorÂ Â  "error"
+ Write-Debug   "debug"
+ Write-Error   "error"
  #>
  [CmdletBinding(DefaultParameterSetName="Path")]
  param(
@@ -113,7 +113,7 @@ Occasionally folks want to be able to create an EXE from PoweShell.Â  PowerShe
 
 
 
-Â Â Â  [Parameter(Mandatory = $true, Position = 1)]
+    [Parameter(Mandatory = $true, Position = 1)]
  [string]
  $OutputAssembly,
 
@@ -174,7 +174,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  static void Main(string[] args)
+        static void Main(string[] args)
  {
  Console.CancelKeyPress += Console_CancelKeyPress;
  Console.TreatControlCAsInput = false;
@@ -185,7 +185,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  string script = GetScript();
+            string script = GetScript();
  RunScript(script, args, null);
  }
 
@@ -195,7 +195,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private static string GetScript()
+        private static string GetScript()
  {
  string script = String.Empty;
 
@@ -205,7 +205,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  Assembly assembly = Assembly.GetExecutingAssembly();
+            Assembly assembly = Assembly.GetExecutingAssembly();
  using (Stream stream = assembly.GetManifestResourceStream("Resources.Script.ps1.gz"))
  {
  var gZipStream = new GZipStream(stream, CompressionMode.Decompress, true);
@@ -219,7 +219,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  return script;
+            return script;
  }
 
 
@@ -228,7 +228,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private static void RunScript(string script, string[] args, object input)
+        private static void RunScript(string script, string[] args, object input)
  {
  lock (_powerShellLock)
  {
@@ -241,7 +241,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  try
+            try
  {
  _powerShellEngine.Runspace = RunspaceFactory.CreateRunspace(_host);
  _powerShellEngine.Runspace.Open();
@@ -255,7 +255,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  if (input != null)
+                if (input != null)
  {
  _powerShellEngine.Invoke(new[] { input });
  }
@@ -280,7 +280,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private static void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)
+        private static void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)
  {
  try
  {
@@ -306,7 +306,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â  class Host : PSHost
+    class Host : PSHost
  {
  private PSHostUserInterface _psHostUserInterface = new HostUserInterface();
 
@@ -316,7 +316,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void SetShouldExit(int exitCode)
+        public override void SetShouldExit(int exitCode)
  {
  Environment.Exit(exitCode);
  }
@@ -327,7 +327,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void EnterNestedPrompt()
+        public override void EnterNestedPrompt()
  {
  throw new NotImplementedException();
  }
@@ -338,7 +338,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void ExitNestedPrompt()
+        public override void ExitNestedPrompt()
  {
  throw new NotImplementedException();
  }
@@ -349,7 +349,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void NotifyBeginApplication()
+        public override void NotifyBeginApplication()
  {
  }
 
@@ -359,7 +359,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void NotifyEndApplication()
+        public override void NotifyEndApplication()
  {
  }
 
@@ -369,7 +369,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override string Name
+        public override string Name
  {
  get { return "PSCX-PS1ToExeHost"; }
  }
@@ -380,7 +380,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Version Version
+        public override Version Version
  {
  get { return new Version(1, 0); }
  }
@@ -391,7 +391,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Guid InstanceId
+        public override Guid InstanceId
  {
  get { return new Guid("E4673B42-84B6-4C43-9589-95FAB8E00EB2″); }
  }
@@ -402,7 +402,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override PSHostUserInterface UI
+        public override PSHostUserInterface UI
  {
  get { return _psHostUserInterface; }
  }
@@ -413,7 +413,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override CultureInfo CurrentCulture
+        public override CultureInfo CurrentCulture
  {
  get { return Thread.CurrentThread.CurrentCulture; }
  }
@@ -424,7 +424,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override CultureInfo CurrentUICulture
+        public override CultureInfo CurrentUICulture
  {
  get { return Thread.CurrentThread.CurrentUICulture; }
  }
@@ -436,7 +436,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â  class HostUserInterface : PSHostUserInterface, IHostUISupportsMultipleChoiceSelection
+    class HostUserInterface : PSHostUserInterface, IHostUISupportsMultipleChoiceSelection
  {
  private PSHostRawUserInterface _psRawUserInterface = new HostRawUserInterface();
 
@@ -446,7 +446,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override PSHostRawUserInterface RawUI
+        public override PSHostRawUserInterface RawUI
  {
  get { return _psRawUserInterface; }
  }
@@ -457,7 +457,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override string ReadLine()
+        public override string ReadLine()
  {
  return Console.ReadLine();
  }
@@ -468,7 +468,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override SecureString ReadLineAsSecureString()
+        public override SecureString ReadLineAsSecureString()
  {
  throw new NotImplementedException();
  }
@@ -479,7 +479,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void Write(string value)
+        public override void Write(string value)
  {
  string output = value ?? "null";
  Console.Write(output);
@@ -491,7 +491,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void Write(ConsoleColor foregroundColor, ConsoleColor backgroundColor, string value)
+        public override void Write(ConsoleColor foregroundColor, ConsoleColor backgroundColor, string value)
  {
  string output = value ?? "null";
  var origFgColor = Console.ForegroundColor;
@@ -509,7 +509,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteLine(string value)
+        public override void WriteLine(string value)
  {
  string output = value ?? "null";
  Console.WriteLine(output);
@@ -521,7 +521,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteErrorLine(string value)
+        public override void WriteErrorLine(string value)
  {
  string output = value ?? "null";
  var origFgColor = Console.ForegroundColor;
@@ -536,7 +536,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteDebugLine(string message)
+        public override void WriteDebugLine(string message)
  {
  WriteYellowAnnotatedLine(message, "DEBUG");
  }
@@ -547,7 +547,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteVerboseLine(string message)
+        public override void WriteVerboseLine(string message)
  {
  WriteYellowAnnotatedLine(message, "VERBOSE");
  }
@@ -558,7 +558,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteWarningLine(string message)
+        public override void WriteWarningLine(string message)
  {
  WriteYellowAnnotatedLine(message, "WARNING");
  }
@@ -569,7 +569,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private void WriteYellowAnnotatedLine(string message, string annotation)
+        private void WriteYellowAnnotatedLine(string message, string annotation)
  {
  string output = message ?? "null";
  var origFgColor = Console.ForegroundColor;
@@ -587,7 +587,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void WriteProgress(long sourceId, ProgressRecord record)
+        public override void WriteProgress(long sourceId, ProgressRecord record)
  {
  throw new NotImplementedException();
  }
@@ -598,7 +598,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Dictionary Prompt(string caption, string message, Collection descriptions)
+        public override Dictionary Prompt(string caption, string message, Collection descriptions)
  {
  if (String.IsNullOrEmpty(caption) && String.IsNullOrEmpty(message) && descriptions.Count > 0)
  {
@@ -625,7 +625,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  results[fd.Name] = PSObject.AsPSObject(userData);
+                results[fd.Name] = PSObject.AsPSObject(userData);
  }
 
 
@@ -634,7 +634,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  return results;
+            return results;
  }
 
 
@@ -643,7 +643,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override PSCredential PromptForCredential(string caption, string message, string userName, string targetName)
+        public override PSCredential PromptForCredential(string caption, string message, string userName, string targetName)
  {
  throw new NotImplementedException();
  }
@@ -654,7 +654,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override PSCredential PromptForCredential(string caption, string message, string userName, string targetName, PSCredentialTypes allowedCredentialTypes, PSCredentialUIOptions options)
+        public override PSCredential PromptForCredential(string caption, string message, string userName, string targetName, PSCredentialTypes allowedCredentialTypes, PSCredentialUIOptions options)
  {
  throw new NotImplementedException();
  }
@@ -665,7 +665,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override int PromptForChoice(string caption, string message, Collection choices, int defaultChoice)
+        public override int PromptForChoice(string caption, string message, Collection choices, int defaultChoice)
  {
  // Write the caption and message strings in Blue.
  this.WriteLine(ConsoleColor.Blue, ConsoleColor.Black, caption + "\n" + message + "\n");
@@ -676,7 +676,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  // Convert the choice collection into something that is
+            // Convert the choice collection into something that is
  // easier to work with. See the BuildHotkeysAndPlainLabels
  // method for details.
  string[,] promptData = BuildHotkeysAndPlainLabels(choices);
@@ -687,7 +687,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  // Format the overall choice prompt string to display.
+            // Format the overall choice prompt string to display.
  var sb = new StringBuilder();
  for (int element = 0; element < choices.Count; element++)
  {
@@ -700,7 +700,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  sb.Append(String.Format(CultureInfo.CurrentCulture, "[Default is ({0}]", promptData[0, defaultChoice]));
+            sb.Append(String.Format(CultureInfo.CurrentCulture, "[Default is ({0}]", promptData[0, defaultChoice]));
 
 
 
@@ -708,7 +708,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  // Read prompts until a match is made, the default is
+            // Read prompts until a match is made, the default is
  // chosen, or the loop is interrupted with ctrl-C.
  while (true)
  {
@@ -721,7 +721,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  // If the choice string was empty, use the default selection.
+                // If the choice string was empty, use the default selection.
  if (data.Length == 0)
  {
  return defaultChoice;
@@ -733,7 +733,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  // See if the selection matched and return the
+                // See if the selection matched and return the
  // corresponding index if it did.
  for (int i = 0; i < choices.Count; i++)
  {
@@ -749,7 +749,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  this.WriteErrorLine("Invalid choice: " + data);
+                this.WriteErrorLine("Invalid choice: " + data);
  }
  }
 
@@ -759,7 +759,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  #region IHostUISupportsMultipleChoiceSelection Members
+        #region IHostUISupportsMultipleChoiceSelection Members
 
 
 
@@ -767,7 +767,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public Collection PromptForChoice(string caption, string message, Collection choices, IEnumerable defaultChoices)
+        public Collection PromptForChoice(string caption, string message, Collection choices, IEnumerable defaultChoices)
  {
  this.WriteLine(ConsoleColor.Blue, ConsoleColor.Black, caption + "\n" + message + "\n");
 
@@ -777,7 +777,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  string[,] promptData = BuildHotkeysAndPlainLabels(choices);
+            string[,] promptData = BuildHotkeysAndPlainLabels(choices);
 
 
 
@@ -785,7 +785,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  var sb = new StringBuilder();
+            var sb = new StringBuilder();
  for (int element = 0; element < choices.Count; element++)
  {
  sb.Append(String.Format(CultureInfo.CurrentCulture, "|{0}> {1} ", promptData[0, element], promptData[1, element]));
@@ -797,7 +797,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  var defaultResults = new Collection();
+            var defaultResults = new Collection();
  if (defaultChoices != null)
  {
  int countDefaults = 0;
@@ -813,7 +813,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  if (countDefaults != 0)
+                if (countDefaults != 0)
  {
  sb.Append(countDefaults == 1 ? "[Default choice is " : "[Default choices are ");
  foreach (int defaultChoice in defaultChoices)
@@ -831,7 +831,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  this.WriteLine(ConsoleColor.Cyan, ConsoleColor.Black, sb.ToString());
+            this.WriteLine(ConsoleColor.Cyan, ConsoleColor.Black, sb.ToString());
 
 
 
@@ -839,7 +839,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  var results = new Collection();
+            var results = new Collection();
  while (true)
  {
  ReadNext:
@@ -853,7 +853,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  if (data.Length == 0)
+                if (data.Length == 0)
  {
  return (results.Count == 0) ? defaultResults : results;
  }
@@ -864,7 +864,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  for (int i = 0; i < choices.Count; i++)
+                for (int i = 0; i < choices.Count; i++)
  {
  if (promptData[0, i] == data)
  {
@@ -879,7 +879,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  this.WriteErrorLine("Invalid choice: " + data);
+                this.WriteErrorLine("Invalid choice: " + data);
  }
  }
 
@@ -889,7 +889,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  #endregion
+        #endregion
 
 
 
@@ -897,7 +897,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private static string[,] BuildHotkeysAndPlainLabels(Collection choices)
+        private static string[,] BuildHotkeysAndPlainLabels(Collection choices)
  {
  // Allocate the result array
  string[,] hotkeysAndPlainLabels = new string[2, choices.Count];
@@ -908,7 +908,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  for (int i = 0; i < choices.Count; ++i)
+            for (int i = 0; i < choices.Count; ++i)
  {
  string[] hotkeyAndLabel = GetHotkeyAndLabel(choices[i].Label);
  hotkeysAndPlainLabels[0, i] = hotkeyAndLabel[0];
@@ -921,7 +921,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  return hotkeysAndPlainLabels;
+            return hotkeysAndPlainLabels;
  }
 
 
@@ -930,7 +930,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  private static string[] GetHotkeyAndLabel(string input)
+        private static string[] GetHotkeyAndLabel(string input)
  {
  string[] result = new string[] { String.Empty, String.Empty };
  string[] fragments = input.Split('&');
@@ -948,7 +948,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  result[1] = (fragments[0] + fragments[1]).Trim();
+                result[1] = (fragments[0] + fragments[1]).Trim();
  }
  else
  {
@@ -961,7 +961,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  return result;
+            return result;
  }
  }
 
@@ -971,7 +971,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â  class HostRawUserInterface : PSHostRawUserInterface
+    class HostRawUserInterface : PSHostRawUserInterface
  {
  public override KeyInfo ReadKey(ReadKeyOptions options)
  {
@@ -984,7 +984,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void FlushInputBuffer()
+        public override void FlushInputBuffer()
  {
  }
 
@@ -994,18 +994,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void SetBufferContents(Coordinates origin, BufferCell[,] contents)
- {
- throw new NotImplementedException();
- }
-
-
-
-
-
-
-
-Â Â Â Â Â Â Â  public override void SetBufferContents(Rectangle rectangle, BufferCell fill)
+        public override void SetBufferContents(Coordinates origin, BufferCell[,] contents)
  {
  throw new NotImplementedException();
  }
@@ -1016,7 +1005,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override BufferCell[,] GetBufferContents(Rectangle rectangle)
+        public override void SetBufferContents(Rectangle rectangle, BufferCell fill)
  {
  throw new NotImplementedException();
  }
@@ -1027,7 +1016,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override void ScrollBufferContents(Rectangle source, Coordinates destination, Rectangle clip, BufferCell fill)
+        public override BufferCell[,] GetBufferContents(Rectangle rectangle)
  {
  throw new NotImplementedException();
  }
@@ -1038,7 +1027,18 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override ConsoleColor ForegroundColor
+        public override void ScrollBufferContents(Rectangle source, Coordinates destination, Rectangle clip, BufferCell fill)
+ {
+ throw new NotImplementedException();
+ }
+
+
+
+
+
+
+
+        public override ConsoleColor ForegroundColor
  {
  get { return Console.ForegroundColor; }
  set { Console.ForegroundColor = value; }
@@ -1050,7 +1050,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override ConsoleColor BackgroundColor
+        public override ConsoleColor BackgroundColor
  {
  get { return Console.BackgroundColor; }
  set { Console.BackgroundColor = value; }
@@ -1062,7 +1062,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Coordinates CursorPosition
+        public override Coordinates CursorPosition
  {
  get { return new Coordinates(Console.CursorLeft, Console.CursorTop); }
  set { Console.SetCursorPosition(value.X, value.Y); }
@@ -1074,7 +1074,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Coordinates WindowPosition
+        public override Coordinates WindowPosition
  {
  get { return new Coordinates(Console.WindowLeft, Console.WindowTop); }
  set { Console.SetWindowPosition(value.X, value.Y); }
@@ -1086,7 +1086,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override int CursorSize
+        public override int CursorSize
  {
  get { return Console.CursorSize; }
  set { Console.CursorSize = value; }
@@ -1098,7 +1098,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Size BufferSize
+        public override Size BufferSize
  {
  get { return new Size(Console.BufferWidth, Console.BufferHeight); }
  set { Console.SetBufferSize(value.Width, value.Height); }
@@ -1110,7 +1110,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Size WindowSize
+        public override Size WindowSize
  {
  get { return new Size(Console.WindowWidth, Console.WindowHeight); }
  set { Console.SetWindowSize(value.Width, value.Height); }
@@ -1122,7 +1122,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Size MaxWindowSize
+        public override Size MaxWindowSize
  {
  get { return new Size(Console.LargestWindowWidth, Console.LargestWindowHeight); }
  }
@@ -1133,7 +1133,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override Size MaxPhysicalWindowSize
+        public override Size MaxPhysicalWindowSize
  {
  get { return new Size(Console.LargestWindowWidth, Console.LargestWindowHeight); }
  }
@@ -1144,7 +1144,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override bool KeyAvailable
+        public override bool KeyAvailable
  {
  get { return Console.KeyAvailable; }
  }
@@ -1155,7 +1155,7 @@ namespace PS1ToExeTemplate
 
 
 
-Â Â Â Â Â Â Â  public override string WindowTitle
+        public override string WindowTitle
  {
  get { return Console.Title; }
  set { Console.Title = value; }
@@ -1163,7 +1163,7 @@ namespace PS1ToExeTemplate
  }
  }
  '@
- }Â Â Â  
+ }    
 
 
 
@@ -1197,7 +1197,7 @@ Process {
 
 
 
-Â Â Â Â Â Â Â  $gzItem = Get-ChildItem $rpath | Write-GZip -Quiet
+        $gzItem = Get-ChildItem $rpath | Write-GZip -Quiet
  $resourcePath = "$($gzItem.Directory)\Resources.Script.ps1.gz"
  if (Test-Path $resourcePath) { Remove-Item $resourcePath }
  Rename-Item $gzItem $resourcePath
@@ -1224,10 +1224,10 @@ Process {
 
 
 
-Â Â Â Â Â Â Â  $cp = new-object System.CodeDom.Compiler.CompilerParameters $referenceAssemblies,$outputPath,$true
+        $cp = new-object System.CodeDom.Compiler.CompilerParameters $referenceAssemblies,$outputPath,$true
  $cp.TempFiles = new-object System.CodeDom.Compiler.TempFileCollection ([IO.Path]::GetTempPath())
  $cp.GenerateExecutable = $true
- $cp.GenerateInMemoryÂ Â  = $false
+ $cp.GenerateInMemory   = $false
  $cp.IncludeDebugInformation = $true
  if ($IconPath)
  {

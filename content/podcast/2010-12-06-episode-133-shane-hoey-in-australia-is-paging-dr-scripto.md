@@ -45,7 +45,7 @@ In This Episode
 
 
     - 
-      Just released:Â  
+      Just released:  
 
 
           [PowerEvents](http://powerevents.codeplex.com/)
@@ -91,15 +91,15 @@ Interview
 
 
     - 
-      User group:Â [http://powershelldownunder.com](http://powershelldownunder.com/)
+      User group: [http://powershelldownunder.com](http://powershelldownunder.com/)
 
 
     - 
-      Twitter:Â [@shanephoey](http://twitter.com/#!/shanephoey)
+      Twitter: [@shanephoey](http://twitter.com/#!/shanephoey)
 
 
     - 
-      Paging Dr. Scripto lyrics:Â [http://powerscripting.wordpress.com/2010/12/02/paging-dr-scripto/](http://powerscripting.wordpress.com/2010/12/02/paging-dr-scripto/)
+      Paging Dr. Scripto lyrics: [http://powerscripting.wordpress.com/2010/12/02/paging-dr-scripto/](http://powerscripting.wordpress.com/2010/12/02/paging-dr-scripto/)
 
 
     - 
@@ -139,7 +139,7 @@ Resources
 
 
     - 
-      Boe from the Learn PowerShell blog [recently updated his very comprehensive WSUS Admin module](http://boeprox.wordpress.com/2010/11/14/wsus-administrator-module/)Â ([download link](http://gallery.technet.microsoft.com/ScriptCenter/en-us/ba65fb73-b3b7-483f-9e8f-eda19fd051f8))
+      Boe from the Learn PowerShell blog [recently updated his very comprehensive WSUS Admin module](http://boeprox.wordpress.com/2010/11/14/wsus-administrator-module/) ([download link](http://gallery.technet.microsoft.com/ScriptCenter/en-us/ba65fb73-b3b7-483f-9e8f-eda19fd051f8))
 
 
     - 
@@ -183,7 +183,7 @@ Tips
 
 
     - 
-      [Echo Parameters Using psBoundParameters](http://halr9000.com/article/912?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+halr9000+(TechProsaic))Â 
+      [Echo Parameters Using psBoundParameters](http://halr9000.com/article/912?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+halr9000+(TechProsaic)) 
 
 
     - 

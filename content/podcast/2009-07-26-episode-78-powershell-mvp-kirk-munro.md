@@ -39,7 +39,7 @@ News
 
 
   - 
-    Joel Bennett:Â 
+    Joel Bennett: 
 [
 
 Announcing the Microsoft PowerShell User Group of Upstate New York
@@ -49,7 +49,7 @@ Announcing the Microsoft PowerShell User Group of Upstate New York
 
 
   - 
-    News from the WMI blog:Â 
+    News from the WMI blog: 
 [New default ports for WS-Management and PowerShell remoting](http://blogs.msdn.com/wmi/archive/2009/07/22/new-default-ports-for-ws-management-and-powershell-remoting.aspx)
 
 
@@ -233,7 +233,7 @@ using PowerBoots
 
 
               - 
-                Stack Overflow:Â 
+                Stack Overflow: 
 [
 
 Is there any way to terminate a hung [COM] process in Powershell?

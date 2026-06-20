@@ -34,8 +34,8 @@ Tonight on the PowerScripting Podcast we talk to James Brundage from Microsoft.
 
 
 
-    *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
- Â 
+    *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
+  
 
 
 
@@ -44,15 +44,15 @@ Tonight on the PowerScripting Podcast we talk to James Brundage from Microsoft.
 
 
       - 
-        April 30th is the next [PowerShell Virtual User Group meeting](http://marcoshaw.blogspot.com/2009/04/windows-powershell-virtual-user-group.html)Â 
+        April 30th is the next [PowerShell Virtual User Group meeting](http://marcoshaw.blogspot.com/2009/04/windows-powershell-virtual-user-group.html) 
 
 
       - 
-        The PowerShell teamÂ [is looking for new verbs](http://blogs.msdn.com/powershell/archive/2009/04/22/soliciting-new-verbs.aspx)Â 
+        The PowerShell team [is looking for new verbs](http://blogs.msdn.com/powershell/archive/2009/04/22/soliciting-new-verbs.aspx) 
 
 
       - 
-        John Cook has published his new e-book titled "[PowerShell Day 1](http://www.johndcook.com/powershellbooklet.html)Â "
+        John Cook has published his new e-book titled "[PowerShell Day 1](http://www.johndcook.com/powershellbooklet.html) "
 
 
 
@@ -73,7 +73,7 @@ Tonight on the PowerScripting Podcast we talk to James Brundage from Microsoft.
 
 
 
-      *Is your scripting might equal to the challenge? Put the power in your hands "“Â *[*download PowerGUI today*](http://quest.com/powerscripting)*.*
+      *Is your scripting might equal to the challenge? Put the power in your hands "“ *[*download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 
@@ -82,7 +82,7 @@ Tonight on the PowerScripting Podcast we talk to James Brundage from Microsoft.
 
 
     For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
- Â 
+  
 
 
 
@@ -97,7 +97,7 @@ Tonight on the PowerScripting Podcast we talk to James Brundage from Microsoft.
 function
 
 
-Â 
+ 
 
 foo
 
@@ -109,7 +109,7 @@ $force
 
 ,
 
-Â 
+ 
 
 [switch]
 
@@ -146,7 +146,7 @@ $confirm
 
 
       *
-Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!*
+Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!*
 
 
 
@@ -155,7 +155,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-    Â 
+     
 
 
 
@@ -168,7 +168,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
       - 
-        Jeff Hicks is [having fun with the PowerShell ISE](http://blog.sapien.com/index.php/2009/04/17/fun-with-powershell-ise/)Â 
+        Jeff Hicks is [having fun with the PowerShell ISE](http://blog.sapien.com/index.php/2009/04/17/fun-with-powershell-ise/) 
 
 
       - 
@@ -176,11 +176,11 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
       - 
-        Joel's advice for [getting PowerShell help](http://huddledmasses.org/where-to-go-for-powershell-help/)Â  in a hurryÂ 
+        Joel's advice for [getting PowerShell help](http://huddledmasses.org/where-to-go-for-powershell-help/)  in a hurry 
 
 
       - 
-        Need help [explaining the value of PowerShell to a DBA](http://chadwickmiller.spaces.live.com/Blog/cns!EA42395138308430!347.entry)Â ?
+        Need help [explaining the value of PowerShell to a DBA](http://chadwickmiller.spaces.live.com/Blog/cns!EA42395138308430!347.entry) ?
 
 
 
@@ -199,7 +199,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
           - 
-            [Execution policy tip](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2237.entry)Â  for Windows Server 2008 R2 64-bit from Richard Siddaway
+            [Execution policy tip](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2237.entry)  for Windows Server 2008 R2 64-bit from Richard Siddaway
 
 
 
@@ -215,7 +215,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-        Listen to the show to hear details of our "Heroes" contest. Â You can win a $25 Amazon.com gift certificate!
+        Listen to the show to hear details of our "Heroes" contest.  You can win a $25 Amazon.com gift certificate!
 
 
 
@@ -228,14 +228,14 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-Â Â Â Â 
+    
 
 $force
 
 
 
 
-Â Â Â Â 
+    
 
 $confirm
 
@@ -247,7 +247,7 @@ $confirm
 
 
 
-Â 
+ 
 
 
 
@@ -255,41 +255,41 @@ $confirm
 $parameters
 
 
-Â 
+ 
 
 =
 
-Â 
+ 
 
 @{
 
 
 
 
-Â Â Â Â Â 
+     
 
 Force
 
-Â 
+ 
 
 =
 
-Â 
+ 
 
 $true
 
 
 
 
-Â Â Â Â Â 
+     
 
 Confirm
 
-Â 
+ 
 
 =
 
-Â 
+ 
 
 $true
 
@@ -301,12 +301,12 @@ $true
 
 
 
-Â 
+ 
 
 
 
 
-Â 
+ 
 
 
 
@@ -314,7 +314,7 @@ $true
 foo
 
 
-Â 
+ 
 
 @parameters
 

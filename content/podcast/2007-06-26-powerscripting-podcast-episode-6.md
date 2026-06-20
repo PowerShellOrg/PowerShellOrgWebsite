@@ -45,7 +45,7 @@ News
 
       - 
 
-[PowerShell Analyzer](http://powershell.com)Â can be pre-ordered for $59 and it will be $129
+[PowerShell Analyzer](http://powershell.com) can be pre-ordered for $59 and it will be $129
 
 
 
@@ -111,7 +111,7 @@ Resources
 
       - 
 
-From PawelÂ  a good article on Processing XML with PowerShell 
+From Pawel  a good article on Processing XML with PowerShell 
 [
 http://shrinkster.com/pzc
 ](http://shrinkster.com/pzc)
@@ -119,7 +119,7 @@ http://shrinkster.com/pzc
 
       - 
 
-Also from PawelÂ  "
+Also from Pawel  "
 I have the Step-by-Step book it is not too good still better than Powershell for Absolute Begineers "
 
 
@@ -174,7 +174,7 @@ Kevin found a PowerShell gadget for Vista (sidebar) -
 "Beginning PowerShell Guide" 
 [
 http://shrinkster.com/q3q
-](http://shrinkster.com/q3q)Â 
+](http://shrinkster.com/q3q) 
 on CodePlex
 
 

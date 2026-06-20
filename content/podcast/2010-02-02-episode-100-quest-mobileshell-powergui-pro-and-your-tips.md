@@ -61,11 +61,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -73,7 +73,7 @@ quest.com/powershellbook
 
 
 
-      Â 
+       
 
 
 
@@ -83,7 +83,7 @@ quest.com/powershellbook
 
 
         - 
-          SAPIENÂ [just announced](http://blog.sapien.com/index.php/2010/01/28/windows-powershell-2-0-ebook-ready-for-purchase-and-download/)Â that the PowerShell 2.0: TFM ebook is ready for download
+          SAPIEN [just announced](http://blog.sapien.com/index.php/2010/01/28/windows-powershell-2-0-ebook-ready-for-purchase-and-download/) that the PowerShell 2.0: TFM ebook is ready for download
 
 
         - 
@@ -95,7 +95,7 @@ quest.com/powershellbook
 
 
         - 
-          VMwareÂ [has launched their Script-O-Mania contest](http://communities.vmware.com/community/vmtn/vsphere/automationtools/scriptomania). Top prize is $2500!
+          VMware [has launched their Script-O-Mania contest](http://communities.vmware.com/community/vmtn/vsphere/automationtools/scriptomania). Top prize is $2500!
 
 
 
@@ -113,7 +113,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -179,7 +179,7 @@ quest.com/powershellbook
 
 
               - 
-                glnsize: ## is is also exposed as a web service? Â The use case would be *nix host's that would benefit from a posh proxy.Â 
+                glnsize: ## is is also exposed as a web service?  The use case would be *nix host's that would benefit from a posh proxy. 
 
 
               - 
@@ -206,7 +206,7 @@ Hero/Power - Silver Surfer
 
 
         - 
-          Â 
+           
 
 
 
@@ -266,7 +266,7 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
               - 
 
 From David Moravec
-Â 
+ 
 
 
 
@@ -293,7 +293,7 @@ Add Get-Member to your daily portfolio. It will show you another dimension.
 
 
               - 
-                [Tobias shows us how to edit the remoting permissions](http://powershell.com/cs/blogs/tips/archive/2010/01/28/remote-access-without-admin-privileges.aspx)Â with Set-PSSessionConfiguration
+                [Tobias shows us how to edit the remoting permissions](http://powershell.com/cs/blogs/tips/archive/2010/01/28/remote-access-without-admin-privileges.aspx) with Set-PSSessionConfiguration
 
 
               - 
@@ -310,44 +310,44 @@ From Pepa Stefan
 
 
 Useful oneliners
- Â [http://stackoverflow.com/questions/615287/useful-powershell-one-liners](http://stackoverflow.com/questions/615287/useful-powershell-one-liners)
+  [http://stackoverflow.com/questions/615287/useful-powershell-one-liners](http://stackoverflow.com/questions/615287/useful-powershell-one-liners)
 
 
 
                   - 
 
 What to have in my posh profile
- Â [http://stackoverflow.com/questions/138144/whats-in-your-powershell-profile-ps1file](http://stackoverflow.com/questions/138144/whats-in-your-powershell-profile-ps1file)
+  [http://stackoverflow.com/questions/138144/whats-in-your-powershell-profile-ps1file](http://stackoverflow.com/questions/138144/whats-in-your-powershell-profile-ps1file)
 
 
 
                   - 
 
 Windows PowerShell Tips
- Â [http://technet.microsoft.com/en-us/library/ee692948.aspx](http://technet.microsoft.com/en-us/library/ee692948.aspx)
+  [http://technet.microsoft.com/en-us/library/ee692948.aspx](http://technet.microsoft.com/en-us/library/ee692948.aspx)
 
 
 
                   - 
 
-Passing parameters to script in a hashtable Â (see the answer)
- Â [http://stackoverflow.com/questions/2057631/must-powershell-scripts-be-called-using-only-a-single-line](http://stackoverflow.com/questions/2057631/must-powershell-scripts-be-called-using-only-a-single-line)
- Â and once again splatting
- Â [http://blogs.msdn.com/powershell/archive/2009/01/02/how-and-why-to-use-splatting-passing-switch-parameters.aspx](http://blogs.msdn.com/powershell/archive/2009/01/02/how-and-why-to-use-splatting-passing-switch-parameters.aspx)
+Passing parameters to script in a hashtable  (see the answer)
+  [http://stackoverflow.com/questions/2057631/must-powershell-scripts-be-called-using-only-a-single-line](http://stackoverflow.com/questions/2057631/must-powershell-scripts-be-called-using-only-a-single-line)
+  and once again splatting
+  [http://blogs.msdn.com/powershell/archive/2009/01/02/how-and-why-to-use-splatting-passing-switch-parameters.aspx](http://blogs.msdn.com/powershell/archive/2009/01/02/how-and-why-to-use-splatting-passing-switch-parameters.aspx)
 
 
 
                   - 
 
 Some list of Posh tips
- Â [http://concentratedtech.com/item/view/id/27/title/21_PowerShell_Tips](http://concentratedtech.com/item/view/id/27/title/21_PowerShell_Tips)
+  [http://concentratedtech.com/item/view/id/27/title/21_PowerShell_Tips](http://concentratedtech.com/item/view/id/27/title/21_PowerShell_Tips)
 
 
 
                   - 
 
 Some tips for developers
- Â [http://stackoverflow.com/questions/622902/powershell-tips-tricks-for-developers/623284](http://stackoverflow.com/questions/622902/powershell-tips-tricks-for-developers/623284)
+  [http://stackoverflow.com/questions/622902/powershell-tips-tricks-for-developers/623284](http://stackoverflow.com/questions/622902/powershell-tips-tricks-for-developers/623284)
 
 
 
@@ -364,45 +364,45 @@ From James Brundage
 
 
 
-Â Â  Â Â Â  Â 1.
+        1.
 
-Â Â Â Â Â Â Â 
+       
 
 Add inline help - even you will forget what some of your scripts do
 
 
-Â Â  Â Â Â  Â 2.
+        2.
 
-Â Â Â Â Â Â Â 
+       
 
 Always output objects, so you can use the full joy of PowerShell
 
 
-Â Â  Â Â Â  Â 3.
+        3.
 
-Â Â Â Â Â Â Â 
+       
 
 Split your scripts up into many functions: The bigger the script, the harder to understand.
 
 
-Â Â  Â Â Â  Â 4.
+        4.
 
-Â Â Â Â Â Â Â 
+       
 
-Always write functions, not parameterized scripts.Â  No one likes jumping around the file system.
+Always write functions, not parameterized scripts.  No one likes jumping around the file system.
 
 
-Â Â  Â Â Â  Â 5.
+        5.
 
-Â Â Â Â Â Â Â 
+       
 
-Even if you know the command line, give .NET a try.Â  The .NET framework is your friend.
+Even if you know the command line, give .NET a try.  The .NET framework is your friend.
 
 
 
 
               - 
-                ShayÂ [posted a couple of one-liners](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/19/quicktip-one-liners-to-get-winrm-port-numbers.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic))Â to get WinRM port numbers
+                Shay [posted a couple of one-liners](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/19/quicktip-one-liners-to-get-winrm-port-numbers.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic)) to get WinRM port numbers
 
 
               - 

@@ -33,7 +33,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-    Â 
+     
 
 
 
@@ -45,7 +45,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-    Â 
+     
  *
 
 
@@ -53,7 +53,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-        WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+        When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
  ***
 
 
@@ -74,7 +74,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
         *
 
-Is your scripting might equal to the challenge? Put the power in your hands "“Â 
+Is your scripting might equal to the challenge? Put the power in your hands "“ 
 *
 
 *
@@ -93,9 +93,9 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
         - 
           Antoine
-Â 
+ 
 [blogged about v0.4 of PoshBoard](http://devinfra-us.blogspot.com/2009/02/poshboard-04-webcast-on-techdays-2009.html)
-Â 
+ 
 and his presentation given at Techdays 2009 France
 
 
@@ -105,15 +105,15 @@ and his presentation given at Techdays 2009 France
 
         - 
           Upcoming PowerShell UK UG schedules
-Â 
+ 
 [have been posted](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2082.entry)
 
 
         - 
           Karl Prosser
-Â 
+ 
 [blogs about](http://karlprosser.com/coder/2009/02/03/tobias-and-idera-make-powershellplus-21-beta-public/)
-Â 
+ 
 the new release of PowerShellPlus 2.1 beta
 
 
@@ -126,13 +126,13 @@ the new release of PowerShellPlus 2.1 beta
 
 
 ## 
-        InterviewÂ 
+        Interview 
 
 
 
 
 
-        Â 
+         
 
 
 
@@ -144,7 +144,7 @@ the new release of PowerShellPlus 2.1 beta
 
 
 
-        Â 
+         
  *
 
 
@@ -170,13 +170,13 @@ the new release of PowerShellPlus 2.1 beta
 
 
 
-                  Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [www.idera.com/PodcastPeople](http://www.idera.com/PodcastPeople)Â to get your copy today!
+                  Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [www.idera.com/PodcastPeople](http://www.idera.com/PodcastPeople) to get your copy today!
 
 
 
 
 
-                    Â 
+                     
 
 
 
@@ -191,7 +191,7 @@ the new release of PowerShellPlus 2.1 beta
 
 
                     - 
-                      dougchase : ## Does it work in V1 and how do I implement it in V1? Â Seems like I read it worked in both versions but I couldn't figure out how to start using it in V1.
+                      dougchase : ## Does it work in V1 and how do I implement it in V1?  Seems like I read it worked in both versions but I couldn't figure out how to start using it in V1.
 
 
                     - 
@@ -215,7 +215,7 @@ the new release of PowerShellPlus 2.1 beta
 
 
 
-                    Â 
+                     
 
 
 
@@ -229,33 +229,33 @@ the new release of PowerShellPlus 2.1 beta
 
                   > 
 
-> *New-Grid -Rows 5 { Â  Â *
- *Â Â  Â New-Label "Please Enter Your Name"Â *
- *Â Â  Â New-TextBox -Name YourName -Row 1Â *
- *Â Â  Â New-Label "Sex:" -Row 2*
- *Â Â  Â New-StackPanel -Row 3 {*
- *Â Â  Â  Â  Â New-RadioButton -Content "Male" -IsChecked $trueÂ *
- *Â Â  Â  Â  Â New-RadioButton -Content "Female" -Column 1*
- *Â Â  Â }*
- *Â Â  Â New-Button "Done" -Row 4 -On_Click {Â *
- *Â Â  Â  Â  Â $yourName = $window | Get-ChildControl YourNameÂ *
- *Â Â  Â  Â  Â $sex = $window |Â *
- *Â Â  Â  Â  Â  Â  Â Get-ChildControl |Â *
- *Â Â  Â  Â  Â  Â  Â Where-Object {*
- *Â Â  Â  Â  Â  Â  Â  Â  $_ -is [Windows.Controls.RadioButton] -and*
- *Â Â  Â  Â  Â  Â  Â  Â  $_.IsChecked*
- *Â Â  Â  Â  Â  Â  Â } |Â *
- *Â Â  Â  Â  Â  Â  Â Foreach-Object {*
- *Â Â  Â  Â  Â  Â  Â  Â  Â $_.Content*
- *Â Â  Â  Â  Â  Â  Â }*
- *Â Â  Â  Â  Â if (-not $yourName.Text) {*
- *Â Â  Â  Â  Â  Â  Â [Windows.Messagebox]::show("Who are you?")*
- *Â Â  Â  Â  Â }*
- *Â Â  Â  Â  Â $global:information = New-Object Object |*
- *Â Â  Â  Â  Â  Â  Â Add-Member NoteProperty Name $yourName.Text -PassThru |*
- *Â Â  Â  Â  Â  Â  Â Add-Member NoteProperty Sex $sex -PassThru Â  Â  Â  Â *
- *Â Â  Â  Â  Â $window.Close()*
- *Â Â  Â }*
+> *New-Grid -Rows 5 {    *
+ *    New-Label "Please Enter Your Name" *
+ *    New-TextBox -Name YourName -Row 1 *
+ *    New-Label "Sex:" -Row 2*
+ *    New-StackPanel -Row 3 {*
+ *        New-RadioButton -Content "Male" -IsChecked $true *
+ *        New-RadioButton -Content "Female" -Column 1*
+ *    }*
+ *    New-Button "Done" -Row 4 -On_Click { *
+ *        $yourName = $window | Get-ChildControl YourName *
+ *        $sex = $window | *
+ *            Get-ChildControl | *
+ *            Where-Object {*
+ *               $_ -is [Windows.Controls.RadioButton] -and*
+ *               $_.IsChecked*
+ *            } | *
+ *            Foreach-Object {*
+ *                $_.Content*
+ *            }*
+ *        if (-not $yourName.Text) {*
+ *            [Windows.Messagebox]::show("Who are you?")*
+ *        }*
+ *        $global:information = New-Object Object |*
+ *            Add-Member NoteProperty Name $yourName.Text -PassThru |*
+ *            Add-Member NoteProperty Sex $sex -PassThru        *
+ *        $window.Close()*
+ *    }*
  *} -show*
 > 
 
@@ -278,7 +278,7 @@ the new release of PowerShellPlus 2.1 beta
 
 
                       This segment is brought to you by
-Â 
+ 
 [SAPIEN Technologies](http://sapien.com/).
 
 
@@ -287,49 +287,49 @@ the new release of PowerShellPlus 2.1 beta
 
                       - 
                         Steve Murawski has a
-Â 
+ 
 [several part series](http://blog.usepowershell.com/category/net-framework/introduction/)
-Â 
+ 
 talking about using the .NET framework from PowerShell. ([part 1](http://blog.usepowershell.com/2009/02/exploring-the-net-framework-with-powershell-terminology-part-1/),
-Â 
+ 
 [part 2a](http://blog.usepowershell.com/2009/02/exploring-the-net-framework-with-powershell-calling-a-method-part-2a/),
-Â 
+ 
 [part 2b](http://blog.usepowershell.com/2009/02/exploring-the-net-framework-with-powershell-calling-a-method-part-2b/))
 
 
                       - 
                         Andy did a
-Â 
+ 
 [blog post](http://get-powershell.com/2009/02/17/a-method-to-the-add-member-madness/)
-Â 
+ 
 that talks about custom objects
 
 
                       - 
                         PoshCode script:
-Â 
+ 
 [Compare-DatabaseSchema](http://poshcode.org/865)
 
 
                       - 
                         Lee Holmes
-Â 
+ 
 [posted a fun script to make perfect change](http://www.leeholmes.com/blog/MakingPerfectChangeWithTheFewestCoins.aspx)
 
 
                       - 
                         James O'Neill
-Â 
+ 
 [posts some scripts](http://blogs.technet.com/jamesone/archive/2009/02/18/how-to-manage-the-windows-firewall-settings-with-powershell.aspx)
-Â 
+ 
 for working with the Vista/W7/Server 2008 firewall
 
 
                       - 
                         Joel has written a
-Â 
+ 
 [scriptable SSH client](http://huddledmasses.org/scriptable-ssh-from-powershell/)
-Â 
+ 
 in Powershell using an external .NET library
 
 
@@ -340,7 +340,7 @@ in Powershell using an external .NET library
 
 
 
-                        Â 
+                         
 
 
 
@@ -352,7 +352,7 @@ in Powershell using an external .NET library
 ## 
                         Tips
 
-Â 
+ 
 
 
 
@@ -362,13 +362,13 @@ in Powershell using an external .NET library
 
                         - 
                           From StackOverflow.com:
-Â 
+ 
 [How to get the actual size-on-disk of a file from PowerShell?](http://stackoverflow.com/questions/554010/how-to-get-the-actual-size-on-disk-of-a-file-from-powershell)
 
 
                         - 
                           Shay posted some information about
-Â 
+ 
 [using help in PowerShell ISE](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2009/01/31/using-help-in-powershell-ise.aspx)
 
 
@@ -389,9 +389,9 @@ in Powershell using an external .NET library
 
                         - 
                           Kirk Munro has an
-Â 
+ 
 [awesome blog post](http://poshoholic.com/2009/02/18/powershell-deep-dive-understanding-get-alias-wildcards-escape-characters-quoting-rules-literal-vs-non-literal-paths-and-the-timing-of-string-evaluation/)
-Â 
+ 
 talking about a quite wicked gotcha involving quoting rules and escape characters.
 
 
@@ -404,7 +404,7 @@ talking about a quite wicked gotcha involving quoting rules and escape character
 
 
 
-                    Â 
+                     
 
 
 

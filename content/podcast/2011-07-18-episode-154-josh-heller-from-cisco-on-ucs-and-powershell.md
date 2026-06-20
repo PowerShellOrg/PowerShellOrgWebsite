@@ -36,8 +36,8 @@ aliases:
 
 
 
-    This segment is brought to you byÂ PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
- At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution.Â [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
+    This segment is brought to you by PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
+ At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
 
 
 
@@ -71,7 +71,7 @@ aliases:
 
 
     This segment brought to you by Start-Automating
- Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+ Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
  Links:
 
 
@@ -101,13 +101,13 @@ aliases:
 
 
 
-    21:46 Â esacteksab: ## If you didn't work for Cisco, would you think "what is a networking company doing selling server hardware?"
+    21:46  esacteksab: ## If you didn't work for Cisco, would you think "what is a networking company doing selling server hardware?"
  ## comparable price per...?
- 22:05 Â esacteksab: ## Identity = WWPN/MAC/etc?
- 22:14 Â Meson3902: ## will you be giving way UCS servers tonight? 😉
+ 22:05  esacteksab: ## Identity = WWPN/MAC/etc?
+ 22:14  Meson3902: ## will you be giving way UCS servers tonight? 😉
  (For those reading--the answer was "no"™.)
- 22:19 Â esacteksab: ## is your Nexus v1000 "standard" when you purchase chassis/blades for VMware?
- 22:25 Â MarkDW: ## Any plans or Powershell support for other Cisco products outside of UCS?
+ 22:19  esacteksab: ## is your Nexus v1000 "standard" when you purchase chassis/blades for VMware?
+ 22:25  MarkDW: ## Any plans or Powershell support for other Cisco products outside of UCS?
 
 
 

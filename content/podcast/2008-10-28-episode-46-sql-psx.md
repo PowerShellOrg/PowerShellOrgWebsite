@@ -15,36 +15,36 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 ## In This Episode
 
 
-  Today on the PowerScripting Podcast we interview Chad Miller, author of the SQL PSX project.Â And ofÂ courseÂ we'llÂ throwÂ inÂ ourÂ otherÂ usualÂ goodies.
+  Today on the PowerScripting Podcast we interview Chad Miller, author of the SQL PSX project. And of course we'll throw in our other usual goodies.
 
 
 ## 
   News
 
 
-Â   
+   
 
 
 
 
 
-  *This segmentÂ isÂ broughtÂ toÂ youÂ byÂ Idera.
- WantÂ toÂ makeÂ WindowsÂ PowerShellÂ easierÂ thanÂ everÂ toÂ learnÂ andÂ master?Â CheckoutÂ Idera'sÂ PowerShellPlusÂ ProfessionalÂ EditionÂ whichÂ isÂ nowÂ availableÂ forÂ download!Â TheÂ newÂ versionÂ hasÂ vastlyÂ improvedÂ codeÂ completionÂ andÂ aÂ slickÂ interactiveÂ LearningÂ Center.Â GoÂ toÂ [www.idera.com/PodcastPeople](http://www.idera.com/PodcastPeople)Â toÂ getÂ yourÂ copyÂ today.*
+  *This segment is brought to you by Idera.
+ Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [www.idera.com/PodcastPeople](http://www.idera.com/PodcastPeople) to get your copy today.*
 
 
 
   - 
     [
-PowerGUI: Now with 100% more Hyper-V! Â« Poshoholic
+PowerGUI: Now with 100% more Hyper-V! « Poshoholic
 ](http://poshoholic.com/2008/10/22/powergui-now-with-100-more-hyper-v/)
 
 
   - 
-    [Southeast ManagementÂ UserÂ GroupÂ NovÂ 14thÂ meetingÂ scheduleÂ andÂ registrationÂ link](http://www.systemcenterusergroup.org/blogs/smug/archive/2008/10/21/southeast-management-user-group-nov-14th-meeting-schedule-and-registration-link.aspx)
+    [Southeast Management User Group Nov 14th meeting schedule and registration link](http://www.systemcenterusergroup.org/blogs/smug/archive/2008/10/21/southeast-management-user-group-nov-14th-meeting-schedule-and-registration-link.aspx)
 
 
   - 
-    [SaaS: Announcing Windows PowerShell Snap-In forÂ GoGrid](http://notgartner.wordpress.com/2008/10/12/saas-announcing-windows-powershell-snap-in-for-gogrid/)Â ([and commentary from Jeffrey Snover](http://blogs.msdn.com/powershell/archive/2008/10/14/gogrid-snap-in-managing-cloud-services-with-powershell.aspx) )
+    [SaaS: Announcing Windows PowerShell Snap-In for GoGrid](http://notgartner.wordpress.com/2008/10/12/saas-announcing-windows-powershell-snap-in-for-gogrid/) ([and commentary from Jeffrey Snover](http://blogs.msdn.com/powershell/archive/2008/10/14/gogrid-snap-in-managing-cloud-services-with-powershell.aspx) )
 
 
 
@@ -58,7 +58,7 @@ PowerGUI: Now with 100% more Hyper-V! Â« Poshoholic
 
 
 
-*Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.Â  Let's not forget about the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial atÂ *[*AdminScriptEditor.com*](http://adminscripteditor.com/)*.*
+*Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.  Let's not forget about the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at *[*AdminScriptEditor.com*](http://adminscripteditor.com/)*.*
 
 
 
@@ -66,7 +66,7 @@ PowerGUI: Now with 100% more Hyper-V! Â« Poshoholic
 
 
 
-    We had a great interview withÂ [Chad Miller](http://chadwickmiller.spaces.live.com/default.aspx), the author of theÂ [SQL PSX](http://www.codeplex.com/SQLPSX) Â project on Codeplex. Below are some of the questions which were submitted by Ustream viewers.
+    We had a great interview with [Chad Miller](http://chadwickmiller.spaces.live.com/default.aspx), the author of the [SQL PSX](http://www.codeplex.com/SQLPSX)  project on Codeplex. Below are some of the questions which were submitted by Ustream viewers.
 
 
 
@@ -137,7 +137,7 @@ PowerGUI: Now with 100% more Hyper-V! Â« Poshoholic
 
 
 
-*Quest Software is offering Powerscripting Podcast listeners a free copy of Jeffery Hicks new book, Managing Active Directory with Windows PowerShell: TFM from Sapien Press. VisitÂ *[*quest.com/powerscripting*](http://quest.com/powerscripting)*Â to register for your copy, before they run out. While you"™re there download their free graphical user interface, script editor and Active Directory commands.*
+*Quest Software is offering Powerscripting Podcast listeners a free copy of Jeffery Hicks new book, Managing Active Directory with Windows PowerShell: TFM from Sapien Press. Visit *[*quest.com/powerscripting*](http://quest.com/powerscripting)* to register for your copy, before they run out. While you"™re there download their free graphical user interface, script editor and Active Directory commands.*
 
 
 
@@ -163,7 +163,7 @@ Another Great Don Jones Video Demo
         Dev Resources! 
 
 
-            [PowerShell Tunnel](http://code.msdn.microsoft.com/PowerShellTunnel) Â - Make your app scriptable using PowerShell
+            [PowerShell Tunnel](http://code.msdn.microsoft.com/PowerShellTunnel)  - Make your app scriptable using PowerShell
 
 
           - 
@@ -178,7 +178,7 @@ Another Great Don Jones Video Demo
 
 
           - 
-            Doug Finke -Â [Displaying SVN Info On Your PowerShell Prompt](http://dougfinke.com/blog/?p=488)
+            Doug Finke - [Displaying SVN Info On Your PowerShell Prompt](http://dougfinke.com/blog/?p=488)
 
 
 
@@ -188,7 +188,7 @@ Another Great Don Jones Video Demo
 
           - 
 
-[Displaying GIT Branch On Your PowerShellÂ Prompt](http://techblogging.wordpress.com/2008/10/12/displaying-git-branch-on-your-powershell-prompt/)
+[Displaying GIT Branch On Your PowerShell Prompt](http://techblogging.wordpress.com/2008/10/12/displaying-git-branch-on-your-powershell-prompt/)
 
 
 
@@ -209,7 +209,7 @@ Another Great Don Jones Video Demo
 
 
     - 
-      [Lunch Lesson:Â ErrorÂ HandlingÂ inÂ PowerShellÂ |Â ConcentratedÂ Technology](http://concentratedtech.com/content/index.php/2008/10/lunch-lesson-error-handling-in-powershell/)
+      [Lunch Lesson: Error Handling in PowerShell | Concentrated Technology](http://concentratedtech.com/content/index.php/2008/10/lunch-lesson-error-handling-in-powershell/)
 
 
     - 

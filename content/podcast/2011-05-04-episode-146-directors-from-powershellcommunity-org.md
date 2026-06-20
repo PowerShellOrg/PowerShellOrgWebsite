@@ -27,26 +27,26 @@ Tonight on the PowerScripting Podcast, we talk to the directors of PowerShellCom
 
 
 
-    This segment is brought to you byÂ *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
+    This segment is brought to you by *PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.*
 
 
 
 
 
     *
- At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution.Â [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)* 
+ At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)* 
 
 
 
 
-      Â 
+       
 
 
 
 
 
       - 
-        [PowerShell is now licensed under the Microsoft Community Promise](http://blogs.msdn.com/b/powershell/archive/2011/04/16/powershell-language-now-licensed-under-the-community-promise.aspx)Â - [video](http://www.youtube.com/watch?v=769FOh7eNEI)
+        [PowerShell is now licensed under the Microsoft Community Promise](http://blogs.msdn.com/b/powershell/archive/2011/04/16/powershell-language-now-licensed-under-the-community-promise.aspx) - [video](http://www.youtube.com/watch?v=769FOh7eNEI)
 
 
       - 
@@ -73,7 +73,7 @@ Tonight on the PowerScripting Podcast, we talk to the directors of PowerShellCom
 
 
       - 
-        MVP Jonathan MeddÂ [will be presenting on Modules at the UK PowerShell User Group May 10th](http://www.jonathanmedd.net/2011/04/may-10th-2011-uk-powershell-usergroup-all-about-modules.html)
+        MVP Jonathan Medd [will be presenting on Modules at the UK PowerShell User Group May 10th](http://www.jonathanmedd.net/2011/04/may-10th-2011-uk-powershell-usergroup-all-about-modules.html)
  [Ravikanth Chaganti released the results of a recent survey about GUI scripting in PowerShell](http://www.ravichaganti.com/blog/?p=2111)
 
 
@@ -108,19 +108,19 @@ Interview
 
 
 
-      Â 
+       
 
 
 
 
 
-      *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).*
+      *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
 
 
 
-      Â 
+       
 
 
 
@@ -179,7 +179,7 @@ Interview
 
 
 
-      Â 
+       
 
 
 
@@ -249,7 +249,7 @@ Interview
 
 
 
-      Â 
+       
 
 
 

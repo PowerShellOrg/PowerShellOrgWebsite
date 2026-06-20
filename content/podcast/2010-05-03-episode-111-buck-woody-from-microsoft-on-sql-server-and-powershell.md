@@ -30,14 +30,14 @@ Listen:
 ## News
 
 
-  *PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â Get a live demo and meet the PowerWF development team at Tech-Ed.Â  Or download a 30 day trial today at PowerWF.com*
+  *PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  Get a live demo and meet the PowerWF development team at Tech-Ed.  Or download a 30 day trial today at PowerWF.com*
 
 
 _  
 _ 
 
-  * MVP Richard Siddaway has a new Codeplex project:Â [PowerShell Admin Modules][1]{#gicw}. HisÂ [blog post][2]{#t_yd}Â talks about some of the features for working with network shares.
-  * MVP Shay Levy hasÂ [a new project][3]{#jffw}Â on MSDN Code Gallery titledÂ [PSClientManager][4]{#s119}Â that allows you to work with Windows 7 features.
+  * MVP Richard Siddaway has a new Codeplex project: [PowerShell Admin Modules][1]{#gicw}. His [blog post][2]{#t_yd} talks about some of the features for working with network shares.
+  * MVP Shay Levy has [a new project][3]{#jffw} on MSDN Code Gallery titled [PSClientManager][4]{#s119} that allows you to work with Windows 7 features.
   * [2010 Scripting Games are upon us!][5]{#rcjl}
   * User Group News 
       * [New York City - May 10th][6]{#w-63}
@@ -45,14 +45,14 @@ _
       * [SE Michigan - May 11th][8]{#yp8:}
       * [Tampa - May 13th][9]{#p6s3}
       * [Central Ohio - May 13th][10]{#n0si}
-      * Atlanta -Â [May 18th][11]{#bidg}
+      * Atlanta - [May 18th][11]{#bidg}
   * Local conferences 
-      * @[SQLVariant][12]{#kx9s}Â is speaking atÂ [SQL Saturday in Jacksonville on May 8th][13]{#zrlj}. He is also going to present the same talk onÂ [Geek Speak][14]{#qgan}Â in case you can't make it to J-ville.
-      * [Codestock in Knoxville TN][15]{#s893}Â happens June 25th & 26th and there will be 4 PowerShell sessions including some fromÂ [Hal][16]{#r3.7}Â andÂ [@SQLVariant][17]{#y7bm}.
+      * @[SQLVariant][12]{#kx9s} is speaking at [SQL Saturday in Jacksonville on May 8th][13]{#zrlj}. He is also going to present the same talk on [Geek Speak][14]{#qgan} in case you can't make it to J-ville.
+      * [Codestock in Knoxville TN][15]{#s893} happens June 25th & 26th and there will be 4 PowerShell sessions including some from [Hal][16]{#r3.7} and [@SQLVariant][17]{#y7bm}.
 
 ## Interview
 
-_Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ _[_quest.com/powershellbook_][18]{#htv9}_Â to register for your free copy orÂ _[_quest.com/powerguipro_][19]{#kucz}_Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools._
+_Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit _[_quest.com/powershellbook_][18]{#htv9}_ to register for your free copy or _[_quest.com/powerguipro_][19]{#kucz}_ and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools._
 
 #### Links
 
@@ -75,10 +75,10 @@ _Before you acquire power, you must acquire knowledge "“ and Quest Software ha
   **Resources**
 
 
-  * [Frank-Peter points us][23]{#eijh}Â toÂ [ScriptBox][24]{#n54_}, a script repository with over 1300 PowerShell scripts.
-  * [PowerShell Transactions][25]{#dr.g}Â 
+  * [Frank-Peter points us][23]{#eijh} to [ScriptBox][24]{#n54_}, a script repository with over 1300 PowerShell scripts.
+  * [PowerShell Transactions][25]{#dr.g} 
   * [Using STA to continue in your console session while a from is loaded][26]{#k.k1}
-  * Dmitry has posted version 2 of hisÂ [SharePoint 2010 quick reference][27]{#qiom}.
+  * Dmitry has posted version 2 of his [SharePoint 2010 quick reference][27]{#qiom}.
   * [Tech brief on PowerGUI Pro][28]{#kxji}
 
 

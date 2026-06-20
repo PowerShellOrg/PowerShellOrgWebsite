@@ -34,24 +34,24 @@ Listen:
   *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory.*
 
 
-  *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook)Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.**
+  *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.**
  *
 
 
-  * Doug FinkeÂ [has a link to video][1]{#de:n}Â of his PowerShell Deep Dive from NYC Code Camp
-  * Ed Wilson (Scripting Guy)Â [was on Episode 16 of the Get-Scripting podcast][2]{#cdf_}
-  * SQL PSX version 2.1Â [has a cool new "SQLISE" visual query feature][3]{#shzv}
+  * Doug Finke [has a link to video][1]{#de:n} of his PowerShell Deep Dive from NYC Code Camp
+  * Ed Wilson (Scripting Guy) [was on Episode 16 of the Get-Scripting podcast][2]{#cdf_}
+  * SQL PSX version 2.1 [has a cool new "SQLISE" visual query feature][3]{#shzv}
 
 ## Interview
 
-Â   
+   
 _Now a word from our new sponsor, PowerWF._  
-_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com][4]{#j2hk}._
+_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com][4]{#j2hk}._
 
 #### Links
 
 - 
-  PSCX Home:Â [http://www.codeplex.com/Pscx](http://www.codeplex.com/Pscx)
+  PSCX Home: [http://www.codeplex.com/Pscx](http://www.codeplex.com/Pscx)
 
 
 - 
@@ -59,16 +59,16 @@ _Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual Power
 
 
 - 
-  Log your suggestions here:Â [http://pscx.codeplex.com/WorkItem/List.aspx](http://pscx.codeplex.com/WorkItem/List.aspx)
+  Log your suggestions here: [http://pscx.codeplex.com/WorkItem/List.aspx](http://pscx.codeplex.com/WorkItem/List.aspx)
 
 
 ## Resources
 
-_This segment is brought to you byÂ _[_SAPIEN Technologies_][5]{#zah2}_._  
+_This segment is brought to you by _[_SAPIEN Technologies_][5]{#zah2}_._  
 _  
 _ 
 
-  * [PowerShell Quickies][6]{#rrhh}Â (a bunch of cool one-liners)
+  * [PowerShell Quickies][6]{#rrhh} (a bunch of cool one-liners)
   * [Unlocking the Deep Dark Secrets in .NET][7]{#dj7h}
   * [Manage VirtualBox with PowerShell][8]{#sg.g}
 
@@ -79,15 +79,15 @@ _
   **Tips**
 
 
-Â 
+ 
 
 
   Our tips are brought to you today by ServerFault and StackOverflow, the best place to find answers to your toughest questions!
 
 
-Â 
+ 
 
-  * Launch a PowerShell scriptÂ [outside of the console][9]{#lxai}
+  * Launch a PowerShell script [outside of the console][9]{#lxai}
   * [Create a large dummy file][10]{#iorl}
 
  [1]: http://dougfinke.com/blog/index.php/2010/03/08/my-powershell-deep-dive-talk-video/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+DevelopmentInABlink+(Development+in+a+Blink) "has a link to video"

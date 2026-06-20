@@ -43,7 +43,7 @@ Tonight on the PowerScripting Podcast we talk to Brandon Shell about Citrix!
 
         *
 
-PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â Get a live demo and meet the PowerWF development team at Tech-Ed.Â  Or download a 30 day trial today atÂ [PowerWF.com](http://powerwf.com/)
+PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  Get a live demo and meet the PowerWF development team at Tech-Ed.  Or download a 30 day trial today at [PowerWF.com](http://powerwf.com/)
 
 *
 
@@ -134,7 +134,7 @@ June 12th - SQL Saturday #43 - Redmond
 
         *
 
-Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy orÂ [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy or [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 *
 
@@ -207,7 +207,7 @@ Resources
 
 
         - 
-          Joel Bennett recently published a coolÂ [Impersonation Module on PoshCode](http://poshcode.org/1856) (think runas, but in-session) ([blog post](http://huddledmasses.org/using-alternate-credentials-with-the-filesystem-in-powershell))
+          Joel Bennett recently published a cool [Impersonation Module on PoshCode](http://poshcode.org/1856) (think runas, but in-session) ([blog post](http://huddledmasses.org/using-alternate-credentials-with-the-filesystem-in-powershell))
 
 
         - 
@@ -258,4 +258,4 @@ Tips
 
 
         - 
-          Discussion point:Â [Why Scripting is Evil](http://www.drdobbs.com/cpp/224400823;jsessionid=ENLCKQWCRF03DQE1GHPSKHWATMY32JVN)
+          Discussion point: [Why Scripting is Evil](http://www.drdobbs.com/cpp/224400823;jsessionid=ENLCKQWCRF03DQE1GHPSKHWATMY32JVN)

@@ -40,7 +40,7 @@ Listen:
 
 
 
-    *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visitÂ [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy orÂ [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.*
+    *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook](http://quest.com/powershellbook) to register for your free copy or [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.*
 
 
 
@@ -57,7 +57,7 @@ Listen:
       User Group News 
 
 
-          Atlanta -Â [May 18th](http://powershellgroup.org/content/atlanta-powershell-user-group-monthly-meeting)
+          Atlanta - [May 18th](http://powershellgroup.org/content/atlanta-powershell-user-group-monthly-meeting)
 
 
         - 
@@ -72,7 +72,7 @@ Listen:
       Local conferences 
 
 
-          [Codestock in Knoxville TN](http://codestock.org/Sessions/Default.aspx) happens June 25th & 26th and there will be 4 PowerShell sessions including some fromÂ [Hal](http://halr9000.com/) andÂ [@SQLVariant](http://twitter.com/sqlvariant).
+          [Codestock in Knoxville TN](http://codestock.org/Sessions/Default.aspx) happens June 25th & 26th and there will be 4 PowerShell sessions including some from [Hal](http://halr9000.com/) and [@SQLVariant](http://twitter.com/sqlvariant).
 
 
 
@@ -80,7 +80,7 @@ Listen:
 
 
     - 
-      Book news:Â [Luc Dekens](http://www.lucd.info/) andÂ [Al Renouf](http://www.virtu-al.net/) are writing a PowerCLI book! It is due to be out from Sybex in 1Q 2011 and the title is to be "VMware vSphere PowerCLI Reference: Automating vSphere Administration".
+      Book news: [Luc Dekens](http://www.lucd.info/) and [Al Renouf](http://www.virtu-al.net/) are writing a PowerCLI book! It is due to be out from Sybex in 1Q 2011 and the title is to be "VMware vSphere PowerCLI Reference: Automating vSphere Administration".
 
 
     - 
@@ -107,7 +107,7 @@ Listen:
 
 
     - 
-      New suite of PowerShell-related software products from /n Software:Â [PowerShell Inside](http://www.powershellinside.com/)
+      New suite of PowerShell-related software products from /n Software: [PowerShell Inside](http://www.powershellinside.com/)
 
 
     - 
@@ -129,7 +129,7 @@ Listen:
 
 
 
-    *PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.Â  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts. Â Get a live demo and meet the PowerWF development team at Tech-Ed.Â  Or download a 30 day trial today atÂ [PowerWF.com](http://powerwf.com/)*
+    *PowerWF is a business process automation tool based on Windows Workflow and fueled by PowerShell.  Visualize, Extend and Reuse PowerShell scripts and easily leverage the efforts of your domain experts.  Get a live demo and meet the PowerWF development team at Tech-Ed.  Or download a 30 day trial today at [PowerWF.com](http://powerwf.com/)*
 
 
 
@@ -142,11 +142,11 @@ Listen:
 
 
     - 
-      Ed's series onÂ [error handling](http://blogs.technet.com/heyscriptingguy/archive/tags/error+handling/default.aspx)
+      Ed's series on [error handling](http://blogs.technet.com/heyscriptingguy/archive/tags/error+handling/default.aspx)
 
 
     - 
-      PoshCode:Â [http://2010sg.poshcode.org/](http://2010sg.poshcode.org/)
+      PoshCode: [http://2010sg.poshcode.org/](http://2010sg.poshcode.org/)
 
 
     - 
@@ -154,11 +154,11 @@ Listen:
 
 
     - 
-      Ed's site:Â [http://technet.microsoft.com/en-us/scriptcenter](http://technet.microsoft.com/en-us/scriptcenter/default.aspx)/
+      Ed's site: [http://technet.microsoft.com/en-us/scriptcenter](http://technet.microsoft.com/en-us/scriptcenter/default.aspx)/
 
 
     - 
-      Joel's blog:Â [http://huddledmasses.org/](http://huddledmasses.org/)
+      Joel's blog: [http://huddledmasses.org/](http://huddledmasses.org/)
 
 
 
@@ -188,19 +188,19 @@ Listen:
 
 
     - 
-      Richard Siddaway was kind enough to postÂ [a review](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2863.entry) of Hal's VMware PowerCLI book.
+      Richard Siddaway was kind enough to post [a review](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2863.entry) of Hal's VMware PowerCLI book.
 
 
     - 
-      MVP Sean Kearney has a new site up:Â [PowerShell.ca](http://powershell.ca/)
+      MVP Sean Kearney has a new site up: [PowerShell.ca](http://powershell.ca/)
 
 
     - 
-      Don Jones posted aÂ [PowerShell Training Roundup](http://concentratedtech.com/item/view/id/482)
+      Don Jones posted a [PowerShell Training Roundup](http://concentratedtech.com/item/view/id/482)
 
 
     - 
-      The Scripting Guys have a great series onÂ [scripting PowerPoint](http://blogs.technet.com/heyscriptingguy/archive/tags/Microsoft+PowerPoint/default.aspx)
+      The Scripting Guys have a great series on [scripting PowerPoint](http://blogs.technet.com/heyscriptingguy/archive/tags/Microsoft+PowerPoint/default.aspx)
 
 
     - 
@@ -225,7 +225,7 @@ Listen:
 
 
     - 
-      Keith HillÂ [has some examples](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!7209.entry) of PSCX's new cmdlet: Show-Tree
+      Keith Hill [has some examples](http://keithhill.spaces.live.com/Blog/cns!5A8D2641E0963A97!7209.entry) of PSCX's new cmdlet: Show-Tree
 
 
     - 
@@ -251,7 +251,7 @@ Listen:
 
 
         - 
-          Idera PowerShell PlusÂ [has a GUI](http://www.idera.com/Product-Tour/PowerShell-Plus/Code-Signing/) to help you do it
+          Idera PowerShell Plus [has a GUI](http://www.idera.com/Product-Tour/PowerShell-Plus/Code-Signing/) to help you do it
 
 
         - 

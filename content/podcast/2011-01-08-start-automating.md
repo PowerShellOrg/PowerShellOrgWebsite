@@ -29,13 +29,13 @@ Tonight on the PowerScripting Podcast, we talk to James Brundage about deliverin
 
 
   * New MVPs! 
-      * Jan Egil Ring:Â <http://blog.powershell.no/2011/01/01/microsoft-mvp-award/>
-      * Tome Tanasovski:Â <http://powertoe.wordpress.com/2011/01/05/mvp-drinks/>
-      * Shane Hoey:Â <http://powershelldownunder.com/blogs/shane>
-  * Don Jones' new book project: [Learn Windows PowerShell in a Month of Lunches][1]{#vzeu}. Use coupon codeÂ **wpslunch40** at checkout for a 40% discount! [Here's Don's announcement.][2]{#s-.e}
-  * Let's get the Scripting Guy to Australia! Care of @ye110wbeard:Â <http://www.youtube.com/watch?v=eAJRN9D5gOY>
+      * Jan Egil Ring: <http://blog.powershell.no/2011/01/01/microsoft-mvp-award/>
+      * Tome Tanasovski: <http://powertoe.wordpress.com/2011/01/05/mvp-drinks/>
+      * Shane Hoey: <http://powershelldownunder.com/blogs/shane>
+  * Don Jones' new book project: [Learn Windows PowerShell in a Month of Lunches][1]{#vzeu}. Use coupon code **wpslunch40** at checkout for a 40% discount! [Here's Don's announcement.][2]{#s-.e}
+  * Let's get the Scripting Guy to Australia! Care of @ye110wbeard: <http://www.youtube.com/watch?v=eAJRN9D5gOY>
   * Automating vSphere Administration news: 
-      * New website:Â [http://www.powerclibook.com/][3]{#cg_l}
+      * New website: [http://www.powerclibook.com/][3]{#cg_l}
       * [PDF with a tentative table of contents][4]{#n2gi}
       * Coming this spring!
   * [New Get-Scripting Podcast with Jeffrey Snover!][5]{#q3hl}
@@ -54,7 +54,7 @@ Interview
 
 
 
-    This segment is brought to you byÂ [SAPIEN Technologies](http://www.sapien.com/), makers of PrimalScript and PrimalForms.
+    This segment is brought to you by [SAPIEN Technologies](http://www.sapien.com/), makers of PrimalScript and PrimalForms.
 
 
 
@@ -66,11 +66,11 @@ Interview
 
 
       - 
-        PowerShellPack:Â [http://code.msdn.microsoft.com/PowerShellPack](http://code.msdn.microsoft.com/PowerShellPack)
+        PowerShellPack: [http://code.msdn.microsoft.com/PowerShellPack](http://code.msdn.microsoft.com/PowerShellPack)
 
 
       - 
-        Start-Automating:Â [http://start-automating.com/](http://start-automating.com/)
+        Start-Automating: [http://start-automating.com/](http://start-automating.com/)
 
 
 
@@ -105,11 +105,11 @@ Resources
 
 
       - 
-        Ravikanth has updated his [Layman's guide to PowerShell 2.0 remoting](http://www.ravichaganti.com/blog/?p=1780&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+RavikanthChaganti+(Ravikanth+Chaganti))Â 
+        Ravikanth has updated his [Layman's guide to PowerShell 2.0 remoting](http://www.ravichaganti.com/blog/?p=1780&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+RavikanthChaganti+(Ravikanth+Chaganti)) 
 
 
       - 
-        [](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose/tabid/2248/entryid/76024/Splat-Me.aspx)[Ravi brings us an excellent tutorial series](http://www.ravichaganti.com/blog/?p=1845)Â on using WQL (WMI Query Language) from a PowerShell standpoint
+        [](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose/tabid/2248/entryid/76024/Splat-Me.aspx)[Ravi brings us an excellent tutorial series](http://www.ravichaganti.com/blog/?p=1845) on using WQL (WMI Query Language) from a PowerShell standpoint
 
 
       - 

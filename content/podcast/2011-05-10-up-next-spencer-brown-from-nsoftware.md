@@ -10,7 +10,7 @@ aliases:
 
 On this week"™s show (5/12/11 @ 9:30pm EST right here on Ustream!), we"™ll be talking to Spencer Brown at nSoftware.  
 [![](http://www.nsoftware.com/powershell/banner.png)][1]  
-Â Be sure to drop by [the Ustream channel][2] Thursday so that you can post questions to Spencer and interact with your fellow PowerShellers!
+ Be sure to drop by [the Ustream channel][2] Thursday so that you can post questions to Spencer and interact with your fellow PowerShellers!
 
  [1]: http://www.powershellinside.com/
  [2]: http://www.ustream.tv/channel/powerscripting-podcast

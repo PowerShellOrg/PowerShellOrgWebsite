@@ -32,7 +32,7 @@ aliases:
       * [Sept 15 in Charlotte][1]
       * [Oct 27 in Atlanta][2]
 
-****Â ****
+**** ****
 
   * 
 
@@ -52,11 +52,11 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
-****Â ****
+**** ****
 
 
   Guests - Kirk Freiheit
@@ -64,7 +64,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -102,16 +102,16 @@ aliases:
   Superhero: Iron Man
 
 
-****Â ****
+**** ****
 
 
   Chatroom Banter
 
 
-****Â ****
+**** ****
 
 
-  FishTender27: I am still making my way from epi zero. Â I am on 119 now.
+  FishTender27: I am still making my way from epi zero.  I am on 119 now.
 
 
   backup exec 2012 screenshot: halr9000: [http://photos.pcpro.co.uk/images/front_picture_library_PC_Pro/dir_355/it_photo_177904_52.jpg](http://photos.pcpro.co.uk/images/front_picture_library_PC_Pro/dir_355/it_photo_177904_52.jpg)
@@ -141,17 +141,17 @@ aliases:
   MikeFRobbins: ## Why isn't the BEMCLI module installed when you install the management portion on a workstation? It only installs the GUI.
 
 
-  RichPrescott: ## My home lab with Server 2012 DataCenter is bluescreening and stuck in a boot loop. Â Can Symantec BE fix that?
+  RichPrescott: ## My home lab with Server 2012 DataCenter is bluescreening and stuck in a boot loop.  Can Symantec BE fix that?
 
 
   Ed.> The answer was "did you back that up?"
 
 
-****Â ****
+**** ****
 
 ## Resources
 
-****Â ****
+**** ****
 
   * 
 

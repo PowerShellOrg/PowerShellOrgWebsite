@@ -30,7 +30,7 @@ Listen:
 
 ## News
 
-_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com][1]{#j2hk}._  
+_Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com][1]{#j2hk}._  
 _  
 _ 
 
@@ -38,7 +38,7 @@ _
   * New software releases: 
       * [PowerShell PowerBook beta 1.1 - Facebook module][3]{#tfdx}
       * [Mark Embling has released Posh-Git][4]{#wwmv}
-      * [PowerConsole][5]{#dig3}Â is a PowerShell host for Visual Studio
+      * [PowerConsole][5]{#dig3} is a PowerShell host for Visual Studio
 
 ## Interview
 
@@ -46,7 +46,7 @@ _
   *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory.*
 
 
-  *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook)Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+  *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 #### Links
@@ -64,17 +64,17 @@ _
 
 ## Resources
 
-_This segment is brought to you byÂ _[_SAPIEN Technologies_][6]{#zah2}_._  
+_This segment is brought to you by _[_SAPIEN Technologies_][6]{#zah2}_._  
 _  
 _ 
 
   * [Jeff Hicks has put up his decks from TechMentor][7]{#yas6}
-  * Thomas LeeÂ [blogged about an SCCM module for PowerShell][8]{#iab:}
-  * John Robbins has created the logical successor to start-demo:Â [Start-PowerShellPoint][9]{#g.j_}
-  * Jonathan NobleÂ [did a post explaining -context in Select-String][10]{#pwpr}
-  * TechNet Webcast:Â [Windows Failover Clustering PowerShell Cmdlets: Overview and Examples (Level 400)][11]{#n9tr}
-  * [A cool list of PowerShell resources][12]{#xn5d}Â 
-  * Al Renouf has postedÂ [a video intro to VMware Update Manager cmdlets][13]{#r.dx}
+  * Thomas Lee [blogged about an SCCM module for PowerShell][8]{#iab:}
+  * John Robbins has created the logical successor to start-demo: [Start-PowerShellPoint][9]{#g.j_}
+  * Jonathan Noble [did a post explaining -context in Select-String][10]{#pwpr}
+  * TechNet Webcast: [Windows Failover Clustering PowerShell Cmdlets: Overview and Examples (Level 400)][11]{#n9tr}
+  * [A cool list of PowerShell resources][12]{#xn5d} 
+  * Al Renouf has posted [a video intro to VMware Update Manager cmdlets][13]{#r.dx}
 
 **  
 ** 
@@ -83,13 +83,13 @@ _
   **Tips**
 
 
-Â 
+ 
 
 
   Our tips are brought to you today by ServerFault and StackOverflow, the best place to find answers to your toughest questions!
 
 
-  * [Protect objects from accidental deletion][14]{#kkpi}Â with PowerShell
+  * [Protect objects from accidental deletion][14]{#kkpi} with PowerShell
   * [Convert database records into PS objects][15]{#el.8}
 
  [1]: http://powerwf.com/ "PowerWF.com"
