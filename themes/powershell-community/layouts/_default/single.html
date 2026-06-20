@@ -146,7 +146,7 @@
                     <div class="p-6">
                         <div class="text-sm text-gray-500 mb-2">{{ .Date.Format "Jan 2, 2006" }}</div>
                         <h4 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                            <a href="{{ .Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                            <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
                                 {{ .Title }}
                             </a>
                         </h4>
@@ -157,12 +157,12 @@
             </div>
         </div>
         {{ end }}
-        
+
         <!-- Navigation -->
         <nav class="mt-8 pt-6 border-t border-gray-200">
             <div class="flex justify-between items-center">
                 {{ with .PrevInSection }}
-                <a href="{{ .Permalink }}" 
+                <a href="{{ .RelPermalink }}"
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <i class="fas fa-chevron-left mr-2"></i>
                     <span class="truncate max-w-xs">{{ .Title }}</span>
@@ -170,9 +170,9 @@
                 {{ else }}
                 <div></div>
                 {{ end }}
-                
+
                 {{ with .NextInSection }}
-                <a href="{{ .Permalink }}" 
+                <a href="{{ .RelPermalink }}"
                    class="flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
                     <span class="truncate max-w-xs">{{ .Title }}</span>
                     <i class="fas fa-chevron-right ml-2"></i>

@@ -11,7 +11,7 @@
             <p class="text-xl opacity-90 max-w-2xl mx-auto">{{ .Params.description }}</p>
             {{ with .OutputFormats.Get "Calendar" }}
             <div class="mt-6">
-                <a href="{{ .Permalink }}" class="inline-flex items-center bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-200">
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-5 py-2 rounded-lg font-medium transition-colors duration-200">
                     <i class="fas fa-calendar-plus mr-2"></i>Subscribe (.ics)
                 </a>
             </div>

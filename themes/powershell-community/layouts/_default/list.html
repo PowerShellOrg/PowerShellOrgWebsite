@@ -70,13 +70,13 @@
                             {{ end }}
                         </div>
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            <a href="{{ .Permalink }}" class="hover:text-purple-600 transition-colors duration-200">
+                            <a href="{{ .RelPermalink }}" class="hover:text-purple-600 transition-colors duration-200">
                                 {{ .Title }}
                             </a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
                         <div class="flex items-center space-x-4">
-                            <a href="{{ .Permalink }}" 
+                            <a href="{{ .RelPermalink }}" 
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors duration-200">
                                 <i class="fas fa-play mr-2"></i>Listen
                             </a>
@@ -112,7 +112,7 @@
                     </div>
                     
                     <h2 class="text-xl font-bold text-gray-900 mb-3">
-                        <a href="{{ .Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
                             {{ .Title }}
                         </a>
                     </h2>
@@ -120,7 +120,7 @@
                     <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
                     
                     <div class="flex items-center justify-between">
-                        <a href="{{ .Permalink }}" 
+                        <a href="{{ .RelPermalink }}" 
                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200">
                             Read More <i class="fas fa-arrow-right ml-2"></i>
                         </a>

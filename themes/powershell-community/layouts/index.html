@@ -163,12 +163,12 @@
                         {{ .Date.Format "Jan 2, 2006" }}
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                        <a href="{{ .Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
                             {{ .Title }}
                         </a>
                     </h3>
                     <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
-                    <a href="{{ .Permalink }}"
+                    <a href="{{ .RelPermalink }}"
                         class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700">
                         Listen Now <i class="fas fa-play ml-2"></i>
                     </a>
@@ -207,7 +207,7 @@
                         {{ end }}
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                        <a href="{{ .Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
                             {{ .Title }}
                         </a>
                     </h3>
