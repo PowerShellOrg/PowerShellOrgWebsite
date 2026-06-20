@@ -46,7 +46,7 @@
 
                     <!-- Author Info -->
                     <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="{{ .Page.Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                        <a href="{{ .Page.RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
                             {{ .Page.Title }}
                         </a>
                     </h2>
@@ -58,7 +58,7 @@
                     </p>
 
                     <!-- View Profile Button -->
-                    <a href="{{ .Page.Permalink }}"
+                    <a href="{{ .Page.RelPermalink }}"
                        class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
