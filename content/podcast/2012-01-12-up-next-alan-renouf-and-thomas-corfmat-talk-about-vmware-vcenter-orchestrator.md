@@ -8,7 +8,7 @@ aliases:
   - /2012/01/up-next-alan-renouf-and-thomas-corfmat-talk-about-vmware-vcenter-orchestrator/
 ---
 
-Alan Renouf is back with us again, and this time he's bringing a friend along from VMware to talk with us about how vCenter Orchestrator uses PowerShell. Have a look at the [vCenter Orchestrator blog][1] to see what they are up to, and especially check out the post titledÂ [vCO PowerShell plug-in][2].  
+Alan Renouf is back with us again, and this time he's bringing a friend along from VMware to talk with us about how vCenter Orchestrator uses PowerShell. Have a look at the [vCenter Orchestrator blog][1] to see what they are up to, and especially check out the post titled [vCO PowerShell plug-in][2].  
 Here's a screenshot example:  
 [![](http://blogs.vmware.com/.a/6a00d8341c328153ef0162fde2b396970d-800wi)][2]  
 We'll be covering this TONIGHT at 9:30pm EST at our usual live stream: [live.powerscripting.net][3]!

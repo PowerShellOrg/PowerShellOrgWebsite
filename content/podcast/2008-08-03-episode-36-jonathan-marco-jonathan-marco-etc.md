@@ -17,7 +17,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-We have a great show lined up for you today.Â  We'll be talking with Eric Madariaga from /n Software. And of course we have news, tips, resources, and more!Â  And be sure to listen till the end when we'll be giving away free commercial licenses for /n Software's Net cmdlets!
+We have a great show lined up for you today.  We'll be talking with Eric Madariaga from /n Software. And of course we have news, tips, resources, and more!  And be sure to listen till the end when we'll be giving away free commercial licenses for /n Software's Net cmdlets!
 
 
 ## 
@@ -29,7 +29,7 @@ iTripoli
 ](http://www.itripoli.com/) for sponsoring this segment.*
 
 
-  *"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself"“ Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."*
+  *"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.  Come see for yourself"“ Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."*
 
 
   **
@@ -40,15 +40,15 @@ __
   * There's a new PowerShell podcast in town [Get-Scripting][2]{#p2j0} ! I guess the rule is you have to have a Jonathan to have a PowerShell podcast (with apologies to the other Jonathan)
   * If you missed Marco's session on the NetCmdlets don't sweat it. It was [postponed until next month][3]{#oukm}
   * MVP Marco Shaw has posted his [plans for future VUG meetings][4]{#v8mp}.
-  * PowerGUI 1.5.1 is now out.Â  Some new stuff includes: 
-      * [VMware VI client integration][5]{#pz91}Â 
+  * PowerGUI 1.5.1 is now out.  Some new stuff includes: 
+      * [VMware VI client integration][5]{#pz91} 
       * Online search for PowerShell scripts (using poshcode.org!)
       * enhancements to code completion
 
 ## Interview
 
 
-  *Today"™sÂ interview is brought to you by [
+  *Today"™s interview is brought to you by [
 Quest Software
 ](http://quest.com/powerscripting).*
  *
@@ -64,9 +64,9 @@ Quest Software
 __Do you have the muscle to bring home the prize? Check out the details [
 here
 ](http://quest.com/powerscripting).__  
-Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.  
-Â   
-Â 
+Tonight, we're talking to Eric Madariaga with /n Software.  VP of Marketing.  
+   
+ 
 
   1. Background 
       1. career 
@@ -78,7 +78,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
       3. current position 
           1. VP of Marketing
   2. NetCmdlets 
-      1. product came out when?Â  It was very early 
+      1. product came out when?  It was very early 
           1. Launched at TechEd EMEA 2006
       2. v2 is in beta? 
           1. telnet
@@ -97,7 +97,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
 
 
 
-        Â  
+          
 
 
           * Future 
@@ -108,9 +108,9 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
           * Websites: [http://nsoftware.com][6]{#lthq}, [http://powershelltoys.com][7]{#c0mj}
 
 
-        Â   
-        Â   
-        Â 
+           
+           
+         
 
 
 
@@ -131,7 +131,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
 
 
             - 
-              Marco Shaw got published in Technet!Â  The article is called [Windows PowerShell in System Center Operations Manager](http://marcoshaw.blogspot.com/2008/07/technet-magazine-article-windows.html) 
+              Marco Shaw got published in Technet!  The article is called [Windows PowerShell in System Center Operations Manager](http://marcoshaw.blogspot.com/2008/07/technet-magazine-article-windows.html) 
 
 
                   There's also an associated [webcast](http://marcoshaw.blogspot.com/2008/07/technet-magazine-article-complimentary.html)
@@ -154,7 +154,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
 
 
 
-            Â 
+             
 
 
 
@@ -171,7 +171,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
 
 
             - 
-              [Editing Web.Config Files with PowerShell Â« Get-Powershell](http://get-powershell.com/2008/07/29/editing-webconfig-files-with-powershell/#comment-140)
+              [Editing Web.Config Files with PowerShell « Get-Powershell](http://get-powershell.com/2008/07/29/editing-webconfig-files-with-powershell/#comment-140)
 
 
             - 
@@ -197,7 +197,7 @@ Tonight, we're talking to Eric Madariaga with /n Software.Â  VP of Marketing.
 
 
 
-            We have two copies of Netcmdlets to give away this week.Â  Prizes will be awarded roughly two weeks from now on Episode 38.Â  All you have to do to win is be one of the first two people to send in a script that uses the Netcmdlets OR a PowerShellASP page.Â  You can use their "hobbyist" license to get the job done.Â  And don't send in a little single statement one-liner--give us a few lines of code at least.Â  :)Â  All entries become the property of the PowerScripting Podcast, some rights reserved, do not taunt happy fun ball.Â  (Just kidding, we'll publish all entries on the website.Â  But seriously--don't taunt happy fun ball.)
+            We have two copies of Netcmdlets to give away this week.  Prizes will be awarded roughly two weeks from now on Episode 38.  All you have to do to win is be one of the first two people to send in a script that uses the Netcmdlets OR a PowerShellASP page.  You can use their "hobbyist" license to get the job done.  And don't send in a little single statement one-liner--give us a few lines of code at least.  :)  All entries become the property of the PowerScripting Podcast, some rights reserved, do not taunt happy fun ball.  (Just kidding, we'll publish all entries on the website.  But seriously--don't taunt happy fun ball.)
 
 
 

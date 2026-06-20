@@ -11,7 +11,7 @@ aliases:
 
 **A Podcast about Windows PowerShell.**  
 Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]  
-We have a great show lined up for you today.Â  We'll be talking to Carter Shanklin from VMware about their PowerShell Toolkit.Â  He's got some exciting NEW news to share with us, so that's cool.Â  We'll also bring you news, resources, tips and whatever else we can scrape up.
+We have a great show lined up for you today.  We'll be talking to Carter Shanklin from VMware about their PowerShell Toolkit.  He's got some exciting NEW news to share with us, so that's cool.  We'll also bring you news, resources, tips and whatever else we can scrape up.
 
 ### News
 
@@ -23,14 +23,14 @@ _Do you have the muscle to bring home the prize? Check out the details [here](ht
 
   * [PowerShellASP][3] (powershelltoys.com) - PowerShellASP is an ASP-like template language for Web Applications; templates contain a mixture of markup (HTML, XML or whatever you want to generate) and inline PowerShell code. At runtime, templates/pages are fully translated to PowerShell code and exe
   * Codeplex project [PowerShell Pages][4] (codeplex.com/powershellpages)- PowerShell Pages is an ASP like language, based on the PowerShell runtime. Using a simple HTTP Handler, ASP.NET can render pages scripted using PowerShell script (including cmdlets, and CLR/.NET objects) to the web. Simple, fast and intuitive programming
-  * VMware Toolkit 1.0 is out of beta!Â  ([vmware.com/go/powershell][5]) 
+  * VMware Toolkit 1.0 is out of beta!  ([vmware.com/go/powershell][5]) 
       * 125 cmdlets
       * focus on VM lifecycle and ESX server deployment and configuration
 
 ### Interview
 
 _Today's news is brought to you by iTripoli._  
-_"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_
+_"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com."_
 
   1. Background 
       1. long time developer in Unix-land
@@ -69,7 +69,7 @@ _"Admin Script Editor provides a true integrated scripting environment for Power
 
 ### Tips
 
-  * Jeffrey Snover [reminds us][8] to update your GAC!Â  This really speeds up the start time for a powershell console.
+  * Jeffrey Snover [reminds us][8] to update your GAC!  This really speeds up the start time for a powershell console.
   * [Enabling WinRM with Powershell / Get-Powershell][9] - Don't forget you can use Configure-WSman.ps1 to configure WinRM using PowerShell.
   * you can get a much faster file count of a directory by doing a get-item on the parent folder and calling the getFiles() method. Thanks Jaykul! 
       * measure-command {  
@@ -86,7 +86,7 @@ _"Admin Script Editor provides a true integrated scripting environment for Power
 
   * [Vista Event Logs and PowerShell][10] - Ben Pearce points out that you can NOT use Get-EventLog to access all the new logs that are in Vista.
 
-Talk to you next week!Â  Don"™t forget to follow [Jonathan](http://twitter.com/jonwalz) and [Hal](http://twitter.com/halr9000) on Twitter.
+Talk to you next week!  Don"™t forget to follow [Jonathan](http://twitter.com/jonwalz) and [Hal](http://twitter.com/halr9000) on Twitter.
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-034.mp3
  [2]: http://quest.com/powerscripting

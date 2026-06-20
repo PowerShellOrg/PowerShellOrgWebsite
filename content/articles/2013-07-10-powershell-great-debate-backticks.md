@@ -21,10 +21,10 @@ My personal beefs with this:
   * 
 The character is visually hard to distinguish. On-screen, it's just a couple of pixels; in a book, it looks like stray ink or toner.
 
-  * If you put any whitespace after the backtick, it escapesÂ _that_ character instead of the carriage return, and everything breaks.
+  * If you put any whitespace after the backtick, it escapes _that_ character instead of the carriage return, and everything breaks.
   * On some non-US keyboards, it's a difficult character to get to.
 
-In Â many cases, you can achieve nice formatting without the back tick.
+In  many cases, you can achieve nice formatting without the back tick.
 
 
 `Do-Something -Parameter this |
@@ -47,6 +47,6 @@ Do-Something     @do_something     |
 Invoke-Something @invoke_something |
 Something-Else
 `Visually blocked-out, but no back ticks.  
-And the debate rages on. Your thoughts? Pros? Cons?Â _Why?_  
+And the debate rages on. Your thoughts? Pros? Cons? _Why?_  
 
 [boilerplate greatdebate]

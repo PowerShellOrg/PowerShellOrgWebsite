@@ -30,9 +30,9 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
       * Over 70 new cmdlets
       * This example would create a snapshot of every VM:  
         get-vm | new-snapshot
-  * [Dale Lane][9], author of the [IBM Websphere MQ PowerShell snapin][10] is considering writing another tool, this time a PowerShell library for the IBM DB/2 RDBMS.Â  He is seeking feedback, so if you or someone you know might be interested, please visit this [blog post][11] and leave feedback.
+  * [Dale Lane][9], author of the [IBM Websphere MQ PowerShell snapin][10] is considering writing another tool, this time a PowerShell library for the IBM DB/2 RDBMS.  He is seeking feedback, so if you or someone you know might be interested, please visit this [blog post][11] and leave feedback.
   * New Video Podcast: [PowerShell-Basics.com][12] 
-      * This is created by Steve from the A Couple of Admins Podcast.Â  He wanted to create a screencast-only video podcast.Â  His first show should be out by the time you hear this.
+      * This is created by Steve from the A Couple of Admins Podcast.  He wanted to create a screencast-only video podcast.  His first show should be out by the time you hear this.
 
 ##### Tips
 
@@ -72,9 +72,9 @@ Contest Rules:
   * Prize - commercial license for PowerShell Analyzer (donated by Shell Tools)
   * Prize - commercial license for the NetCmdlets (donated by /n Software)
 
-What are the cmdlets?Â  You have to listen to find out.Â  😉  
-Thanks again to all of you listeners out there!Â  Your feedback makes it all worthwhile, keep that rolling in.Â  Our email address is 
-, or you can comment on this very blog post.Â  Also find us on Facebook [here][18] (Jonathan), [here][19] (Hal),Â  and [here][20] (PowerScripting Podcast group).Â  Our group needs more members!Â  The Scripting guys are ahead by a teensy bit.
+What are the cmdlets?  You have to listen to find out.  😉  
+Thanks again to all of you listeners out there!  Your feedback makes it all worthwhile, keep that rolling in.  Our email address is 
+, or you can comment on this very blog post.  Also find us on Facebook [here][18] (Jonathan), [here][19] (Hal),  and [here][20] (PowerScripting Podcast group).  Our group needs more members!  The Scripting guys are ahead by a teensy bit.
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-018.mp3
  [2]: http://blogs.msdn.com/powershell/archive/2008/01/25/powershell-gets-redmond-magazine-2008-editor-s-choice-award.aspx

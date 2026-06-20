@@ -33,7 +33,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-    *What can you really do with PowerShell?Â  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?Â  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.Â  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.Â  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.*
+    *What can you really do with PowerShell?  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.*
 
 
 
@@ -42,11 +42,11 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
     - 
 
 
-        Version 2 will have inline help for your functions, just like a cmdlet! You can see what the syntax looks like onÂ [
+        Version 2 will have inline help for your functions, just like a cmdlet! You can see what the syntax looks like on [
 this post
 ](http://blogs.msdn.com/mediaandmicrocode/archive/2008/12/01/microcode-powershell-scripting-tricks-scripting-the-web-part-1-get-web.aspx)
 
- onÂ [
+ on [
 James Brundage's Media
 
 
@@ -60,7 +60,7 @@ and Microcode blog
 
         - 
 
-The guys at the Get-Scripting podcast are running a little contest to win a copy of Jeffrey Hicks' Managing AD with PowerShell: TFM book. To win, you just need to make captions forÂ [this picture](http://get-scripting.blogspot.com/2008/12/episode-5-competition-win-print-copy-of.html)
+The guys at the Get-Scripting podcast are running a little contest to win a copy of Jeffrey Hicks' Managing AD with PowerShell: TFM book. To win, you just need to make captions for [this picture](http://get-scripting.blogspot.com/2008/12/episode-5-competition-win-print-copy-of.html)
 
  from TechEd EMEA. Should be fun.
 
@@ -75,17 +75,17 @@ The guys at the Get-Scripting podcast are running a little contest to win a copy
 
         - 
 
-New Codeplex project:Â [SharePoint PowerShell Deploy](http://www.codeplex.com/sharepointpdeploy) 
+New Codeplex project: [SharePoint PowerShell Deploy](http://www.codeplex.com/sharepointpdeploy) 
 
 
 
         - 
 
-There's now aÂ [SQL](http://powershellcommunity.org/Forums/tabid/54/afv/topicsview/aff/24/Default.aspx)
+There's now a [SQL](http://powershellcommunity.org/Forums/tabid/54/afv/topicsview/aff/24/Default.aspx)
 
- andÂ [SharePoint](http://powershellcommunity.org/Forums/tabid/54/afv/topicsview/aff/23/Default.aspx)
+ and [SharePoint](http://powershellcommunity.org/Forums/tabid/54/afv/topicsview/aff/23/Default.aspx)
 
-forum onÂ [PowerShellCommunity.org](http://powershellcommunity.org/)
+forum on [PowerShellCommunity.org](http://powershellcommunity.org/)
 
 
 
@@ -93,7 +93,7 @@ forum onÂ [PowerShellCommunity.org](http://powershellcommunity.org/)
 
         - 
 
-Windows 7'sÂ [got a troubleshooting tool](http://www.istartedsomething.com/20081106/windows-7-to-revolutionize-pc-troubleshooting/)
+Windows 7's [got a troubleshooting tool](http://www.istartedsomething.com/20081106/windows-7-to-revolutionize-pc-troubleshooting/)
 
  that's going to be based on PowerShell.
 
@@ -128,7 +128,7 @@ Windows 7'sÂ [got a troubleshooting tool](http://www.istartedsomething.com/200
 
 
 
-            *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [
+            *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [
 www.idera.com/PodcastPeople
 ](http://www.idera.com/PodcastPeople) to get your copy today!*
 
@@ -142,17 +142,17 @@ www.idera.com/PodcastPeople
 
 
 
-Doug has been doing software development for more than 25 years.Â He started on the Mainframe as a Basic Assembly Language developer.Â The first scripting languages he encountered were REXX and CLIST.Â He saw how productive these approaches were and sought them out in each new environment he worked with.Â He has played with Lua, Tcl/tk, Ruby, Python, Groovy and PowerShell since it was called Monad.
+Doug has been doing software development for more than 25 years. He started on the Mainframe as a Basic Assembly Language developer. The first scripting languages he encountered were REXX and CLIST. He saw how productive these approaches were and sought them out in each new environment he worked with. He has played with Lua, Tcl/tk, Ruby, Python, Groovy and PowerShell since it was called Monad.
 
 
 
 
 
 
-                    Doug currently works atÂ [Lab49](http://lab49.com/)
+                    Doug currently works at [Lab49](http://lab49.com/)
 
-a technology consulting firm thatÂ builds advanced solutions for the financial services industry in NY and London.
- He has written articles on PowerShell appearing in Dr. Dobb's Journal.Â You can catch up with Doug at his blog atÂ [dougfinke.com/blog](http://dougfinke.com/blog).
+a technology consulting firm that builds advanced solutions for the financial services industry in NY and London.
+ He has written articles on PowerShell appearing in Dr. Dobb's Journal. You can catch up with Doug at his blog at [dougfinke.com/blog](http://dougfinke.com/blog).
 
 
 
@@ -182,7 +182,7 @@ a technology consulting firm thatÂ builds advanced solutions for the financial
 
 
                       - 
-                        glnsize : ## Â Are the IT shops at your customers familiar with powershell? Â Or are you having to sell powershell from the ground up.
+                        glnsize : ##  Are the IT shops at your customers familiar with powershell?  Or are you having to sell powershell from the ground up.
 
 
                       - 
@@ -218,7 +218,7 @@ a technology consulting firm thatÂ builds advanced solutions for the financial
 
 
                             *
-WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!
+When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools!
 **
 For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
 *
@@ -264,7 +264,7 @@ download PowerGUI today
 
 
                               - 
-                                PoshCode script:Â [elevate-process (sudo)](http://poshcode.org/696)
+                                PoshCode script: [elevate-process (sudo)](http://poshcode.org/696)
 
 
                               - 
@@ -319,12 +319,12 @@ download PowerGUI today
 
 
 
-                                -Â [Speed up PowerShell V1 with update-GAC](http://blogs.msdn.com/powershell/archive/2008/09/02/speeding-up-powershell-startup-updating-update-gac-ps1.aspx)...why?
+                                - [Speed up PowerShell V1 with update-GAC](http://blogs.msdn.com/powershell/archive/2008/09/02/speeding-up-powershell-startup-updating-update-gac-ps1.aspx)...why?
 
 
 
 
-                                  -Â [The joy of hashtables](http://blogs.msdn.com/mediaandmicrocode/archive/2008/11/27/microcode-powershell-scripting-tricks-the-joy-of-using-hashtables-with-windows-powershell.aspx)
+                                  - [The joy of hashtables](http://blogs.msdn.com/mediaandmicrocode/archive/2008/11/27/microcode-powershell-scripting-tricks-the-joy-of-using-hashtables-with-windows-powershell.aspx)
 
 
 
@@ -393,7 +393,7 @@ download PowerGUI today
 
 
 
-                                                  He goes further to say that he found this out by using a tool from MS Services for Unix which was funny. Â 🙂
+                                                  He goes further to say that he found this out by using a tool from MS Services for Unix which was funny.  🙂
 
 
 
@@ -438,7 +438,7 @@ This is from listener Dale:
                                                   > 
 
 > 
-*I just wanted to let you know that I have found another option that looks a lot more approachable as an object store via Powershell. Â It's a database VERY similar to DB4O with Dual Licensing almost the same as well. Â It's called "Perst", and it is at:*
+*I just wanted to let you know that I have found another option that looks a lot more approachable as an object store via Powershell.  It's a database VERY similar to DB4O with Dual Licensing almost the same as well.  It's called "Perst", and it is at:*
 
 
 [*http://www.mcobject.com/perst*](http://www.mcobject.com/perst)

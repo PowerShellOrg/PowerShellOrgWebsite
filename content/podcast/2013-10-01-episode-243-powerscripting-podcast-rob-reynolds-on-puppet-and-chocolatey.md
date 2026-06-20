@@ -37,28 +37,28 @@ aliases:
 - 
 
 
-    Michael WashamÂ [@mwashamtx](http://twitter.com/mwashamtx)
+    Michael Washam [@mwashamtx](http://twitter.com/mwashamtx)
 
 
 
 - 
 
 
-    Jonathan WalzÂ [@jonwalz](http://twitter.com/jonwalz)
+    Jonathan Walz [@jonwalz](http://twitter.com/jonwalz)
 
 
 
 - 
 
 
-    Jason HelmickÂ [@theJasonHelmick](http://twitter.com/theJasonHelmick)
+    Jason Helmick [@theJasonHelmick](http://twitter.com/theJasonHelmick)
 
 
 
 - 
 
 
-    Aman DhallyÂ [@AmanDhally](http://twitter.com/AmanDhally)
+    Aman Dhally [@AmanDhally](http://twitter.com/AmanDhally)
 
 
 
@@ -171,7 +171,7 @@ aliases:
   <14gpduck> ## write documentation that does the work for you instead of a list of instructions
 
 
-  <11ScriptWarrior> ## so there are goto statements? Â 😛
+  <11ScriptWarrior> ## so there are goto statements?  😛
 
 
   <4Vern_Anderson> ## I think enterprise customers get support
@@ -189,52 +189,52 @@ aliases:
   <4Vern_Anderson> ## Spotted cow spots??
 
 
-   One month until PowerShell Saturday 005 in Atlanta:Â [http://powershellsaturday.com/005/](http://powershellsaturday.com/005/)
+   One month until PowerShell Saturday 005 in Atlanta: [http://powershellsaturday.com/005/](http://powershellsaturday.com/005/)
 
 
-   PowerShell Oktoberfest: PowerShell Saturday 005 in Atlanta and 006 in Singapore:Â [http://mikefrobbins.com/2013/09/26/powershell-oktoberfest-powershell-saturday-005-in-atlanta-and-006-in-singapore/](http://mikefrobbins.com/2013/09/26/powershell-oktoberfest-powershell-saturday-005-in-atlanta-and-006-in-singapore/)
+   PowerShell Oktoberfest: PowerShell Saturday 005 in Atlanta and 006 in Singapore: [http://mikefrobbins.com/2013/09/26/powershell-oktoberfest-powershell-saturday-005-in-atlanta-and-006-in-singapore/](http://mikefrobbins.com/2013/09/26/powershell-oktoberfest-powershell-saturday-005-in-atlanta-and-006-in-singapore/)
 
 
-   Episode 199 - PowerScripting Podcast - Rob Reynolds talks PowerShell and Chocolatey:Â [https://powershell.org/2012/09/07/episode-199-rob-reynolds-talks-powershell-and-chocolatey/](https://powershell.org/2012/09/07/episode-199-rob-reynolds-talks-powershell-and-chocolatey/)
+   Episode 199 - PowerScripting Podcast - Rob Reynolds talks PowerShell and Chocolatey: [https://powershell.org/2012/09/07/episode-199-rob-reynolds-talks-powershell-and-chocolatey/](https://powershell.org/2012/09/07/episode-199-rob-reynolds-talks-powershell-and-chocolatey/)
 
 
-   Adam Driscoll is presenting for the Mississippi PowerShell User Group (Lync Meeting) on October 8th:Â [http://mspsug.com/2013/09/24/powershell-mvp-adam-driscoll-speaking-for-mspsug-on-tuesday-october-8th-at-830pm-cdt/](http://mspsug.com/2013/09/24/powershell-mvp-adam-driscoll-speaking-for-mspsug-on-tuesday-october-8th-at-830pm-cdt/)
+   Adam Driscoll is presenting for the Mississippi PowerShell User Group (Lync Meeting) on October 8th: [http://mspsug.com/2013/09/24/powershell-mvp-adam-driscoll-speaking-for-mspsug-on-tuesday-october-8th-at-830pm-cdt/](http://mspsug.com/2013/09/24/powershell-mvp-adam-driscoll-speaking-for-mspsug-on-tuesday-october-8th-at-830pm-cdt/)
 
 
-  Â [http://chocolatey.org/](http://chocolatey.org/)
+   [http://chocolatey.org/](http://chocolatey.org/)
 
 
-  Â [http://puppetlabs.com/](http://puppetlabs.com/)
+   [http://puppetlabs.com/](http://puppetlabs.com/)
 
 
-   ScriptingWife, I think it starts here,Â [http://www.youtube.com/watch?feature=player_detailpage&v=q0PHeSoHa6s#t=886](http://www.youtube.com/watch?feature=player_detailpage&v=q0PHeSoHa6s#t=886)
+   ScriptingWife, I think it starts here, [http://www.youtube.com/watch?feature=player_detailpage&v=q0PHeSoHa6s#t=886](http://www.youtube.com/watch?feature=player_detailpage&v=q0PHeSoHa6s#t=886)
 
 
-  Â [http://en.wikipedia.org/wiki/Puppet_(software)](http://en.wikipedia.org/wiki/Puppet_(software))
+   [http://en.wikipedia.org/wiki/Puppet_(software)](http://en.wikipedia.org/wiki/Puppet_(software))
 
 
-  Â [http://en.wikipedia.org/wiki/Chef_(software)](http://en.wikipedia.org/wiki/Chef_(software))
+   [http://en.wikipedia.org/wiki/Chef_(software)](http://en.wikipedia.org/wiki/Chef_(software))
 
 
-   Tomorrow is the last day to submit topics for the PowerShell Summit:Â [https://powershell.org/2013/09/01/powershell-summit-north-america-2014-call-for-topics/](https://powershell.org/2013/09/01/powershell-summit-north-america-2014-call-for-topics/)
+   Tomorrow is the last day to submit topics for the PowerShell Summit: [https://powershell.org/2013/09/01/powershell-summit-north-america-2014-call-for-topics/](https://powershell.org/2013/09/01/powershell-summit-north-america-2014-call-for-topics/)
 
 
-  Â [http://forge.puppetlabs.com/](http://forge.puppetlabs.com/)
+   [http://forge.puppetlabs.com/](http://forge.puppetlabs.com/)
 
 
-   my version of chrome:Â [http://www.last.fm/music/Trace+Adkins/_/Chrome](http://www.last.fm/music/Trace+Adkins/_/Chrome)
+   my version of chrome: [http://www.last.fm/music/Trace+Adkins/_/Chrome](http://www.last.fm/music/Trace+Adkins/_/Chrome)
 
 
-  Â [http://www.vagrantup.com/](http://www.vagrantup.com/)
+   [http://www.vagrantup.com/](http://www.vagrantup.com/)
 
 
-   i do not know what made me think of this but here you go:Â [http://www.youtube.com/watch?v=7dD7-N9aWbY](http://www.youtube.com/watch?v=7dD7-N9aWbY)
+   i do not know what made me think of this but here you go: [http://www.youtube.com/watch?v=7dD7-N9aWbY](http://www.youtube.com/watch?v=7dD7-N9aWbY)
 
 
-   no here you go much betterÂ [http://www.youtube.com/watch?feature=player_embedded&v=hw4wzwYeZ0Y](http://www.youtube.com/watch?feature=player_embedded&v=hw4wzwYeZ0Y)
+   no here you go much better [http://www.youtube.com/watch?feature=player_embedded&v=hw4wzwYeZ0Y](http://www.youtube.com/watch?feature=player_embedded&v=hw4wzwYeZ0Y)
 
 
-  Â [http://youtu.be/liKhLNY5GYI](http://youtu.be/liKhLNY5GYI)Â Â I'm your puppet
+   [http://youtu.be/liKhLNY5GYI](http://youtu.be/liKhLNY5GYI)  I'm your puppet
 
 
    http://technet.microsoft.com/en-us/library/cc180827.aspx - Mof technet

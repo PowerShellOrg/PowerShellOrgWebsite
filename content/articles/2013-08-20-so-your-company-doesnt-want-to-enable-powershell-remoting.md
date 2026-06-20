@@ -11,5 +11,5 @@ aliases:
 ---
 
 But I bet they're okay with Remote Desktop Protocol, right? And all those Remote Procedure Calls?  
-And I bet they never even thought about whyÂ _every *nix_ _system, ever,Â _has SSH enabled by default? But practically nothing else (by default)?  
+And I bet they never even thought about why _every *nix_ _system, ever, _has SSH enabled by default? But practically nothing else (by default)?  
 Hmm.

@@ -53,7 +53,7 @@ News
 
 
 
-Do you have what it takes to be the ultimate script warrior?Â  Find out with
+Do you have what it takes to be the ultimate script warrior?  Find out with
 
 
  Quest"™s 
@@ -105,7 +105,7 @@ The winner takes home a cool $1,000 USD to spend on Amazon.com
 
 
 
-Check out the details atÂ [quest.com/challenge](http://www.quest.com/PowerGUIContestPodcast102009).
+Check out the details at [quest.com/challenge](http://www.quest.com/PowerGUIContestPodcast102009).
 
 
 
@@ -126,22 +126,22 @@ Check out the details atÂ [quest.com/challenge](http://www.quest.com/PowerGUIC
 
 
             - 
-              Brandon Shell hasÂ [released a beta](http://bsonposh.com/archives/1051) of his BSonPosh module
+              Brandon Shell has [released a beta](http://bsonposh.com/archives/1051) of his BSonPosh module
 
 
             - 
-              Newly re-minted PS MVP Thomas Lee has been busy creatingÂ [PowerShell samples in MSDN](http://msdn.microsoft.com/en-us/library/tags-cloud.aspx?tag=powershell+code)
+              Newly re-minted PS MVP Thomas Lee has been busy creating [PowerShell samples in MSDN](http://msdn.microsoft.com/en-us/library/tags-cloud.aspx?tag=powershell+code)
 
 
             - 
               User Group news: 
 
 
-                  Central Ohio PUG hasÂ [a meeting coming up](http://centralohiopug.wordpress.com/2009/10/01/november-copug-meeting/) on Nov 12th
+                  Central Ohio PUG has [a meeting coming up](http://centralohiopug.wordpress.com/2009/10/01/november-copug-meeting/) on Nov 12th
 
 
                 - 
-                  Watch out for the forthcoming ATLPUG!Â [A LinkedIn group](http://www.linkedin.com/groups?gid=2379241) has been created to help bring those interested together.
+                  Watch out for the forthcoming ATLPUG! [A LinkedIn group](http://www.linkedin.com/groups?gid=2379241) has been created to help bring those interested together.
 
 
 

@@ -42,46 +42,46 @@ In This Episode
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 *
- VisitÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+ Visit [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 
 
@@ -135,7 +135,7 @@ Run custom scripts
 
 
 
-    Â 
+     
 
 
 
@@ -161,7 +161,7 @@ Interview
 
 
     - 
-      Book choice: Pro Windows PowerShell:Â [http://apress.com/book/view/9781590599402](http://apress.com/book/view/9781590599402)
+      Book choice: Pro Windows PowerShell: [http://apress.com/book/view/9781590599402](http://apress.com/book/view/9781590599402)
 
 
 
@@ -235,7 +235,7 @@ Interview
 
 
     - 
-       ## best ways to sell security to decision makers? Opportunity cost? Â Disaster scenarios?
+       ## best ways to sell security to decision makers? Opportunity cost?  Disaster scenarios?
 
 
     - 
@@ -264,7 +264,7 @@ Interview
 
     - 
 
- ## Q what resouces has Dave used to learn more about powershell scripting and how to use it?Â 
+ ## Q what resouces has Dave used to learn more about powershell scripting and how to use it? 
 
 
     - 

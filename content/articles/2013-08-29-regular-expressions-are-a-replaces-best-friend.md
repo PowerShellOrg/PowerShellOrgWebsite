@@ -19,7 +19,7 @@ Are you familiar with PowerShell's -replace operator?
 
 
 `"192.168.15.12,192.168.22.8" -replace "\.\d{2}\.","10"
-`That'd change the input string to "192.168.10.12,192.168.10.8," replacing all occurrences of two digits, between periods, to 10. The 12 would be skipped because it isn't followed by a period, as specified in the pattern. Note thatÂ _all_ occurrences are replaced, in keeping with the usual operation of -replace.  
+`That'd change the input string to "192.168.10.12,192.168.10.8," replacing all occurrences of two digits, between periods, to 10. The 12 would be skipped because it isn't followed by a period, as specified in the pattern. Note that _all_ occurrences are replaced, in keeping with the usual operation of -replace.  
 The operator can also do capturing expressions, and this is where it gets really neat-o.
 
 

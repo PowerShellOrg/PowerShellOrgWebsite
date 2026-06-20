@@ -60,13 +60,13 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
         - 
-          Cool post from the PowerShell team talking about the newÂ [Remote Desktop Services provider](http://blogs.msdn.com/powershell/archive/2009/01/09/managing-remote-desktop-services-aka-terminal-services-using-windows-powershell.aspx)
+          Cool post from the PowerShell team talking about the new [Remote Desktop Services provider](http://blogs.msdn.com/powershell/archive/2009/01/09/managing-remote-desktop-services-aka-terminal-services-using-windows-powershell.aspx)
 
  in 2008 R2
 
 
         - 
-          TheÂ [Group Policy Health cmdlet](http://sdmsoftware.com/blog/2008/12/group_policy_health_cmdlet_now.html)
+          The [Group Policy Health cmdlet](http://sdmsoftware.com/blog/2008/12/group_policy_health_cmdlet_now.html)
 
  is now free!
 
@@ -115,7 +115,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-                *WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+                *When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
  *
 
 
@@ -138,7 +138,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
 
-                  ***JamesÂ  Kovacs , B.Sc., M.Sc., MCSD, MCT***
+                  ***James  Kovacs , B.Sc., M.Sc., MCSD, MCT***
 
 
 
@@ -227,7 +227,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
 
-                                      *Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.Â  Let's not forget about the exclusive PowerShell forms designer.Â  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com.*
+                                      *Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.  Let's not forget about the exclusive PowerShell forms designer.  Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at AdminScriptEditor.com.*
 
 
 
@@ -239,7 +239,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
                                       - 
 
-*Exclusive tip from Bruce Payette:Â [Out-Default wrapper / URL launcher](http://poshcode.org/803)*
+*Exclusive tip from Bruce Payette: [Out-Default wrapper / URL launcher](http://poshcode.org/803)*
 
 
 
@@ -302,7 +302,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
                                     - 
-                                      Lee Holmes has put up aÂ [tutorial for using P/Invokes in PowerShell](http://www.leeholmes.com/blog/PowerShellPInvokeWalkthrough.aspx)
+                                      Lee Holmes has put up a [tutorial for using P/Invokes in PowerShell](http://www.leeholmes.com/blog/PowerShellPInvokeWalkthrough.aspx)
 
 
 

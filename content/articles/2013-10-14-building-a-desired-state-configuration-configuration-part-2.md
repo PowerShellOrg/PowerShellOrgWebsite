@@ -11,7 +11,7 @@ aliases:
   - /2013/10/building-a-desired-state-configuration-configuration-part-2/
 ---
 
-Ok, let's get back to creating a DSC configuration. Â [If you haven't read the last post in this series, go back and do that now](https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/), I'll wait. Â Now with that out of the way, let's get back to it...
+Ok, let's get back to creating a DSC configuration.  [If you haven't read the last post in this series, go back and do that now](https://powershell.org/2013/10/08/building-a-desired-state-configuration-configuration/), I'll wait.  Now with that out of the way, let's get back to it...
 
 ## The High Points
 
@@ -124,7 +124,7 @@ You CANNOT create a configuration that uses the file resource (or any other reso
 
 ##### Pulling a Configuration
 
-The next alternative is to distribute configurations and resources using a pull Server. In box, DSC supports two types of pull server, an REST based pull server ([like described in my previous post][1]) and an SMB based pull server ([described here][2]). The pull server requires nodes to be labeled with a GUID (the configuration ID, which we'll talk about in an upcoming post), instead of server name. The pull server also requires that each config be accompanied by a checksum file with the file hash of the configuration file (exampleÂ 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof andÂ 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof.checksum). Â One word off caution.. there can be no extra whitespace after the hash in the checksum file or the hash check will fail on the client node. Â This means you cannot use
+The next alternative is to distribute configurations and resources using a pull Server. In box, DSC supports two types of pull server, an REST based pull server ([like described in my previous post][1]) and an SMB based pull server ([described here][2]). The pull server requires nodes to be labeled with a GUID (the configuration ID, which we'll talk about in an upcoming post), instead of server name. The pull server also requires that each config be accompanied by a checksum file with the file hash of the configuration file (example 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof and 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof.checksum).  One word off caution.. there can be no extra whitespace after the hash in the checksum file or the hash check will fail on the client node.  This means you cannot use
 
 
 `Get-FileHash 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof | out-file 72ed4117-fc49-4f81-822c-5bc59db64dd3.mof.checksum

@@ -49,7 +49,7 @@ News
 
 
 
-      *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+      *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -81,7 +81,7 @@ with Jeffrey Snover and Osama Sajid
 
 [Upstate NY PowerShell script club](http://powershellcommunity.org/tabid/54/aff/18/afv/topic/aft/4155/Default.aspx)
 
-to be hosted by Jeff Hicks and Joel Bennett. Â Date: 9/9/09.
+to be hosted by Jeff Hicks and Joel Bennett.  Date: 9/9/09.
 
 
         - 
@@ -105,7 +105,7 @@ Interview
 
 
 
-          *This segment brought to you byÂ [SAPIEN Technologies](http://sapien.com/), makers of PrimalScript.
+          *This segment brought to you by [SAPIEN Technologies](http://sapien.com/), makers of PrimalScript.
  *
 
 
@@ -135,19 +135,19 @@ Interview
 
 
               - 
-                Clustering cmdlets:Â [http://blogs.msdn.com/clustering/archive/2008/12/20/9243367.aspx](http://blogs.msdn.com/clustering/archive/2008/12/20/9243367.aspx)
+                Clustering cmdlets: [http://blogs.msdn.com/clustering/archive/2008/12/20/9243367.aspx](http://blogs.msdn.com/clustering/archive/2008/12/20/9243367.aspx)
 
 
               - 
-                More details:Â [http://msmvps.com/blogs/clusterhelp/archive/2009/08/28/powershell-and-windows-server-2008-failover-clusters.aspx](http://msmvps.com/blogs/clusterhelp/archive/2009/08/28/powershell-and-windows-server-2008-failover-clusters.aspx)
+                More details: [http://msmvps.com/blogs/clusterhelp/archive/2009/08/28/powershell-and-windows-server-2008-failover-clusters.aspx](http://msmvps.com/blogs/clusterhelp/archive/2009/08/28/powershell-and-windows-server-2008-failover-clusters.aspx)
 
 
               - 
-                Approved verbs:Â [http://blogs.msdn.com/powershell/archive/2009/07/15/final-approved-verb-list-for-windows-powershell-2-0.aspx](http://blogs.msdn.com/powershell/archive/2009/07/15/final-approved-verb-list-for-windows-powershell-2-0.aspx)
+                Approved verbs: [http://blogs.msdn.com/powershell/archive/2009/07/15/final-approved-verb-list-for-windows-powershell-2-0.aspx](http://blogs.msdn.com/powershell/archive/2009/07/15/final-approved-verb-list-for-windows-powershell-2-0.aspx)
 
 
               - 
-                NLB cmdlets:Â [http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx](http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx)
+                NLB cmdlets: [http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx](http://blogs.msdn.com/clustering/archive/2008/12/26/9253786.aspx)
 
 
 
@@ -278,6 +278,6 @@ from PowerShell.
 
 
 
-                  Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF. Â Get started by reading
+                  Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF.  Get started by reading
 
 [this thread on PowerShellCommunity.org](http://powershellcommunity.org/Forums/tabid/54/aff/1/aft/4177/afv/topic/Default.aspx).

@@ -67,11 +67,11 @@ News
 
 
         - 
-          Go grabÂ [PowerShellPlus 3.1 beta](http://powershell.com/cs/forums/p/2814/3756.aspx#3756)
+          Go grab [PowerShellPlus 3.1 beta](http://powershell.com/cs/forums/p/2814/3756.aspx#3756)
 
 
         - 
-          Brandon Shell'sÂ [PowerShell Module goes Beta](http://bsonposh.com/archives/1070?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+BsOnPosh+%28BS+on+Posh%29&utm_content=Google+Reader)
+          Brandon Shell's [PowerShell Module goes Beta](http://bsonposh.com/archives/1070?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+BsOnPosh+%28BS+on+Posh%29&utm_content=Google+Reader)
 
 
         - 
@@ -79,7 +79,7 @@ News
 
 
         - 
-          Sapien Press isÂ [taking pre-orders](http://jdhitsolutions.com/blog/2009/11/pre-orders-for-windows-powershell-2-0-tfm/#utm_source=feed&utm_medium=feed&utm_campaign=feed) for PowerShell 2.0: TFM
+          Sapien Press is [taking pre-orders](http://jdhitsolutions.com/blog/2009/11/pre-orders-for-windows-powershell-2-0-tfm/#utm_source=feed&utm_medium=feed&utm_campaign=feed) for PowerShell 2.0: TFM
 
 
         - 
@@ -192,7 +192,7 @@ Resources
 
 
         - 
-          Jaykul has put out aÂ [very cool PowerShell Twitter client](http://huddledmasses.org/twitter-in-your-console-prompt-using-ps-jobs-for-background-work/ipmo/) that uses PSJobs to refresh data in the background and Growl to make "toaster" popups.
+          Jaykul has put out a [very cool PowerShell Twitter client](http://huddledmasses.org/twitter-in-your-console-prompt-using-ps-jobs-for-background-work/ipmo/) that uses PSJobs to refresh data in the background and Growl to make "toaster" popups.
 
 
         - 
@@ -204,7 +204,7 @@ Resources
 
 
         - 
-          Jonathan Medd has started a new series:Â [PowerShell 2.0: One Cmdlet at a Time](http://www.jonathanmedd.net/2009/11/powershell-2-0-one-cmdlet-at-a-time-1-get-random.html)
+          Jonathan Medd has started a new series: [PowerShell 2.0: One Cmdlet at a Time](http://www.jonathanmedd.net/2009/11/powershell-2-0-one-cmdlet-at-a-time-1-get-random.html)
 
 
 
@@ -231,12 +231,12 @@ Tips
 
 
             - 
-              Rich Siddaway put upÂ [an example of Register-WMIEvent](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212599.entry)
+              Rich Siddaway put up [an example of Register-WMIEvent](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212599.entry)
 
 
             - 
-              And another from Rich, this one isÂ [a wrapper for Microsoft's Security Essentials](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212603.entry)
+              And another from Rich, this one is [a wrapper for Microsoft's Security Essentials](http://richardsiddaway.spaces.live.com/Blog/cns%2143CFA46A74CF3E96%212603.entry)
 
 
             - 
-              James Brundage shows us how toÂ [use splatting and a couple of his new cmdlets to send mail in a scheduled task](http://blogs.msdn.com/powershell/archive/2009/10/30/sending-automated-emails-with-send-mailmessage-convertto-html-and-the-powershellpack-s-taskscheduler-module.aspx)
+              James Brundage shows us how to [use splatting and a couple of his new cmdlets to send mail in a scheduled task](http://blogs.msdn.com/powershell/archive/2009/10/30/sending-automated-emails-with-send-mailmessage-convertto-html-and-the-powershellpack-s-taskscheduler-module.aspx)

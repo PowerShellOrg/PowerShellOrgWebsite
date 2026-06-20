@@ -28,7 +28,7 @@ Tonight on the PowerScripting Podcast, we talk to Richard Giles from Idera about
   This segment is brought to you by Start-Automating
 
 
-  *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).*
+  *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
   * [Idera has released version 4.0][1]{#hisf}
@@ -42,7 +42,7 @@ Interview
 **
 
 
-  This segment brought to you byÂ [SAPIEN Technologies](http://sapien.com/)
+  This segment brought to you by [SAPIEN Technologies](http://sapien.com/)
 
 
   **Links:**
@@ -69,7 +69,7 @@ Interview
    ## is there a plan to introduce source version control support in the next version?
 
 
-  **Superhero:Â Flash**
+  **Superhero: Flash**
 
 **
  **

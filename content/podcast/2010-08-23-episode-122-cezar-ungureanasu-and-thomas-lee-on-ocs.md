@@ -21,7 +21,7 @@ In This Episode
  {#tiap}
 
 
-Tonight on the PowerScripting Podcast we talk to CezarÂ 
+Tonight on the PowerScripting Podcast we talk to Cezar 
 
 
 Ungureanasu and Thomas Lee about Office Communications Server
@@ -33,46 +33,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * [PowerShell Cookbook V2 is now available][2]{#h20p}
   * [The Scripting Guy and the Scripting Wife will be at SQL Saturday #49][3]{#isgs} October 16th in Orlando
@@ -85,7 +85,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 ## Interview
 
 
-  This segment is brought to you byÂ [ConcentratedTech.com](http://concentratedtech.com/).
+  This segment is brought to you by [ConcentratedTech.com](http://concentratedtech.com/).
 
 
 #### Links
@@ -114,32 +114,32 @@ Resources and Tips, the Twitter Edition
     **
 
 
-**Â 
+** 
 
 
 
 
 
-    This segment is brought to you byÂ [SAPIEN Technologies](http://sapien.com/).
+    This segment is brought to you by [SAPIEN Technologies](http://sapien.com/).
 
 
 
-Â 
+ 
 
 
   PS > [Get-Favorites](http://powerwf.com/2010/06/powerwf-for-twitter/) | Format-List User, Text
 
 
-Â 
+ 
 
 
   User : [Scott Hanselman](http://twitter.com/shanselman)
 
 
-  Text : Blog: Â Awesome Visual Studio Command Prompt and PowerShell icons with Overlays [http://goo.gl/fb/6UUwi](http://goo.gl/fb/6UUwi)
+  Text : Blog:  Awesome Visual Studio Command Prompt and PowerShell icons with Overlays [http://goo.gl/fb/6UUwi](http://goo.gl/fb/6UUwi)
 
 
-Â 
+ 
 
 
   User : [XenDesktopArmy](http://twitter.com/xendesktoparmy)
@@ -148,10 +148,10 @@ Resources and Tips, the Twitter Edition
   Text : XenDesktop 4 PowerShell SDK Primer - Part 7 - Adding Active Directory Users and Gr
 
 
-  Â Â  Â  Â  oups to a Desktop Gro... [http://bit.ly/9Xx1MP](http://bit.ly/9Xx1MP) #xendesktop
+         oups to a Desktop Gro... [http://bit.ly/9Xx1MP](http://bit.ly/9Xx1MP) #xendesktop
 
 
-Â 
+ 
 
 
   User : [jsnover](http://twitter.com/jsnover)
@@ -160,7 +160,7 @@ Resources and Tips, the Twitter Edition
   Text : -encoding xxx RT @isagoksu: So can anyone tell me why I should use "out-file" instead of ">" in #powershell? #Microsoft
 
 
-Â 
+ 
 
 
   User : [doug finke](http://twitter.com/dfinke)
@@ -169,7 +169,7 @@ Resources and Tips, the Twitter Edition
   Text : Doug Finke on the OData PowerShell Explorer! RunAs Radio podcast [http://bit.ly/aOionS](http://bit.ly/aOionS) #odata #powershell
 
 
-Â 
+ 
 
 
   User : [desk_stage](http://twitter.com/desk_stage)
@@ -178,10 +178,10 @@ Resources and Tips, the Twitter Edition
   Text : [http://tinyurl.com/yfff4bb](http://tinyurl.com/yfff4bb)
 
 
-  Â Â  Â  Â  Quick UI with WPK in Windows PowerShell | LarryLarsen | Channel 9
+         Quick UI with WPK in Windows PowerShell | LarryLarsen | Channel 9
 
 
-Â 
+ 
 
 
   User : [SAPIEN Technologies](http://twitter.com/SAPIENTech)
@@ -190,7 +190,7 @@ Resources and Tips, the Twitter Edition
   Text : New blog post: Windows PowerShell V2 Training [http://blog.sapien.com/index.php/2010/08/16/windows-powershell-v2-training/](http://blog.sapien.com/index.php/2010/08/16/windows-powershell-v2-training/)
 
 
-Â 
+ 
 
 
   User : [Lee Holmes](http://twitter.com/lee_holmes)
@@ -199,7 +199,7 @@ Resources and Tips, the Twitter Edition
   Text : Blogged: PowerShell Cookbook V2 now available: [http://bit.ly/ax4Vkt](http://bit.ly/ax4Vkt)
 
 
-Â 
+ 
 
 
   User : [PowerShell Tips](http://twitter.com/PowerTip)
@@ -208,7 +208,7 @@ Resources and Tips, the Twitter Edition
   Text : Removing All Internet Explorer Cookies with #Powershell [http://bit.ly/adTQc5](http://bit.ly/adTQc5)
 
 
-Â 
+ 
 
 
   User : [r_keith_hill](http://twitter.com/r_keith_hill)
@@ -217,7 +217,7 @@ Resources and Tips, the Twitter Edition
   Text : RT @shanselman Have I found the perfect code plugin for Windows Live Writer? [http://j.mp/cfjHUa](http://j.mp/cfjHUa) And it supports PowerShell syntax hilighting!
 
 
-Â 
+ 
 
 
   User : [Jeffery Hicks](http://twitter.com/jeffhicks)
@@ -226,10 +226,10 @@ Resources and Tips, the Twitter Edition
   Text : New Blog Post: PowerShell Weather Module: I first wrote a Windows PowerShell funct
 
 
-  Â Â  Â  Â  ion several years ago to retriev... [http://bit.ly/alMOHl](http://bit.ly/alMOHl)
+         ion several years ago to retriev... [http://bit.ly/alMOHl](http://bit.ly/alMOHl)
 
 
-Â 
+ 
 
   * [An Administrator's First Look at PowerShell in Communications Server "14"][11]{#hv5d}
 

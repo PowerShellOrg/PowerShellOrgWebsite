@@ -33,7 +33,7 @@ foreach ($computer in $computers) {
 }
 `These two snippets do the same thing. The first uses a more "pipeline" style approach, and I've personally never felt the urge to do that in a script. Probably habit - I come from the VBScript world, so a construct like foreach($x in $y) is natural for me. I've seen folks get into that "pipeline" approach inside a script and get into trouble, and if I'm scripting I often prefer to use the more formal, structured approach of the version 2 snippet.  
 What're your thoughts? For me, version 1 has some downsides - forcing yourself into that pipeline structure can be limiting, and I find the approach in version 2 to be more readable and a bit easier to follow. Frankly, I'm never a fan of having to mentally track what's in $_.  
-(Which brings up a sidebar: I tend to evaluate a script's goodness based on how well I can understand what it doesÂ _without running it_. That's a common criteria, in fact, and one I personally think helps aid in debugging as well as maintaining scripts.)_  
+(Which brings up a sidebar: I tend to evaluate a script's goodness based on how well I can understand what it does _without running it_. That's a common criteria, in fact, and one I personally think helps aid in debugging as well as maintaining scripts.)_  
 _  
 Anyway... discuss!  
 [boilerplate greatdebate]

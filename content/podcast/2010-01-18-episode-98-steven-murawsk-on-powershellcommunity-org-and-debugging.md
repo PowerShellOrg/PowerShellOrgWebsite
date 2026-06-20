@@ -37,7 +37,7 @@ Tonight on the PowerScripting Podcast we talk to Steven Murawski about PowerShel
 ## 
 
 News
-*Â *
+* *
 
 
 
@@ -57,11 +57,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -69,7 +69,7 @@ quest.com/powershellbook
 
 
 
-        Â 
+         
 
 
 
@@ -84,11 +84,11 @@ quest.com/powershellbook
 
 
         - 
-          Good newsÂ [on the training front](http://concentratedtech.com/item/view/id/303/title/It's-Official-(Your-PowerShell-Training,-That-Is))
+          Good news [on the training front](http://concentratedtech.com/item/view/id/303/title/It's-Official-(Your-PowerShell-Training,-That-Is))
 
 
         - 
-          [](http://concentratedtech.com/item/view/id/303/title/It's-Official-(Your-PowerShell-Training,-That-Is))PowerShell v.2 TFMÂ [may be available in the next few weeks](http://blog.sapien.com/index.php/2010/01/06/a-delay-and-an-apology/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+SapienBlog+(SAPIEN+Technologies+Blog))
+          [](http://concentratedtech.com/item/view/id/303/title/It's-Official-(Your-PowerShell-Training,-That-Is))PowerShell v.2 TFM [may be available in the next few weeks](http://blog.sapien.com/index.php/2010/01/06/a-delay-and-an-apology/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+SapienBlog+(SAPIEN+Technologies+Blog))
 
 
 
@@ -97,7 +97,7 @@ quest.com/powershellbook
 
 
         - 
-          Â 
+           
 
 
 
@@ -115,7 +115,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -130,7 +130,7 @@ quest.com/powershellbook
 
 
           - 
-            Blog:Â [http://blog.usepowershell.com/](http://blog.usepowershell.com/)
+            Blog: [http://blog.usepowershell.com/](http://blog.usepowershell.com/)
 
 
           - 
@@ -138,11 +138,11 @@ quest.com/powershellbook
 
 
           - 
-            Cahoots:Â [http://cahoots.concentratedtech.com/](http://cahoots.concentratedtech.com/)
+            Cahoots: [http://cahoots.concentratedtech.com/](http://cahoots.concentratedtech.com/)
 
 
           - 
-            Sync Framework:Â [http://msdn.microsoft.com/en-us/sync/default.aspx](http://msdn.microsoft.com/en-us/sync/default.aspx)
+            Sync Framework: [http://msdn.microsoft.com/en-us/sync/default.aspx](http://msdn.microsoft.com/en-us/sync/default.aspx)
 
 
           - 
@@ -150,7 +150,7 @@ quest.com/powershellbook
 
 
           - 
-            DNR show about the Sync Framework:Â [http://www.dotnetrocks.com/default.aspx?showNum=499](http://www.dotnetrocks.com/default.aspx?showNum=499)
+            DNR show about the Sync Framework: [http://www.dotnetrocks.com/default.aspx?showNum=499](http://www.dotnetrocks.com/default.aspx?showNum=499)
 
 
           - 
@@ -189,7 +189,7 @@ Resources
 
 
         - 
-          The Scripting Guy shows usÂ [how to create a network diagram in Visio (article)](http://blogs.technet.com/heyscriptingguy/archive/2010/01/12/hey-scripting-guy-january-12-2010.aspx)Â ([script](http://gallery.technet.microsoft.com/ScriptCenter/en-us/f77fb025-11ee-48f3-8409-9bb567a63fc3))
+          The Scripting Guy shows us [how to create a network diagram in Visio (article)](http://blogs.technet.com/heyscriptingguy/archive/2010/01/12/hey-scripting-guy-january-12-2010.aspx) ([script](http://gallery.technet.microsoft.com/ScriptCenter/en-us/f77fb025-11ee-48f3-8409-9bb567a63fc3))
 
 
         - 
@@ -197,7 +197,7 @@ Resources
 
 
         - 
-          [Eric Sloof has created a VESI action to create linked clones](http://www.ntpro.nl/blog/archives/1395-Creating-LinkedClones-with-the-Virtualization-EcoShell.html)Â #powerCLI
+          [Eric Sloof has created a VESI action to create linked clones](http://www.ntpro.nl/blog/archives/1395-Creating-LinkedClones-with-the-Virtualization-EcoShell.html) #powerCLI
 
 
         - 
@@ -209,7 +209,7 @@ Resources
 
 
         - 
-          Jeff HicksÂ [has a post on the AD PSDrive provider](http://theexpertscommunity.com/item/view/id/1296/title/Driving_Active_Directory)
+          Jeff Hicks [has a post on the AD PSDrive provider](http://theexpertscommunity.com/item/view/id/1296/title/Driving_Active_Directory)
 
 
 
@@ -268,7 +268,7 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
               - 
 
-Â 
+ 
 
 
 
@@ -282,7 +282,7 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
 
-                Â 
+                 
 
 
 
@@ -292,7 +292,7 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
 
-                Â 
+                 
 
 
 
@@ -306,4 +306,4 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
 
-                Â
+                

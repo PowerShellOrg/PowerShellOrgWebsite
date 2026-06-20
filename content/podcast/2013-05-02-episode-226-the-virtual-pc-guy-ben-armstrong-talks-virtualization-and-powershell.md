@@ -122,7 +122,7 @@ aliases:
   <11MikeFRobbins> Check out the uptime in this screenshot (on this production Hyper-V server): 22[http://mikefrobbins.files.wordpress.com/2012/07/hyperv-uptime-162.jpg](http://mikefrobbins.files.wordpress.com/2012/07/hyperv-uptime-162.jpg)
 
 
-****Â ****
+**** ****
 
 #### The Question -
 

@@ -49,7 +49,7 @@ News
 
 
 
-      *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+      *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -58,7 +58,7 @@ News
 
 
         - 
-          We'd like to congratulate returning PowerShell MVPs and the newest MVP Antoine Habart (author ofÂ [PoshBoard](http://www.poshboard.com/))
+          We'd like to congratulate returning PowerShell MVPs and the newest MVP Antoine Habart (author of [PoshBoard](http://www.poshboard.com/))
 
 
         - 
@@ -66,11 +66,11 @@ News
 
 
         - 
-          PowerShell CookbookÂ [now available on the iPhone](http://www.leeholmes.com/blog/PowerShellCookbookNowAvailableOnIPhone.aspx)
+          PowerShell Cookbook [now available on the iPhone](http://www.leeholmes.com/blog/PowerShellCookbookNowAvailableOnIPhone.aspx)
 
 
         - 
-          The Exchange team blogs aboutÂ [PowerShell changes coming in E2010](http://msexchangeteam.com/archive/2009/09/10/452423.aspx)
+          The Exchange team blogs about [PowerShell changes coming in E2010](http://msexchangeteam.com/archive/2009/09/10/452423.aspx)
 
 
 
@@ -97,7 +97,7 @@ News
 
 
           - 
-            Comment-based help:Â [http://technet.microsoft.com/en-us/library/dd819489.aspx](http://technet.microsoft.com/en-us/library/dd819489.aspx)
+            Comment-based help: [http://technet.microsoft.com/en-us/library/dd819489.aspx](http://technet.microsoft.com/en-us/library/dd819489.aspx)
 
 
 
@@ -136,7 +136,7 @@ News
 
 
           - 
-            glnsize: ## what happened to runspaces, in ctp2 i could use runspaces... v2 switched to jobs and now I can't run scriptblocks locally in seperate runspaces. Â rather i don't think i can...
+            glnsize: ## what happened to runspaces, in ctp2 i could use runspaces... v2 switched to jobs and now I can't run scriptblocks locally in seperate runspaces.  rather i don't think i can...
 
 
           - 
@@ -159,27 +159,27 @@ Resources
 
 
         - 
-          PoshCode:Â [Get-DominosOrderStatus script](http://poshcode.org/1355)!
+          PoshCode: [Get-DominosOrderStatus script](http://poshcode.org/1355)!
 
 
         - 
-          Another method to provide help for you functions is by using external files. Chad MillerÂ [makes it easier](http://chadwickmiller.spaces.live.com/Blog/cns%21EA42395138308430%21542.entry).
+          Another method to provide help for you functions is by using external files. Chad Miller [makes it easier](http://chadwickmiller.spaces.live.com/Blog/cns%21EA42395138308430%21542.entry).
 
 
         - 
-          Doug FinkeÂ [shares a cool project](http://dougfinke.com/blog/index.php/2009/09/28/try-powershell-an-interactive-tutorial/) for an interactive PowerShell tutorial
+          Doug Finke [shares a cool project](http://dougfinke.com/blog/index.php/2009/09/28/try-powershell-an-interactive-tutorial/) for an interactive PowerShell tutorial
 
 
         - 
-          MVP Guy Thomas releases hisÂ [Ezine 185 "PowerShell and Services"](http://www.computerperformance.co.uk/ezine/ezine185.htm)
+          MVP Guy Thomas releases his [Ezine 185 "PowerShell and Services"](http://www.computerperformance.co.uk/ezine/ezine185.htm)
 
 
         - 
-          New PowerShellTips blog:Â [http://www.powershelltips.org/](http://www.powershelltips.org/)
+          New PowerShellTips blog: [http://www.powershelltips.org/](http://www.powershelltips.org/)
 
 
         - 
-          MVP Dmitry SotnikovÂ [shows how to use](http://dmitrysotnikov.wordpress.com/2009/09/29/background-jobs-in-powergui/) background jobs in PowerGui
+          MVP Dmitry Sotnikov [shows how to use](http://dmitrysotnikov.wordpress.com/2009/09/29/background-jobs-in-powergui/) background jobs in PowerGui
 
 
         - 
@@ -212,7 +212,7 @@ Tips
 
 
             - 
-              Allowing non-administrators toÂ [create a remote session](http://msgoodies.blogspot.com/2009/09/using-ps-session-without-having.html) in PowerShell v2.
+              Allowing non-administrators to [create a remote session](http://msgoodies.blogspot.com/2009/09/using-ps-session-without-having.html) in PowerShell v2.
 
 
 

@@ -8,4 +8,4 @@ aliases:
   - /2011/07/looking-for-the-live-stream/
 ---
 
-Here's this weeks linkÂ <http://bambuser.com/v/1835100>
+Here's this weeks link <http://bambuser.com/v/1835100>

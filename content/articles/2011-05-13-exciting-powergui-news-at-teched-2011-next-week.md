@@ -1,5 +1,5 @@
 ---
-title: Exciting PowerGUIÂ® news at TechEd 2011 next week!
+title: Exciting PowerGUI® news at TechEd 2011 next week!
 author: Kirk Munro
 authors:
   - Kirk Munro
@@ -8,7 +8,7 @@ aliases:
   - /2011/05/exciting-powergui-news-at-teched-2011-next-week/
 ---
 
-Next week I"™ll be at the TechEd 2011 conference in Atlanta.  During this event I"™ll be doing an Ask the Experts session on **Tuesday, May 17, 2011** in the Quest Software booth from **12:30-1:00PM**.  If you want to get the latest news on [PowerGUIÂ® Pro][1] and [PowerGUI][2]Â®, come to that session!  I have some really cool things I"™ve been dying to show you, so please stop by and say Hello!  If you can"™t make that session, we"™ll be demoing [PowerGUI Pro][1] all week in the Quest booth, so stop by if you want a quick look at what we"™ve been working on.
+Next week I"™ll be at the TechEd 2011 conference in Atlanta.  During this event I"™ll be doing an Ask the Experts session on **Tuesday, May 17, 2011** in the Quest Software booth from **12:30-1:00PM**.  If you want to get the latest news on [PowerGUI® Pro][1] and [PowerGUI][2]®, come to that session!  I have some really cool things I"™ve been dying to show you, so please stop by and say Hello!  If you can"™t make that session, we"™ll be demoing [PowerGUI Pro][1] all week in the Quest booth, so stop by if you want a quick look at what we"™ve been working on.
 
 If you"™re wondering where else I"™ll be, be sure to take a look at my blog post about [PowerShell at TechEd 2011][3].  It includes sessions I will be possibly attending.  I"™m also presenting an interactive session called [WSV-473: Windows PowerShell 3.0: Why Wait? Get Next-Generation PowerShell Functionality Today!][4]  If you cannot attend that session, there is a repeat as well: [WSV473-INT-R: Windows PowerShell 3.0: Why Wait? Get Next-Generation PowerShell Functionality Today!][5]
 

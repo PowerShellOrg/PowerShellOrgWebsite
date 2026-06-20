@@ -62,7 +62,7 @@ function Move-OldFiles
       )
    #Script logic goes here
 }
-`If you place the comment-based help on the line before the Function keyword, make sure that there is, at most, one blank line between the end of theÂ comment-based help and the line with the function keyword. To avoid this problem, I always make sure that there are no blank lines between the end of the comment-based help and the Function keyword.  
+`If you place the comment-based help on the line before the Function keyword, make sure that there is, at most, one blank line between the end of the comment-based help and the line with the function keyword. To avoid this problem, I always make sure that there are no blank lines between the end of the comment-based help and the Function keyword.  
 When reading the comments about your solutions, please remember that we are all volunteers. Everyone who takes the time to comment on your solution is trying to help, and should be appreciated, but not every comment is correct. Trust, but verify!
 
  [1]: http://go.microsoft.com/fwlink/?LinkID=144309

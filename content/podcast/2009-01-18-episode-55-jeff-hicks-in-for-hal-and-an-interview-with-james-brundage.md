@@ -47,7 +47,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-          *WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.*
+          *When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.*
 
 
 
@@ -75,15 +75,15 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
               - 
-                PowerGui surpassesÂ [200K downloads!](http://dmitrysotnikov.wordpress.com/2009/01/14/powergui-hits-200000-downloads/)
+                PowerGui surpasses [200K downloads!](http://dmitrysotnikov.wordpress.com/2009/01/14/powergui-hits-200000-downloads/)
 
 
               - 
-                Dmitry is also looking forÂ [input on PowerPack directions](http://dmitrysotnikov.wordpress.com/2009/01/12/need-your-input-on-powerpack-directions/)
+                Dmitry is also looking for [input on PowerPack directions](http://dmitrysotnikov.wordpress.com/2009/01/12/need-your-input-on-powerpack-directions/)
 
 
               - 
-                Windows 7 beta with new PowerShell bits. Â There is a blog post on the Group Policy team blog about using the new group policy cmdlets ([http://blogs.technet.com/grouppolicy/archive/2009/01/14/introduction-to-windows-powershell-cmdlets-in-windows-7.aspx)](http://blogs.technet.com/grouppolicy/archive/2009/01/14/introduction-to-windows-powershell-cmdlets-in-windows-7.aspx)
+                Windows 7 beta with new PowerShell bits.  There is a blog post on the Group Policy team blog about using the new group policy cmdlets ([http://blogs.technet.com/grouppolicy/archive/2009/01/14/introduction-to-windows-powershell-cmdlets-in-windows-7.aspx)](http://blogs.technet.com/grouppolicy/archive/2009/01/14/introduction-to-windows-powershell-cmdlets-in-windows-7.aspx)
 
 
 
@@ -111,7 +111,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
 
-                  *What can you really do with PowerShell?Â  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?Â  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Desiginer.Â  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.Â  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.
+                  *What can you really do with PowerShell?  With Admin Script Editor the question becomes what ****can't**** you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Desiginer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at *[*adminscripteditor.com/player*](http://adminscripteditor.com/player)*.
  *
 
 
@@ -138,11 +138,11 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
                       - 
-                        I see you part of a PowerShell script club. Â How is that working out? What can you tell us about it?
+                        I see you part of a PowerShell script club.  How is that working out? What can you tell us about it?
 
 
                       - 
-                        Being involved with testing and QA there must be times when you get to be a thorn in the sides of Jeffrey Snover, Bruce Payette and the rest. Â Deep down, secretly, doesn't that feel good? Â But seriously, what is it like to work with them?
+                        Being involved with testing and QA there must be times when you get to be a thorn in the sides of Jeffrey Snover, Bruce Payette and the rest.  Deep down, secretly, doesn't that feel good?  But seriously, what is it like to work with them?
 
 
                       - 
@@ -154,7 +154,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
                       - 
-                        James'sÂ [personal blog](http://blogs.msdn.com/MediaAndMicrocode)
+                        James's [personal blog](http://blogs.msdn.com/MediaAndMicrocode)
 
 
 
@@ -199,13 +199,13 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
                             - 
 
-*Exclusive tip from Bruce Payette:Â [Out-Default wrapper / URL launcher](http://poshcode.org/803)*
+*Exclusive tip from Bruce Payette: [Out-Default wrapper / URL launcher](http://poshcode.org/803)*
 
 
 
                             - 
 
-*Brandon Shell gives us someÂ [Regular Expression Info and Tips for PowerShell](http://bsonposh.com/archives/568)*
+*Brandon Shell gives us some [Regular Expression Info and Tips for PowerShell](http://bsonposh.com/archives/568)*
 
 
 
@@ -267,7 +267,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 ## 
 
 
- Here is a PowerShell script toÂ [clean up your temp directory](http://blog.sapien.com/index.php/2008/07/18/clean-temp-with-powershell/)
+ Here is a PowerShell script to [clean up your temp directory](http://blog.sapien.com/index.php/2008/07/18/clean-temp-with-powershell/)
 
 
 

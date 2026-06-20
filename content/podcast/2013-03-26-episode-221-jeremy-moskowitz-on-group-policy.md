@@ -54,7 +54,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
@@ -64,7 +64,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -108,7 +108,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### Chatroom Buzz
 
@@ -155,7 +155,7 @@ aliases:
   16[2013-03-21 22:08:58] <11kobeckman> carp
 
 
-  18[2013-03-21 22:08:59] <11MikeFRobbins> ## Is this the website: 22http://www.policypak.com/ Â ?
+  18[2013-03-21 22:08:59] <11MikeFRobbins> ## Is this the website: 22http://www.policypak.com/  ?
 
 
   16[2013-03-21 22:09:02] <9json_wud> alligator

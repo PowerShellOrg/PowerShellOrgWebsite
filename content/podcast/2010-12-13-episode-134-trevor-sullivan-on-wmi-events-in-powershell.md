@@ -27,7 +27,7 @@ Tonight on the PowerScripting Podcast, we talk to Trevor Sullivan about working 
   * [PowerGUI Pro and PowerGUI 2.3 are out!][1]{#v2vp}
   * Tampa - Jan 15th - SQL Saturday #62, featuring SQLVariant talking about "[SQL Smackdown: SSIS vs. PowerShell][2]{#hbs3}", and The Scripting Guy with "[Windows PowerShell 2.0 Best Practices for DBA's][3]{#w_5o}"
 
-  * The PowerGUI Challenge winners [have been announced][4]{#kpfz}Â 
+  * The PowerGUI Challenge winners [have been announced][4]{#kpfz} 
   * Don Jones is teaching a [5-day "PowerShell Retreat" class][5]{#z2oe} in June, 2011
   * Sapien has [released a new version of iPowerShell][6]{#j0s6}
 
@@ -41,11 +41,11 @@ Interview
 
 #### Links:
 
-  * PowerEvents:Â <http://powerevents.codeplex.com/>
+  * PowerEvents: <http://powerevents.codeplex.com/>
   * [Use a PowerShell Module to Work with WMI Permanent Events][7]{#vj49}
   * [Use the PowerShell WMI Event Module to Quickly Monitor Events][8]{#y63.}
   * [Sapien WMI Explorer][9]{#z.qk}
-  * WBEMtest:Â <http://technet.microsoft.com/en-us/library/cc785775(WS.10).aspx>
+  * WBEMtest: <http://technet.microsoft.com/en-us/library/cc785775(WS.10).aspx>
 
 #### Chatroom Buzz:
 
@@ -71,13 +71,13 @@ This segment brought to you by [ServerFault.com][10]{#u8o0}
 
   * [Ravi explores WMI Timer Events][11]{#ku5l}
   * [Brandon recommends task-based cmdlets over methods][12]{#xx.b}
-  * System Center Tech Blog -Â [Get Nested Group Members][13]{#v-in}
-  * Greg Milner sent us this:Â [Create an EverNote export file with PowerShell][14]{#ts_e}
+  * System Center Tech Blog - [Get Nested Group Members][13]{#v-in}
+  * Greg Milner sent us this: [Create an EverNote export file with PowerShell][14]{#ts_e}
   * [PowerChumby!][15]{#t..2}
   * From LucD: [Hitchhiker's Guide to Get-EsxTop][16]{#vqat}
-  * From the PowerCLI Â blog: [Managing vSphere Alarms with PowerCLI][17]{#pi6f}
+  * From the PowerCLI  blog: [Managing vSphere Alarms with PowerCLI][17]{#pi6f}
 
-Â 
+ 
 
 ### Tips
 
@@ -115,9 +115,9 @@ Feedback
 
 > 
 
-*Handy when you remember just parts of the cmdlet-name, typing a hard-to-spell cmdlet name"¦or even just being lazyÂ *
+*Handy when you remember just parts of the cmdlet-name, typing a hard-to-spell cmdlet name"¦or even just being lazy *
 
-_Â _  
+_ _  
 > 
 
 
@@ -128,7 +128,7 @@ _Â _
 > 
 **
 
-*JanÂ *
+*Jan *
 
 **
 

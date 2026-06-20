@@ -20,7 +20,7 @@ aliases:
 
     **
 
-Â 
+ 
 
 **
 
@@ -46,7 +46,7 @@ In This Episode
 
 
 
-Â 
+ 
 
 
 **
@@ -76,7 +76,7 @@ In This Episode
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 *
@@ -88,7 +88,7 @@ Execute queries remotely to determine if services or processes are running
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 *
@@ -100,7 +100,7 @@ Restart services, processes, or entire servers
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 *
@@ -112,7 +112,7 @@ Check mailbox settings
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 *
@@ -124,7 +124,7 @@ Unlock user accounts
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 *
@@ -136,7 +136,7 @@ Reset passwords
       *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 *
@@ -145,7 +145,7 @@ Run custom scripts
 
 
 
-      VisitÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+      Visit [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 
 
@@ -162,7 +162,7 @@ Run custom scripts
 
             - 
               [The Tampa User Group for MS Infrastructure](http://www.linkedin.com/groups?mostPopular=&gid=3556841)
-Â 
+ 
 meets monthly. SQL-PSX author Chad Miller spoke there recently.
 
 
@@ -172,7 +172,7 @@ meets monthly. SQL-PSX author Chad Miller spoke there recently.
 
         - 
           [Dmitry writes that JAMS just released a PowerPack](http://dmitrysotnikov.wordpress.com/2010/11/05/jams-job-scheduler-powerpack/)
-Â 
+ 
 for PowerGUI to help you mange their job scheduling tool
 
 
@@ -199,7 +199,7 @@ Interview
 
 
 
-      Â 
+       
 
 
 
@@ -211,14 +211,14 @@ Interview
 
 
 
-      Â 
+       
 
 
 
 
 
       - 
-        Sean's music:Â [http://landofsilly.mypodcast.com/](http://landofsilly.mypodcast.com/)
+        Sean's music: [http://landofsilly.mypodcast.com/](http://landofsilly.mypodcast.com/)
 
 
       - 
@@ -230,7 +230,7 @@ Interview
 
 
 
-      Â 
+       
 
 
 
@@ -245,7 +245,7 @@ Resources
 
 
       This segment brought to you by
-Â 
+ 
 [ServerFault.com](http://serverfault.com/)
 
 
@@ -254,25 +254,25 @@ Resources
 
       - 
         [Kirk created a video](http://dmitrysotnikov.wordpress.com/2010/11/09/video-how-to-create-a-powergui-script-editor-add-on/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+DmitrysPowerblog+(Dmitry's+PowerBlog))
-Â 
+ 
 on creating a PowerGUI Script Editor Add-On
 
 
       - 
-        [A script from PowerShell.com](http://powershell.com/cs/blogs/tips/archive/2010/11/08/get-notification-when-a-background-job-is-done.aspx)Â showing you how to be notified when a job completes
+        [A script from PowerShell.com](http://powershell.com/cs/blogs/tips/archive/2010/11/08/get-notification-when-a-background-job-is-done.aspx) showing you how to be notified when a job completes
 
 
       - 
         Jonathan Medd posted a
-Â 
+ 
 [Connect-ExchangeServer PowerShell Function](http://www.jonathanmedd.net/2010/11/connect-exchangeserver-powershell-function.html)
 
 
       - 
         Need to query the MSI database quickly? Try this
-Â 
+ 
 [Get-MSI script](http://akutz.wordpress.com/2010/11/03/get-msi/)
-Â 
+ 
 from Andrew Kutz
 
 
@@ -322,13 +322,13 @@ Tips
 
 
 
-      Â 
+       
 
 
 
 
 
-      **Â **Â 
+      ** ** 
 
 
-Â
+

@@ -46,7 +46,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 Quest: 
 
-WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
 
 
 Is your scripting might equal to the challenge? Put the power in your hands "“ 
@@ -64,7 +64,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 iTripoli: 
 
 
-What can you really do with PowerShell?Â  With Admin Script Editor the question becomes whatÂ **can't** you do with PowerShell?Â  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.Â  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.Â  Check it out atÂ [adminscripteditor.com/player](http://adminscripteditor.com/player).
+What can you really do with PowerShell?  With Admin Script Editor the question becomes what **can't** you do with PowerShell?  Besides all the advanced code generating tools this is the only tool offering a true PowerShell Forms Designer.  To illustrate what can be done the guys at iTripoli created a full-featured MP3/Podcast player written entirely in PowerShell and delivered as a single script.  Check it out at [adminscripteditor.com/player](http://adminscripteditor.com/player).
 
 
 
@@ -232,11 +232,11 @@ xx palen : ## What kind of relationship does pash have with the PS team?
 
 
           - 
-            xx aleksandar : ## on behalf of Marco Shaw: v2 is pretty much stabilizing. Â Is COM support going to stay as-is or will be improved at some point (v3)?
+            xx aleksandar : ## on behalf of Marco Shaw: v2 is pretty much stabilizing.  Is COM support going to stay as-is or will be improved at some point (v3)?
 
 
           - 
-            aleksandar : ## another Marco Shaw's Q: Anything on possible v3 features? Â More support for transactions, for example?
+            aleksandar : ## another Marco Shaw's Q: Anything on possible v3 features?  More support for transactions, for example?
 
 
           - 
@@ -252,7 +252,7 @@ xx palen : ## What kind of relationship does pash have with the PS team?
 
 
           - 
-            xx palen : ## Is navigating the registry going to be changing at all? Â Get-ItemProperty just is not intuitive, I don't think
+            xx palen : ## Is navigating the registry going to be changing at all?  Get-ItemProperty just is not intuitive, I don't think
 
 
           - 
@@ -288,11 +288,11 @@ xx palen : ## What kind of relationship does pash have with the PS team?
 
 
           - 
-            xx spowser : ## Is there any reason why a runspace cannot interact with the desktop? Â Critical for our Automation
+            xx spowser : ## Is there any reason why a runspace cannot interact with the desktop?  Critical for our Automation
 
 
           - 
-            xx aleksandar : ## Â for bruce: when can we expect powershell in action 2.0?implementation
+            xx aleksandar : ##  for bruce: when can we expect powershell in action 2.0?implementation
 
 
           - 
@@ -332,7 +332,7 @@ xx palen : ## What kind of relationship does pash have with the PS team?
 
 
           - 
-            xx glnsize : ## will powershell and wsman eventualy be released via windows update... i.e. Â next year or so
+            xx glnsize : ## will powershell and wsman eventualy be released via windows update... i.e.  next year or so
 
 
           - 

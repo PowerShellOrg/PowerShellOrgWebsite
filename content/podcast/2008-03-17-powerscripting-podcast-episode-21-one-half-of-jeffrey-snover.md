@@ -20,7 +20,7 @@ This week, our Intrepid Heroes talk about News in the PowerShell world, bring yo
 
 And now a word from our sponsor:
 
-> > _Our interview today is brought to you by_ [_Quest Software_][2]_. Quest LOVES PowerShell. Go to_ [_www.quest.com / PowerShell_][2] _and download their free graphical user interface, script editor and Active Directory commands. While you"™re there, join their online community where you can share ideas and get free useful commands.Â  Visit_ [_www.quest.com / powershell_][2] _today!_
+> > _Our interview today is brought to you by_ [_Quest Software_][2]_. Quest LOVES PowerShell. Go to_ [_www.quest.com / PowerShell_][2] _and download their free graphical user interface, script editor and Active Directory commands. While you"™re there, join their online community where you can share ideas and get free useful commands.  Visit_ [_www.quest.com / powershell_][2] _today!_
 > 
 >  
 
@@ -33,7 +33,7 @@ have not heard anywhere else
 
   * VMware [has JUST released][4] their VI Toolkit for PowerShell to the public. If you use ESX Server, you need to check it out.
   * Great News! PowerShell Plus 1.0 [has been released][5]!
-  * Coming later this year: [Managing VMWare with Windows PowerShell: TFMÂ®!][6] to be published by Sapien Press.
+  * Coming later this year: [Managing VMWare with Windows PowerShell: TFM®!][6] to be published by Sapien Press.
   * The Windows SDK team is [seeking feedback][7] on how important it would be to you (or not) to have a PowerShell-based build environment. Click on the link above to leave your comments.
 
 ### Resources

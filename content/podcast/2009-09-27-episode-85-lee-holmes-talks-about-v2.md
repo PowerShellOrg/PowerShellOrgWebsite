@@ -49,7 +49,7 @@ News
 
 
 
-      *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+      *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -62,15 +62,15 @@ News
 
 
         - 
-          New from PowerWF:Â [convert scripts to workflows, v2 support, UAC, PowerCLI support](http://blog.powerwf.com/post/195230863/recent-highlights)
+          New from PowerWF: [convert scripts to workflows, v2 support, UAC, PowerCLI support](http://blog.powerwf.com/post/195230863/recent-highlights)
 
 
         - 
-          PrimalForms 2009 now has anÂ [integrated script editor](http://jdhitsolutions.com/blog/2009/09/primalforms-2009-script-editor/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
+          PrimalForms 2009 now has an [integrated script editor](http://jdhitsolutions.com/blog/2009/09/primalforms-2009-script-editor/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
 
 
         - 
-          BrandonÂ [informs us](http://bsonposh.com/archives/990) of a new AD Codeplex project:Â [AD Replication Module](http://adreplicationmodule.codeplex.com/)
+          Brandon [informs us](http://bsonposh.com/archives/990) of a new AD Codeplex project: [AD Replication Module](http://adreplicationmodule.codeplex.com/)
 
 
 
@@ -97,7 +97,7 @@ News
 
 
           - 
-            Lee's PowerShell CookbookÂ [http://oreilly.com/catalog/9780596528492/](http://oreilly.com/catalog/9780596528492/)
+            Lee's PowerShell Cookbook [http://oreilly.com/catalog/9780596528492/](http://oreilly.com/catalog/9780596528492/)
 
 
           - 
@@ -124,7 +124,7 @@ News
 
 
           - 
-            glnsize: ## what is the provider story? Â Where a couple years in now, where do providers work?
+            glnsize: ## what is the provider story?  Where a couple years in now, where do providers work?
 
 
           - 
@@ -184,7 +184,7 @@ News
 
 
           - 
-            glnsize: ##is there a post that shows me how my advanced functions can support transactions? Â how involoved is this
+            glnsize: ##is there a post that shows me how my advanced functions can support transactions?  how involoved is this
 
 
           - 
@@ -215,23 +215,23 @@ Resources
 
 
         - 
-          BrandonÂ [dished up a list](http://bsonposh.com/archives/983) of the Windows 2008 R2 Group Policy Cmdlets
+          Brandon [dished up a list](http://bsonposh.com/archives/983) of the Windows 2008 R2 Group Policy Cmdlets
 
 
         - 
-          Cody BunchÂ [has posted a script to schedule VMware Fault Tolerance](http://professionalvmware.com/2009/09/scheduling-vmwares-ft-fault-tolerance/)
+          Cody Bunch [has posted a script to schedule VMware Fault Tolerance](http://professionalvmware.com/2009/09/scheduling-vmwares-ft-fault-tolerance/)
 
 
         - 
-          Lee Holmes shows us theÂ [PowerShell equivalent of NET HELPMSG](http://www.leeholmes.com/blog/PowerShellEquivalentOfNETHELPMSG.aspx)
+          Lee Holmes shows us the [PowerShell equivalent of NET HELPMSG](http://www.leeholmes.com/blog/PowerShellEquivalentOfNETHELPMSG.aspx)
 
 
         - 
-          UsingÂ [computed propertie](http://www.leporelo.eu/blog.aspx?id=how-to-specify-computed-property-in-select-object)s in Select-Object
+          Using [computed propertie](http://www.leporelo.eu/blog.aspx?id=how-to-specify-computed-property-in-select-object)s in Select-Object
 
 
         - 
-          Carter Shanklin wroteÂ [this script](http://poshcode.org/1341) to grab h/w serial # data from your ESX servers
+          Carter Shanklin wrote [this script](http://poshcode.org/1341) to grab h/w serial # data from your ESX servers
 
 
 
@@ -319,10 +319,10 @@ Resources
 
 
 
-          Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF. Â Get started by readingÂ [this thread on PowerShellCommunity.org](http://powershellcommunity.org/Forums/tabid/54/aff/1/aft/4177/afv/topic/Default.aspx).
+          Your quest: Create a PowerShell script to generate fractal images. Bonus points for displaying the generated image using a Winform or WPF.  Get started by reading [this thread on PowerShellCommunity.org](http://powershellcommunity.org/Forums/tabid/54/aff/1/aft/4177/afv/topic/Default.aspx).
 
 
 
 
 
-          Did we forget to mention there are prizes? Â You can win an Amazon $25 gift certificate and a book from SAPIEN!
+          Did we forget to mention there are prizes?  You can win an Amazon $25 gift certificate and a book from SAPIEN!

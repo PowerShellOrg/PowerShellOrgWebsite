@@ -34,7 +34,7 @@ Tonight on the PowerScripting Podcast, we have tips and resources!
   *
 
 
-Â· 
+· 
 Execute queries remotely to determine if services or processes are running
 
 *
@@ -43,7 +43,7 @@ Execute queries remotely to determine if services or processes are running
   *
 
 
-Â· 
+· 
 Restart services, processes, or entire servers
 
 *
@@ -52,7 +52,7 @@ Restart services, processes, or entire servers
   *
 
 
-Â· 
+· 
 Check mailbox settings
 
 *
@@ -61,7 +61,7 @@ Check mailbox settings
   *
 
 
-Â· 
+· 
 Unlock user accounts
 
 *
@@ -70,7 +70,7 @@ Unlock user accounts
   *
 
 
-Â· 
+· 
 Reset passwords
 
 *
@@ -79,13 +79,13 @@ Reset passwords
   *
 
 
-Â· 
+· 
 Run custom scripts
 
 *
 
 
-  VisitÂ [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+  Visit [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
 
   * [Quest's][1]{#jz0h} [PowerGui Challenge 2010 starts Oct 15th 15th][2]{#qlkx}.
@@ -130,7 +130,7 @@ Contest
 **
 
 
-  If you would like to be entered to win a copy of Lee Holmes'Â [PowerShell Cookbook, 2nd Ed.](http://oreilly.com/catalog/9780596801502/), all you have to do is send in your PowerShell tips! We want to hear what YOU think is cool, or what you have in your profile, or some of your favorite one-liners! Send in your entries to [feedback@powerscripting.net](mailto:feedback@powerscripting.net), and tell a friend! We have FIVE copies to give away. Contest ends September 30th, or October 7th, depending on our mood and the wind speed when we next record the show.
+  If you would like to be entered to win a copy of Lee Holmes' [PowerShell Cookbook, 2nd Ed.](http://oreilly.com/catalog/9780596801502/), all you have to do is send in your PowerShell tips! We want to hear what YOU think is cool, or what you have in your profile, or some of your favorite one-liners! Send in your entries to [feedback@powerscripting.net](mailto:feedback@powerscripting.net), and tell a friend! We have FIVE copies to give away. Contest ends September 30th, or October 7th, depending on our mood and the wind speed when we next record the show.
 
 
  [1]: http://poshoholic.com/2010/09/22/use-powershell-enter-contest-receive-prize/ "Quest's PowerGui Challenge 2010 starts Oct 15th"

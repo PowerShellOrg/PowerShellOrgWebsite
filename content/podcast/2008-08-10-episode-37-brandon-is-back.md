@@ -17,7 +17,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-Today on the PowerScripting Podcast we will be speaking with Brandon Shell, PowerShell MVP and all around nice guy.Â  We also have plenty of news, tips, and resources to cover.Â  And be sure to listen till the end to hear how to winÂ  free commercial licenses for /n Software's Net cmdlets!
+Today on the PowerScripting Podcast we will be speaking with Brandon Shell, PowerShell MVP and all around nice guy.  We also have plenty of news, tips, and resources to cover.  And be sure to listen till the end to hear how to win  free commercial licenses for /n Software's Net cmdlets!
 
 
 ## 
@@ -33,14 +33,14 @@ Do you have the muscle to bring home the prize? Check out the details [here][2]{
   * PrimalScript 2007 Enterprise Edition [now comes with PowerShell 101 class-on-disc][3]{#kw} -if you already own a valid key you can get it by ordering a replacement CD
   * Congratulation to PrimalScript for [winning two awards][4]{#gxyv}: Redmond Magazine's Reader's Choice Award (4th year running) for best scripting tool and Windows ITPro Editor"™s Best Award (silver) for scripting tools
   * Cool new PoshBoard video (this time in English or French) [which shows datagrid tools in PoshBoard][5]{#nfag}
-  * SQL Server 2008 [][6]{#o4_t}[has been released][7]{#ybk2}.Â  You can download a 180-day trial now or if you have MSDN you can get the full version that way.
+  * SQL Server 2008 [][6]{#o4_t}[has been released][7]{#ybk2}.  You can download a 180-day trial now or if you have MSDN you can get the full version that way.
 
 ## Interview
 
-_This segment is brought to you by iTripoli!____"Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.Â  Go to [adminscripteditor.com](http://adminscripteditor.com/) to find out if you qualify."  
+_This segment is brought to you by iTripoli!____"Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.  Go to [adminscripteditor.com](http://adminscripteditor.com/) to find out if you qualify."  
 _  
 Some of the topics covered:  
-Â 
+ 
 
   * Performance considerations with regards to [Foreach vs. Foreach-Object][8]{#nk2y}
   * Performance considerations of ADSI v. S.DS.P
@@ -74,7 +74,7 @@ Some of the topics covered:
 
 
     - 
-      Be sure to check out [blog.sapien.com](http://blog.sapien.com/) if you have not seen it before. Jeffrey Hicks and Alex Reidel from SAPIEN Technologies must have been upping their caffiene intake lately because the blog posts have been coming fast and furious lately.Â  Lots of good stuff on the site.
+      Be sure to check out [blog.sapien.com](http://blog.sapien.com/) if you have not seen it before. Jeffrey Hicks and Alex Reidel from SAPIEN Technologies must have been upping their caffiene intake lately because the blog posts have been coming fast and furious lately.  Lots of good stuff on the site.
 
 
     - 
@@ -90,7 +90,7 @@ Some of the topics covered:
 
 
 
-    Â 
+     
 
 
 
@@ -107,7 +107,7 @@ Some of the topics covered:
 
 
     - 
-      Marco Shaw sends us this tip he found recently on the [Technet Forums](http://forums.technet.microsoft.com/en-US/winserverpowershell/thread/85f255c0-362d-4dce-8fd4-c9d6107ba0d3/).Â  Try "ii ." sometime.Â  This is an alias to Invoke-Item cmdlet.Â  Simply giving it a single period as a parameter and hitting enter will open Windows Explorer to your current working directory.Â 
+      Marco Shaw sends us this tip he found recently on the [Technet Forums](http://forums.technet.microsoft.com/en-US/winserverpowershell/thread/85f255c0-362d-4dce-8fd4-c9d6107ba0d3/).  Try "ii ." sometime.  This is an alias to Invoke-Item cmdlet.  Simply giving it a single period as a parameter and hitting enter will open Windows Explorer to your current working directory. 
 
 
 
@@ -121,7 +121,7 @@ Some of the topics covered:
 
 
 
-    We have two copies of Netcmdlets to give away this week.Â  Prizes will be awarded on Episode 38.Â  All you have to do to win is be one of the first two people to send in a script that uses the Netcmdlets OR a PowerShellASP page.Â  You can use their "hobbyist" license to get the job done.Â  And don't send in a little single statement one-liner--give us a few lines of code at least.Â  :)Â  All entries become the property of the PowerScripting Podcast, some rights reserved, do not taunt happy fun ball.Â  (Just kidding, we'll publish all entries on the website.Â  But seriously--don't taunt happy fun ball.)
+    We have two copies of Netcmdlets to give away this week.  Prizes will be awarded on Episode 38.  All you have to do to win is be one of the first two people to send in a script that uses the Netcmdlets OR a PowerShellASP page.  You can use their "hobbyist" license to get the job done.  And don't send in a little single statement one-liner--give us a few lines of code at least.  :)  All entries become the property of the PowerScripting Podcast, some rights reserved, do not taunt happy fun ball.  (Just kidding, we'll publish all entries on the website.  But seriously--don't taunt happy fun ball.)
 
 
 

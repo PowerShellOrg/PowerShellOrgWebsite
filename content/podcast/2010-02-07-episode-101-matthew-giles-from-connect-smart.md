@@ -37,7 +37,7 @@ Tonight on the PowerScripting Podcast we talk to Matthew Giles from Connect-SMAR
 ## 
 
 News
-*Â *
+* *
 
 
 
@@ -57,11 +57,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
 
 *
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 *
 
 
@@ -69,7 +69,7 @@ quest.com/powershellbook
 
 
 
-        Â 
+         
 
 
 
@@ -80,23 +80,23 @@ quest.com/powershellbook
 
 
         - 
-          [PowerShell Master Class](http://tfl09.blogspot.com/2010/01/powershell-master-class-stockholm-9-12.html)Â in Stockholm March 9th-11th
+          [PowerShell Master Class](http://tfl09.blogspot.com/2010/01/powershell-master-class-stockholm-9-12.html) in Stockholm March 9th-11th
 
 
         - 
-          Hal'sÂ [PowerCLI video project](http://www.trainsignal.com/VMware-vSphere-Pro-Series-Training-Vol-1-P91.aspx)Â will be shipping soon
+          Hal's [PowerCLI video project](http://www.trainsignal.com/VMware-vSphere-Pro-Series-Training-Vol-1-P91.aspx) will be shipping soon
 
 
         - 
-          New Codeplex project:Â [PSCodePlex](http://pscodeplex.codeplex.com/)Â ([blog post](http://www.ravichaganti.com/blog/?p=1078))
+          New Codeplex project: [PSCodePlex](http://pscodeplex.codeplex.com/) ([blog post](http://www.ravichaganti.com/blog/?p=1078))
 
 
         - 
-          PowerShell localized online helpÂ [is available](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/24/powershell-localized-online-help.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic))
+          PowerShell localized online help [is available](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/01/24/powershell-localized-online-help.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ShayLevy+(Shay+Levy++-+$cript+Fanatic))
 
 
         - 
-          Banglaore + PowerShell =Â [BangaloreITPro user group](http://bitpro.in/). Two day Tech Days conference is Feb 13th, 14th
+          Banglaore + PowerShell = [BangaloreITPro user group](http://bitpro.in/). Two day Tech Days conference is Feb 13th, 14th
 
 
 
@@ -105,7 +105,7 @@ quest.com/powershellbook
 
 
         - 
-          Â 
+           
 
 
 
@@ -123,7 +123,7 @@ quest.com/powershellbook
 
 
 
-        *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+        *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -138,7 +138,7 @@ quest.com/powershellbook
 
 
           - 
-            ConnectSmartÂ [http://www.connect-smart.com/](http://www.connect-smart.com/)
+            ConnectSmart [http://www.connect-smart.com/](http://www.connect-smart.com/)
 
 
 
@@ -169,7 +169,7 @@ Resources
 
 
         - 
-          Don Jones has aÂ [video about pipeline parameter binding](http://www.youtube.com/watch?v=yMuLUArODkY)Â 
+          Don Jones has a [video about pipeline parameter binding](http://www.youtube.com/watch?v=yMuLUArODkY) 
 
 
         - 
@@ -193,15 +193,15 @@ Resources
 
 
         - 
-          [](http://outputredirection.blogspot.com/2010/02/get-users-that-have-logged-on-to.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+OutputRedirection+(Output+Redirection+(Atom)))GettingÂ [last logon times](http://blogs.technet.com/heyscriptingguy/archive/2010/01/27/dandelions-vcr-clocks-and-last-logon-times-these-are-a-few-of-our-least-favorite-things.aspx)Â with PowerShell
+          [](http://outputredirection.blogspot.com/2010/02/get-users-that-have-logged-on-to.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+OutputRedirection+(Output+Redirection+(Atom)))Getting [last logon times](http://blogs.technet.com/heyscriptingguy/archive/2010/01/27/dandelions-vcr-clocks-and-last-logon-times-these-are-a-few-of-our-least-favorite-things.aspx) with PowerShell
 
 
         - 
-          Here's a great blog series on PS v2 remoting:Â [part 1](http://www.ravichaganti.com/blog/?p=1025),Â [part 2](http://www.ravichaganti.com/blog/?p=1064),Â [part 3](http://www.ravichaganti.com/blog/?p=1060)Â (and there's more!)
+          Here's a great blog series on PS v2 remoting: [part 1](http://www.ravichaganti.com/blog/?p=1025), [part 2](http://www.ravichaganti.com/blog/?p=1064), [part 3](http://www.ravichaganti.com/blog/?p=1060) (and there's more!)
 
 
         - 
-          VMware has put upÂ [a blog post with Â five PowerCLI tutorial videos](http://blogs.vmware.com/vipowershell/2010/02/5-powercli-how-to-videos-for-your-viewing-pleasure.html)
+          VMware has put up [a blog post with  five PowerCLI tutorial videos](http://blogs.vmware.com/vipowershell/2010/02/5-powercli-how-to-videos-for-your-viewing-pleasure.html)
 
 
 
@@ -267,4 +267,4 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
               - 
-                [Get-Random](http://blogs.msdn.com/powershell/archive/2008/04/27/get-random.aspx)Â tips from Hal
+                [Get-Random](http://blogs.msdn.com/powershell/archive/2008/04/27/get-random.aspx) tips from Hal

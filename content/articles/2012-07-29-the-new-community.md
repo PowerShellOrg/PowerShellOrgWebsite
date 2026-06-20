@@ -33,7 +33,7 @@ If you're looking for a place to host a PowerShell-focused blog, we'd be pleased
 
 ## Management
 
-The community is currently being managed by PowerShell MVPs Don Jones and Kirk Munro. We're not currently putting together a "board" to run the site, since... well, it's just a Web site. What weÂ _are_ looking for - as noted above - are people who want to take ownership of a particular topical "Ask the Experts" forum. By taking a personal stake in this community, those folks will also help manage it by helping us make critical management decisions going forward.  
+The community is currently being managed by PowerShell MVPs Don Jones and Kirk Munro. We're not currently putting together a "board" to run the site, since... well, it's just a Web site. What we _are_ looking for - as noted above - are people who want to take ownership of a particular topical "Ask the Experts" forum. By taking a personal stake in this community, those folks will also help manage it by helping us make critical management decisions going forward.  
 
 
 ## Affiliation

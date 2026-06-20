@@ -20,7 +20,7 @@ Bet you'd like to meet the judges.
   * **Jeffery Hicks** is also a PowerShell MVP, has also written gobs of books, and does more than a little PowerShell education here and there.
   * **June Blender** is a former PowerShell team member (who wrote the Get-Help help), still a big PowerShell enthusiast, and has spent a ton of time figuring out how people learn to use the shell.
   * **Ed Wilson** is the Scripting Guy, and needs absolutely no more introduction than that. He's single-handedly kept scripting alive, and helps us all learn every day with the "Hey, Scripting Guy!" blog.
-  * **Jon White** - As a member of the PowerShell feature team since its inception, JonÂ  was the first person in the world to write a production PowerShell script.
+  * **Jon White** - As a member of the PowerShell feature team since its inception, Jon  was the first person in the world to write a production PowerShell script.
   * **David Simmons** is a proud new member of the PowerShell team, but follower within Microsoft since its early days, and has been involved since the 1980"™s outside of and within Microsoft in development of hi-performance dynamic languages and their runtime engines including various JavaScript engines.
 
 Finally, this year we're proud to bring a member of the community on board as a judge. Selected from the top posters in the PowerShell.org forums, I bring you...

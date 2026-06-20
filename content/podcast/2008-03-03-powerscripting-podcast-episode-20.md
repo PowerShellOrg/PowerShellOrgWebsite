@@ -22,7 +22,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
   * 
 
-      [SDM Software ](http://sdmsoftware.com/powerscripting.php)- "Windows Group Policy Management Simplified."Â Featuring the GPExpert Scripting toolkit for PowerShell
+      [SDM Software ](http://sdmsoftware.com/powerscripting.php)- "Windows Group Policy Management Simplified." Featuring the GPExpert Scripting toolkit for PowerShell
 
 
 
@@ -31,7 +31,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
   * Don Jones gives us a peek at his PowerShell column in the March Technet Magazine: 
       * "March is Progress Reporting - a definitive look at when, why, and how to use Write-Progress to produce  
         scripts that run for a long time, but don't look hung."
-  * Sapien will be announcing their PowerShell training plans very soon.Â  Watch their [blog][2]{#xlqg}.Â  They are also seeking input on a possible PowerShell developer class, you can fill out the survey [here][3]{#iu8z}.
+  * Sapien will be announcing their PowerShell training plans very soon.  Watch their [blog][2]{#xlqg}.  They are also seeking input on a possible PowerShell developer class, you can fill out the survey [here][3]{#iu8z}.
   * Jeffery Snover will be joining us on a future podcast so send in your questions
 
 ### Resources
@@ -45,10 +45,10 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 GPExpert Scripting Toolkit for PowerShell
 ](http://www.sdmsoftware.com/group_policy_scripting.php), has also undergone revisions lately, check it out.
 
-  * Special Operations Software has just posted a video on their website made by Darren Mar-Elia (the GPO Guy) where he talks about Specops Command:Â [http://www.specopssoft.com/powershell/specopscommand-sdm.wmv](http://www.specopssoft.com/powershell/specopscommand-sdm.wmv)
-  * The guys over at the [Swiss IT Pro & Technet blog][7]{#mf.m} have published a second free PowerShell e-book.Â  Written by Frank Koch, [
+  * Special Operations Software has just posted a video on their website made by Darren Mar-Elia (the GPO Guy) where he talks about Specops Command: [http://www.specopssoft.com/powershell/specopscommand-sdm.wmv](http://www.specopssoft.com/powershell/specopscommand-sdm.wmv)
+  * The guys over at the [Swiss IT Pro & Technet blog][7]{#mf.m} have published a second free PowerShell e-book.  Written by Frank Koch, [
 this 78-page book
-][8]{#v21t} covers a wide variety of topics.Â  It is available in both German and English, and the zip archive contains parts one and two in PDF format. Thanks to listener Rob Johnston for the tip.
+][8]{#v21t} covers a wide variety of topics.  It is available in both German and English, and the zip archive contains parts one and two in PDF format. Thanks to listener Rob Johnston for the tip.
 
 ### Tips
 

@@ -74,7 +74,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### Chatroom Buzz
 
@@ -92,7 +92,7 @@ aliases:
 
   * 
 
-      <11MikeFRobbins> irm -Uri http://feeds.feedburner.com/PowerScripting Â | where title -like *bennett* | select title
+      <11MikeFRobbins> irm -Uri http://feeds.feedburner.com/PowerScripting  | where title -like *bennett* | select title
 
 
 
@@ -134,7 +134,7 @@ aliases:
 
   * 
 
-      <9mrrothhcloud__> I Â had good luck at work today
+      <9mrrothhcloud__> I  had good luck at work today
 
 
 
@@ -164,7 +164,7 @@ aliases:
 
   * 
 
-      <9mrrothhcloud__> halr9000: Â 🙁
+      <9mrrothhcloud__> halr9000:  🙁
 
 
 
@@ -174,7 +174,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### The Question -
 

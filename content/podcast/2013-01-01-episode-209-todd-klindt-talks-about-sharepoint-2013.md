@@ -23,7 +23,7 @@ aliases:
 
 
 
-    Â Tonight on the PowerScripting Podcast, we talk to Todd Klindt about SharePoint 2013!
+     Tonight on the PowerScripting Podcast, we talk to Todd Klindt about SharePoint 2013!
  **
 
 
@@ -55,7 +55,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -73,7 +73,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 
@@ -110,7 +110,7 @@ aliases:
 
 
 
-    **Â **
+    ** **
 
 
 

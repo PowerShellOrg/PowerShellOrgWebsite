@@ -37,21 +37,21 @@ aliases:
 - 
 
 
-    Boe ProxÂ [https://twitter.com/proxb](https://twitter.com/proxb)
+    Boe Prox [https://twitter.com/proxb](https://twitter.com/proxb)
 
 
 
 - 
 
 
-    Matthew HitchcockÂ [https://twitter.com/hitchysg](https://twitter.com/hitchysg)
+    Matthew Hitchcock [https://twitter.com/hitchysg](https://twitter.com/hitchysg)
 
 
 
 - 
 
 
-    Carlo ManciniÂ [https://twitter.com/sysadm2010](https://twitter.com/sysadm2010)
+    Carlo Mancini [https://twitter.com/sysadm2010](https://twitter.com/sysadm2010)
 
 
 
@@ -72,7 +72,7 @@ aliases:
 - 
 
 
-    DFW PowerShell user group isÂ [meeting October](https://powershell.org/event/october-dallasfort-worth-powershell-user-group/)Â 19th
+    DFW PowerShell user group is [meeting October](https://powershell.org/event/october-dallasfort-worth-powershell-user-group/) 19th
 
 
 
@@ -126,19 +126,19 @@ aliases:
   Chatroom Buzz-
 
 
-  Â  Jon have you checked out OBS?Â [http://obsproject.com/](http://obsproject.com/)
+    Jon have you checked out OBS? [http://obsproject.com/](http://obsproject.com/)
 
 
-   Speaking of DSC, I published a blog on "Using PowerShell Desired State Configuration to Unzip Files" today:Â [http://mikefrobbins.com/2013/10/03/using-powershell-desired-state-configuration-to-unzip-files/](http://mikefrobbins.com/2013/10/03/using-powershell-desired-state-configuration-to-unzip-files/)
+   Speaking of DSC, I published a blog on "Using PowerShell Desired State Configuration to Unzip Files" today: [http://mikefrobbins.com/2013/10/03/using-powershell-desired-state-configuration-to-unzip-files/](http://mikefrobbins.com/2013/10/03/using-powershell-desired-state-configuration-to-unzip-files/)
 
 
-  Â [http://blogs.technet.com/b/privatecloud/archive/tags/deployment+track/](http://blogs.technet.com/b/privatecloud/archive/tags/deployment+track/)
+   [http://blogs.technet.com/b/privatecloud/archive/tags/deployment+track/](http://blogs.technet.com/b/privatecloud/archive/tags/deployment+track/)
 
 
-   Vern_Anderson - See This: "PowerShell Function to Unzip Files Using the .NET Framework 4.5 with Fallback to COM"Â [http://mikefrobbins.com/2013/08/15/powershell-function-to-unzip-files-using-the-net-framework-4-5-with-fallback-to-com/](http://mikefrobbins.com/2013/08/15/powershell-function-to-unzip-files-using-the-net-framework-4-5-with-fallback-to-com/)
+   Vern_Anderson - See This: "PowerShell Function to Unzip Files Using the .NET Framework 4.5 with Fallback to COM" [http://mikefrobbins.com/2013/08/15/powershell-function-to-unzip-files-using-the-net-framework-4-5-with-fallback-to-com/](http://mikefrobbins.com/2013/08/15/powershell-function-to-unzip-files-using-the-net-framework-4-5-with-fallback-to-com/)
 
 
-   B rianK said Â [http://obsproject.com/](http://obsproject.com/)
+   B rianK said  [http://obsproject.com/](http://obsproject.com/)
 
 
 #### 
@@ -162,6 +162,6 @@ aliases:
 
 
 
-MVP Steven Murawski is writing a series onÂ [DSC at PowerShell.org][1]
+MVP Steven Murawski is writing a series on [DSC at PowerShell.org][1]
 
  [1]: https://powershell.org/author/stevenmurawski/

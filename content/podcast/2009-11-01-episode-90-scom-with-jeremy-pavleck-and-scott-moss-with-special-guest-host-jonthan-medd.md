@@ -44,7 +44,7 @@ News
 
 
       *
-Do you have what it takes to be the ultimate script warrior?Â  Find out with
+Do you have what it takes to be the ultimate script warrior?  Find out with
 
  Quest"™s 
 
@@ -93,11 +93,11 @@ quest.com/challenge
 
 
         - 
-          Jeffery HicksÂ [has started consulting full time](http://jdhitsolutions.com/blog/2009/10/hanging-out-my-shingle/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
+          Jeffery Hicks [has started consulting full time](http://jdhitsolutions.com/blog/2009/10/hanging-out-my-shingle/#utm_source=feed&utm_medium=feed&utm_campaign=feed)
 
 
         - 
-          //o// is leading the firstÂ [PowerShell Script Club in Zurich](http://thepowershellguy.com/blogs/posh/archive/2009/10/28/powershell-script-club-in-zurich.aspx)
+          //o// is leading the first [PowerShell Script Club in Zurich](http://thepowershellguy.com/blogs/posh/archive/2009/10/28/powershell-script-club-in-zurich.aspx)
 
 
 
@@ -136,7 +136,7 @@ Links
 
 
           - 
-            Administrative Uses of Powershell in OpsMgr 2007 presentation Scott gave to theÂ [Atlanta SMUG group in Feb 2009](http://myitforum.com/cs2/blogs/smoss/archive/2009/02/05/smug-presentation-february-3rd-2009-administrative-uses-of-powershell-in-opsmgr-2007.aspx).
+            Administrative Uses of Powershell in OpsMgr 2007 presentation Scott gave to the [Atlanta SMUG group in Feb 2009](http://myitforum.com/cs2/blogs/smoss/archive/2009/02/05/smug-presentation-february-3rd-2009-administrative-uses-of-powershell-in-opsmgr-2007.aspx).
 
 
           - 
@@ -152,7 +152,7 @@ Links
 
 
           - 
-            AtlantaÂ [SMUG web page](http://www.systemcentercentral.com/UserGroups/tabid/120/view/groupdetail/groupid/3/Default.aspx)
+            Atlanta [SMUG web page](http://www.systemcentercentral.com/UserGroups/tabid/120/view/groupdetail/groupid/3/Default.aspx)
 
 
 
@@ -200,7 +200,7 @@ Resources
 
 
         - 
-          Chad MillerÂ [posted about the Operations Management Shel](http://chadwickmiller.spaces.live.com/Blog/cns%21EA42395138308430%21574.entry)l
+          Chad Miller [posted about the Operations Management Shel](http://chadwickmiller.spaces.live.com/Blog/cns%21EA42395138308430%21574.entry)l
 
 
         - 
@@ -216,11 +216,11 @@ Resources
 
 
         - 
-          The Scripting GuyÂ [posts about remoting in PowerShell V2](http://blogs.technet.com/heyscriptingguy/archive/2009/10/29/hey-scripting-guy-october-29-2009.aspx)
+          The Scripting Guy [posts about remoting in PowerShell V2](http://blogs.technet.com/heyscriptingguy/archive/2009/10/29/hey-scripting-guy-october-29-2009.aspx)
 
 
         - 
-          PrimalPad Community EditionÂ [has been updated](http://blog.sapien.com/index.php/2009/10/20/primalpad-community-edition-update/) to support PowerShell V2
+          PrimalPad Community Edition [has been updated](http://blog.sapien.com/index.php/2009/10/20/primalpad-community-edition-update/) to support PowerShell V2
 
 
         - 
@@ -228,7 +228,7 @@ Resources
 
 
         - 
-          TheÂ [Get-Scripting Podcast](http://get-scripting.blogspot.com/)
+          The [Get-Scripting Podcast](http://get-scripting.blogspot.com/)
 
 
 

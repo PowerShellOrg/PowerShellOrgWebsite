@@ -19,7 +19,7 @@ Today on the PowerScripting Podcast we have a special roundtable with guests [Jo
 ### News
 
 _This segment is brought to you by iTripoli!_  
-_"Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.Â  Go to [adminscripteditor.com][5] to find out if you qualify."_
+_"Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.  Go to [adminscripteditor.com][5] to find out if you qualify."_
 
   * [PowerShell Plus][6] has gone Professional! Check out the [2.0 beta][7], it's got lots of cool new stuff.
   * [PowerShell Boot Camp Winter 08/09 | SAPIEN Technologies][8]
@@ -51,7 +51,7 @@ The "use" requirements
           * CC-PD (Public Domain)
           * GPL (sucks [says Hal])
           * MS-PL
-  7. Repository would have the following fields: Description, Usage, PSVersion,Â  and Version History 
+  7. Repository would have the following fields: Description, Usage, PSVersion,  and Version History 
       * Fields would be inserted as comments into the scripts when retrieved.
       * Dependency on other scripts would be controlled by a link to the other script(s).
       * Tags would be used to signify requirements on external dependencies. ex. "VMWare ESX 3.5", "AD 2003", etc.
@@ -87,7 +87,7 @@ We will be posting the scripts over the next week, so watch the site for those.
 
 ### Gotcha
 
-  * Downgrading from PS v2 to v1 causes the snapins installed from v2 to quit functioning--even if they are compatible with v1.Â  A reinstall of the snapin will fix.
+  * Downgrading from PS v2 to v1 causes the snapins installed from v2 to quit functioning--even if they are compatible with v1.  A reinstall of the snapin will fix.
 
 We would like to thank Joel and Mark for coming on the show. We"™d also like to thank Ye11owbeard, JPayleck, and BrandonF for helping us test the [UStream][19] channel.  
 Don"™t forget to follow us on twitter ([halr9000][20], [jonwalz][21]), [UStream][19], and [Facebook][22]!

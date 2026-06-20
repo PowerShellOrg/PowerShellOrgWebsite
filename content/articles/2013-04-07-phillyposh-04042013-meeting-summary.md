@@ -9,7 +9,7 @@ aliases:
 ---
 
 1. [Jason Helmick][1] remotely gave a demo of [Sapien"™s Powershell Studio][2]
-  2. [Ed Wilson][3],Â [The Scripting Guy][4], gave a presentation on the different ways to remotely manage a Windows 8 workstation (remotely via theÂ [Charlotte PowerShell User Group][5])
+  2. [Ed Wilson][3], [The Scripting Guy][4], gave a presentation on the different ways to remotely manage a Windows 8 workstation (remotely via the [Charlotte PowerShell User Group][5])
   3. Announcements 
       1. The [Scripting games start][6] on [04/25/2013,][7] make sure to sign up! We plan on doing a post mortem once the games are done just like we did with the [Winter Scripting Camp][8]
       2. Check out the [Mississippi PowerShell User][9], which meets virtually every 2nd Tuesday. Take a look at their [schedule which is filled with great speakers][10].

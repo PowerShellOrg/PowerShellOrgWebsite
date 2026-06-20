@@ -35,7 +35,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -49,7 +49,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -70,11 +70,11 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
-****Â ****
+**** ****
 
 
   Guests - Ferdinand Rios, David Corrales
@@ -82,7 +82,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -102,7 +102,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### The Question -
 
@@ -113,13 +113,13 @@ aliases:
   David"™s first computer: Penitum 100
 
 
-****Â ****
+**** ****
 
 
   Resources
 
 
-****Â ****
+**** ****
 
   * 
 

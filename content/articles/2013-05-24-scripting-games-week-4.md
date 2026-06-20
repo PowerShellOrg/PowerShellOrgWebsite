@@ -10,8 +10,8 @@ aliases:
   - /2013/05/scripting-games-week-4/
 ---
 
-Again if you"™re participating in the games this year you"™ve already won!Â  If you"™re not and you"™re reading this post what are you doing!Â  I"™ve watched authors step there game up over the past month, and I can tell you from personal experience the games will make you better at your real job.Â  It"™s like sharpening an axe, an axe made of super juice that can automate the world 🙂  
-**Well that'sÂ clever!  
+Again if you"™re participating in the games this year you"™ve already won!  If you"™re not and you"™re reading this post what are you doing!  I"™ve watched authors step there game up over the past month, and I can tell you from personal experience the games will make you better at your real job.  It"™s like sharpening an axe, an axe made of super juice that can automate the world 🙂  
+**Well that's clever!  
 ** I came across this script this morning.
 
 
@@ -21,7 +21,7 @@ Get-ADUser -Filter * -Properties $prop |
         ConvertTo-Html -Title "Active Directory Audit" -PostContent "
 ---
 $(Get-Date)" | Out-File C:\adresult.html
-`Well formatted, simple concise, all around a very clean approach to the problem.Â  However the use of write-output threw me for a second.Â  I actually had to run it to see what was happening there, for a second I thought maybe there was yet another way to create a custom object in PowerShell.Â  Alas no, our intrepid author has simply deduced a way to avoid having to put quotes around the text.Â  Consider the following Prop1, and Prop2 are identical, but it"™s one less character using write-output.
+`Well formatted, simple concise, all around a very clean approach to the problem.  However the use of write-output threw me for a second.  I actually had to run it to see what was happening there, for a second I thought maybe there was yet another way to create a custom object in PowerShell.  Alas no, our intrepid author has simply deduced a way to avoid having to put quotes around the text.  Consider the following Prop1, and Prop2 are identical, but it"™s one less character using write-output.
 
 
 `$prop1 = Write-Output Name,Title,Department,LastLogonDate,PasswordLastSet,LockedOut,Enabled
@@ -38,6 +38,6 @@ $prop2 = 'Name','Title','Department','LastLogonDate','PasswordLastSet','LockedOu
 
 
 `Get-Process | Get-Random -Count 5
-`To the author You know who you are, everyone elseÂ read the help people!  
+`To the author You know who you are, everyone else read the help people!  
 Light week this week, but I will say I am super excited about next weeks offerings it"™s a problem that tickles my kind of fancy, and I hope you all have as much fun solving it as I did.  
 ~Glenn

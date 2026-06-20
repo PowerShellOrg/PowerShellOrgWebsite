@@ -62,7 +62,7 @@ News
 
 
     - 
-      Idera just published aÂ [bundle of SQL and AD scripts](http://www.idera.com/Products/Free-Tools/PowerShell-scripts/)
+      Idera just published a [bundle of SQL and AD scripts](http://www.idera.com/Products/Free-Tools/PowerShell-scripts/)
 
 
 
@@ -103,7 +103,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
               - 
-                AutoPowerShell:Â [http://autopowershell.com](http://autopowershell.com/projects/show/autops)
+                AutoPowerShell: [http://autopowershell.com](http://autopowershell.com/projects/show/autops)
 
 
               - 
@@ -161,7 +161,7 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
 
 
-                        Super power: Astral Projection (Hal's calling him out asÂ [Dr. Strange](http://en.wikipedia.org/wiki/Doctor_Strange))
+                        Super power: Astral Projection (Hal's calling him out as [Dr. Strange](http://en.wikipedia.org/wiki/Doctor_Strange))
 
 
 
@@ -192,7 +192,7 @@ Resources
 
 
                           *
- Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+ Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -206,19 +206,19 @@ Resources
 
 
                             - 
-                              Missing help file found:Â [about_Comment_Based_Help](http://technet.microsoft.com/en-us/library/dd819489.aspx)
+                              Missing help file found: [about_Comment_Based_Help](http://technet.microsoft.com/en-us/library/dd819489.aspx)
 
 
                             - 
-                              The Scary DBAÂ [blogged about "Microsoft SQL Server 2008 Administration with Windows Powershell"](http://scarydba.wordpress.com/2009/08/20/two-book-recommendations/)
+                              The Scary DBA [blogged about "Microsoft SQL Server 2008 Administration with Windows Powershell"](http://scarydba.wordpress.com/2009/08/20/two-book-recommendations/)
 
 
                             - 
-                              Oisin brings us anÂ [awesome logging module](http://www.nivot.org/2009/08/19/PowerShell20AConfigurableAndFlexibleScriptLoggerModule.aspx)
+                              Oisin brings us an [awesome logging module](http://www.nivot.org/2009/08/19/PowerShell20AConfigurableAndFlexibleScriptLoggerModule.aspx)
 
 
                             - 
-                              Joel's got aÂ [Growl for Windows script](http://huddledmasses.org/growl-for-windows-from-powershell/)
+                              Joel's got a [Growl for Windows script](http://huddledmasses.org/growl-for-windows-from-powershell/)
 
 
 
@@ -237,11 +237,11 @@ Resources
 
 
                                 - 
-                                  Old article from //ow aboutÂ [working with perfmon counters](http://mow001.blogspot.com/2005/12/getting-performancemonitor-info-from.html)
+                                  Old article from //ow about [working with perfmon counters](http://mow001.blogspot.com/2005/12/getting-performancemonitor-info-from.html)
 
 
                                 - 
-                                  EBGreen tells usÂ [how to associate ps1 files with powershell.exe in Explorer](http://stackoverflow.com/questions/1293907/how-to-pass-command-line-arguments-to-a-powershell-ps1-file/1294145). Don't try this at home.
+                                  EBGreen tells us [how to associate ps1 files with powershell.exe in Explorer](http://stackoverflow.com/questions/1293907/how-to-pass-command-line-arguments-to-a-powershell-ps1-file/1294145). Don't try this at home.
 
 
 

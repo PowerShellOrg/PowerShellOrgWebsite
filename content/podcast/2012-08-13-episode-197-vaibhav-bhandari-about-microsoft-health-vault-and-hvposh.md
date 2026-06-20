@@ -23,7 +23,7 @@ aliases:
 
 ## News
 
-****Â ****
+**** ****
 
   * 
 
@@ -37,7 +37,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -51,7 +51,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -66,11 +66,11 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
-****Â ****
+**** ****
 
 
   Guests - Vaibhav Bhandari
@@ -78,7 +78,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -110,7 +110,7 @@ aliases:
   Superhero: "Agreeable Man"
 
 
-****Â ****
+**** ****
 
 
   Chatroom Banter
@@ -149,11 +149,11 @@ aliases:
   justpaul: ## in the same way that consumers should have access to their personal records, I think they should also have the final say where it is stored. If you were tasked with separating the platform / api from the centralized store, could it be done?
 
 
-****Â ****
+**** ****
 
 ## Tips
 
-****Â ****
+**** ****
 
   * 
 

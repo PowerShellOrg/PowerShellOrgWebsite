@@ -36,14 +36,14 @@ aliases:
 - 
 
 
-    PowerShell.org is building aÂ [repository of DSC modules](https://powershell.org/2013/08/12/need-desired-state-configuration-modules/)
+    PowerShell.org is building a [repository of DSC modules](https://powershell.org/2013/08/12/need-desired-state-configuration-modules/)
 
 
 
 - 
 
 
-    PowerShell summitÂ [agenda info](https://powershell.org/community-events/summit/powershell-summit-north-america/summit-agenda/)
+    PowerShell summit [agenda info](https://powershell.org/community-events/summit/powershell-summit-north-america/summit-agenda/)
 
 
 
@@ -76,25 +76,25 @@ aliases:
   Chatroom Buzz-
 
 
-  Â [http://vaughnlive.tv/embed/video/jonwalz](http://vaughnlive.tv/embed/video/jonwalz)
+   [http://vaughnlive.tv/embed/video/jonwalz](http://vaughnlive.tv/embed/video/jonwalz)
 
 
-   PowerShell Saturday 006: Hear the Scripting Guy and the Winner of the Advanced Category in the Scripting GamesÂ [http://mikefrobbins.com/2013/10/10/powershell-saturday-006-hear-the-scripting-guy-and-the-winner-of-the-advanced-category-in-the-scripting-games/](http://mikefrobbins.com/2013/10/10/powershell-saturday-006-hear-the-scripting-guy-and-the-winner-of-the-advanced-category-in-the-scripting-games/)
+   PowerShell Saturday 006: Hear the Scripting Guy and the Winner of the Advanced Category in the Scripting Games [http://mikefrobbins.com/2013/10/10/powershell-saturday-006-hear-the-scripting-guy-and-the-winner-of-the-advanced-category-in-the-scripting-games/](http://mikefrobbins.com/2013/10/10/powershell-saturday-006-hear-the-scripting-guy-and-the-winner-of-the-advanced-category-in-the-scripting-games/)
 
 
-   Two weeks until PowerShell Saturday 005 in Atlanta (October 26th):Â [http://powershellsaturday.com/005/](http://powershellsaturday.com/005/)
+   Two weeks until PowerShell Saturday 005 in Atlanta (October 26th): [http://powershellsaturday.com/005/](http://powershellsaturday.com/005/)
 
 
-  Â [http://psappdeploytoolkit.codeplex.com/](http://psappdeploytoolkit.codeplex.com/)
+   [http://psappdeploytoolkit.codeplex.com/](http://psappdeploytoolkit.codeplex.com/)
 
 
-   jonwalz my audio is cutting out but i think this is the privilege guard tool he's talking about:Â [http://www.avecto.com/products/overview/](http://www.avecto.com/products/overview/)
+   jonwalz my audio is cutting out but i think this is the privilege guard tool he's talking about: [http://www.avecto.com/products/overview/](http://www.avecto.com/products/overview/)
 
 
-   JonWalz: would steve's favorite tool help?Â [http://www.vagrantup.com/](http://www.vagrantup.com/)
+   JonWalz: would steve's favorite tool help? [http://www.vagrantup.com/](http://www.vagrantup.com/)
 
 
-  Â [http://www.tanium.com/solutions/patch-management-and-software-distribution/](http://www.tanium.com/solutions/patch-management-and-software-distribution/)Â Â Â Â (Interesting product)
+   [http://www.tanium.com/solutions/patch-management-and-software-distribution/](http://www.tanium.com/solutions/patch-management-and-software-distribution/)    (Interesting product)
 
 
   <4Vern_Anderson> ## DONT USE INTERNET EXPLORER it doesn't work with the vide
@@ -115,16 +115,16 @@ aliases:
   <7JimBirley> ### PS 3.0
 
 
-  <7BrianK> ##will I be at a disadvantage if I don't have SCCM? Â If so what functionality do I lose?
+  <7BrianK> ##will I be at a disadvantage if I don't have SCCM?  If so what functionality do I lose?
 
 
-  <7BrianK> ##Could I use Group Policy as a targeting mechanism if I don't have SCCM? Â Or would that be messy?
+  <7BrianK> ##Could I use Group Policy as a targeting mechanism if I don't have SCCM?  Or would that be messy?
 
 
   <4Vern_Anderson> ## And you could train a helpdesk person to creat packages
 
 
-  <7JimBirley> ### does the product called Tanium play in this space? Â Peer-to-Peer distribution model based tool.
+  <7JimBirley> ### does the product called Tanium play in this space?  Peer-to-Peer distribution model based tool.
 
 
   <6Rich> ## Why does most of your documentation use Lotus Notes as the example application?

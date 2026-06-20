@@ -123,7 +123,7 @@ aliases:
 
 
 
-    Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+    Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
 
@@ -239,7 +239,7 @@ aliases:
 
 
 
-    [22:21:22]  ## what parsing tricks would you recommend people use for legacy applications? Â ## any other tips for legacy apps?
+    [22:21:22]  ## what parsing tricks would you recommend people use for legacy applications?  ## any other tips for legacy apps?
 
 
 

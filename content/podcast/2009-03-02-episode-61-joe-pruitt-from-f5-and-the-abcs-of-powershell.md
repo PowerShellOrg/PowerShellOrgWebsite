@@ -43,13 +43,13 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-        This segment is brought to you byÂ [SAPIEN Technologies](http://sapien.com/).
+        This segment is brought to you by [SAPIEN Technologies](http://sapien.com/).
 
 
 
 
 
-        Â 
+         
 
 
 
@@ -64,7 +64,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-          Â 
+           
 
 
 
@@ -72,47 +72,47 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
           - 
             PowerGui 1.7
-Â 
+ 
 [has been released](http://dmitrysotnikov.wordpress.com/2009/02/26/whats-new-in-powergui-17/)
 
 
           - 
             Quest has
-Â 
+ 
 [put up a survey](http://dmitrysotnikov.wordpress.com/2009/02/22/powergui-org-survey/)
-Â 
+ 
 to help determine the direction of PowerGUI
 
 
           - 
             Don Jones
-Â 
+ 
 [has offered to review](http://concentratedtech.com/content/index.php/2009/01/powershell-script-reviews-your-scripts-wanted/)
-Â 
+ 
 submitted scripts
 
 
           - 
             Jeffrey Snover recently
-Â 
+ 
 [weighed in](http://stackoverflow.com/questions/573623/powershell-vs-unix-shells/573861#573861)
-Â 
+ 
 on a StackOverflow question on
-Â 
+ 
 [PowerShell vs Unix Shells](http://stackoverflow.com/questions/573623/powershell-vs-unix-shells)
 
 
           - 
             Jeff Hicks
-Â 
+ 
 [posted a reminder](http://blog.sapien.com/index.php/2009/02/24/powershell-fundamentals-online-class-starting-soon/)
-Â 
+ 
 that Sapien has a new round of online PowerShell fundamentals classes starting March 10th
 
 
           - 
             SAPIEN has posted a clarification to their blog about the new
-Â 
+ 
 [PrimalScript and PrimalTools software](http://blog.sapien.com/index.php/2009/02/26/look-ma-no-editions/)
 
 
@@ -125,7 +125,7 @@ that Sapien has a new round of online PowerShell fundamentals classes starting M
 
 
 ## 
-          InterviewÂ 
+          Interview 
 
 
 
@@ -152,7 +152,7 @@ that Sapien has a new round of online PowerShell fundamentals classes starting M
 
 
 
-Get on the fast track to PowerShell scripting success withÂ 
+Get on the fast track to PowerShell scripting success with 
 **
 PowerGUI
 **
@@ -171,13 +171,13 @@ PowerGUI
 
 
 
-JoinÂ 
+Join 
 **
-PowerShell MVPs Dmitry Sotnikov and Kirk MunroÂ 
+PowerShell MVPs Dmitry Sotnikov and Kirk Munro 
 **
-for a live chat atÂ 
+for a live chat at 
 **
-Quest Connect,Â 
+Quest Connect, 
 **
 a free, on-demand virtual tradeshow where you can get the answers you need to solve your toughest PowerShell challenges
 
@@ -188,7 +188,7 @@ a free, on-demand virtual tradeshow where you can get the answers you need to so
 
 
 
-VisitÂ 
+Visit 
 
 
 [
@@ -196,26 +196,26 @@ www.quest.com/poshchat
 ](http://www.quest.com/poshchat)
 
 
-Â today to learn more and to register
+ today to learn more and to register
 
 
 
 
 
 
-                        Â 
+                         
 
 
 
 
 
-                        Â 
+                         
 
 
 
 
 
-                        Â 
+                         
 
 
 
@@ -230,7 +230,7 @@ www.quest.com/poshchat
 
 
                         - 
-                          glnsize : ## how deep do you plan on going with your cmdlets? Â what percentage of your product line do you want to cover?
+                          glnsize : ## how deep do you plan on going with your cmdlets?  what percentage of your product line do you want to cover?
 
 
                         - 
@@ -238,7 +238,7 @@ www.quest.com/poshchat
 
 
                         - 
-                          glnsize : ## Â doesn't that invalidate the whole perpose of SSL... not posh related but a pet peeve
+                          glnsize : ##  doesn't that invalidate the whole perpose of SSL... not posh related but a pet peeve
 
 
                         - 
@@ -250,7 +250,7 @@ www.quest.com/poshchat
 
 
 
-                        Â 
+                         
 
 
 
@@ -287,7 +287,7 @@ www.quest.com/poshchat
 
 
                             *This segment is brought to you by Idera:
- Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!*
+ Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!*
 
 
 
@@ -317,7 +317,7 @@ www.quest.com/poshchat
 
 
 
-                              Â 
+                               
 
 
 
@@ -325,52 +325,52 @@ www.quest.com/poshchat
 
                               - 
                                 Better
-Â 
+ 
 [Warcraft gear script](http://www.ericwoodford.com/better-warcraft-gear-script-version-2)
 
 
                               - 
                                 Lee shows us how to
-Â 
+ 
 [move or delete a really locked file](http://www.leeholmes.com/blog/MovingAndDeletingReallyLockedFilesInPowerShell.aspx)
 
 
                               - 
                                 Karl shows us how to search the PoshCode repository
-Â 
+ 
 [directly from Windows 7](http://karlprosser.com/coder/2009/02/16/searching-poshcode-repository-from-your-desktop-in-windows-7/)
 
 
                               - 
                                 Don Jones' Code Review #1:
-Â 
+ 
 [server audit script](http://concentratedtech.com/content/index.php/2009/01/script-review-1/)
 
 
                               - 
                                 A script to tell you if a
-Â 
+ 
 [partition is aligned or not](http://ict-freak.nl/2009/02/23/powershell-check-if-partition-is-aligned-or-not/)
 
 
                               - 
                                 Doug has published a script to
-Â 
+ 
 [grab data from a Google Docs spreadsheet](http://dougfinke.com/blog/index.php/2009/02/22/powershell-get-googlespreadsheets/)
 
 
                               - 
 
-ShayÂ 
+Shay 
 
 shows us how
 
-Â to
-Â 
+ to
+ 
 
 [create a web client request](http://stackoverflow.com/questions/571429/powershell-web-requests-and-proxies/573414#573414)
 
-Â 
+ 
 using default net credentials and web proxy
 
 
@@ -378,16 +378,16 @@ using default net credentials and web proxy
 
                               - 
 
-JoelÂ 
+Joel 
 
 shows us how
 
-Â to
-Â 
+ to
+ 
 
 [cleanly parse NETSH DHCP SERVER](http://www.powershellcommunity.org/Forums/tabid/54/aff/1/aft/3674/afv/topic/afpgj/1/Default.aspx#4356)
 
-Â 
+ 
 output using PowerShell
 
 
@@ -399,7 +399,7 @@ output using PowerShell
 
 
 
-                                Â 
+                                 
 
 
 
@@ -411,7 +411,7 @@ output using PowerShell
 ## 
                                 Tips
 
-Â 
+ 
 
 
 
@@ -419,7 +419,7 @@ output using PowerShell
 
 
 
-                                Â 
+                                 
 
 
 

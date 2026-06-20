@@ -141,7 +141,7 @@ On remoting
 
           - 
 
-Can you use -match instead of -eq?Â  Jeffery Snover's [blog post](http://tinyurl.com/2thy5w).
+Can you use -match instead of -eq?  Jeffery Snover's [blog post](http://tinyurl.com/2thy5w).
 
 
 
@@ -164,7 +164,7 @@ Whenever you find yourself using "“EQ, ask yourself if that is really want you
 
             - 
 
-Don't forget what you already knowÂ Â Â Â  
+Don't forget what you already know     
 
 
 
@@ -214,7 +214,7 @@ Gotchas
 
 [Excellent description](http://www.scriptinganswers.com/forum2/forum_posts.asp?TID=1041&PID=6127) of the PowerShell bug I ran into passing credentials with WMI from
 
-Â //o//
+ //o//
 
 
 
@@ -252,7 +252,7 @@ out-file $profile -noclobber -append -input `n'function sub($x,$y){$x - $y}'
 
 
 
-Â **Thanks for listening!**
+ **Thanks for listening!**
 
 
 

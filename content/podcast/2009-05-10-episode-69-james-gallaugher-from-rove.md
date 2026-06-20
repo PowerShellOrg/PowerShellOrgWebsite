@@ -39,7 +39,7 @@ Tonight on the PowerScripting Podcast we talk to Jason Gallaugher from Rove
 
 
 
-    *This segment is brought to you byÂ *[*SAPIEN Technologies*](http://sapien.com/)*.*
+    *This segment is brought to you by *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
 
@@ -54,31 +54,31 @@ Tonight on the PowerScripting Podcast we talk to Jason Gallaugher from Rove
 
         - 
           Hal's new book
-Â 
+ 
 [has been released and is shipping!](http://blogs.vmware.com/vipowershell/2009/05/now-shipping-managing-vmware-infrastructure-with-windows-powershell.html)
 
 
         - 
           PowerShell Plus 3.0
-Â 
+ 
 [has been released](http://powershell.com/cs/blogs/news/archive/2009/05/01/powershellplus-3-0-released.aspx)
 
 
         - 
           Here's a
-Â 
+ 
 [script](http://synjunkie.blogspot.com/2009/04/powershell-vs-conficker.html)
-Â 
+ 
 for tracking down the Conficker worm
 
 
         - 
-          The PowerShell toys we talked about with Lance RobinsonÂ [are now available](http://geekswithblogs.net/Lance/archive/2009/05/04/new-toys-for-powershell.aspx)
+          The PowerShell toys we talked about with Lance Robinson [are now available](http://geekswithblogs.net/Lance/archive/2009/05/04/new-toys-for-powershell.aspx)
 
 
         - 
           PowerShell
-Â 
+ 
 [roadshow in Germany](http://powershell.com/cs/blogs/news/archive/2009/04/23/powershell-roadshow-in-germany.aspx)
 
 
@@ -104,7 +104,7 @@ for tracking down the Conficker worm
 
 
 
-        *Is your scripting might equal to the challenge? Put the power in your hands "“Â *[*download PowerGUI today*](http://quest.com/powerscripting)*.*
+        *Is your scripting might equal to the challenge? Put the power in your hands "“ *[*download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 
@@ -116,9 +116,9 @@ for tracking down the Conficker worm
 
 
           Jason Gallaugher from
-Â 
+ 
 [Rove](http://www.roveit.com/)
-Â 
+ 
 talking about Mobile Admin
 
 
@@ -137,7 +137,7 @@ talking about Mobile Admin
 
 
 
-          glnsize: ## more realistic your log drive is full... service restart wont do. Â what level of control is there realy?
+          glnsize: ## more realistic your log drive is full... service restart wont do.  what level of control is there realy?
 
 
 
@@ -172,7 +172,7 @@ Resources
 
 
             *
-Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!*
+Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!*
 
 
 
@@ -190,25 +190,25 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
             - 
               Jeffery Snover
-Â 
+ 
 [brings us some fun with alerts](http://blogs.msdn.com/powershell/archive/2009/05/07/fun-with-alerts-a.aspx)
 
 
             - 
               A cool script to
-Â 
+ 
 [create new subnets in AD](http://poshcode.org/1068)
 
 
             - 
               Run a
-Â 
+ 
 [portscan with PowerShell](http://theadminguy.wordpress.com/2009/04/30/portscan-with-powershell/)
 
 
             - 
               A
-Â 
+ 
 [PowerShell packet sniffer](http://blog.robbiefoust.com/?p=68)
 
 
@@ -229,9 +229,9 @@ Want to make Windows PowerShell easier than ever to learn and master? Checkout I
 
                 - 
                   Don't assume that what you see is what you get. Sometimes an
-Â 
+ 
 [apple is an orange](http://blog.sapien.com/index.php/2009/05/07/sometimes-an-apple-is-an-orange/)
-Â 
+ 
 .
 
 

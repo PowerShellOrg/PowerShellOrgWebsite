@@ -23,7 +23,7 @@ Tonight on the PowerScripting Podcast, we talk to Vittorio Bertocci about Window
 ## News
 
 This segment brought to you by Start-Automating  
-Start Scripting to Your Fullest Potential.Â  At Start-Automating, we can help you unleash the full Power of PowerShell V2.Â  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?Â  Find out more at [Start-Automating.com][1].
+Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com][1].
 
   * [SQL Saturday Atlanta: Call for Speakers is now open, event date is Sept 17th][2]
   * [Show-UI the love child of PowerBoots and WPK is now out!][3]

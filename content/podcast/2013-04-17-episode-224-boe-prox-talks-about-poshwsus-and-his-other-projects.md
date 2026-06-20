@@ -21,7 +21,7 @@ aliases:
   Tonight on the PowerScripting Podcast, we talk to Boe Prox about Windows Software Update Services and PowerShell
 
 
-****Â ****
+**** ****
 
 ## News
 

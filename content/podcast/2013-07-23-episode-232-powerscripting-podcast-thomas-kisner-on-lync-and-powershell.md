@@ -47,7 +47,7 @@ Listen:
     - 
 
 
-        [Learn PowerShell July 18th](https://powershell.org/2013/06/27/a-special-presentation-on-getting-started-with-powershell/)Â with Jeffrey Snover and Jason Helmick!
+        [Learn PowerShell July 18th](https://powershell.org/2013/06/27/a-special-presentation-on-getting-started-with-powershell/) with Jeffrey Snover and Jason Helmick!
 
 
 
@@ -56,7 +56,7 @@ Listen:
     - 
 
 
-        The Charlotte PowerShell user group isÂ [meeting July 11th](http://powershellgroup.org/2013-07-11)
+        The Charlotte PowerShell user group is [meeting July 11th](http://powershellgroup.org/2013-07-11)
 
 
 
@@ -65,7 +65,7 @@ Listen:
     - 
 
 
-        [PowerShell Saturday Singapore 01](http://powershellgroup.org/2013-07-20)Â is July 20th!
+        [PowerShell Saturday Singapore 01](http://powershellgroup.org/2013-07-20) is July 20th!
 
 
 
@@ -133,7 +133,7 @@ Listen:
     - 
 
 
-         Been a WHILE since I was able to make one of theseÂ ![:)](http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif?m=1129645325g)Â Â Good to be back.
+         Been a WHILE since I was able to make one of these ![:)](http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif?m=1129645325g)  Good to be back.
 
 
 
@@ -152,4 +152,4 @@ Listen:
     - 
 
 
-        Superhero/Power "“ Â Super Strength
+        Superhero/Power "“  Super Strength

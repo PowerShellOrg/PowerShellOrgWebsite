@@ -31,7 +31,7 @@ _Before you acquire power, you must acquire knowledge "“ and Quest Software ha
 
   *
  Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
- Â 
+  
 
 
   * [PrimalForms 2009 is out][1]{#ve41}
@@ -40,18 +40,18 @@ _Before you acquire power, you must acquire knowledge "“ and Quest Software ha
   * Bruce Payette is up to chapter 5 of his [PowerShell in Action 2nd Ed][4]{#l9tg}.
   * Richard Siddaway looks to be close to finishing his [PowerShell in Practice][5]{#m21j} book.
 
-Â 
+ 
 
 ## 
 Interview
 
 
-  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ **[www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!*
+  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to **[www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!*
 
 
 
 
-    Â 
+     
  Thanks to our listeners Rob from the midwest, Staci (Hal's wife), and Andrew Tearle--all the way from New Zealand!
 
 
@@ -66,7 +66,7 @@ Resources
 
 
 
-    Â 
+     
 
 
 
@@ -85,7 +85,7 @@ Resources
 
 
     - 
-      [](http://www.virtualizationadmin.com/articles-tutorials/microsoft-hyper-v-articles/storage-management/administer-microsoft-hyper-v-command-line-cli.html)Hal started on a [Net-SNMP module](http://poshcode.org/1238)Â 
+      [](http://www.virtualizationadmin.com/articles-tutorials/microsoft-hyper-v-articles/storage-management/administer-microsoft-hyper-v-command-line-cli.html)Hal started on a [Net-SNMP module](http://poshcode.org/1238) 
 
 
     - 
@@ -101,7 +101,7 @@ Resources
 
 
 
-    Â 
+     
 
 
 
@@ -116,7 +116,7 @@ Resources
 
 
       - 
-        The Scripting Guys have a [neat article](http://blogs.technet.com/heyscriptingguy/archive/2009/07/22/hey-scripting-guy-how-can-i-speed-up-my-windows-powershell-scripts.aspx) on improving the speed of a PowerShell scriptÂ 
+        The Scripting Guys have a [neat article](http://blogs.technet.com/heyscriptingguy/archive/2009/07/22/hey-scripting-guy-how-can-i-speed-up-my-windows-powershell-scripts.aspx) on improving the speed of a PowerShell script 
 
 
       - 

@@ -11,7 +11,7 @@ aliases:
 
 **A Podcast about Windows PowerShell.**  
 Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]  
-We have a ton of stuff for you today.Â  Our interview is with Thorbjörn Sjövold from [Special Operations Software][2].Â  Also on tap: news (yes we have some today), resources, tips and even a gotcha.
+We have a ton of stuff for you today.  Our interview is with Thorbjörn Sjövold from [Special Operations Software][2].  Also on tap: news (yes we have some today), resources, tips and even a gotcha.
 
 ### News
 
@@ -19,10 +19,10 @@ _The news is brought to you by_ [*Sapien Technologies*](http://www.sapien.com/)_
 
   * SDM Software - [Group Policy Health cmdlet][3]
   * Portable PowerShell? [Karl Prosser has a way to do it.][4]
-  * Citrix has released a tech preview of their new [Workflow Studio product][5].Â  To download a copy, go to the [download page][6], but realize you have to have a My Citrix account (to which you can sign up for free).
-  * PowerGUI won the "[Breakthrough Product of 2008][7]" award at TechEd.Â  Congrats, guys!
+  * Citrix has released a tech preview of their new [Workflow Studio product][5].  To download a copy, go to the [download page][6], but realize you have to have a My Citrix account (to which you can sign up for free).
+  * PowerGUI won the "[Breakthrough Product of 2008][7]" award at TechEd.  Congrats, guys!
   * Dmitry [blogs about][8] a new MS Office Communication Server PowerGUI Powerpack
-  * We may see a new PowerShell V2 CTP drop in November to be timed with IT Forum Barcelona (the EU version of TechEd).Â  Jeffrey Snover also [hints at a release date][9] on his blog.
+  * We may see a new PowerShell V2 CTP drop in November to be timed with IT Forum Barcelona (the EU version of TechEd).  Jeffrey Snover also [hints at a release date][9] on his blog.
 
 ### Interview
 
@@ -33,7 +33,7 @@ _Go to_ [_www.quest.com/powerscripting_][11] _to register for your copy and down
 ### Resources
 
 _The resources are brought to you by_ [_iTripoli_][12]_._  
-_"Admin Script Editor provides a true integrated scripting environment for PowerShell.Â  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.Â  Let's not forget about the exclusive PowerShell forms designer. What's coming up? Soon its innovative and feature-rich ScriptPackger tool will offer support for the dynamic installation of cmdlets! Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at_ [_AdminScriptEditor.com_][13]_."_
+_"Admin Script Editor provides a true integrated scripting environment for PowerShell.  Advanced features include an integrated PowerShell debugger, advanced code generating tools for Active Directory, Databases, XML files and more.  Let's not forget about the exclusive PowerShell forms designer. What's coming up? Soon its innovative and feature-rich ScriptPackger tool will offer support for the dynamic installation of cmdlets! Come see for yourself-- Admin Script Editor v3.5 is availble for a 45 day trial at_ [_AdminScriptEditor.com_][13]_."_
 
   * Scriptform designer tip for the [Admin Script Editor][14]
   * This is from a twitter fan [stahler][15] and his new blog "[FatBeard's Adventures in PowerShell][16]": 
@@ -44,15 +44,15 @@ _"Admin Script Editor provides a true integrated scripting environment for Power
       * [Kirk Munro's Poshoholic][19]
   * Kirk Munro also brings us a [great book review][20] of the Windows PowerShell Pocket Reference (Lee Holmes)
   * Also Kirk let us know about an [interview][21] that Dmitry did during Teched for ITTV
-  * Go check out "[Benp's Guide to Stuff][22]".Â  This is from Ben Pearce, a field engineer from Microsoft.Â  He's got a great blog, but I wanted to mention that he's also a great speaker.Â  He did a wonderful PowerShell & WMI presentation at TechEd.Â  He's posted several of his demos on his website.
+  * Go check out "[Benp's Guide to Stuff][22]".  This is from Ben Pearce, a field engineer from Microsoft.  He's got a great blog, but I wanted to mention that he's also a great speaker.  He did a wonderful PowerShell & WMI presentation at TechEd.  He's posted several of his demos on his website.
 
 ### Gotcha
 
-  * This is from a longtime Citrix expert Brian Madden (brianmadden.com).Â  The article is from April, but I just came across it the other day.Â  The key part of [the article][23] is this quote:Â  _"a student in our 5-day Citrix Master class in Ausralia a few weeks ago told of doing the "right" thing. He said that he had taken the time to learn PowerShell and rewrote all of his VBS Citrix login scripts in PowerShell. The result? Login times went from about 2.5 seconds to over 15 seconds per user!"_ 
-      * What's the lesson here?Â  Don't use PowerShell for login scripts? I would say it is a non-issue for single-user workstations, but may be something to consider for your Citrix or Termainl Server app servers.Â  Hopefully we'll see this improve for V2.
+  * This is from a longtime Citrix expert Brian Madden (brianmadden.com).  The article is from April, but I just came across it the other day.  The key part of [the article][23] is this quote:  _"a student in our 5-day Citrix Master class in Ausralia a few weeks ago told of doing the "right" thing. He said that he had taken the time to learn PowerShell and rewrote all of his VBS Citrix login scripts in PowerShell. The result? Login times went from about 2.5 seconds to over 15 seconds per user!"_ 
+      * What's the lesson here?  Don't use PowerShell for login scripts? I would say it is a non-issue for single-user workstations, but may be something to consider for your Citrix or Termainl Server app servers.  Hopefully we'll see this improve for V2.
       * There's some amusing commentary on the article, you may want to check that out.
 
-Please email us () tips and feedback!Â  We also love iTunes reviews and blog comments.Â  Other ways to interact with us: [Facebook Group][24] (forums, networking), Twitter ([jonwalz][25] & [halr9000][26])
+Please email us () tips and feedback!  We also love iTunes reviews and blog comments.  Other ways to interact with us: [Facebook Group][24] (forums, networking), Twitter ([jonwalz][25] & [halr9000][26])
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-030.mp3
  [2]: http://www.specopssoft.com/powershell/

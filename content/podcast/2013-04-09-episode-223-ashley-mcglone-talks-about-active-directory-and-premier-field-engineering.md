@@ -22,11 +22,11 @@ aliases:
   Tonight on the PowerScripting Podcast, we talk to Ashley McGlone about Active Directory and Premier Field Engineering!
 
 
-****Â ****
+**** ****
 
 ## News
 
-****Â ****
+**** ****
 
   * 
 
@@ -54,7 +54,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -137,7 +137,7 @@ aliases:
   [22:27:07]  I keep watch on Ned Pyle from the Directory Services blog
 
 
-  [22:31:11]  I think the Summit will be awesome for the PS community. Â TechEd helps us to spread the love to people who have not started drinking the blue koolaid
+  [22:31:11]  I think the Summit will be awesome for the PS community.  TechEd helps us to spread the love to people who have not started drinking the blue koolaid
 
 
   [22:35:47] 
@@ -161,7 +161,7 @@ aliases:
 
 #### The Question -
 
-****Â ****
+**** ****
 
   * 
 

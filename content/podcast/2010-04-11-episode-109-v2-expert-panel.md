@@ -26,10 +26,10 @@ Tonight on the PowerScripting Podcast have a great panel discussion with tons of
 
 ## Interview
 
-_Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook][1]{#od7t}Â to register for your free copy or [quest.com/powerguipro][2]{#jqf7} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools._
+_Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit [quest.com/powershellbook][1]{#od7t} to register for your free copy or [quest.com/powerguipro][2]{#jqf7} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools._
 
 
-  *Version 2.1 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com](http://powerwf.com/).*
+  *Version 2.1 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com](http://powerwf.com/).*
 
 
 
@@ -113,12 +113,12 @@ Sean Kearney - The Flash
 
     - 
 
-Aleksander -Â 
+Aleksander - 
 
 
 Bernard Panasonik
- [23:23:47] Â [http://www.alagram.co.uk/images/inbox/Floating-Point.jpg](http://www.alagram.co.uk/images/inbox/Floating-Point.jpg)
- [23:25:52] Â [http://en.wikipedia.org/wiki/Zoran_Janjetov](http://en.wikipedia.org/wiki/Zoran_Janjetov)
+ [23:23:47]  [http://www.alagram.co.uk/images/inbox/Floating-Point.jpg](http://www.alagram.co.uk/images/inbox/Floating-Point.jpg)
+ [23:25:52]  [http://en.wikipedia.org/wiki/Zoran_Janjetov](http://en.wikipedia.org/wiki/Zoran_Janjetov)
 
 
 

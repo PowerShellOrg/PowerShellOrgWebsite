@@ -27,7 +27,7 @@ aliases:
   This segment is brought to you by TrainSignal
 
 
-  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more. Â For more info and a list of courses, visit[ TrainSignal.com](http://trainsignal.com/).
+  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more.  For more info and a list of courses, visit[ TrainSignal.com](http://trainsignal.com/).
 
 
   * 
@@ -64,7 +64,7 @@ aliases:
 **** 
 
 
-  Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).
+  Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
 ****  
@@ -118,7 +118,7 @@ aliases:
   DonJones: Hi, this is Don Jones - I once wrestled an aligator in order to learn his secrets about PowerShell
 
 
-  Schlauge: ## what tool do Rohn and Lido use to code? Â ISE? Â Powershell Plus? PowerGUI
+  Schlauge: ## what tool do Rohn and Lido use to code?  ISE?  Powershell Plus? PowerGUI
 
 
   RichPrescott: ## ScriptCenter Repository rocks the scripting world.
@@ -136,19 +136,19 @@ aliases:
   FishTender27: ## Ed's got so much energy... how many red bulls a day does he drink?
 
 
-  RichPrescott: ## @Jsnover: Is there any functionality that you wanted added in Windows Server 2012/Win 8, but were unable to see it implemented? Â Do you see the community filling the gaps with scripting?
+  RichPrescott: ## @Jsnover: Is there any functionality that you wanted added in Windows Server 2012/Win 8, but were unable to see it implemented?  Do you see the community filling the gaps with scripting?
 
 
   Schlauge: ## why is everyone pushing v3 so much when it's not even offical
 
 
-  ToENuFF: ## Any plans to finish the ISE host so that it meets all of the host reqs? Â Start-Transcript, etc
+  ToENuFF: ## Any plans to finish the ISE host so that it meets all of the host reqs?  Start-Transcript, etc
 
 
   Schlauge: ## my concern is that so much is said that dont use for PROD becuase it may not work later...
 
 
-  ToENuFF: @halr900 @richprescott fairer question: Â What are you looking forward to seeing come from the community?
+  ToENuFF: @halr900 @richprescott fairer question:  What are you looking forward to seeing come from the community?
 
 
   MarkDW_: Will there be a WOA/WindowsRT version of Powershell?

@@ -25,7 +25,7 @@ Listen:
 
   * 
 
-      Ed Wilson"™sÂ [Windows PowerShell 3.0 First Steps](http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735681007/ref=sr_1_2?ie=UTF8&qid=1374025116&sr=8-2&keywords=ed+wilson+first+steps)Â book is out!
+      Ed Wilson"™s [Windows PowerShell 3.0 First Steps](http://www.amazon.com/Windows-PowerShell-3-0-First-Steps/dp/0735681007/ref=sr_1_2?ie=UTF8&qid=1374025116&sr=8-2&keywords=ed+wilson+first+steps) book is out!
 
 
 
@@ -37,13 +37,13 @@ Listen:
 
   * 
 
-      [PowerShell Saturday 01Â ](http://powershellgroup.org/2013-07-20)Singapore is July 20th!
+      [PowerShell Saturday 01 ](http://powershellgroup.org/2013-07-20)Singapore is July 20th!
 
 
 
   * 
 
-      TheÂ [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/)Â is meeting August 1st
+      The [Philadelphia PowerShell group](https://powershell.org/2013/07/14/phillyposh-meeting-20130801/) is meeting August 1st
 
 
 

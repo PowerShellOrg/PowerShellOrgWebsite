@@ -10,9 +10,9 @@ aliases:
 
 _(We are recording on a new night (summer schedule), so update your calendars!)_  
 ![200px-Netapp_logo.svg](http://powerscripting.files.wordpress.com/2013/05/200px-netapp_logo-svg.png)  
-Tonight we are joined byÂ [Kevin Hill][1], an Automation Solutions Architect from NetApp. He'll be talking with us about a cool product from NetApp calledÂ [OnCommand Workflow Automation][2]Â which, as you might have guessed, is based on PowerShell!  
+Tonight we are joined by [Kevin Hill][1], an Automation Solutions Architect from NetApp. He'll be talking with us about a cool product from NetApp called [OnCommand Workflow Automation][2] which, as you might have guessed, is based on PowerShell!  
 
-As always, join us live at 9:30 PM EST Thursdays Wednesdays atÂ 
+As always, join us live at 9:30 PM EST Thursdays Wednesdays at 
 [http://live.powerscripting.net](http://live.powerscripting.net/)
 !
 

@@ -14,7 +14,7 @@ Windows 5 OT
 Windows 6 PT  
 Windows 7 QT  
 Windows 8 RT (Re-imagined Technology?)  
-That's my crazy theory, what's yours? Why not track me down at [PowerShell Saturday][1]Â this Saturday and tell me? What? You're not going to be there? Bummer...well, I guess you could leave a comment.  
+That's my crazy theory, what's yours? Why not track me down at [PowerShell Saturday][1] this Saturday and tell me? What? You're not going to be there? Bummer...well, I guess you could leave a comment.  
 -Jonathan
 
  [1]: http://powershellsaturday.com/003/

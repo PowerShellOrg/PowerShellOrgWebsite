@@ -30,46 +30,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * Gregg Britton's tip is ["go to SQL Saturday #49 in Orlando October 16th"][2]{#nft:}
   * Doug Finke will be presenting a [PowerShell session at the Pittsburgh Code Camp October 16th][3]
@@ -96,7 +96,7 @@ This segment brought to you by ServerFault.com
 
   * [PowerShell cmdlets for the Microsoft iSCSI Target 3.3][8]{#bids}
   * Jonathan Medd's excellent series PowerShell 2.0 One Cmdlet at a Time [is now available as a PDF][9]
-  * [Use PowerShell to trip text from PDFs][10]{#cip6}Â (from @Toenuff)
+  * [Use PowerShell to trip text from PDFs][10]{#cip6} (from @Toenuff)
   * Emmett Lynch [shared a starter resource][11] for getting started with PowerShell and Sharepoint
   * [Mapping Cluster.exe Commands to Windows PowerShell Cmdlets for Failover Clusters - Extended Edition][12]{#z3c0}
   * [Custom PowerShell Objects and Performance][13]**
@@ -110,7 +110,7 @@ Contest
 **
 
 
-If you would like to be entered to win a copy of Lee Holmes'Â [PowerShell Cookbook, 2nd Ed.][14]{#q_2a}, all you have to do is send in your PowerShell tips! We want to hear what YOU think is cool, or what you have in your profile, or some of your favorite one-liners! Send in your entries to [feedback@powerscripting.net][15]{#qlm7}, and tell a friend! We have FIVE copies to give away. Contest ends October 7th, so send in your entry today!
+If you would like to be entered to win a copy of Lee Holmes' [PowerShell Cookbook, 2nd Ed.][14]{#q_2a}, all you have to do is send in your PowerShell tips! We want to hear what YOU think is cool, or what you have in your profile, or some of your favorite one-liners! Send in your entries to [feedback@powerscripting.net][15]{#qlm7}, and tell a friend! We have FIVE copies to give away. Contest ends October 7th, so send in your entry today!
 
  [1]: http://quest.com/powerguipro "quest.com/powerguipro"
  [2]: http://www.sqlsaturday.com/49/eventhome.aspx ""go to SQL Saturday #49 in Orlando October 16th""

@@ -8,7 +8,7 @@ aliases:
   - /2013/09/phillyposh-09052013-meeting-summary/
 ---
 
-* [Author][1], [Scripting Games 2013 winner][2], and founder of the [Mississippi PowerShell User Group][3], [Mike Robbins][4], gave a presentation entitledÂ "Using CIM Cmdlets and CIM Sessions" via Lync.
+* [Author][1], [Scripting Games 2013 winner][2], and founder of the [Mississippi PowerShell User Group][3], [Mike Robbins][4], gave a presentation entitled "Using CIM Cmdlets and CIM Sessions" via Lync.
   * Afterwards various group members participated in script and tell.
   * A [recording of the meeting is available][5] on our [YouTube channel][6], please note that half way through our script club we had an issue with a duplicate audio track.
 

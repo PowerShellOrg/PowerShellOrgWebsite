@@ -48,7 +48,7 @@ Tonight on the PowerScripting Podcast we talk to Microsoft Distinguished Enginee
 
 
       - 
-        [PowerShell v2.0 3rd Ed. TFM](http://www.sapienpress.com/powershell3.asp) e-book (Sponsored byÂ [Quest Software](http://www.quest.com/), makers ofÂ [PowerGUI](http://powergui.org/))
+        [PowerShell v2.0 3rd Ed. TFM](http://www.sapienpress.com/powershell3.asp) e-book (Sponsored by [Quest Software](http://www.quest.com/), makers of [PowerGUI](http://powergui.org/))
 
 
       - 
@@ -80,7 +80,7 @@ News
 *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory.*
 
 
-*Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+*Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -90,7 +90,7 @@ News
 
 
         - 
-          Brandon ShellÂ [just released a beta of his BSonPosh module](http://bsonposh.com/archives/1051)
+          Brandon Shell [just released a beta of his BSonPosh module](http://bsonposh.com/archives/1051)
 
 
         - 

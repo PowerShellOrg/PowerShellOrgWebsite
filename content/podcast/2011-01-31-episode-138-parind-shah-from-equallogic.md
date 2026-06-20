@@ -28,13 +28,13 @@ Tonight on the PowerScripting Podcast, we talk to Parind Shah from Dell about Eq
   This segment is brought to you by Start-Automating
 
 
-Â 
+ 
 
 
-  *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).*
+  *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
-Â 
+ 
 
   * Marc van Orsouw will be [running the PowerShell Script Club in Zurich Feb 1st][1]{#vfir}
   * Don Jones is [seeking input on his upcoming advanced-level PowerShell book][2]{#xvgk}. Leave your comments on his blog!
@@ -47,7 +47,7 @@ Interview
 **
 
 
-  The news is brought to you byÂ [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
+  The news is brought to you by [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
 
 
   **Links:**
@@ -66,7 +66,7 @@ Interview
   21:49  ## have your tried to get a consistent PowerShell story with other SAN manufacturers like Compellent?
 
 
-  21:54  # was the top-down part of the push for PowerShell management part of an overall push @ dell? Â There are a lot of dell hardware that could use specialized management
+  21:54  # was the top-down part of the push for PowerShell management part of an overall push @ dell?  There are a lot of dell hardware that could use specialized management
 
 
   21:54  # what do you have in mind for the 2nd release?
@@ -101,7 +101,7 @@ This segment is brought to you by [SAPIEN Technologies][8]{#ke7l}
 ### Tips
 
 
-  This segment brought to you byÂ [ServerFault.com](http://serverfault.com/)
+  This segment brought to you by [ServerFault.com](http://serverfault.com/)
 
 
   * From Ravi: [Use Dropbox to share profiles across multiple systems][17]{#q192}
@@ -113,7 +113,7 @@ This segment is brought to you by [SAPIEN Technologies][8]{#ke7l}
   * [What the heck is Finally for][22]{#k-w.}? (as in Try..Catch..Finally)
   * [Clear an AD attribute][23]{#n222}
 
-Â 
+ 
 
 ### One-Liner of the Week!
 

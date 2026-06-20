@@ -43,7 +43,7 @@ aliases:
 
 
 
-    Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more. Â For more info and a list of courses, visit [TrainSignal.com](http://trainsignal.com/).
+    Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more.  For more info and a list of courses, visit [TrainSignal.com](http://trainsignal.com/).
 
 
 
@@ -144,7 +144,7 @@ aliases:
 
 
 
-    Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+    Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
 
@@ -159,15 +159,15 @@ aliases:
     - 
 
 
-        [http://scriptcop.start-automating.com](http://scriptcop.start-automating.com/)Â Â - powershell best practices
- [http://ezout.start-automating.com](http://ezout.start-automating.com/)Â - types and formatting
- [http://show-ui.com](http://show-ui.com/)Â - You know it
- [http://powershellpipeworks.com/](http://powershellpipeworks.com/)Â - Web Development with PowerShell
- [http://pingme.start-automating.com](http://pingme.start-automating.com/)Â Â - Ping monitor
- [http://heatmap.start-automating.com](http://heatmap.start-automating.com/)Â - CPU monitoring module
- [http://securesettings.start-automating.com](http://securesettings.start-automating.com/)Â - Cred / Secret Data Management
- [http://codecraft.start-automating.com/](http://codecraft.start-automating.com/)Â - code generation fun
- [http://autobrowse.start-automating.com](http://autobrowse.start-automating.com/)Â / - IE Automation
+        [http://scriptcop.start-automating.com](http://scriptcop.start-automating.com/)  - powershell best practices
+ [http://ezout.start-automating.com](http://ezout.start-automating.com/) - types and formatting
+ [http://show-ui.com](http://show-ui.com/) - You know it
+ [http://powershellpipeworks.com/](http://powershellpipeworks.com/) - Web Development with PowerShell
+ [http://pingme.start-automating.com](http://pingme.start-automating.com/)  - Ping monitor
+ [http://heatmap.start-automating.com](http://heatmap.start-automating.com/) - CPU monitoring module
+ [http://securesettings.start-automating.com](http://securesettings.start-automating.com/) - Cred / Secret Data Management
+ [http://codecraft.start-automating.com/](http://codecraft.start-automating.com/) - code generation fun
+ [http://autobrowse.start-automating.com](http://autobrowse.start-automating.com/) / - IE Automation
 
 
 
@@ -387,7 +387,7 @@ aliases:
 
 
 
-    [22:42:04]  ## Have you done any load profiling? Â That is, serving a similar site in asp.net mvc and hitting them each with 200 simultaneous users to see machine load?
+    [22:42:04]  ## Have you done any load profiling?  That is, serving a similar site in asp.net mvc and hitting them each with 200 simultaneous users to see machine load?
 
 
 

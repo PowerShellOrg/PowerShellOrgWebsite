@@ -28,7 +28,7 @@ aliases:
   * [October Pittsburgh PowerShell Users Group Meeting -][3] Tuesday, October 16, 2012 -18:00 - 19:30
   * [PowerShell Saturday #3][4] in Atlanta, GA October 27, 2012
 
-****Â ****
+**** ****
 
 ## Interview
 
@@ -56,7 +56,7 @@ aliases:
   Super power: The Scripting Guy!
 
 
-****Â ****
+**** ****
 
 
   Chatroom Buzz

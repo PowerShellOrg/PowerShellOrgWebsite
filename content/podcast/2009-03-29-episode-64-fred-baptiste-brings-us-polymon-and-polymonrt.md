@@ -108,7 +108,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-            *Is your scripting might equal to the challenge? Put the power in your hands "“Â [download PowerGUI today*](http://quest.com/powerscripting)*.*
+            *Is your scripting might equal to the challenge? Put the power in your hands "“ [download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 
@@ -118,37 +118,37 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
               - 
                 PowerShell is now available as an
-Â 
+ 
 [optional download on Microsoft Update](http://blog.sapien.com/index.php/2009/03/26/microsoft-update-powershell-v10/)
 
 
               - 
                 Microsoft
-Â 
+ 
 [TechDays](http://www.msfttechdays.com/public/home.aspx)
-Â 
+ 
 live virtual event April 1st. PowerShell MVP and PSVUG leader Marco Shaw is presenting the only PowerShell session. You can find more about it on
-Â 
+ 
 [his blog](http://marcoshaw.blogspot.com/2009/03/free-event-techdays-defy-all-challenges.html).
 
 
               - 
                 Veeam just released some cmdlets to go with their VMware reporting product. But they flubbed the cmdlet names--[and apologized](http://www.veeammeup.com/2009/03/apology-to-powershell-community.html)
-Â 
+ 
 . Listen for the full story.
 
 
               - 
                 Quest is about to
-Â 
+ 
 [release version 1.2 of the AD Cmdlets](http://www.bobbobel.com/ad-cmdlets-version-12-went-gold-friday/)
 
 
               - 
                 Hal's book,
-Â 
+ 
 [Managing VMware Infrastructure with PowerShell: TFM](http://sapienpress.com/vmware.asp)
-Â 
+ 
 is available for pre-order this week!
 
 
@@ -167,7 +167,7 @@ is available for pre-order this week!
 
 
 ## 
-                InterviewÂ 
+                Interview 
 
 
 
@@ -179,7 +179,7 @@ is available for pre-order this week!
 
 
 
-                *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â to get your copy today!***
+                *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)* to get your copy today!***
 
 
 
@@ -208,11 +208,11 @@ is available for pre-order this week!
 
 
                   - 
-                    StevenMurawski : ##Is the next release of PolyMon going to use the PowerShell runtime as it's engine? Â (make all monitors cmdlets?)
+                    StevenMurawski : ##Is the next release of PolyMon going to use the PowerShell runtime as it's engine?  (make all monitors cmdlets?)
 
 
                   - 
-                    Â spowser : ## I saw there was a note about a web interface, is there an ETA on that?
+                     spowser : ## I saw there was a note about a web interface, is there an ETA on that?
 
 
                   - 
@@ -240,7 +240,7 @@ is available for pre-order this week!
 
 
                   - 
-                    PolyMon Controls:Â [http://www.codeplex.com/PolyMonControls](http://www.codeplex.com/PolyMonControls)
+                    PolyMon Controls: [http://www.codeplex.com/PolyMonControls](http://www.codeplex.com/PolyMonControls)
 
 
 
@@ -259,7 +259,7 @@ is available for pre-order this week!
 
 
                   *This segment is brought to you by
-Â 
+ 
 *[*SAPIEN Technologies*](http://sapien.com/)*.*
 
 
@@ -268,7 +268,7 @@ is available for pre-order this week!
 
 
 
-                    Â 
+                     
 
 
 
@@ -276,7 +276,7 @@ is available for pre-order this week!
 
                     - 
                       PowerShell 0-60
-Â 
+ 
 [in One Evening](http://www.jonoble.com/blog/2009/3/26/powershell-0-60-in-one-evening.html)
 
 
@@ -288,7 +288,7 @@ is available for pre-order this week!
 
 
                         FatBeard put up
-Â 
+ 
 [
 a list of snapins
 ](http://fatbeards.blogspot.com/2009/03/additional-cmdlets-for-powershell.html), some of which you may not have seen.
@@ -299,7 +299,7 @@ a list of snapins
 
                     - 
                       Don Jones has put up a new series (5 parts so far) called
-Â 
+ 
 [Practical PowerShell](http://www.idera.com/Content/Show108.aspx?s=powerscripting)
 
 
@@ -310,7 +310,7 @@ a list of snapins
 
 
 
-                      Â 
+                       
 
 
 
@@ -322,7 +322,7 @@ a list of snapins
 ## 
                       Tips
 
-Â 
+ 
 
 
 
@@ -330,7 +330,7 @@ a list of snapins
 
 
 
-                      Â 
+                       
 
 
 
@@ -338,13 +338,13 @@ a list of snapins
 
                       - 
                         [Using Get-Member -Static](http://stackoverflow.com/questions/668321/how-to-use-powershell-get-member-cmdlet)
-Â 
+ 
 (from Stack Overflow)
 
 
                       - 
                         [Using Unicode function names](http://dougfinke.com/blog/index.php/2009/03/22/powershell-unicode-function-names/)
-Â 
+ 
 (from Doug Finke)
 
 
@@ -379,8 +379,8 @@ a list of snapins
 
 
 
-                Â 
- Â 
+                 
+  
 
 
 
@@ -388,7 +388,7 @@ a list of snapins
 
 
 
-              Â 
+               
 
 
 

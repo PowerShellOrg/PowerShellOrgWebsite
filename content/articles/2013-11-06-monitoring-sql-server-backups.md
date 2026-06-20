@@ -11,7 +11,7 @@ aliases:
 ---
 
 One of the most important tasks for the** **DBAs is to ensure that there is a maintenance plan to recover data from a given disaster.
-Â  
+  
 As a DBA we need to design a maintenance plan according to our scenario and business requirements. Do we want to be able to recover data at any point of time? How much data loss can we accept? All these questions and many more must be answered before designing the plan. In this post we will assume a basic daily full backup to keep our data safe, we will assume that there is a job performing full backups to our databases every day at midnight. 
 
 
@@ -42,7 +42,7 @@ Use
 
 
 
-Â 
+ 
 
 
 
@@ -77,7 +77,7 @@ as
 
 
 
-Â Â Â  
+    
 
 select
 
@@ -89,7 +89,7 @@ select
 
 
 
-Â Â Â Â Â Â Â  
+        
 bck
 .
 database_name
@@ -103,7 +103,7 @@ database_name
 
 
 
-Â Â Â Â Â Â Â  
+        
 bck
 .
 database_guid
@@ -117,7 +117,7 @@ database_guid
 
 
 
-Â Â Â Â Â Â Â  
+        
 bck
 .
 backup_start_date
@@ -131,7 +131,7 @@ backup_start_date
 
 
 
-Â Â Â Â Â Â Â  
+        
 bck
 .
 backup_finish_date
@@ -145,7 +145,7 @@ backup_finish_date
 
 
 
-Â Â Â Â Â Â Â  
+        
 bckmf
 .
 physical_device_name 
@@ -161,7 +161,7 @@ as
 
 
 
-Â Â Â Â Â Â Â  
+        
 BackupType
 =
 
@@ -173,7 +173,7 @@ BackupType
 
 
 
-Â Â Â Â Â Â Â  
+        
 
 case
 
@@ -185,7 +185,7 @@ case
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 when
  bck
@@ -207,7 +207,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 when
 
@@ -229,7 +229,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 when
 
@@ -251,7 +251,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 else
 
@@ -265,7 +265,7 @@ else
 
 
 
-Â Â Â Â Â Â Â  
+        
 
 end
 
@@ -277,7 +277,7 @@ end
 
 
 
-Â Â Â  
+    
 
 from
  backupset 
@@ -291,7 +291,7 @@ as
 
 
 
-Â Â Â  
+    
 
 inner
 
@@ -307,7 +307,7 @@ as
 
 
 
-Â Â Â Â Â Â Â  
+        
 
 on
  bck
@@ -351,7 +351,7 @@ as
 
 
 
-Â Â Â Â Â  
+      
 
 select
 
@@ -365,7 +365,7 @@ select
 
 
 
-Â Â Â Â Â  
+      
 
 from
 
@@ -377,7 +377,7 @@ from
 
 
 
-Â Â Â Â Â  
+      
 
 
 (
@@ -389,7 +389,7 @@ from
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 select
 
@@ -401,7 +401,7 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 ROW_NUMBER
 
@@ -416,7 +416,7 @@ PARTITION
 BY
  V
 .
-database_guid, V.BackupTypeÂ 
+database_guid, V.BackupType 
 order
 
 by
@@ -439,7 +439,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 *
 
@@ -451,7 +451,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 from
  backup_info 
@@ -465,7 +465,7 @@ as
 
 
 
-Â Â Â Â Â  
+      
 
 )
 
@@ -479,7 +479,7 @@ as
 
 
 
-Â Â Â Â Â  
+      
 
 where
  VV
@@ -529,7 +529,7 @@ as
 
 
 
-Â Â Â Â Â  
+      
 
 select
 
@@ -541,7 +541,7 @@ select
 
 
 
-Â Â Â  
+    
 name
 ,
 database_guid
@@ -555,7 +555,7 @@ state_desc
 
 
 
-Â Â Â Â Â  
+      
 
 from
 
@@ -575,7 +575,7 @@ as
 
 
 
-Â Â Â Â Â  
+      
 
 inner
 
@@ -597,7 +597,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 on
  dbrs
@@ -631,7 +631,7 @@ select
 
 
 
-Â Â Â  
+    
 name
 ,
 
@@ -643,7 +643,7 @@ name
 
 
 
-Â Â Â  
+    
 
 case
 
@@ -709,7 +709,7 @@ as
 
 
 
-Â Â Â  
+    
 
 on
  V
@@ -762,7 +762,7 @@ desc
 
 
 
-Â 
+ 
 
 
 
@@ -804,20 +804,20 @@ With PowerShell we will be able to query all msdb databases from all the desired
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â  1. Xml file with Server information
+              1. Xml file with Server information
 
 
 
 
 a.
-Â Â Â Â Â Â  
+       
 
 
 SQL Server instance, user name, password"¦
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â  2. PowerShell script
+              2. PowerShell script
 
 
 
@@ -849,7 +849,7 @@ Param
 
 
 
-Â  
+  
 [
 
 int
@@ -869,7 +869,7 @@ $DaysSinceLastBackup
 
 
 
-Â  
+  
 [
 
 string
@@ -889,7 +889,7 @@ $serversPath
 
 
 
-Â 
+ 
 )
 
 
@@ -899,7 +899,7 @@ $serversPath
 
 
 
-Â 
+ 
 
 
 Function
@@ -931,7 +931,7 @@ $query
 
 
 
-Â 
+ 
 {
 
 
@@ -941,7 +941,7 @@ $query
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlConnection
@@ -961,7 +961,7 @@ System.Data.SqlClient.SqlConnection
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlConnection
@@ -981,7 +981,7 @@ $conn
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlCmd
@@ -1001,7 +1001,7 @@ System.Data.SqlClient.SqlCommand
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlCmd
@@ -1023,7 +1023,7 @@ $query
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlCmd
@@ -1045,7 +1045,7 @@ $SqlConnection
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlAdapter
@@ -1065,7 +1065,7 @@ System.Data.SqlClient.SqlDataAdapter
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlAdapter
@@ -1087,7 +1087,7 @@ $SqlCmd
 
 
 
-Â Â Â Â  
+     
 
 
 $DataTable
@@ -1107,7 +1107,7 @@ System.Data.DataTable
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlAdapter
@@ -1137,7 +1137,7 @@ Null;
 
 
 
-Â Â Â Â  
+     
 
 
 $SqlConnection
@@ -1157,7 +1157,7 @@ Close
 
 
 
-Â Â Â Â  
+     
 
 
 
@@ -1167,7 +1167,7 @@ Close
 
 
 
-Â Â Â Â  
+     
 
 
 return
@@ -1190,7 +1190,7 @@ $DataTable
 
 
 
-Â 
+ 
 
 
 
@@ -1227,7 +1227,7 @@ $conn
 
 
 
-Â Â Â Â Â  
+      
 
 
 $query
@@ -1243,7 +1243,7 @@ $query
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 Use
@@ -1257,7 +1257,7 @@ msdb;
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 
@@ -1267,7 +1267,7 @@ msdb;
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 with
@@ -1281,7 +1281,7 @@ backup_info
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 as
@@ -1293,7 +1293,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 (
 
 
@@ -1303,7 +1303,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 select
@@ -1315,7 +1315,7 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 bck.database_name
@@ -1329,7 +1329,7 @@ bck.database_name
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 bck.database_guid
@@ -1343,7 +1343,7 @@ bck.database_guid
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 bck.backup_start_date
@@ -1357,7 +1357,7 @@ bck.backup_start_date
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 bck.backup_finish_date
@@ -1371,7 +1371,7 @@ bck.backup_finish_date
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 bckmf.physical_device_name
@@ -1389,7 +1389,7 @@ BackupFile_Path
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 BackupType
@@ -1403,7 +1403,7 @@ BackupType
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 case
@@ -1415,7 +1415,7 @@ case
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 when
@@ -1443,7 +1443,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 when
@@ -1465,7 +1465,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 when
@@ -1487,7 +1487,7 @@ then
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 else
@@ -1501,7 +1501,7 @@ else
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 end
@@ -1513,7 +1513,7 @@ end
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 from
@@ -1531,7 +1531,7 @@ bck
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 inner
@@ -1551,7 +1551,7 @@ bckmf
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 on
@@ -1569,7 +1569,7 @@ bckmf.media_set_id
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 ), 
 
 Last_Backups
@@ -1581,7 +1581,7 @@ Last_Backups
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 as
@@ -1593,7 +1593,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 (
 
 
@@ -1603,7 +1603,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 select
@@ -1617,7 +1617,7 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 from
@@ -1629,7 +1629,7 @@ from
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 (
 
 
@@ -1639,7 +1639,7 @@ from
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
 select
@@ -1651,7 +1651,7 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 ROW_NUMBER
@@ -1662,17 +1662,17 @@ over
 
  (
 
-PARTITIONÂ 
+PARTITION 
 
-BYÂ 
+BY 
 
-V.database_guid,Â V.BackupTypeÂ 
+V.database_guid, V.BackupType 
 
-orderÂ 
+order 
 
-byÂ 
+by 
 
-V.backup_start_dateÂ 
+V.backup_start_date 
 
 desc
 
@@ -1691,7 +1691,7 @@ r
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                             
 
 
 *
@@ -1703,14 +1703,14 @@ r
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
-fromÂ 
+from 
 
-backup_infoÂ 
+backup_info 
 
-asÂ 
+as 
 
 V
 
@@ -1721,10 +1721,10 @@ V
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 ) 
 
-asÂ 
+as 
 
 VV
 
@@ -1735,10 +1735,10 @@ VV
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
-whereÂ 
+where 
 
 VV.r
 
@@ -1746,7 +1746,7 @@ VV.r
 
 1 
 
-andÂ 
+and 
 
 VV.BackupType
 
@@ -1761,7 +1761,7 @@ VV.BackupType
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 ),
 
 dbs
@@ -1773,7 +1773,7 @@ dbs
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 as
@@ -1785,7 +1785,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 (
 
 
@@ -1795,7 +1795,7 @@ as
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 select
@@ -1807,7 +1807,7 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 name
@@ -1827,14 +1827,14 @@ state_desc
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
-fromÂ 
+from 
 
-sys.databasesÂ 
+sys.databases 
 
-asÂ 
+as 
 
 dbs
 
@@ -1845,16 +1845,16 @@ dbs
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
-innerÂ 
+inner 
 
-joinÂ 
+join 
 
-sys.database_recovery_statusÂ 
+sys.database_recovery_status 
 
-asÂ 
+as 
 
 dbrs
 
@@ -1865,10 +1865,10 @@ dbrs
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                        
 
 
-onÂ 
+on 
 
 dbrs.database_id
 
@@ -1883,7 +1883,7 @@ dbs.database_id
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 )
@@ -1895,7 +1895,7 @@ dbs.database_id
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
 select
@@ -1907,14 +1907,14 @@ select
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 @@
 
-SERVERNAMEÂ 
+SERVERNAME 
 
-asÂ 
+as 
 
 ServerName
 
@@ -1927,7 +1927,7 @@ ServerName
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
 name
@@ -1945,24 +1945,24 @@ DbName
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
-caseÂ 
+case 
 
-whenÂ 
+when 
 
-V.database_nameÂ 
+V.database_name 
 
-isÂ 
+is 
 
-nullÂ 
+null 
 
 then
 
  365 
 
-elseÂ 
+else 
 
 DATEDIFF
 
@@ -1980,9 +1980,9 @@ GETDATE
 
 ()) 
 
-endÂ 
+end 
 
-asÂ 
+as 
 
 DaysSinceLastBackup
 
@@ -1993,10 +1993,10 @@ DaysSinceLastBackup
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
-fromÂ 
+from 
 
 dbs
 
@@ -2007,16 +2007,16 @@ dbs
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
-leftÂ 
+left 
 
-joinÂ 
+join 
 
-Last_BackupsÂ 
+Last_Backups 
 
-asÂ 
+as 
 
 V
 
@@ -2027,10 +2027,10 @@ V
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 
 
-onÂ 
+on 
 
 V.database_guid
 
@@ -2045,18 +2045,18 @@ dbs.database_guid
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
-whereÂ 
+where 
 
 dbs.state_desc
 
 =
 
-'ONLINE'Â 
+'ONLINE' 
 
-andÂ 
+and 
 
 name
 
@@ -2071,10 +2071,10 @@ name
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â  
+            
 
 
-orderÂ 
+order 
 
 by
 
@@ -2089,7 +2089,7 @@ desc;
 
 
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
+                  
 "
 
 ;
@@ -2101,10 +2101,10 @@ desc;
 
 
 
-Â Â Â Â Â  
+      
 
 
-returnÂ 
+return 
 
 Get
 
@@ -2114,9 +2114,9 @@ SQLServer
 
 -
 
-DataTableÂ 
+DataTable 
 
-$connÂ 
+$conn 
 
 $query
 
@@ -2136,20 +2136,20 @@ $query
 
 
 
-Â 
+ 
 
 
-Â Â Â  
-
-
-
+    
 
 
 
 
 
 
-Â 
+
+
+
+ 
 [
 
 xml
@@ -2160,7 +2160,7 @@ $xml
 
 =
 
-Get-ContentÂ 
+Get-Content 
 
 $serversPath
 
@@ -2171,7 +2171,7 @@ $serversPath
 
 
 
-Â 
+ 
 
 
 $xml
@@ -2201,7 +2201,7 @@ object
 
 
 
-Â Â Â  
+    
 
 
 $it
@@ -2219,7 +2219,7 @@ $_
 
 
 
-Â Â Â  
+    
 
 
 $instance
@@ -2241,7 +2241,7 @@ InstanceName
 
 
 
-Â Â Â  
+    
 
 
 $user
@@ -2263,7 +2263,7 @@ username
 
 
 
-Â Â Â  
+    
 
 
 $pass
@@ -2285,7 +2285,7 @@ password
 
 
 
-Â Â Â  
+    
 
 
 
@@ -2295,7 +2295,7 @@ password
 
 
 
-Â Â Â  
+    
 
 
 $conn
@@ -2313,7 +2313,7 @@ $conn
 
 
 
-Â Â Â Â Â  
+      
 
 
 
@@ -2323,10 +2323,10 @@ $conn
 
 
 
-Â Â Â Â Â  
+      
 
 
-Get-SQLDatabaseBackupsInfoÂ 
+Get-SQLDatabaseBackupsInfo 
 
 $conn 
 |
@@ -2339,20 +2339,20 @@ $_
 
 .
 
-DaysSinceLastBackupÂ 
+DaysSinceLastBackup 
 
--gtÂ 
+-gt 
 
 $DaysSinceLastBackup
 
 }
 
 
-Â 
+ 
 
 |
 
-Â 
+ 
 
 select
 
@@ -2375,7 +2375,7 @@ DaysSinceLastBackup
 
 
 
-Â 
+ 
 
 
 
@@ -2385,7 +2385,7 @@ DaysSinceLastBackup
 
 
 
-Â 
+ 
 
 
 }
@@ -2400,8 +2400,8 @@ The script has two parameters:
 
 
 
-Â  
-Â Â Â Â Â Â Â Â  
+  
+         
 
 
 **
@@ -2413,8 +2413,8 @@ DaysSinceLastBackup
 
 
 
-Â 
-Â Â Â Â Â Â Â Â Â  
+ 
+          
 
 
 **

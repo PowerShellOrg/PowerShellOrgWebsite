@@ -8,7 +8,7 @@ aliases:
   - /2008/10/what-is-your-favorite-podcast-segment/
 ---
 
-We've put up a poll which you can see on the right side of [this page][1]. Â If you get a second, please vote for your favorite among:
+We've put up a poll which you can see on the right side of [this page][1].  If you get a second, please vote for your favorite among:
 
   * news
   * interviews

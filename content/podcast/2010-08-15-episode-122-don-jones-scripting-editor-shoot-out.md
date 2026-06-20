@@ -30,46 +30,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * [SQL Saturday #51 in Nashville: Aug 21st][2]{#wg:7}
   * [NYC PowerShell User Group has Dr. Ferdinand Rios from SAPIEN presenting on Sept 13th][3]{#k7km}
@@ -80,7 +80,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 ## Interview
 
 
-  This segment is brought to you byÂ [ConcentratedTech.com](http://concentratedtech.com/).
+  This segment is brought to you by [ConcentratedTech.com](http://concentratedtech.com/).
 
 
 #### Links
@@ -170,7 +170,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 
 
 
-    21:59  @sqlvariant Â | get-member or ($object).gettype()
+    21:59  @sqlvariant  | get-member or ($object).gettype()
 
 
 
@@ -194,7 +194,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 
 
 
-    22:06  i would rather see better parameter binding, and more pipeline support. Â Just like HTA before we'll have alot of pretty front ends running crap code, but again I'm in the minority.
+    22:06  i would rather see better parameter binding, and more pipeline support.  Just like HTA before we'll have alot of pretty front ends running crap code, but again I'm in the minority.
 
 
 
@@ -214,7 +214,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
   22:16  ## Did you guys notice that PoSh In Action is one of the Top 10 selling Manning books of all time?
 
 
-  22:16  Of All Time. Â 20 years
+  22:16  Of All Time.  20 years
 
 
   22:17  you need topic specific blog posts... books are hard with posh.
@@ -227,14 +227,14 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
   22:18  not as much
 
 
-22:19  I buy books because I know/like the authors. Â I read a blog when I need to fix something
+22:19  I buy books because I know/like the authors.  I read a blog when I need to fix something
 
 
   22:19  I still buy books when I want a deep dive into a topic.
  22:20  websites, stackoverflow, forums, IRC
 
 
-  22:21  I'm with otherjimÂ 
+  22:21  I'm with otherjim 
 
 
   22:22  but if i buy a book and it's not deep, i'm kinda pissed

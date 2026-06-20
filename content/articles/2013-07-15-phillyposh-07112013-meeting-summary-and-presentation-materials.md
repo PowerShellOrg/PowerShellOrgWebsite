@@ -9,7 +9,7 @@ aliases:
 ---
 
 1. Active Directory SDK team member and former Senior Programing writer for the Windows PowerShell team, [Jun Blender][1] gave a presentation on The Hidden Charms of Windows PowerShell 3.0 via Lync. You can get a copy of [her presentation here][2] and see a [recording of the Lync meeting][3] on our [YouTube channel][4]
-  2. Microsoft Technology Evangelist [Yung Chou][5] gave demonstration on how to use theÂ [PowerShell Azure cmdlets][6] to automate data center deployments 
+  2. Microsoft Technology Evangelist [Yung Chou][5] gave demonstration on how to use the [PowerShell Azure cmdlets][6] to automate data center deployments 
       1. You can try doing the same and test server 2012 R2 out with a free [1-month trial of Windows Azure][7]
   3. General Announcements 
       1. [The Microsoft Virtual Academy][8] is hosting 2 separate day long PowerShell learning sessions that will be taught by the lead Architect of PowerShell [Jeffery Snover][9] and [PowerShell.org][10] board member [Jason Helmick.][11] Link to the sessions are as follows: 
@@ -18,7 +18,7 @@ aliases:
       2. The [PowerScript Podcast][14] is looking for show ideas
       3. In the wake of the 2013 scripting games there are many entries in the ["Great Debates"][15] series, in which the 
  community discusses the differing techniques that the community used during the games 
-          1. Speaking of the scripting games, the winners were on the [PowerScritping Podcast][16]Â this week
+          1. Speaking of the scripting games, the winners were on the [PowerScritping Podcast][16] this week
           2. [Mike Robbins][17], the winner of the advanced category, will be presenting for us in September! 
               1. Mike also runs the virtual [Mississippi PowerShell User Group][18] and makes his meetings available to everyone.
       4. Last month"™s speaker, [Rohn Edwards][19], has recently [blogged][20] about how to use some of the functions included in his [PowerShellAccessControl Module][21]

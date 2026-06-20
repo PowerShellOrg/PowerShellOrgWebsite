@@ -17,8 +17,8 @@ aliases:
 
 
   **
-Sorry,Â due toÂ a family emergency we have cancelled tonight"™s podcast. As far as I know we will be back next week. Thanks!
+Sorry, due to a family emergency we have cancelled tonight"™s podcast. As far as I know we will be back next week. Thanks!
 **
 
 
-  Â
+  

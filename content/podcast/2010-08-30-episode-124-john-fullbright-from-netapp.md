@@ -30,46 +30,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * Bruce Payette says Windows PowerShell in Action, 2nd ed is almost finished
   * Jeff Hicks did a [video interview with TrainSignal at TechEd][2]{#r0yc}
@@ -80,7 +80,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 
 ## Interview
 
-This segment is brought to you byÂ [SAPIEN Technologies][6].
+This segment is brought to you by [SAPIEN Technologies][6].
 
 #### Links
 
@@ -97,7 +97,7 @@ This segment is brought to you byÂ [SAPIEN Technologies][6].
    ## what's the long term plan. where does powershell fit into netapp future?
 
 
-Â 
+ 
 
 
    Is the Storage Controller an elected or appointed position?
@@ -115,7 +115,7 @@ This segment is brought to you byÂ [SAPIEN Technologies][6].
   **Superhero**: Flash
 
 
-Â 
+ 
 
 
   **
@@ -123,7 +123,7 @@ Resources
 **
 
 
-Â 
+ 
 
   * A cool script from Thomas Lee to [get broken hardware][11]{#l9q5}
   * [Joel Bennett helps us understand scope][12]{#j-qc}

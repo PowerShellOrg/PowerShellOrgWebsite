@@ -35,7 +35,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -49,7 +49,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -75,11 +75,11 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 ## Interview
 
-****Â ****
+**** ****
 
 
   Guests - Doug Finke, MVP and author
@@ -87,7 +87,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -107,13 +107,13 @@ aliases:
   Mission to Mars: the LUA scripting language
 
 
-****Â ****
+**** ****
 
 
   Chatroom Banter
 
 
-****Â ****
+**** ****
 
 
   JHofferle: ## How difficult was it writing a book that was released around the same time as PS v3?
@@ -125,7 +125,7 @@ aliases:
   JHofferle: ## Is the target audience for your book Developers, or admins with a developer background?
 
 
-  FishTender27: ## I may have missed it as I was AWK. Â Is the book meant to be used and compliment specific development language or is it geared toward writing tools directly in Powershell?
+  FishTender27: ## I may have missed it as I was AWK.  Is the book meant to be used and compliment specific development language or is it geared toward writing tools directly in Powershell?
 
 
   Graythang: ##how much coverage does the book provide for excel use (i have to kick out metrics every month, I'd LOVE to automate it)
@@ -149,7 +149,7 @@ aliases:
   JHofferle: XML has it's place, but JSON strikes me as the web's version of a PowerShell custom object.
 
 
-****Â ****
+**** ****
 
 
   Contest

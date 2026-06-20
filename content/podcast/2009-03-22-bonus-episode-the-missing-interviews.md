@@ -21,7 +21,7 @@ Today we have a special bonus podcast. We have three interviews for you.
   Here's some additional information from Justin's interview
 
 
-> Â 
+>  
 > 
 > 
 
@@ -84,7 +84,7 @@ Today we have a special bonus podcast. We have three interviews for you.
 >   
 
 >   - 
->     glnsize : ## any providers to browes the sanÂ 
+>     glnsize : ## any providers to browes the san 
 >   
 
 >   - 
@@ -102,11 +102,11 @@ Today we have a special bonus podcast. We have three interviews for you.
 > 
 > 
 
->   Our regular episode for this week should be up tomorrow. Enjoy!Â 
- Â 
- Â 
- Â 
- Â 
+>   Our regular episode for this week should be up tomorrow. Enjoy! 
+  
+  
+  
+  
 
 
 > 

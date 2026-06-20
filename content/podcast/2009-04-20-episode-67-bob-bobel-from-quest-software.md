@@ -44,7 +44,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 
 
-    *Is your scripting might equal to the challenge? Put the power in your hands "“Â [download PowerGUI today*](http://quest.com/powerscripting)*.*
+    *Is your scripting might equal to the challenge? Put the power in your hands "“ [download PowerGUI today*](http://quest.com/powerscripting)*.*
 
 
 
@@ -203,7 +203,7 @@ on Twitter
 
 
           - 
-            meson : ## Does Quest have any plans for creating Activity Libraries for Citrix Workflow Studio for their cmdlets? Â WIth the WFS SDK you can take cmdlets and convert them to Activity Libraries so they are available in WFS. I am wondering if they are even considering doing that or if they would have an issue with someone in the community doing it.
+            meson : ## Does Quest have any plans for creating Activity Libraries for Citrix Workflow Studio for their cmdlets?  WIth the WFS SDK you can take cmdlets and convert them to Activity Libraries so they are available in WFS. I am wondering if they are even considering doing that or if they would have an issue with someone in the community doing it.
 
 
           - 

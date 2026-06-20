@@ -15,6 +15,6 @@ Here"™s some of the books you can choose:
 [![image](http://powerscripting.files.wordpress.com/2008/09/image.png)][2] [![image](http://powerscripting.files.wordpress.com/2008/09/image1.png)][3] [![image](http://powerscripting.files.wordpress.com/2008/09/image2.png)][4]
 
  [1]: http://sapienpress.com
- [2]: http://www.sapienpress.com/PowerShell3.asp "TFMÂ®"
- [3]: http://www.sapienpress.com/ad.asp "TFMÂ®"
- [4]: http://www.sapienpress.com/exchange.asp "TFMÂ®"
+ [2]: http://www.sapienpress.com/PowerShell3.asp "TFM®"
+ [3]: http://www.sapienpress.com/ad.asp "TFM®"
+ [4]: http://www.sapienpress.com/exchange.asp "TFM®"

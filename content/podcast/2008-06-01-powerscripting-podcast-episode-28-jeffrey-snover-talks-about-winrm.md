@@ -14,7 +14,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ### In This Episode
 
-We have a great show for you guys today.Â  Several weeks back we had Jeffrey Snover on the show.Â  We had teased at the time that there was a third portion to the interview that deals with WinRM and WS-MGMT.Â  We're going to play that today for you.Â  Also on tap: news, resources, and a bunch of PowerShell tips for you.
+We have a great show for you guys today.  Several weeks back we had Jeffrey Snover on the show.  We had teased at the time that there was a third portion to the interview that deals with WinRM and WS-MGMT.  We're going to play that today for you.  Also on tap: news, resources, and a bunch of PowerShell tips for you.
 
 ### News
 
@@ -28,9 +28,9 @@ _The news is sponsored by_ [_Sapien Technologies_][2]_._
 ### Interview
 
 _Admin Script Editor provides a true integrated scripting environment for  
-PowerShell.Â  Advanced features include an integrated PowerShell debugger,  
+PowerShell.  Advanced features include an integrated PowerShell debugger,  
 advanced code generating tools for Active Directory, Databases, XML files  
-and more.Â  Let's not forget about the exclusive PowerShell forms designer.  
+and more.  Let's not forget about the exclusive PowerShell forms designer.  
 What's coming up? Soon its innovative and feature-rich ScriptPackger tool  
 will offer support for the dynamic installation of cmdlets! Come see for  
 yourself-- Admin Script Editor v3.5 is available for a 45 day trial at  
@@ -39,7 +39,7 @@ We hope you enjoy the Jeffrey Snover clip on Win-RM and WS-MGMT.
 
 ### Resources
 
-  * Very cool (and important) series on PowerShell & WPF from James Brundage on the Powershell Team blog.Â  Read this one first, he explains the rationale behind focusing on WPF:Â  [PowerShell and WPF: WTF][8] 
+  * Very cool (and important) series on PowerShell & WPF from James Brundage on the Powershell Team blog.  Read this one first, he explains the rationale behind focusing on WPF:  [PowerShell and WPF: WTF][8] 
       * [WPF & PowerShell "“ Part 1 ( Hello World & Welcome to the Week of WPF )][9]
       * [WPF & PowerShell "“ Part 2 (Exploring WPF (and the rest of .NET) with Scripts)][10]
       * [WPF & PowerShell -- Part 3 (Handling Events)][11]
@@ -49,11 +49,11 @@ We hope you enjoy the Jeffrey Snover clip on Win-RM and WS-MGMT.
   * Beware the custom console. Kirk Munro [does a great job][15]of explaining the problems that can result from custom consoles. 
       * [Disturbing hint][16] seen on "[The Industry Insiders][17]" MSDN blog about a possible SQL Server 2008 "closed console". Go leave feedback on the blog post and voice your opinions.
   * [Slides from a presentation][18] that Keith Hill gave to a local user group to which he's a member.
-  * Here's an [excellent post][19] from Joel at [HuddlesMasses.org][20] in which he goes into great detail about regarding the new Modules feature in CTP2.Â  He's figured out a ton of stuff which is not documented anywhere else yet so be sure to check it out.
+  * Here's an [excellent post][19] from Joel at [HuddlesMasses.org][20] in which he goes into great detail about regarding the new Modules feature in CTP2.  He's figured out a ton of stuff which is not documented anywhere else yet so be sure to check it out.
   * Here's a link to Jaykul's (whose real name is Joel--not Jaykul!) [Select-Grid script][21].
   * Speaking of TechEd earlier, Carter from VMware on the [VI PowerShell blog][22] has [posted an entry][23] with code and a video of a demo he'll be showing at TechEd.
   * Don Jones has an [article][24] in the latest TechNET magazine where he talks about different output types
-  * Also on VMware, Brandon Shell has put up a few screencast demos in a new "Playing around" series he's doing on the [BSonPosh][25]blog.Â  The series is not exclusive to VMware, he also talks about Citrix, AD and more. 
+  * Also on VMware, Brandon Shell has put up a few screencast demos in a new "Playing around" series he's doing on the [BSonPosh][25]blog.  The series is not exclusive to VMware, he also talks about Citrix, AD and more. 
       * Video 1: [Intro to VMWare VI Toolkit for Windows][26]
       * Video 2: [Controlling VMWare VMs with VI Toolkit][27]
       * Video 3: [Vmotion with VI ToolKit][28]
@@ -62,7 +62,7 @@ We hope you enjoy the Jeffrey Snover clip on Win-RM and WS-MGMT.
 
   * A basic tip on using the backtick character to escape in a string. From [Richard Siddaway's blog][29]
   * watch out for strings that look like collections
-  * From Oisin and his blog Nivot Ink: [Manipulating remote SharePoint Lists with PowerShell][30].Â  The article is from late February but it came up earlier this week on the #powershell IRC channel (irc.freenode.net).
+  * From Oisin and his blog Nivot Ink: [Manipulating remote SharePoint Lists with PowerShell][30].  The article is from late February but it came up earlier this week on the #powershell IRC channel (irc.freenode.net).
 
 ### One-Liner
 
@@ -70,7 +70,7 @@ $a = (get-clipboard).split("`n").trim()
 
 ### Get Involved!
 
-  * We love feedback.Â  You can tell because we ask for it at the beginning and end of every show.Â  :)Â  You can reach us by email to .Â  Also, please write reviews and vote for us on iTunes, Podcast Alley, Digg, and other podcast portals you use.Â  And blog comments are great, too.
+  * We love feedback.  You can tell because we ask for it at the beginning and end of every show.  :)  You can reach us by email to .  Also, please write reviews and vote for us on iTunes, Podcast Alley, Digg, and other podcast portals you use.  And blog comments are great, too.
   * Don't forget to visit [www.quest.com/powershell][31] to get the free book offer (while supplies last).
   * Other ways to interact with us: 
       * [Facebook Group][32] (forums, networking)

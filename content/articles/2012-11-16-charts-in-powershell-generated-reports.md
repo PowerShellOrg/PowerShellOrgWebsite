@@ -14,7 +14,7 @@ So, as you may know, I have an ongoing hobby project called _Creating HTML Repor
 Problem is, I don't know what people would actually chart. Now... I'm going to ask you for ideas, but you need to read this whole post before you go popping a comment in. Because there are some restrictions.  
 **First**, I'm 
 not talking about historical data or trend reports
-. Those require a data store of historical data. If you're not using SQL Server for that (even free SQL Express), learn how. Excel isÂ 
+. Those require a data store of historical data. If you're not using SQL Server for that (even free SQL Express), learn how. Excel is 
 not
  your trend database, no matter how little learning it requires (and I bet if you added up all the time you've spent becoming an Excel jockey, you'd be shocked). Once you've got the data in SQL (even Express), you can use SQL Server Reporting Services (SSRS) to generate truly kick-butt reports with very little effort. Reports which can be scheduled and e-mailed. Truly, folks, this is worth spending time on - and I may make that my next ebook project.  
 **Second, **don't tell me "disk space." I know that one. Pie and stacked bar charts showing size/free space are a great idea. Got it. Anything else?  

@@ -48,7 +48,7 @@ aliases:
 - 
 
 
-    Jeff"™s blog:Â [http://jeffwouters.nl/](http://jeffwouters.nl/)
+    Jeff"™s blog: [http://jeffwouters.nl/](http://jeffwouters.nl/)
 
 
 
@@ -62,7 +62,7 @@ aliases:
 - 
 
 
-    PowerShell Deep Dives book:Â [http://manning.com/hicks/](http://manning.com/hicks/)
+    PowerShell Deep Dives book: [http://manning.com/hicks/](http://manning.com/hicks/)
 
 
 
@@ -83,7 +83,7 @@ aliases:
 - 
 
 
-    MS PFEÂ [Stefan Stranger](http://blogs.technet.com/b/stefan_stranger/)
+    MS PFE [Stefan Stranger](http://blogs.technet.com/b/stefan_stranger/)
 
 
 
@@ -98,68 +98,68 @@ aliases:
 
 
 
- My song request for tonight:Â [http://open.spotify.com/track/6yT7kcpsXNW7QS9xunPaox](http://open.spotify.com/track/6yT7kcpsXNW7QS9xunPaox)
+ My song request for tonight: [http://open.spotify.com/track/6yT7kcpsXNW7QS9xunPaox](http://open.spotify.com/track/6yT7kcpsXNW7QS9xunPaox)
 
 
-   side note:Â [https://www.globalsign.com/ssl/ssl-open-source/](https://www.globalsign.com/ssl/ssl-open-source/)
+   side note: [https://www.globalsign.com/ssl/ssl-open-source/](https://www.globalsign.com/ssl/ssl-open-source/)
 
 
 
- Was reading this article and finally got to the end and who wrote it. :)Â [http://redmondmag.com/blogs/it-decision-maker/2013/08/the-technet-subscription-thing.aspx](http://redmondmag.com/blogs/it-decision-maker/2013/08/the-technet-subscription-thing.aspx)
+ Was reading this article and finally got to the end and who wrote it. :) [http://redmondmag.com/blogs/it-decision-maker/2013/08/the-technet-subscription-thing.aspx](http://redmondmag.com/blogs/it-decision-maker/2013/08/the-technet-subscription-thing.aspx)
 
 
-   Jeff Wouters presented at the Mississippi PowerShell User Group last week (video):Â [http://mspsug.com/2013/08/27/video-presentation-materials-august-2013-mspsug-meeting-featuring-guest-speaker-jeff-wouters/](http://mspsug.com/2013/08/27/video-presentation-materials-august-2013-mspsug-meeting-featuring-guest-speaker-jeff-wouters/)
+   Jeff Wouters presented at the Mississippi PowerShell User Group last week (video): [http://mspsug.com/2013/08/27/video-presentation-materials-august-2013-mspsug-meeting-featuring-guest-speaker-jeff-wouters/](http://mspsug.com/2013/08/27/video-presentation-materials-august-2013-mspsug-meeting-featuring-guest-speaker-jeff-wouters/)
 
 
-   hmm, free code-signing certs for open source?Â [http://www.certum.eu/certum/cert,offer_cert_comparision_cs.xml](http://www.certum.eu/certum/cert,offer_cert_comparision_cs.xml)
+   hmm, free code-signing certs for open source? [http://www.certum.eu/certum/cert,offer_cert_comparision_cs.xml](http://www.certum.eu/certum/cert,offer_cert_comparision_cs.xml)
 
 
-   PowerShell Deep Dives book:Â [http://manning.com/hicks/](http://manning.com/hicks/)
+   PowerShell Deep Dives book: [http://manning.com/hicks/](http://manning.com/hicks/)
 
 
-  Â [http://www.youtube.com/user/powershelldon](http://www.youtube.com/user/powershelldon)
+   [http://www.youtube.com/user/powershelldon](http://www.youtube.com/user/powershelldon)
 
 
-  Â [http://jeffwouters.nl/](http://jeffwouters.nl/)
+   [http://jeffwouters.nl/](http://jeffwouters.nl/)
 
 
-  Â [http://www.bing.com/rewards/dashboard](http://www.bing.com/rewards/dashboard)
+   [http://www.bing.com/rewards/dashboard](http://www.bing.com/rewards/dashboard)
 
 
-   @halr9000:Â [http://www.jaapbrasser.com/](http://www.jaapbrasser.com/)
+   @halr9000: [http://www.jaapbrasser.com/](http://www.jaapbrasser.com/)
 
 
-  Â [http://blogs.technet.com/b/stefan_stranger/](http://blogs.technet.com/b/stefan_stranger/)
+   [http://blogs.technet.com/b/stefan_stranger/](http://blogs.technet.com/b/stefan_stranger/)
 
 
-  Â [https://twitter.com/sstranger](https://twitter.com/sstranger)
+   [https://twitter.com/sstranger](https://twitter.com/sstranger)
 
 
-  Â [http://dupsug.com](http://dupsug.com/)
+   [http://dupsug.com](http://dupsug.com/)
 
 
-   PSNA750 and PSNA850. $750 and $850. Not many allocated, though. So dive in.Â [http://eventmgr.azurewebsites.net/home/event/PSNA2014](http://eventmgr.azurewebsites.net/home/event/PSNA2014)Â Should still be hotel room space. We blocked 100 rooms total.
+   PSNA750 and PSNA850. $750 and $850. Not many allocated, though. So dive in. [http://eventmgr.azurewebsites.net/home/event/PSNA2014](http://eventmgr.azurewebsites.net/home/event/PSNA2014) Should still be hotel room space. We blocked 100 rooms total.
 
 
-   Managing Dell AppAssure with Windows PowerShellÂ [http://blogs.technet.com/b/heyscriptingguy/archive/2013/03/31/weekend-scripter-managing-dell-appassure-with-windows-powershell.aspx](http://blogs.technet.com/b/heyscriptingguy/archive/2013/03/31/weekend-scripter-managing-dell-appassure-with-windows-powershell.aspx)
+   Managing Dell AppAssure with Windows PowerShell [http://blogs.technet.com/b/heyscriptingguy/archive/2013/03/31/weekend-scripter-managing-dell-appassure-with-windows-powershell.aspx](http://blogs.technet.com/b/heyscriptingguy/archive/2013/03/31/weekend-scripter-managing-dell-appassure-with-windows-powershell.aspx)
 
 
-   Managing Symantec Backup Exec 2012 with PowerShellÂ [http://blogs.technet.com/b/heyscriptingguy/archive/2012/06/02/weekend-scripter-managing-symantec-backup-exec-2012-with-powershell.aspx](http://blogs.technet.com/b/heyscriptingguy/archive/2012/06/02/weekend-scripter-managing-symantec-backup-exec-2012-with-powershell.aspx)
+   Managing Symantec Backup Exec 2012 with PowerShell [http://blogs.technet.com/b/heyscriptingguy/archive/2012/06/02/weekend-scripter-managing-symantec-backup-exec-2012-with-powershell.aspx](http://blogs.technet.com/b/heyscriptingguy/archive/2012/06/02/weekend-scripter-managing-symantec-backup-exec-2012-with-powershell.aspx)
 
 
-  Â [http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2011/01/06/HP-BladeSystem-PowerShell-cmdlets.aspx](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2011/01/06/HP-BladeSystem-PowerShell-cmdlets.aspx)
+   [http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2011/01/06/HP-BladeSystem-PowerShell-cmdlets.aspx](http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2011/01/06/HP-BladeSystem-PowerShell-cmdlets.aspx)
 
 
-  Â [http://www.bulleitbourbon.com/gateway.aspx](http://www.bulleitbourbon.com/gateway.aspx)
+   [http://www.bulleitbourbon.com/gateway.aspx](http://www.bulleitbourbon.com/gateway.aspx)
 
 
-  Â [http://en.wikipedia.org/wiki/Franklin_Richards](http://en.wikipedia.org/wiki/Franklin_Richards)
+   [http://en.wikipedia.org/wiki/Franklin_Richards](http://en.wikipedia.org/wiki/Franklin_Richards)
 
 
 #### 
   The Question -
 
 
-  * SuperHero-Â [Franklin Richards][1]
+  * SuperHero- [Franklin Richards][1]
 
  [1]: http://en.wikipedia.org/wiki/Franklin_Richards

@@ -14,7 +14,7 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
 
 ## In This Episode
 
-Today onÂ theÂ PowerScriptingÂ PodcastÂ weÂ interviewÂ EdÂ Wilson,Â authorÂ ofÂ WindowsÂ PowerShellÂ Step-by-StepÂ andÂ newÂ TechnetÂ ScriptingÂ Guy.Â AndÂ asÂ usualÂ we'veÂ alsoÂ gotÂ news,Â tips,Â resourcesÂ andÂ more.
+Today on the PowerScripting Podcast we interview Ed Wilson, author of Windows PowerShell Step-by-Step and new Technet Scripting Guy. And as usual we've also got news, tips, resources and more.
 
 
 ## 
@@ -24,9 +24,9 @@ Today onÂ theÂ PowerScriptingÂ PodcastÂ weÂ interviewÂ EdÂ Wilson,
  _This segment is brought to you by Idera:_ 
 
 
-  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [
+  *Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [
 www.idera.com/PodcastPeople
-](http://www.idera.com/PodcastPeople) to get your copy today!*Â 
+](http://www.idera.com/PodcastPeople) to get your copy today!* 
  **
 
 
@@ -37,24 +37,24 @@ __
 
 
     - 
-      PowerShellÂ [
+      PowerShell [
 boot camp coming up Feb 9-11 in Dallas, TX
 ](http://blog.sapien.com/index.php/2008/11/12/powershell-boot-camp/)
 
 
     - 
-      SAPIEN'sÂ [got a Facebook group](http://www.facebook.com/group.php?gid=94812430430) where they are giving out coupons
+      SAPIEN's [got a Facebook group](http://www.facebook.com/group.php?gid=94812430430) where they are giving out coupons
 
 
     - 
-      Cool blog post aboutÂ 
+      Cool blog post about 
 [executing PowerShell commands from Linux and the iPhone](http://geekswithblogs.net/Lance/archive/2008/11/19/executing-powershell-commands-from-iphone-and-linux.aspx)
 
 
 
     - 
 
-[Hyper-V PowerPack Updated Â« Poshoholic](http://poshoholic.com/2008/11/16/hyper-v-powerpack-updated/)
+[Hyper-V PowerPack Updated « Poshoholic](http://poshoholic.com/2008/11/16/hyper-v-powerpack-updated/)
  (
 [release notes](http://www.powergui.org/entry.jspa?externalID=2142&categoryID=290)
  )
@@ -77,7 +77,7 @@ boot camp coming up Feb 9-11 in Dallas, TX
 
 
 
-    *WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!
+    *When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools!
  *
 
 
@@ -90,7 +90,7 @@ boot camp coming up Feb 9-11 in Dallas, TX
 
 ## 
 
-* *Â 
+* * 
 
 
 
@@ -133,9 +133,9 @@ boot camp coming up Feb 9-11 in Dallas, TX
 *download PowerGUI today*
 ](http://info.quest.com/QuestSoftwareSponsoredPodcastPowerScripting110408)
 *.*
- Today's interview is withÂ **Ed Wilson**, a senior consultant at Microsoft Corporation and a well-known scripting expert. He is a Microsoft Certified Trainer who delivers a popular Windows PowerShell workshop to Microsoft Premier customers worldwide. He has written 
+ Today's interview is with **Ed Wilson**, a senior consultant at Microsoft Corporation and a well-known scripting expert. He is a Microsoft Certified Trainer who delivers a popular Windows PowerShell workshop to Microsoft Premier customers worldwide. He has written 
 eight
- fourteenÂ books including several on Windows scripting:Â *Windows PowerShell Scripting Guide*,*Microsoft Windows PowerShell Step by Step*, andÂ *Microsoft VBScript Step by Step*, all published by Microsoft Press. He has also contributed to almost a dozen other books and is currently working on a PowerShell best practices book.
+ fourteen books including several on Windows scripting: *Windows PowerShell Scripting Guide*,*Microsoft Windows PowerShell Step by Step*, and *Microsoft VBScript Step by Step*, all published by Microsoft Press. He has also contributed to almost a dozen other books and is currently working on a PowerShell best practices book.
  * *
 
 
@@ -278,7 +278,7 @@ eight
 
 
                   - 
-                    JeffHicks : ## The Â script center used to offer script content as a CHM file. Any plans for a new version?
+                    JeffHicks : ## The  script center used to offer script content as a CHM file. Any plans for a new version?
 
 
                   - 
@@ -327,7 +327,7 @@ eight
 
 
 
-                    *Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.Â  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.Â  Go toÂ [adminscripteditor.com](http://adminscripteditor.com/) to find out if you qualify.*
+                    *Admin Script Editor (which recently received Windows IT Pro's top award) provides a true integrated scripting environment for PowerShell.  The guys at iTripoli haven't done a great job getting the word out about Admin Script Editor so to make up for it they are offering a 50% competitive discount.  Go to [adminscripteditor.com](http://adminscripteditor.com/) to find out if you qualify.*
  **
 
 
@@ -345,7 +345,7 @@ cript to use for patching
 
 
                       - 
-                        Use Visio toÂ [create simple PowerShell scripts](http://marcoshaw.blogspot.com/2008/11/powershell-scripting-using-visio.html)
+                        Use Visio to [create simple PowerShell scripts](http://marcoshaw.blogspot.com/2008/11/powershell-scripting-using-visio.html)
 
 
                       - 
@@ -375,7 +375,7 @@ cript to use for patching
 
 
 
-Â 
+ 
 
 
 
@@ -386,7 +386,7 @@ cript to use for patching
 
 
 
-                      Â 
+                       
 
 
 
@@ -404,7 +404,7 @@ Discover functions in PowerShell Scripts
 
 
                             - 
-                              NeatÂ 
+                              Neat 
 [tip for using Get-Type](http://tfl09.blogspot.com/2008/11/get-typeps1.html)
 
 
@@ -429,10 +429,10 @@ Discover functions in PowerShell Scripts
 
                       > 
 
-> *"HiÂ JonathanÂ &Â Hal,*
- *IÂ justÂ wantedÂ toÂ dropÂ youÂ aÂ quickÂ noteÂ toÂ sayÂ howÂ greatÂ theÂ PowerscriptingÂ PodcastÂ is.Â I'mÂ aÂ SysAdmin/EngineerÂ andÂ aÂ confidentÂ VBÂ scripter,Â andÂ haveÂ beenÂ tryingÂ toÂ getÂ roundÂ toÂ learningÂ PowerShellÂ properlyÂ forÂ overÂ aÂ year,Â butÂ neverÂ seemÂ toÂ haveÂ time!Â AÂ colleagueÂ toldÂ meÂ aboutÂ yourÂ podcastÂ andÂ I'veÂ beenÂ listeningÂ inÂ theÂ carÂ drivingÂ toÂ andÂ fromÂ workÂ everyÂ day.Â I'mÂ onlyÂ upÂ toÂ episodeÂ 8Â soÂ farÂ butÂ it'sÂ provingÂ toÂ beÂ aÂ greatÂ wayÂ toÂ supplementÂ myÂ learningÂ withoutÂ havingÂ toÂ interruptÂ theÂ dayÂ jobÂ -Â keepÂ upÂ theÂ goodÂ work!*
- *AlsoÂ toÂ letÂ youÂ knowÂ aboutÂ aÂ scriptÂ IÂ wroteÂ todayÂ thatÂ youÂ mayÂ findÂ usefulÂ -Â itÂ addsÂ "ExecuteÂ inÂ PowerShell"Â optionsÂ toÂ .ps1Â files'Â contextÂ menuÂ soÂ thatÂ it'sÂ easyÂ toÂ right-clickÂ andÂ runÂ aÂ PowerShellÂ scriptÂ directÂ fromÂ WindowsÂ Explorer.Â ItÂ mayÂ beÂ thatÂ someoneÂ elseÂ hasÂ alreadyÂ doneÂ thisÂ butÂ IÂ couldn'tÂ findÂ anythingÂ withÂ aÂ bitÂ ofÂ aÂ Google...Â YouÂ canÂ findÂ theÂ scriptÂ atÂ [http://www.poshcode.org/664](http://www.poshcode.org/664).*
- *ThanksÂ againÂ andÂ allÂ theÂ best.*
+> *"Hi Jonathan & Hal,*
+ *I just wanted to drop you a quick note to say how great the Powerscripting Podcast is. I'm a SysAdmin/Engineer and a confident VB scripter, and have been trying to get round to learning PowerShell properly for over a year, but never seem to have time! A colleague told me about your podcast and I've been listening in the car driving to and from work every day. I'm only up to episode 8 so far but it's proving to be a great way to supplement my learning without having to interrupt the day job - keep up the good work!*
+ *Also to let you know about a script I wrote today that you may find useful - it adds "Execute in PowerShell" options to .ps1 files' context menu so that it's easy to right-click and run a PowerShell script direct from Windows Explorer. It may be that someone else has already done this but I couldn't find anything with a bit of a Google... You can find the script at [http://www.poshcode.org/664](http://www.poshcode.org/664).*
+ *Thanks again and all the best.*
  *Cheers,
  *
 *Nige*l"

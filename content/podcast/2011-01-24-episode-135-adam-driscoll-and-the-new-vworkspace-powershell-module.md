@@ -28,45 +28,45 @@ Tonight on the PowerScripting Podcast, we talk to Adam Driscoll with Quest about
   This segment is brought to you by Start-Automating
 
 
-Â 
+ 
 
 
-  *Start Scripting to Your Fullest Potential. Â Use PowerShell to Automate Your Organization. Â Why wait for a larger company to produce cmdlets? Â Just Start-Automating. Â We can provide training to help unleash the full Power of PowerShell V2, help you on short projects by Solving-It-Together, or build custom PowerShell and .NET solutions for your business. Â Isn"™t it time you Save-Time, Save-Money, and Start-Automating?*
+  *Start Scripting to Your Fullest Potential.  Use PowerShell to Automate Your Organization.  Why wait for a larger company to produce cmdlets?  Just Start-Automating.  We can provide training to help unleash the full Power of PowerShell V2, help you on short projects by Solving-It-Together, or build custom PowerShell and .NET solutions for your business.  Isn"™t it time you Save-Time, Save-Money, and Start-Automating?*
 
 
-Â 
+ 
 
   * MVP Ravikanth Chaganti will be presenting a [Technet Webcast on Jan 28th][1]{#tju1} "Manage your Hyper-V environment with PowerShell"
   * There's a new [PowerShell IDE in Beta][2]{#saan}
   * The PowerShell team is [looking for your feedback][3]{#g4x1}
-  * PoshWSUS has a new home on Codeplex:Â <http://poshwsus.codeplex.com/>
-  * New project: Excel PowerShell Console:Â <http://excelposh.codeplex.com/>
-  * New version of PowerWF ships very soon.Â 
+  * PoshWSUS has a new home on Codeplex: <http://poshwsus.codeplex.com/>
+  * New project: Excel PowerShell Console: <http://excelposh.codeplex.com/>
+  * New version of PowerWF ships very soon. 
 
 ## **
 Interview
 **
 
 
-  The news is brought to you byÂ [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
+  The news is brought to you by [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
 
 
-Â 
+ 
 
 
   **Links:**
 
 
-Â 
+ 
 
-  * vWorkspace:Â <http://www.quest.com/vworkspace/>
+  * vWorkspace: <http://www.quest.com/vworkspace/>
   * [Quest vWorkspace 7.2 Feature Spotlight - vWorkspace PowerShell Module][4]{#uvkp}
   * [vWorkspace module download][5]{#ipw1}
   * [vWorkspace module wiki][6]{#w49e}
-  * vWorkspace Community site:Â [http://communities.quest.com/community/vworkspace][7]{#hvl-}
-  * PowerGUI VSX:Â <http://powerguivsx.codeplex.com/>
+  * vWorkspace Community site: [http://communities.quest.com/community/vworkspace][7]{#hvl-}
+  * PowerGUI VSX: <http://powerguivsx.codeplex.com/>
 
-Â 
+ 
 
 #### Chatroom Buzz:
 
@@ -107,13 +107,13 @@ Interview
 
 
 
-Â 
+ 
 
 
-  22:15  Us SQL folks don't need Â desktop. Â Just a query client and email
+  22:15  Us SQL folks don't need  desktop.  Just a query client and email
 
 
-Â 
+ 
 
 
   **
@@ -121,7 +121,7 @@ Resources
 **
 
 
-Â   
+   
 This segment is brought to you by [SAPIEN Technologies][8]{#ke7l}
 
   * MVP Jan Egil Ring did an [Introduction to PowerGadgets][9]{#mxf9}
@@ -132,15 +132,15 @@ This segment is brought to you by [SAPIEN Technologies][8]{#ke7l}
 ### Tips
 
 
-  This segment brought to you byÂ [ServerFault.com](http://serverfault.com/)
+  This segment brought to you by [ServerFault.com](http://serverfault.com/)
 
 
-Â 
+ 
 
   * MVP Doug Finke shows how to make your [PowerShell For Loops 4X Faster][13]{#l_xp}
   * [Hal talks about deleting stale AD computer objects][14]{#hlh2}
 
-Â 
+ 
 
 ### One-Liner of the Week!
 

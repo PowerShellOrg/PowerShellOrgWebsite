@@ -24,7 +24,7 @@ aliases:
 
 
 
-    Â Tonight on the PowerScripting Podcast, we talk to Shannon Bray about SharePoint Architecture
+     Tonight on the PowerScripting Podcast, we talk to Shannon Bray about SharePoint Architecture
 
 
 
@@ -39,7 +39,7 @@ aliases:
     - 
 
 
-        The Bangalore PowerShell User Group isÂ [meeting on August 10th](https://powershell.org/event/powershell-bangalore-user-group-psbug-august-meet/).
+        The Bangalore PowerShell User Group is [meeting on August 10th](https://powershell.org/event/powershell-bangalore-user-group-psbug-august-meet/).
 
 
 
@@ -48,7 +48,7 @@ aliases:
     - 
 
 
-        The Atlanta PowerShell User Group isÂ [meeting on August 13th](https://powershell.org/event/building-tools-take-your-powershell-scripts-to-the-next-level/).
+        The Atlanta PowerShell User Group is [meeting on August 13th](https://powershell.org/event/building-tools-take-your-powershell-scripts-to-the-next-level/).
 
 
 
@@ -57,7 +57,7 @@ aliases:
     - 
 
 
-        The Mississippi PowerShell User Group isÂ [meeting on August 13th](http://mspsug.com/2013/08/06/powershell-mvp-jeff-wouters-speaking-for-mspsug-on-tuesday-august-13th-at-830pm-cdt/).
+        The Mississippi PowerShell User Group is [meeting on August 13th](http://mspsug.com/2013/08/06/powershell-mvp-jeff-wouters-speaking-for-mspsug-on-tuesday-august-13th-at-830pm-cdt/).
 
 
 

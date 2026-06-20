@@ -37,7 +37,7 @@ aliases:
 
 
     This segment brought to you by Start-Automating
- Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+ Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
 
@@ -202,7 +202,7 @@ aliases:
 
 
 
-    [21:58:02]  ## What is the restfull api stuff? Â (so out of it)
+    [21:58:02]  ## What is the restfull api stuff?  (so out of it)
 
 
 
@@ -274,7 +274,7 @@ aliases:
 
 
 
-    [22:25:05]  I bought Don's book for the guys that work for me, trying to get them to take the plunge. Â I think it's hard to do when things are busy and doing it the gui way still feels faster.
+    [22:25:05]  I bought Don's book for the guys that work for me, trying to get them to take the plunge.  I think it's hard to do when things are busy and doing it the gui way still feels faster.
 
 
 
@@ -286,7 +286,7 @@ aliases:
 
 
 
-    [22:36:13]  ## At what point does a brand new admin start moving towards PowerShell? Â e.g. Say I've never run DCPromo and don't know the available options. Â PowerShell has the options, but if you don't have them presented to you in an ordered fashion, it can be difficult to grasp.
+    [22:36:13]  ## At what point does a brand new admin start moving towards PowerShell?  e.g. Say I've never run DCPromo and don't know the available options.  PowerShell has the options, but if you don't have them presented to you in an ordered fashion, it can be difficult to grasp.
 
 
 

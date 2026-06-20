@@ -10,7 +10,7 @@ aliases:
 ---
 
 **A Podcast about Windows PowerShell.**  
-Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]Â 
+Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1] 
 
 
 
@@ -29,7 +29,7 @@ n This Episode
 
 
 Today on the PowerScripting Podcast we talk to Brandon Shell, PowerShell MVP and great thinker.
-Â 
+ 
 
 
 We've also got news, resources, and tips! Also, we are going to give away two Sapien Press books. Be sure to listen till the end to hear how to win!
@@ -46,19 +46,19 @@ We've also got news, resources, and tips! Also, we are going to give away two Sa
 
   Quest Software is offering Powerscripting Podcast listeners a free copy of Jeffery Hicks new book, Managing Active Directory with Windows PowerShell: TFM from Sapien Press.
  Visit [quest.com/powerscripting](http://Quest Software is offering Powerscripting Podcast listeners a free copy of Jeffery Hicks new book, Managing Active Directory with Windows PowerShell: TFM from Sapien Press.) to register for your copy, before they run out. While you"™re there download their free graphical user interface, script editor and Active Directory commands.
- Â 
- Â 
- Â 
+  
+  
+  
 
 
- Â 
+  
 
 
 
 
     - 
       VMware's future with PS Providers, "
-The plan is to have a vi: drive which is created automatically and contains the whole inventory. And when operation is executed within specific location, the operation to be restricted to this location. I hope that this will be valuable in interactive mode where it can provide the confidence that operation won't affect unexpected entities." --Â 
+The plan is to have a vi: drive which is created automatically and contains the whole inventory. And when operation is executed within specific location, the operation to be restricted to this location. I hope that this will be valuable in interactive mode where it can provide the confidence that operation won't affect unexpected entities." -- 
 Andrey from VMware
 
 
@@ -89,7 +89,7 @@ Andrey from VMware
 
 
     - 
-      Jeff Hick's eagerly awaited "Managing Active Directory with PowerShell TFM"Â [is now available.](http://blog.sapien.com/index.php/2008/09/22/managing-active-directory-with-windows-powershell-in-print/)
+      Jeff Hick's eagerly awaited "Managing Active Directory with PowerShell TFM" [is now available.](http://blog.sapien.com/index.php/2008/09/22/managing-active-directory-with-windows-powershell-in-print/)
 
 
     - 
@@ -103,9 +103,9 @@ Andrey from VMware
 
     - 
       [Quest acquires NetPro](http://dmitrysotnikov.wordpress.com/2008/09/15/quest-netpro-powershell/), and
-Â 
+ 
 [NetPro has PowerShell news!](http://www.netpro.com/company/news-room/press-releases/?i=1004)
-Â 
+ 
 
 
 
@@ -122,7 +122,7 @@ Andrey from VMware
 
 
 *This segment is brought to you by Idera:
- Want to make Windows PowerShell easier than ever to learn and master? Â Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Â Go toÂ *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*Â Â to get your copy today!*
+ Want to make Windows PowerShell easier than ever to learn and master?  Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center.  Go to *[*www.idera.com/PodcastPeople*](http://www.idera.com/PodcastPeople)*  to get your copy today!*
 
 
 
@@ -152,7 +152,7 @@ Andrey from VMware
 
 
       - 
-        ## Â not a question but thank's for the replication latency script! Â 
+        ##  not a question but thank's for the replication latency script!  
 
 
       - 
@@ -160,7 +160,7 @@ Andrey from VMware
 
 
       - 
-        rfoust : ## how much is posh usedÂ where you work? Â Are other admins catching on?
+        rfoust : ## how much is posh used where you work?  Are other admins catching on?
 
 
       - 
@@ -180,7 +180,7 @@ Andrey from VMware
 
 
       - 
-        ustreamer-39627 : Sorry for the noob lesson. What exactly is a cmdlet? is that just a customscript which is complied into a "cmdlet" so it can just be called by typing the scriptname?Â 
+        ustreamer-39627 : Sorry for the noob lesson. What exactly is a cmdlet? is that just a customscript which is complied into a "cmdlet" so it can just be called by typing the scriptname? 
 
 
       - 
@@ -188,7 +188,7 @@ Andrey from VMware
 
 
       - 
-        Â rfoust : ## what do the unix admins think about posh
+         rfoust : ## what do the unix admins think about posh
 
 
       - 
@@ -200,7 +200,7 @@ Andrey from VMware
 
 
       - 
-        Â rfoust : ## have you used powershell with web services much?
+         rfoust : ## have you used powershell with web services much?
 
 
       - 
@@ -208,7 +208,7 @@ Andrey from VMware
 
 
       - 
-        Kemis : ## I work for a college where the CIS dept. chair never heard of PowerShell till I called her to ask if they have any plans to teach it soon. Â How long do you think it'll take before colleges begin to include Powershell as a course?
+        Kemis : ## I work for a college where the CIS dept. chair never heard of PowerShell till I called her to ask if they have any plans to teach it soon.  How long do you think it'll take before colleges begin to include Powershell as a course?
 
 
       - 
@@ -216,7 +216,7 @@ Andrey from VMware
 
 
       - 
-        rfoust : ## what hardware vendor would you like to see powershell support for? Â cisco? or something else?
+        rfoust : ## what hardware vendor would you like to see powershell support for?  cisco? or something else?
 
 
 
@@ -224,7 +224,7 @@ Andrey from VMware
 
 
 
-  Idera is offering a special price $79 per copy through the end of September...BUT for listeners of this podcast only, Idera will extend the offer until October 12, 2008. Â Don't wait! Â Download your free trial and take advantage of this great offer today!
+  Idera is offering a special price $79 per copy through the end of September...BUT for listeners of this podcast only, Idera will extend the offer until October 12, 2008.  Don't wait!  Download your free trial and take advantage of this great offer today!
 
 
 
@@ -248,7 +248,7 @@ Andrey from VMware
 
 
           [PowerShell Script: How to upload a file via HTTP POST](http://github.com/tomasr/dotfiles/tree/master/scripts/wpost.ps1)
-Â 
+ 
 - Thomas R. made this in answer to "how to pass a parameter to XMLHttp" which came up on the PowerShell newsgroup
 
 
@@ -256,7 +256,7 @@ Andrey from VMware
 
 
       - 
-        Carter ShanklinÂ [posted the slides and demos](http://blogs.vmware.com/vipowershell/2008/09/videos-from-vmw.html)Â from the managing VMWare with PowerShell sessionÂ 
+        Carter Shanklin [posted the slides and demos](http://blogs.vmware.com/vipowershell/2008/09/videos-from-vmw.html) from the managing VMWare with PowerShell session 
 
 at VMWorld
 
@@ -280,13 +280,13 @@ Mow's put up his [Robocopy part 4 article](http://thepowershellguy.com/blogs/pos
 
 
 
-      Two of you can win your choice of books from SAPIEN Press. To win, you need to write a review of our podcast. The review must be at least a full paragraph, no "<3" entries please 🙂 Â . Â We would prefer for you to post the review in iTunes because we get a lot of traffic that way, but if you don't use iTunes, that's ok. Â You can post your review on PodcastAlley or any other forum or your own blog.
+      Two of you can win your choice of books from SAPIEN Press. To win, you need to write a review of our podcast. The review must be at least a full paragraph, no "<3" entries please 🙂  .  We would prefer for you to post the review in iTunes because we get a lot of traffic that way, but if you don't use iTunes, that's ok.  You can post your review on PodcastAlley or any other forum or your own blog.
 
 
 
 
 
-      Â 
+       
 
 
 

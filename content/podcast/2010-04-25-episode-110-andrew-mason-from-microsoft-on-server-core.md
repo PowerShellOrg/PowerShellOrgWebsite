@@ -21,12 +21,12 @@ In This Episode
 
 
 Tonight on the PowerScripting Podcast have a Windows Server Core discussion with Andrew Mason from Microsoft
-Â 
+ 
 
 ## News
 
 
-  *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit *[*quest.com/powershellbook*](http://quest.com/powershellbook)*Â to register for your free copy or *[*quest.com/powerguipro*](http://quest.com/powerguipro)* and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.*
+  *Before you acquire power, you must acquire knowledge "“ and Quest Software has what you need! In Jeffery Hicks"™ e-book, "Managing Active Directory with Windows PowerShell," learn how PowerShell helps you master local accounts and groups, password management, security and permissions and much, much more. You"™ll also learn about the PowerShell extras and out-of-the-box features that will help you control Active Directory. Don"™t wait "“ visit *[*quest.com/powershellbook*](http://quest.com/powershellbook)* to register for your free copy or *[*quest.com/powerguipro*](http://quest.com/powerguipro)* and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.*
 
 
 _  
@@ -38,12 +38,12 @@ _
       * [Tampa's next meeting is May 13th][3]{#p6s3}
       * [New York City - May 10th][4]{#w-63}
   * Local conferences 
-      * @[SQLVariant][5]{#kx9s}Â is speaking at [SQL Saturday in Jacksonville on May 8th][6]{#zrlj}
+      * @[SQLVariant][5]{#kx9s} is speaking at [SQL Saturday in Jacksonville on May 8th][6]{#zrlj}
       * [Codestock in Knoxville TN][7]{#s893} happens June 25th & 26th and there will be 4 PowerShell sessions including some from [Hal][8]{#r3.7} and @SQLVariant.
   * [PowerShell in Bing Visual Search][9]{#j0yz}
   * [New Microsoft Official Curriculum for PowerShell v2][10]{#aedt}
   * Open source project news 
-      * [DnsShell][11]{#xr93}-Â 
+      * [DnsShell][11]{#xr93}- 
 
 
 DnsShell is a Microsoft DNS administration / management module written for PowerShell 2.0.
@@ -53,7 +53,7 @@ DnsShell is a Microsoft DNS administration / management module written for Power
       * 
 
 
-[AutoSPInstaller](http://autospinstaller.codeplex.com/)Â -Â 
+[AutoSPInstaller](http://autospinstaller.codeplex.com/) - 
 
 
 Automated SharePoint 2010 Powershell-based installation script.
@@ -62,10 +62,10 @@ Automated SharePoint 2010 Powershell-based installation script.
       * 
 
 
-[VisioAutomation](http://visioautomation.codeplex.com/)Â - VisioAutomation is a .NET Library that simplifies automating Visio from .NET languages such as C#, F#, IronPython and a set of tools that use that library.Â [version 2.5.1 released](http://blogs.msdn.com/saveenr/archive/2010/04/14/visioautomation-2-5-1-released.aspx)
+[VisioAutomation](http://visioautomation.codeplex.com/) - VisioAutomation is a .NET Library that simplifies automating Visio from .NET languages such as C#, F#, IronPython and a set of tools that use that library. [version 2.5.1 released](http://blogs.msdn.com/saveenr/archive/2010/04/14/visioautomation-2-5-1-released.aspx)
 
 
-Â 
+ 
 
 ## Interview
 
@@ -75,7 +75,7 @@ _
 
   *
 
-Version 2.1 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com](http://powerwf.com/).
+Version 2.1 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com](http://powerwf.com/).
 
 *
 

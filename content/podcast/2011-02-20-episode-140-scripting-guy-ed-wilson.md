@@ -28,13 +28,13 @@ Tonight on the PowerScripting Podcast, we talk to Scripting Guy Ed Wilson about 
   This segment is brought to you by Start-Automating
 
 
-Â 
+ 
 
 
-  *Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).*
+  *Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).*
 
 
-Â 
+ 
 
   * The 2011 Scripting Games [have been announced][1]{#fa7n}
   * MVP Thomas Lee [has announced two dates for his weekend PowerCamp in York, UK][2]{#iyfp}. London coming soon as well.
@@ -47,10 +47,10 @@ Interview
 **
 
 
-  The news is brought to you byÂ [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
+  The news is brought to you by [Don Jones' 2011 PowerShell Retreat in Las Vegas](http://www.windowsitpro.com/blogs/PowerShellwithaPurpose.aspx)
 
 
-Â 
+ 
 
 
   **Links:**
@@ -69,7 +69,7 @@ Interview
   21:47  You can't see it but Hal is wearing a cool Indiana Jones shirt
 
 
-  21:48  why thank you jonwalz-1Â 
+  21:48  why thank you jonwalz-1 
 
 
   21:48  got it from Disney
@@ -78,7 +78,7 @@ Interview
   21:52  +1 Scripting Wife is awesome
 
 
-  21:53  Do I get to go in the Beginner category since I've never participated in the Scripting Games before? Â 🙂
+  21:53  Do I get to go in the Beginner category since I've never participated in the Scripting Games before?  🙂
 
 
   21:57  that's what we need in a scripting guy: a PowerShell Bigot
@@ -123,7 +123,7 @@ This segment is brought to you by [SAPIEN Technologies][11]{#ke7l}
   * Hal talks about Group-Object
 
  [1]: http://blogs.technet.com/b/heyscriptingguy/archive/2011/02/04/scripting-guys-announce-the-2011-powershell-scripting-games.aspx "have been announced"
- [2]: http://tfl09.blogspot.com/2011/02/weekend-powershell-powercampyork-uk.html "has announced two datesÂ for his weekend PowerCamp in York, UK"
+ [2]: http://tfl09.blogspot.com/2011/02/weekend-powershell-powercampyork-uk.html "has announced two dates for his weekend PowerCamp in York, UK"
  [3]: http://blog.sapien.com/?p=2637 "SAPIEN PrimalForms 2011 has entered private beta"
  [4]: http://itcampsaturday.com/tampa/ "The first annual Tampa IT Camp is coming March 19th!"
  [5]: http://communities.vmware.com/thread/302399 "VMware has released the official PowerCLI poster for v4.1.1"

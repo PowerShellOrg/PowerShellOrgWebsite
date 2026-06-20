@@ -28,7 +28,7 @@ aliases:
 
       Tonight on the PowerScripting Podcast, we talk to Phil Haack and Andrew Nurse from Microsoft about NuGet and PSGet
  This segment brought to you by Start-Automating
- Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more atÂ [Start-Automating.com](http://start-automating.com/).
+ Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
  News
 
 
@@ -70,8 +70,8 @@ aliases:
 
 
 
-      This segment is brought to you byÂ PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
- At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution.Â [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
+      This segment is brought to you by PowerGUI Pro with MobileShell, Version Control, and Easy Remote Script Execution.
+ At Quest we are passionate about Windows PowerShell. PowerGUI Pro enables organizations to harness the power of PowerShell without the expense of training and custom scripts and applications. PowerGUI Pro solves issues regardless of the time and place by using MobileShell to remotely manage your infrastructure. Ensure scripting best practices by leveraging integration with popular Version Control systems. Automate against thousands of computers using Easy Remote Script Execution. [Get PowerGUI Pro at quest.com/powerguipro](http://www.quest.com/PowerGUIPro/)
  Links:
 
 
@@ -155,7 +155,7 @@ aliases:
 
 
       - 
-        [22:29:22]  ## any security concerns with downloading a nuget package? Â if vs is running as an admin and installs a package, any chance the package can contain a bomb?
+        [22:29:22]  ## any security concerns with downloading a nuget package?  if vs is running as an admin and installs a package, any chance the package can contain a bomb?
 
 
       - 

@@ -30,46 +30,46 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 _  
 _
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 _  
-VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+Visit [quest.com/powerguipro][1]{#i040} and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
 
   * As promised, David at the secmaniac blog posted his [Blackhat & DefCon proof of concept code][2]{#y7mk}
   * [PowerTab for PowerShell v2 beta is out!][3]{#mk.y}
@@ -78,7 +78,7 @@ VisitÂ [quest.com/powerguipro][1]{#i040}Â and see why PowerShell and Quest P
 ## Interview
 
 
-  This segment is brought to you byÂ [SAPIEN Technologies](http://sapien.com/).
+  This segment is brought to you by [SAPIEN Technologies](http://sapien.com/).
 
 
 #### Superhero: [Phantom][5]{#p28v}
@@ -90,13 +90,13 @@ Resources
 
 
 **  
-** This segment is brought to you byÂ [ConcentratedTech.com][6]{#o28z}.
+** This segment is brought to you by [ConcentratedTech.com][6]{#o28z}.
 
   * Newly minted MVP Ravi has a great series on WQL, [here is his post on SELECT, FROM, and WHERE][7]{#xkqc}
   * [Finding stale accounts in AD just got easier thanks to Quest][8]{#hm87}
   * Lee Holmes [tracks Aurora Borealis with PowerShel][9]{#g:bx}l
 
-Â 
+ 
 
 
   **

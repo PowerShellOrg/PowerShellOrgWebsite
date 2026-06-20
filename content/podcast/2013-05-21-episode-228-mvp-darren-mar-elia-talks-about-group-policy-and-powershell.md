@@ -174,7 +174,7 @@ aliases:
     - 
 
 
-        <11MikeFRobbins> Looks like 22[http://scriptinggames.org/](http://scriptinggames.org/) Â has a new look.
+        <11MikeFRobbins> Looks like 22[http://scriptinggames.org/](http://scriptinggames.org/)  has a new look.
 
 
 
@@ -201,7 +201,7 @@ aliases:
     - 
 
 
-        <11MikeFRobbins> Want to check the Scripting Games Leaderboard? Why not check it with PowerShell: 22[http://p0w3rsh3ll.wordpress.com/2013/05/04/monitor-the-scripting-games-2013-leaderboard/](http://p0w3rsh3ll.wordpress.com/2013/05/04/monitor-the-scripting-games-2013-leaderboard/) Â << I thought this was too cool!
+        <11MikeFRobbins> Want to check the Scripting Games Leaderboard? Why not check it with PowerShell: 22[http://p0w3rsh3ll.wordpress.com/2013/05/04/monitor-the-scripting-games-2013-leaderboard/](http://p0w3rsh3ll.wordpress.com/2013/05/04/monitor-the-scripting-games-2013-leaderboard/)  << I thought this was too cool!
 
 
 

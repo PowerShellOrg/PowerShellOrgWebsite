@@ -9,7 +9,7 @@ aliases:
 ---
 
 1. [John Mello][1] gave a presentation on a script that searches a mailbox for an email by subject and downloads any attachments it may contain. A copy of his scripts can be obtained [here.][2]
-  2. [Jason Helmick][3], Senior Technologist at [Concentrated Tech][4] andÂ [Windows PowerShell MVP][5], gave a presentation on "Understanding the Pipeline "“ Getting your one-liners to work!" A copy of his script can be found [here][6]. 
+  2. [Jason Helmick][3], Senior Technologist at [Concentrated Tech][4] and [Windows PowerShell MVP][5], gave a presentation on "Understanding the Pipeline "“ Getting your one-liners to work!" A copy of his script can be found [here][6]. 
       1. [A recording of Jason Helmick"™s presentation][7] can be found on our [YouTube channel][8]. Due to audio issues, John Mello"™s portion is not included in the recording.
   3. Announcements 
       1. Tickets are still available for the [2014 PowerShell Summit North America][9], if you"™re going then make sure to say hi to [Lido Paglia][10]!
@@ -39,7 +39,7 @@ aliases:
 
 
   - 
-    Â Finally send an email containing the photos taken on this day in history*
+     Finally send an email containing the photos taken on this day in history*
 
 
 

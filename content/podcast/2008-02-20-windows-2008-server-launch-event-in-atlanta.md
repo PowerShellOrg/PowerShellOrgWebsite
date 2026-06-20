@@ -8,6 +8,6 @@ aliases:
   - /2008/02/windows-2008-server-launch-event-in-atlanta/
 ---
 
-If you are going, let us know via [the event][1] I just created in Facebook.Â  Details are in the link.
+If you are going, let us know via [the event][1] I just created in Facebook.  Details are in the link.
 
  [1]: http://www.facebook.com/event.php?eid=10571182124

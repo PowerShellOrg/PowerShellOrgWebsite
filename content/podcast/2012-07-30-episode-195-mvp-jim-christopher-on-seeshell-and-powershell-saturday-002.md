@@ -63,7 +63,7 @@ aliases:
 
 ## Interview
 
-****Â ****
+**** ****
 
 
   Guests - Jim Christopher
@@ -71,7 +71,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -97,7 +97,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### The Question -
 

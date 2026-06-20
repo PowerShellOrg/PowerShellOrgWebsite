@@ -27,7 +27,7 @@ aliases:
   This segment is brought to you by TrainSignal
 
 
-  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more. Â For more info and a list of courses, visit [TrainSignal.com](http://trainsignal.com/).
+  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more.  For more info and a list of courses, visit [TrainSignal.com](http://trainsignal.com/).
 
 
   * 

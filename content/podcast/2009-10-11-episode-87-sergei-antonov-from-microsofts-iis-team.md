@@ -52,7 +52,7 @@ News
 
 
 
-      *Don"™t wait "“ visitÂ [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
+      *Don"™t wait "“ visit [quest.com/powershellbook](http://www.quest.com/powershellbook) to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.*
 
 
 
@@ -61,15 +61,15 @@ News
 
 
         - 
-          The November meeting of theÂ [Central Ohio PowerShell User's Group](http://centralohiopug.wordpress.com/2009/10/01/november-copug-meeting/) will be November 12th
+          The November meeting of the [Central Ohio PowerShell User's Group](http://centralohiopug.wordpress.com/2009/10/01/november-copug-meeting/) will be November 12th
 
 
         - 
-          Hal will be presenting to theÂ [Atlanta VMware User Group](http://communities.vmware.com/community/vmug/us-southeast/atlanta) along with Scott Herold of Vizioncore on Nov 5th
+          Hal will be presenting to the [Atlanta VMware User Group](http://communities.vmware.com/community/vmug/us-southeast/atlanta) along with Scott Herold of Vizioncore on Nov 5th
 
 
         - 
-          James BrundageÂ [has been doing videos for Channel 9](http://channel9.msdn.com/Search/?Term=James%20Brundage)
+          James Brundage [has been doing videos for Channel 9](http://channel9.msdn.com/Search/?Term=James%20Brundage)
 
 
         - 
@@ -156,11 +156,11 @@ Resources
 
 
         - 
-          Jonathan Medd has put together aÂ [great quick reference guide](http://www.jonathanmedd.net/2009/10/active-directory-powershell-quick-reference-guide.html) for the AD cmdlets
+          Jonathan Medd has put together a [great quick reference guide](http://www.jonathanmedd.net/2009/10/active-directory-powershell-quick-reference-guide.html) for the AD cmdlets
 
 
         - 
-          And Pablo @ VMware has releasedÂ [a PowerCLI poster](http://communities.vmware.com/message/1381785#1381785)
+          And Pablo @ VMware has released [a PowerCLI poster](http://communities.vmware.com/message/1381785#1381785)
 
 
         - 
@@ -168,7 +168,7 @@ Resources
 
 
         - 
-          Joel showcases some of hisÂ [favorite new things](http://huddledmasses.org/whats-new-in-powershell-2/) in PowerShell v2
+          Joel showcases some of his [favorite new things](http://huddledmasses.org/whats-new-in-powershell-2/) in PowerShell v2
 
 
 
@@ -229,4 +229,4 @@ Tips
 
 
             - 
-              From listenerÂ [Xcud](http://twitter.com/xcud/statuses/4656624461): ps | select name,starttime, @{N="Running Time";E={([System.DateTime]::Now - $_.starttime)}}
+              From listener [Xcud](http://twitter.com/xcud/statuses/4656624461): ps | select name,starttime, @{N="Running Time";E={([System.DateTime]::Now - $_.starttime)}}

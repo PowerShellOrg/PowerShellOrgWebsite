@@ -13,29 +13,29 @@ aliases:
 Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]  
 **Introduction**
 
-  * Thanks to //o// and Kirk at [Poshoholic][2] for mentioning us on their blogs.Â We loved Kirk's post about [namespaces][3] with the Star Trek references.Â  That's the Trouble with Tribbles!
+  * Thanks to //o// and Kirk at [Poshoholic][2] for mentioning us on their blogs. We loved Kirk's post about [namespaces][3] with the Star Trek references.  That's the Trouble with Tribbles!
 
 **News**
 
   * According to Bruce Payette in this [post][4], details of PowerShell V2's upcoming features will be released in November at ITForum!
-  * From <$hay@Israel'> s blog:Â [There is a new book][5] titled "Windows PowerShell in Practice"Â that is being worked on by [Jim Truher][6]Â and [//o//][7].Â  It will be published by Manning and will cover topics such as, the PowerShell SDK (writing cmdlets, providers etc) advanced scripting techniques and domain specific examples.
-  * [Citrix, Citrix, and more Citrix][8]!Â  Brandon Shell has gifted us with a veritable cornucopia of sixteen (16!) Citrix management functions such as: 
+  * From <$hay@Israel'> s blog: [There is a new book][5] titled "Windows PowerShell in Practice" that is being worked on by [Jim Truher][6] and [//o//][7].  It will be published by Manning and will cover topics such as, the PowerShell SDK (writing cmdlets, providers etc) advanced scripting techniques and domain specific examples.
+  * [Citrix, Citrix, and more Citrix][8]!  Brandon Shell has gifted us with a veritable cornucopia of sixteen (16!) Citrix management functions such as: 
       * Get-CitrixFarm
       * Publish-CitrixApplication
-  * Keith Hill and [//o//][7] will be a guest speaker in the first [Windows PowerShell Virtual User Group Meeting][9]Â (From Marco Shaw's blog) 
+  * Keith Hill and [//o//][7] will be a guest speaker in the first [Windows PowerShell Virtual User Group Meeting][9] (From Marco Shaw's blog) 
       * Keith will talk about [PSCX (PowerShell Community Extensions)][10] and open source development
-      * [//o//][7]Â will talk about [PowerTab][11]
+      * [//o//][7] will talk about [PowerTab][11]
       * October 3rd noon EST Online via Live Meeting 2007 (Microsoft is hosting so you need to use your Live ID)
-  * Phoul from the #Powershell IRC channel has a new blog up(<http://insecure-complexity.com/>).Â  In his own words: 
+  * Phoul from the #Powershell IRC channel has a new blog up(<http://insecure-complexity.com/>).  In his own words: 
       * "Especially to the new PowerShell users. I'm writing a blog that will be focused around my findings in my experience learning PowerShell. It will have scripts and tutorials and some neat tips n tricks after I get a little more acquainted with PowerShell. For now it has a profile example and a useful script for signing your scripts."
 
 **Cmdlet of the week**
 
-  * We were going to do Set-PSDebug but Hal didn't do his homework.Â  Instead, we gave the royal treatment to [Get-Service][12]!
+  * We were going to do Set-PSDebug but Hal didn't do his homework.  Instead, we gave the royal treatment to [Get-Service][12]!
 
 **Resources** - Got a ton for ya this week:
 
-  * Keith Hill's Blog series on Effective PowerShell - [Item 1: The Four Cmdlets That are the Keys to Finding Your Way Around PowerShell][13] .Â  This article in particular is a must-read for all the PowerShell newbies out there.Â  So far there are eight articles in the series, we highly recommend checking those out.Â  Hal also mentioned the [Mastering PowerShell in your Lunch Break][14] series.
+  * Keith Hill's Blog series on Effective PowerShell - [Item 1: The Four Cmdlets That are the Keys to Finding Your Way Around PowerShell][13] .  This article in particular is a must-read for all the PowerShell newbies out there.  So far there are eight articles in the series, we highly recommend checking those out.  Hal also mentioned the [Mastering PowerShell in your Lunch Break][14] series.
   * [PowerShellPlus][15] 
       * Hal has put some screenshots up on his blog: <http://halr9000.com/article/439>
       * Notable features: 
@@ -46,16 +46,16 @@ Listen: [**![](http://powerscripting.libsyn.com/img/podcastIcon.gif)**][1]
           * snippet manager
           * extensible w/powershell code
           * variable & object explorer
-      * We don't have an release date yet but Karl from PowerShell Live has said they are widening the closed betaÂ to include their PS Analyzer customers sometime around Oct 1st.
-      * [Quick Reference to AD cmdlets][16]Â - on Dmitry's PowerBlog
+      * We don't have an release date yet but Karl from PowerShell Live has said they are widening the closed beta to include their PS Analyzer customers sometime around Oct 1st.
+      * [Quick Reference to AD cmdlets][16] - on Dmitry's PowerBlog
       * IRC Channel: #Powershell @ [Freenode network][17]
-      * AÂ series on [Managing SQL with PowerShell][18]Â (thanks $cript Fanatic)
+      * A series on [Managing SQL with PowerShell][18] (thanks $cript Fanatic)
 
 **Tips**
 
   * PowerShell is a scripting engine AND a shell 
       * Don Jones had an article about this in Technet (October Issue) when it comes out online it should be [here][19]
-      * Don Jones Technet article ["Scripting One Line at a Time"][20].Â  This talks about how you go about building a script based on the interactive nature of PowerShell
+      * Don Jones Technet article ["Scripting One Line at a Time"][20].  This talks about how you go about building a script based on the interactive nature of PowerShell
   * $profile discussion part 2 
       1. Gather your reusable bits into functions. Since they may be shared, be sure to comment them well.
       2. Categorize these functions by type.
@@ -88,13 +88,13 @@ dir | Foreach-Object { $_.name.substring(0,8) }
 
 **Gotchas**
 
-  * From [Poshoholic][21]- If you convert any string to a boolean value in PowerShell, the resulting boolean value will be boolean True.Â Â (With the exception of empty strings, which are $false.)
+  * From [Poshoholic][21]- If you convert any string to a boolean value in PowerShell, the resulting boolean value will be boolean True.  (With the exception of empty strings, which are $false.)
 
 **Powershell challenge**
 
-  * Hal asked if anyone knows how to set SACLs on remote files.Â  Not file ACLs but security auditing stuff.Â  Turns out it might be much easier thanÂ he thought (using set-acl on a UNC path), but if you've got any code to share that's great!
+  * Hal asked if anyone knows how to set SACLs on remote files.  Not file ACLs but security auditing stuff.  Turns out it might be much easier than he thought (using set-acl on a UNC path), but if you've got any code to share that's great!
 
-Thanks for listening!Â  Keep the feedback coming, we really love hearing from you.Â  Also don't forget to write reviews and vote for us on iTunes, Podcast Alley and wherever else you may find us.
+Thanks for listening!  Keep the feedback coming, we really love hearing from you.  Also don't forget to write reviews and vote for us on iTunes, Podcast Alley and wherever else you may find us.
 
  [1]: http://media.libsyn.com/media/powerscripting/PSPodcast-009.mp3
  [2]: http://poshoholic.com/

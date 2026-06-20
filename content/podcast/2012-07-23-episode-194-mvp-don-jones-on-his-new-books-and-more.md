@@ -27,10 +27,10 @@ aliases:
   This segment is brought to you by TrainSignal
 
 
-  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more. Â For more info and a list of courses, visit[ TrainSignal.com](http://trainsignal.com/).
+  Get online computer based training for you and your whole staff from TrainSignal. TrainSignal offers more than 80 IT training courses in the areas of Security, Network Administration, Virtualization, PowerShell and more. With 24/7 online access, TrainSignal"™s training courses are accessible on almost any device including PC, Mac, iPhone, iPad, Android smartphones, and more.  For more info and a list of courses, visit[ TrainSignal.com](http://trainsignal.com/).
 
 
-****Â ****
+**** ****
 
   * 
 
@@ -74,13 +74,13 @@ aliases:
   This segment brought to you by Start-Automating
 
 
-****Â ****
+**** ****
 
 
-  Start Scripting to Your Fullest Potential. Â At Start-Automating, we can help you unleash the full Power of PowerShell V2. Â You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating? Â Find out more at [Start-Automating.com](http://start-automating.com/).
+  Start Scripting to Your Fullest Potential.  At Start-Automating, we can help you unleash the full Power of PowerShell V2.  You can use our deep PowerShell expertise to build rich PowerShell solutions, or we can train you to use PowerShell like a pro. Isn"™t it time you Save-Time, Save-Money, and Start-Automating?  Find out more at [Start-Automating.com](http://start-automating.com/).
 
 
-****Â ****
+**** ****
 
 
   Guests - Don Jones
@@ -88,7 +88,7 @@ aliases:
 
 #### Links
 
-****Â ****
+**** ****
 
   * 
 
@@ -138,7 +138,7 @@ aliases:
 
 
 
-****Â ****
+**** ****
 
 #### The Question -
 
@@ -149,13 +149,13 @@ aliases:
   Favorite Sci-Fi book(s) - Dragon Riders of Pern, Starship Troopers
 
 
-****Â ****
+**** ****
 
 
   **Chatroom Banter**
 
 
-****Â ****
+**** ****
 
 
   Mike_F_Robbins: ## Yeah, What order should we read the books in? Powershell in a month of lunches, PowerShell in Depth, then Toolmaking?

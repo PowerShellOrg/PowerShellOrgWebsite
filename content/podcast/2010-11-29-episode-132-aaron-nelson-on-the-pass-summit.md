@@ -17,8 +17,8 @@ aliases:
 
 
 
-Tonight on the PowerScripting Podcast, weÂ talk to Aaron Nelson about the PASS Summit with special guests Ed Wilson and Mark Mitchell.
-Â 
+Tonight on the PowerScripting Podcast, we talk to Aaron Nelson about the PASS Summit with special guests Ed Wilson and Mark Mitchell.
+ 
 
 
 
@@ -33,47 +33,47 @@ Tonight on the PowerScripting Podcast, weÂ talk to Aaron Nelson about the PASS
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Execute queries remotely to determine if services or processes are running
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Restart services, processes, or entire servers
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Check mailbox settings
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Unlock user accounts
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Reset passwords
 
 *
  *
 
 
-Â·Â Â Â Â Â Â Â Â Â 
+·         
 Run custom scripts
 
 *
- VisitÂ [quest.com/powerguipro](http://quest.com/powerguipro)Â and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
- Aaron's blog:Â [http://sqlvariant.com](http://sqlvariant.com/)
+ Visit [quest.com/powerguipro](http://quest.com/powerguipro) and see why PowerShell and Quest PowerGUI are the ultimate Windows management tools.
+ Aaron's blog: [http://sqlvariant.com](http://sqlvariant.com/)
 
 
 
@@ -101,8 +101,8 @@ Run custom scripts
     **
 
 
-UseÂ 
-PowerShell[Â to Collect Server Data and Write to SQL](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/01/use-powershell-to-collect-server-data-and-write-to-sql.aspx)Â 
+Use 
+PowerShell[ to Collect Server Data and Write to SQL](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/01/use-powershell-to-collect-server-data-and-write-to-sql.aspx) 
 
 
 Posted Mon, Nov 1 2010 - Chad Miller
@@ -116,8 +116,8 @@ Posted Mon, Nov 1 2010 - Chad Miller
     **
 
 
-UseÂ 
-PowerShell[Â to obtain SQL Server database sizes](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/02/use-powershell-to-obtain-sql-server-database-sizes.aspx)Â 
+Use 
+PowerShell[ to obtain SQL Server database sizes](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/02/use-powershell-to-obtain-sql-server-database-sizes.aspx) 
 
 
 Posted Tue, Nov 2 2010 - Aaron Nelson
@@ -131,8 +131,8 @@ Posted Tue, Nov 2 2010 - Aaron Nelson
     **
 
 
-UseÂ 
-PowerShell[Â to Change SQL Server Service Accounts](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/03/use-powershell-to-change-sql-server-s-service-accounts.aspx)Â 
+Use 
+PowerShell[ to Change SQL Server Service Accounts](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/03/use-powershell-to-change-sql-server-s-service-accounts.aspx) 
 
 
 Posted Wed, Nov 3 2010 - Aaron Nelson
@@ -146,8 +146,8 @@ Posted Wed, Nov 3 2010 - Aaron Nelson
     **
 
 
-UseÂ 
-PowerShell[Â to Script SQL Database Objects](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/04/use-powershell-to-script-sql-database-objects.aspx)Â 
+Use 
+PowerShell[ to Script SQL Database Objects](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/04/use-powershell-to-script-sql-database-objects.aspx) 
 
 
 Posted Thu, Nov 4 2010 - Aaron Nelson
@@ -161,8 +161,8 @@ Posted Thu, Nov 4 2010 - Aaron Nelson
     **
 
 
-UsingÂ 
-PowerShell[Â to Add a Group of Users to a SQL Database](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/05/using-powershell-to-add-a-group-of-users-to-a-sql-database.aspx)Â 
+Using 
+PowerShell[ to Add a Group of Users to a SQL Database](http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/05/using-powershell-to-add-a-group-of-users-to-a-sql-database.aspx) 
 
 
 Posted Fri, Nov 5 2010 - Sean McCown

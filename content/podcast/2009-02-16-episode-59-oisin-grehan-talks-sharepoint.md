@@ -30,17 +30,17 @@ _
  **
 
 
-  Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go toÂ [www.idera.com/PodcastPeople](http://idera.com/podcastpeople)Â to get your copy today!
+  Want to make Windows PowerShell easier than ever to learn and master? Checkout Idera's PowerShellPlus Professional Edition which is now available for download! The new version has vastly improved code completion and a slick interactive Learning Center. Go to [www.idera.com/PodcastPeople](http://idera.com/podcastpeople) to get your copy today!
 
 
 
 
     - 
-      More information is coming out about PrimalScript 2009Â [it includes a PowerShell profile manager](http://blog.sapien.com/index.php/2009/02/10/primalscript-2009-includes-powershell-profile-manager/)
+      More information is coming out about PrimalScript 2009 [it includes a PowerShell profile manager](http://blog.sapien.com/index.php/2009/02/10/primalscript-2009-includes-powershell-profile-manager/)
 
 
     - 
-      Bruce Payette is working on PowerShell In Action 2nd Edition andÂ [you can get early access](http://www.manning.com/payette2/)
+      Bruce Payette is working on PowerShell In Action 2nd Edition and [you can get early access](http://www.manning.com/payette2/)
 
 
     - 
@@ -52,7 +52,7 @@ _
 
 
 ## 
-    InterviewÂ 
+    Interview 
 
 
 
@@ -103,7 +103,7 @@ finked : ## Anything new in Excel Services?
 
                 - 
 
-glnsize : ## were do you see powershell fitting into sharepoint? Â dev, admin
+glnsize : ## were do you see powershell fitting into sharepoint?  dev, admin
 
 
 
@@ -133,7 +133,7 @@ rfoust : ## any idea where sharepoint/poweshell is going in the future?
 
                 - 
 
-glnsize :Â ## what is involved in "writing a provider"?
+glnsize : ## what is involved in "writing a provider"?
 
 
 
@@ -184,7 +184,7 @@ http://mossofall.blogspot.com/2006/09/excel-services-in-moss-2007.html
                   [
 http://www.nivot.org/
 ](http://www.nivot.org/)
-Â - Oisin's blog
+ - Oisin's blog
 
 
 
@@ -208,7 +208,7 @@ http://www.nivot.org/2009/02/10/AnatomyOfAPowerShellModuleTheFileTransferBITSMod
 
 
 
-      Â 
+       
 
 
 
@@ -221,12 +221,12 @@ http://www.nivot.org/2009/02/10/AnatomyOfAPowerShellModuleTheFileTransferBITSMod
 
 
 
-          **Â 
+          ** 
 
 
 
 
-            ***WhenÂ itÂ comesÂ toÂ scripting,Â you"™reÂ aÂ warrior.Â ButÂ mightyÂ warriorsÂ needÂ mightyÂ tools!Â For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
+            ***When it comes to scripting, you"™re a warrior. But mighty warriors need mighty tools! For awesome PowerShell scripting, nothing matches the might of Quest"™s PowerGUI. Versatile and easy to use, PowerGUI helps you build commanding scripts that leverage PowerShell"™s strength across the enterprise. Now, ruling your domain is easier than ever.
  ***
 
 
@@ -234,7 +234,7 @@ http://www.nivot.org/2009/02/10/AnatomyOfAPowerShellModuleTheFileTransferBITSMod
 
 
             *********
-Is your scripting might equal to the challenge? Put the power in your hands "“Â *
+Is your scripting might equal to the challenge? Put the power in your hands "“ *
 
 *[download PowerGUI today](http://info.quest.com/QuestSoftwareSponsoredPodcastPowerScripting110408)*
 **
@@ -246,7 +246,7 @@ Is your scripting might equal to the challenge? Put the power in your hands "“
 
 
 
-            Â 
+             
 
 
 
@@ -279,11 +279,11 @@ Show-Menu function
 
 
 
-Be sure to download the required Scripting module fromÂ 
+Be sure to download the required Scripting module from 
 [
 here
 ](http://einsteintech.spaces.live.com/blog/cns!89E05724AF67A39E!250.entry?wa=wsignin1.0&sa=265873950)
-Â first. Â Thanks to listener Jason Archer for finding it.
+ first.  Thanks to listener Jason Archer for finding it.
 
 
 
@@ -313,7 +313,7 @@ PowerBoots example from Karl Prosser
                 - 
 
 
-Brandon Shell gives us info onÂ 
+Brandon Shell gives us info on 
 [
 functions and why they are important
 ](http://bsonposh.com/archives/649)
@@ -331,7 +331,7 @@ Five simple functions for SharePoint
                 - 
 
 
-Richard Siddaway shows us aÂ 
+Richard Siddaway shows us a 
 [
 new way to create hash tables
 ](http://richardsiddaway.spaces.live.com/Blog/cns!43CFA46A74CF3E96!2051.entry)
@@ -341,11 +341,11 @@ new way to create hash tables
                 - 
 
 
-Robbie Faust posts hisÂ 
+Robbie Faust posts his 
 [
 PowerShell RegEx quick reference
 ](http://blog.robbiefoust.com/?p=59)
-Â script
+ script
 
 
 
@@ -361,7 +361,7 @@ PowerShell RegEx quick reference
 
             ***Tips
 
-Â 
+ 
 
 **
 
@@ -391,18 +391,18 @@ PowerShell RegEx quick reference
 
 
               - 
-                Â  
+                  
 
 
-                    Lee Holmes'Â [Set-ClipboardScript script](http://www.leeholmes.com/blog/MorePowerShellSyntaxHighlighting.aspx)
-
-
-                  - 
-                    [Andy Schneider adds to it](http://get-powershell.com/2009/02/09/posting-powershell-code-with-live-writer/)Â with the "thinned html" option in MS Live Writer
+                    Lee Holmes' [Set-ClipboardScript script](http://www.leeholmes.com/blog/MorePowerShellSyntaxHighlighting.aspx)
 
 
                   - 
-                    Hal points out theÂ [Code Snippet plugin](http://gallery.live.com/liveItemDetail.aspx?li=d4409446-af7f-42ec-aa20-78aa5bac4748&pl=8&bt=9)Â for Live Writer
+                    [Andy Schneider adds to it](http://get-powershell.com/2009/02/09/posting-powershell-code-with-live-writer/) with the "thinned html" option in MS Live Writer
+
+
+                  - 
+                    Hal points out the [Code Snippet plugin](http://gallery.live.com/liveItemDetail.aspx?li=d4409446-af7f-42ec-aa20-78aa5bac4748&pl=8&bt=9) for Live Writer
 
 
 
@@ -410,7 +410,7 @@ PowerShell RegEx quick reference
 
 
               - 
-                Thomas LeeÂ [shows us way to run cmd.exe within PowerShell](http://tfl09.blogspot.com/2009/02/powershellplus-v21-beta_10.html)
+                Thomas Lee [shows us way to run cmd.exe within PowerShell](http://tfl09.blogspot.com/2009/02/powershellplus-v21-beta_10.html)
 
 
               - 

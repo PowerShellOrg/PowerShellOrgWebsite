@@ -17,7 +17,7 @@ Listen:
 
 
 
-Â 
+ 
 
 
 
@@ -51,7 +51,7 @@ News
 
 
 
-    Â 
+     
 
 
 
@@ -69,11 +69,11 @@ Before you acquire power, you must acquire knowledge "“ and Quest Software has
 
     *
 
-Don"™t wait "“ visitÂ 
+Don"™t wait "“ visit 
 [
 quest.com/powershellbook
 ](http://www.quest.com/powershellbook)
-Â to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
+ to register for your free copy and see why PowerShell and Quest Power GUI are the ultimate Windows management tools.
 
 *
 
@@ -96,7 +96,7 @@ quest.com/powershellbook
 
       - 
         Thomas Lee has added another
-Â 
+ 
 [PowerShell Master Class session in Oslo June 22-24](http://tfl09.blogspot.com/2010/03/powershell-master-class-more-sessions.html)
 
 
@@ -110,7 +110,7 @@ quest.com/powershellbook
 
       - 
         Ed Wilson will be presenting at the
-Â 
+ 
 [PowerShell Usergroup Brisbane](http://psugbne.org/)
 
 
@@ -129,7 +129,7 @@ quest.com/powershellbook
 
     *
 
-Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.Â  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.Â  You can even push data to System Center with the click of a button. To get your free 30 day trial go toÂ [PowerWF.com](http://powerwf.com/).
+Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerShell development tool allowing users to build PowerShell scripts as workflows, which are similar to a flowchart or Visio diagram.  Once created, workflows can be deployed as applications, run as a scheduled task, or back to PowerShell as a script.  You can even push data to System Center with the click of a button. To get your free 30 day trial go to [PowerWF.com](http://powerwf.com/).
 
 *
 
@@ -148,7 +148,7 @@ Version 2.0 of PowerWF Studio has just been released. PowerWF is a Visual PowerS
 
 
     - 
-      Product matrix:Â [http://powerwf.com/product_list/product-comparison/](http://powerwf.com/product_list/product-comparison/)
+      Product matrix: [http://powerwf.com/product_list/product-comparison/](http://powerwf.com/product_list/product-comparison/)
 
 
 
@@ -185,7 +185,7 @@ Resources
 
 
 
-    *This segment is brought to you byÂ *[
+    *This segment is brought to you by *[
 *SAPIEN Technologies*
 ](http://sapien.com/)*.*
 
@@ -204,21 +204,21 @@ Resources
 
     - 
       New blog from one of the SQLISE developers:
-Â 
+ 
 [PauerSchell](http://pauerschell.blogspot.com/)
 
 
     - 
       [The SharePoint PodShow Episode 44](http://www.sharepointpodshow.com/archive/2010/03/18/sharepoint-2010-and-powershell-episode-44.aspx)
-Â 
+ 
 talks about PowerShell support in v2010.
 
 
     - 
       SharePoint MVP Gary Lapointe has a cool
-Â 
+ 
 [SharePoint automation blog](http://stsadm.blogspot.com/)
-Â 
+ 
 you should follow
 
 
@@ -228,7 +228,7 @@ you should follow
 
     - 
       You can
-Â 
+ 
 [download the help file for the new Exchange 2010 cmdlets](http://powershell.com/cs/blogs/tips/archive/2010/03/24/exchange-2010-compiled-help.aspx)
 
 
@@ -286,7 +286,7 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
     - 
       Doug Finke
-Â 
+ 
 [shows us how to use WPK to create a GUI](http://blogs.technet.com/heyscriptingguy/archive/2010/03/24/hey-scripting-guy-march-24-2010.aspx)
 
 
@@ -295,4 +295,4 @@ Our tips are brought to you today by ServerFault and StackOverflow, the best pla
 
 
 
-    Â
+    

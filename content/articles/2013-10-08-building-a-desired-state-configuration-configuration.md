@@ -10,7 +10,7 @@ aliases:
   - /2013/10/building-a-desired-state-configuration-configuration/
 ---
 
-Now that's a title! Â We've worked through my reasoning as to why I want Desired State Configuration (DSC) and how to build a pull server. Â Today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.
+Now that's a title!  We've worked through my reasoning as to why I want Desired State Configuration (DSC) and how to build a pull server.  Today and in the next post we are going to look at how to create configurations which describe how our target systems are supposed to work.
 
 ## The High Points
 
@@ -24,7 +24,7 @@ Now that's a title! Â We've worked through my reasoning as to why I want Desir
 
 ## Building Configurations
 
-Configurations are the driving force for DSC. Â A configuration is a [Managed Object Format](http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx) (MOF) document that describes the how a specified server (or servers) should look.
+Configurations are the driving force for DSC.  A configuration is a [Managed Object Format](http://msdn.microsoft.com/en-us/library/aa823192(v=vs.85).aspx) (MOF) document that describes the how a specified server (or servers) should look.
 
 ### What You See
 
@@ -69,11 +69,11 @@ instance of OMI_ConfigurationDocument
  GenerationDate="10/07/2013 19:43:24";
  GenerationHost="OR-WEB01";
 };
-`Each instance of a MOF class (except for the OMI_ConfigurationDocument) refer to a DSC Resource and provides the parameters that resource will be called with when the configuration engine runs. Â There are a couple of properties that are not passed to the resource module. Â The ResourceID is a unique identifier that indicates the resource and the configuration inheritance tree where it is defined (we'll dig deeper into that shortly). Â The ModuleVersion is the version number of the PowerShell module (from the psd1) of the DSC Resource.
+`Each instance of a MOF class (except for the OMI_ConfigurationDocument) refer to a DSC Resource and provides the parameters that resource will be called with when the configuration engine runs.  There are a couple of properties that are not passed to the resource module.  The ResourceID is a unique identifier that indicates the resource and the configuration inheritance tree where it is defined (we'll dig deeper into that shortly).  The ModuleVersion is the version number of the PowerShell module (from the psd1) of the DSC Resource.
 
 ### Getting From Here To There
 
-We don't want to write straight MOF files to define configuration, mainly because they are kind of verbose, with a some boilerplate Â stuff for each resource. Â Fortunately, we've got a Domain Specific Language (DSL) in PowerShell v4 to generate them.
+We don't want to write straight MOF files to define configuration, mainly because they are kind of verbose, with a some boilerplate  stuff for each resource.  Fortunately, we've got a Domain Specific Language (DSL) in PowerShell v4 to generate them.
 
 ##### The Configuration Keyword
 
@@ -130,8 +130,8 @@ Our other major parameter is ConfigurationData. ConfigurationData is a way to se
     @{NodeName = 'Server2';Role='FileShare'}
   )
 }
-`NodeName is a common convention for specifying the node name. Â We don't want to use Node, as there are some automatic variables populated in a configuration, one of which is $Node. Â All the other keys in the hashtable representing a node are completely up to you.  
-_Just a quick aside.. the node name does not necessarily equate to the server name. Â When we get in to targeting (a bit in this post and more in an upcoming one), we'll see how this is true._  
+`NodeName is a common convention for specifying the node name.  We don't want to use Node, as there are some automatic variables populated in a configuration, one of which is $Node.  All the other keys in the hashtable representing a node are completely up to you.  
+_Just a quick aside.. the node name does not necessarily equate to the server name.  When we get in to targeting (a bit in this post and more in an upcoming one), we'll see how this is true._  
 After we have some data in our ConfigurationData hashtable (and the variable doesn't need to be called ConfigurationData, I just did for convenience sake), we can use that to help drive our configuration. We'll tweak our configuration function a bit, so that it can take advantage of the extra data being supplied.
 
 
@@ -311,6 +311,6 @@ instance of OMI_ConfigurationDocument
 };
 `#### Next Up
 
-In the next post, we'll continue this topic and look at other ways we can parameterize configurations as well as nesting configurations. Â We'll also touch on how to apply these configurations from Start-DscConfiguration and via a Pull Server. Â Stay tuned!
+In the next post, we'll continue this topic and look at other ways we can parameterize configurations as well as nesting configurations.  We'll also touch on how to apply these configurations from Start-DscConfiguration and via a Pull Server.  Stay tuned!
 
  [1]: https://powershell.org/2013/10/14/building-a-desired-state-configuration-configuration-part-2/

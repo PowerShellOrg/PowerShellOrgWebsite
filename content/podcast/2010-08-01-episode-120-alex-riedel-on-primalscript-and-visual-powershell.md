@@ -92,7 +92,7 @@ Execute commands and scripts from anywhere including the office and remote locat
 _
 
 
-Â·         
+·         
 Execute queries remotely to determine if services or processes are running
 
 _
@@ -100,7 +100,7 @@ _
 _
 
 
-Â·         
+·         
 Restart services, processes, or entire servers
 
 _
@@ -108,7 +108,7 @@ _
 _
 
 
-Â·         
+·         
 Check mailbox settings
 
 _
@@ -116,7 +116,7 @@ _
 _
 
 
-Â·         
+·         
 Unlock user accounts
 
 _
@@ -124,7 +124,7 @@ _
 _
 
 
-Â·         
+·         
 Reset passwords
 
 _
@@ -132,7 +132,7 @@ _
 _
 
 
-Â·         
+·         
 Run custom scripts
 
 _
