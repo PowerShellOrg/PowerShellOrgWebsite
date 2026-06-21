@@ -1,0 +1,35 @@
+{{- /*
+  Render an author's social links as icon anchors.
+  Params: page (the author/term page), class (CSS classes for the wrapper).
+  Each link value is a full URL. Unset links are skipped.
+*/ -}}
+{{- $page := .page -}}
+{{- $class := .class | default "" -}}
+{{- with $page -}}
+{{- $p := .Params -}}
+{{- $links := slice
+  (dict "key" "website"  "icon" "fas fa-globe"      "label" "Website")
+  (dict "key" "github"   "icon" "fab fa-github"     "label" "GitHub")
+  (dict "key" "twitter"  "icon" "fab fa-twitter"    "label" "Twitter")
+  (dict "key" "mastodon" "icon" "fab fa-mastodon"   "label" "Mastodon")
+  (dict "key" "linkedin" "icon" "fab fa-linkedin"   "label" "LinkedIn")
+  (dict "key" "bluesky"  "icon" "fas fa-cloud"      "label" "Bluesky")
+-}}
+{{- $any := false -}}
+{{- range $links }}{{ if index $p .key }}{{ $any = true }}{{ end }}{{ end -}}
+{{- if $any -}}
+<div class="{{ $class }}">
+  {{- range $links -}}
+  {{- $icon := .icon -}}
+  {{- $label := .label -}}
+  {{- with index $p .key }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer me"
+     class="text-gray-400 hover:text-blue-600 transition-colors duration-200"
+     title="{{ $label }}" aria-label="{{ $label }}">
+    <i class="{{ $icon }}"></i>
+  </a>
+  {{- end -}}
+  {{- end }}
+</div>
+{{- end -}}
+{{- end -}}

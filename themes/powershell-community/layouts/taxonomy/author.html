@@ -1,14 +1,27 @@
 {{ define "main" }}
 
+{{ $display := .Title }}
+{{ with .Params.preferred_name }}{{ $display = . }}{{ end }}
+
+{{/* An enriched profile with no tagged content almost always means the directory
+     slug does not match any author name in frontmatter — flag it at build time. */}}
+{{ if and .File (eq (len .Pages) 0) }}
+{{ warnf "author profile %q has no published content — its directory slug likely does not match any author name in `authors:` frontmatter" .RelPermalink }}
+{{ end }}
+
 <!-- Authors Header -->
 <section class="bg-gradient-to-r from-blue-600 to-blue-800 py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center text-white">
-            <div class="w-16 h-16 mx-auto mb-4 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
-                <i class="fas fa-user-edit text-3xl"></i>
+            <div class="flex justify-center mb-4">
+                {{ partial "author-avatar.html" (dict "page" . "name" .Title "size" 128 "class" "w-24 h-24 rounded-full object-cover ring-4 ring-white/30") }}
             </div>
-            <h1 class="text-4xl lg:text-5xl font-bold mb-2">{{ .Title }}</h1>
+            <h1 class="text-4xl lg:text-5xl font-bold mb-2">{{ $display }}</h1>
+            {{ with .Params.tagline }}
+            <p class="text-xl opacity-90">{{ . }}</p>
+            {{ else }}
             <p class="text-xl opacity-90">Explore articles and content from this author</p>
+            {{ end }}
         </div>
     </div>
 </section>
@@ -26,20 +39,22 @@
 
         <!-- Author Summary -->
         <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
-            <div class="flex items-center mb-4">
-                <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white mr-5">
-                    <i class="fas fa-user text-2xl"></i>
-                </div>
-                <div>
-                    <h2 class="text-3xl font-bold text-gray-900">{{ .Title }}</h2>
+            <div class="flex flex-col sm:flex-row sm:items-center gap-5">
+                {{ partial "author-avatar.html" (dict "page" . "name" .Title "size" 112 "class" "w-20 h-20 rounded-full object-cover ring-2 ring-blue-100 shrink-0") }}
+                <div class="flex-1">
+                    <h2 class="text-3xl font-bold text-gray-900">{{ $display }}</h2>
                     <p class="text-gray-600">
                         {{ len $articles }} article{{ if ne (len $articles) 1 }}s{{ end }}
                         {{ if $podcasts }}
                         &nbsp;•&nbsp; {{ len $podcasts }} podcast episode{{ if ne (len $podcasts) 1 }}s{{ end }}
                         {{ end }}
                     </p>
+                    {{ partial "author-links.html" (dict "page" . "class" "flex gap-4 text-lg mt-3") }}
                 </div>
             </div>
+            {{ with .Content }}
+            <div class="prose max-w-none mt-6 pt-6 border-t border-gray-100">{{ . }}</div>
+            {{ end }}
         </div>
 
         <!-- Content Grid -->

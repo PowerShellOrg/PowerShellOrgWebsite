@@ -18,7 +18,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-md mx-auto">
             <div class="relative">
-                <input type="text" id="author-search" 
+                <input type="text" id="author-search"
                        placeholder="Search authors..."
                        class="w-full px-4 py-3 pl-10 pr-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                 <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
@@ -30,36 +30,58 @@
 <!-- Authors Grid -->
 <section class="py-10 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {{ $authorTaxonomy := .Site.Taxonomies.authors }}
-        {{ if $authorTaxonomy }}
+        {{ $pairs := .Site.Taxonomies.authors.ByCount }}
+        {{ if $pairs }}
+        {{/* Enriched profiles (backed by a content file) lead, then bare authors,
+             preserving ByCount order within each group. */}}
+        {{ $enriched := slice }}
+        {{ $bare := slice }}
+        {{ range $pairs }}
+            {{ if .Page.File }}
+                {{ $enriched = $enriched | append . }}
+            {{ else }}
+                {{ $bare = $bare | append . }}
+            {{ end }}
+        {{ end }}
+        {{ $ordered := $enriched | append $bare }}
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" id="authors-container">
-            {{ range $authorTaxonomy.ByCount }}
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card"
-                 data-author="{{ .Term | lower }}">
-                <div class="p-6">
+            {{ range $ordered }}
+            {{ $page := .Page }}
+            {{ $name := $page.Title }}
+            {{ $display := $name }}
+            {{ with $page.Params.preferred_name }}{{ $display = . }}{{ end }}
+            {{ $tagline := $page.Params.tagline }}
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden author-card flex flex-col"
+                 data-author="{{ $display | lower }}"
+                 data-tagline="{{ with $tagline }}{{ . | lower }}{{ end }}">
+                <div class="p-6 flex flex-col flex-1">
                     <!-- Author Avatar -->
                     <div class="flex justify-center mb-4">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white">
-                            <i class="fas fa-user text-2xl"></i>
-                        </div>
+                        {{ partial "author-avatar.html" (dict "page" $page "name" $name "size" 96 "class" "w-20 h-20 rounded-full object-cover ring-2 ring-blue-100") }}
                     </div>
 
                     <!-- Author Info -->
-                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-2">
-                        <a href="{{ .Page.RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
-                            {{ .Page.Title }}
+                    <h2 class="text-2xl font-bold text-center text-gray-900 mb-1">
+                        <a href="{{ $page.RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">
+                            {{ $display }}
                         </a>
                     </h2>
+
+                    {{ with $tagline }}
+                    <p class="text-center text-gray-600 text-sm mb-3">{{ . }}</p>
+                    {{ end }}
 
                     <!-- Article Count -->
                     <p class="text-center text-gray-600 mb-4">
                         <span class="text-3xl font-bold text-blue-600">{{ .Count }}</span><br>
-                        <span class="text-sm">article{{ if gt .Count 1 }}s{{ end }} published</span>
+                        <span class="text-sm">article{{ if ne .Count 1 }}s{{ end }} published</span>
                     </p>
 
+                    {{ partial "author-links.html" (dict "page" $page "class" "flex justify-center gap-4 text-lg mb-4") }}
+
                     <!-- View Profile Button -->
-                    <a href="{{ .Page.RelPermalink }}"
-                       class="block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
+                    <a href="{{ $page.RelPermalink }}"
+                       class="mt-auto block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
                         <i class="fas fa-arrow-right mr-2"></i>View Profile
                     </a>
                 </div>
@@ -78,16 +100,16 @@
 
 {{ define "scripts" }}
 <script>
-// Author search functionality
+// Author search: match on name or tagline
 document.getElementById('author-search').addEventListener('input', function(e) {
     const searchTerm = e.target.value.toLowerCase();
     const authors = document.querySelectorAll('.author-card');
-    
+
     authors.forEach(author => {
-        const authorName = author.dataset.author;
-        
-        if (authorName.includes(searchTerm)) {
-            author.style.display = 'block';
+        const haystack = (author.dataset.author + ' ' + (author.dataset.tagline || ''));
+
+        if (haystack.includes(searchTerm)) {
+            author.style.display = '';
         } else {
             author.style.display = 'none';
         }

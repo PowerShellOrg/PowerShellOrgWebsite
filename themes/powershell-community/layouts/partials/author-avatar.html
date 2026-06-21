@@ -1,0 +1,27 @@
+{{- /*
+  Resolve and render an author avatar.
+  Params: page (the author/term page, may be nil), name (string), size (px),
+          class (CSS classes for the <img>).
+  Precedence: avatar -> gravatar_hash -> email -> identicon fallback.
+*/ -}}
+{{- $page := .page -}}
+{{- $name := .name -}}
+{{- $size := .size | default 160 -}}
+{{- $class := .class | default "" -}}
+{{- $src := "" -}}
+{{- with $page -}}
+  {{- $p := .Params -}}
+  {{- if $p.avatar -}}
+    {{- $src = $p.avatar -}}
+  {{- else if $p.gravatar_hash -}}
+    {{- $src = printf "https://www.gravatar.com/avatar/%s?s=%d&d=identicon" $p.gravatar_hash $size -}}
+  {{- else if $p.email -}}
+    {{- $hash := md5 (lower (strings.TrimSpace $p.email)) -}}
+    {{- $src = printf "https://www.gravatar.com/avatar/%s?s=%d&d=identicon" $hash $size -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $src -}}
+  {{- $seed := md5 (lower $name) -}}
+  {{- $src = printf "https://www.gravatar.com/avatar/%s?s=%d&d=identicon&f=y" $seed $size -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ $name }} avatar" class="{{ $class }}" width="{{ $size }}" height="{{ $size }}" loading="lazy">
