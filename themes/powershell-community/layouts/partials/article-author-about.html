@@ -1,0 +1,37 @@
+{{- /*
+  "About the Author" section for article/single pages, sourced from each credited
+  author's profile (taxonomy term content file). Renders only for authors who have
+  opted into a profile, so articles by un-enriched authors are unchanged.
+*/ -}}
+{{- $enriched := slice -}}
+{{- with .GetTerms "authors" -}}
+  {{- range . -}}
+    {{- if .File -}}{{- $enriched = $enriched | append . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $enriched -}}
+<div class="mt-8 pt-6 border-t border-gray-200">
+  <h3 class="text-lg font-semibold text-gray-900 mb-4">About the Author{{ if gt (len .) 1 }}s{{ end }}</h3>
+  <div class="space-y-4">
+    {{- range . -}}
+    {{- $display := .Title -}}{{- with .Params.preferred_name -}}{{- $display = . -}}{{- end -}}
+    <div class="bg-gray-50 rounded-xl p-6">
+      <div class="flex items-start gap-4">
+        {{ partial "author-avatar.html" (dict "page" . "name" .Title "size" 96 "class" "w-16 h-16 rounded-full object-cover ring-2 ring-blue-100 shrink-0") }}
+        <div class="flex-1 min-w-0">
+          <h4 class="text-lg font-semibold text-gray-900">
+            <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors duration-200">{{ $display }}</a>
+          </h4>
+          {{ with .Params.tagline }}<p class="text-sm text-gray-500 mb-2">{{ . }}</p>{{ end }}
+          {{ with .Content }}<div class="prose prose-sm max-w-none text-gray-600">{{ . }}</div>{{ end }}
+          {{ partial "author-links.html" (dict "page" . "class" "flex gap-4 text-lg mt-3") }}
+          <a href="{{ .RelPermalink }}" class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700 mt-3">
+            View profile<i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}
