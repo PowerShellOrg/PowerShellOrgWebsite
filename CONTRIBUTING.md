@@ -57,6 +57,68 @@ If you're not comfortable with Git, you can pitch or submit your article through
 - Include a brief intro that tells readers what they'll learn
 - Test any code examples before submitting
 
+## Adding Your Author Profile
+
+Once you've been credited as an author, you can give yourself a richer profile page at
+`/authors/<your-name>/` — an avatar, a tagline, social links, and a bio. Profiles are
+**opt-in**: if you don't add one, your name still works as a byline exactly as before.
+
+Your profile lives in a single file at `content/authors/<slug>/_index.md`, where `<slug>`
+**must** match your name as it appears in articles' `authors:` front matter (lowercased,
+spaces become hyphens, punctuation dropped — e.g. `Jane Doe` → `jane-doe`). Getting the
+slug wrong creates a page that attaches to nothing, so let the helper script do it:
+
+```powershell
+./tools/new-author.ps1 "Jane Doe"
+```
+
+This scaffolds `content/authors/jane-doe/_index.md` with every field commented. Fill in
+what you want and delete the rest:
+
+```yaml
+---
+title: "Jane Doe"           # required — keep this as your byline name
+preferred_name: "Jane"      # optional — changes only how your name is displayed
+tagline: "Cloud automation, mostly."
+# --- Avatar (first one set wins) ---
+# avatar: "/images/authors/jane.jpg"   # an image you host in this repo
+gravatar_hash: "..."        # MD5 of your lowercased email — keeps your email private
+# email: "jane@example.com" # convenient, but stored publicly in this repo
+# --- Links (full URLs) ---
+github: "https://github.com/janedoe"
+website: "https://janedoe.dev"
+# twitter / mastodon / linkedin / bluesky also supported
+---
+
+Your bio in Markdown goes here. It shows on your profile page.
+```
+
+### Choosing an avatar
+
+The avatar is resolved in this order: `avatar` → `gravatar_hash` → `email` → an
+auto-generated identicon. To use [Gravatar](https://gravatar.com/) without putting your
+email in the repo, store the **MD5 hash** of your lowercased email instead:
+
+```powershell
+$email = "jane@example.com"
+[System.BitConverter]::ToString(
+  [System.Security.Cryptography.MD5]::Create().ComputeHash(
+    [System.Text.Encoding]::UTF8.GetBytes($email.Trim().ToLowerInvariant())
+  )
+).Replace("-", "").ToLowerInvariant()
+```
+
+### Changed your name?
+
+If your byline ever needs to change across all your content (and your profile URL), use:
+
+```powershell
+./tools/new-author.ps1 "Old Name" -To "New Name"
+```
+
+This rewrites the byline everywhere it appears and adds a redirect so your old profile
+URL keeps working. Open a PR with the result.
+
 ## Submitting a Community Event
 
 Add your PowerShell-related event to our community calendar:
