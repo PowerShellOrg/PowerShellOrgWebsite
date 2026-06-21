@@ -26,6 +26,6 @@ understanding of the PowerShell paradigm.Advanced scripts should go
 beyond and demonstrate mastery of complex techniques and concepts. The  
 best of the best will have a pure, elegant, zen-like simplicity even for  
 the most challenging tasks.  
-You can keep up with Jeff at his bloghttp://jdhitsolutions.com/blog , on  
-Twitter at twitter.com/jeffhicks and on  
-Google Plus (http:/gplus.to/JeffHicks)
+You can keep up with Jeff at his blog http://jdhitsolutions.com/blog , on  
+Twitter at https://twitter.com/jeffhicks and on  
+Google Plus (http://gplus.to/JeffHicks)

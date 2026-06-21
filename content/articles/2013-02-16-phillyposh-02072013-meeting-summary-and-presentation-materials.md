@@ -18,7 +18,7 @@ We would also like to thank [Interfacett][8] and [Powershell.org][9] for providi
  [3]: https://powershell.org/wp-content/uploads/2013/02/PhillyPosh_2013-02-07_Presentations.zip
  [4]: http://www.youtube.com/channel/UCAc_ow5FIJtRpvew__9Iqzg?feature=watch
  [5]: http://jdhitsolutions.com/blog/
- [6]: twitter.com/jeffhicks
- [7]: http:/gplus.to/JeffHicks
+ [6]: https://twitter.com/jeffhicks
+ [7]: http://gplus.to/JeffHicks
  [8]: http://www.interfacett.com/
  [9]: https://powershell.org/
