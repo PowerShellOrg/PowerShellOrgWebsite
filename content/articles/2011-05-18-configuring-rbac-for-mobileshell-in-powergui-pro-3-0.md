@@ -24,203 +24,30 @@ Any user who will access MobileShell needs to be a member of the PowerGUI Mobile
 
 With your MobileShell users configured, you can now associate PowerPacks with different AD users and groups.  When a user logs on to MobileShell, they are presented with any PowerPacks that are associated with their user account or with any groups in which their user account is a member. MobileShell PowerPack configuration is done via a simple xml file.  The file does not exist by default, so you need to create it.  Invoke the following PowerShell script on your MobileShell server to create and open the configuration xml file:
 
+```powershell
+$programDataPath = [Environment]::GetFolderPath('CommonApplicationData')
+$powerGUIDataPath = 'Quest Software\PowerGUI Pro'
+$folder = Join-Path -Path $programDataPath -ChildPath $powerGUIDataPath
 
-`$programDataPath 
-
-=
-
- [
-
-Environment
-
-]::
-
-GetFolderPath
-
-(
-
-'
-
-CommonApplicationData
-
-'
-
-)
-
-
-$powerGUIDataPath 
-
-= 
-
-'
-
-Quest Software\PowerGUI Pro
-
-'
-
-
-$folder 
-
-= 
-
-Join-Path 
-
--Path 
-
-$programDataPath 
-
--ChildPath 
-
-$powerGUIDataPath
-
-
-if
-
- (
-
--not
-
- (
-
-Test-Path 
-
--LiteralPath 
-
-$folder
-
-)) {
-
-
-    New-Item 
-
--ItemType 
-
-Directory 
-
--Path 
-
-$folder
-
- | 
-
-Out-Null
-
-
+if (-not (Test-Path -LiteralPath $folder)) {
+    New-Item -ItemType Directory -Path $folder | Out-Null
 }
 
+$configPath = Join-Path -Path $folder -ChildPath 'MobileShellConfig.xml'
 
-$configPath 
-
-= 
-
-Join-Path 
-
--Path 
-
-$folder 
-
--ChildPath 
-
-'
-
-MobileShellConfig.xml
-
-'
-
-
-$configuration 
-
-= 
-
-@"
-
-
+$configuration = @"
 <?xml version="1.0" encoding="utf-8"?>
 
-
-  
-
-
-    
-
-
-      
-
-
-        
-
-
-        
-
-
-        
-
-
-        
-
-
-        
-
-
-        
-
-
-      
-
-
-    
-
-
-  
-
-
-  <!-- 
-
-
-    
-
-
-      
-
-
-        
-
-
-        
-
-
-      
-
-
-    
-
-
-   -->
-
-
+  <!--
+   -->
 "@
 
+$configuration | Out-File -FilePath $configPath -Encoding UTF8
 
-$configuration
+notepad $configPath
+```
 
- | 
-
-Out-File 
-
--FilePath 
-
-$configPath 
-
--Encoding 
-
-UTF8
-
-
-notepad 
-
-$configPath
-
-`Once you have the configuration file open, you will see the layout that is used to associate AD user or group SIDs with PowerPacks.  Copy all of the core PowerPacks that you have in the PowerPacks subfolder of your PowerGUI Pro installation folder that you want to use via the MobileShell UI into the same path where this file was created (the value of the $folder variable in the script above contains this path).  Then modify this file to contain only the PowerPacks you copied over, update the first User SID for your user account, and this will finish off the initial configuration of PowerPacks for MobileShell.  If you want to add additional users, you can copy and paste the User node in the XML document and then modify the SID for the users you add.  Retrieving a SID should be an easy task of course: simply use Get-QADUser from the Quest AD cmdlets!![Smile](http://kirkmunro.files.wordpress.com/2011/05/wlemoticon-smile.png?w=595) 
+Once you have the configuration file open, you will see the layout that is used to associate AD user or group SIDs with PowerPacks.  Copy all of the core PowerPacks that you have in the PowerPacks subfolder of your PowerGUI Pro installation folder that you want to use via the MobileShell UI into the same path where this file was created (the value of the $folder variable in the script above contains this path).  Then modify this file to contain only the PowerPacks you copied over, update the first User SID for your user account, and this will finish off the initial configuration of PowerPacks for MobileShell.  If you want to add additional users, you can copy and paste the User node in the XML document and then modify the SID for the users you add.  Retrieving a SID should be an easy task of course: simply use Get-QADUser from the Quest AD cmdlets!![Smile](http://kirkmunro.files.wordpress.com/2011/05/wlemoticon-smile.png?w=595) 
 
 Note: With this beta release there is a bug in the Groups support in this configuration document, so simply associate PowerPacks to users for now.  Thanks!
 
