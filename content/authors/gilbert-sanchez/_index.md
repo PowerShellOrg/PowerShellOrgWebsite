@@ -1,6 +1,6 @@
 ---
 title: "Gilbert Sanchez"
-tagline: "PowerShell community contributor and module author"
+tagline: "PowerShell nerd, open source contributor, and accidental homelab architect"
 gravatar_hash: "8a5f80a8824ba8c72c0295b000476718"
 website: "https://gilbertsanchez.com"
 github: "https://github.com/HeyItsGilbert"
@@ -9,7 +9,8 @@ linkedin: "https://www.linkedin.com/in/gilbertsanchez"
 bluesky: "https://bsky.app/profile/gilbertsanchez.com"
 ---
 
-Gilbert Sanchez is a systems engineer who spreads the love of PowerShell at scale and
-is active across the community, including episodes of The PowerShell Podcast. He writes
-PowerShell modules for work and play — find his RPG-flavored modules **RPGDice** and
-**BeneathTheCanals** on the [PowerShell Gallery](https://www.powershellgallery.com/profiles/HeyItsGilbert).
+I maintain projects like psake, lead a team of engineers by day, and automate
+everything in sight by night — the house runs on Home Assistant and I have
+no regrets. I also care a lot about making tech more accessible and welcoming,
+especially for neurodiverse folks. If it can be scripted or made more human,
+it probably already has been. Find me at [gilbertsanchez.com](https://gilbertsanchez.com/).
