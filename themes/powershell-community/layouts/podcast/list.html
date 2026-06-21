@@ -26,18 +26,6 @@
 <!-- Podcast Episodes -->
 <section class="py-10 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Filter/Search Bar -->
-        <div class="mb-6">
-            <div class="max-w-md mx-auto">
-                <div class="relative">
-                    <input type="text" id="podcast-search" 
-                           placeholder="Search episodes..."
-                           class="w-full px-4 py-3 pl-10 pr-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500">
-                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
-                </div>
-            </div>
-        </div>
-        
         <!-- Episodes Grid -->
         <div class="grid gap-6" id="episodes-container">
             {{ $paginator := .Paginate .Pages }}
@@ -150,25 +138,4 @@
     </div>
 </section>
 
-{{ end }}
-
-{{ define "scripts" }}
-<script>
-// Podcast search functionality
-document.getElementById('podcast-search').addEventListener('input', function(e) {
-    const searchTerm = e.target.value.toLowerCase();
-    const episodes = document.querySelectorAll('.podcast-episode');
-    
-    episodes.forEach(episode => {
-        const title = episode.dataset.title;
-        const content = episode.dataset.content;
-        
-        if (title.includes(searchTerm) || content.includes(searchTerm)) {
-            episode.style.display = 'block';
-        } else {
-            episode.style.display = 'none';
-        }
-    });
-});
-</script>
 {{ end }}

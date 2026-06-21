@@ -135,6 +135,13 @@ params:
   # Analytics (GitHub Pages compatible)
   google_analytics: ""
 
+  # Algolia search (Netlify crawler integration; search-only key, safe to commit)
+  algolia:
+    appId: "K2CHG50H47"
+    apiKey: "4bc832d88d1459de157de3ba1e11f1da"
+    siteId: "1c141042-7ddd-4dd8-87e7-cca37c9e7197"
+    branch: "main"
+
   ical:
     timezone: UTC
   

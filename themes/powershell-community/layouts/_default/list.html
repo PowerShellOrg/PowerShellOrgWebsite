@@ -19,20 +19,6 @@
 <!-- Content Section -->
 <section class="py-10 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Filter/Search Bar -->
-        {{ if gt (len .Pages) 5 }}
-        <div class="mb-6">
-            <div class="max-w-md mx-auto">
-                <div class="relative">
-                    <input type="text" id="content-search" 
-                           placeholder="Search {{ .Title | lower }}..."
-                           class="w-full px-4 py-3 pl-10 pr-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
-                </div>
-            </div>
-        </div>
-        {{ end }}
-        
         <!-- Category/Tag Filter (if applicable) -->
         {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
         <div class="mb-6 text-center">
@@ -142,13 +128,6 @@
             {{ end }}
         </div>
         
-        <!-- No Results Message -->
-        <div id="no-results" class="hidden text-center py-12">
-            <i class="fas fa-search text-4xl text-gray-400 mb-4"></i>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">No results found</h3>
-            <p class="text-gray-600">Try adjusting your search terms or browse all content.</p>
-        </div>
-        
         <!-- Pagination -->
         {{ if gt $paginator.TotalPages 1 }}
         <nav class="mt-8 flex justify-center" aria-label="Pagination">
@@ -193,39 +172,4 @@
     </div>
 </section>
 
-{{ end }}
-
-{{ define "scripts" }}
-<script>
-// Search functionality
-const searchInput = document.getElementById('content-search');
-if (searchInput) {
-    searchInput.addEventListener('input', function(e) {
-        const searchTerm = e.target.value.toLowerCase();
-        const contentItems = document.querySelectorAll('.content-item');
-        const noResults = document.getElementById('no-results');
-        let visibleCount = 0;
-        
-        contentItems.forEach(item => {
-            const title = item.dataset.title;
-            const content = item.dataset.content;
-            const tags = item.dataset.tags;
-            
-            if (title.includes(searchTerm) || content.includes(searchTerm) || tags.includes(searchTerm)) {
-                item.style.display = 'block';
-                visibleCount++;
-            } else {
-                item.style.display = 'none';
-            }
-        });
-        
-        // Show/hide no results message
-        if (visibleCount === 0 && searchTerm.length > 0) {
-            noResults.classList.remove('hidden');
-        } else {
-            noResults.classList.add('hidden');
-        }
-    });
-}
-</script>
 {{ end }}
