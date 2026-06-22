@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Breaking Down ModuleFast and More with Justin Grote
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Justin Grote
 date: "2024-06-03T14:42:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/59pk27pe2xgt5pb2/The_PowerShell_Podcast_episode_121_Justin_Grote94l5l.mp3"

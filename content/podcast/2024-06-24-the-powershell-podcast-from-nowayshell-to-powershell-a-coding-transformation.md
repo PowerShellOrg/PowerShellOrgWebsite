@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast From NoWayShell to PowerShell: A Coding Transformation"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-06-24T14:30:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/296k7j8jivvrghrc/The_PowerShell_Podcast_episode_124_Josh_Hendricksao7u6.mp3"
 episode: 124

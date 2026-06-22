@@ -1,8 +1,9 @@
 ---
 title: Introducing AutomatedLab with Jan
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Jan-Hendrik Peters
 date: "2022-09-05T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/irpruk/PowerShell_Podcast_episode_28_Janbkaew.mp3"

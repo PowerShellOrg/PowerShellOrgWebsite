@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Reliability Through Planning with Matthew Gill
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Matthew Gill
 date: "2026-01-12T15:19:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/rut8gqkunha2xsvu/The_PowerShell_Podcast_episode_209_Matthew_Gillajwsp.mp3"

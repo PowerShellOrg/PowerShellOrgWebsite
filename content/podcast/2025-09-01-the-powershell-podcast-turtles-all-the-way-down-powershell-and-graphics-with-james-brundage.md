@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Turtles All the Way Down: PowerShell and Graphics with James Brundage"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - James Brundage
 date: "2025-09-01T14:18:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/gh2habrgwd8h4pvt/The_PowerShell_Podcast_episode_190_James_Brundage6499h.mp3"

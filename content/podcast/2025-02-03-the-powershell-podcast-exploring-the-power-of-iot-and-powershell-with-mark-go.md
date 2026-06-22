@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Exploring the Power of IoT and PowerShell with Mark Go
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Mark Go
 date: "2025-02-03T15:59:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mkfnappypnea5zbr/The_PowerShell_Podcast_episode_156_Mark_Gobr5ap.mp3"

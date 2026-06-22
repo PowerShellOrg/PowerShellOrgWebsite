@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Reaching New Users with Jeff Hicks
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Jeffery Hicks
 date: "2023-03-06T15:30:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/q756jj/PowerShell_Podcast_episode_54_Jeff_Hicks7fb4v.mp3"

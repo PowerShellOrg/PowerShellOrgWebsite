@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast The Just Us League With Andrew and Jordan
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-04-03T14:52:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/22wh45/PowerShell_Podcast_episode_58_Just_us_League7quxc.mp3"
 episode: 58

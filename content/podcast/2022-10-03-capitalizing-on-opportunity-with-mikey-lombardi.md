@@ -1,8 +1,9 @@
 ---
 title: Capitalizing on Opportunity with Mikey Lombardi
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Mikey Lombardi
 date: "2022-10-03T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ny3a45/PowerShell_Podcast_episode_32_Mikey_Lombardi69tp1.mp3"

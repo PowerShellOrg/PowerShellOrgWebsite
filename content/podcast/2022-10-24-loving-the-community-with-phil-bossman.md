@@ -1,8 +1,9 @@
 ---
 title: Loving the Community with Phil Bossman
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Phil Bossman
 date: "2022-10-24T18:30:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ppg45i/PowerShell_Podcast_Episode_35_Phil_Bossman6gx44.mp3"

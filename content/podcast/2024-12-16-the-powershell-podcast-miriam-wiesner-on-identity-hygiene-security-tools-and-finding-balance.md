@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Miriam Wiesner on Identity Hygiene, Security Tools, and Finding Balance
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Miriam C. Wiesner
 date: "2024-12-16T15:59:24+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cbm3ybeqz2b6d7re/The_PowerShell_Podcast_episode_149_Miriam_Wiesnerafpmg.mp3"

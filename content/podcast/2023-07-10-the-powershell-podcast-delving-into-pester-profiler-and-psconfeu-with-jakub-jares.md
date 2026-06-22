@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Delving into Pester, Profiler, and PSConfEU with Jakub Jareš
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Jakub Jareš
 date: "2023-07-10T14:08:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/usqgwb/The_PowerShell_Podcast_episode_73_Jakub8tpf8.mp3"

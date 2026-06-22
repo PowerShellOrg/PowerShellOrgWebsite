@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The Power of Splatting and Team Empowerment
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - David Richmond
 date: "2025-07-21T14:05:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/atfkfre8gie82zvm/The_PowerShell_Podcast_episode_184_David_Richmondacu3x.mp3"

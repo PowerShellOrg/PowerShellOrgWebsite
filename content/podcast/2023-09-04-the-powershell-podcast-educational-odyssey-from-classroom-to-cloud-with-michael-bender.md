@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Educational Odyssey: From Classroom to Cloud with Michael Bender"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Michael Bender
 date: "2023-09-04T14:22:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zcuiyc/The_PowerShell_Podcast_episode_81_Michael_Bender7wbj3.mp3"

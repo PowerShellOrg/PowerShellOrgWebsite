@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The Importance of Community in Tech. Mike Kanakos and Phil Bossman
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Mike Kanakos
   - Phil Bossman
 date: "2024-11-04T15:14:01+00:00"

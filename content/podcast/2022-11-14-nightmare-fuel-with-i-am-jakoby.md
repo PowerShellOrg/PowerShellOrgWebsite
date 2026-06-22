@@ -1,8 +1,9 @@
 ---
 title: Nightmare Fuel with I am Jakoby
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2022-11-14T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/m8wpdm/PowerShell_Podcast_episode_38_IamJakoby9tjg2.mp3"
 episode: 38

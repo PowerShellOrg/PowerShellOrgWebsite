@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Authenticity, AI, and the Human Side of Tech with Adil Leghari
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Adil Leghari
 date: "2025-10-13T14:37:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jzy4n6wxqzqyqq99/The_PowerShell_Podcast_episode_196_Adil_Leghari6dyyz.mp3"

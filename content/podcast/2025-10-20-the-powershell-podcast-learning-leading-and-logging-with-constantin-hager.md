@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Learning, Leading, and Logging with Constantin Hager
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Constantin Hager
 date: "2025-10-20T14:15:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sct72rjhkjzmdtez/The_PowerShell_Podcast_episode_197_Contantin_Hagerapus0.mp3"

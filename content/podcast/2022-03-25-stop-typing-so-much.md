@@ -1,8 +1,9 @@
 ---
 title: Stop Typing So Much
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2022-03-25T20:44:27+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wxt6xb/PowerShell_Podcast_episode_28eklv.mp3"
 episode: 2

@@ -1,8 +1,9 @@
 ---
 title: Passion + PowerShell = Profit with David Hall
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - David Hall
 date: "2022-08-08T17:21:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/g97cbn/PowerShell_Podcast_episode_24_David_Hall83szp.mp3"

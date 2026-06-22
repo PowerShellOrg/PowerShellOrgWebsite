@@ -1,8 +1,9 @@
 ---
 title: "Repositories with Adil Leghari: Do not take orally"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Adil Leghari
 date: "2022-06-27T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vinuie/PowerShell_Podcast_episode_18_Adilacfkg.mp3"

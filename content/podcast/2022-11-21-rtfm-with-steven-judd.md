@@ -1,8 +1,9 @@
 ---
 title: RTFM with Steven Judd
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Steven Judd
 date: "2022-11-21T20:12:11+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/8h7js3/PowerShell_Podcast_episode_39_Steven_Judd8hrmh.mp3"

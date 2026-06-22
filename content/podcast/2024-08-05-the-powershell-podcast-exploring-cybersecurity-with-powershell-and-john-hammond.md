@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Exploring Cybersecurity with PowerShell and John Hammond
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - John Hammond
 date: "2024-08-05T14:09:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bnmdkxq7qczsc2as/The_PowerShell_Podcast_episode_130_John_Hammond9dv8e.mp3"

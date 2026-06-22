@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Holiday Special with Gilbert Sanchez: PSScriptAnalyzer, AST, and PowerShell Gifts"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Gilbert Sanchez
 date: "2024-12-23T15:30:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qk6w2u6xg7aes6kt/The_PowerShell_Podcast_episode_150_Glbert_Sanchez7oxys.mp3"

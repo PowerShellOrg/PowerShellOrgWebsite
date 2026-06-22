@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Building Modern PowerShell Solutions: Justin Grote on TUIs, .NET, and Module Magic"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Justin Grote
 date: "2024-09-16T14:25:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/g2cpprrpivid67zs/The_PowerShell_Podcast_episode_136_Justin_Groteavjgu.mp3"

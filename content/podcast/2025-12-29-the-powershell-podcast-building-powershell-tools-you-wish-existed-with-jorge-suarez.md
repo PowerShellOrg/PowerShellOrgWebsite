@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Building PowerShell Tools You Wish Existed with Jorge Suarez
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Jorge Suarez
 date: "2025-12-29T15:22:10+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vjj2wtiqimctq8hk/The_PowerShell_Podcast_episode_207_Jorge_Suarez86hu6.mp3"

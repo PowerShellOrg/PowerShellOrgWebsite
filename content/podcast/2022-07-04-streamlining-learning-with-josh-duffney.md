@@ -1,8 +1,9 @@
 ---
 title: Streamlining Learning with Josh Duffney
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Josh Duffney
 date: "2022-07-04T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sq4dzm/PowerShell_Podcast_episode_19_Josh_Duffneyavqge.mp3"

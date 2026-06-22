@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Culture, Mentoring, and Tech: A Talk with Glen Sarti"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Glen Sarti
 date: "2023-07-24T15:00:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9yemga/The_PowerShell_podcast_episode_75_Glenn_Sarti7utu9.mp3"

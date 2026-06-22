@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The PowerShell & DevOps Global Summit 2024 Bar Session 2
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-04-15T14:39:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7fqhmd5q5krrmu6y/The_PowerShell_Podcast_episode_114_Summit_Bar_session_27361z.mp3"
 episode: 114

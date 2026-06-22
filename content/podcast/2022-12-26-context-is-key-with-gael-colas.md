@@ -1,8 +1,9 @@
 ---
 title: Context is Key with Gael Colas
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Gael Colas
 date: "2022-12-26T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jvexkm/PowerShell_Podcast_episode_44_Gael_Colasb11qa.mp3"

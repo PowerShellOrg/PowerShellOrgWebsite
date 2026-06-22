@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Unveiling the Power of Generative AI with Chrissy LeMaire
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Chrissy LeMaire
 date: "2024-07-29T14:31:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2snfrtvbdirsttjg/The_PowerShell_Podcast_episode_129_Chrissy_LeMaire6rykh.mp3"

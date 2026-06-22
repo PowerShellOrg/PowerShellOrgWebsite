@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Spectre Console and TUI Magic with Shaun Lawrie
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Shaun Lawrie
 date: "2024-09-30T14:36:26+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xgy7uzzdpgrzsvv3/The_PowerShell_Podcast_episode_138_Shaun_Lawrie8g50o.mp3"

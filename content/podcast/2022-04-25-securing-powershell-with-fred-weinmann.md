@@ -1,8 +1,9 @@
 ---
 title: Securing PowerShell with Fred Weinmann
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Fred Weinmann
 date: "2022-04-25T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2pkste/PowerShell_Podcast_episode_87ghwg.mp3"

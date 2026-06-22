@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Beginnings, Blue Bars, and the Valley of Despair with Steven Judd
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Steven Judd
 date: "2025-09-15T14:28:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/e2kqcvdw8ni9ca92/The_PowerShell_Podcast_episode_192_Steven_Juddbdrua.mp3"

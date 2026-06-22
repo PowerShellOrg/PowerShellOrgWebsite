@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Navigating the IT Landscape: A Conversation with Joel ’Jaykul’ Bennett"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-10-02T14:26:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qxxkn8/The_PowerShell_Podcast_episode_85_Jaykul6ox3v.mp3"
 episode: 85

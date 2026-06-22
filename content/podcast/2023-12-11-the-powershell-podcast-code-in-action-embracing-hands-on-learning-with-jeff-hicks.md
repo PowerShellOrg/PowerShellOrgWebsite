@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Code in Action: Embracing Hands-On Learning with Jeff Hicks"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Jeffery Hicks
 date: "2023-12-11T15:27:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/fai68n/The_PowerShell_Podcast_episode_95_Jeff_Hicks7kf13.mp3"

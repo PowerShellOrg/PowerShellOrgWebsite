@@ -1,8 +1,9 @@
 ---
 title: Bringing Home the Bacon with Adam…Bacon
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Adam Bacon
 date: "2023-01-30T20:09:34+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/758zpc/PowerShell_Podcast_episode_49_Adam_Bacon9m64x.mp3"

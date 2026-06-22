@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast PowerShell and DevOps Global Summit – Steve Judd, Poshwolf (Anthony Howell), Phil Bossman, Dan Hill, and Geoff Schram
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-05-15T14:24:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bw5zma/PowerShell_Podcast_episode_65_Summit_Steve_Posh_Phil_Dan_Geoff7ioe3.mp3"
 episode: 65

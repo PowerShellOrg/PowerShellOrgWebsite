@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Shell-Shocked: PowerShell Gallery Security, Reddit Questions, and more"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-08-21T14:19:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qr7phi/The_PowerShell_Podcast_episode_79_Jordan_and_Andrew6kozr.mp3"
 episode: 79

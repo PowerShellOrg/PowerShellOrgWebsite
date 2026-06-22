@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Building Layers of Protection and Purpose – Miriam Wiesner
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-07-07T14:56:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5cji2wqs9m6tqgty/The_PowerShell_Podcast_episode_182_Miriam_PSCEU9fcm8.mp3"
 episode: 182

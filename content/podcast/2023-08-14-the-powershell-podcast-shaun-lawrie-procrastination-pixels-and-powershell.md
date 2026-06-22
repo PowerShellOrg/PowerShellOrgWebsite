@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Shaun Lawrie: Procrastination, Pixels and PowerShell"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Shaun Lawrie
 date: "2023-08-14T14:40:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7zqije/The_PowerShell_Podcast_episode_78_Shaun_Lawriea1pm8.mp3"

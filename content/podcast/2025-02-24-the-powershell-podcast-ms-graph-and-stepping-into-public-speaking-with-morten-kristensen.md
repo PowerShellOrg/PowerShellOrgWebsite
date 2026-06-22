@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast MS Graph and Stepping into Public Speaking with Morten Kristensen
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Morten Kristensen
 date: "2025-02-24T15:46:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/a8haxz6v6gwimhji/The_PowerShell_Podcast_episode_159_Morten_Kristensen9e84a.mp3"

@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Using PowerCLI with Dale Hassinger
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Dale Hassinger
 date: "2023-03-20T14:33:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/86uwwc/PowerShell_Podcast_episode_56_Dale_Hassinger7omec.mp3"

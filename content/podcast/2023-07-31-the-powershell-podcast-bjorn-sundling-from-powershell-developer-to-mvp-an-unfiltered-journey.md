@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Björn Sundling. From PowerShell Developer to MVP: An Unfiltered Journey"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-07-31T14:38:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/shjpr2/PowerShell_Podcast_episode_76_Bjorn8wu01.mp3"
 episode: 76

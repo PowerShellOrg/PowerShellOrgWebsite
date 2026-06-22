@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Unlocking Secrets: Sam Erde on Open-Source Contributions and the Locksmith Module"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Sam Erde
 date: "2023-12-18T15:52:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/e9ay6a/The_PowerShell_Podcast_episode_96_Same_Erde623v7.mp3"

@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Speaking, Mentorship, and Growth with Emrys MacInally
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Emrys MacInally
 date: "2023-07-03T14:36:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hej7ny/PowerShell_Podcast_episode_72_Emrys_MacInally75aih.mp3"

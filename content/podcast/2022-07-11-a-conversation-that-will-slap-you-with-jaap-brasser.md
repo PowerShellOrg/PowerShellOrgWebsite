@@ -1,8 +1,9 @@
 ---
 title: A conversation that will !slap you with Jaap Brasser
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Jaap Brasser
 date: "2022-07-11T18:40:06+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vb35fg/PowerShell_Podcast_episode_20_Jaapbe18h.mp3"

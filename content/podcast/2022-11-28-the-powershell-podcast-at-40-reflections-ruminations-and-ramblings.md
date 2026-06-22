@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast at 40; Reflections, Ruminations, and Ramblings
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2022-11-28T20:08:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/y6ifja/PowerShell_Podcast_episode_40b403l.mp3"
 episode: 40

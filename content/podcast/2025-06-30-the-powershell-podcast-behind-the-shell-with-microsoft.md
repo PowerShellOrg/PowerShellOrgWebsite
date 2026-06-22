@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Behind the Shell with Microsoft
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-06-30T15:18:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2ivuz3hyfe26zs9h/The_PowerShell_Podcast_episode_181_PSconf_EU_MS_team7b21l.mp3"
 episode: 181
