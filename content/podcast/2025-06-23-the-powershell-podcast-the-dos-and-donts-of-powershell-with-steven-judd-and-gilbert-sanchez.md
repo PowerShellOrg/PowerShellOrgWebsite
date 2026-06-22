@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The Dos and Don’ts of PowerShell with Steven Judd and Gilbert Sanchez
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Steven Judd
   - Gilbert Sanchez
 date: "2025-06-23T14:32:55+00:00"

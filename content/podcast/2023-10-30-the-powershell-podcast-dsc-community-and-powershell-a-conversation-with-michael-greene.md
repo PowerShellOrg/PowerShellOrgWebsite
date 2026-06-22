@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast DSC, Community, and PowerShell: A conversation with Michael Greene"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Michael Greene
 date: "2023-10-30T14:45:30+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9mqfxu/The_PowerShell_Podcast_episode_89_Michael_Green85zch.mp3"

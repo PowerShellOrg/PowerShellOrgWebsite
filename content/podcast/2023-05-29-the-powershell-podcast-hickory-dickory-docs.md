@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Hickory Dickory Docs
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-05-29T14:41:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7apuv3/PowerShell_Podcast_episode_67_Docs6ohhn.mp3"
 aliases:

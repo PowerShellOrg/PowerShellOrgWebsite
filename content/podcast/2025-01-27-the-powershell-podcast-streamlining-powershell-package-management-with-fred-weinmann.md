@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Streamlining PowerShell Package Management with Fred Weinmann
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Fred Weinmann
 date: "2025-01-27T15:29:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3ii2u6f5nqw8mtav/The_PowerShell_Podcast_episode_155_Fred_part_2acuh2.mp3"

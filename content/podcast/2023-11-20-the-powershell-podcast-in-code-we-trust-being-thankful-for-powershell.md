@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast In Code We Trust: Being Thankful for PowerShell"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-11-20T15:36:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/b68a95/The_PowerShell_Podcast_episode_92_Jordan_and_Andrew_Thanksgivinga626u.mp3"
 aliases:

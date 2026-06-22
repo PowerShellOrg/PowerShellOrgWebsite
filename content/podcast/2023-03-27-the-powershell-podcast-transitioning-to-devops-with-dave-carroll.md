@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Transitioning to DevOps with Dave Carroll
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Dave Carroll
 date: "2023-03-27T14:13:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/74xwi4/PowerShell_Podcast_episode_57_Dave_Carrollas1yj.mp3"

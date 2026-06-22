@@ -32,3 +32,15 @@ display their author name unchanged.
 The per-Author page at `/authors/<name>/` listing that Author's content and, when
 provided, their self-description. Distinct from the **Author list** — the index page
 at `/authors/` showing every Author as a card.
+
+**The PowerShell Podcast**:
+The current weekly show hosted by Andrew Pla (with Jordan Hammond co-hosting the
+earliest episodes), distributed via the Podbean feed. This is the show that the
+`/podcast/` section is titled after and that the RSS sync keeps in step.
+
+**PowerScripting Podcast**:
+The older, separate show (2007–2020, hosts such as Jonathan Walz and Hal Rottenberg)
+whose archived episodes also live under `/podcast/`. A distinct podcast from **The
+PowerShell Podcast** despite sharing the section — it has its own hosts and is not
+covered by the Podbean feed or the sync. Episodes are told apart by their audio host:
+Podbean (`mcdn.podbean.com`) means The PowerShell Podcast; libsyn means PowerScripting.

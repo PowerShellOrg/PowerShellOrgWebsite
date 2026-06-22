@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Discovering the Deeper Layers of PowerShell with Jeff Hicks
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Jeff Hicks
 date: "2025-04-07T14:29:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/grizfj6pe8csjsy6/The_PowerShell_Podcast_episode_165_Jeff_Hicks9pfu4.mp3"

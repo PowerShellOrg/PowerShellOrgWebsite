@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Maximizing Community Engagement with sqldbawithabeard
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-04-17T14:56:13+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z2n32s/PowerShell_Podcast_episode_60_Rob_Sewella7qkz.mp3"
 aliases:

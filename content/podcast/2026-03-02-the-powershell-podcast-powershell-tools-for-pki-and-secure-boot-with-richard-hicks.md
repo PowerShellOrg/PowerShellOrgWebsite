@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast PowerShell Tools for PKI and Secure Boot with Richard Hicks
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Richard Hicks
 date: "2026-03-02T15:16:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6zgrat43v8twkatc/The_PowerShell_Podcast_episode_216_Richard_Hicksa5fci.mp3"

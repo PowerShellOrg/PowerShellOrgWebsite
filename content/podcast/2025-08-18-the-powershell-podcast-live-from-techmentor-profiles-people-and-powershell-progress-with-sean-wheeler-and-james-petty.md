@@ -1,7 +1,8 @@
 ---
 title: "The PowerShell Podcast Live from TechMentor: Profiles, People, and PowerShell Progress with Sean Wheeler and James Petty"
-author: James Petty
+author: Andrew Pla
 authors:
+  - Andrew Pla
   - James Petty
   - Sean Wheeler
 date: "2025-08-18T14:17:11+00:00"

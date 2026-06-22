@@ -1,8 +1,9 @@
 ---
 title: Developing PowerShell Tools with Adam Driscoll
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Adam Driscoll
 date: "2022-07-25T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pmg9aj/PowerShell_Podcast_episode_22_Adam_Driscoll8yqw0.mp3"

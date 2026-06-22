@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast PipeScript, Formatting, and Docker: An In-Depth Conversation with James Brundage"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - James Brundage
 date: "2024-06-10T14:20:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7q8m8wx2hr866m7j/The_PowerShell_Podcast_episode_122_James_Brundageaj0sz.mp3"

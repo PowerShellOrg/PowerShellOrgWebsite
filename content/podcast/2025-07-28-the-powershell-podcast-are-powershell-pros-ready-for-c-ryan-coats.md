@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Are PowerShell Pros Ready for C# – Ryan Coats"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Ryan Coates
 date: "2025-07-28T14:41:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mfew4ev3fgchvyvr/The_PowerShell_Podcast_episode_185_Ryan_Coats7aybi.mp3"

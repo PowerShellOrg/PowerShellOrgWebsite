@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Entra Insights and Merrill Fernando’s Toolbox: Powering the Community"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Merill Fernando
 date: "2023-11-06T15:12:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7qknbs/The_PowerShell_Podcast_episode_90_Merill64092.mp3"

@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The Art and Science of PowerShell Module Development with Fred Weinmann
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Fred Weinmann
 date: "2025-01-20T15:58:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/eutut6kbw64dqdbj/The_PowerShell_Podcast_episode_154_Fred_part_169q90.mp3"

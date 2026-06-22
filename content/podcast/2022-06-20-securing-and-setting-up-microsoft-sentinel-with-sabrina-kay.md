@@ -1,8 +1,9 @@
 ---
 title: Securing and Setting up Microsoft Sentinel with Sabrina Kay
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Sabrina Kay
 date: "2022-06-20T18:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/nftedz/PowerShell_Podcast_episode_17_Sabrina778x5.mp3"

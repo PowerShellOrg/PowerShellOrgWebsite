@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast The Powershell Podcast Summit sessions with Adam Rivera, Asmar Fontenot, & Luis Orta
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Adam Rivera
   - Luis Orta
 date: "2025-04-21T14:34:49+00:00"

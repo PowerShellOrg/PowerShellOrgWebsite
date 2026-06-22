@@ -1,8 +1,9 @@
 ---
 title: Got Trees? With Mathias Jessen
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Mathias Jessen
 date: "2022-11-07T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uwn8ex/PowerShell_Podcast_episode_37_Mathias_Jessenapple.mp3"

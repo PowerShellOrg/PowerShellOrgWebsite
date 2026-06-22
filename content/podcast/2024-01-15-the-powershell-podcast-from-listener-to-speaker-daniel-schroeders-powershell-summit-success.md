@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast From Listener to Speaker: Daniel Schroeder’s PowerShell Summit Success"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-01-15T15:23:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6zayfh/The_PowerShell_Podcast_episode_100_Daniel_Schroeder7o6h8.mp3"
 aliases:

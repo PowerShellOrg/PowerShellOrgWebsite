@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Frank Lesniak
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-04-09T22:01:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uf4ptjz6r8pihsq9/The_PowerShell_Podcast_Summit_2025_bar_session_Frank_Lesniak_episode_16779siv.mp3"
 aliases:

@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Building Confidence and Community with PowerShell with Brock Bingham
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-05-19T14:32:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/a7x5dxkvagvdwwem/The_PowerShell_Podcast_episode_174_Brockstar63mcr.mp3"
 aliases:

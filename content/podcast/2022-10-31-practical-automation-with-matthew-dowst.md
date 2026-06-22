@@ -1,8 +1,9 @@
 ---
 title: Practical Automation With Matthew Dowst
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Matthew Dowst
 date: "2022-10-31T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yjnxzk/PowerShell_Podcast_Episode_36_Matthew_Dowst8al3z.mp3"

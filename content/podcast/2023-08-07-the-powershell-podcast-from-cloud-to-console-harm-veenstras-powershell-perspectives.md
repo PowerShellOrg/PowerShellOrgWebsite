@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast From Cloud to Console: Harm Veenstra’s PowerShell Perspectives"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-08-07T14:10:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7uddz8/PowerShell_Podcast_episode_77_Harma6wdz.mp3"
 aliases:

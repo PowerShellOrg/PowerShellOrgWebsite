@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Andrew Celebrates & Previews psconf.eu with Christian & Björn
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-06-17T14:51:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/rgaeggjeqjxijhjt/The_PowerShell_Podcast_episode_123_EU_peeps8p28o.mp3"
 aliases:

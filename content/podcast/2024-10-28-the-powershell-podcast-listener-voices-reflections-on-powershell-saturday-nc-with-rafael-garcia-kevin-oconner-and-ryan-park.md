@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Listener Voices: Reflections on PowerShell Saturday NC with Rafael Garcia, Kevin O’Conner, and Ryan Park"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Rafael Garcia
   - Ryan Park
 date: "2024-10-28T14:40:49+00:00"

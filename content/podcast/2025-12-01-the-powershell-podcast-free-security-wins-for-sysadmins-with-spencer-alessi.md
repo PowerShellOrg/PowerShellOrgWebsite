@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Free Security Wins for Sysadmins with Spencer Alessi
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Spencer Alessi
 date: "2025-12-01T15:15:25+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pvcpprqtmib4ua9z/The_PowerShell_Podcast_episode_203_Spencer_Alessi9fj3s.mp3"

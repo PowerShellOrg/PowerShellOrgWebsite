@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Unlocking Automation with AI Shell and Desired State Configuration with Jason Helmick
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-08-25T14:47:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/df6rmjt94kzgnvfk/The_PowerShell_Podcast_episode_189_Jason_Helmick_and_Troy_techmentor8c3bp.mp3"
 aliases:

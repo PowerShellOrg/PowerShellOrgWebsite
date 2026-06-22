@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – David R
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-04-10T21:15:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/w92r2ycvg2xsrt9p/The_PowerShell_Podcast_Summit_2025_bar_session_David_R_episode_168b7gks.mp3"
 aliases:

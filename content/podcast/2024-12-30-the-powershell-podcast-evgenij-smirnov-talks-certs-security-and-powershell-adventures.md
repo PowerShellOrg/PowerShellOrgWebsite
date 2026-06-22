@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Evgenij Smirnov Talks Certs, Security, and PowerShell Adventures
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-12-30T16:01:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vyy4kx7wkmc5vbrb/The_PowerShell_Podcast_episode_151_Evgenij_Smirnov89bwz.mp3"
 aliases:

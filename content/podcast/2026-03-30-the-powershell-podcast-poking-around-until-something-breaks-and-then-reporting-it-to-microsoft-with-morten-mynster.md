@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Poking Around Until Something Breaks (And Then Reporting It to Microsoft) with Morten Mynster
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Morten Mynster
 date: "2026-03-30T14:24:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/nrwx27zcg3v56e63/The_PowerShell_Podcast_episode_220_Morten_Mynsterbm7s7.mp3"

@@ -1,7 +1,9 @@
 ---
 title: "The PowerShell Podcast PowerShell Summit & More: A Chat with James Petty"
-author: James Petty
+author: Andrew Pla
 authors:
+  - Andrew Pla
+  - Jordan Hammond
   - James Petty
 date: "2023-11-27T15:20:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/abrpbj/The_PowerShell_Podcast_episode_93_James_Petty9507r.mp3"

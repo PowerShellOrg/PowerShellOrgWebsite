@@ -1,8 +1,9 @@
 ---
 title: The Power of Shell Compels You
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2022-03-23T20:27:34+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xwe5xx/PowerShell_Podcast_Episode_19di8t.mp3"
 aliases:

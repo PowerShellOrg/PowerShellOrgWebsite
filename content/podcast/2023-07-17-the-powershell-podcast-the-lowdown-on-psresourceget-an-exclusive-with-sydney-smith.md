@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast The Lowdown on PSResourceGet: An Exclusive with Sydney Smith"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Sydney Smith
 date: "2023-07-17T14:32:09+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/q9c64d/The_PowerShell_Podcast_episode_74_Sydney_Smith8b5qg.mp3"

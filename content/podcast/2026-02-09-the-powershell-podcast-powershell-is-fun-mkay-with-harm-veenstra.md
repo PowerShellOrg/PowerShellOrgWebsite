@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast PowerShell Is Fun mkay with Harm Veenstra
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Harm Veenstra
 date: "2026-02-09T15:33:11+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qki24mprdnepw6r5/The_PowerShell_Podcast_episode_213_Harm_Ventra8kory.mp3"

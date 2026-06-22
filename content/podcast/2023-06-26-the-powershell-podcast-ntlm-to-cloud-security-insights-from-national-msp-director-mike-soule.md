@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast NTLM to Cloud Security: Insights from National MSP Director Mike Soule"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-06-26T14:58:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yv3pvb/PowerShell_Podcast_episode_71_Mike_Soule6x0u0.mp3"
 aliases:

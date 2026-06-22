@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Hacking Games and Building a Career – Mateus Pimentel
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-06-02T14:50:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xmmm9x5nn77hjv9j/The_PowerShell_Podcast_episode_176_Mateus7qt8c.mp3"
 aliases:

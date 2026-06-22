@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast PSConfEU 2025 Bar Sessions: Community, Code & Connection"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-07-14T14:35:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ksupsvarf2nzawwa/The_PowerShell_Podcast_episode_183_PSConfEU_bar_sessions6x3vo.mp3"
 aliases:

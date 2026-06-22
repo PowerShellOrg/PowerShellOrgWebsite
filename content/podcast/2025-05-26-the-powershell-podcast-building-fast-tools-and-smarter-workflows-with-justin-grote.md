@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Building Fast Tools and Smarter Workflows with Justin Grote
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Justin Grote
 date: "2025-05-26T14:09:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/79s6h9dx5axezaj4/The_PowerShell_Podcast_episode_175_Justin_Grote6utkq.mp3"

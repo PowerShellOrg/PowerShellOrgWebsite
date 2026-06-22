@@ -1,8 +1,9 @@
 ---
 title: Talking Crescendo and Documentation with Stevie Coaster
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Steve Valdinger
 date: "2022-05-16T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pfgjcy/PowerShell_Podcast_episode_12_Valdinger8edq2.mp3"

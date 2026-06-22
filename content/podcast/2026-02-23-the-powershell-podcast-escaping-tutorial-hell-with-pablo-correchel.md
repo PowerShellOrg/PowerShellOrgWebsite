@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Escaping Tutorial Hell with Pablo Correchel
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Pablo Correchel
 date: "2026-02-23T15:47:05+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bfj4h65hik8u32ks/The_PowerShell_Podcast_episode_215_Pablo_Correchel6r13s.mp3"

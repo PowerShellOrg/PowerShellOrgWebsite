@@ -1,8 +1,9 @@
 ---
 title: The PowerShell Podcast Exploring PowerShell, Braid, and beyond with Bruce Payette
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Bruce Payette
 date: "2023-09-11T14:55:12+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/faz3be/The_PowerShell_Podcast_episode_82_Bruce_Payette69cl4.mp3"

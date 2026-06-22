@@ -1,8 +1,9 @@
 ---
 title: MVPs and Stars with Barbara 4rbes
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-01-09T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ggdb35/PowerShell_Podcast_episode_46_ba4rbes7dj2t.mp3"
 aliases:

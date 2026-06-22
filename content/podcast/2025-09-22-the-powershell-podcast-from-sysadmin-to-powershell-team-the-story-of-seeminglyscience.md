@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast From Sysadmin to PowerShell Team: The Story of SeeminglyScience"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Patrick Meinecke
 date: "2025-09-22T14:56:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hsc7zqqbrbtxj35n/The_PowerShell_Podcast_episode_193_Patrick_M6izpa.mp3"

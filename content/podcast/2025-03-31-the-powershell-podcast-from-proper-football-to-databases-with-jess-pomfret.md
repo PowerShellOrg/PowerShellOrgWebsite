@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast From Proper Football to Databases with Jess Pomfret
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Jess Pomfret
 date: "2025-03-31T14:43:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wxpwfhjq6irmrii6/The_PowerShell_Podcast_episode_164_Jess_Pomfret8bah3.mp3"

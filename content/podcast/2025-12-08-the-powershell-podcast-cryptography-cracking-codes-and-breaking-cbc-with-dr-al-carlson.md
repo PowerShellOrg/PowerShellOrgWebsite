@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Cryptography, Cracking Codes, and Breaking CBC with Dr. Al Carlson
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Al Carlson
 date: "2025-12-08T15:54:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wxjkax4ukr4a8zks/The_PowerShell_Podcast_episode_204_Al754vf.mp3"

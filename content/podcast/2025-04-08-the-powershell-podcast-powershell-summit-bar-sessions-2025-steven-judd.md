@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Steven Judd
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-04-08T21:48:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/229v8r8u35jhecg9/The_PowerShell_Podcast_Summit_2025_bar_session_Steven_Judd6yjgx.mp3"
 aliases:

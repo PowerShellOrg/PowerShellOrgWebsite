@@ -1,8 +1,9 @@
 ---
 title: "The PowerShell Podcast Farewell to Jordan: MVP Chrissy LeMaire Unleashes AI Wisdom"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-12-25T15:27:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/759b8k/The_Powershell_Podcast_episode_97_Chrissyab3l7.mp3"
 aliases:

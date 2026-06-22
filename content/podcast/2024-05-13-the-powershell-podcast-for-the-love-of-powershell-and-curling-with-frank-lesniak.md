@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast For the love of PowerShell and Curling with Frank Lesniak
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Frank Lesniak
 date: "2024-05-13T14:22:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ajt4cquu3ndhyim6/The_PowerShell_Podcast_episode_118_Frank_Lesniak9ve9h.mp3"

@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Cross-Platform PowerShell and Sending Emails with Frank Lesniak & Neha Patil
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Frank Lesniak
   - Neha Patil
 date: "2024-10-21T15:10:47+00:00"

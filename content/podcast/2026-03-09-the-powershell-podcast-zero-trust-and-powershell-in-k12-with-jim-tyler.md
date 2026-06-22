@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Zero Trust and PowerShell in K12 with Jim Tyler
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Jim Tyler
 date: "2026-03-09T14:46:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v4zgz2bdyprzyjan/The_PowerShell_Podcast_episode_217_Jim_Tylerbn4md.mp3"

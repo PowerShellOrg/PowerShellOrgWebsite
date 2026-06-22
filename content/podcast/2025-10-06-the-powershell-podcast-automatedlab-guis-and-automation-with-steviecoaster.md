@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast AutomatedLab, GUIs, and automation with Steviecoaster
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2025-10-06T14:02:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hzctetyg2sbzdfn9/The_PowerShell_Podcast_episode_195_Stevie_Coaster6gx0s.mp3"
 aliases:

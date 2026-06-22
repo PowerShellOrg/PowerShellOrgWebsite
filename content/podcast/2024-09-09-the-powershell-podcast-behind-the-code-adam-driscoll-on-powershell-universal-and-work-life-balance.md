@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Behind the Code: Adam Driscoll on PowerShell Universal and Work-Life Balance"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Adam Driscoll
 date: "2024-09-09T14:49:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qc35nxagrwyfrbbr/The_PowerShell_Podcast_episode_135_Adam_Driscoll9n3u2.mp3"

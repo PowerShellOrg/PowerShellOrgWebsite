@@ -1,7 +1,9 @@
 ---
 title: The Return of James Petty with James Petty
-author: James Petty
+author: Andrew Pla
 authors:
+  - Andrew Pla
+  - Jordan Hammond
   - James Petty
 date: "2022-12-05T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/47hmqa/PowerShell_Podcast_episode_41_James_Petty7s4ry.mp3"

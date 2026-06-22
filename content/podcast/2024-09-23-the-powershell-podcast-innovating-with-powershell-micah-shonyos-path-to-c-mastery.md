@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast Innovating with PowerShell: Micah Shonyo’s Path to C# Mastery"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-09-23T14:56:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cbax8emq3sxh37rk/The_PowerShell_Podcast_episode_137_Micah_Shonyo85f5n.mp3"
 aliases:

@@ -1,8 +1,9 @@
 ---
 title: Nobody Keeps a Secret Like PowerShell
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2022-04-04T17:15:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4xmzyv/PowerShell_Podcast_episode_57v84l.mp3"
 aliases:

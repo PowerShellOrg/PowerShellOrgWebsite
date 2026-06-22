@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Mentorship, Mindset, and Microsoft Ignite with Shannon Eldridge-Kuehn
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Shannon Eldridge-Kuehn
 date: "2025-12-15T15:19:07+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/dxejzn3jpzpfjtdj/The_PowerShell_Podcast_episode_205_Shannon78qos.mp3"

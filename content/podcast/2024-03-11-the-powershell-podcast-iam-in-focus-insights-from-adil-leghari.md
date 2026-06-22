@@ -1,8 +1,8 @@
 ---
 title: "The PowerShell Podcast IAM in Focus: Insights from Adil Leghari"
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
 date: "2024-03-11T14:49:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ah2c5x/The_PowerShell_Podcast_episode_108_Adil_Leghariba6nl.mp3"
 aliases:

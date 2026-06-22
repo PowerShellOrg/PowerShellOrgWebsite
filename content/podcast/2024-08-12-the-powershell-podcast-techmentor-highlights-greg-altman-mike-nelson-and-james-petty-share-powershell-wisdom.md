@@ -1,7 +1,8 @@
 ---
 title: "The PowerShell Podcast TechMentor Highlights: Greg Altman, Mike Nelson, and James Petty Share PowerShell Wisdom”"
-author: James Petty
+author: Andrew Pla
 authors:
+  - Andrew Pla
   - James Petty
 date: "2024-08-12T14:43:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tqczekbrunsvb5tm/The_PowerShell_Podcast_episode_131_Tech_Mentorbsi5i.mp3"

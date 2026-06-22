@@ -1,8 +1,9 @@
 ---
 title: Contributing to PowerShell Made Easy with Sean Wheeler
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - Sean Wheeler
 date: "2022-05-02T18:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5hjnyr/PowerShell_Podcast_Episode_9_Sean_Wheeleran752.mp3"

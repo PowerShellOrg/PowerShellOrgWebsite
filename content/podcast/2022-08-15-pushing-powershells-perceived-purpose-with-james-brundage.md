@@ -1,8 +1,9 @@
 ---
 title: Pushing PowerShell’s Perceived Purpose with James Brundage
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
   - James Brundage
 date: "2022-08-15T18:00:16+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zjdt84/PowerShell_Podcast_episode_25_James_Brundageborgo.mp3"

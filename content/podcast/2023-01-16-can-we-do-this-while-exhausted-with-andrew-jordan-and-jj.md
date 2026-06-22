@@ -1,8 +1,9 @@
 ---
 title: Can we do this while exhausted with Andrew, Jordan, and JJ
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
+  - Jordan Hammond
 date: "2023-01-16T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zbe6zi/PowerShell_Podcast_episode_47_Jordan_and_Andrewauip4.mp3"
 aliases:

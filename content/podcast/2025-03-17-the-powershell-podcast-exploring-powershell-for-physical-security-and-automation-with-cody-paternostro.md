@@ -1,8 +1,8 @@
 ---
 title: The PowerShell Podcast Exploring PowerShell for Physical Security and Automation with Cody Paternostro
-author: James Petty
+author: Andrew Pla
 authors:
-  - James Petty
+  - Andrew Pla
   - Cody Paternostro
 date: "2025-03-17T14:36:33+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pvm8q2j5zyj67qm5/The_PowerShell_Podcast_episode_162_Cody7v63e.mp3"
