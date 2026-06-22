@@ -6,6 +6,8 @@ authors:
   - Jake Hildreth
 date: "2025-02-10T15:42:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7d982fpqia9ezb8i/The_PowerShell_Podcast_episode_157_Jake_H7k4e0.mp3"
+episode: 157
+youtube: A6ycrxQRIns
 aliases:
   - /2025/02/the-powershell-podcast-building-secure-powershell-solutions-with-jake-hildreth/
 ---

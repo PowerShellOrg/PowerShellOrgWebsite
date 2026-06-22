@@ -6,6 +6,7 @@ authors:
   - Adil Leghari
 date: "2022-06-27T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vinuie/PowerShell_Podcast_episode_18_Adilacfkg.mp3"
+episode: 18
 aliases:
   - /2022/06/repositories-with-adil-leghari-do-not-take-orally/
 ---

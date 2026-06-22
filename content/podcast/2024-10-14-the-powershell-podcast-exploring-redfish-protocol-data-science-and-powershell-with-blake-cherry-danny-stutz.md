@@ -7,6 +7,7 @@ authors:
   - Danny Stutz
 date: "2024-10-14T14:33:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xhmm6gsqv542s2vm/The_PowerShell_Podcast_episode_1406gw1r.mp3"
+episode: 140
 aliases:
   - /2024/10/the-powershell-podcast-exploring-redfish-protocol-data-science-and-powershell-with-blake-cherry-danny-stutz/
 ---

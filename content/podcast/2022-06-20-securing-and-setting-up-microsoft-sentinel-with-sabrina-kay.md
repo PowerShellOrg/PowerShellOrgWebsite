@@ -6,6 +6,7 @@ authors:
   - Sabrina Kay
 date: "2022-06-20T18:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/nftedz/PowerShell_Podcast_episode_17_Sabrina778x5.mp3"
+episode: 17
 aliases:
   - /2022/06/securing-and-setting-up-microsoft-sentinel-with-sabrina-kay/
 ---

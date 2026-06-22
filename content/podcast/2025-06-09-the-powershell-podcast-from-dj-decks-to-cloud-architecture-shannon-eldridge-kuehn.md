@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-06-09T14:25:07+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vkmpq3vu9r8ubq7q/The_PowerShell_Podcast_episode_177_Shannon_Eldridge_Kuehn8f5te.mp3"
+episode: 177
+youtube: gF4LW8Mz2eU
 aliases:
   - /2025/06/the-powershell-podcast-from-dj-decks-to-cloud-architecture-shannon-eldridge-kuehn/
 ---

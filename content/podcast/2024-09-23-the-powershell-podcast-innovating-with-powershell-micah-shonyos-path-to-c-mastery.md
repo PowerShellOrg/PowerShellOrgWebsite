@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2024-09-23T14:56:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cbax8emq3sxh37rk/The_PowerShell_Podcast_episode_137_Micah_Shonyo85f5n.mp3"
+episode: 137
 aliases:
   - /2024/09/the-powershell-podcast-innovating-with-powershell-micah-shonyos-path-to-c-mastery/
 ---

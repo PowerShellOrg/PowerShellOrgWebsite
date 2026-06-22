@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-06-26T14:58:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yv3pvb/PowerShell_Podcast_episode_71_Mike_Soule6x0u0.mp3"
+episode: 71
+youtube: EgulQeQOUEs
 aliases:
   - /2023/06/the-powershell-podcast-ntlm-to-cloud-security-insights-from-national-msp-director-mike-soule/
 ---

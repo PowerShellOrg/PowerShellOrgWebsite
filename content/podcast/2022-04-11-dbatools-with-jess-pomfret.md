@@ -6,6 +6,7 @@ authors:
   - Jess Pomfret
 date: "2022-04-11T17:15:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/kj27aa/PowerShell_Podcast_episode_669dsg.mp3"
+episode: 6
 aliases:
   - /2022/04/dbatools-with-jess-pomfret/
 ---

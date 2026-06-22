@@ -6,6 +6,8 @@ authors:
   - Kevin Cefalu
 date: "2023-12-04T15:55:27+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x4i4x5/The_PowerShell_Podcast_episode_94_Kevin_Cefalu64jc2.mp3"
+episode: 94
+youtube: 5CrUWrUKtCw
 aliases:
   - /2023/12/the-powershell-podcast-breaking-down-barriers-in-powershell-and-management-with-kevin-cefalu/
 ---

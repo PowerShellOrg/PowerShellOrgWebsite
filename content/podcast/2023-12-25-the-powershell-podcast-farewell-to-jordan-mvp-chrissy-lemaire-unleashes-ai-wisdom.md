@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-12-25T15:27:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/759b8k/The_Powershell_Podcast_episode_97_Chrissyab3l7.mp3"
+episode: 97
+youtube: mRNnCycIo3M
 aliases:
   - /2023/12/the-powershell-podcast-farewell-to-jordan-mvp-chrissy-lemaire-unleashes-ai-wisdom/
 ---

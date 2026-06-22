@@ -6,6 +6,8 @@ authors:
   - Ryan Spletzer
 date: "2026-01-05T15:56:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/dg2zf2mjiwzy62cg/The_PowerShell_Podcast_episode_208_Ryan_Spletzer66wgr.mp3"
+episode: 208
+youtube: ryZ7OdvCNZo
 aliases:
   - /2026/01/the-powershell-podcast-powershell-to-distinguished-engineer-with-ryan-spletzer/
 ---

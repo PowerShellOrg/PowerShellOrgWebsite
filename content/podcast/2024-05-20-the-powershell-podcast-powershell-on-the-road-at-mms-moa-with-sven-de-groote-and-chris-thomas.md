@@ -7,6 +7,8 @@ authors:
   - Chris Thomas
 date: "2024-05-20T14:44:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/py23aqjh8tfmtpng/The_PowerShell_Podcast_episode_119_MMMS6abnd.mp3"
+episode: 119
+youtube: EGBAkXMC4sc
 aliases:
   - /2024/05/the-powershell-podcast-powershell-on-the-road-at-mms-moa-with-sven-de-groote-and-chris-thomas/
 ---

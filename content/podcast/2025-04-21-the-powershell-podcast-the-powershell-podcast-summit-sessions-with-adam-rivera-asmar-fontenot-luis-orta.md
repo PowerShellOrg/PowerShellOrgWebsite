@@ -7,6 +7,8 @@ authors:
   - Luis Orta
 date: "2025-04-21T14:34:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5wjy2362rqf6xjun/The_Powershell_Podcast_episode_170_Summit_sessions7w4t0.mp3"
+episode: 170
+youtube: ChItOJcsf48
 aliases:
   - /2025/04/the-powershell-podcast-the-powershell-podcast-summit-sessions-with-adam-rivera-asmar-fontenot-luis-orta/
 ---

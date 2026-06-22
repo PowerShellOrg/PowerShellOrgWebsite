@@ -6,6 +6,7 @@ authors:
   - Justin Grote
 date: "2022-05-23T19:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/43dqkh/PowerShell_Podcast_episode_13_Justin_G8gnsu.mp3"
+episode: 13
 aliases:
   - /2022/05/drinking-from-the-firehose-of-knowledge-with-justin-grote/
 ---

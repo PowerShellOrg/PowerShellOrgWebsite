@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2023-01-09T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ggdb35/PowerShell_Podcast_episode_46_ba4rbes7dj2t.mp3"
+episode: 46
 aliases:
   - /2023/01/mvps-and-stars-with-barbara-4rbes/
 ---

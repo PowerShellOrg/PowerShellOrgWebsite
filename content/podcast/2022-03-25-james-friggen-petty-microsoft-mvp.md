@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-03-25T20:49:12+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v6efiq/PowerShell_Podcast_episode_363s8e.mp3"
+episode: 3
 aliases:
   - /2022/03/james-friggen-petty-microsoft-mvp/
 ---

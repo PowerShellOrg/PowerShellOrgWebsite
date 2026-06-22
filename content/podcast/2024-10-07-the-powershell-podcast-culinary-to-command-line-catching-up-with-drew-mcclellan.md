@@ -6,6 +6,7 @@ authors:
   - Drew McClellan
 date: "2024-10-07T17:03:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ack53hrnng5xd2a5/The_PowerShell_Podcast_episode_139_Drew8s7je.mp3"
+episode: 139
 aliases:
   - /2024/10/the-powershell-podcast-culinary-to-command-line-catching-up-with-drew-mcclellan/
 ---

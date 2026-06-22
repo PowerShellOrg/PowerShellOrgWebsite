@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-05-12T14:03:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cex9wzj57d5wacxf/The_PowerShell_Podcast_episode_173_Bogdan_Lucas7wae0.mp3"
+episode: 173
+youtube: Jhxr2GB9-Mg
 aliases:
   - /2025/05/the-powershell-podcast-powershell-security-and-the-path-to-mastery/
 ---

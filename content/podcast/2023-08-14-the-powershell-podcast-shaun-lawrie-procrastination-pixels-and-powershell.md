@@ -6,6 +6,8 @@ authors:
   - Shaun Lawrie
 date: "2023-08-14T14:40:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7zqije/The_PowerShell_Podcast_episode_78_Shaun_Lawriea1pm8.mp3"
+episode: 78
+youtube: FKIJxV-9sFE
 aliases:
   - /2023/08/the-powershell-podcast-shaun-lawrie-procrastination-pixels-and-powershell/
 ---

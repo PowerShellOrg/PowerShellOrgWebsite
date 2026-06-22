@@ -6,6 +6,8 @@ authors:
   - Sean Wheeler
 date: "2024-02-12T15:57:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cn9qw7/The_PowerShell_Podcast_episode_104_Sean_Wheeler7ctcr.mp3"
+episode: 104
+youtube: zNVpuwQp0bc
 aliases:
   - /2024/02/the-powershell-podcast-roadmapping-your-powershell-journey-with-sean-wheeler/
 ---

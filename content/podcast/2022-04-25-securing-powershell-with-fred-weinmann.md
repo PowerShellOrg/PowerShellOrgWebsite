@@ -6,6 +6,7 @@ authors:
   - Fred Weinmann
 date: "2022-04-25T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2pkste/PowerShell_Podcast_episode_87ghwg.mp3"
+episode: 8
 aliases:
   - /2022/04/securing-powershell-with-fred-weinmann/
 ---

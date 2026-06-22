@@ -6,6 +6,8 @@ authors:
   - Dan Franciscus
 date: "2023-02-06T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ctdxx3/PowerShell_Podcast_episode_50_Dan_Franciscus9uccz.mp3"
+episode: 50
+youtube: yet83OoEtc0
 aliases:
   - /2023/02/dex-knows-with-dan-franciscus/
 ---

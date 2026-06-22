@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-08-21T14:19:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qr7phi/The_PowerShell_Podcast_episode_79_Jordan_and_Andrew6kozr.mp3"
+episode: 79
+youtube: 3u_Jc9SBMlU
 aliases:
   - /2023/08/the-powershell-podcast-shell-shocked-powershell-gallery-security-reddit-questions-and-more/
 ---

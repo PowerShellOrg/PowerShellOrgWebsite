@@ -6,6 +6,8 @@ authors:
   - Thomas Rayner
 date: "2025-09-29T14:34:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wtvq8irvenq4mshx/The_PowerShell_Podcast_episode_194_Thomas_Raynerble10.mp3"
+episode: 194
+youtube: 3H-tMKqlSOs
 aliases:
   - /2025/09/the-powershell-podcast-from-sysadmin-to-security-at-microsoft-with-thomas-rayner/
 ---

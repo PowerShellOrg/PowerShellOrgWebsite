@@ -6,6 +6,8 @@ authors:
   - Fernando Tomlinson
 date: "2022-07-18T17:59:21+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/gu7bu9/PowerShell_Podcast_episode_21_Fernando8z92e.mp3"
+episode: 21
+youtube: n8-AJGGIVaM
 aliases:
   - /2022/07/using-powershell-for-incident-response-with-fernando-tomlinson/
 ---

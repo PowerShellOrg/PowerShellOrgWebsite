@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-04-10T14:19:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sw4e8q/PowerShell_Podcast_episode_59_David_das_Neves8jpev.mp3"
+episode: 59
+youtube: cJrEEwwXCxU
 aliases:
   - /2023/04/the-powershell-podcast-securing-the-cloud-with-david-das-neves/
 ---

@@ -6,6 +6,7 @@ authors:
   - David Hall
 date: "2022-08-08T17:21:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/g97cbn/PowerShell_Podcast_episode_24_David_Hall83szp.mp3"
+episode: 24
 aliases:
   - /2022/08/passion-powershell-profit-with-david-hall/
 ---

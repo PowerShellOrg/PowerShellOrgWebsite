@@ -6,6 +6,7 @@ authors:
   - Josh Duffney
 date: "2022-07-04T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sq4dzm/PowerShell_Podcast_episode_19_Josh_Duffneyavqge.mp3"
+episode: 19
 aliases:
   - /2022/07/streamlining-learning-with-josh-duffney/
 ---

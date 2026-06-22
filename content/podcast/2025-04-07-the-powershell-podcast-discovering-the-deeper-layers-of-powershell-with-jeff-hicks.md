@@ -6,6 +6,8 @@ authors:
   - Jeff Hicks
 date: "2025-04-07T14:29:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/grizfj6pe8csjsy6/The_PowerShell_Podcast_episode_165_Jeff_Hicks9pfu4.mp3"
+episode: 165
+youtube: cdtxSI8Tq3E
 aliases:
   - /2025/04/the-powershell-podcast-discovering-the-deeper-layers-of-powershell-with-jeff-hicks/
 ---

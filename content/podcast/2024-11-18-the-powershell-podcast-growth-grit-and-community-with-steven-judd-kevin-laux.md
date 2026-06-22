@@ -7,6 +7,7 @@ authors:
   - Kevin Laux
 date: "2024-11-18T15:26:32+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/698n2tpwetb3j7kg/The_PowerShell_Podcast_episode_145_Steven_Judd_and_Kevin9efep.mp3"
+episode: 145
 aliases:
   - /2024/11/the-powershell-podcast-growth-grit-and-community-with-steven-judd-kevin-laux/
 ---

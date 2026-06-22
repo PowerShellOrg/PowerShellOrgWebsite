@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-04-11T20:49:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/arskfa8w5um3f3ee/The_PowerShell_Podcast_episode_113_PwoerShell_Glbal_Devops_Summit_2024_P180ko1.mp3"
+episode: 113
+youtube: CwOp92XpkkQ
 aliases:
   - /2024/04/the-powershell-podcast-the-powershell-devops-global-summit-2024-bar-session-1/
 ---

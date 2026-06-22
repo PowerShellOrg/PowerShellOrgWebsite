@@ -6,6 +6,8 @@ authors:
   - Miriam C. Wiesner
 date: "2023-09-18T14:29:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/esjbuf/The_PowerShell_Podcast_episode_83_Miriam_Wiesnerb4gwt.mp3"
+episode: 83
+youtube: 0Csw8YYGyCg
 aliases:
   - /2023/09/the-powershell-podcast-the-matrix-of-powershell-security-and-automation-with-researcher-miriam-wiesner/
 ---

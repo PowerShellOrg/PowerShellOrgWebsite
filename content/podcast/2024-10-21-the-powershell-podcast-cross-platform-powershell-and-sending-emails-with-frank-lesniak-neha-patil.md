@@ -7,6 +7,7 @@ authors:
   - Neha Patil
 date: "2024-10-21T15:10:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/w9su4gc9r2ntjq9b/The_PowerShell_Podcast_episode_141_Neha_and_Frank8p8k1.mp3"
+episode: 141
 aliases:
   - /2024/10/the-powershell-podcast-cross-platform-powershell-and-sending-emails-with-frank-lesniak-neha-patil/
 ---

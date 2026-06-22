@@ -6,6 +6,8 @@ authors:
   - Mathias Jessen
 date: "2022-11-07T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uwn8ex/PowerShell_Podcast_episode_37_Mathias_Jessenapple.mp3"
+episode: 37
+youtube: ooCWMdNSs1g
 aliases:
   - /2022/11/got-trees-with-mathias-jessen/
 ---

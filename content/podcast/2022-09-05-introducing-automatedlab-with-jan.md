@@ -6,6 +6,8 @@ authors:
   - Jan-Hendrik Peters
 date: "2022-09-05T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/irpruk/PowerShell_Podcast_episode_28_Janbkaew.mp3"
+episode: 28
+youtube: 4sPqoxqFgaY
 aliases:
   - /2022/09/introducing-automatedlab-with-jan/
 ---

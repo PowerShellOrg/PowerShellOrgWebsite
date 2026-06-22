@@ -6,6 +6,8 @@ authors:
   - Dale Hassinger
 date: "2023-03-20T14:33:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/86uwwc/PowerShell_Podcast_episode_56_Dale_Hassinger7omec.mp3"
+episode: 56
+youtube: U8QwsnM4EkQ
 aliases:
   - /2023/03/the-powershell-podcast-using-powercli-with-dale-hassinger/
 ---

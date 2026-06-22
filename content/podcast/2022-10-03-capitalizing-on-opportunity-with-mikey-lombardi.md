@@ -6,6 +6,8 @@ authors:
   - Mikey Lombardi
 date: "2022-10-03T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ny3a45/PowerShell_Podcast_episode_32_Mikey_Lombardi69tp1.mp3"
+episode: 32
+youtube: 9uCzTuojMbY
 aliases:
   - /2022/10/capitalizing-on-opportunity-with-mikey-lombardi/
 ---

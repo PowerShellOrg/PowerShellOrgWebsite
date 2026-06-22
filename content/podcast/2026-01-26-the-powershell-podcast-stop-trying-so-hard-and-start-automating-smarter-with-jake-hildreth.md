@@ -6,6 +6,8 @@ authors:
   - Jake Hildreth
 date: "2026-01-26T15:16:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ffg9evy96mt9pgat/The_PowerShell_Podcast_episode_211_Jake_Hildreth8k827.mp3"
+episode: 211
+youtube: rFeoTKLerkA
 aliases:
   - /2026/01/the-powershell-podcast-stop-trying-so-hard-and-start-automating-smarter-with-jake-hildreth/
 ---

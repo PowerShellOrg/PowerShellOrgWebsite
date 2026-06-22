@@ -6,6 +6,8 @@ authors:
   - Glen Sarti
 date: "2023-07-24T15:00:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9yemga/The_PowerShell_podcast_episode_75_Glenn_Sarti7utu9.mp3"
+episode: 75
+youtube: kxbbWDi_GBQ
 aliases:
   - /2023/07/the-powershell-podcast-culture-mentoring-and-tech-a-talk-with-glen-sarti/
 ---

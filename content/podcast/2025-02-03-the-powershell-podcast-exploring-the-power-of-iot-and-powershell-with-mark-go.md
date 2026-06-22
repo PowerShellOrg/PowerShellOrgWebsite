@@ -6,6 +6,8 @@ authors:
   - Mark Go
 date: "2025-02-03T15:59:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mkfnappypnea5zbr/The_PowerShell_Podcast_episode_156_Mark_Gobr5ap.mp3"
+episode: 156
+youtube: 85L3OApF3a8
 aliases:
   - /2025/02/the-powershell-podcast-exploring-the-power-of-iot-and-powershell-with-mark-go/
 ---

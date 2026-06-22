@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-01-15T15:23:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6zayfh/The_PowerShell_Podcast_episode_100_Daniel_Schroeder7o6h8.mp3"
+episode: 100
+youtube: sBpm_R1MQ38
 aliases:
   - /2024/01/the-powershell-podcast-from-listener-to-speaker-daniel-schroeders-powershell-summit-success/
 ---

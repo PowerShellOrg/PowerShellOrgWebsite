@@ -6,6 +6,7 @@ authors:
   - Adam Driscoll
 date: "2024-09-09T14:49:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qc35nxagrwyfrbbr/The_PowerShell_Podcast_episode_135_Adam_Driscoll9n3u2.mp3"
+episode: 135
 aliases:
   - /2024/09/the-powershell-podcast-behind-the-code-adam-driscoll-on-powershell-universal-and-work-life-balance/
 ---

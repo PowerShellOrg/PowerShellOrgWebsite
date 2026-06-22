@@ -7,6 +7,7 @@ authors:
   - Gilbert Sanchez
 date: "2025-06-23T14:32:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3rwjh3qa8sxqxhcs/The_PowerShell_Podcast_episode_179_Andrew_Steven_Gilbert9oeal.mp3"
+episode: 179
 aliases:
   - /2025/06/the-powershell-podcast-the-dos-and-donts-of-powershell-with-steven-judd-and-gilbert-sanchez/
 ---

@@ -6,6 +6,8 @@ authors:
   - Gilbert Sanchez
 date: "2024-12-23T15:30:58+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qk6w2u6xg7aes6kt/The_PowerShell_Podcast_episode_150_Glbert_Sanchez7oxys.mp3"
+episode: 150
+youtube: TX2r6ewSwjg
 aliases:
   - /2024/12/the-powershell-podcast-holiday-special-with-gilbert-sanchez-psscriptanalyzer-ast-and-powershell-gifts/
 ---

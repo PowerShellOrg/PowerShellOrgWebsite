@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-01-16T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zbe6zi/PowerShell_Podcast_episode_47_Jordan_and_Andrewauip4.mp3"
+episode: 47
+youtube: Oj1T8AtI4tA
 aliases:
   - /2023/01/can-we-do-this-while-exhausted-with-andrew-jordan-and-jj/
 ---

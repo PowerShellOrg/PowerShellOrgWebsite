@@ -6,6 +6,8 @@ authors:
   - Matthew Dowst
 date: "2022-10-31T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yjnxzk/PowerShell_Podcast_Episode_36_Matthew_Dowst8al3z.mp3"
+episode: 36
+youtube: E5H83eZ4UH0
 aliases:
   - /2022/10/practical-automation-with-matthew-dowst/
 ---

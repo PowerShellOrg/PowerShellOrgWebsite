@@ -6,6 +6,7 @@ authors:
   - Steve Valdinger
 date: "2022-05-16T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pfgjcy/PowerShell_Podcast_episode_12_Valdinger8edq2.mp3"
+episode: 12
 aliases:
   - /2022/05/talking-crescendo-and-documentation-with-stevie-coaster/
 ---

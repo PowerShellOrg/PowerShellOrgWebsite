@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-02-27T15:52:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ewbner/PowerShell_Podcast_episode_53_Linuxbqqr0.mp3"
+episode: 53
+youtube: LL93GOO2v7o
 aliases:
   - /2023/02/the-powershell-podcast-using-powershell-on-linux-with-avri-from-posh4linux/
 ---

@@ -7,6 +7,7 @@ authors:
   - Jake Hildreth
 date: "2025-08-11T14:48:46+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/kyqaqi2sdqkyr57j/The_PowerShell_Podcast_episode_187_Jake_and_Gilbert8sah8.mp3"
+episode: 187
 aliases:
   - /2025/08/the-powershell-podcast-psstucco-accessibility-and-the-power-of-templating-in-powershell-with-gilbert-sanchez-jake-hildreth/
 ---

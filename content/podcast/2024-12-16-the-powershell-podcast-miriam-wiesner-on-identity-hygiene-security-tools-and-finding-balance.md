@@ -6,6 +6,7 @@ authors:
   - Miriam C. Wiesner
 date: "2024-12-16T15:59:24+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cbm3ybeqz2b6d7re/The_PowerShell_Podcast_episode_149_Miriam_Wiesnerafpmg.mp3"
+episode: 149
 aliases:
   - /2024/12/the-powershell-podcast-miriam-wiesner-on-identity-hygiene-security-tools-and-finding-balance/
 ---

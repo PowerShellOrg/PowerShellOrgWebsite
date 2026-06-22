@@ -6,6 +6,8 @@ authors:
   - Al Carlson
 date: "2025-12-08T15:54:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wxjkax4ukr4a8zks/The_PowerShell_Podcast_episode_204_Al754vf.mp3"
+episode: 204
+youtube: gWmlvKFduP8
 aliases:
   - /2025/12/the-powershell-podcast-cryptography-cracking-codes-and-breaking-cbc-with-dr-al-carlson/
 ---

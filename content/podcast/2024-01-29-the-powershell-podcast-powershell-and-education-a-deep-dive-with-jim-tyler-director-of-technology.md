@@ -6,6 +6,8 @@ authors:
   - Jim Tyler
 date: "2024-01-29T15:41:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/h3m7wi/The_PowerShell_Podcast_episode_102_Jim_Tylerbr88l.mp3"
+episode: 102
+youtube: eWaCFWCId0w
 aliases:
   - /2024/01/the-powershell-podcast-powershell-and-education-a-deep-dive-with-jim-tyler-director-of-technology/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-05-08T13:58:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yuh5kp/PowerShell_Podcast_episode_64_Summit_Junell_Clayton_nick_gordan_sam_scott_Lemonde91pfw.mp3"
+episode: 64
+youtube: OaNkHnWWpCs
 aliases:
   - /2023/05/the-powershell-podcast-powershell-and-devops-global-summit-jon-junell-clayton-and-nick-gordon-and-sammie-and-scott/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-08-28T14:48:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7zdf9n/The_PowerShell_Podcast_episode_80_James_B8las0.mp3"
+episode: 80
+youtube: DVJqnaKJ1VY
 aliases:
   - /2023/08/the-powershell-podcast-unveiling-posh-exploring-james-brundages-latest-project/
 ---

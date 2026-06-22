@@ -6,6 +6,8 @@ authors:
   - Jess Pomfret
 date: "2025-03-31T14:43:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wxpwfhjq6irmrii6/The_PowerShell_Podcast_episode_164_Jess_Pomfret8bah3.mp3"
+episode: 164
+youtube: L4zABO526bM
 aliases:
   - /2025/03/the-powershell-podcast-from-proper-football-to-databases-with-jess-pomfret/
 ---

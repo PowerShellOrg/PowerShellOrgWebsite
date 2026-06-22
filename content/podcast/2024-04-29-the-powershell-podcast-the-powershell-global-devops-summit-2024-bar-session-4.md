@@ -7,6 +7,7 @@ authors:
   - Carrie Cargill
 date: "2024-04-29T14:38:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pky4u7byfvpq6e76/The_PowerShell_Podcast_episode_116_Summit_Bar_session_49fxnf.mp3"
+episode: 116
 aliases:
   - /2024/04/the-powershell-podcast-the-powershell-global-devops-summit-2024-bar-session-4/
 ---

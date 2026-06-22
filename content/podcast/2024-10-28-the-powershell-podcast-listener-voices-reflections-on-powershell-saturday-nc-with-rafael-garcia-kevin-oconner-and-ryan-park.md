@@ -7,6 +7,7 @@ authors:
   - Ryan Park
 date: "2024-10-28T14:40:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2mymmpcyqbdz3mkh/The_PowerShell_Podcast_episode_142_Rafael_Kevin_then_Ryan8cagq.mp3"
+episode: 142
 aliases:
   - /2024/10/the-powershell-podcast-listener-voices-reflections-on-powershell-saturday-nc-with-rafael-garcia-kevin-oconner-and-ryan-park/
 ---

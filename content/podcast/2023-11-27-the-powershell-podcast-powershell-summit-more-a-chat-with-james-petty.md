@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-11-27T15:20:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/abrpbj/The_PowerShell_Podcast_episode_93_James_Petty9507r.mp3"
+episode: 93
+youtube: Cv1OFjC62EU
 aliases:
   - /2023/11/the-powershell-podcast-powershell-summit-more-a-chat-with-james-petty/
 ---

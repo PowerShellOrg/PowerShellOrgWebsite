@@ -6,6 +6,8 @@ authors:
   - Christopher Bergmeister
 date: "2022-09-26T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/b2u7y7/PowerShell_Podcast_episode_31_Chris_Burgmeisterbeg5c.mp3"
+episode: 31
+youtube: wJr4kJFam8c
 aliases:
   - /2022/09/patterns-and-projects-in-powershell-with-chris-bergmeister/
 ---

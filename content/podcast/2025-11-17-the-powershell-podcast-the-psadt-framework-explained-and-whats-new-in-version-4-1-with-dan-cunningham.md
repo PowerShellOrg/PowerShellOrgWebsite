@@ -6,6 +6,8 @@ authors:
   - Dan Cunningham
 date: "2025-11-17T15:16:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x8dwd9hf9m8fvu4v/The_PowerShell_Podcast_episode_201_Dan_Cunninghama8b4o.mp3"
+episode: 201
+youtube: y3zWcb8ulVw
 aliases:
   - /2025/11/the-powershell-podcast-the-psadt-framework-explained-and-whats-new-in-version-4-1-with-dan-cunningham/
 ---

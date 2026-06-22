@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-10-09T14:02:26+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4pnjdh/The_PowerShell_Podcast_episode_86_Gilbert_Sanchez7nubl.mp3"
+episode: 86
+youtube: 6GdOqs7j6Kc
 aliases:
   - /2023/10/the-powershell-podcast-from-console-to-gitops-gilbert-sanchez-breaks-it-down/
 ---

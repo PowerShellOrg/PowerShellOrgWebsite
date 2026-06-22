@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-06-02T14:50:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xmmm9x5nn77hjv9j/The_PowerShell_Podcast_episode_176_Mateus7qt8c.mp3"
+episode: 176
+youtube: 8cxtg4QQjZQ
 aliases:
   - /2025/06/the-powershell-podcast-hacking-games-and-building-a-career-mateus-pimentel/
 ---

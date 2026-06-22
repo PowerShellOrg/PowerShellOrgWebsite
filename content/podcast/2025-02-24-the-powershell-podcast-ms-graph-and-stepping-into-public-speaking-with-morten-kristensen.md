@@ -6,6 +6,8 @@ authors:
   - Morten Kristensen
 date: "2025-02-24T15:46:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/a8haxz6v6gwimhji/The_PowerShell_Podcast_episode_159_Morten_Kristensen9e84a.mp3"
+episode: 159
+youtube: 74fjqGtYW0Q
 aliases:
   - /2025/02/the-powershell-podcast-ms-graph-and-stepping-into-public-speaking-with-morten-kristensen/
 ---

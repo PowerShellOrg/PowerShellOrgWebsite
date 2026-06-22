@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-04-14T15:02:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v4fzc97c2bhytixu/The_PowerShell_Podcast_episode_169_Summit_Missy_Leslie_Hailey_ada0n.mp3"
+episode: 169
+youtube: 87axet9zvyQ
 aliases:
   - /2025/04/the-powershell-podcast-the-powershell-podcast-summit-2025-missy-leslie-hailey/
 ---

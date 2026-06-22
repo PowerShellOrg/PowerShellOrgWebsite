@@ -6,6 +6,8 @@ authors:
   - Merill Fernando
 date: "2023-11-06T15:12:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7qknbs/The_PowerShell_Podcast_episode_90_Merill64092.mp3"
+episode: 90
+youtube: jpKRd-ocbH0
 aliases:
   - /2023/11/the-powershell-podcast-entra-insights-and-merrill-fernandos-toolbox-powering-the-community/
 ---

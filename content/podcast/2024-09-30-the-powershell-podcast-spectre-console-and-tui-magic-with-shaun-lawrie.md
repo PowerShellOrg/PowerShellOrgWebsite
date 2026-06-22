@@ -6,6 +6,8 @@ authors:
   - Shaun Lawrie
 date: "2024-09-30T14:36:26+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xgy7uzzdpgrzsvv3/The_PowerShell_Podcast_episode_138_Shaun_Lawrie8g50o.mp3"
+episode: 138
+youtube: MlHDD2o6l7E
 aliases:
   - /2024/09/the-powershell-podcast-spectre-console-and-tui-magic-with-shaun-lawrie/
 ---

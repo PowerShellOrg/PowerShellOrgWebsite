@@ -6,6 +6,8 @@ authors:
   - Jakub Jareš
 date: "2023-07-10T14:08:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/usqgwb/The_PowerShell_Podcast_episode_73_Jakub8tpf8.mp3"
+episode: 73
+youtube: MB8wkipUNUc
 aliases:
   - /2023/07/the-powershell-podcast-delving-into-pester-profiler-and-psconfeu-with-jakub-jares/
 ---

@@ -6,6 +6,8 @@ authors:
   - Don Jones
 date: "2023-02-20T15:16:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/s5eztj/PowerShell_Podcast_episode_52_Don_Jones9m4tm.mp3"
+episode: 52
+youtube: 6aAsymolQvw
 aliases:
   - /2023/02/the-powershell-podcast-learning-by-doing-with-don-jones/
 ---

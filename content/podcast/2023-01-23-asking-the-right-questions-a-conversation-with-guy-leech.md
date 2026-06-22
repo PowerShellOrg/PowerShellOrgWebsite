@@ -6,6 +6,8 @@ authors:
   - Guy Leech
 date: "2023-01-23T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2ustze/PowerShell_Podcast_episode_48_Guy_Leech9j8yz.mp3"
+episode: 48
+youtube: QZfOejPAowY
 aliases:
   - /2023/01/asking-the-right-questions-a-conversation-with-guy-leech/
 ---

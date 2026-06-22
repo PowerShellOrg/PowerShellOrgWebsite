@@ -6,6 +6,8 @@ authors:
   - David Sass
 date: "2026-01-19T15:47:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/x7p6sxbxutpqe9sk/The_PowerShell_Podcast_episode_210_David_Sassag3cr.mp3"
+episode: 210
+youtube: Y03EJYpZczo
 aliases:
   - /2026/01/the-powershell-podcast-from-sharepoint-to-security-with-david-sass/
 ---

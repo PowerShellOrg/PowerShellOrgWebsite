@@ -6,6 +6,8 @@ authors:
   - Dave Carroll
 date: "2023-03-27T14:13:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/74xwi4/PowerShell_Podcast_episode_57_Dave_Carrollas1yj.mp3"
+episode: 57
+youtube: dbUAlE7ci28
 aliases:
   - /2023/03/the-powershell-podcast-transitioning-to-devops-with-dave-carroll/
 ---

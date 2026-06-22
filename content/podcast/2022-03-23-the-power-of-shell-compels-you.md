@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-03-23T20:27:34+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xwe5xx/PowerShell_Podcast_Episode_19di8t.mp3"
+episode: 1
 aliases:
   - /2022/03/the-power-of-shell-compels-you/
 ---

@@ -6,6 +6,8 @@ authors:
   - Raimund Andrée
 date: "2022-09-12T18:21:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7nx4kr/PowerShell_Podcast_episode_29_Raimund_Andr_e_8wouu.mp3"
+episode: 29
+youtube: IMALY186tdk
 aliases:
   - /2022/09/exploring-automatedlab-and-dsc-with-raimund-andree/
 ---

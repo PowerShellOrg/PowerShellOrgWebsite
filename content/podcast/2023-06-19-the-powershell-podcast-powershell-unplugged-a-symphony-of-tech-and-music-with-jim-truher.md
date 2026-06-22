@@ -6,6 +6,8 @@ authors:
   - Jim Truher
 date: "2023-06-19T14:22:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ca7y3m/The_PowerShell_Podcast_episode_70_Jim_Truher6g5pw.mp3"
+episode: 70
+youtube: 2QFUlhnzE0I
 aliases:
   - /2023/06/the-powershell-podcast-powershell-unplugged-a-symphony-of-tech-and-music-with-jim-truher/
 ---

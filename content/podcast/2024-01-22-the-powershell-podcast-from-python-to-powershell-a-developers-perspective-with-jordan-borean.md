@@ -6,6 +6,8 @@ authors:
   - Jordan Borean
 date: "2024-01-22T15:01:42+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9u6z42/The_PowerShell_Podcast_episode_101_Jordan_Borean7yynh.mp3"
+episode: 101
+youtube: iTFr1ojayTM
 aliases:
   - /2024/01/the-powershell-podcast-from-python-to-powershell-a-developers-perspective-with-jordan-borean/
 ---

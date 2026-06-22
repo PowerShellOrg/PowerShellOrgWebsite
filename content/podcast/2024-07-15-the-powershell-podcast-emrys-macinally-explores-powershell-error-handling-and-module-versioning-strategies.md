@@ -6,6 +6,7 @@ authors:
   - Emrys MacInally
 date: "2024-07-15T14:51:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jyxq67pf2sadfy6q/The_PowerShell_Podcast_episode_127_Emrys_Maclnally7p01i.mp3"
+episode: 127
 aliases:
   - /2024/07/the-powershell-podcast-emrys-macinally-explores-powershell-error-handling-and-module-versioning-strategies/
 ---

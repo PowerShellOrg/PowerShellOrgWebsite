@@ -6,6 +6,8 @@ authors:
   - Gael Colas
 date: "2022-12-26T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jvexkm/PowerShell_Podcast_episode_44_Gael_Colasb11qa.mp3"
+episode: 44
+youtube: NXxv1Ov2uAo
 aliases:
   - /2022/12/context-is-key-with-gael-colas/
 ---

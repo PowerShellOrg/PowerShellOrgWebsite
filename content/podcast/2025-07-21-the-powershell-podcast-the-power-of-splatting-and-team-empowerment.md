@@ -6,6 +6,8 @@ authors:
   - David Richmond
 date: "2025-07-21T14:05:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/atfkfre8gie82zvm/The_PowerShell_Podcast_episode_184_David_Richmondacu3x.mp3"
+episode: 184
+youtube: _cbpGxZOHS4
 aliases:
   - /2025/07/the-powershell-podcast-the-power-of-splatting-and-team-empowerment/
 ---

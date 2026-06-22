@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-04-17T14:56:13+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z2n32s/PowerShell_Podcast_episode_60_Rob_Sewella7qkz.mp3"
+episode: 60
+youtube: IRG3uWLe1nI
 aliases:
   - /2023/04/the-powershell-podcast-maximizing-community-engagement-with-sqldbawithabeard/
 ---

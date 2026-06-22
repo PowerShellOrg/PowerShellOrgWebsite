@@ -6,6 +6,8 @@ authors:
   - Sam Erde
 date: "2023-12-18T15:52:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/e9ay6a/The_PowerShell_Podcast_episode_96_Same_Erde623v7.mp3"
+episode: 96
+youtube: 8HEhXQE3GNw
 aliases:
   - /2023/12/the-powershell-podcast-unlocking-secrets-sam-erde-on-open-source-contributions-and-the-locksmith-module/
 ---

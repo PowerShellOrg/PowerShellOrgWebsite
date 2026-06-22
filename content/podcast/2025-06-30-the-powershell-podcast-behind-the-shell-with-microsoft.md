@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-06-30T15:18:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2ivuz3hyfe26zs9h/The_PowerShell_Podcast_episode_181_PSconf_EU_MS_team7b21l.mp3"
+episode: 181
+youtube: F4mVUHinjf4
 aliases:
   - /2025/06/the-powershell-podcast-behind-the-shell-with-microsoft/
 ---

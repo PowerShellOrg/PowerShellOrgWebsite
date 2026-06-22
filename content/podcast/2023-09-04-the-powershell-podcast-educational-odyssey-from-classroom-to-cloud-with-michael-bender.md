@@ -6,6 +6,8 @@ authors:
   - Michael Bender
 date: "2023-09-04T14:22:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zcuiyc/The_PowerShell_Podcast_episode_81_Michael_Bender7wbj3.mp3"
+episode: 81
+youtube: HdczFIKYckg
 aliases:
   - /2023/09/the-powershell-podcast-educational-odyssey-from-classroom-to-cloud-with-michael-bender/
 ---

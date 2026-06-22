@@ -6,6 +6,8 @@ authors:
   - Chrissy LeMaire
 date: "2023-01-02T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qer7m3/PowerShell_Podcast_episode_45_Chrissy_Lemaire7fqxg.mp3"
+episode: 45
+youtube: iN7rCPBwAoU
 aliases:
   - /2023/01/building-communities-with-chrissy-lemaire/
 ---

@@ -7,6 +7,7 @@ authors:
   - Phil Bossman
 date: "2024-11-04T15:14:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jc4esvrpt52v2qq3/The_PowerShell_Podcast_episode_143_Mike_K_and_Phillbe1ez.mp3"
+episode: 143
 aliases:
   - /2024/11/the-powershell-podcast-the-importance-of-community-in-tech-mike-kanakos-and-phil-bossman/
 ---

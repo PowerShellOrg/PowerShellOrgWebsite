@@ -6,6 +6,8 @@ authors:
   - Cody Paternostro
 date: "2025-03-17T14:36:33+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pvm8q2j5zyj67qm5/The_PowerShell_Podcast_episode_162_Cody7v63e.mp3"
+episode: 162
+youtube: bDjG6hSUIms
 aliases:
   - /2025/03/the-powershell-podcast-exploring-powershell-for-physical-security-and-automation-with-cody-paternostro/
 ---

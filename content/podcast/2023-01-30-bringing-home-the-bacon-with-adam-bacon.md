@@ -6,6 +6,8 @@ authors:
   - Adam Bacon
 date: "2023-01-30T20:09:34+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/758zpc/PowerShell_Podcast_episode_49_Adam_Bacon9m64x.mp3"
+episode: 49
+youtube: 6rMv-IZb_Jo
 aliases:
   - /2023/01/bringing-home-the-bacon-with-adam-bacon/
 ---

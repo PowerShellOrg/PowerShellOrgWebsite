@@ -6,6 +6,8 @@ authors:
   - Drew McClellan
 date: "2023-04-24T14:37:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vhu7jc/PowerShell_Podcast_episode_61_Drew_McClellanbqdab.mp3"
+episode: 61
+youtube: VfR2AX3qzOE
 aliases:
   - /2023/04/the-powershell-podcast-talking-powershell-on-ramp-with-drew-mcclellan/
 ---

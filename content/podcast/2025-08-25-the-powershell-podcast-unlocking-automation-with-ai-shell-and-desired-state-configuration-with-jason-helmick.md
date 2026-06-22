@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-08-25T14:47:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/df6rmjt94kzgnvfk/The_PowerShell_Podcast_episode_189_Jason_Helmick_and_Troy_techmentor8c3bp.mp3"
+episode: 189
+youtube: _f5oYxzkinI
 aliases:
   - /2025/08/the-powershell-podcast-unlocking-automation-with-ai-shell-and-desired-state-configuration-with-jason-helmick/
 ---

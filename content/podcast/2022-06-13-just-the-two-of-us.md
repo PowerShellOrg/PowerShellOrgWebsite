@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-06-13T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sfgnrc/PowerShell_Podcast_Episode_16_Just_the_two_of_us782ql.mp3"
+episode: 16
 aliases:
   - /2022/06/just-the-two-of-us/
 ---

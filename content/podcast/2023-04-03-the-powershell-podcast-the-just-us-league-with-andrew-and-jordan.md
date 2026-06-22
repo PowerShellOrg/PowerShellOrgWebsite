@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-04-03T14:52:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/22wh45/PowerShell_Podcast_episode_58_Just_us_League7quxc.mp3"
+episode: 58
+youtube: iT0XDijwgVk
 aliases:
   - /2023/04/the-powershell-podcast-the-just-us-league-with-andrew-and-jordan/
 ---

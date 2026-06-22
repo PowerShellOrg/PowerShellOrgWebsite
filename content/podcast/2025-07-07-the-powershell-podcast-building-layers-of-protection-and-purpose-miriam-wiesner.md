@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-07-07T14:56:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5cji2wqs9m6tqgty/The_PowerShell_Podcast_episode_182_Miriam_PSCEU9fcm8.mp3"
+episode: 182
+youtube: nuhVTbpfQog
 aliases:
   - /2025/07/the-powershell-podcast-building-layers-of-protection-and-purpose-miriam-wiesner/
 ---

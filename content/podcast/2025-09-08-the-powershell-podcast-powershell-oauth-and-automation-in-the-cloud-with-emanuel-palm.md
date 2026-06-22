@@ -6,6 +6,8 @@ authors:
   - Emanuel Palm
 date: "2025-09-08T14:58:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/feed56rssyq9u2us/The_PowerShell_Podcast_episode_191_Emanuel_Palm6oqad.mp3"
+episode: 191
+youtube: -uHHGVH1Kcc
 aliases:
   - /2025/09/the-powershell-podcast-powershell-oauth-and-automation-in-the-cloud-with-emanuel-palm/
 ---

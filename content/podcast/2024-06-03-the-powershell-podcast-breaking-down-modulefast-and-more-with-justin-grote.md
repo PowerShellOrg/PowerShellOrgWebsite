@@ -6,6 +6,8 @@ authors:
   - Justin Grote
 date: "2024-06-03T14:42:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/59pk27pe2xgt5pb2/The_PowerShell_Podcast_episode_121_Justin_Grote94l5l.mp3"
+episode: 121
+youtube: vDGR8LLOiew
 aliases:
   - /2024/06/the-powershell-podcast-breaking-down-modulefast-and-more-with-justin-grote/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-10-06T14:02:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hzctetyg2sbzdfn9/The_PowerShell_Podcast_episode_195_Stevie_Coaster6gx0s.mp3"
+episode: 195
+youtube: iKYfZBakoBI
 aliases:
   - /2025/10/the-powershell-podcast-automatedlab-guis-and-automation-with-steviecoaster/
 ---

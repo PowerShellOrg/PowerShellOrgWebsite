@@ -7,6 +7,8 @@ authors:
   - Mike F. Robbins
 date: "2024-03-04T15:07:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5d2988/The_PowerShell_Podcast_episode_107_Jeff_Hicks_Mike_Robbinsa1o7e.mp3"
+episode: 107
+youtube: 5kPqaXb6JjE
 aliases:
   - /2024/03/the-powershell-podcast-crafting-a-fulfilling-career-wisdom-from-industry-leaders-jeff-hicks-and-mike-f-robbins/
 ---

@@ -6,6 +6,8 @@ authors:
   - Clayton Tyger
 date: "2023-10-23T14:05:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wvfnve/The_PowerShell_Podcast_episode_88_Clayton_Tyger68vpn.mp3"
+episode: 88
+youtube: QqhlgCM7mfE
 aliases:
   - /2023/10/the-powershell-podcast-the-eye-of-the-tyger-clayton-tyger-a-powershell-rising-star/
 ---

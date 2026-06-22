@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-07-31T14:38:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/shjpr2/PowerShell_Podcast_episode_76_Bjorn8wu01.mp3"
+episode: 76
+youtube: M1U5VVzC4gY
 aliases:
   - /2023/07/the-powershell-podcast-bjorn-sundling-from-powershell-developer-to-mvp-an-unfiltered-journey/
 ---

@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2023-05-01T14:14:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/p3xjtt/PowerShell_Podcast_episode_63_Josh_King_Steven_Bucher9bvkp.mp3"
+episode: 63
 aliases:
   - /2023/05/the-powershell-podcast-powershell-and-devops-global-summit-josh-king-and-steven-bucher/
 ---

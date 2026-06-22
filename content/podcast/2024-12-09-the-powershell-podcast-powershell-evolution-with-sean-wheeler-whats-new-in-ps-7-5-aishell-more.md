@@ -6,6 +6,7 @@ authors:
   - Sean Wheeler
 date: "2024-12-09T15:24:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3ct4uijaeewx92re/The_PowerShell_Podcast_episode_148_Sean_Wheelerb4ve6.mp3"
+episode: 148
 aliases:
   - /2024/12/the-powershell-podcast-powershell-evolution-with-sean-wheeler-whats-new-in-ps-7-5-aishell-more/
 ---

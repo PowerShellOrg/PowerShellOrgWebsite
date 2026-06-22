@@ -6,6 +6,7 @@ authors:
   - Steven Judd
 date: "2024-05-27T14:14:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2ikakrh4tjr43je5/The_PowerShell_Podcast_episode_120_Steven_Judd86c81.mp3"
+episode: 120
 aliases:
   - /2024/05/the-powershell-podcast-powershell-on-linux-and-beyond-with-steven-judd/
 ---

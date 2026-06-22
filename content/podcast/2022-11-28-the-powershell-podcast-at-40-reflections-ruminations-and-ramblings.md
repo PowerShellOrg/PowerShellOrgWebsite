@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2022-11-28T20:08:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/y6ifja/PowerShell_Podcast_episode_40b403l.mp3"
+episode: 40
+youtube: 45yfjT1eHe4
 aliases:
   - /2022/11/the-powershell-podcast-at-40-reflections-ruminations-and-ramblings/
 ---

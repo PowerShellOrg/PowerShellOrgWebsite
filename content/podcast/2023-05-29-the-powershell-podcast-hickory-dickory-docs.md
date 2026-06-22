@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-05-29T14:41:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7apuv3/PowerShell_Podcast_episode_67_Docs6ohhn.mp3"
+episode: 67
+youtube: EgxHqNb29to
 aliases:
   - /2023/05/the-powershell-podcast-hickory-dickory-docs/
 ---

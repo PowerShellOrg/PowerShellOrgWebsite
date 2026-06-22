@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2022-12-05T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/47hmqa/PowerShell_Podcast_episode_41_James_Petty7s4ry.mp3"
+episode: 41
+youtube: buhUao6oF4A
 aliases:
   - /2022/12/the-return-of-james-petty-with-james-petty/
 ---

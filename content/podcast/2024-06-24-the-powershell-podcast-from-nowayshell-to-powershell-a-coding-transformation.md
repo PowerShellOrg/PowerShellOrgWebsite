@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-06-24T14:30:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/296k7j8jivvrghrc/The_PowerShell_Podcast_episode_124_Josh_Hendricksao7u6.mp3"
+episode: 124
+youtube: Deuyy4iQqgk
 aliases:
   - /2024/06/the-powershell-podcast-from-nowayshell-to-powershell-a-coding-transformation/
 ---

@@ -6,6 +6,8 @@ authors:
   - Jeffery Hicks
 date: "2023-03-06T15:30:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/q756jj/PowerShell_Podcast_episode_54_Jeff_Hicks7fb4v.mp3"
+episode: 54
+youtube: 5GyZ2yBYn7E
 aliases:
   - /2023/03/the-powershell-podcast-reaching-new-users-with-jeff-hicks/
 ---

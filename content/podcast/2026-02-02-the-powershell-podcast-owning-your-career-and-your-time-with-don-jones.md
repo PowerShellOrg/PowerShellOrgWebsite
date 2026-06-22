@@ -6,6 +6,8 @@ authors:
   - Don Jones
 date: "2026-02-02T15:53:06+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/h7uxvzfjr22gitma/The_PowerShell_Podcast_episode_212_Don_Jones8e38f.mp3"
+episode: 212
+youtube: xKh8rqCqMQg
 aliases:
   - /2026/02/the-powershell-podcast-owning-your-career-and-your-time-with-don-jones/
 ---

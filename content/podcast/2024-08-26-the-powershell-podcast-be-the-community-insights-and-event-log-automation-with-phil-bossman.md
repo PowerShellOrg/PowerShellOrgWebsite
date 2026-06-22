@@ -6,6 +6,7 @@ authors:
   - Phil Bossman
 date: "2024-08-26T19:51:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/55teaye732gyetgq/The_PowerShell_Podcast_episode_133_Phil_Bossman88mv9.mp3"
+episode: 133
 aliases:
   - /2024/08/the-powershell-podcast-be-the-community-insights-and-event-log-automation-with-phil-bossman/
 ---

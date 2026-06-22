@@ -6,6 +6,8 @@ authors:
   - Chris Thomas
 date: "2026-03-23T14:51:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/i9htxsxdpkf5h9ru/The_PowerShell_Podcast_episode_219_Chris_Thomas6034q.mp3"
+episode: 219
+youtube: k4n6FWzDPUk
 aliases:
   - /2026/03/the-powershell-podcast-from-school-it-intern-to-systems-architect-with-chris-thomas/
 ---

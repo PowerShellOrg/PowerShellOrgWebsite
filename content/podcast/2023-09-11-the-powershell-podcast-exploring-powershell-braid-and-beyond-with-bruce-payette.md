@@ -6,6 +6,8 @@ authors:
   - Bruce Payette
 date: "2023-09-11T14:55:12+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/faz3be/The_PowerShell_Podcast_episode_82_Bruce_Payette69cl4.mp3"
+episode: 82
+youtube: mc2xieZHZqo
 aliases:
   - /2023/09/the-powershell-podcast-exploring-powershell-braid-and-beyond-with-bruce-payette/
 ---

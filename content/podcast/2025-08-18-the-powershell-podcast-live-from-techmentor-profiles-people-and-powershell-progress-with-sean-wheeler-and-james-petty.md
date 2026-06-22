@@ -6,6 +6,8 @@ authors:
   - Sean Wheeler
 date: "2025-08-18T14:17:11+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uxr5fjwhhqhpj9yj/The_PowerShell_Podcast_episode_188_Techmentorbckv5.mp3"
+episode: 188
+youtube: hr59kahksIM
 aliases:
   - /2025/08/the-powershell-podcast-live-from-techmentor-profiles-people-and-powershell-progress-with-sean-wheeler-and-james-petty/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-11-13T15:49:02+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jzzpnh/The_PowerShell_Podcast_episode_91_Emil_Larsen84ntf.mp3"
+episode: 91
+youtube: Gr4vOOrH-mI
 aliases:
   - /2023/11/the-powershell-podcast-emil-larsson-creating-communal-tech-waves-with-powershell/
 ---

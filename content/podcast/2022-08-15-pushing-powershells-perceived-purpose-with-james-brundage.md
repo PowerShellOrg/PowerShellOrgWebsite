@@ -6,6 +6,8 @@ authors:
   - James Brundage
 date: "2022-08-15T18:00:16+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zjdt84/PowerShell_Podcast_episode_25_James_Brundageborgo.mp3"
+episode: 25
+youtube: Ns29mpdcwoU
 aliases:
   - /2022/08/pushing-powershells-perceived-purpose-with-james-brundage/
 ---

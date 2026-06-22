@@ -6,6 +6,8 @@ authors:
   - Anthony Howell
 date: "2025-06-16T15:01:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4ae2sx9ununfw369/The_PowerShell_Podcast_episode_178_The_PoShwolfafou9.mp3"
+episode: 178
+youtube: tOH5FXn0IhU
 aliases:
   - /2025/06/the-powershell-podcast-the-life-and-code-of-the-posh-wolf/
 ---

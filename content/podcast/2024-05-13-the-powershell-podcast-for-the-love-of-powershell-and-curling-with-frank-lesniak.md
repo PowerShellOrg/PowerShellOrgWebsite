@@ -6,6 +6,8 @@ authors:
   - Frank Lesniak
 date: "2024-05-13T14:22:04+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ajt4cquu3ndhyim6/The_PowerShell_Podcast_episode_118_Frank_Lesniak9ve9h.mp3"
+episode: 118
+youtube: 4vcyukAb71w
 aliases:
   - /2024/05/the-powershell-podcast-for-the-love-of-powershell-and-curling-with-frank-lesniak/
 ---

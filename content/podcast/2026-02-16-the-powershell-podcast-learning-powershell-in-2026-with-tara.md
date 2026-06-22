@@ -6,6 +6,8 @@ authors:
   - Tara Sinquefield
 date: "2026-02-16T15:13:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v438wire44266xvi/The_PowerShell_Podcast_episode_214_Tara7qsbv.mp3"
+episode: 214
+youtube: ZaPoS4mGW7s
 aliases:
   - /2026/02/the-powershell-podcast-learning-powershell-in-2026-with-tara/
 ---

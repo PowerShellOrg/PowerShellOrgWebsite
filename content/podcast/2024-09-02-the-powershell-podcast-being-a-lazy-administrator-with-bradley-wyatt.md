@@ -6,6 +6,7 @@ authors:
   - Bradley Wyatt
 date: "2024-09-02T14:28:17+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/njdmpybee8rb7qcr/The_PowerShell_Podcast_episode_134_Bradleyaeo81.mp3"
+episode: 134
 aliases:
   - /2024/09/the-powershell-podcast-being-a-lazy-administrator-with-bradley-wyatt/
 ---

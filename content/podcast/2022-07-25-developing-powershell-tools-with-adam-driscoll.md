@@ -6,6 +6,8 @@ authors:
   - Adam Driscoll
 date: "2022-07-25T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pmg9aj/PowerShell_Podcast_episode_22_Adam_Driscoll8yqw0.mp3"
+episode: 22
+youtube: Oki225FVVNQ
 aliases:
   - /2022/07/developing-powershell-tools-with-adam-driscoll/
 ---

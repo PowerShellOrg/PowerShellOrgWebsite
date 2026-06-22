@@ -6,6 +6,8 @@ authors:
   - Jeffery Hicks
 date: "2023-12-11T15:27:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/fai68n/The_PowerShell_Podcast_episode_95_Jeff_Hicks7kf13.mp3"
+episode: 95
+youtube: lV5RXZPiM_0
 aliases:
   - /2023/12/the-powershell-podcast-code-in-action-embracing-hands-on-learning-with-jeff-hicks/
 ---

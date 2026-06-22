@@ -6,6 +6,8 @@ authors:
   - Fred Weinmann
 date: "2025-01-27T15:29:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/3ii2u6f5nqw8mtav/The_PowerShell_Podcast_episode_155_Fred_part_2acuh2.mp3"
+episode: 155
+youtube: IcRVwrNNY2g
 aliases:
   - /2025/01/the-powershell-podcast-streamlining-powershell-package-management-with-fred-weinmann/
 ---

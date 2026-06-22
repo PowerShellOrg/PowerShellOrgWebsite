@@ -6,6 +6,7 @@ authors:
   - Gilbert Sanchez
 date: "2022-06-06T18:24:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z9t6jq/PowerShell_Podcast_episode_15_Gilbert68nn0.mp3"
+episode: 15
 aliases:
   - /2022/06/template-podcast-title-with-gilbert-sanchez/
 ---

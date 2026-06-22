@@ -6,6 +6,7 @@ authors:
   - Jaap Brasser
 date: "2022-07-11T18:40:06+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vb35fg/PowerShell_Podcast_episode_20_Jaapbe18h.mp3"
+episode: 20
 aliases:
   - /2022/07/a-conversation-that-will-slap-you-with-jaap-brasser/
 ---

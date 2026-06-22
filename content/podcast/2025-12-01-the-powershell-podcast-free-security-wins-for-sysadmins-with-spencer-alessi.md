@@ -6,6 +6,8 @@ authors:
   - Spencer Alessi
 date: "2025-12-01T15:15:25+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/pvcpprqtmib4ua9z/The_PowerShell_Podcast_episode_203_Spencer_Alessi9fj3s.mp3"
+episode: 203
+youtube: E4ji0-rmsuA
 aliases:
   - /2025/12/the-powershell-podcast-free-security-wins-for-sysadmins-with-spencer-alessi/
 ---

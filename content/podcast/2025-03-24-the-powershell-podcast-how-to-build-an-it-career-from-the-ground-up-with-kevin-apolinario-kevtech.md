@@ -6,6 +6,8 @@ authors:
   - Kevin Apolinario
 date: "2025-03-24T14:09:10+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/etekg5yi5s3hewy2/The_PowerShell_Podcast_episode_163_KevTechatp2o.mp3"
+episode: 163
+youtube: RrNyh6EuD_Q
 aliases:
   - /2025/03/the-powershell-podcast-how-to-build-an-it-career-from-the-ground-up-with-kevin-apolinario-kevtech/
 ---

@@ -6,6 +6,8 @@ authors:
   - Steven Wight
 date: "2025-03-10T15:02:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vvbefbgf2unjskq7/The_PowerShell_Podcast_episode_161_Young_Teamb8jyo.mp3"
+episode: 161
+youtube: klsOxHtG3KE
 aliases:
   - /2025/03/the-powershell-podcast-how-powershell-and-the-right-mindset-can-transform-your-it-career-with-steven-wight/
 ---

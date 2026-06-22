@@ -6,6 +6,8 @@ authors:
   - Michael Haag
 date: "2025-03-03T15:27:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5v4jz9w9kam2pmbd/The_PowerShell_Podcast_episode_160_Michael_Haag7tm67.mp3"
+episode: 160
+youtube: F2TbwUS-eRI
 aliases:
   - /2025/03/the-powershell-podcast-powershell-as-a-defenders-secret-weapon-with-michael-haag/
 ---

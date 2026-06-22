@@ -6,6 +6,7 @@ authors:
   - Mike F. Robbins
 date: "2022-08-01T18:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ksapre/PowerShell_Podcast_episode_23_Mike_Robbins6doyc.mp3"
+episode: 23
 aliases:
   - /2022/08/oh-the-places-you-will-go-with-powershell-mike-f-robbins/
 ---

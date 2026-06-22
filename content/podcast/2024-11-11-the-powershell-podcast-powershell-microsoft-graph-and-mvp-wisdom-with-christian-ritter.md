@@ -6,6 +6,7 @@ authors:
   - Christian Ritter
 date: "2024-11-11T15:47:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cd6nxs8mdbqhfb9n/The_PowerShell_Podcast_episode_144_Christian_Ritter7rsfv.mp3"
+episode: 144
 aliases:
   - /2024/11/the-powershell-podcast-powershell-microsoft-graph-and-mvp-wisdom-with-christian-ritter/
 ---

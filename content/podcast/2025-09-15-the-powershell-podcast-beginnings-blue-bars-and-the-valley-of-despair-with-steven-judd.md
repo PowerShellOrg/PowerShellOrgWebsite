@@ -6,6 +6,8 @@ authors:
   - Steven Judd
 date: "2025-09-15T14:28:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/e2kqcvdw8ni9ca92/The_PowerShell_Podcast_episode_192_Steven_Juddbdrua.mp3"
+episode: 192
+youtube: yu6RVPwp8KY
 aliases:
   - /2025/09/the-powershell-podcast-beginnings-blue-bars-and-the-valley-of-despair-with-steven-judd/
 ---

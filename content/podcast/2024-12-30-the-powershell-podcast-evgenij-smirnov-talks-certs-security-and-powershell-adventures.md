@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-12-30T16:01:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vyy4kx7wkmc5vbrb/The_PowerShell_Podcast_episode_151_Evgenij_Smirnov89bwz.mp3"
+episode: 151
+youtube: G2U1-AxTldA
 aliases:
   - /2024/12/the-powershell-podcast-evgenij-smirnov-talks-certs-security-and-powershell-adventures/
 ---

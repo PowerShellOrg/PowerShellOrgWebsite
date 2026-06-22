@@ -6,6 +6,8 @@ authors:
   - Jim Tyler
 date: "2026-03-09T14:46:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v4zgz2bdyprzyjan/The_PowerShell_Podcast_episode_217_Jim_Tylerbn4md.mp3"
+episode: 217
+youtube: 0q3Y0mMjWF4
 aliases:
   - /2026/03/the-powershell-podcast-zero-trust-and-powershell-in-k12-with-jim-tyler/
 ---

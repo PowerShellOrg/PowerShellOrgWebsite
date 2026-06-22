@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2025-05-05T14:34:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9qrrimd2zrdxrm96/The_PowerShell_Podcast_episode_172_Joshua_Dearing8hgpi.mp3"
+episode: 172
 aliases:
   - /2025/05/the-powershell-podcast-growing-with-powershell-and-community-support-joshua-dearing/
 ---

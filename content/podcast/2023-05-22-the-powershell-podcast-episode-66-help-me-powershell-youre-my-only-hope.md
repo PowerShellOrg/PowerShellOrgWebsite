@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-05-22T14:08:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/stabch/PowerShell_Podcast_episode_66_Brock97vr9.mp3"
+episode: 66
+youtube: yUEP2FdM1Vk
 aliases:
   - /2023/05/the-powershell-podcast-episode-66-help-me-powershell-youre-my-only-hope/
 ---

@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2024-05-06T14:54:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/a7hy9yjrbzyngcmu/The_PowerShell_Podcast_episode_117_Ryanb7n6h.mp3"
+episode: 117
 aliases:
   - /2024/05/the-powershell-podcast-powershell-perspectives-ryan-lancial-on-company-culture-and-authentic-careers/
 ---

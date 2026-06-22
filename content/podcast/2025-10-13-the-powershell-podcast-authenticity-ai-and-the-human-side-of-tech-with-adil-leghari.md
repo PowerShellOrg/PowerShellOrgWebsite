@@ -6,6 +6,8 @@ authors:
   - Adil Leghari
 date: "2025-10-13T14:37:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jzy4n6wxqzqyqq99/The_PowerShell_Podcast_episode_196_Adil_Leghari6dyyz.mp3"
+episode: 196
+youtube: HpOeZ4LBq9s
 aliases:
   - /2025/10/the-powershell-podcast-authenticity-ai-and-the-human-side-of-tech-with-adil-leghari/
 ---

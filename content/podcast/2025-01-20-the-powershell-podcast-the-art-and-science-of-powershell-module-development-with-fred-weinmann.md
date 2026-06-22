@@ -6,6 +6,7 @@ authors:
   - Fred Weinmann
 date: "2025-01-20T15:58:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/eutut6kbw64dqdbj/The_PowerShell_Podcast_episode_154_Fred_part_169q90.mp3"
+episode: 154
 aliases:
   - /2025/01/the-powershell-podcast-the-art-and-science-of-powershell-module-development-with-fred-weinmann/
 ---

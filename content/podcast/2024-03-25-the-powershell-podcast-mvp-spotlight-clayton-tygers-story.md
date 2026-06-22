@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-03-25T14:08:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ynjm23/The_PowerShell_Podcast_episode_110_Clayton_Tygera5psc.mp3"
+episode: 110
+youtube: JvV4KqB5yw4
 aliases:
   - /2024/03/the-powershell-podcast-mvp-spotlight-clayton-tygers-story/
 ---

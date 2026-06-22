@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-06-25T14:03:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f8gh6idcx6npaw34/The_PowerShell_Podcast_episode_180_PSConfEU9z2zr.mp3"
+episode: 180
+youtube: paB3R1uA8jw
 aliases:
   - /2025/06/the-powershell-podcast-a-conversation-from-the-heart-of-psconfeu/
 ---

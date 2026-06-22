@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-05-30T18:02:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vgycde/PowerShell_Podcast_episode_14_bar_sessions6bxw6.mp3"
+episode: 14
 aliases:
   - /2022/05/powershell-global-devops-summit-the-bar-sessions/
 ---

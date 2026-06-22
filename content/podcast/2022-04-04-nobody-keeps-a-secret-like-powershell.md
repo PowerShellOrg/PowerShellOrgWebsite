@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-04-04T17:15:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4xmzyv/PowerShell_Podcast_episode_57v84l.mp3"
+episode: 5
 aliases:
   - /2022/04/nobody-keeps-a-secret-like-powershell/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-04-09T22:01:01+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/uf4ptjz6r8pihsq9/The_PowerShell_Podcast_Summit_2025_bar_session_Frank_Lesniak_episode_16779siv.mp3"
+episode: 167
+youtube: HoYKzgiJxkk
 aliases:
   - /2025/04/the-powershell-podcast-powershell-summit-bar-sessions-2025-frank-lesniak/
 ---

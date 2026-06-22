@@ -6,6 +6,8 @@ authors:
   - Adam Bacon
 date: "2025-01-13T15:24:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/teqdhfyg92g4rh9i/The_PowerShell_Podcast_episode_153_Adam_Baconbf44b.mp3"
+episode: 153
+youtube: HgDCzoNcir4
 aliases:
   - /2025/01/the-powershell-podcast-powershell-changed-my-life-with-adam-bacon/
 ---

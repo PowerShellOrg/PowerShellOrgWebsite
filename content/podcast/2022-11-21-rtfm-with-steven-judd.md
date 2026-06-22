@@ -6,6 +6,8 @@ authors:
   - Steven Judd
 date: "2022-11-21T20:12:11+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/8h7js3/PowerShell_Podcast_episode_39_Steven_Judd8hrmh.mp3"
+episode: 39
+youtube: PxRDv_4gON8
 aliases:
   - /2022/11/rtfm-with-steven-judd/
 ---

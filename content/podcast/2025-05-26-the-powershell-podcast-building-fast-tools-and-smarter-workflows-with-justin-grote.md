@@ -6,6 +6,8 @@ authors:
   - Justin Grote
 date: "2025-05-26T14:09:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/79s6h9dx5axezaj4/The_PowerShell_Podcast_episode_175_Justin_Grote6utkq.mp3"
+episode: 175
+youtube: dHbWFUyUaOE
 aliases:
   - /2025/05/the-powershell-podcast-building-fast-tools-and-smarter-workflows-with-justin-grote/
 ---

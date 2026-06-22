@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-08-07T14:10:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7uddz8/PowerShell_Podcast_episode_77_Harma6wdz.mp3"
+episode: 77
+youtube: X1wX1duwANk
 aliases:
   - /2023/08/the-powershell-podcast-from-cloud-to-console-harm-veenstras-powershell-perspectives/
 ---

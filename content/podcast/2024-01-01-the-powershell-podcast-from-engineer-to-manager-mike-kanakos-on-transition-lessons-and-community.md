@@ -6,6 +6,8 @@ authors:
   - Mike Kanakos
 date: "2024-01-01T16:00:53+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/jj7je5/The_PowerShell_Podcast_episode_98_Mike_Kanokos6v9kw.mp3"
+episode: 98
+youtube: L6HY3lnEkG0
 aliases:
   - /2024/01/the-powershell-podcast-from-engineer-to-manager-mike-kanakos-on-transition-lessons-and-community/
 ---

@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-03-11T14:49:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ah2c5x/The_PowerShell_Podcast_episode_108_Adil_Leghariba6nl.mp3"
+episode: 108
+youtube: u1H9F-2-fqE
 aliases:
   - /2024/03/the-powershell-podcast-iam-in-focus-insights-from-adil-leghari/
 ---

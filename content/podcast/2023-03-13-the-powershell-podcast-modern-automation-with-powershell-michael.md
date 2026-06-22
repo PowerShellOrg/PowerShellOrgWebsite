@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-03-13T15:01:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/48w9n8/PowerShell_Podcast_episode_55_Michael613f4.mp3"
+episode: 55
+youtube: 9tXuu8SqJYE
 aliases:
   - /2023/03/the-powershell-podcast-modern-automation-with-powershell-michael/
 ---

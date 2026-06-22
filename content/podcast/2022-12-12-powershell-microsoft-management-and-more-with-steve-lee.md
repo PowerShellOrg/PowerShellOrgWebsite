@@ -6,6 +6,7 @@ authors:
   - Steve Lee
 date: "2022-12-12T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f3eqs3/PowerShell_Podcast_episode_42_Steve_Leea2fev.mp3"
+episode: 42
 aliases:
   - /2022/12/powershell-microsoft-management-and-more-with-steve-lee/
 ---

@@ -6,6 +6,8 @@ authors:
   - Frank Lesniak
 date: "2025-11-10T15:42:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/56hts9nzxigkhprs/The_PowerShell_Podcast_episode_200_Frank_Lesniak8qdfp.mp3"
+episode: 200
+youtube: cQvs5s3T1DA
 aliases:
   - /2025/11/the-powershell-podcast-200-episodes-of-community-with-frank-lesniak/
 ---

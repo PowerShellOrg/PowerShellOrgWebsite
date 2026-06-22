@@ -6,6 +6,7 @@ authors:
   - Andrew Pla
 date: "2024-12-02T15:44:25+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2354ed79seiv92hh/The_PowerShell_Podcast_episode_147_Andrew_Pla6uf45.mp3"
+episode: 147
 aliases:
   - /2024/12/the-powershell-podcast-turning-the-tables-an-interview-with-andrew-pla/
 ---

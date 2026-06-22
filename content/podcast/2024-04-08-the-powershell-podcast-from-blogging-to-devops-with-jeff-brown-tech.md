@@ -6,6 +6,8 @@ authors:
   - Jeff Brown
 date: "2024-04-08T14:02:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yy65vj/The_PowerShell_Podcast_episode_112_Jeff_Brownaboe1.mp3"
+episode: 112
+youtube: 2kaOMe2ZP7w
 aliases:
   - /2024/04/the-powershell-podcast-from-blogging-to-devops-with-jeff-brown-tech/
 ---

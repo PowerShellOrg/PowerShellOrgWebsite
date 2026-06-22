@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-02-19T15:27:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/zfw6zz/The_PowerShell_Podcast_episode_105_Powerstring698jk.mp3"
+episode: 105
+youtube: Pxd0CNxFiCk
 aliases:
   - /2024/02/the-powershell-podcast-reaching-the-summit-grahams-onramp-journey/
 ---

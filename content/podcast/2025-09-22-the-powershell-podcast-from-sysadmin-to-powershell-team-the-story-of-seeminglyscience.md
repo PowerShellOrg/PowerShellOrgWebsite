@@ -6,6 +6,8 @@ authors:
   - Patrick Meinecke
 date: "2025-09-22T14:56:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/hsc7zqqbrbtxj35n/The_PowerShell_Podcast_episode_193_Patrick_M6izpa.mp3"
+episode: 193
+youtube: Zyj1IdZFf1E
 aliases:
   - /2025/09/the-powershell-podcast-from-sysadmin-to-powershell-team-the-story-of-seeminglyscience/
 ---

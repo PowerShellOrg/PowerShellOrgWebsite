@@ -6,6 +6,8 @@ authors:
   - Shannon Eldridge-Kuehn
 date: "2025-12-15T15:19:07+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/dxejzn3jpzpfjtdj/The_PowerShell_Podcast_episode_205_Shannon78qos.mp3"
+episode: 205
+youtube: okVO33wX5xY
 aliases:
   - /2025/12/the-powershell-podcast-mentorship-mindset-and-microsoft-ignite-with-shannon-eldridge-kuehn/
 ---

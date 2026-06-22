@@ -6,6 +6,8 @@ authors:
   - Greg Martin
 date: "2025-02-17T15:13:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/98sz9kx8fr8tgm8c/The_PowerShell_Podcast_episode_158_Greg_Martin76kop.mp3"
+episode: 158
+youtube: 0kBrtPsD2EE
 aliases:
   - /2025/02/the-powershell-podcast-building-a-game-in-powershell-from-the-ground-up-with-greg-martin/
 ---

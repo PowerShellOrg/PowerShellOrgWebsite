@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2023-11-20T15:36:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/b68a95/The_PowerShell_Podcast_episode_92_Jordan_and_Andrew_Thanksgivinga626u.mp3"
+episode: 92
+youtube: XX_OxcNESKg
 aliases:
   - /2023/11/the-powershell-podcast-in-code-we-trust-being-thankful-for-powershell/
 ---

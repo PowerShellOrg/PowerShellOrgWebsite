@@ -6,6 +6,8 @@ authors:
   - Michael Greene
 date: "2023-10-30T14:45:30+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/9mqfxu/The_PowerShell_Podcast_episode_89_Michael_Green85zch.mp3"
+episode: 89
+youtube: yOZutvGgV2s
 aliases:
   - /2023/10/the-powershell-podcast-dsc-community-and-powershell-a-conversation-with-michael-greene/
 ---

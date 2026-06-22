@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2023-05-15T14:24:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bw5zma/PowerShell_Podcast_episode_65_Summit_Steve_Posh_Phil_Dan_Geoff7ioe3.mp3"
+episode: 65
 aliases:
   - /2023/05/the-powershell-podcast-powershell-and-devops-global-summit-steve-judd-poshwolf-anthony-howell-phil-bossman-dan-hill-and-geoff-schram/
 ---

@@ -6,6 +6,8 @@ authors:
   - Josh King
 date: "2025-11-03T16:01:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6f2n4xfczgqqmymc/The_PowerShell_Podcast_episode_199_Josh_Kingbjjuf.mp3"
+episode: 199
+youtube: wi7Ijo9Od-k
 aliases:
   - /2025/11/the-powershell-podcast-burnttoast-v1-0-and-10-years-of-powershell-notifications-with-josh-king/
 ---

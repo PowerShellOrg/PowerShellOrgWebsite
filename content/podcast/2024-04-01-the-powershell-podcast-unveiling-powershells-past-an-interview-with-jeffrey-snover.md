@@ -6,6 +6,8 @@ authors:
   - Jeffrey Snover
 date: "2024-04-01T14:31:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/v94vdk/The_PowerShell_Podcast_episode_111_Jeffrey_Snover7nemc.mp3"
+episode: 111
+youtube: eiVGJS4AGJU
 aliases:
   - /2024/04/the-powershell-podcast-unveiling-powershells-past-an-interview-with-jeffrey-snover/
 ---

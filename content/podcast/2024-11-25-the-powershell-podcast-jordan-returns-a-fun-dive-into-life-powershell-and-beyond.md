@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2024-11-25T15:09:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4ki6ipwm39mv8cue/The_PowerShell_Podcast_episode_146_Jordan_Hammond8qsac.mp3"
+episode: 146
 aliases:
   - /2024/11/the-powershell-podcast-jordan-returns-a-fun-dive-into-life-powershell-and-beyond/
 ---

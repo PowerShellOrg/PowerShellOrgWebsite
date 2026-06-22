@@ -6,6 +6,7 @@ authors:
   - Sean Wheeler
 date: "2022-05-02T18:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/5hjnyr/PowerShell_Podcast_Episode_9_Sean_Wheeleran752.mp3"
+episode: 9
 aliases:
   - /2022/05/contributing-to-powershell-made-easy-with-sean-wheeler/
 ---

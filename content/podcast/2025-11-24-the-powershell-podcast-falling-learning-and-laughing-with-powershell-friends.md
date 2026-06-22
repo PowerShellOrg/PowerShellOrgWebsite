@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2025-11-24T15:49:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f4bcibvwq564psyk/The_PowerShell_Podcast_episode_202_Bar_sessions_Spiceworld6jczm.mp3"
+episode: 202
+youtube: UrsbTkR6jg8
 aliases:
   - /2025/11/the-powershell-podcast-falling-learning-and-laughing-with-powershell-friends/
 ---

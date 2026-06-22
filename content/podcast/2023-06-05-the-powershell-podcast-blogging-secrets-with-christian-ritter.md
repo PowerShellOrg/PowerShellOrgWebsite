@@ -6,6 +6,8 @@ authors:
   - Christian Ritter
 date: "2023-06-05T14:08:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/catkem/PowerShell_Podcast_episode_68_Christian7o8ef.mp3"
+episode: 68
+youtube: ocdYDOqO2aU
 aliases:
   - /2023/06/the-powershell-podcast-blogging-secrets-with-christian-ritter/
 ---

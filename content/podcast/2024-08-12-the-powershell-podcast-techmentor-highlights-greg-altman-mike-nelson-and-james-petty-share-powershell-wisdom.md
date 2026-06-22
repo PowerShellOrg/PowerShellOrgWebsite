@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2024-08-12T14:43:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tqczekbrunsvb5tm/The_PowerShell_Podcast_episode_131_Tech_Mentorbsi5i.mp3"
+episode: 131
 aliases:
   - /2024/08/the-powershell-podcast-techmentor-highlights-greg-altman-mike-nelson-and-james-petty-share-powershell-wisdom/
 ---

@@ -6,6 +6,7 @@ authors:
   - Jeffery Hicks
 date: "2022-05-09T16:57:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/6x3vr8/PowerShell_Podcast_episode_11_Jeff_Hicks7syhe.mp3"
+episode: 11
 aliases:
   - /2022/05/the-value-of-mentorship-with-jeff-hicks/
 ---

@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2022-04-18T17:05:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/j7emjh/PowerShell_Podcast_episode_76aho6.mp3"
+episode: 7
 aliases:
   - /2022/04/this-title-is-not-psremotely-clever/
 ---

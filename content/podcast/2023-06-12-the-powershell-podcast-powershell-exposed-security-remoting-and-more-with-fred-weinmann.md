@@ -6,6 +6,8 @@ authors:
   - Fred Weinmann
 date: "2023-06-12T14:46:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cdc95x/PowerShell_Podcast_episode_69_Fred_Weinmann88f7x.mp3"
+episode: 69
+youtube: rHb_m9hSL8s
 aliases:
   - /2023/06/the-powershell-podcast-powershell-exposed-security-remoting-and-more-with-fred-weinmann/
 ---

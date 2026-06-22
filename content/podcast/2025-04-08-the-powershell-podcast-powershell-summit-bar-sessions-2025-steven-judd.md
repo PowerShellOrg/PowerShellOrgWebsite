@@ -5,6 +5,7 @@ authors:
   - James Petty
 date: "2025-04-08T21:48:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/229v8r8u35jhecg9/The_PowerShell_Podcast_Summit_2025_bar_session_Steven_Judd6yjgx.mp3"
+youtube: 6WTIsOnT5PU
 aliases:
   - /2025/04/the-powershell-podcast-powershell-summit-bar-sessions-2025-steven-judd/
 ---

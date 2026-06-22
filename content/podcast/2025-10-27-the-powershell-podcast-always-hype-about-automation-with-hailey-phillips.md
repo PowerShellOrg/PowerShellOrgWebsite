@@ -6,6 +6,7 @@ authors:
   - Hailey Phillips
 date: "2025-10-27T14:34:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mu6c5xdcqg92iprk/The_PowerShell_Podcast_episode_198_Hailey_Phillips7bgxm.mp3"
+episode: 198
 aliases:
   - /2025/10/the-powershell-podcast-always-hype-about-automation-with-hailey-phillips/
 ---

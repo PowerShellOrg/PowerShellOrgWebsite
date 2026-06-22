@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2022-11-14T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/m8wpdm/PowerShell_Podcast_episode_38_IamJakoby9tjg2.mp3"
+episode: 38
+youtube: uqmA_tGrYw8
 aliases:
   - /2022/11/nightmare-fuel-with-i-am-jakoby/
 ---

@@ -6,6 +6,8 @@ authors:
   - Joe Houghes
 date: "2023-10-16T14:36:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/tfvehj/The_PowerShell_Podcast_episode_87_Joe_Houghesbr6xn.mp3"
+episode: 87
+youtube: 1vQb21FFcwo
 aliases:
   - /2023/10/the-powershell-podcast-joe-houghes-soft-skills-community-and-professional-growth/
 ---

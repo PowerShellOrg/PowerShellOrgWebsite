@@ -6,6 +6,8 @@ authors:
   - Sydney Smith
 date: "2023-07-17T14:32:09+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/q9c64d/The_PowerShell_Podcast_episode_74_Sydney_Smith8b5qg.mp3"
+episode: 74
+youtube: zTSk_0OERI8
 aliases:
   - /2023/07/the-powershell-podcast-the-lowdown-on-psresourceget-an-exclusive-with-sydney-smith/
 ---

@@ -6,6 +6,8 @@ authors:
   - Ryan Coates
 date: "2025-07-28T14:41:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/mfew4ev3fgchvyvr/The_PowerShell_Podcast_episode_185_Ryan_Coats7aybi.mp3"
+episode: 185
+youtube: 72UCneA1X40
 aliases:
   - /2025/07/the-powershell-podcast-are-powershell-pros-ready-for-c-ryan-coats/
 ---

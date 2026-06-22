@@ -5,6 +5,8 @@ authors:
   - James Petty
 date: "2024-01-08T15:47:18+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/wfadvk/The_PowerShell_Podcast_episode_99_PowerShell_team7v1fu.mp3"
+episode: 99
+youtube: F_V70nVxw4Q
 aliases:
   - /2024/01/the-powershell-podcast-powershell-pm-roundtable-2024-areas-of-excitement/
 ---
