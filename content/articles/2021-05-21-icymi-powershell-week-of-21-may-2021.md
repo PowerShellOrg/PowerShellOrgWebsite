@@ -6,6 +6,10 @@ authors:
 date: "2021-05-21T20:33:47+00:00"
 categories:
   - In Case You Missed It
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2021/05/icymi-powershell-week-of-21-may-2021/

@@ -6,6 +6,10 @@ authors:
 date: "2020-10-09T12:19:12+00:00"
 categories:
   - PowerShell for Admins
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 aliases:
   - /2020/10/icymi-powershell-week-of-09-october-2020/
 ---

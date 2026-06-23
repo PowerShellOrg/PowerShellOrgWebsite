@@ -4,6 +4,12 @@ author: James Petty
 authors:
   - James Petty
 date: "2024-03-05T17:00:33+00:00"
+categories:
+  - PowerShell for Admins
+tags:
+  - Active Directory
+  - Scripting
+  - Security
 aliases:
   - /2024/03/how-to-toggle-logon-restrictions-for-ad-accounts/
 ---

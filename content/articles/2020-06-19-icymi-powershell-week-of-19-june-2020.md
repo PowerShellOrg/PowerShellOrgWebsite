@@ -6,6 +6,10 @@ authors:
 date: "2020-06-19T14:00:53+00:00"
 categories:
   - In Case You Missed It
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 aliases:
   - /2020/06/icymi-powershell-week-of-19-june-2020/
 ---

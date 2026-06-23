@@ -4,6 +4,11 @@ author: James Petty
 authors:
   - James Petty
 date: "2021-03-02T22:23:07+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Lightning Demos
 aliases:
   - /2021/03/summit-lightning-demos/
 ---

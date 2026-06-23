@@ -4,6 +4,12 @@ author: James Petty
 authors:
   - James Petty
 date: "2021-12-17T17:03:32+00:00"
+categories:
+  - Announcements
+tags:
+  - OnRamp
+  - PowerShell Summit
+  - Scholarships
 aliases:
   - /2021/12/2022-it-onramp-scholarship-information-application/
 ---

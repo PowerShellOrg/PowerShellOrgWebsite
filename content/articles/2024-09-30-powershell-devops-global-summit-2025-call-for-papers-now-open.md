@@ -8,6 +8,9 @@ categories:
   - Announcements
   - DevOps
   - Events
+tags:
+  - PowerShell Summit
+  - Call for Speakers
 legacy_featured_image: /wp-content/uploads/2024/09/Untitled-1-e1727199856490.png
 aliases:
   - /2024/09/powershell-devops-global-summit-2025-call-for-papers-now-open/

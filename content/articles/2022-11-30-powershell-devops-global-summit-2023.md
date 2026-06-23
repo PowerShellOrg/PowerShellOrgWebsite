@@ -8,6 +8,8 @@ categories:
   - Announcements
   - Events
   - PowerShell Summit
+tags:
+  - PowerShell Summit
 aliases:
   - /2022/11/powershell-devops-global-summit-2023/
 ---

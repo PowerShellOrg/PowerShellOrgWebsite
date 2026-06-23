@@ -4,6 +4,11 @@ author: Chris Martin
 authors:
   - Chris Martin
 date: "2022-04-30T05:42:47+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Community
 draft: true
 aliases:
   - /2022/04/powershell-devops-global-summit-a-first-timers-perspective/

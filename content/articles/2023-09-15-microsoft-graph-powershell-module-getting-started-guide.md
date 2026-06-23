@@ -7,6 +7,11 @@ date: "2023-09-15T16:21:15+00:00"
 categories:
   - Graph
   - PowerShell for Admins
+tags:
+  - Microsoft Graph
+  - Microsoft 365
+  - Modules
+  - Tutorial
 aliases:
   - /2023/09/microsoft-graph-powershell-module-getting-started-guide/
 ---

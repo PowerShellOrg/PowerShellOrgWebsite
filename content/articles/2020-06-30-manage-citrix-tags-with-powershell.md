@@ -7,6 +7,9 @@ date: "2020-06-30T15:58:07+00:00"
 categories:
   - PowerShell for Admins
   - Tips and Tricks
+tags:
+  - Citrix
+  - Automation
 aliases:
   - /2020/06/manage-citrix-tags-with-powershell/
 ---

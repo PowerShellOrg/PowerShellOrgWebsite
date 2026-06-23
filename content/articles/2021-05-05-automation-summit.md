@@ -8,6 +8,8 @@ categories:
   - Announcements
   - DevOps
   - Events
+tags:
+  - Automation Summit
 legacy_featured_image: /wp-content/uploads/2021/05/FullLogoWithDatedefault.png
 aliases:
   - /2021/05/meet-the-automation-summit-team/

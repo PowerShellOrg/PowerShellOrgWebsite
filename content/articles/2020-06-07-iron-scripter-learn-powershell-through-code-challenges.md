@@ -8,6 +8,10 @@ categories:
   - PowerShell for Admins
   - Tips and Tricks
   - Training
+tags:
+  - Iron Scripter
+  - Code Challenges
+  - Learning
 aliases:
   - /2020/06/iron-scripter-learn-powershell-through-code-challenges/
 ---

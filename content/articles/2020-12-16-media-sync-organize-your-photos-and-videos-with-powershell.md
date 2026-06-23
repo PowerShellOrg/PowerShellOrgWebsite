@@ -9,6 +9,10 @@ categories:
   - Tips and Tricks
   - Tools
   - Tutorials
+tags:
+  - File Management
+  - GUI
+  - Automation
 aliases:
   - /2020/12/media-sync-organize-your-photos-and-videos-with-powershell/
 ---

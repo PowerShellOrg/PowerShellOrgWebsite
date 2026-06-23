@@ -4,6 +4,11 @@ author: James Petty
 authors:
   - James Petty
 date: "2023-11-20T21:32:12+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Tickets
 aliases:
   - /2023/11/earlybirdnowopen/
 ---

@@ -7,6 +7,9 @@ date: "2021-03-11T14:50:50+00:00"
 categories:
   - Announcements
   - DevOps
+tags:
+  - Community
+  - Call for Authors
 aliases:
   - /2021/03/call-for-authors-and-editors/
 ---

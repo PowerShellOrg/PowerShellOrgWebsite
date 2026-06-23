@@ -4,6 +4,12 @@ author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:31+00:00"
+categories:
+  - Tutorials
+tags:
+  - Beginner
+  - Input
+  - Tutorial
 aliases:
   - /2022/07/learn-powershell-in-5-painless-steps-input-console-file-applications-step-3/
 ---

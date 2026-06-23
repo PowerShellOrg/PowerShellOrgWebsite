@@ -9,6 +9,10 @@ categories:
   - Tips and Tricks
   - Tools
   - Tutorials
+tags:
+  - Networking
+  - Raspberry Pi
+  - Security
 aliases:
   - /2020/08/netneighbor-watch-the-powershell-alternative-to-arpwatch/
 ---

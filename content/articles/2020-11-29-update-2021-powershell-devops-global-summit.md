@@ -7,6 +7,8 @@ date: "2020-11-29T18:00:38+00:00"
 categories:
   - Announcements
   - PowerShell Summit
+tags:
+  - PowerShell Summit
 legacy_featured_image: /wp-content/uploads/2020/11/Asset-4@1x.png
 aliases:
   - /2020/11/update-2021-powershell-devops-global-summit/

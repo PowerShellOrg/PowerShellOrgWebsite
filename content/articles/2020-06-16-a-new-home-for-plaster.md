@@ -9,6 +9,10 @@ categories:
   - PowerShell for Admins
   - PowerShell for Developers
   - Tools
+tags:
+  - Plaster
+  - Modules
+  - Community
 aliases:
   - /2020/06/a-new-home-for-plaster/
 ---

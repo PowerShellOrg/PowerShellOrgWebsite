@@ -9,6 +9,9 @@ categories:
   - Tips and Tricks
   - Tools
   - Tutorials
+tags:
+  - GUI
+  - Automation
 aliases:
   - /2020/06/simple-powershell-gui/
 ---

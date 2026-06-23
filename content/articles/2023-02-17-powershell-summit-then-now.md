@@ -8,6 +8,9 @@ categories:
   - Announcements
   - Events
   - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Community
 legacy_featured_image: /wp-content/uploads/2022/11/Summit_Long_NoYeardefault-e1669819303622.png
 aliases:
   - /2023/02/powershell-summit-then-now/

@@ -4,6 +4,11 @@ author: James Petty
 authors:
   - James Petty
 date: "2023-10-01T13:00:56+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Call for Speakers
 aliases:
   - /2023/10/the-powershell-devops-global-summit-cfp-is-open/
 ---
