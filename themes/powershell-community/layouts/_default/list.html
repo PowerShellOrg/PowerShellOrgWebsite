@@ -81,7 +81,27 @@
                 
                 {{ else }}
                 <!-- Regular Article Layout -->
-                <div class="p-6">
+                <div class="lg:flex">
+                    <div class="lg:w-1/4 p-6 lg:pr-0">
+                        {{ with .Params.featured_image }}
+                        <a href="{{ $.RelPermalink }}" class="block aspect-square rounded-lg overflow-hidden border border-gray-200 hover:border-blue-300 transition-colors duration-200">
+                            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" class="w-full h-full object-cover">
+                        </a>
+                        {{ else }}
+                        <a href="{{ .RelPermalink }}" class="block aspect-square bg-gray-900 rounded-lg p-4 flex flex-col justify-center border border-blue-400 hover:border-blue-300 transition-colors duration-200">
+                            <div class="flex space-x-1.5 mb-3">
+                                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                            </div>
+                            <div class="font-mono text-xs">
+                                <span class="text-blue-400">PS C:\&gt;</span>
+                                <div class="text-blue-300 mt-2 line-clamp-3">{{ with .Params.categories }}{{ index . 0 }}{{ else }}Get-Article{{ end }}</div>
+                            </div>
+                        </a>
+                        {{ end }}
+                    </div>
+                    <div class="lg:w-3/4 p-6 lg:pl-8">
                     <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
                         <div class="flex items-center space-x-3">
                             <time>{{ .Date.Format "Jan 2, 2006" }}</time>
@@ -121,6 +141,7 @@
                             {{ end }}
                         </div>
                         {{ end }}
+                    </div>
                     </div>
                 </div>
                 {{ end }}
