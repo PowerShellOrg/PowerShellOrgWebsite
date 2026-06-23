@@ -13,10 +13,11 @@ aliases:
   - /2020/01/episode-329-powerscripting-podcast-jason-helmick-from-microsoft/
 ---
 
-[vc_row][vc_column][vc_column_text]Listen: *Listen* [/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_video link="https://youtu.be/9DmLbsts8cs" title="Watch:"][vc_column_text] 
+**Watch:**
 
+{{< youtube 9DmLbsts8cs >}}
 
-  **To Subscribe:**
+**To Subscribe:**
 
 
 
@@ -101,5 +102,3 @@ http://feeds.feedburner.com/Powerscripting
 
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
-
- [/vc_column_text][/vc_column][vc_column][/vc_column][vc_column][/vc_column][/vc_row]

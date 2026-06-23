@@ -10,11 +10,9 @@ aliases:
   - /2021/04/live-shows-powershell-devops-global-summit/
 ---
 
-[vc_row][vc_column][vc_column_text]
-
 #### We will be producing live shows twice a day during Summit. The first show will be at 6:20 AM PDTand the second show will be at 3:00 PM PDT. The links will be available in the theater tab of the event. Make sure to add them to your agenda as well!
 
-[/vc_column_text][vc_column_text]Did we mention there will be giveaways during each of these live shows?[/vc_column_text][vc_column_text]
+Did we mention there will be giveaways during each of these live shows?
 
 ## April 27 -  6:20 AM PDT / 9:20 AM EDT
 
@@ -60,4 +58,4 @@ Session Hosts: Mike Kanakos and Steven Judd
 
 It's time to say goodbye to another year of the PowerShell summit. **We'll recap the event and welcome Damien Caro and Danny Maertens from Microsoft to talk about PowerShell and Azure!** A that it will, unfortunately, be time to say goodbye. But as one great event ends, it's time to think about the next great event: Automation Summit, occurring in November! James Petty will help us say goodbye and also give some early details about Automation Summit.
 
-Session Hosts: Mike Kanakos and Steven Judd[/vc_column_text][/vc_column][/vc_row]
+Session Hosts: Mike Kanakos and Steven Judd

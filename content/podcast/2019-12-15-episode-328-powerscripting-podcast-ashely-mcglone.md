@@ -11,7 +11,10 @@ aliases:
   - /2019/12/episode-328-powerscripting-podcast-ashely-mcglone/
 ---
 
-[vc_row][vc_column][vc_column_text] Listen: *Listen*   [/vc_column_text][vc_video link="https://youtu.be/iJXhZ5_D3VM" title="Watch:"][vc_column_text]
+**Watch:**
+
+{{< youtube iJXhZ5_D3VM >}}
+
 To Subscribe:
 
 Search for PowerScriping in your podcast app of choice or click here: [http://feeds.feedburner.com/Powerscripting](http://feeds.feedburner.com/Powerscripting)
@@ -57,7 +60,7 @@ https://twitter.com/jonwalz
 https://twitter.com/halr9000
 ][9] [
 https://twitter.com/ryanyates1990
-][10][/vc_column_text][/vc_column][/vc_row]
+][10]
 
  [1]: https://twitter.com/GoateePFE
  [2]: https://github.com/GoateePFE/PowerShellSummit2019

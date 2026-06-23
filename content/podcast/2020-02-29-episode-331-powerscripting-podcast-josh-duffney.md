@@ -11,12 +11,11 @@ aliases:
   - /2020/02/episode-331-powerscripting-podcast-josh-duffney/
 ---
 
-[vc_row][vc_column][vc_column_text] 
+**Watch:**
 
-Listen: *Listen*  [/vc_column_text][vc_video link="https://youtu.be/7EVJ6FYrndQ" title="Watch:"][vc_column_text] 
+{{< youtube 7EVJ6FYrndQ >}}
 
-
-  **To Subscribe:**
+**To Subscribe:**
 
 
 
@@ -96,5 +95,3 @@ http://feeds.feedburner.com/Powerscripting
 
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
-
- [/vc_column_text][/vc_column][/vc_row]

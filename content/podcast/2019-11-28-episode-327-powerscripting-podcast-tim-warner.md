@@ -11,11 +11,9 @@ aliases:
   - /2019/11/episode-327-powerscripting-podcast-tim-warner/
 ---
 
-[vc_row][vc_column][vc_column_text] 
+**Watch:**
 
-Listen:
-
-  *Listen*  [/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_video link="https://www.youtube.com/watch?v=8GXhVEBsnvI" title="Watch"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] 
+{{< youtube 8GXhVEBsnvI >}}
 
 **To Subscribe:**
 
@@ -79,6 +77,6 @@ YouTube: <https://www.youtube.com/user/PowerScriptingLive>
 
 <https://twitter.com/halr9000>
 
-<https://twitter.com/ryanyates1990> [/vc_column_text][/vc_column][/vc_row]
+<https://twitter.com/ryanyates1990>
 
  [1]: http://feeds.feedburner.com/Powerscripting

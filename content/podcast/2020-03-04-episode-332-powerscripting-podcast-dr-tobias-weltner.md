@@ -13,11 +13,12 @@ aliases:
   - /2020/03/episode-332-powerscripting-podcast-dr-tobias-weltner/
 ---
 
-[vc_row][vc_column][vc_column_text] 
+ 
 
-Listen: 
 
- [/vc_column_text][vc_video link="https://youtu.be/EKgZmKC_hwU" title="Watch:"][vc_column_text] 
+ **Watch:**
+
+{{< youtube EKgZmKC_hwU >}} 
 
 
 
@@ -109,4 +110,4 @@ Hosts:
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
 
- [/vc_column_text][/vc_column][/vc_row]
+ 
