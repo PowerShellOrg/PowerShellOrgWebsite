@@ -168,16 +168,24 @@
                 </a>
                 {{ end }}
 
+                {{ $currentPage := $paginator.PageNumber }}
+                {{ $totalPages := $paginator.TotalPages }}
+
                 {{ range $paginator.Pagers }}
-                {{ if eq . $paginator }}
-                <span class="px-3 py-2 bg-blue-600 text-white rounded-lg font-medium">
-                    {{ .PageNumber }}
-                </span>
-                {{ else }}
-                <a href="{{ .URL }}"
-                   class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">
-                    {{ .PageNumber }}
-                </a>
+                {{ $pageNumber := .PageNumber }}
+                {{ if or (le $pageNumber 2) (ge $pageNumber (sub $totalPages 1)) (and (ge $pageNumber (sub $currentPage 1)) (le $pageNumber (add $currentPage 1))) }}
+                    {{ if eq . $paginator }}
+                    <span class="px-3 py-2 bg-blue-600 text-white rounded-lg font-medium">
+                        {{ .PageNumber }}
+                    </span>
+                    {{ else }}
+                    <a href="{{ .URL }}"
+                       class="px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-200">
+                        {{ .PageNumber }}
+                    </a>
+                    {{ end }}
+                {{ else if or (eq $pageNumber 3) (eq $pageNumber (sub $totalPages 2)) }}
+                    <span class="px-2 py-2 text-gray-400">...</span>
                 {{ end }}
                 {{ end }}
 
