@@ -1,0 +1,38 @@
+name: Sync Podcast Episodes
+
+on:
+  schedule:
+    - cron: '0 12 * * 2'  # Tuesdays 12:00 UTC, after the Monday release
+  workflow_dispatch:
+
+# The cadence is load-bearing: it must stay well under the window in which an
+# episode could roll off the feed. See docs/adr/0003-incremental-podcast-sync.md.
+
+permissions:
+  contents: write
+
+jobs:
+  sync-podcast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install node-fetch
+
+      - name: Sync podcast feed
+        run: node .github/scripts/sync-podcast-feed.js
+
+      - name: Commit new episodes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content/podcast
+          git diff --staged --quiet || git commit -m "Sync new podcast episodes from feed"
+          git push

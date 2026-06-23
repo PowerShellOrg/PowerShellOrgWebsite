@@ -1,5 +1,32 @@
 # Podcast sync: incremental RSS tail + one-time backfill, not a feed-driven archive
 
+> **Update (2026-06-22) — the feed is not truncated to 10 items.** When the sync
+> was actually built, the live feed
+> (`feed.podbean.com/powershellpodcast/feed.xml`) returned the **complete archive
+> (234 items, all of The PowerShell Podcast)**, not the 10-item window assumed
+> below. This does not change the chosen design — the sync is **add-only** and
+> never reconciles or deletes, so a full pass over the feed is safe — but it has
+> three consequences:
+>
+> 1. **The one-time backfill (WS3) is subsumed by the first sync run.** Because
+>    the feed carries eps 221–234, the first run of the Action generated them
+>    directly; no separate YouTube/Podbean scrape was needed.
+> 2. **The idempotency key is the enclosure URL, not the episode number.** Every
+>    existing modern file carries the enclosure as `podcast_url`; none carried a
+>    `guid`. Matching is enclosure-URL → `guid` → `episode`, in that order.
+> 3. **`itunes:episode` is unreliable — it runs one ahead** of the repo's
+>    convention, which parses the episode number from the Podbean enclosure
+>    filename (`..._episode_NNN_...`). The sync derives `episode` from the
+>    filename to stay consistent with the existing 217 numbered files, using
+>    `itunes:episode` only to disambiguate the rare filename whose number has a
+>    glued-on suffix (`episode_2298xv9d`).
+>
+> The truncation-driven *cadence* concern below is now a safety margin rather than
+> a hard constraint: even a long outage would not lose episodes while the feed
+> carries the full archive. The cadence is still kept weekly so the section stays
+> fresh and the add-only diffs stay small. **The anti-reconcile rule still
+> stands** — the Action must never widen into a delete/reconcile pass.
+
 [[The PowerShell Podcast]] is kept in step with the repo from its Podbean RSS feed
 (`feed.podbean.com/powershellpodcast/feed.xml`). The non-obvious constraint that shapes
 the whole design: **the feed is truncated to the 10 most recent items.** It is a

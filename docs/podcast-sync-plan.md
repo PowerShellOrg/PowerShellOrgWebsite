@@ -36,11 +36,12 @@ Add to each modern episode:
   matched against the **YouTube playlist** by episode number / title. Missing ⇒
   no embed, template falls back to the icon.
 
-## Workstream 3 — Backfill eps 221–224 (one-time)
+## Workstream 3 — Backfill the gap (one-time) — _subsumed by WS4_
 
-These four sit **before** the current feed window and are gone from RSS. Recover
-them from the **YouTube playlist / Podbean website** (title, date, description,
-audio URL, youtube id) and generate episode files in the same format.
+Originally scoped as a YouTube/Podbean scrape of episodes that had rolled off the
+10-item feed window. **Not needed:** the live feed turned out to carry the full
+archive (see ADR 0003 update), so the first WS4 run generated the entire gap
+(eps 221–234) directly. No scrape was performed.
 
 ## Workstream 4 — Ongoing RSS sync (automated)
 
@@ -49,14 +50,24 @@ audio URL, youtube id) and generate episode files in the same format.
 - **Trigger:** scheduled GitHub Action (weekly, Tuesday — after the Monday
   release), `workflow_dispatch` enabled. **Auto-commits to the branch**; Netlify
   rebuilds on push. Must run at least every ~10 weeks or feed items roll off.
+- **Implemented:** `.github/scripts/sync-podcast-feed.js` (add-only) +
+  `.github/workflows/podcast-sync.yml` (weekly Tuesday, `workflow_dispatch`,
+  auto-commit). Run `node .github/scripts/sync-podcast-feed.js --dry-run` to
+  preview.
 - **Per feed item:**
-  1. Match existing files by `guid`, else by `episode` number → skip if present.
+  1. Match existing files by **enclosure URL**, else `guid`, else `episode`
+     number → skip if present. (All existing files carry `podcast_url`; none
+     carried `guid`, so the enclosure URL is the universal key.)
   2. Filename `YYYY-MM-DD-<slug>.md`, date from `pubDate`, `aliases:
      /YYYY/MM/<slug>/` (matches migrated convention).
   3. `author: Andrew Pla`; guests extracted **conservatively** (high-confidence
-     only, never remove) — port the logic from `scripts/update-podcast-authors.py`.
-  4. `podcast_url` = enclosure; `episode` = `itunes:episode`; `guid`;
-     `youtube` = `youtu.be` id from the notes; `duration` from `itunes:duration`.
+     only, never remove) — bio-section + `with <Name>` title patterns ported from
+     `scripts/update-podcast-authors.py`.
+  4. `podcast_url` = enclosure; `episode` = number **parsed from the enclosure
+     filename** (the repo convention — `itunes:episode` runs one ahead, see ADR
+     0003); `guid`; `youtube` = `youtu.be` id from the notes. `duration` was
+     **omitted** to keep the synced frontmatter identical to the existing files
+     (no episode currently carries it).
   5. Body: `content:encoded` HTML → markdown, **strip recurring boilerplate**
      (Andrew's links, PDQ Discord, Summit promo, redundant YouTube line) via a
      maintained strip-list; keep episode-specific resource links.
