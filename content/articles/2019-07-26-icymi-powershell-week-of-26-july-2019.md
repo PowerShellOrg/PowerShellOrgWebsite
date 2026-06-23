@@ -7,6 +7,10 @@ date: "2019-07-26T15:00:09+00:00"
 categories:
   - PowerShell for Admins
   - Tips and Tricks
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2019/07/icymi-powershell-week-of-26-july-2019/

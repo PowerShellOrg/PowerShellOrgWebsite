@@ -7,6 +7,10 @@ date: "2020-01-03T16:10:53+00:00"
 categories:
   - PowerShell for Admins
   - PowerShell for Developers
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2020/01/icymi-powershell-week-of-03-january-2020/

@@ -6,6 +6,10 @@ authors:
 date: "2019-09-06T15:00:20+00:00"
 categories:
   - PowerShell for Admins
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2019/09/icymi-powershell-week-of-6-september-2019/
