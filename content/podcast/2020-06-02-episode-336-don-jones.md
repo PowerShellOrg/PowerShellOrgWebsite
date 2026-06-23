@@ -7,7 +7,7 @@ authors:
 date: "2020-06-02T03:56:30+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-336.mp3"
 aliases:
   - /2020/06/episode-336-don-jones/

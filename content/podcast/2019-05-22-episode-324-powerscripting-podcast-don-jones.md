@@ -5,7 +5,7 @@ authors:
   - Jonathan Walz
   - Don Jones
 date: "2019-05-22T02:12:47+00:00"
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-324.mp3"
 aliases:
   - /2019/05/episode-324-powerscripting-podcast-don-jones/

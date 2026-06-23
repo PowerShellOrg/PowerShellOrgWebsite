@@ -8,7 +8,7 @@ categories:
   - Announcements
   - Events
   - PowerShell Summit
-featured_image: /wp-content/uploads/2021/05/AutoMation-Summit-No-Citydefault.png
+legacy_featured_image: /wp-content/uploads/2021/05/AutoMation-Summit-No-Citydefault.png
 aliases:
   - /2021/09/automation-summit-going-virtual-and-new-date/
 ---

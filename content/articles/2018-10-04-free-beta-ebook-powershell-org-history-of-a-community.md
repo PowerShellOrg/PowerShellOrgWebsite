@@ -6,7 +6,7 @@ authors:
 date: "2018-10-04T14:45:03+00:00"
 categories:
   - Books
-featured_image: /wp-content/uploads/2018/10/cover-small.png
+legacy_featured_image: /wp-content/uploads/2018/10/cover-small.png
 aliases:
   - /2018/10/free-beta-ebook-powershell-org-history-of-a-community/
 ---

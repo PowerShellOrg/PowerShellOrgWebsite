@@ -6,7 +6,7 @@ authors:
 date: "2018-08-07T11:26:09+00:00"
 categories:
   - Announcements
-featured_image: /wp-content/uploads/2018/08/Screen-Shot-2018-08-07-at-11.03.21-AM.png
+legacy_featured_image: /wp-content/uploads/2018/08/Screen-Shot-2018-08-07-at-11.03.21-AM.png
 aliases:
   - /2018/08/welcome-to-the-new-powershell-org/
 ---

@@ -8,7 +8,7 @@ categories:
   - Events
   - PowerShell for Admins
   - PowerShell Summit
-featured_image: /wp-content/uploads/2018/02/docs.jpg
+legacy_featured_image: /wp-content/uploads/2018/02/docs.jpg
 aliases:
   - /2019/03/2019-community-lightning-demos/
 ---

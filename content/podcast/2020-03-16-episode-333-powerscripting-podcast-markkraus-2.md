@@ -7,7 +7,7 @@ authors:
 date: "2020-03-16T02:12:07+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-333.mp3"
 aliases:
   - /2020/03/episode-333-powerscripting-podcast-markkraus-2/

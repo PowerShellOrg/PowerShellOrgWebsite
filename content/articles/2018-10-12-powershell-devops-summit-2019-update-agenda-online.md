@@ -6,7 +6,7 @@ authors:
 date: "2018-10-12T10:01:47+00:00"
 categories:
   - PowerShell Summit
-featured_image: /wp-content/uploads/2018/08/Full-Logo-No-year.png
+legacy_featured_image: /wp-content/uploads/2018/08/Full-Logo-No-year.png
 aliases:
   - /2018/10/powershell-devops-summit-2019-update-agenda-online/
 ---

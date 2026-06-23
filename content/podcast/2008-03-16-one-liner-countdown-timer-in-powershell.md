@@ -4,7 +4,7 @@ author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-16T19:36:45+00:00"
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 aliases:
   - /2008/03/one-liner-countdown-timer-in-powershell/
 ---

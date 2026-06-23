@@ -6,7 +6,7 @@ authors:
 date: "2018-08-14T16:16:15+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/08/shutterstock_703607812.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_703607812.jpg
 aliases:
   - /2018/08/the-summit-2019-call-for-topics-some-ideas/
 ---

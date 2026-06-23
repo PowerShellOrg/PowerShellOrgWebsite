@@ -10,7 +10,7 @@ categories:
   - PowerShell for Admins
   - PowerShell for Developers
   - PowerShell Summit
-featured_image: /wp-content/uploads/2019/09/docs.jpg
+legacy_featured_image: /wp-content/uploads/2019/09/docs.jpg
 aliases:
   - /2019/09/last-call-for-summit-2020-cfp/
 ---

@@ -6,7 +6,7 @@ authors:
 date: "2018-10-29T14:37:27+00:00"
 categories:
   - Announcements
-featured_image: /wp-content/uploads/2018/10/website-featured-image-for-announcements.png
+legacy_featured_image: /wp-content/uploads/2018/10/website-featured-image-for-announcements.png
 aliases:
   - /2018/10/the-new-powershell-org-logo-and-ebooks-and-swag/
 ---

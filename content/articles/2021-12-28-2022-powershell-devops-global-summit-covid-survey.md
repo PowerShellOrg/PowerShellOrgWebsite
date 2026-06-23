@@ -6,7 +6,7 @@ authors:
 date: "2021-12-28T21:46:10+00:00"
 categories:
   - Events
-featured_image: /wp-content/uploads/2021/10/Summit_2021_Long_Date@2x.png
+legacy_featured_image: /wp-content/uploads/2021/10/Summit_2021_Long_Date@2x.png
 aliases:
   - /2021/12/2022-powershell-devops-global-summit-covid-survey/
 ---

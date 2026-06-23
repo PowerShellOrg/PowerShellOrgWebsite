@@ -7,7 +7,7 @@ date: "2019-11-29T16:15:02+00:00"
 categories:
   - PowerShell for Admins
   - PowerShell for Developers
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2019/11/icymi-powershell-week-of-29-november-2019/
 ---

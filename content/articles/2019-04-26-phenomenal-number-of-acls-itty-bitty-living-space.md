@@ -7,7 +7,7 @@ date: "2019-04-26T16:19:53+00:00"
 categories:
   - PowerShell for Admins
   - Tips and Tricks
-featured_image: /wp-content/uploads/2019/04/itty-bitty_living_space.png
+legacy_featured_image: /wp-content/uploads/2019/04/itty-bitty_living_space.png
 aliases:
   - /2019/04/phenomenal-number-of-acls-itty-bitty-living-space/
 ---

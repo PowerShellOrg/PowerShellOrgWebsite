@@ -6,7 +6,7 @@ authors:
 date: "2019-07-01T13:55:37+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/10/PowerShell-Summit-2018.png
+legacy_featured_image: /wp-content/uploads/2018/10/PowerShell-Summit-2018.png
 aliases:
   - /2019/07/a-farewell-and-a-bunch-of-hellos/
 ---

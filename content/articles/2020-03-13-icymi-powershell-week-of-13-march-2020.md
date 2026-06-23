@@ -7,7 +7,7 @@ date: "2020-03-13T15:21:49+00:00"
 categories:
   - PowerShell for Admins
   - PowerShell for Developers
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2020/03/icymi-powershell-week-of-13-march-2020/
 ---

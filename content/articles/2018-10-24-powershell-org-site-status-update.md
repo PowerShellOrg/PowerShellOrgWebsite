@@ -6,7 +6,7 @@ authors:
 date: "2018-10-24T17:45:55+00:00"
 categories:
   - Announcements
-featured_image: /wp-content/uploads/2018/10/shutterstock_144607415.jpg
+legacy_featured_image: /wp-content/uploads/2018/10/shutterstock_144607415.jpg
 aliases:
   - /2018/10/powershell-org-site-status-update/
 ---

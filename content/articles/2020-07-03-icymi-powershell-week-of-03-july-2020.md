@@ -6,7 +6,7 @@ authors:
 date: "2020-07-03T14:00:34+00:00"
 categories:
   - In Case You Missed It
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2020/07/icymi-powershell-week-of-03-july-2020/
 ---

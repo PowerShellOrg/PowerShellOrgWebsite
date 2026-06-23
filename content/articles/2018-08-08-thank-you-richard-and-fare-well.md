@@ -7,7 +7,7 @@ date: "2018-08-08T15:35:03+00:00"
 categories:
   - Announcements
   - PowerShell Summit
-featured_image: /wp-content/uploads/2018/08/hqdefault.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/hqdefault.jpg
 aliases:
   - /2018/08/thank-you-richard-and-fare-well/
 ---

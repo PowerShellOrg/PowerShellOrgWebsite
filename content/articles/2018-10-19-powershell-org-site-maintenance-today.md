@@ -6,7 +6,7 @@ authors:
 date: "2018-10-19T14:27:59+00:00"
 categories:
   - Announcements
-featured_image: /wp-content/uploads/2018/08/shutterstock_703607812.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_703607812.jpg
 aliases:
   - /2018/10/powershell-org-site-maintenance-today/
 ---

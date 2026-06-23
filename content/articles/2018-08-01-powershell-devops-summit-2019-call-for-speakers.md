@@ -6,7 +6,7 @@ authors:
 date: "2018-08-01T15:08:52+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/08/Screen-Shot-2018-08-07-at-11.04.13-AM.png
+legacy_featured_image: /wp-content/uploads/2018/08/Screen-Shot-2018-08-07-at-11.04.13-AM.png
 aliases:
   - /2018/08/powershell-devops-summit-2019-call-for-speakers/
 ---

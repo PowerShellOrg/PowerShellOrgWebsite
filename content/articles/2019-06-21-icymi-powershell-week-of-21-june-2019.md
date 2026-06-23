@@ -6,7 +6,7 @@ authors:
 date: "2019-06-21T14:00:46+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2019/06/icymi-powershell-week-of-21-june-2019/
 ---

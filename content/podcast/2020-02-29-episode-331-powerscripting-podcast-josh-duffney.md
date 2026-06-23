@@ -5,7 +5,7 @@ authors:
   - Jonathan Walz
   - Josh Duffney
 date: "2020-02-29T19:55:54+00:00"
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-331.mp3"
 aliases:
   - /2020/02/episode-331-powerscripting-podcast-josh-duffney/

@@ -8,7 +8,7 @@ categories:
   - Announcements
   - DevOps
   - Events
-featured_image: /wp-content/uploads/2022/11/Summit_Long_NoYeardefault-e1669819303622.png
+legacy_featured_image: /wp-content/uploads/2022/11/Summit_Long_NoYeardefault-e1669819303622.png
 aliases:
   - /2023/11/onramp2024-program-unveiled/
 ---

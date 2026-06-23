@@ -9,7 +9,7 @@ categories:
   - PowerShell for Admins
   - PowerShell for Developers
   - Tips and Tricks
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2021/04/icymi-powershell-week-of-02-april-2021/
 ---

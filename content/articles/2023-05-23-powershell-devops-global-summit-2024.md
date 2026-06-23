@@ -8,7 +8,7 @@ categories:
   - Announcements
   - Events
   - PowerShell Summit
-featured_image: /wp-content/uploads/2023/05/2AE737C6-868E-44BD-8A15-97A587C7E8A7.jpg
+legacy_featured_image: /wp-content/uploads/2023/05/2AE737C6-868E-44BD-8A15-97A587C7E8A7.jpg
 aliases:
   - /2023/05/powershell-devops-global-summit-2024/
 ---

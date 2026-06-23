@@ -6,7 +6,7 @@ authors:
 date: "2018-12-12T15:40:16+00:00"
 categories:
   - PowerShell Summit
-featured_image: /wp-content/uploads/2018/10/PowerShell-Summit-2018.png
+legacy_featured_image: /wp-content/uploads/2018/10/PowerShell-Summit-2018.png
 aliases:
   - /2018/12/welcome-new-and-returning-pshsummit-summiteers/
 ---

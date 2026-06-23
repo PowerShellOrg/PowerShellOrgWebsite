@@ -5,7 +5,7 @@ authors:
   - Jonathan Walz
   - Todd Klindt
 date: "2019-05-22T02:28:35+00:00"
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-325.mp3"
 aliases:
   - /2019/05/episode-325-powerscripting-podcast-todd-klindt/

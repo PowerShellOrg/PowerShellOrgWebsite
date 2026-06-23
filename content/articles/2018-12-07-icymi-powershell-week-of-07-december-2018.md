@@ -6,7 +6,7 @@ authors:
 date: "2018-12-07T16:00:05+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2018/12/icymi-powershell-week-of-07-december-2018/
 ---

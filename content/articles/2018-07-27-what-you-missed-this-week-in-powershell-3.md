@@ -6,7 +6,7 @@ authors:
 date: "2018-07-27T15:00:19+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2018/08/featured-calendar.png
+legacy_featured_image: /wp-content/uploads/2018/08/featured-calendar.png
 aliases:
   - /2018/07/what-you-missed-this-week-in-powershell-3/
 ---

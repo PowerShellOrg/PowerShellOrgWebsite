@@ -7,7 +7,7 @@ authors:
 date: "2020-07-11T01:27:04+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-337.mp3"
 aliases:
   - /2020/07/episode-337-powerscripting-podcast-stephen-valdingerf/

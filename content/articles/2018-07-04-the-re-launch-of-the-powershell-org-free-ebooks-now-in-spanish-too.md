@@ -6,7 +6,7 @@ authors:
 date: "2018-07-04T18:31:49+00:00"
 categories:
   - Books
-featured_image: /wp-content/uploads/2018/07/Screen-Shot-2018-08-07-at-11.02.02-AM.png
+legacy_featured_image: /wp-content/uploads/2018/07/Screen-Shot-2018-08-07-at-11.02.02-AM.png
 aliases:
   - /2018/07/the-re-launch-of-the-powershell-org-free-ebooks-now-in-spanish-too/
 ---

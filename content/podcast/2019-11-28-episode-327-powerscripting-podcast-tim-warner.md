@@ -5,7 +5,7 @@ authors:
   - Jonathan Walz
   - Timothy Warner
 date: "2019-11-28T21:01:35+00:00"
-featured_image: /wp-content/uploads/2015/09/psp-banner.png
+legacy_featured_image: /wp-content/uploads/2015/09/psp-banner.png
 podcast_url: "http://traffic.libsyn.com/powerscripting/PSPodcast-327.mp3"
 aliases:
   - /2019/11/episode-327-powerscripting-podcast-tim-warner/

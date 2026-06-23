@@ -4,7 +4,7 @@ author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-02-04T02:19:56+00:00"
-featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
+legacy_featured_image: /wp-content/uploads/2019/03/psp-banner2-1.png
 podcast_url: "http://media.libsyn.com/media/powerscripting/PSPodcast-018.mp3"
 aliases:
   - /2008/02/powerscripting-podcast-episode-18-win-fabulous-prizes/

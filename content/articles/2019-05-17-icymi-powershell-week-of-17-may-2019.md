@@ -7,7 +7,7 @@ date: "2019-05-17T15:00:32+00:00"
 categories:
   - PowerShell for Admins
   - Tips and Tricks
-featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2019/05/icymi-powershell-week-of-17-may-2019/
 ---

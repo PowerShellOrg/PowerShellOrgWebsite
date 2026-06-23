@@ -6,7 +6,7 @@ authors:
 date: "2019-08-30T17:09:21+00:00"
 categories:
   - PowerShell for Admins
-featured_image: /wp-content/uploads/2019/08/LegionImageShadowling.png
+legacy_featured_image: /wp-content/uploads/2019/08/LegionImageShadowling.png
 aliases:
   - /2019/08/a-better-way-to-search-events/
 ---
