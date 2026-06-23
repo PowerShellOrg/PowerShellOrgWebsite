@@ -8,6 +8,10 @@ categories:
   - In Case You Missed It
   - PowerShell for Admins
   - PowerShell for Developers
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2021/06/icymi-powershell-week-of-11-june-2021/

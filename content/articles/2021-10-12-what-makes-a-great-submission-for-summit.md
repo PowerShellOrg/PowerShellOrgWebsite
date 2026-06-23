@@ -6,6 +6,9 @@ authors:
 date: "2021-10-12T14:26:25+00:00"
 categories:
   - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Call for Speakers
 legacy_featured_image: /wp-content/uploads/2021/10/SummitLong.png
 aliases:
   - /2021/10/what-makes-a-great-submission-for-summit/

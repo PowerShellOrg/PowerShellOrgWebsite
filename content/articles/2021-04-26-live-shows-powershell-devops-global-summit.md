@@ -6,6 +6,9 @@ authors:
 date: "2021-04-26T19:11:09+00:00"
 categories:
   - Announcements
+tags:
+  - PowerShell Summit
+  - Community
 aliases:
   - /2021/04/live-shows-powershell-devops-global-summit/
 ---

@@ -9,6 +9,9 @@ categories:
   - Events
   - News
   - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Call for Speakers
 legacy_featured_image: /wp-content/uploads/2020/11/Asset-4@1x.png
 aliases:
   - /2020/12/pshsummit2021-call-for-speakers/

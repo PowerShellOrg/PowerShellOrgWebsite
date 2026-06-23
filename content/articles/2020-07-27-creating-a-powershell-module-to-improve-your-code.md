@@ -8,6 +8,10 @@ categories:
   - PowerShell for Admins
   - Tips and Tricks
   - Tutorials
+tags:
+  - Modules
+  - SQL
+  - Best Practices
 aliases:
   - /2020/07/creating-a-powershell-module-to-improve-your-code/
 ---

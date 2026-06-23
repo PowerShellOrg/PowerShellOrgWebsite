@@ -6,6 +6,11 @@ authors:
 date: "2020-11-05T18:53:35+00:00"
 categories:
   - PowerShell for Admins
+tags:
+  - Functions
+  - Modules
+  - Comment-Based Help
+  - Best Practices
 aliases:
   - /2020/11/writing-your-own-powershell-functions-cmdlets/
 ---

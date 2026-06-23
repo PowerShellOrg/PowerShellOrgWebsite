@@ -6,6 +6,10 @@ authors:
 date: "2021-01-29T15:58:18+00:00"
 categories:
   - In Case You Missed It
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 aliases:
   - /2021/01/icymi-powershell-week-of-29-january-2021/
 ---

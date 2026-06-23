@@ -7,6 +7,9 @@ date: "2023-09-15T16:42:26+00:00"
 categories:
   - DevOps
   - PowerShell for Admins
+tags:
+  - Fun
+  - Projects
 aliases:
   - /2023/09/powershell-escape-room/
 ---

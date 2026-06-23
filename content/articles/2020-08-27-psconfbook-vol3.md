@@ -8,6 +8,9 @@ categories:
   - Announcements
   - Books
   - News
+tags:
+  - Books
+  - Community
 aliases:
   - /2020/08/psconfbook-vol3/
 ---

@@ -4,6 +4,11 @@ author: James Petty
 authors:
   - James Petty
 date: "2021-03-02T22:20:17+00:00"
+categories:
+  - Announcements
+tags:
+  - Community
+  - Website
 aliases:
   - /2021/03/website-forum-updates/
 ---

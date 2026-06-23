@@ -4,6 +4,11 @@ author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2024-03-08T18:11:49+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Speaker Spotlight
 legacy_featured_image: /wp-content/uploads/2024/03/Medenbauer-Resize.png
 aliases:
   - /2024/03/summit2024-spotlight-steven-judd/

@@ -8,6 +8,9 @@ categories:
   - Announcements
   - Events
   - PowerShell Summit
+tags:
+  - PowerShell Summit
+  - Lightning Demos
 aliases:
   - /2021/03/last-call-for-summit-lightning-demos/
 ---

@@ -6,6 +6,10 @@ authors:
 date: "2020-10-16T15:13:33+00:00"
 categories:
   - In Case You Missed It
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2020/10/icymi-powershell-week-of-16-october-2020/

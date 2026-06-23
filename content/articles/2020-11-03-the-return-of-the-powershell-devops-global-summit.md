@@ -9,6 +9,8 @@ categories:
   - DevOps
   - PowerShell for Admins
   - PowerShell Summit
+tags:
+  - PowerShell Summit
 legacy_featured_image: /wp-content/uploads/2020/11/Asset-4@1x.png
 aliases:
   - /2020/11/the-return-of-the-powershell-devops-global-summit/

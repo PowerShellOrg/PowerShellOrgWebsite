@@ -6,6 +6,10 @@ authors:
 date: "2021-03-26T14:00:00+00:00"
 categories:
   - In Case You Missed It
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
 legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
 aliases:
   - /2021/03/icymi-powershell-week-of-26-march-2021/

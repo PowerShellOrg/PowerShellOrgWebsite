@@ -7,6 +7,9 @@ date: "2021-07-08T15:57:09+00:00"
 categories:
   - PowerShell for Admins
   - Tips and Tricks
+tags:
+  - User Groups
+  - Community
 aliases:
   - /2021/07/so-you-want-to-start-a-user-group/
 ---

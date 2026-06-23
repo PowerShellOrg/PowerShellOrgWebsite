@@ -4,6 +4,12 @@ author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:44+00:00"
+categories:
+  - Tutorials
+tags:
+  - Beginner
+  - Loops
+  - Tutorial
 aliases:
   - /2022/07/learn-powershell-in-5-painless-steps-loops-foreach-for-while-step-4/
 ---

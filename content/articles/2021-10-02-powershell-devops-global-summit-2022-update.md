@@ -4,6 +4,10 @@ author: James Petty
 authors:
   - James Petty
 date: "2021-10-02T15:45:17+00:00"
+categories:
+  - PowerShell Summit
+tags:
+  - PowerShell Summit
 aliases:
   - /2021/10/powershell-devops-global-summit-2022-update/
 ---
