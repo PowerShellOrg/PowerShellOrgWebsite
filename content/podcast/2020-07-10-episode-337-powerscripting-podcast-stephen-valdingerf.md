@@ -13,13 +13,14 @@ aliases:
   - /2020/07/episode-337-powerscripting-podcast-stephen-valdingerf/
 ---
 
-[vc_row][vc_column][vc_column_text] 
-
-Listen:
+ 
 
 
 
-  [/vc_column_text][vc_video link="https://www.youtube.com/watch?v=Mq_UQgSNS-E" title="Watch:"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] 
+
+  **Watch:**
+
+{{< youtube Mq_UQgSNS-E >}} 
 
 
 
@@ -144,4 +145,4 @@ Hosts:
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
 
- [/vc_column_text][/vc_column][/vc_row]
+ 

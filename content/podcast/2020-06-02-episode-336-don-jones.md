@@ -13,13 +13,14 @@ aliases:
   - /2020/06/episode-336-don-jones/
 ---
 
-[vc_row][vc_column][vc_column_text] 
-
-Listen:
+ 
 
 
 
-  [/vc_column_text][vc_video link="https://www.youtube.com/watch?v=SHmx64IJe3o" title="Watch:"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] 
+
+  **Watch:**
+
+{{< youtube SHmx64IJe3o >}} 
 
 
 
@@ -145,4 +146,4 @@ Hosts:
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
 
- [/vc_column_text][/vc_column][/vc_row]
+ 

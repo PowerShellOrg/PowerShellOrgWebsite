@@ -14,7 +14,6 @@ aliases:
   - /2020/11/the-return-of-the-powershell-devops-global-summit/
 ---
 
-[vc_row][vc_column][vc_column_text]
 The DevOps Collective INC is pleased to announce the return of the PowerShell + DevOps Global Summit in April of 2021.
 
 The 2021 event will be a little bit different than those in years past, as this event will be all virtual, hosted in late April 2021. We assure you that this will not be another multi-day webinar! We will do our best to make sure you have the best experience possible.  
@@ -36,7 +35,5 @@ What does that mean for presenters?
   * Below are a few examples of the quality of recordings that are required. We are looking at possible speaker compensations as well. More details to come in the formal CFP announcement. 
       * <https://www.youtube.com/watch?v=z1butyGVxR8>
       * <https://youtu.be/y8SxQokIwiI>
-
-[/vc_column_text][/vc_column][/vc_row]
 
  [1]: https://twitter.com/pshsummit

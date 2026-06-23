@@ -13,11 +13,10 @@ aliases:
   - /2020/02/episode-330-powerscripting-podcast-mvp-adam-driscoll/
 ---
 
-[vc_row][vc_column][vc_column_text] 
 
-Listen: *Listen*  
+ **Watch:**
 
- [/vc_column_text][vc_video link="https://youtu.be/Q2v4_vtIs8c"][vc_column_text] 
+{{< youtube Q2v4_vtIs8c >}} 
 
 
   **To Subscribe:**
@@ -121,5 +120,3 @@ http://feeds.feedburner.com/Powerscripting
 
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
-
- [/vc_column_text][/vc_column][/vc_row]

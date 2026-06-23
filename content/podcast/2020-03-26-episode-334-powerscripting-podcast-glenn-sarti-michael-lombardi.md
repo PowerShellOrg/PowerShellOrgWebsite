@@ -14,11 +14,12 @@ aliases:
   - /2020/03/episode-334-powerscripting-podcast-glenn-sarti-michael-lombardi/
 ---
 
-[vc_row][vc_column][vc_column_text] 
+ 
 
-Listen:
 
-  [/vc_column_text][vc_video link="https://youtu.be/Xirv6WQFmSs" title="Watch:"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] 
+  **Watch:**
+
+{{< youtube Xirv6WQFmSs >}} 
 
 **To Subscribe:**
 
@@ -90,7 +91,7 @@ YouTube: <https://www.youtube.com/user/PowerScriptingLive>
 
 <https://twitter.com/halr9000>
 
-<https://twitter.com/ryanyates1990> [/vc_column_text][/vc_column][/vc_row]
+<https://twitter.com/ryanyates1990>
 
  [1]: http://feeds.feedburner.com/Powerscripting
  [2]: https://forms.office.com/Pages/ResponsePage.aspx?id=PK6uII7nskS5mrcf2ClWyYljzjy4NN1JgWSZCWOiImRURVhNMEw2MVJUUkVDU1FMQ0VZUDVHUDlCQS4u

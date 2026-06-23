@@ -13,13 +13,14 @@ aliases:
   - /2020/04/episode-335-powerscripting-podcast-mike-kanakos-and-guest-host-adil-leghari/
 ---
 
-[vc_row][vc_column][vc_column_text] 
-
-Listen:
+ 
 
 
 
-  [/vc_column_text][vc_video link="https://youtu.be/8q9C5rlST8c" title="Watch:"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] 
+
+  **Watch:**
+
+{{< youtube 8q9C5rlST8c >}} 
 
 
 
@@ -145,4 +146,4 @@ Hosts:
 
   [https://twitter.com/ryanyates1990](https://twitter.com/ryanyates1990)
 
- [/vc_column_text][/vc_column][/vc_row]
+ 
