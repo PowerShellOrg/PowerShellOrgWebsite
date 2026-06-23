@@ -100,7 +100,7 @@
                                 {{ .Title }}
                             </a>
                         </h2>
-                        <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
+                        <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary | plainify | truncate 300 }}</p>
                         <div class="flex flex-wrap items-center gap-4">
                             <a href="{{ .RelPermalink }}"
                                class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200">
@@ -133,7 +133,7 @@
                                 {{ .Title }}
                             </a>
                         </h2>
-                        <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary }}</p>
+                        <p class="text-gray-600 mb-4 line-clamp-3">{{ .Summary | plainify | truncate 300 }}</p>
                         <div class="flex flex-wrap items-center gap-4">
                             <a href="{{ .RelPermalink }}"
                                class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200">
