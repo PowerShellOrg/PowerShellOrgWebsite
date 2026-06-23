@@ -99,6 +99,27 @@
         </div>
         {{ end }}
 
+        <!-- YouTube embed (click-to-load facade) -->
+        {{ if and (eq .Section "podcast") .Params.youtube }}
+        {{ with .Params.youtube }}
+        <div class="mb-8">
+            <div id="yt-facade" data-id="{{ . }}"
+                 role="button" tabindex="0" aria-label="Play video on YouTube"
+                 class="relative aspect-video rounded-xl overflow-hidden cursor-pointer group bg-black">
+                <img src="https://img.youtube.com/vi/{{ . }}/maxresdefault.jpg"
+                     onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ . }}/hqdefault.jpg';"
+                     alt="Watch this episode on YouTube" loading="lazy"
+                     class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors duration-200">
+                    <div class="w-20 h-20 bg-red-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-200">
+                        <i class="fas fa-play text-white text-3xl ml-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+
         <!-- Article Content -->
         <div class="prose" style="max-width: none; font-size: 1.125rem;">
             {{ .Content }}
@@ -197,5 +218,26 @@
             }
         });
     });
+
+    // Click-to-load YouTube embed facade (avoids eager iframe load)
+    (function () {
+        const facade = document.getElementById('yt-facade');
+        if (!facade) return;
+        function loadEmbed() {
+            const id = facade.dataset.id;
+            const iframe = document.createElement('iframe');
+            iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+            iframe.title = 'YouTube video player';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.allowFullscreen = true;
+            iframe.className = 'absolute inset-0 w-full h-full';
+            facade.innerHTML = '';
+            facade.appendChild(iframe);
+        }
+        facade.addEventListener('click', loadEmbed);
+        facade.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadEmbed(); }
+        });
+    })();
 </script>
 {{ end }}
