@@ -88,6 +88,12 @@
            terminal chrome renders flush; Prism handles token colors. */
         .ps-terminal pre { background: transparent; color: #ccc; margin: 0; border-radius: 0; padding: 1.25rem; overflow-x: auto; }
 
+        /* Hugo/Chroma highlighted blocks (.highlight) carry their own light
+           background; trim the heavier .prose pre padding/margins so they don't
+           read as a wall of whitespace. */
+        .prose .highlight { margin: 1.25rem 0; border-radius: 0.5rem; overflow: hidden; }
+        .prose .highlight pre { margin: 0; padding: 0.85rem 1rem; border-radius: 0; line-height: 1.5; }
+
         .hero-pattern {
             background: linear-gradient(135deg, #0078D4 0%, #00BCF2 100%);
             position: relative;

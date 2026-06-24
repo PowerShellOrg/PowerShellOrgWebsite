@@ -1,16 +1,17 @@
 ---
-title: "How to Write for PowerShell.org"
-description: "Two ways to submit an article to PowerShell.org, best practices that get you published faster, and why claiming an author page is worth five minutes of your time."
+title: How to Write for PowerShell.org
+description: Two ways to submit an article to PowerShell.org, best practices that get you published faster, and why claiming an author page is worth five minutes of your time.
 author: Gilbert Sanchez
 authors:
   - Gilbert Sanchez
-date: "2026-06-23T00:00:00+00:00"
+date: 2026-06-23T00:00:00+00:00
 categories:
   - Tutorials
 tags:
   - contributing
   - community
   - writing
+fmContentType: article
 ---
 
 There's a thought that stops a lot of good articles: *who am I to write for
@@ -98,15 +99,14 @@ flow through the same review.
 
 4. Open a pull request with a short description, and we'll review it there.
 
-> [!TIP]
-> Let VS Code do the boring part. Install the [Front Matter
-> CMS](https://frontmatter.codes/) extension, open the repo, and run **"Create
-> content"** in the `content/articles` folder. It scaffolds the
-> `YYYY-MM-DD-slug.md` filename and every front-matter field for you, and it
-> gives you a form for the title, description, category, and tags instead of a
-> wall of YAML you can typo. It turns the single most error-prone step into a
-> fill-in-the-blanks. If you only adopt one tool from this article, make it this
-> one.
+> [!TIP] Let VS Code do the boring part!
+> Install the [Front Matter CMS](https://frontmatter.codes/) extension, open the
+> repo, and run **"Create content"** in the `content/articles` folder. It
+> scaffolds the `YYYY-MM-DD-slug.md` filename and every front-matter field for
+> you, and it gives you a form for the title, description, category, and tags
+> instead of a wall of YAML you can typo. It turns the single most error-prone
+> step into a fill-in-the-blanks. If you only adopt one tool from this article,
+> make it this one.
 
 ## Best practices that get you published faster
 
@@ -162,9 +162,9 @@ rule that trips people up: the `<slug>` has to match your byline exactly
 
 So let the helper script handle it:
 
-```powershell
+{{< terminal lang="powershell" >}}
 ./tools/new-author.ps1 "Jane Doe"
-```
+{{< /terminal >}}
 
 That scaffolds `content/authors/jane-doe/_index.md` with every field commented.
 Fill in what you want, delete the rest:
@@ -188,14 +188,14 @@ putting your email address in a public repo. Store the MD5 hash of your
 lowercased email as `gravatar_hash`, and Gravatar serves your picture while your
 email stays private:
 
-```powershell
+{{< terminal lang="powershell" >}}
 $email = "jane@example.com"
 [System.BitConverter]::ToString(
   [System.Security.Cryptography.MD5]::Create().ComputeHash(
     [System.Text.Encoding]::UTF8.GetBytes($email.Trim().ToLowerInvariant())
   )
 ).Replace("-", "").ToLowerInvariant()
-```
+{{< /terminal >}}
 
 And if your name ever changes, `./tools/new-author.ps1 "Old Name" -To "New Name"`
 rewrites your byline across every article and adds a redirect so your old

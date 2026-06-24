@@ -260,29 +260,72 @@
     {
       "title": "Articles",
       "path": "[[workspace]]/content/articles",
-      "contentTypes": ["article"],
+      "contentTypes": [
+        "article"
+      ],
       "filePrefix": "{{year}}-{{month}}-{{day}}"
     },
     {
       "title": "Podcast",
       "path": "[[workspace]]/content/podcast",
-      "contentTypes": ["podcast"],
+      "contentTypes": [
+        "podcast"
+      ],
       "filePrefix": "{{year}}-{{month}}-{{day}}"
     },
     {
       "title": "Events",
       "path": "[[workspace]]/content/calendar",
-      "contentTypes": ["event"]
+      "contentTypes": [
+        "event"
+      ]
     },
     {
       "title": "Authors",
       "path": "[[workspace]]/content/authors",
-      "contentTypes": ["author"]
+      "contentTypes": [
+        "author"
+      ]
     },
     {
       "title": "Pages",
       "path": "[[workspace]]/content",
-      "contentTypes": ["page"]
+      "contentTypes": [
+        "page"
+      ]
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Terminal": {
+      "description": "Show your terminal commands in a nice terminal window.",
+      "body": [
+        "{{< terminal title=\"[[filename]]\" lang=\"[[language]]\" >}}",
+        "[[selection]]",
+        "{{< /terminal >}}"
+      ],
+      "fields": [
+        {
+          "name": "filename",
+          "title": "filename",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "language",
+          "title": "language",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "selection",
+          "title": "selection",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    }
+  }
 }
