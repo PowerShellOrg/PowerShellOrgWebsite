@@ -1,0 +1,43 @@
+/* GitHub-style alert / admonition callouts.
+   Emitted by layouts/_markup/render-blockquote.html for the five canonical
+   GitHub alert types. Colors mirror GitHub's light-mode alert palette so the
+   on-site rendering reads the same as the GitHub issue/PR preview an author
+   submits from. */
+
+.ps-alert {
+    --ps-alert-color: #57606a;
+    --ps-alert-bg: #f6f8fa;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d0d7de;
+    border-left: 4px solid var(--ps-alert-color);
+    border-radius: 0.5rem;
+    background: var(--ps-alert-bg);
+}
+
+.ps-alert-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.25rem;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--ps-alert-color);
+}
+
+.ps-alert-title i {
+    width: 1em;
+    text-align: center;
+}
+
+/* Keep inner Markdown (.prose adds top/bottom margins to p/ul/etc.) flush
+   with the callout padding. */
+.ps-alert-body > :first-child { margin-top: 0; }
+.ps-alert-body > :last-child { margin-bottom: 0; }
+
+/* Type variants — left-border + icon color and a matching tinted background. */
+.ps-alert-note      { --ps-alert-color: #0969da; --ps-alert-bg: #ddf4ff; }
+.ps-alert-tip       { --ps-alert-color: #1a7f37; --ps-alert-bg: #dafbe1; }
+.ps-alert-important { --ps-alert-color: #8250df; --ps-alert-bg: #fbefff; }
+.ps-alert-warning   { --ps-alert-color: #9a6700; --ps-alert-bg: #fff8c5; }
+.ps-alert-caution   { --ps-alert-color: #cf222e; --ps-alert-bg: #ffebe9; }

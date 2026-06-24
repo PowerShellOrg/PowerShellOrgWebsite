@@ -1,0 +1,31 @@
+{{- /* Blockquote render hook.
+        Renders GitHub-style alerts (`> [!NOTE]`, `[!TIP]`, `[!IMPORTANT]`,
+        `[!WARNING]`, `[!CAUTION]`) as styled callouts, and falls through to a
+        plain blockquote for everything else. We deliberately support only
+        GitHub's five canonical alert types so the same Markdown renders
+        identically on GitHub (issue submissions, PRs) and on the site — see
+        docs/adr/0004-github-alert-admonitions.md.
+        Styling lives in static/css/alerts.css. */ -}}
+{{- if eq .Type "alert" -}}
+  {{- $type := .AlertType | lower -}}
+  {{- $icons := dict
+      "note" "fa-circle-info"
+      "tip" "fa-lightbulb"
+      "important" "fa-bullhorn"
+      "warning" "fa-triangle-exclamation"
+      "caution" "fa-circle-exclamation" -}}
+  {{- $labels := dict
+      "note" "Note"
+      "tip" "Tip"
+      "important" "Important"
+      "warning" "Warning"
+      "caution" "Caution" -}}
+  {{- $icon := index $icons $type | default "fa-circle-info" -}}
+  {{- $label := .AlertTitle | default (index $labels $type | default (title $type)) -}}
+  <div class="ps-alert ps-alert-{{ $type }}" role="note">
+    <p class="ps-alert-title"><i class="fas {{ $icon }}" aria-hidden="true"></i>{{ $label }}</p>
+    <div class="ps-alert-body">{{ .Text }}</div>
+  </div>
+{{- else -}}
+  <blockquote>{{ .Text }}</blockquote>
+{{- end -}}
