@@ -2,6 +2,7 @@
 title: "The PowerShell Podcast MVP Spotlight: Clayton Tyger’s Story"
 authors:
   - Andrew Pla
+  - Clayton Tyger
 date: "2024-03-25T14:08:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ynjm23/The_PowerShell_Podcast_episode_110_Clayton_Tygera5psc.mp3"
 episode: 110

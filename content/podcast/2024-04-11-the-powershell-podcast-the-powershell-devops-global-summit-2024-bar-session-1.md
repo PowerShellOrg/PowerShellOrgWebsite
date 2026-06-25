@@ -2,6 +2,12 @@
 title: The PowerShell Podcast The PowerShell & DevOps Global Summit 2024 Bar Session 1
 authors:
   - Andrew Pla
+  - James Petty
+  - Ben Reader
+  - Frank Lesniak
+  - James Ruskin
+  - Kevin Cefalu
+  - Steven Bucher
 date: "2024-04-11T20:49:55+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/arskfa8w5um3f3ee/The_PowerShell_Podcast_episode_113_PwoerShell_Glbal_Devops_Summit_2024_P180ko1.mp3"
 episode: 113

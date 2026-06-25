@@ -3,6 +3,7 @@ title: The PowerShell Podcast Maximizing Community Engagement with sqldbawithabe
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Rob Sewell
 date: "2023-04-17T14:56:13+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/z2n32s/PowerShell_Podcast_episode_60_Rob_Sewella7qkz.mp3"
 episode: 60

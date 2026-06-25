@@ -2,6 +2,8 @@
 title: The PowerShell Podcast PowerShell, Security, and the Path to Mastery.
 authors:
   - Andrew Pla
+  - Lucas Allman
+  - Bogdan Calapod
 date: "2025-05-12T14:03:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cex9wzj57d5wacxf/The_PowerShell_Podcast_episode_173_Bogdan_Lucas7wae0.mp3"
 episode: 173
