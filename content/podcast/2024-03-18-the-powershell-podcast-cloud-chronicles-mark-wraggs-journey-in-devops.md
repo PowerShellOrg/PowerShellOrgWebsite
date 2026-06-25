@@ -2,6 +2,7 @@
 title: "The PowerShell Podcast Cloud Chronicles: Mark Wragg’s Journey in DevOps"
 authors:
   - Andrew Pla
+  - Mark Wragg
 date: "2024-03-18T14:29:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/2cqijc/The_PowerShell_Podcast_episode_109_Mark_Wragg8oq11.mp3"
 episode: 109

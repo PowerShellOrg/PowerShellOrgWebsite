@@ -2,6 +2,8 @@
 title: The PowerShell Podcast PowerShell & DevOps Global Summit Bar session with Josh & Jeff
 authors:
   - Andrew Pla
+  - Joshua Dearing
+  - Jeff Wardlaw
 date: "2026-04-29T14:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bsf7fnxjaz4cbm32/The_PowerShell_Podcast_episode_226_Bar_session_Josh_Jeffa9m5m.mp3"
 episode: 226

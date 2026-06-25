@@ -3,6 +3,11 @@ title: The PowerShell Podcast PowerShell and DevOps Global Summit – Steve Judd
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Steven Judd
+  - Anthony Howell
+  - Phil Bossman
+  - Dan Hill
+  - Geoff Schram
 date: "2023-05-15T14:24:57+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/bw5zma/PowerShell_Podcast_episode_65_Summit_Steve_Posh_Phil_Dan_Geoff7ioe3.mp3"
 episode: 65

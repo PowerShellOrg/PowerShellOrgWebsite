@@ -3,6 +3,7 @@ title: The PowerShell Podcast Using PowerShell on Linux with Avri from Posh4Linu
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Avri
 date: "2023-02-27T15:52:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ewbner/PowerShell_Podcast_episode_53_Linuxbqqr0.mp3"
 episode: 53

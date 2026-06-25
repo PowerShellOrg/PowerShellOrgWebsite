@@ -2,6 +2,7 @@
 title: "The PowerShell Podcast From Admin to Defender: Jake Hildreth’s Security Evolution"
 authors:
   - Andrew Pla
+  - Jake Hildreth
 date: "2024-02-26T15:42:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/qzhmjx/The_PowerShell_Podcast_episode_106_Jake_Hildrethbgmwo.mp3"
 episode: 106

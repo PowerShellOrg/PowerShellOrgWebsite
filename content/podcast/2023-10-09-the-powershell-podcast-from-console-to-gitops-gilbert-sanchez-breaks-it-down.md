@@ -3,6 +3,7 @@ title: "The PowerShell Podcast From Console to GitOps: Gilbert Sanchez Breaks It
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Gilbert Sanchez
 date: "2023-10-09T14:02:26+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4pnjdh/The_PowerShell_Podcast_episode_86_Gilbert_Sanchez7nubl.mp3"
 episode: 86

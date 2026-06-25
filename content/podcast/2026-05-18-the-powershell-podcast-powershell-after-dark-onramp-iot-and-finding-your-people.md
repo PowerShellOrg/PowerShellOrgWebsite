@@ -2,6 +2,10 @@
 title: "The PowerShell Podcast PowerShell After Dark: OnRamp, IoT, and Finding Your People."
 authors:
   - Andrew Pla
+  - Josh Gratton
+  - Mark Go
+  - Craig Mileham
+  - Matt Zaske
 date: "2026-05-18T14:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/xqr624gfutsrmqgv/The_PowerShell_Podcast_Bar_sessions_2026_episode_2298xv9d.mp3"
 episode: 229

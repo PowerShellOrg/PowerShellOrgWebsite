@@ -3,6 +3,7 @@ title: The PowerShell Podcast Modern Automation with PowerShell Michael
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Michael Zanatta
 date: "2023-03-13T15:01:56+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/48w9n8/PowerShell_Podcast_episode_55_Michael613f4.mp3"
 episode: 55

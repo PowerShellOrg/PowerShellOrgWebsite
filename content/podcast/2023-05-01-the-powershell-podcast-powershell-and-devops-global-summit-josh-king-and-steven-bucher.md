@@ -3,6 +3,8 @@ title: The PowerShell Podcast PowerShell and DevOps Global Summit – Josh King 
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Josh King
+  - Steven Bucher
 date: "2023-05-01T14:14:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/p3xjtt/PowerShell_Podcast_episode_63_Josh_King_Steven_Bucher9bvkp.mp3"
 episode: 63

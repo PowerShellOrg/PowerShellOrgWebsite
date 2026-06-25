@@ -2,6 +2,7 @@
 title: "The PowerShell Podcast Jordan Returns: A Fun Dive into Life, PowerShell, and Beyond"
 authors:
   - Andrew Pla
+  - Jordan Hammond
 date: "2024-11-25T15:09:59+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/4ki6ipwm39mv8cue/The_PowerShell_Podcast_episode_146_Jordan_Hammond8qsac.mp3"
 episode: 146

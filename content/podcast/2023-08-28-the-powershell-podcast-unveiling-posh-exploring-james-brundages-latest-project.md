@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Unveiling Posh: Exploring James Brundage’s Late
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - James Brundage
 date: "2023-08-28T14:48:47+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/7zdf9n/The_PowerShell_Podcast_episode_80_James_B8las0.mp3"
 episode: 80

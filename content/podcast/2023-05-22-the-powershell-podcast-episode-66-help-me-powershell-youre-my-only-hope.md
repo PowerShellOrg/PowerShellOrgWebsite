@@ -3,6 +3,7 @@ title: The PowerShell Podcast Episode 66 – Help me PowerShell. You’re my onl
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Brock Bingham
 date: "2023-05-22T14:08:54+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/stabch/PowerShell_Podcast_episode_66_Brock97vr9.mp3"
 episode: 66

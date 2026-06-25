@@ -2,6 +2,17 @@
 title: The PowerShell Podcast The PowerShell and DevOps Global Summit 2024 Bar session 3
 authors:
   - Andrew Pla
+  - Chris Masters
+  - Joe Gasper
+  - Rob Derickson
+  - Chris Nguyen
+  - Fred Weinmann
+  - Merill Fernando
+  - Clayton Tyger
+  - Mike F. Robbins
+  - Sean Wheeler
+  - Prasidh Arora
+  - Danny Maertens
 date: "2024-04-22T14:13:03+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ry438jdpvxszm68t/The_PowerShell_Podcast_episode_115_Summit_Bar_session_38nqd4.mp3"
 episode: 115
