@@ -1,7 +1,7 @@
 ---
 title: Where Are My FSMO Roles?
 authors:
-  - Thomas Rayner, MVP
+  - Thomas Rayner
 date: "2015-09-08T14:00:21+00:00"
 categories:
   - PowerShell for Admins
