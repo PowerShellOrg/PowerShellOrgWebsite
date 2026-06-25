@@ -3,6 +3,7 @@ title: The PowerShell Podcast Securing the Cloud with David das Neves
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - David das Neves
 date: "2023-04-10T14:19:52+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/sw4e8q/PowerShell_Podcast_episode_59_David_das_Neves8jpev.mp3"
 episode: 59

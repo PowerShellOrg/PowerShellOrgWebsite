@@ -2,6 +2,7 @@
 title: "The PowerShell Podcast PowerShell Perspectives: Ryan Lancial on Company Culture and Authentic Careers"
 authors:
   - Andrew Pla
+  - Ryan Lancial
 date: "2024-05-06T14:54:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/a7hy9yjrbzyngcmu/The_PowerShell_Podcast_episode_117_Ryanb7n6h.mp3"
 episode: 117

@@ -3,6 +3,7 @@ title: MVPs and Stars with Barbara 4rbes
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Barbara Forbes
 date: "2023-01-09T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ggdb35/PowerShell_Podcast_episode_46_ba4rbes7dj2t.mp3"
 episode: 46

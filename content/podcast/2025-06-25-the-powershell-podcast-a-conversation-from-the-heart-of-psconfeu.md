@@ -2,6 +2,9 @@
 title: The PowerShell Podcast A Conversation from the Heart of PSConfEU
 authors:
   - Andrew Pla
+  - Gael Colas
+  - Stein Petersen
+  - Tracy Sewell
 date: "2025-06-25T14:03:08+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f8gh6idcx6npaw34/The_PowerShell_Podcast_episode_180_PSConfEU9z2zr.mp3"
 episode: 180

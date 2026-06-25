@@ -3,6 +3,7 @@ title: "PowerShell for Developers: Doug Finke’s Story"
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Doug Finke
 date: "2023-02-13T20:00:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ivuphm/PowerShell_Podcast_episode_51_Doug_Finkeb189m.mp3"
 episode: 51

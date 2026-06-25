@@ -2,6 +2,10 @@
 title: The PowerShell Podcast Falling, Learning, and Laughing with PowerShell Friends
 authors:
   - Andrew Pla
+  - Jeffery Hayes
+  - Stephen Engler
+  - Sean Wheeler
+  - Steven Judd
 date: "2025-11-24T15:49:23+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/f4bcibvwq564psyk/The_PowerShell_Podcast_episode_202_Bar_sessions_Spiceworld6jczm.mp3"
 episode: 202

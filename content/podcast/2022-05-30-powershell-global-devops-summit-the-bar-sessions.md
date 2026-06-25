@@ -3,6 +3,10 @@ title: PowerShell & Global DevOps Summit. The Bar Sessions.
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Ryan Richter
+  - Steven Judd
+  - Harjit
+  - Mick
 date: "2022-05-30T18:02:00+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/vgycde/PowerShell_Podcast_episode_14_bar_sessions6bxw6.mp3"
 episode: 14

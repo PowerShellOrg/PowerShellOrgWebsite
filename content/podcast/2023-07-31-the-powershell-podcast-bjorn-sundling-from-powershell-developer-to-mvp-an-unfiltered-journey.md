@@ -3,6 +3,7 @@ title: "The PowerShell Podcast Björn Sundling. From PowerShell Developer to MVP
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Björn Sundling
 date: "2023-07-31T14:38:50+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/shjpr2/PowerShell_Podcast_episode_76_Bjorn8wu01.mp3"
 episode: 76

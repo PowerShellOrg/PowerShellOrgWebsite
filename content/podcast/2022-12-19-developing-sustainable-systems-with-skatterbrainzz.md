@@ -3,6 +3,7 @@ title: Developing Sustainable Systems with Skatterbrainzz
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Skatterbrainzz
 date: "2022-12-19T21:34:48+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/cyrpcz/PowerShell_Podcast_episode_43_skatterbrainzaxq14.mp3"
 episode: 43

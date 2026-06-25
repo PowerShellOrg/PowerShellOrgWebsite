@@ -3,6 +3,12 @@ title: The PowerShell Podcast PowerShell and DevOps Global Summit – Jon Junell
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Jon Junell
+  - Clayton Tyger
+  - Nick
+  - Gordon
+  - Sammie
+  - Scott
 date: "2023-05-08T13:58:51+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/yuh5kp/PowerShell_Podcast_episode_64_Summit_Junell_Clayton_nick_gordan_sam_scott_Lemonde91pfw.mp3"
 episode: 64

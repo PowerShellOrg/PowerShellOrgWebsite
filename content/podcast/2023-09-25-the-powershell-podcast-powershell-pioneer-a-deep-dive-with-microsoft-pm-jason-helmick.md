@@ -3,6 +3,7 @@ title: "The PowerShell Podcast PowerShell Pioneer: A Deep Dive with Microsoft PM
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Jason Helmick
 date: "2023-09-25T14:58:49+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/ijtzsx/The_PowerShell_Podcast_episode_84_Jason_Helmick95edl.mp3"
 episode: 84

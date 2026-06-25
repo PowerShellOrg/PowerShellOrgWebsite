@@ -3,6 +3,8 @@ title: PowerShell & DevOps Global Summit (PowerShell After Dark)
 authors:
   - Andrew Pla
   - Jordan Hammond
+  - Nick
+  - Chris
 date: "2022-04-27T21:00:12+00:00"
 podcast_url: "https://mcdn.podbean.com/mf/web/8qekrj/PowerShell_Summit_PowerShell_After_Dark6dpfr.mp3"
 aliases:
