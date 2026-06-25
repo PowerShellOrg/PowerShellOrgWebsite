@@ -6,7 +6,7 @@
         Highlighting is handled client-side by Prism via the language-* class. */ -}}
 {{- $lang := .Get "lang" | default "powershell" -}}
 {{- $title := .Get "title" | default "PowerShell" -}}
-{{- $code := trim .Inner "\n" -}}
+{{- $code := .Inner | strings.TrimSpace -}}
 <div class="code-terminal ps-terminal rounded-xl overflow-hidden shadow-xl my-6">
     <div class="flex items-center px-4 py-3 border-b border-gray-700">
         <div class="flex space-x-2 mr-4">
