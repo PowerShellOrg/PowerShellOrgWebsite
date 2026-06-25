@@ -1,6 +1,5 @@
 ---
 title: Join the DSC Hackathon at PowerShell Summit 2014 Europe
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-28T14:08:36+00:00"

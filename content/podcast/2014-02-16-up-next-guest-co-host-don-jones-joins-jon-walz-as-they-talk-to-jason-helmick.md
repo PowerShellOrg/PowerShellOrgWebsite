@@ -1,6 +1,5 @@
 ---
 title: Up Next guest co-host Don Jones joins Jon Walz as they talk to Jason Helmick
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-02-17T03:02:59+00:00"

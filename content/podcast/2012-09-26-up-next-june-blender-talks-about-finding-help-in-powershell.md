@@ -1,6 +1,5 @@
 ---
 title: "Up Next: June Blender talks about finding help in PowerShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-26T15:01:10+00:00"

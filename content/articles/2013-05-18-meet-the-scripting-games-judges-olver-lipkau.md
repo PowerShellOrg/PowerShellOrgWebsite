@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: Olver Lipkau"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-18T13:36:13+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Talking Crescendo and Documentation with Stevie Coaster
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

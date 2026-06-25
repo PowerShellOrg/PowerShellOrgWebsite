@@ -1,6 +1,5 @@
 ---
 title: PhillyPoSH 12/05/2013 meeting summary and presentation materials
-author: John Mello
 authors:
   - John Mello
 date: "2013-12-10T03:51:19+00:00"

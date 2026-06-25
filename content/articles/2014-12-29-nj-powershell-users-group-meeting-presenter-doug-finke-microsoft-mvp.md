@@ -1,6 +1,5 @@
 ---
 title: "NJ PowerShell Users Group Meeting: Presenter Doug Finke – Microsoft MVP"
-author: NJPowerShell
 authors:
   - NJPowerShell
 date: "2014-12-30T04:25:33+00:00"

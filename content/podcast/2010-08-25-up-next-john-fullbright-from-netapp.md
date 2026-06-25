@@ -1,6 +1,5 @@
 ---
 title: "Up Next: John Fullbright from NetApp!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-26T01:46:50+00:00"

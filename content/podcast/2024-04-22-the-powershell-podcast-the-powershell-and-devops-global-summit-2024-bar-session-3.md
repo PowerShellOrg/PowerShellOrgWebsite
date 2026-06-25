@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The PowerShell and DevOps Global Summit 2024 Bar session 3
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-04-22T14:13:03+00:00"

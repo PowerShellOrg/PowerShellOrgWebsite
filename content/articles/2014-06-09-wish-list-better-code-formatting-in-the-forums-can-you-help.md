@@ -1,6 +1,5 @@
 ---
 title: "Wish List: Better Code Formatting in the Forums (Can You Help?)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-06-09T18:06:36+00:00"

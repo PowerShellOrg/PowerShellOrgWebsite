@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Don Jones and the Script Editor Showdown!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-11T03:02:16+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Listener Voices: Reflections on PowerShell Saturday NC with Rafael Garcia, Kevin O’Conner, and Ryan Park"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Rafael Garcia

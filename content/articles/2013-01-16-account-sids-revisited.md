@@ -1,6 +1,5 @@
 ---
 title: Account SIDs revisited
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-16T22:48:05+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Survey Results: Source Control for the IT Professional"
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-05-18T13:42:42+00:00"

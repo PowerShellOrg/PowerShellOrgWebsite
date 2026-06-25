@@ -1,6 +1,5 @@
 ---
 title: Verified Effective Exam Results
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-04-22T16:14:26+00:00"

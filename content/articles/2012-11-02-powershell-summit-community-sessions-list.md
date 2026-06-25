@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Summit Community Sessions List [Updated]"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-11-02T19:19:22+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Ryan Dunn Talks about Azure"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-03T13:05:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Tobias' Event 5 Notes"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-31T12:12:45+00:00"

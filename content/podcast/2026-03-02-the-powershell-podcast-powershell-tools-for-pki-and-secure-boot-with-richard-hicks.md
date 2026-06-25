@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Tools for PKI and Secure Boot with Richard Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Richard Hicks

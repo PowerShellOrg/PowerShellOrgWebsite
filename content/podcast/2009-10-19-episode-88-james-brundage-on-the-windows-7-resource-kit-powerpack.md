@@ -1,6 +1,5 @@
 ---
 title: Episode 88 – James Brundage on the Windows 7 Resource Kit PowerPack
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-20T04:46:23+00:00"

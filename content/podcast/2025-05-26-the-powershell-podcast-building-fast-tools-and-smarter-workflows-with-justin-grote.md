@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building Fast Tools and Smarter Workflows with Justin Grote
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Justin Grote

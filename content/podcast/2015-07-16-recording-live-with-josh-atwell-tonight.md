@@ -1,6 +1,5 @@
 ---
 title: Recording live with Josh Atwell tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Josh Atwell

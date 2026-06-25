@@ -1,6 +1,5 @@
 ---
 title: Can We Talk About PowerShell Core 6.0?
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-01-15T16:36:18+00:00"

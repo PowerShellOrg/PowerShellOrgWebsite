@@ -1,6 +1,5 @@
 ---
 title: Tampa Bay Powershell User Group – Jan Meeting
-author: ScriptWarrior
 authors:
   - ScriptWarrior
 date: "2014-01-13T13:37:14+00:00"

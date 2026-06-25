@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast at 40; Reflections, Ruminations, and Ramblings
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

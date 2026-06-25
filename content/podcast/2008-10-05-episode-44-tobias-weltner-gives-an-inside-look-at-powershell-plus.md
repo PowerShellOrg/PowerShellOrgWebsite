@@ -1,6 +1,5 @@
 ---
 title: Episode 44 – Tobias Weltner gives an inside look at PowerShell Plus
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-06T02:14:20+00:00"

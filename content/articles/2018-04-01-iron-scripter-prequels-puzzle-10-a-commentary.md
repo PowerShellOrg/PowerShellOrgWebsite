@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter prequels: Puzzle 10 – A commentary"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-04-01T00:01:32+00:00"

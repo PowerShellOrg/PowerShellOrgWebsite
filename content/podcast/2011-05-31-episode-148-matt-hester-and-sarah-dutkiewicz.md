@@ -1,6 +1,5 @@
 ---
 title: Episode 148 – Matt Hester and Sarah Dutkiewicz
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-01T03:50:25+00:00"

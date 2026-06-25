@@ -1,6 +1,5 @@
 ---
 title: PowerShell excerpt week
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-03T19:00:52+00:00"

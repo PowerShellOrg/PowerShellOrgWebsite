@@ -1,6 +1,5 @@
 ---
 title: More Summit Speaker Names Leaked
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-18T16:36:24+00:00"

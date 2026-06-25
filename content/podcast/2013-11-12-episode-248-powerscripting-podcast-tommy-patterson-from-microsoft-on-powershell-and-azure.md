@@ -1,6 +1,5 @@
 ---
 title: Episode 248 – PowerScripting Podcast – Tommy Patterson from Microsoft on PowerShell and Azure
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-11-13T05:03:57+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 260 – PowerScripting Podcast – MVPs Don Jones and Jason Helmick on The Scripting Games and More
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-03-02T05:20:07+00:00"

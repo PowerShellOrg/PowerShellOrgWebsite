@@ -1,6 +1,5 @@
 ---
 title: Want a premier PowerShell class in your area next year? Help me make it happen.
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-23T14:18:50+00:00"

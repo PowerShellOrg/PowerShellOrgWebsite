@@ -1,6 +1,5 @@
 ---
 title: Use PnP PowerShell to add ContentType for your SharePoint site
-author: Eli Hess
 authors:
   - Eli Hess
 date: "2018-08-21T18:16:02+00:00"

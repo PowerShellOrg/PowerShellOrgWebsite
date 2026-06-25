@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Hemant Mahawar from Microsoft talks about PowerShell v3 Workflows!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-10T16:54:00+00:00"

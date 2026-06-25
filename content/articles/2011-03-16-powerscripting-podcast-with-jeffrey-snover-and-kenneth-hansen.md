@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Podcast with Jeffrey Snover and Kenneth Hansen
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-03-16T14:21:07+00:00"

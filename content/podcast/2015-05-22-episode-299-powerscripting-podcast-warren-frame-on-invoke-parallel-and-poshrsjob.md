@@ -1,6 +1,5 @@
 ---
 title: Episode 299 – PowerScripting Podcast -Warren Frame on Invoke-Parallel and PoshRSJob
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-05-23T04:06:34+00:00"

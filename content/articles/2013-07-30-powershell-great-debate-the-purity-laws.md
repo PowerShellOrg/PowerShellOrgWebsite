@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: The Purity Laws"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-30T17:50:21+00:00"

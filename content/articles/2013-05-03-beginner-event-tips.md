@@ -1,6 +1,5 @@
 ---
 title: Beginner Event Tips
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-03T15:57:10+00:00"

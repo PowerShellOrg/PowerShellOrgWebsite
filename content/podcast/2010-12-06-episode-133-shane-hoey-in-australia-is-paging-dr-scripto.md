@@ -1,6 +1,5 @@
 ---
 title: Episode 133 – Shane Hoey in Australia is Paging Dr. Scripto
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-12-07T03:12:29+00:00"

@@ -1,6 +1,5 @@
 ---
 title: “The DSC Book” now Open Source!
-author: Don Jones
 authors:
   - Don Jones
 date: "2019-12-10T21:20:36+00:00"

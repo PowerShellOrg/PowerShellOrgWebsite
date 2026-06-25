@@ -1,6 +1,5 @@
 ---
 title: Episode 210 – Eli White makes Mayhem
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-09T05:49:19+00:00"

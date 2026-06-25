@@ -1,6 +1,5 @@
 ---
 title: Official PowerShell + DevOps Global Summit 2016 Agenda Now Available
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-03-02T22:17:48+00:00"

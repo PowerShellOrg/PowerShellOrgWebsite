@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell Exposed: Security, Remoting, and More with Fred Weinmann"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

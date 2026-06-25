@@ -1,6 +1,5 @@
 ---
 title: 5 Tips for Writing DSC Resources in PowerShell 5
-author: Matthew Hodgkins
 authors:
   - Matthew Hodgkins
 date: "2016-06-09T18:44:00+00:00"

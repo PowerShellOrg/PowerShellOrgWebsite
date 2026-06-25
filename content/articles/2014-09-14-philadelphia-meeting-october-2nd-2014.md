@@ -1,6 +1,5 @@
 ---
 title: Philadelphia Meeting – October 2nd 2014
-author: John Mello
 authors:
   - John Mello
 date: "2014-09-15T00:59:08+00:00"

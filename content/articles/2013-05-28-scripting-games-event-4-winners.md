@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Event 4 Winners
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-28T13:32:27+00:00"

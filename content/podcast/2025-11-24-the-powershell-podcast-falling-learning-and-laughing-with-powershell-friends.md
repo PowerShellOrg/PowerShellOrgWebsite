@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Falling, Learning, and Laughing with PowerShell Friends
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-11-24T15:49:23+00:00"

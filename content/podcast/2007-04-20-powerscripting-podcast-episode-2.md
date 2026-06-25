@@ -1,6 +1,5 @@
 ---
 title: Episode 2 – Filtering Cmdlets
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-04-21T04:50:38+00:00"

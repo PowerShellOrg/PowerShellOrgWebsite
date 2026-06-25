@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast The Matrix of PowerShell: Security and Automation with Researcher Miriam Wiesner"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

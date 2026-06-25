@@ -1,6 +1,5 @@
 ---
 title: Episode 118 – James Hamilton and Thomas Lee on PowerShell Use in the Hotmail Team
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-12T03:33:14+00:00"

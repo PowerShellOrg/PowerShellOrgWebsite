@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Poking Around Until Something Breaks (And Then Reporting It to Microsoft) with Morten Mynster
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Morten Mynster

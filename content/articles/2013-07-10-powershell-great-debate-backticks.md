@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Backticks"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-10T21:26:50+00:00"

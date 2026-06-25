@@ -1,6 +1,5 @@
 ---
 title: Episode 182 – Joel Bennett on PowerShell v3 and PoshCode
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-18T03:55:22+00:00"

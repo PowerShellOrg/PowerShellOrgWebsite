@@ -1,6 +1,5 @@
 ---
 title: Episode 323 – PowerScripting Podcast – Joel Sallow
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Joel Sallow

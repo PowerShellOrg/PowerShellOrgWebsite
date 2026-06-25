@@ -1,6 +1,5 @@
 ---
 title: Episode 143 – Chris Harris from Microsoft on SCOM 2012
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-08T00:41:45+00:00"

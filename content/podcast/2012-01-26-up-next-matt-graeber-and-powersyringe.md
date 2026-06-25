@@ -1,6 +1,5 @@
 ---
 title: Up Next Matt Graeber and PowerSyringe
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-26T15:22:00+00:00"

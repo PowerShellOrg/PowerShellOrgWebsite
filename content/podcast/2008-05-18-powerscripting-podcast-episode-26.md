@@ -1,6 +1,5 @@
 ---
 title: Episode 26 – Keith Hill
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-05-19T02:00:28+00:00"

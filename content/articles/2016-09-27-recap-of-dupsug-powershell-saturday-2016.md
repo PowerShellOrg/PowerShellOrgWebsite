@@ -1,6 +1,5 @@
 ---
 title: Recap of DuPSUG PowerShell Saturday 2016
-author: Jaap Brasser
 authors:
   - Jaap Brasser
 date: "2016-09-27T07:28:04+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Turning the tables. An interview with Andrew Pla
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-12-02T15:44:25+00:00"

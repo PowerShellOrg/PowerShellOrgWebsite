@@ -1,6 +1,5 @@
 ---
 title: Scripting Games 2013 have started
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-28T11:49:53+00:00"

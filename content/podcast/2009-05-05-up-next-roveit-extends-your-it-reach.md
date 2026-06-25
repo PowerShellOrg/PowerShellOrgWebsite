@@ -1,6 +1,5 @@
 ---
 title: "Up Next: RoveIT Extends Your IT Reach!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-05-05T12:49:14+00:00"

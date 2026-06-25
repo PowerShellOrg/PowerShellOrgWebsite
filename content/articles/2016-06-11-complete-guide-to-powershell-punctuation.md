@@ -1,6 +1,5 @@
 ---
 title: Complete Guide to PowerShell Punctuation
-author: msorens
 authors:
   - msorens
 date: "2016-06-11T22:57:55+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 149 – Vittorio Bertocci on Windows Azure Control Services
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-14T03:05:24+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequel: Puzzle 7 – A commentary"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-03-04T00:03:25+00:00"

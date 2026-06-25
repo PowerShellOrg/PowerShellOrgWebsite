@@ -1,6 +1,5 @@
 ---
 title: Summit 2017 – Badge Question
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-02-01T15:16:52+00:00"

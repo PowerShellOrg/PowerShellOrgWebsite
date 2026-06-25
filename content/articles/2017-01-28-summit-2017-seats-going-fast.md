@@ -1,6 +1,5 @@
 ---
 title: Summit 2017–seats going fast
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-01-28T20:19:21+00:00"

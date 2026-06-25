@@ -1,6 +1,5 @@
 ---
 title: Welcome to the new PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-08-07T11:26:09+00:00"

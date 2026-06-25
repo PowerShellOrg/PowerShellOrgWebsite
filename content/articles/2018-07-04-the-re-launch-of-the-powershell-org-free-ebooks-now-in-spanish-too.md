@@ -1,6 +1,5 @@
 ---
 title: The Re-Launch of the PowerShell.org Free eBooks (now in Spanish, too!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-07-04T18:31:49+00:00"

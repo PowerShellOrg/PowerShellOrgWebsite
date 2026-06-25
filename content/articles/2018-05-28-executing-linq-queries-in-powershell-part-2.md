@@ -1,6 +1,5 @@
 ---
 title: Executing LINQ Queries in PowerShell – Part 2
-author: Eli Hess
 authors:
   - Eli Hess
 date: "2018-05-28T12:31:00+00:00"

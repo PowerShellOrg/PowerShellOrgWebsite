@@ -1,6 +1,5 @@
 ---
 title: Episode 116 – Master Debugger John Robbins
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-22T04:05:27+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: Bartek Bielawski"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-15T21:18:14+00:00"

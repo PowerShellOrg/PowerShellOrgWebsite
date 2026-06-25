@@ -1,6 +1,5 @@
 ---
 title: "This Week: Jeff Hicks is Live in Studio!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-05-26T16:20:17+00:00"

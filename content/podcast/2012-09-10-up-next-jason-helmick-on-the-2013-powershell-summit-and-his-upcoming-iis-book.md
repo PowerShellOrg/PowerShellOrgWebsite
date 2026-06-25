@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jason Helmick on the 2013 PowerShell Summit and his upcoming IIS book!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-10T17:29:42+00:00"

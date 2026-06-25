@@ -1,6 +1,5 @@
 ---
 title: "#PSBlogWeek is Back!"
-author: Adam Bertram
 authors:
   - Adam Bertram
 date: "2017-08-23T17:49:39+00:00"

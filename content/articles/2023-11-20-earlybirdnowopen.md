@@ -1,6 +1,5 @@
 ---
 title: Early Bird Tickets Now on Sale
-author: James Petty
 authors:
   - James Petty
 date: "2023-11-20T21:32:12+00:00"

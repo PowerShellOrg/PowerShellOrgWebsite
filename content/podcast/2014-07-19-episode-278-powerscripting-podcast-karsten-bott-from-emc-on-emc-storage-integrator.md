@@ -1,6 +1,5 @@
 ---
 title: Episode 278 – PowerScripting Podcast – Karsten Bott from EMC on EMC Storage Integrator
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-07-19T17:04:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 283 – PowerScripting Podcast – Ed Horley on IPv6
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-09-09T03:13:12+00:00"

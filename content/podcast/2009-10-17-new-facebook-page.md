@@ -1,6 +1,5 @@
 ---
 title: New Facebook Page!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-18T02:35:26+00:00"

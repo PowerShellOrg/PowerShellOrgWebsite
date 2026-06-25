@@ -1,6 +1,5 @@
 ---
 title: "#MSPSUG Virtual Meeting: The Art of #PowerShell Runspaces – September 8th 2015"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-09-04T14:58:27+00:00"

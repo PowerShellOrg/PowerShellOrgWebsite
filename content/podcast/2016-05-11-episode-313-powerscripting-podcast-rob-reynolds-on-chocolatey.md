@@ -1,6 +1,5 @@
 ---
 title: Episode 313 – PowerScripting Podcast – Rob Reynolds on Chocolatey
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-05-12T03:15:51+00:00"

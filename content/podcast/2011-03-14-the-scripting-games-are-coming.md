@@ -1,6 +1,5 @@
 ---
 title: The Scripting Games Are Coming!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-03-14T13:55:12+00:00"

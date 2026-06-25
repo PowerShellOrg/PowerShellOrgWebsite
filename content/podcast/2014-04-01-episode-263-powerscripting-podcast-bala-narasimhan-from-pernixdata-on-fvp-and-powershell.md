@@ -1,6 +1,5 @@
 ---
 title: Episode 263 – PowerScripting Podcast – Bala Narasimhan from PernixData on FVP and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-04-02T03:57:16+00:00"

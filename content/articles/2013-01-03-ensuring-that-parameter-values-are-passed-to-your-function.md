@@ -1,6 +1,5 @@
 ---
 title: Ensuring that parameter values are passed to your function
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-03T18:46:59+00:00"

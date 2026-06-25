@@ -1,6 +1,5 @@
 ---
 title: "Atlanta PowerShell User's Group Meeting – December 8th with June Blender"
-author: Stephen Owen
 authors:
   - Stephen Owen
 date: "2015-11-19T15:03:47+00:00"

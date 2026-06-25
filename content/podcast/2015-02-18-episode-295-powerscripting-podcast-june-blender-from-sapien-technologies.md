@@ -1,6 +1,5 @@
 ---
 title: Episode 295 – PowerScripting Podcast – June Blender from SAPIEN Technologies
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-02-19T03:50:51+00:00"

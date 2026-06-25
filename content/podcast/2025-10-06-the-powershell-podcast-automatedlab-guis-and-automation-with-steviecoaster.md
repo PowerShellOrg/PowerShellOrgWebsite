@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast AutomatedLab, GUIs, and automation with Steviecoaster
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-10-06T14:02:48+00:00"

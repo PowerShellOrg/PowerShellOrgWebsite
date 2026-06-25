@@ -1,6 +1,5 @@
 ---
 title: Adam Driscoll Returns Tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-20T19:57:23+00:00"

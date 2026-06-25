@@ -1,6 +1,5 @@
 ---
 title: 2022 IT OnRamp Scholarship Information & Application
-author: James Petty
 authors:
   - James Petty
 date: "2021-12-17T17:03:32+00:00"

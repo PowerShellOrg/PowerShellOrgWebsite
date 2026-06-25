@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit North America 2016 – Call for Topics
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2015-08-03T16:39:58+00:00"

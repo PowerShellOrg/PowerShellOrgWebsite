@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Steve Hall and Alan Sharp-Paul from Script Rock"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-05-28T00:25:47+00:00"

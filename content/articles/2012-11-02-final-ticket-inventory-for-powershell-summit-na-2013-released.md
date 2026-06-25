@@ -1,6 +1,5 @@
 ---
 title: Final Ticket Inventory for PowerShell Summit NA 2013 Released!
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-02T15:24:26+00:00"

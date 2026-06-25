@@ -1,6 +1,5 @@
 ---
 title: Exploring AutomatedLab and DSC with Raimund Andrée
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: "UP Next: Boe Prox talks about PoshPAIG"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-29T15:33:00+00:00"

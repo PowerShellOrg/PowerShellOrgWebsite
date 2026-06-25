@@ -1,6 +1,5 @@
 ---
 title: Updated Summit Pre-Arrival InfoDump
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-02-08T19:26:20+00:00"

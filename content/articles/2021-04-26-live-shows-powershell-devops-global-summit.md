@@ -1,6 +1,5 @@
 ---
 title: Live Shows – PowerShell + DevOps Global Summit
-author: James Petty
 authors:
   - James Petty
 date: "2021-04-26T19:11:09+00:00"

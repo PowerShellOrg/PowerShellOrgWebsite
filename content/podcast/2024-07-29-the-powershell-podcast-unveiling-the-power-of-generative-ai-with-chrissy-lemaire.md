@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Unveiling the Power of Generative AI with Chrissy LeMaire
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Chrissy LeMaire

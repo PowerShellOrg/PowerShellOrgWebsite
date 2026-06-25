@@ -1,6 +1,5 @@
 ---
 title: Help us Recognize Amazing PowerShell Contributors!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-02-01T16:36:07+00:00"

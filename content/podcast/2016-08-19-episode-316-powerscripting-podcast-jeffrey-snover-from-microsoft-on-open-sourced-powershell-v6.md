@@ -1,6 +1,5 @@
 ---
 title: Episode 316 – PowerScripting Podcast – Jeffrey Snover from Microsoft on Open Sourced PowerShell v6
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-08-19T21:54:51+00:00"

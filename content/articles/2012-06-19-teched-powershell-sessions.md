@@ -1,6 +1,5 @@
 ---
 title: TechEd PowerShell Sessions
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-19T14:21:00+00:00"

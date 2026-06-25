@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Mentorship, Mindset, and Microsoft Ignite with Shannon Eldridge-Kuehn
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Shannon Eldridge-Kuehn

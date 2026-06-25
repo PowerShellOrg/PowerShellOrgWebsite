@@ -1,6 +1,5 @@
 ---
 title: Be a Speaker at PowerShell and DevOps Global Summit 2020!
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2019-09-03T17:42:35+00:00"

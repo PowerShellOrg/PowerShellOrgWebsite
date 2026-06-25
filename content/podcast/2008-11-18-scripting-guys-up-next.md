@@ -1,6 +1,5 @@
 ---
 title: Scripting Guy(s) up Next!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-18T19:35:15+00:00"

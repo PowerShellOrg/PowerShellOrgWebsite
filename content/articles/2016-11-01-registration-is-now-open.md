@@ -1,6 +1,5 @@
 ---
 title: Registration is now open
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-11-01T11:30:36+00:00"

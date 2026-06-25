@@ -1,6 +1,5 @@
 ---
 title: Episode 220 – Mark Minasi
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-20T04:16:34+00:00"

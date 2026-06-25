@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Unveiling PowerShell’s Past: An Interview with Jeffrey Snover"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeffrey Snover

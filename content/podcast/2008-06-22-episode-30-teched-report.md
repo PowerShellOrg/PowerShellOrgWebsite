@@ -1,6 +1,5 @@
 ---
 title: "Episode 30 \"“ TechEd Report"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-06-23T00:22:56+00:00"

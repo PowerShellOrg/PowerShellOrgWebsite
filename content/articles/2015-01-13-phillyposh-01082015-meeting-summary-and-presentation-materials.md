@@ -1,6 +1,5 @@
 ---
 title: PhillyPoSH 01/08/2015 meeting summary and presentation materials
-author: John Mello
 authors:
   - John Mello
 date: "2015-01-14T02:12:41+00:00"

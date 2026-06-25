@@ -1,6 +1,5 @@
 ---
 title: Episode 89 – PowerShell V2 Launch Party with Distinguished Engineer Jeffrey Snover
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

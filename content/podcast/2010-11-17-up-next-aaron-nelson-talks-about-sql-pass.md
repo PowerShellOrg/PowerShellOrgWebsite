@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Aaron Nelson Talks About SQL PASS"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-11-18T03:47:37+00:00"

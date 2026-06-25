@@ -1,6 +1,5 @@
 ---
 title: The Start Sharing Challenge
-author: Adam Bertram
 authors:
   - Adam Bertram
 date: "2015-08-10T15:55:25+00:00"

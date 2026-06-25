@@ -1,6 +1,5 @@
 ---
 title: Thoughts on Event 1 – and, frankly, a rant.
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-01T00:06:53+00:00"

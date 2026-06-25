@@ -1,6 +1,5 @@
 ---
 title: 2016-March Scripting Games Wrap-Up
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-04-02T15:04:22+00:00"

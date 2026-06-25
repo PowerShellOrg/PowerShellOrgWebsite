@@ -1,6 +1,5 @@
 ---
 title: Episode 62 – Ferdinand Rios and Jeffery Hicks from Sapien
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-16T02:43:59+00:00"

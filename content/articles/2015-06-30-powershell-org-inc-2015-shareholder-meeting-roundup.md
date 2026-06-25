@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org, Inc. 2015 Shareholder Meeting Roundup
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-30T17:55:23+00:00"

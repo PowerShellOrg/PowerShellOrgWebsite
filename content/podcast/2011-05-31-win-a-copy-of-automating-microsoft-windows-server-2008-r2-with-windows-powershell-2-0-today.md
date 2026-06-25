@@ -1,6 +1,5 @@
 ---
 title: Win a copy of Automating Microsoft Windows Server 2008 R2 with Windows PowerShell 2.0 TODAY!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-05-31T13:42:00+00:00"

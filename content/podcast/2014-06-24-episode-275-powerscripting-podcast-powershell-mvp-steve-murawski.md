@@ -1,6 +1,5 @@
 ---
 title: Episode 275 – PowerScripting Podcast – PowerShell MVP Steve Murawski
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-06-25T03:06:36+00:00"

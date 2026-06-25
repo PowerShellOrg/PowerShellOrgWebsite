@@ -1,6 +1,5 @@
 ---
 title: "The fastest Powershell #1 : Count all users in Active Directory domain"
-author: Steve
 authors:
   - Steve
 date: "2015-03-07T00:47:42+00:00"

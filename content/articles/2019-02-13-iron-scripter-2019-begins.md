@@ -1,6 +1,5 @@
 ---
 title: IRON SCRIPTER 2019 BEGINS!
-author: Don Jones
 authors:
   - Don Jones
 date: "2019-02-13T22:32:50+00:00"

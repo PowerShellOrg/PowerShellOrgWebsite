@@ -1,6 +1,5 @@
 ---
 title: Apologies for the delay
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-10-13T12:35:22+00:00"

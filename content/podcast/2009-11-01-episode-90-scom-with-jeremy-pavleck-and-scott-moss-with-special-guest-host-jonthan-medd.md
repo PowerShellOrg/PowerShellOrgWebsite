@@ -1,6 +1,5 @@
 ---
 title: Episode 90 – SCOM with Jeremy Pavleck and Scott Moss with special guest host Jonthan Medd
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeremy Pavleck

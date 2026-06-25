@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Lessons in Leadership from PowerShell Pioneers Jeffrey Snover and Don Jones
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-04-28T14:09:47+00:00"

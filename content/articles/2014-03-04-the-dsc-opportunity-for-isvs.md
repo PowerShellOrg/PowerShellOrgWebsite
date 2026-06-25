@@ -1,6 +1,5 @@
 ---
 title: The DSC Opportunity for ISVs
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-04T23:45:02+00:00"

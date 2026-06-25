@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequel: Puzzle 1 – a solution"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-01-21T00:05:19+00:00"

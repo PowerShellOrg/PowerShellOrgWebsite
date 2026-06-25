@@ -1,6 +1,5 @@
 ---
 title: "PowerShell and DevOps Global Summit 2017:  Call for Topics"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-08-01T11:09:22+00:00"

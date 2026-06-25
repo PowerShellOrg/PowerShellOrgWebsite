@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Devfarm Software Talks about PowerWF"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-14T13:12:57+00:00"

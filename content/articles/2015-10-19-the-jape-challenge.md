@@ -1,6 +1,5 @@
 ---
 title: The JAPE challenge
-author: Carlo Mancini
 authors:
   - Carlo Mancini
 date: "2015-10-19T08:58:34+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Convert ISO and WIM to VHD with a module
-author: David Jones
 authors:
   - David Jones
 date: "2015-09-29T04:24:03+00:00"

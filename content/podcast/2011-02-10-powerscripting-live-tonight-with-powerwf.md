@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Live Tonight with PowerWF!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-02-10T20:07:17+00:00"

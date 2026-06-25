@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Winter 2014 – Team Discussion Tips
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-06T15:42:52+00:00"

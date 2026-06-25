@@ -1,6 +1,5 @@
 ---
 title: "Speaking at PowerShell Summit 2016: Topic Ideas for Aspiring Speakers"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-09-16T08:26:25+00:00"

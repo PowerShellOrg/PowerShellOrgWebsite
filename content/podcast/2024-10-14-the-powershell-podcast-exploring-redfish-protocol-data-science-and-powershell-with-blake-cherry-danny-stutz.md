@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring Redfish Protocol, Data Science, and PowerShell with Blake Cherry & Danny Stutz
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Blake Cherry

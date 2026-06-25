@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Evgenij Smirnov Talks Certs, Security, and PowerShell Adventures
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-12-30T16:01:57+00:00"

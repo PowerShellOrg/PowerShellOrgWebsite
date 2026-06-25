@@ -1,6 +1,5 @@
 ---
 title: Episode 68 will have James Brundage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-25T00:36:26+00:00"

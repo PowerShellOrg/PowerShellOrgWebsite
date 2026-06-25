@@ -1,6 +1,5 @@
 ---
 title: "Event #1: Moving Old Files"
-author: June Blender
 authors:
   - June Blender
 date: "2013-05-02T21:31:40+00:00"

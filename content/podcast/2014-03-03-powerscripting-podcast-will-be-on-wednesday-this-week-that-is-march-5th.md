@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Podcast will be on Wednesday  this week, that is March 5th
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-03-04T07:55:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Registration for August Omaha PowerShell User Group Meeting is Live!
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2014-08-19T13:22:47+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 228 – MVP Darren Mar-Elia talks about Group Policy and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-22T04:03:51+00:00"

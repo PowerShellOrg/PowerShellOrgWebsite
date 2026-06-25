@@ -1,6 +1,5 @@
 ---
 title: A Real-World DevOps Implementation – and Food for Thought
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-12-03T21:02:23+00:00"

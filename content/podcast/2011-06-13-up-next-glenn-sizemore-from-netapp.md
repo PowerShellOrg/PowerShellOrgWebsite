@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Glenn Sizemore from NetApp"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-13T17:07:00+00:00"

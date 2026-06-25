@@ -1,6 +1,5 @@
 ---
 title: Episode 169 – Don Jones on PowerShell v3 and Button Monkeys
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-19T02:59:12+00:00"

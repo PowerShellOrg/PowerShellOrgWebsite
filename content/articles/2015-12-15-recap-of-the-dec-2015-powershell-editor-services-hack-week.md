@@ -1,6 +1,5 @@
 ---
 title: Recap of the Dec 2015 PowerShell Editor Services Hack Week
-author: David Wilson
 authors:
   - David Wilson
 date: "2015-12-16T01:30:17+00:00"

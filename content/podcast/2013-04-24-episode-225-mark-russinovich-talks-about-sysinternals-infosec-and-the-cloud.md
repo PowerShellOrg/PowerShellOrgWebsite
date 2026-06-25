@@ -1,6 +1,5 @@
 ---
 title: Episode 225 – Mark Russinovich talks about Sysinternals, Infosec, and the Cloud
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-25T02:57:11+00:00"

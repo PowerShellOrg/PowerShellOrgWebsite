@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast The eye of the Tyger: Clayton Tyger, A PowerShell Rising Star"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

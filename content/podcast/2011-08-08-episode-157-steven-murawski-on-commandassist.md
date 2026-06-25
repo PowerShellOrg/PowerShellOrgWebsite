@@ -1,6 +1,5 @@
 ---
 title: Episode 157 – Steven Murawski on CommandAssist
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-09T04:21:37+00:00"

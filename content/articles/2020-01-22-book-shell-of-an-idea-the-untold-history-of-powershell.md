@@ -1,6 +1,5 @@
 ---
 title: "Book: \"Shell of an Idea,\" the Untold History of PowerShell"
-author: Don Jones
 authors:
   - Don Jones
 date: "2020-01-22T16:42:23+00:00"

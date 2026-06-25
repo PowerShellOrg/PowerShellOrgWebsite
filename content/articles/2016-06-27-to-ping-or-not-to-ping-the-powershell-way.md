@@ -1,6 +1,5 @@
 ---
 title: To ping or not to ping..The PowerShell way
-author: Graham Beer
 authors:
   - Graham Beer
 date: "2016-06-27T20:29:29+00:00"

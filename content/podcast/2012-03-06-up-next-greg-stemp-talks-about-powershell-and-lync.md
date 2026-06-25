@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Greg Stemp talks about PowerShell and Lync!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-06T17:31:00+00:00"

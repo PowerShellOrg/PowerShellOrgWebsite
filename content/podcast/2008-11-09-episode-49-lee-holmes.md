@@ -1,6 +1,5 @@
 ---
 title: Episode 48 – Lee Holmes
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-10T03:22:19+00:00"

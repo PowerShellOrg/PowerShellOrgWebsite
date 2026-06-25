@@ -1,6 +1,5 @@
 ---
 title: Philadelphia PowerShell User Group Meeting – July 7th 2015
-author: John Mello
 authors:
   - John Mello
 date: "2015-06-17T01:30:48+00:00"

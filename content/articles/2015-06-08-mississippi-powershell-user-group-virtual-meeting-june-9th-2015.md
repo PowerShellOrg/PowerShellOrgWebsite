@@ -1,6 +1,5 @@
 ---
 title: Mississippi PowerShell User Group Virtual Meeting – June 9th 2015
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-06-08T13:46:23+00:00"

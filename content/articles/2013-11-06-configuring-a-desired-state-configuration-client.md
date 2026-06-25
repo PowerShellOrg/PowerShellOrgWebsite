@@ -1,6 +1,5 @@
 ---
 title: Configuring a Desired State Configuration Client
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-11-06T23:47:22+00:00"

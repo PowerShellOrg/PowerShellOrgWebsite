@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Tip from the Head Coach of the 2014 Winter Scripting Games: Design for Performance and Efficiency!"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2014-01-23T14:28:33+00:00"

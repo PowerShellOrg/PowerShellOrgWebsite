@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From ISE Anxiety to VS Code Every Day with Paula Kingsley
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Paula Kingsley

@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequel: Puzzle 6 commentary"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-02-25T00:03:29+00:00"

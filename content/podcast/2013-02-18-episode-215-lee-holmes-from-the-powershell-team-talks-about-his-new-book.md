@@ -1,6 +1,5 @@
 ---
 title: Episode 215 – Lee Holmes from the PowerShell team talks about his new book
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-19T03:37:27+00:00"

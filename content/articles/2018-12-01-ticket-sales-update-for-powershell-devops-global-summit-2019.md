@@ -1,6 +1,5 @@
 ---
 title: Ticket Sales Update for PowerShell + DevOps Global Summit 2019
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-12-01T16:22:33+00:00"

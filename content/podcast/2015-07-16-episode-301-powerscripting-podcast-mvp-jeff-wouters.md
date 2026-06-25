@@ -1,6 +1,5 @@
 ---
 title: Episode 301 – PowerScripting Podcast – MVP Jeff Wouters
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-07-17T03:24:58+00:00"

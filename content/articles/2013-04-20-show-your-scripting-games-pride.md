@@ -1,6 +1,5 @@
 ---
 title: Show Your Scripting Games Pride!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-20T15:06:24+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 180 – Rich Prescott is Creating Admin Tools With PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-27T03:16:02+00:00"

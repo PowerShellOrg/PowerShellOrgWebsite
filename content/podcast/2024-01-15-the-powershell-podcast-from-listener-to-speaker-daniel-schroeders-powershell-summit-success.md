@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Listener to Speaker: Daniel Schroeder’s PowerShell Summit Success"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-01-15T15:23:51+00:00"

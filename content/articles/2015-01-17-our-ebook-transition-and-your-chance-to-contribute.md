@@ -1,6 +1,5 @@
 ---
 title: Our eBook Transition – and Your Chance to Contribute!
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-01-17T16:26:37+00:00"

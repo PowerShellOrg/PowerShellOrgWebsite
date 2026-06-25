@@ -1,6 +1,5 @@
 ---
 title: Episode 276 – PowerScripting Podcast – Josh Atwell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-07-08T03:02:37+00:00"

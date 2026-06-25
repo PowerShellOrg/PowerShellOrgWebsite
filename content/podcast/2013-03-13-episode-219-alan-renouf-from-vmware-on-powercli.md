@@ -1,6 +1,5 @@
 ---
 title: Episode 219 – Alan Renouf from VMware on PowerCLI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-14T04:37:25+00:00"

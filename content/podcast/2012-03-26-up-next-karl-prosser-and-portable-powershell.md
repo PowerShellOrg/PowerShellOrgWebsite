@@ -1,6 +1,5 @@
 ---
 title: Up Next Karl Prosser and Portable PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-26T15:00:00+00:00"

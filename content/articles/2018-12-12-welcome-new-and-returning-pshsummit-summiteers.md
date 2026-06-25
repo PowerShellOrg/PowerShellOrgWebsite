@@ -1,6 +1,5 @@
 ---
 title: Welcome, New and Returning @PSHSummit Summiteers!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-12-12T15:40:16+00:00"

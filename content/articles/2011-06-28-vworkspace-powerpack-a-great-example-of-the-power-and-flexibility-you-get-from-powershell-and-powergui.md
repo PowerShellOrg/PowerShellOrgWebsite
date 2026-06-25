@@ -1,6 +1,5 @@
 ---
 title: "vWorkspace PowerPack: A great example of the power and flexibility you get from PowerShell and PowerGUI®"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-06-28T16:13:26+00:00"

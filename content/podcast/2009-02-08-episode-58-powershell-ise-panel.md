@@ -1,6 +1,5 @@
 ---
 title: Episode 58 – PowerShell ISE panel
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-09T04:03:40+00:00"

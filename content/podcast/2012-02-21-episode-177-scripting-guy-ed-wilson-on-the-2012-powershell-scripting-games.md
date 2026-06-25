@@ -1,6 +1,5 @@
 ---
 title: Episode 177 – Scripting Guy Ed Wilson on the 2012 PowerShell Scripting Games
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-21T05:22:58+00:00"

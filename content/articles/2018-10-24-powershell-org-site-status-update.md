@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Site Status Update
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-10-24T17:45:55+00:00"

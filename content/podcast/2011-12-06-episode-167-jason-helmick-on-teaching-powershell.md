@@ -1,6 +1,5 @@
 ---
 title: Episode 167 – Jason Helmick on Teaching PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-06T06:09:33+00:00"

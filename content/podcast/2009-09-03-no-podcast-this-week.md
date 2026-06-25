@@ -1,6 +1,5 @@
 ---
 title: No Podcast This Week
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-09-04T00:42:45+00:00"

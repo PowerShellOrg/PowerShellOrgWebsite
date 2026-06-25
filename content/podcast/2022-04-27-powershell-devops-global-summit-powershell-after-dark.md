@@ -1,6 +1,5 @@
 ---
 title: PowerShell & DevOps Global Summit (PowerShell After Dark)
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

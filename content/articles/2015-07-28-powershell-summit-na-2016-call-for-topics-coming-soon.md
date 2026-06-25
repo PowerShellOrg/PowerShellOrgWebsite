@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit NA 2016 – call for topics coming soon
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2015-07-28T15:28:45+00:00"

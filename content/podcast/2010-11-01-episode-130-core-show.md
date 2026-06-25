@@ -1,6 +1,5 @@
 ---
 title: Episode 130 – Core Show
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-11-02T02:58:42+00:00"

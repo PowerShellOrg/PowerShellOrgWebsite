@@ -1,6 +1,5 @@
 ---
 title: Back to Normal Next Week!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-09-20T12:30:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Forums Etiquette
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-27T17:19:13+00:00"

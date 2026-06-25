@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Tip #3 from the Winner of the Advanced Category in the 2013 Scripting Games"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2014-01-16T14:18:54+00:00"

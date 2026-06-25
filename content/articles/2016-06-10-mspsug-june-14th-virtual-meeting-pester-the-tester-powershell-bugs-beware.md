@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG June 14th Virtual Meeting: Pester the Tester PowerShell Bugs Beware!"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2016-06-10T15:47:52+00:00"

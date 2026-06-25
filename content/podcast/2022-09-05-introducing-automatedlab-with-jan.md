@@ -1,6 +1,5 @@
 ---
 title: Introducing AutomatedLab with Jan
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

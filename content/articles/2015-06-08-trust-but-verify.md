@@ -1,6 +1,5 @@
 ---
 title: Trust, but Verify
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-06-09T00:12:33+00:00"

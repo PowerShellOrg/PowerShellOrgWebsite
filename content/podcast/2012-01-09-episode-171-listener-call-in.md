@@ -1,6 +1,5 @@
 ---
 title: Episode 171 – Listener Call-In
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-10T04:24:15+00:00"

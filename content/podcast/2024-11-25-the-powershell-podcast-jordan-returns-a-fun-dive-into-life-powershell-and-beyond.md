@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Jordan Returns: A Fun Dive into Life, PowerShell, and Beyond"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-11-25T15:09:59+00:00"

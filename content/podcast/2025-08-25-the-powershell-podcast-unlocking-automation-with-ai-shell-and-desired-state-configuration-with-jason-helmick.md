@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Unlocking Automation with AI Shell and Desired State Configuration with Jason Helmick
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-08-25T14:47:47+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring Cybersecurity with PowerShell and John Hammond
-author: Andrew Pla
 authors:
   - Andrew Pla
   - John Hammond

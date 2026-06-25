@@ -1,6 +1,5 @@
 ---
 title: Drinking From The Firehose Of Knowledge With Justin Grote
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

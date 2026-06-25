@@ -1,6 +1,5 @@
 ---
 title: Dex Knows – With Dan Franciscus
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

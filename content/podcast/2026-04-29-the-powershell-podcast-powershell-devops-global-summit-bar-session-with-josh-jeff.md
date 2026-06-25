@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell & DevOps Global Summit Bar session with Josh & Jeff
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2026-04-29T14:00:00+00:00"

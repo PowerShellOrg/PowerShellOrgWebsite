@@ -1,6 +1,5 @@
 ---
 title: New Summer Schedule for the Live Show! (no show tonight)
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-02T17:27:44+00:00"

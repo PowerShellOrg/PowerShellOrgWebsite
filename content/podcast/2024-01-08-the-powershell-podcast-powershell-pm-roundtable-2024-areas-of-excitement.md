@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell PM Roundtable: 2024 Areas of Excitement"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-01-08T15:47:18+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Submit Your Active Directory & Citrix Questions!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-24T12:04:28+00:00"

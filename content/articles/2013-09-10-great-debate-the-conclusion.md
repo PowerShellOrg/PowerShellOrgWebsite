@@ -1,6 +1,5 @@
 ---
 title: "Great Debate: The Conclusion"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-10T20:23:57+00:00"

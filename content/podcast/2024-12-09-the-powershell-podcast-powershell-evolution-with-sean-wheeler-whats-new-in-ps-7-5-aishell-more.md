@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell Evolution with Sean Wheeler: What’s new in PS 7.5, AIShell, & More!"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Sean Wheeler

@@ -1,6 +1,5 @@
 ---
 title: Nominate Your PowerShell Hero
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-20T17:02:18+00:00"

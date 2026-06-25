@@ -1,6 +1,5 @@
 ---
 title: "Winter Scripting Games: More Feedback Needed"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-13T00:33:29+00:00"

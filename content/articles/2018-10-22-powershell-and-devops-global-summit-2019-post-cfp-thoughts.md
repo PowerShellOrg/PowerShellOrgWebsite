@@ -1,6 +1,5 @@
 ---
 title: PowerShell and DevOps Global Summit 2019 – Post-CFP Thoughts
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2018-10-22T08:00:49+00:00"

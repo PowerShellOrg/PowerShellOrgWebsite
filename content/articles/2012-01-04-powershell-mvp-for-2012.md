@@ -1,6 +1,5 @@
 ---
 title: PowerShell MVP for 2012
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-01-04T17:51:39+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Come to PowerShell Summer School!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-01T22:11:31+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "DevOps:  A Career Changer"
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2017-01-13T16:02:18+00:00"

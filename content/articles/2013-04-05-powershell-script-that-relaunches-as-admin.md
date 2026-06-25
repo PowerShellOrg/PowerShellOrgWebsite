@@ -1,6 +1,5 @@
 ---
 title: PowerShell Script that Relaunches as Admin
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2013-04-05T15:08:17+00:00"

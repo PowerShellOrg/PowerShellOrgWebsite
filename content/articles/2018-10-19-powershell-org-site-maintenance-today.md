@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Site Maintenance Today
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-10-19T14:27:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 232 – PowerScripting Podcast – Thomas Kisner on Lync and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-23T14:07:45+00:00"

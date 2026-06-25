@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Credentials"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-23T17:47:45+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: PowerShell Week of 12-October-2018"
-author: Greg Tate
 authors:
   - Greg Tate
 date: "2018-10-12T15:00:00+00:00"

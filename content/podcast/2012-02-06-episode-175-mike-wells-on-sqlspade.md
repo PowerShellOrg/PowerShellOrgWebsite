@@ -1,6 +1,5 @@
 ---
 title: Episode 175 – Mike Wells on SQLSpade
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-07T04:44:57+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 109 – v2 Expert Panel
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-04-12T02:44:06+00:00"

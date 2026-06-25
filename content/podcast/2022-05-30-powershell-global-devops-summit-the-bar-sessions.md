@@ -1,6 +1,5 @@
 ---
 title: PowerShell & Global DevOps Summit. The Bar Sessions.
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

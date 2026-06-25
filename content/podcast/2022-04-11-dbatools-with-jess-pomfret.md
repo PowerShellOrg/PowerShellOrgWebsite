@@ -1,6 +1,5 @@
 ---
 title: DBATools with Jess Pomfret
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

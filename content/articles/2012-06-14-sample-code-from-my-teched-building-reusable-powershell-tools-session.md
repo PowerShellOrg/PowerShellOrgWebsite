@@ -1,6 +1,5 @@
 ---
 title: "Sample Code from my TechEd \"Building Reusable PowerShell Tools\" Session"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-14T08:48:00+00:00"

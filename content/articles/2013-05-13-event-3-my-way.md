@@ -1,6 +1,5 @@
 ---
 title: "Event 3: My way…"
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-05-14T07:09:35+00:00"

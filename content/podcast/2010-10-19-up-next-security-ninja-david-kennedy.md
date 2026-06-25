@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Security Ninja David Kennedy!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-10-20T02:48:49+00:00"

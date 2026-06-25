@@ -1,6 +1,5 @@
 ---
 title: Up Next Randy Roffey from Silect Software talks about MP Studio for OpsMgr
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-07T20:35:00+00:00"

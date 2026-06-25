@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Piping in a Script"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-16T17:40:09+00:00"

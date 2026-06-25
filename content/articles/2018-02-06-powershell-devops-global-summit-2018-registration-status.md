@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit 2018 Registration Status
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-02-06T22:21:11+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Bonus Episode – The Missing Interviews
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-23T03:42:11+00:00"

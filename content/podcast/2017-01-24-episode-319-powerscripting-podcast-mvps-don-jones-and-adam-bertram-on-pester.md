@@ -1,6 +1,5 @@
 ---
 title: Episode 319 – PowerScripting Podcast – MVPs Don Jones and Adam Bertram on Pester
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2017-01-24T02:59:29+00:00"

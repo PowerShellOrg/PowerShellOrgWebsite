@@ -1,6 +1,5 @@
 ---
 title: "Episode 32 \"“ Citrix does PowerShell"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-07-07T12:19:18+00:00"

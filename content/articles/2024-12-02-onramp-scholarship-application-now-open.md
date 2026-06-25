@@ -1,6 +1,5 @@
 ---
 title: OnRamp Scholarship Application Now Open
-author: James Petty
 authors:
   - James Petty
 date: "2024-12-02T15:20:46+00:00"

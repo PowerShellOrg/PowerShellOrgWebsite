@@ -1,6 +1,5 @@
 ---
 title: The New PowerShell.org Logo (and eBooks! and Swag!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-10-29T14:37:27+00:00"

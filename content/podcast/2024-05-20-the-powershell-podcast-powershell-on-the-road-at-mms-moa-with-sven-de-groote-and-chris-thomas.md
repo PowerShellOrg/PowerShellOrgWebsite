@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell on the road at MMS-MOA with Sven De Groote and Chris Thomas
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Sven De Groote

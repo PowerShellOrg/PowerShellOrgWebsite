@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Josh Heller from Cisco!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-11T14:00:00+00:00"

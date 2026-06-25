@@ -1,6 +1,5 @@
 ---
 title: "Let's Make a PowerShell Job Interview Quiz. C'mon and Help."
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-01-06T23:51:30+00:00"

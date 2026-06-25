@@ -1,6 +1,5 @@
 ---
 title: "PowerShell \"Scripting and Toolmaking\" Classroom Training Course Now Available to Microsoft Training Centers"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-28T17:11:03+00:00"

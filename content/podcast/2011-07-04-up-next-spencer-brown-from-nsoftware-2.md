@@ -1,6 +1,5 @@
 ---
 title: Up Next Spencer Brown from nSoftware
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-05T02:04:00+00:00"

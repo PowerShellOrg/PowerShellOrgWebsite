@@ -1,6 +1,5 @@
 ---
 title: "UP NEXT: NuGet discussion with Phil Haack and Andrew Nurse from Microsoft"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Phil Haack

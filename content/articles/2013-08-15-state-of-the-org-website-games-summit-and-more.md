@@ -1,6 +1,5 @@
 ---
 title: "State of the Org: Website, Games, Summit, and More"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-15T14:39:23+00:00"

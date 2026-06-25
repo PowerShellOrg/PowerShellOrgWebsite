@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: \"Fixing\" Output"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-27T14:11:31+00:00"

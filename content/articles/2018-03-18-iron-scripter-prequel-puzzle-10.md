@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter prequel: Puzzle 10"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-03-18T00:01:59+00:00"

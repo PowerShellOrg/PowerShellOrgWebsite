@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Snover School: FANCY Wildcards"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-19T20:13:00+00:00"

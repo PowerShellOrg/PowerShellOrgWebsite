@@ -1,6 +1,5 @@
 ---
 title: 20115-September Scripting Games Puzzle
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-09-05T13:26:02+00:00"

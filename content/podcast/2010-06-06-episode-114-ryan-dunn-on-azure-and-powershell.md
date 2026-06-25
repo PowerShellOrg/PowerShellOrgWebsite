@@ -1,6 +1,5 @@
 ---
 title: Episode 114 – Ryan Dunn on Azure and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-07T01:10:20+00:00"

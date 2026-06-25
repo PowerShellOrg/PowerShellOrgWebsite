@@ -1,6 +1,5 @@
 ---
 title: "Select-String \"“ finding the first and last matches"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-09T17:55:40+00:00"

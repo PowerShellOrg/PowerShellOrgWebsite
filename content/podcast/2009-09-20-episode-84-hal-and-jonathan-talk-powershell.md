@@ -1,6 +1,5 @@
 ---
 title: Episode 84 – Hal and Jonathan talk PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-09-20T22:58:38+00:00"

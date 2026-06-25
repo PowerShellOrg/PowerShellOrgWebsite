@@ -1,6 +1,5 @@
 ---
 title: Documenting your PowerShell API–solved!
-author: msorens
 authors:
   - msorens
 date: "2016-04-29T22:01:52+00:00"

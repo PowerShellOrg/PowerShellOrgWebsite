@@ -1,6 +1,5 @@
 ---
 title: Scheduled PowerShell.org Maintenance May 17-18
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-17T00:04:59+00:00"

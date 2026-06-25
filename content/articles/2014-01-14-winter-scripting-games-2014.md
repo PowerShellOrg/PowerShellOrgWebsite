@@ -1,6 +1,5 @@
 ---
 title: Winter Scripting Games 2014
-author: Jonathan Medd
 authors:
   - Jonathan Medd
 date: "2014-01-14T10:00:48+00:00"

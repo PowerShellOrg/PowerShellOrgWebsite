@@ -1,6 +1,5 @@
 ---
 title: WMF compatibility
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2012-12-20T16:18:43+00:00"

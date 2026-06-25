@@ -1,6 +1,5 @@
 ---
 title: Tonight! Sharepoint 2010 with MVP Gary Lapointe
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Gary Lapointe

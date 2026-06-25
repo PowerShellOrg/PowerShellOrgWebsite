@@ -1,6 +1,5 @@
 ---
 title: Episode 164 – Jim Hofer and Kirk Munro from Devfarm
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-31T03:24:07+00:00"

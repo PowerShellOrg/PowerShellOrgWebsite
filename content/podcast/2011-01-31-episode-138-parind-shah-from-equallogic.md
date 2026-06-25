@@ -1,6 +1,5 @@
 ---
 title: Episode 138 – Parind Shah from EqualLogic
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-02-01T02:52:38+00:00"

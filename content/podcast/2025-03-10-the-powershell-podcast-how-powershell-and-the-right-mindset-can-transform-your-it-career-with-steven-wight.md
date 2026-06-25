@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast How PowerShell and the Right Mindset Can Transform Your IT Career with Steven Wight
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Wight

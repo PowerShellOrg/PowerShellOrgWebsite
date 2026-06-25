@@ -1,6 +1,5 @@
 ---
 title: Episode 64 – Fred Baptiste brings us PolyMon and PolyMonRT
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-30T02:23:01+00:00"

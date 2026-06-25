@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – David R
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-04-10T21:15:50+00:00"

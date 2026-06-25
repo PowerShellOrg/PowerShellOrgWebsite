@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe Registration
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-02-20T14:35:03+00:00"

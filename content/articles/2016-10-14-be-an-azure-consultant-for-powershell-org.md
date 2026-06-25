@@ -1,6 +1,5 @@
 ---
 title: Be an Azure Consultant for PowerShell.org!
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-10-14T22:14:54+00:00"

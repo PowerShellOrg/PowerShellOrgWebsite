@@ -1,6 +1,5 @@
 ---
 title: Can we do this while exhausted with Andrew, Jordan, and JJ
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: "Network Adapters\"“Disable/Enable"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-11T20:09:06+00:00"

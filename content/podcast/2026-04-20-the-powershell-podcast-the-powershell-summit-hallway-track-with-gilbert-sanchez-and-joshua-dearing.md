@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The PowerShell Summit Hallway Track with Gilbert Sanchez and Joshua Dearing
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Gilbert Sanchez

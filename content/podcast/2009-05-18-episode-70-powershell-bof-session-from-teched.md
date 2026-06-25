@@ -1,6 +1,5 @@
 ---
 title: Episode 70 – PowerShell BOF Session from TechEd
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-05-19T00:22:13+00:00"

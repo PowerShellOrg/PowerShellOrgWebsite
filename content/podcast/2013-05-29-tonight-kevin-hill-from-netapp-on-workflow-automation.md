@@ -1,6 +1,5 @@
 ---
 title: Tonight! Kevin Hill from NetApp on Workflow Automation!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-29T16:15:05+00:00"

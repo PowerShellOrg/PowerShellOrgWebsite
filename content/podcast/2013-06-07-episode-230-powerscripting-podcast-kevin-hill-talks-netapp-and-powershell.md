@@ -1,6 +1,5 @@
 ---
 title: Episode 230 – PowerScripting Podcast – Kevin Hill talks NetApp and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-06-07T17:24:43+00:00"

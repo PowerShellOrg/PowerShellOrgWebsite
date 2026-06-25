@@ -1,6 +1,5 @@
 ---
 title: Scripting Games warm up
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-05T19:47:01+00:00"

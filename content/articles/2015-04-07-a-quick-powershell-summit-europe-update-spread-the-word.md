@@ -1,6 +1,5 @@
 ---
 title: A Quick PowerShell Summit Europe Update (spread the word!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-07T14:52:16+00:00"

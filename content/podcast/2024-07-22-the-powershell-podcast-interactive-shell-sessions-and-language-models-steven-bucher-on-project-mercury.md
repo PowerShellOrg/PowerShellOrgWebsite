@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Interactive Shell Sessions and Language Models: Steven Bucher on Project Mercury"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Bucher

@@ -1,6 +1,5 @@
 ---
 title: MVPs and Stars with Barbara 4rbes
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

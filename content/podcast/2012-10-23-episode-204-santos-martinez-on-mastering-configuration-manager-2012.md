@@ -1,6 +1,5 @@
 ---
 title: Episode 204 – Santos Martinez on Mastering Configuration Manager 2012
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-24T03:01:16+00:00"

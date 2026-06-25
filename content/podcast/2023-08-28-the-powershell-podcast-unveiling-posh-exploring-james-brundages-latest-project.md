@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Unveiling Posh: Exploring James Brundage’s Latest Project"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

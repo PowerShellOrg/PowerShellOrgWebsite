@@ -1,6 +1,5 @@
 ---
 title: Winter Scripting Camp Opened to the Public
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-01T22:45:39+00:00"

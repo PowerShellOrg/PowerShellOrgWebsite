@@ -1,6 +1,5 @@
 ---
 title: Upcoming PowerShell Books and How to Get Them
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-26T12:29:00+00:00"

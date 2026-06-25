@@ -1,6 +1,5 @@
 ---
 title: "AD Management in a Month of Lunches\"“ chapter 9 in MEAP"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-29T18:23:15+00:00"

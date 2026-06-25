@@ -1,6 +1,5 @@
 ---
 title: Help me Design the Advanced PowerShell Class!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-12T16:06:39+00:00"

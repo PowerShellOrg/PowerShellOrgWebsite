@@ -1,6 +1,5 @@
 ---
 title: Episode 245 – PowerScripting Podcast – Dan Cunningham on the PowerShell App Deployment Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-10-17T03:55:00+00:00"

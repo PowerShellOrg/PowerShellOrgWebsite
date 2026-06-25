@@ -1,6 +1,5 @@
 ---
 title: "Why Remoting vs. SSH Isn't Even a Thing"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-09T21:13:04+00:00"

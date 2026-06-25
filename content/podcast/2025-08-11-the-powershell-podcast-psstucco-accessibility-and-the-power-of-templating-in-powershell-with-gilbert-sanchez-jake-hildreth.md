@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PSStucco, Accessibility, and the Power of Templating in PowerShell with Gilbert Sanchez & Jake Hildreth
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Gilbert Sanchez

@@ -1,6 +1,5 @@
 ---
 title: Episode 69 – Jason Gallaugher from Rove
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-05-11T03:57:55+00:00"

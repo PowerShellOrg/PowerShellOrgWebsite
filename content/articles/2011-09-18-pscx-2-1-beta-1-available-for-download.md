@@ -1,6 +1,5 @@
 ---
 title: PSCX 2.1 Beta 1 Available for Download
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2011-09-19T04:17:17+00:00"

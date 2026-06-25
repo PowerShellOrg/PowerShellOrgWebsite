@@ -1,6 +1,5 @@
 ---
 title: A date with PowerShell
-author: Graham Beer
 authors:
   - Graham Beer
 date: "2016-08-11T20:42:40+00:00"

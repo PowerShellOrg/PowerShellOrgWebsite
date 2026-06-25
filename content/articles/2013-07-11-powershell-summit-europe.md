@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit… EUROPE?!?!?
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-11T18:47:05+00:00"

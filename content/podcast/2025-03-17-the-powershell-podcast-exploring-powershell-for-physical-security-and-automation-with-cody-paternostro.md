@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring PowerShell for Physical Security and Automation with Cody Paternostro
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Cody Paternostro

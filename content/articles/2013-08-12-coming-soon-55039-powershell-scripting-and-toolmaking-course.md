@@ -1,6 +1,5 @@
 ---
 title: "Coming Soon: 55039 \"PowerShell Scripting and Toolmaking\" Course"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-12T15:23:53+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 23 – IIS7 Special
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-04-26T21:16:33+00:00"

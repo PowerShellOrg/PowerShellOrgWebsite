@@ -1,6 +1,5 @@
 ---
 title: Your Weekend Games Report
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-18T14:05:18+00:00"

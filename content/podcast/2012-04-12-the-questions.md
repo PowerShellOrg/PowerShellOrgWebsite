@@ -1,6 +1,5 @@
 ---
 title: The Questions!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-13T02:45:45+00:00"

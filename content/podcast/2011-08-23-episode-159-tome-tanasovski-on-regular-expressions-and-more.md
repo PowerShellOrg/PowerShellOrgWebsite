@@ -1,6 +1,5 @@
 ---
 title: Episode 159 – Tome Tanasovski on Regular Expressions and More
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-24T04:00:08+00:00"

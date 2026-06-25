@@ -1,6 +1,5 @@
 ---
 title: Episode 112 – Scripting Games 2010 Roundup with Ed Wilson and Joel Bennett
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Ed Wilson

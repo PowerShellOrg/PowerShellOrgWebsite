@@ -1,6 +1,5 @@
 ---
 title: Microsoft announces PowerShell v4, DSC
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-04T14:00:15+00:00"

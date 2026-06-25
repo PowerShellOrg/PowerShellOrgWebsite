@@ -1,6 +1,5 @@
 ---
 title: 2013 Scripting Games Judges
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-06T12:32:23+00:00"

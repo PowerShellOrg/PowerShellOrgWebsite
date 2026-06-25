@@ -1,6 +1,5 @@
 ---
 title: Introducing the Judges for Winter 2014 Scripting Games
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-12-28T15:50:47+00:00"

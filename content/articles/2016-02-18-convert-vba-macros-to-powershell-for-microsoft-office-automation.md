@@ -1,6 +1,5 @@
 ---
 title: Convert VBA Macros To PowerShell for Microsoft Office Automation
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-02-18T14:46:34+00:00"

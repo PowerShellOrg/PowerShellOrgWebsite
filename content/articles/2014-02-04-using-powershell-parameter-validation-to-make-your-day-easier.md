@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell Parameter Validation to Make Your Day Easier
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2014-02-05T03:59:24+00:00"

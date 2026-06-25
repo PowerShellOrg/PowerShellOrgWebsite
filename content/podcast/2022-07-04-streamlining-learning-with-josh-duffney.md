@@ -1,6 +1,5 @@
 ---
 title: Streamlining Learning with Josh Duffney
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

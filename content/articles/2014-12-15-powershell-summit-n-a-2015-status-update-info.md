@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit N.A. 2015 Status Update & Info
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-12-15T20:01:34+00:00"

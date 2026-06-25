@@ -1,6 +1,5 @@
 ---
 title: Practical PowerShell Unit-Testing
-author: msorens
 authors:
   - msorens
 date: "2016-05-22T20:44:14+00:00"

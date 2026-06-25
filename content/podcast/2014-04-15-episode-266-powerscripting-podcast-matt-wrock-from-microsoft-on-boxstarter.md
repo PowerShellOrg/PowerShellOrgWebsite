@@ -1,6 +1,5 @@
 ---
 title: Episode 266 – PowerScripting Podcast – Matt Wrock from Microsoft on BoxStarter
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-04-16T04:31:37+00:00"

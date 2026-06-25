@@ -1,6 +1,5 @@
 ---
 title: Registration for European Summit 2014 is open
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-07-15T08:15:52+00:00"

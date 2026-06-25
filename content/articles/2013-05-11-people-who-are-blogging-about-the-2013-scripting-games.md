@@ -1,6 +1,5 @@
 ---
 title: People Who are Blogging About the 2013 Scripting Games
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2013-05-11T23:13:49+00:00"

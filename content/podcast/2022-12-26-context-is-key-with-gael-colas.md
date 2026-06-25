@@ -1,6 +1,5 @@
 ---
 title: Context is Key with Gael Colas
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Episode 216 – Jake Robinson and Damian Karlson talk PowerCLI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-27T01:25:11+00:00"

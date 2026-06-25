@@ -1,6 +1,5 @@
 ---
 title: Did you attend the 2013 PowerShell Summit?
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-17T15:45:10+00:00"

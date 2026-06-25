@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Brandon Shell talks about Active Directory in PowerShell V2"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-17T15:09:02+00:00"

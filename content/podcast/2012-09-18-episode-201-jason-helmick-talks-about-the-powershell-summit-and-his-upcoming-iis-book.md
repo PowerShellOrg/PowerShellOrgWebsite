@@ -1,6 +1,5 @@
 ---
 title: Episode 201 – Jason Helmick talks about the PowerShell Summit and his upcoming IIS book
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-19T02:31:29+00:00"

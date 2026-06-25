@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Emrys MacInally Explores PowerShell Error Handling and Module Versioning Strategies
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Emrys MacInally

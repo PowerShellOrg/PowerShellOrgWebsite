@@ -1,6 +1,5 @@
 ---
 title: "Julie's Comments: The Scripting Games – Winter 2014"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-02-19T22:00:00+00:00"

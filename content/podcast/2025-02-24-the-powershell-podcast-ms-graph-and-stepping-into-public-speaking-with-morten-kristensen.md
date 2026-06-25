@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast MS Graph and Stepping into Public Speaking with Morten Kristensen
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Morten Kristensen

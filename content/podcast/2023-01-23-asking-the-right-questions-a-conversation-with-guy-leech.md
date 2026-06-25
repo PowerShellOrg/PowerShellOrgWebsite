@@ -1,6 +1,5 @@
 ---
 title: "Asking the Right Questions: A Conversation with Guy Leech"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

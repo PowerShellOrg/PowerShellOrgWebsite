@@ -1,6 +1,5 @@
 ---
 title: Tips for Writing Cross-Platform PowerShell Code
-author: Aaron Jensen
 authors:
   - Aaron Jensen
 date: "2019-02-14T18:17:40+00:00"

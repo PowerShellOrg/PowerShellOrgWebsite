@@ -1,6 +1,5 @@
 ---
 title: "Want to be VERIFIED EFFECTIVE for PowerShell? Here's what to expect."
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-05T20:24:27+00:00"

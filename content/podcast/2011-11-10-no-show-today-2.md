@@ -1,6 +1,5 @@
 ---
 title: No show today
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-11-11T00:46:21+00:00"

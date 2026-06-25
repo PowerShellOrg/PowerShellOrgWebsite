@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Exchange with MVP Michael Smith and More!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Michael Smith

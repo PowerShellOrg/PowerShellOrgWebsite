@@ -1,6 +1,5 @@
 ---
 title: Episode 281 – PowerScripting Podcast – Robert Cain on SQL and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-08-19T02:41:30+00:00"

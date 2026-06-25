@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit City Selection Criteria
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-16T17:40:13+00:00"

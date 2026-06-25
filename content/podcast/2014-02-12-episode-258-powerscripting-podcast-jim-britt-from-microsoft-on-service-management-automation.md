@@ -1,6 +1,5 @@
 ---
 title: Episode 258 – PowerScripting Podcast – Jim Britt from Microsoft on Service Management Automation
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-02-13T05:21:18+00:00"

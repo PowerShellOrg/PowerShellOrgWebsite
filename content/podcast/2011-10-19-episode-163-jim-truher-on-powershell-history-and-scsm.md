@@ -1,6 +1,5 @@
 ---
 title: Episode 163 – Jim Truher on PowerShell History and SCSM
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-20T04:09:20+00:00"

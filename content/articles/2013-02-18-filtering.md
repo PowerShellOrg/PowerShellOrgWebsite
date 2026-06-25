@@ -1,6 +1,5 @@
 ---
 title: Filtering
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-18T19:38:41+00:00"

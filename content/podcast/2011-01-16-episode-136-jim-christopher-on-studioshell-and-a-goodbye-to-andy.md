@@ -1,6 +1,5 @@
 ---
 title: Episode 136 – Jim Christopher on StudioShell and a Goodbye to Andy
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-16T22:04:16+00:00"

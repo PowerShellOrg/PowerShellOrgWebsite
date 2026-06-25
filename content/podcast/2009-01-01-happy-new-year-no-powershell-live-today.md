@@ -1,6 +1,5 @@
 ---
 title: Happy New Year! No PowerShell Live Today
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-01T23:20:49+00:00"

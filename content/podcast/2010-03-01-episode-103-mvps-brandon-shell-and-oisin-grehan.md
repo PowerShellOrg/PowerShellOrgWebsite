@@ -1,6 +1,5 @@
 ---
 title: Episode 103 – MVPs Brandon Shell and Oisin Grehan
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-03-01T05:02:16+00:00"

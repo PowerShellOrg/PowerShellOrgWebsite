@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Adam Driscoll with Quest Software"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-21T12:59:00+00:00"

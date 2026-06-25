@@ -1,6 +1,5 @@
 ---
 title: Episode 42 – with Greg Shields
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Greg Shields

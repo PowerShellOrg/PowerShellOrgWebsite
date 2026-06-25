@@ -1,6 +1,5 @@
 ---
 title: Installing PowerShell v5? Be a Little Careful, OK?
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-21T17:37:46+00:00"

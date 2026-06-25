@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Brandon Shell talks about Splunk"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-11-01T15:57:00+00:00"

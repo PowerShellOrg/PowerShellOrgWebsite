@@ -1,6 +1,5 @@
 ---
 title: Serve on the Board of PowerShell.org!
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-04-17T13:59:56+00:00"

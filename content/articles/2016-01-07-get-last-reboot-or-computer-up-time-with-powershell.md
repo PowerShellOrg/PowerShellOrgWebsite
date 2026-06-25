@@ -1,6 +1,5 @@
 ---
 title: Get Last Reboot or Computer Up Time With PowerShell
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-01-07T14:20:24+00:00"

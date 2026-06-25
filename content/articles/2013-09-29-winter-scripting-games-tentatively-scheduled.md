@@ -1,6 +1,5 @@
 ---
 title: Winter Scripting Games Tentatively Scheduled
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-29T16:34:46+00:00"

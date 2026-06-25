@@ -1,6 +1,5 @@
 ---
 title: January Charlotte PowerShell User Group Meeting
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2013-12-27T14:15:39+00:00"

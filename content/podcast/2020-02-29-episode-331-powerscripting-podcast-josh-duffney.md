@@ -1,6 +1,5 @@
 ---
 title: Episode 331 – PowerScripting Podcast – Josh Duffney
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Josh Duffney

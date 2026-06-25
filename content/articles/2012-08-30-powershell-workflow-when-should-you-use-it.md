@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Workflow: When Should You Use It?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-08-30T16:29:19+00:00"

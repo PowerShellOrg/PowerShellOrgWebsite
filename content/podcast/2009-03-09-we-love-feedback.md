@@ -1,6 +1,5 @@
 ---
 title: We Love Feedback
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-09T18:11:57+00:00"

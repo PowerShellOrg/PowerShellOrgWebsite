@@ -1,6 +1,5 @@
 ---
 title: Up Next Don Jones is back to talk about Learn PowerShell in a Month of Lunches and more
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-11-07T14:01:00+00:00"

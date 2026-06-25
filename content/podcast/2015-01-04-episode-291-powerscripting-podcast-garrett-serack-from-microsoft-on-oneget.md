@@ -1,6 +1,5 @@
 ---
 title: Episode 291 – PowerScripting Podcast – Garrett Serack from Microsoft on OneGet
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-01-05T03:40:30+00:00"

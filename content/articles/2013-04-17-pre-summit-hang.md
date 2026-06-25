@@ -1,6 +1,5 @@
 ---
 title: Pre-Summit Hang
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-18T01:15:57+00:00"

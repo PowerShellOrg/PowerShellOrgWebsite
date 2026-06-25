@@ -1,6 +1,5 @@
 ---
 title: NYC User Group Restart!
-author: Sunny Chakraborty
 authors:
   - Sunny Chakraborty
 date: "2015-05-07T18:52:22+00:00"

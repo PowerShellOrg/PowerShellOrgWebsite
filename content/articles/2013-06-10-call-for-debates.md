@@ -1,6 +1,5 @@
 ---
 title: Call for Debates!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-10T14:20:00+00:00"

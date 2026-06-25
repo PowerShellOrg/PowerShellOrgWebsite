@@ -1,6 +1,5 @@
 ---
 title: Episode 147 – The 2011 Scripting Games Champions
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-05-12T04:02:33+00:00"

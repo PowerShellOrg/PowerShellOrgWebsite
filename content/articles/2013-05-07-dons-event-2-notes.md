@@ -1,6 +1,5 @@
 ---
 title: "Don's Event 2 Notes"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-07T23:02:02+00:00"

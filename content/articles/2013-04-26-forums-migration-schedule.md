@@ -1,6 +1,5 @@
 ---
 title: Forums Migration Schedule
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-26T18:08:39+00:00"

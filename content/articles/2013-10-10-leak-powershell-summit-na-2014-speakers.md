@@ -1,6 +1,5 @@
 ---
 title: "LEAK: PowerShell Summit NA 2014 Speakers"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-10T19:21:05+00:00"

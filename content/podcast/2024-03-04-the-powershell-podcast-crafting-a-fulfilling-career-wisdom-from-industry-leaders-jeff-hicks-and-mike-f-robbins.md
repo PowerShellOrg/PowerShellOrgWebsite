@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Crafting a Fulfilling Career: Wisdom from Industry Leaders Jeff Hicks and Mike F. Robbins"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeffery Hicks

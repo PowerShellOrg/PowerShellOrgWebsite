@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Summit 2018 schedule
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-10-24T20:15:26+00:00"

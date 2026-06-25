@@ -1,6 +1,5 @@
 ---
 title: Episode 287 – PowerScripting Podcast – MVP Kirk Munro on PowerShellGet
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-10-21T03:17:06+00:00"

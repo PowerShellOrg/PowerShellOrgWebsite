@@ -1,6 +1,5 @@
 ---
 title: And the Norweigian judge says…
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-01T20:22:12+00:00"

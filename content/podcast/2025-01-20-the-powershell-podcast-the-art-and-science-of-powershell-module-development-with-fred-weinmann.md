@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Art and Science of PowerShell Module Development with Fred Weinmann
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Fred Weinmann

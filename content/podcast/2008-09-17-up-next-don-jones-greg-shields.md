@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Don Jones & Greg Shields!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-17T12:19:39+00:00"

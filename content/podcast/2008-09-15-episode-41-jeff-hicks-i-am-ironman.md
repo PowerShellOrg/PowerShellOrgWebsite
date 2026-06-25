@@ -1,6 +1,5 @@
 ---
 title: "Episode 41 – Jeff Hicks \"I am Ironman\""
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-16T02:49:35+00:00"

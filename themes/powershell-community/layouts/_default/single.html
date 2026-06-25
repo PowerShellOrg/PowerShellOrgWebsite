@@ -48,7 +48,7 @@
             <!-- Author and Reading Time -->
             <div class="flex items-center justify-between">
                 <div class="flex items-center space-x-4">
-                    {{ with .Params.author }}
+                    {{ with (index .Params.authors 0) }}
                     {{ $authorPage := site.GetPage (printf "/authors/%s" (. | urlize)) }}
                     <div class="flex items-center text-gray-600">
                         {{ partial "author-avatar.html" (dict "page" $authorPage "name" . "size" 64 "class" "w-8 h-8 rounded-full object-cover mr-3") }}

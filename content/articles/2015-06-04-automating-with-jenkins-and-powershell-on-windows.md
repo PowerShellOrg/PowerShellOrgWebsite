@@ -1,6 +1,5 @@
 ---
 title: Automating with Jenkins and PowerShell on Windows
-author: Matthew Hodgkins
 authors:
   - Matthew Hodgkins
 date: "2015-06-05T01:31:32+00:00"

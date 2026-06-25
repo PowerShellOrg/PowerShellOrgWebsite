@@ -1,6 +1,5 @@
 ---
 title: I need YOUR PowerShell Stories
-author: Adam Bertram
 authors:
   - Adam Bertram
 date: "2015-06-30T18:57:25+00:00"

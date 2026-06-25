@@ -1,6 +1,5 @@
 ---
 title: Episode 194 – MVP Don Jones on his new books and more
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-24T03:15:39+00:00"

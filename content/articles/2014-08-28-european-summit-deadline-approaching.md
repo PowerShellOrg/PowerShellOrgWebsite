@@ -1,6 +1,5 @@
 ---
 title: European Summit deadline approaching
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-08-28T17:23:53+00:00"

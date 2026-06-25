@@ -1,6 +1,5 @@
 ---
 title: Up Next Jeffery Hicks joins us to talk about PowerShell Fundamentals
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-21T13:41:00+00:00"

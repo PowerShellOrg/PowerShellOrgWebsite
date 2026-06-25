@@ -1,6 +1,5 @@
 ---
 title: "PowerShell V3 \"“ ObsoleteAttribute"
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2012-04-30T04:39:06+00:00"

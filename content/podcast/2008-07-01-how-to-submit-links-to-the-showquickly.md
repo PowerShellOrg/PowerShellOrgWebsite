@@ -1,6 +1,5 @@
 ---
 title: "How to Submit Links to the Show\"”Quickly!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-07-01T13:03:58+00:00"

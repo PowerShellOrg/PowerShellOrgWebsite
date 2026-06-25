@@ -1,6 +1,5 @@
 ---
 title: Episode 126 – Just Hal and Jon
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-09-27T02:29:28+00:00"

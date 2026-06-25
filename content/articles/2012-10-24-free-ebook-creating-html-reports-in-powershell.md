@@ -1,6 +1,5 @@
 ---
 title: "Free eBook: Creating HTML Reports in PowerShell"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-10-24T19:52:35+00:00"

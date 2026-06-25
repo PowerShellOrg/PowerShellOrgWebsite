@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building PowerShell Tools You Wish Existed with Jorge Suarez
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jorge Suarez

@@ -1,6 +1,5 @@
 ---
 title: Episode 332 – PowerScripting Podcast – Dr. Tobias Weltner
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Tobias Weltner

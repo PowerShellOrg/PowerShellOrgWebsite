@@ -1,6 +1,5 @@
 ---
 title: Episode 173 – Greg Shields and the IT Industry in 2012
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-24T03:28:47+00:00"

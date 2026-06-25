@@ -1,6 +1,5 @@
 ---
 title: Episode 247 – PowerScripting Podcast – MVP Joel Bennett on a PowerShell Package Manager
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-11-11T01:55:36+00:00"

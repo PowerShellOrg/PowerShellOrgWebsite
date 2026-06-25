@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: \"Scripting Guy\" Ed Wilson"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-25T18:24:40+00:00"

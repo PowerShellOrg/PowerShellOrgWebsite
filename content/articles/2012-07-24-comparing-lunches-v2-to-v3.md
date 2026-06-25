@@ -1,6 +1,5 @@
 ---
 title: "Comparing \"Lunches:\" v2 to v3"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-24T16:24:00+00:00"

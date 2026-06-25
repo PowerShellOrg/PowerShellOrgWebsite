@@ -1,6 +1,5 @@
 ---
 title: Windows 2008 Server launch event in Atlanta
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-02-20T14:10:43+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Time for D-CRUD?
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-28T17:52:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Post-Summit Note
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-04-13T21:30:54+00:00"

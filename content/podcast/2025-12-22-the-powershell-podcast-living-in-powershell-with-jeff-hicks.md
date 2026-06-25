@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Living in PowerShell with Jeff Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeff Hicks

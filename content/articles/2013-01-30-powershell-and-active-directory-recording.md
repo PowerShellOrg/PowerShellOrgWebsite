@@ -1,6 +1,5 @@
 ---
 title: PowerShell and Active Directory recording
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-30T22:05:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: TechEd N.A. 2014 Session Recordings
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-15T20:50:50+00:00"

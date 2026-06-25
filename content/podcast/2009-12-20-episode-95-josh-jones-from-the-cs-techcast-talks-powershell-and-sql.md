@@ -1,6 +1,5 @@
 ---
 title: Episode 95-Josh Jones From the CS Techcast Talks PowerShell and SQL
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-12-21T03:54:38+00:00"

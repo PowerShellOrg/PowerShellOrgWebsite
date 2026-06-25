@@ -1,6 +1,5 @@
 ---
 title: OnRamp Scholarship open to non-US Applicants
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-06-27T19:41:02+00:00"

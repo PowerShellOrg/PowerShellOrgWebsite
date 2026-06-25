@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Week 5
-author: Glenn Sizemore
 authors:
   - Glenn Sizemore
 date: "2013-05-31T15:02:17+00:00"

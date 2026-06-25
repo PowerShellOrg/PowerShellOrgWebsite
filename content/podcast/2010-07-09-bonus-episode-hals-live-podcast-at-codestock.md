@@ -1,6 +1,5 @@
 ---
 title: "Bonus Episode – Hal's Live Podcast at CodeStock"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-10T03:27:53+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Instructions for PowerShell Summit North America 2015 Registration
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-23T19:28:11+00:00"

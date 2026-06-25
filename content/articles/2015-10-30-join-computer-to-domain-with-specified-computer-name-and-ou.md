@@ -1,6 +1,5 @@
 ---
 title: Join Computer to Domain with Specified Computer Name and OU
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-10-30T18:10:55+00:00"

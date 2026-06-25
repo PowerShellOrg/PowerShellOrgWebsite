@@ -1,6 +1,5 @@
 ---
 title: GET YOUR STICKERS!!! (AND WALLPAPERS!!!) (AND INTERNATIONAL STICKERS!!!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-05-04T21:02:45+00:00"

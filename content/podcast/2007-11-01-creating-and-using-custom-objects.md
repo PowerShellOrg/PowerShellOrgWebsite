@@ -1,6 +1,5 @@
 ---
 title: Creating and using custom objects
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-11-02T01:43:33+00:00"

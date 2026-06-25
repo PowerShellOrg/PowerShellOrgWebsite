@@ -1,6 +1,5 @@
 ---
 title: European PowerShell Summit
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-06-20T07:35:51+00:00"

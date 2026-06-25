@@ -1,6 +1,5 @@
 ---
 title: Creating a PowerShell Module to Improve Your Code
-author: n2501r
 authors:
   - n2501r
 date: "2020-07-27T18:24:52+00:00"

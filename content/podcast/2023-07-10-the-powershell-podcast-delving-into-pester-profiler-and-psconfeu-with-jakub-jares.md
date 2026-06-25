@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Delving into Pester, Profiler, and PSConfEU with Jakub Jareš
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

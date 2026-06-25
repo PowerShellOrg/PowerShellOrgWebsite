@@ -1,6 +1,5 @@
 ---
 title: Why is Remoting Enabled by Default on Windows Server?
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-28T23:16:44+00:00"

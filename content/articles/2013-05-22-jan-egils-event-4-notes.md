@@ -1,6 +1,5 @@
 ---
 title: "Jan Egil's Event 4 Notes"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-22T15:47:46+00:00"

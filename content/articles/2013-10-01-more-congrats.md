@@ -1,6 +1,5 @@
 ---
 title: More Congrats!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-01T19:29:51+00:00"

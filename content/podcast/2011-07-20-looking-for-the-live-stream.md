@@ -1,6 +1,5 @@
 ---
 title: Looking for the live stream?
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-21T01:28:31+00:00"

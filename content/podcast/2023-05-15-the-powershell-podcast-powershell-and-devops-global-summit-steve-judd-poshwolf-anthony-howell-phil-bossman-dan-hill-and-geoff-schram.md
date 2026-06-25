@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell and DevOps Global Summit – Steve Judd, Poshwolf (Anthony Howell), Phil Bossman, Dan Hill, and Geoff Schram
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

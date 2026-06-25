@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit N.A. 2014 – Budget
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-15T15:56:49+00:00"

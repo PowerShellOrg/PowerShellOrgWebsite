@@ -1,6 +1,5 @@
 ---
 title: Join our Facebook Group
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-28T17:26:41+00:00"

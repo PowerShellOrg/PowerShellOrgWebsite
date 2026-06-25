@@ -1,6 +1,5 @@
 ---
 title: Episode 303 – PowerScripting Podcast – Andrew Mason from Microsoft on Nano Server
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-07-20T03:30:01+00:00"

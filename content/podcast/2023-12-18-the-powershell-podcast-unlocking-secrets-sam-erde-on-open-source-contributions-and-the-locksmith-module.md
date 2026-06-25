@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Unlocking Secrets: Sam Erde on Open-Source Contributions and the Locksmith Module"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

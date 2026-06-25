@@ -1,6 +1,5 @@
 ---
 title: Patterns for Implementing a DSC Pull Server Environment
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2014-05-23T13:00:25+00:00"

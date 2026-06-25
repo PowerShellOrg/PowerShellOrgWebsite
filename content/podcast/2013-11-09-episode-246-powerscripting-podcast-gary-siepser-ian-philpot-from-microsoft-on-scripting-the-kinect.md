@@ -1,6 +1,5 @@
 ---
 title: Episode 246 – PowerScripting Podcast – Gary Siepser & Ian Philpot from Microsoft on Scripting the Kinect
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-11-10T05:20:15+00:00"

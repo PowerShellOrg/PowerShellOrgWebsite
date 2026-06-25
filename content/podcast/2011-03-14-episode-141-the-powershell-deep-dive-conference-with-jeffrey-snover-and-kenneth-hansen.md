@@ -1,6 +1,5 @@
 ---
 title: Episode 141 – The PowerShell Deep Dive Conference with Jeffrey Snover and Kenneth Hansen
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

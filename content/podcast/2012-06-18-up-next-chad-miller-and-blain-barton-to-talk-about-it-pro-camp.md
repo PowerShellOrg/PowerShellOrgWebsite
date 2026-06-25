@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Chad Miller and Blain Barton talk about IT Pro Camp!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-06-18T15:46:00+00:00"

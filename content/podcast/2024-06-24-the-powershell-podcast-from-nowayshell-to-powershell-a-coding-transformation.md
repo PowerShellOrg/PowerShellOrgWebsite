@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From NoWayShell to PowerShell: A Coding Transformation"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Josh Hendricks

@@ -1,6 +1,5 @@
 ---
 title: "\"Verified Effective\" About Ready to Go Live"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-18T17:01:32+00:00"

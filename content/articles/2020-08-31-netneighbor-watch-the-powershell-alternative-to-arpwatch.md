@@ -1,6 +1,5 @@
 ---
 title: "NetNeighbor Watch: The PowerShell Alternative To Arpwatch"
-author: n2501r
 authors:
   - n2501r
 date: "2020-08-31T22:12:28+00:00"

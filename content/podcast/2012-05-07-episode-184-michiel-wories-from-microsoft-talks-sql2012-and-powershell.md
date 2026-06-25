@@ -1,6 +1,5 @@
 ---
 title: Episode 184 – Michiel Wories from Microsoft talks SQL2012 and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-05-08T03:57:14+00:00"

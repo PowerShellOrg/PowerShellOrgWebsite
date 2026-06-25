@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From DJ Decks to Cloud Architecture – Shannon Eldridge-Kuehn
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-06-09T14:25:07+00:00"

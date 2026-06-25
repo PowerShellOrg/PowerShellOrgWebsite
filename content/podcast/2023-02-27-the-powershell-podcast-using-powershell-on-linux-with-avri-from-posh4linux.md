@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Using PowerShell on Linux with Avri from Posh4Linux
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Putting it all out there
-author: Liam Kemp
 authors:
   - Liam Kemp
 date: "2017-10-26T11:11:31+00:00"

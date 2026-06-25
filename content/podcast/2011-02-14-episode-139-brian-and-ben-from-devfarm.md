@@ -1,6 +1,5 @@
 ---
 title: Episode 139 – Brian and Ben from DevFarm
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-02-15T03:39:07+00:00"

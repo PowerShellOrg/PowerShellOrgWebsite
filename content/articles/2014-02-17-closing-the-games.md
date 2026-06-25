@@ -1,6 +1,5 @@
 ---
 title: Closing the Games
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-02-17T22:10:30+00:00"

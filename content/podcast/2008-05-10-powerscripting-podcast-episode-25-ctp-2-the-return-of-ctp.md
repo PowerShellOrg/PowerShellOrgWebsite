@@ -1,6 +1,5 @@
 ---
 title: "Episode 25 – CTP 2: The Return of CTP"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-05-11T02:11:26+00:00"

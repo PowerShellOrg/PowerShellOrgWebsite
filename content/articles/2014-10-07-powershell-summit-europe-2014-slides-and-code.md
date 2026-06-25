@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2014 – – slides and code
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-10-07T17:49:55+00:00"

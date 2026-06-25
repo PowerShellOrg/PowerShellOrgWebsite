@@ -1,6 +1,5 @@
 ---
 title: Winter Scripting Games Team Formation in Full Swing
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-02T21:40:34+00:00"

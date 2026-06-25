@@ -1,6 +1,5 @@
 ---
 title: Creating a small footprint, base image Part 4 | Bringing it all together with automation
-author: David Jones
 authors:
   - David Jones
 date: "2015-06-05T04:07:16+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Show Us Your Cmdlets!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-05-05T02:17:05+00:00"

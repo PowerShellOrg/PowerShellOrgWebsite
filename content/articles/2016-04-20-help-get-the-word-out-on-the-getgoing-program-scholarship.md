@@ -1,6 +1,5 @@
 ---
 title: "Help Get the Word Out on the 'GetGoing' Program & Scholarship"
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2016-04-20T16:00:44+00:00"

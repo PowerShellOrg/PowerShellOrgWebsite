@@ -1,6 +1,5 @@
 ---
 title: "Up Next: David Davis from TrainSignal"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-21T19:51:00+00:00"

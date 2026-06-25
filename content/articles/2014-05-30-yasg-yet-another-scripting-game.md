@@ -1,6 +1,5 @@
 ---
 title: YASG! (Yet Another Scripting Game)
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2014-05-30T16:02:23+00:00"

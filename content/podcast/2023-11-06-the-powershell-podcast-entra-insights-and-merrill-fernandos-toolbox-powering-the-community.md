@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Entra Insights and Merrill Fernando’s Toolbox: Powering the Community"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

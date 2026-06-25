@@ -1,6 +1,5 @@
 ---
 title: NYC Powershell Usergroup meets on July 13th
-author: Sunny Chakraborty
 authors:
   - Sunny Chakraborty
 date: "2015-07-10T18:03:27+00:00"

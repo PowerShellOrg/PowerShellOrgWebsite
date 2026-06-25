@@ -1,6 +1,5 @@
 ---
 title: Episode 156 – Brandon Shell on The Cloud, Bunnies and VDI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-02T02:31:16+00:00"

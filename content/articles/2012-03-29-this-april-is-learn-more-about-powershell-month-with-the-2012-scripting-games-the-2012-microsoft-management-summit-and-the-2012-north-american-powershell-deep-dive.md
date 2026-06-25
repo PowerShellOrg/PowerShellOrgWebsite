@@ -1,6 +1,5 @@
 ---
 title: "This April is \"Learn More About PowerShell\" Month with the 2012 Scripting Games, the 2012 Microsoft Management Summit, and the 2012 North American PowerShell Deep Dive!"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-03-29T13:00:00+00:00"

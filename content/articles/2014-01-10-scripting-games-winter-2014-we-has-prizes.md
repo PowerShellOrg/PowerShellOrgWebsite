@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Winter 2014 – WE HAS PRIZES!!
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-10T19:43:49+00:00"

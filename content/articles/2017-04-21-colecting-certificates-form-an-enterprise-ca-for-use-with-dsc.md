@@ -1,6 +1,5 @@
 ---
 title: Colecting Certificates form an Enterprise CA for use with DSC
-author: David Jones
 authors:
   - David Jones
 date: "2017-04-21T16:29:24+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Changing of the Guard at PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-09-22T14:47:30+00:00"

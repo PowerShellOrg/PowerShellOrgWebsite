@@ -1,6 +1,5 @@
 ---
 title: How PowerShell + DevOps Global Summit Began
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-06-21T23:37:07+00:00"

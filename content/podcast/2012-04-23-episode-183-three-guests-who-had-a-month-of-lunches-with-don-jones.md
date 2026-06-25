@@ -1,6 +1,5 @@
 ---
 title: Episode 183 – Three Guests Who Had a Month of Lunches With Don Jones
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Don Jones

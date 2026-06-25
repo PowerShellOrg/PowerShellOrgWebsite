@@ -1,6 +1,5 @@
 ---
 title: Episode 186- The Scripting Games Winners with Jeffrey Snover and Ed Wilson
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

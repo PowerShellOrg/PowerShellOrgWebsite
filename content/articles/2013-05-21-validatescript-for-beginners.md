@@ -1,6 +1,5 @@
 ---
 title: ValidateScript for Beginners
-author: June Blender
 authors:
   - June Blender
 date: "2013-05-21T18:03:27+00:00"

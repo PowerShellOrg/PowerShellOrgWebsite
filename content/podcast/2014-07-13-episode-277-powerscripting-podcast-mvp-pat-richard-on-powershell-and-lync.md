@@ -1,6 +1,5 @@
 ---
 title: Episode 277 – PowerScripting Podcast – MVP Pat Richard on PowerShell and Lync
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-07-13T19:07:39+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 229 – MVP Jeff Hicks On The PowerShell Summit And More
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-06-05T03:31:19+00:00"

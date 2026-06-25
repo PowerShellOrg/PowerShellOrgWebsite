@@ -1,6 +1,5 @@
 ---
 title: "DSC: Must-Have or Just Nice-To-Have?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-03T19:38:49+00:00"

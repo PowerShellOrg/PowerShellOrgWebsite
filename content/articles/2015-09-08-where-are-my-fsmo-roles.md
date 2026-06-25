@@ -1,6 +1,5 @@
 ---
 title: Where Are My FSMO Roles?
-author: Thomas Rayner, MVP
 authors:
   - Thomas Rayner, MVP
 date: "2015-09-08T14:00:21+00:00"

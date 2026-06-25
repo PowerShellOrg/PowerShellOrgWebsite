@@ -1,6 +1,5 @@
 ---
 title: "One-Liner: Countdown Timer in PowerShell"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-16T19:36:45+00:00"

@@ -1,6 +1,5 @@
 ---
 title: On to the Future with Powershell
-author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:44:45+00:00"

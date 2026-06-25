@@ -1,6 +1,5 @@
 ---
 title: Chatting about Chatbots with Mike Kanakos, Microsoft MVP
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

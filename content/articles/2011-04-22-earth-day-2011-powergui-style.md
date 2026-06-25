@@ -1,6 +1,5 @@
 ---
 title: "Earth Day 2011 \"“ PowerGUI® Style!"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-04-22T14:21:14+00:00"

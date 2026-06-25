@@ -1,6 +1,5 @@
 ---
 title: Episode 99 – Shannon Ma on Configuration Management
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-02-01T05:15:01+00:00"

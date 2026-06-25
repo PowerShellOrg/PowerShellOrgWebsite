@@ -1,6 +1,5 @@
 ---
 title: Session Voting for the PowerShell Summit North America 2013
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-10-15T16:09:43+00:00"

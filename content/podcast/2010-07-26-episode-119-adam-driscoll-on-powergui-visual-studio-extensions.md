@@ -1,6 +1,5 @@
 ---
 title: Episode 119 – Adam Driscoll on PowerGUI Visual Studio Extensions
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-27T02:43:17+00:00"

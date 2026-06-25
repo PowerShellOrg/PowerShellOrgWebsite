@@ -1,6 +1,5 @@
 ---
 title: The Return of James Petty with James Petty
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

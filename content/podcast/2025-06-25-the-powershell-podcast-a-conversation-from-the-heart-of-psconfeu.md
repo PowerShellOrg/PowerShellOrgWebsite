@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast A Conversation from the Heart of PSConfEU
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-06-25T14:03:08+00:00"

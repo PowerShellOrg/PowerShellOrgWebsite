@@ -1,6 +1,5 @@
 ---
 title: A Peculiar Parse
-author: Colyn Via
 authors:
   - Colyn Via
 date: "2019-08-20T19:40:17+00:00"

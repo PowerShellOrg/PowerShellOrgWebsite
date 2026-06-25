@@ -1,6 +1,5 @@
 ---
 title: Submit your Episode 100 Tips, Win PrimalForms!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-21T02:25:26+00:00"

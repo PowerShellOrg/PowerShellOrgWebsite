@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From Proper Football to Databases with Jess Pomfret
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jess Pomfret

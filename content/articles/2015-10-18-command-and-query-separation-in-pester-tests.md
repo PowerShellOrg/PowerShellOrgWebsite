@@ -1,6 +1,5 @@
 ---
 title: Command and query separation in Pester tests
-author: nohwnd
 authors:
   - nohwnd
 date: "2015-10-18T19:15:14+00:00"

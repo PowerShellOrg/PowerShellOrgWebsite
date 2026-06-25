@@ -1,6 +1,5 @@
 ---
 title: A study in Powershell scripting – A beginners guide Part 2
-author: WeiYen Tan
 authors:
   - WeiYen Tan
 date: "2016-02-26T21:54:50+00:00"

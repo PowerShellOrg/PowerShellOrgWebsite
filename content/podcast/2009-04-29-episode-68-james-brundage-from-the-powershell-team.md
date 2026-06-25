@@ -1,6 +1,5 @@
 ---
 title: Episode 68 – James Brundage from the PowerShell team
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-30T04:27:22+00:00"

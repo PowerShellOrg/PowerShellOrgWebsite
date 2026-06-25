@@ -1,6 +1,5 @@
 ---
 title: Desired State Configuration – General Availability Changes
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-10-18T13:19:21+00:00"

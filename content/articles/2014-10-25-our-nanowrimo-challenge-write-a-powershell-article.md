@@ -1,6 +1,5 @@
 ---
 title: "Our NaNoWriMo Challenge: Write a PowerShell Article"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-10-25T16:28:27+00:00"

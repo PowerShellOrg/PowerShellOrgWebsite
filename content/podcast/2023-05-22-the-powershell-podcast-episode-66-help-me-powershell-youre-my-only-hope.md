@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Episode 66 – Help me PowerShell. You’re my only hope.
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

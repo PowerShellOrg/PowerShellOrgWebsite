@@ -1,6 +1,5 @@
 ---
 title: Reminder- No live show tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-23T23:02:08+00:00"

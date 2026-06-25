@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Learning by Doing with Don Jones
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

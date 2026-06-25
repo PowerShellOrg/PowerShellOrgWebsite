@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] PowerShell Summit 2013 Conference Schedule"
-author: Poshoholic
 authors:
   - Poshoholic
 date: "2013-04-22T15:49:02+00:00"

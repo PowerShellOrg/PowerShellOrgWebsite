@@ -1,6 +1,5 @@
 ---
 title: Free PowerShell Workshop Video from TechMentor and Me
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-31T12:16:42+00:00"

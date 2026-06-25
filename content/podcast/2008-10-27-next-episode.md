@@ -1,6 +1,5 @@
 ---
 title: Next Episode
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-27T15:05:28+00:00"

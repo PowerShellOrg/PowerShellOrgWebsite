@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter: Learn PowerShell through code challenges"
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2020-06-07T15:00:00+00:00"

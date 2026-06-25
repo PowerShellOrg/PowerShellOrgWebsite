@@ -1,6 +1,5 @@
 ---
 title: PowerWF and PowerSE 2.7 are now available
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-01-24T17:44:30+00:00"

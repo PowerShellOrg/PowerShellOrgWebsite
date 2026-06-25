@@ -1,6 +1,5 @@
 ---
 title: "Episode 187- Teresa \"ScriptingWife\" Wilson and Staci \"HalsWife\" Rottenberg"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Teresa Wilson

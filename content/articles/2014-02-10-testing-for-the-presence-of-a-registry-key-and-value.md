@@ -1,6 +1,5 @@
 ---
 title: Testing for the Presence of a Registry Key and Value
-author: Jonathan Medd
 authors:
   - Jonathan Medd
 date: "2014-02-10T17:41:19+00:00"

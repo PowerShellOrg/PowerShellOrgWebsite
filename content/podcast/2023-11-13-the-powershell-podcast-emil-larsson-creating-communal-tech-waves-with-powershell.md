@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Emil Larsson: Creating Communal Tech Waves with PowerShell"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

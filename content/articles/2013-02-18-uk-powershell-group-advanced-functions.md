@@ -1,6 +1,5 @@
 ---
 title: "UK PowerShell Group\"“Advanced functions"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-18T19:57:08+00:00"

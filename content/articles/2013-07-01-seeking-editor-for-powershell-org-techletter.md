@@ -1,6 +1,5 @@
 ---
 title: Seeking Editor for PowerShell.org TechLetter
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-01T18:30:37+00:00"

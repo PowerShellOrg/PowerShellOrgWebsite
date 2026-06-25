@@ -1,6 +1,5 @@
 ---
 title: Call for Presentations for PowerShell Summit Europe 2015
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-11-24T20:02:17+00:00"

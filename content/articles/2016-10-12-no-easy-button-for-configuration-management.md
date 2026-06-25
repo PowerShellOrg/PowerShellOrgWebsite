@@ -1,6 +1,5 @@
 ---
 title: "No \"Easy\" Button for Configuration Management"
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2016-10-12T00:18:44+00:00"

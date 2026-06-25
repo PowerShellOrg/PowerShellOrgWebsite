@@ -1,6 +1,5 @@
 ---
 title: "Episode 7 – Don't Forget What You Already Know"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-09-04T02:49:24+00:00"

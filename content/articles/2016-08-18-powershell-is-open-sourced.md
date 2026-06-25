@@ -1,6 +1,5 @@
 ---
 title: PowerShell is Open Sourced
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-08-18T16:05:46+00:00"

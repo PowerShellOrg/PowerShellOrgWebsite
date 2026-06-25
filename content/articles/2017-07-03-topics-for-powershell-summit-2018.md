@@ -1,6 +1,5 @@
 ---
 title: Topics for PowerShell Summit 2018
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-07-03T18:54:52+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Getting Feedback on PowerShell + DevOps Global Summit Proposals
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2018-09-01T13:46:04+00:00"

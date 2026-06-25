@@ -1,6 +1,5 @@
 ---
 title: "Episode 231 – PowerScripting Podcast – Hal's BOF session from TechEd Getting Started with Windows PowerShell"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-06-21T02:50:01+00:00"

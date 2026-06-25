@@ -1,6 +1,5 @@
 ---
 title: Episode 320 – PowerScripting Podcast – MVP Tim Warner
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2017-05-17T00:39:23+00:00"

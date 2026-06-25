@@ -1,6 +1,5 @@
 ---
 title: Episode 154 – Josh Heller from Cisco on UCS and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-19T03:36:11+00:00"

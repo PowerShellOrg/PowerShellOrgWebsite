@@ -1,6 +1,5 @@
 ---
 title: Episode 312 – PowerScripting Podcast – SQL MVP Chrissy LeMaire
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-04-20T01:30:43+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: PowerShell Week of 26-October-2018"
-author: Mark Roloff
 authors:
   - Mark Roloff
 date: "2018-10-26T15:00:06+00:00"

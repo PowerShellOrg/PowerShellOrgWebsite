@@ -1,6 +1,5 @@
 ---
 title: Overall Winners of the Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-11T14:24:22+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Exciting PowerGUI® news at TechEd 2011 next week!
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-05-13T20:23:15+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Behind the Scenes at PSConf.EU: Harm Veenstra’s Experience and Insights"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Harm Veenstra

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Kubernetes is Easy with Anthony Nocentino
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Anthony Nocentino

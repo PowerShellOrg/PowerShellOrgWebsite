@@ -1,6 +1,5 @@
 ---
 title: Join us for the PowerShell Editor Services Hack Week, Dec 6-13!
-author: David Wilson
 authors:
   - David Wilson
 date: "2015-12-03T15:59:08+00:00"

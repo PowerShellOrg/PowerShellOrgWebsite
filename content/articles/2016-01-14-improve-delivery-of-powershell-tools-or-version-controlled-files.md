@@ -1,6 +1,5 @@
 ---
 title: Improve Delivery of PowerShell Tools or Version Controlled Files
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-01-14T17:04:54+00:00"

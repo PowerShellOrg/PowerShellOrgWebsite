@@ -1,6 +1,5 @@
 ---
 title: "Fundraising: PowerShell People Kick Butt, Take Names"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-29T15:21:06+00:00"

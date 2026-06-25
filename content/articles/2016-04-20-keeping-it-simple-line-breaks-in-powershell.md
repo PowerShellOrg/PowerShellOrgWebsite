@@ -1,6 +1,5 @@
 ---
 title: Keeping it simple – Line breaks in PowerShell
-author: Jacob Moran
 authors:
   - Jacob Moran
 date: "2016-04-20T23:18:07+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Final agenda
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-04-05T10:14:34+00:00"

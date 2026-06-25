@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Script or Function?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-06T14:31:41+00:00"

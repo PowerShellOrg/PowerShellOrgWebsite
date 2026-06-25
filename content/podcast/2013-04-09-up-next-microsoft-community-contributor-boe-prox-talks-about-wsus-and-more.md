@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Microsoft Community Contributor Boe Prox talks about WSUS and more!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-09T17:44:00+00:00"

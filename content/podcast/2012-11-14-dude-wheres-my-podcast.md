@@ -1,6 +1,5 @@
 ---
 title: "Dude, where's my podcast?"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-11-15T03:01:36+00:00"

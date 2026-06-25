@@ -1,6 +1,5 @@
 ---
 title: Windows PowerShell Version 3 Simplified Syntax
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2011-10-20T00:44:42+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Reporting On Installed Windows Programs Via The Registry
-author: Jonathan Medd
 authors:
   - Jonathan Medd
 date: "2014-01-31T14:37:18+00:00"

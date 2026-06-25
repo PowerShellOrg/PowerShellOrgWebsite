@@ -1,6 +1,5 @@
 ---
 title: Episode 110 – Andrew Mason From Microsoft on Server Core
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-04-25T23:13:27+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Building Communities with Chrissy LeMaire
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

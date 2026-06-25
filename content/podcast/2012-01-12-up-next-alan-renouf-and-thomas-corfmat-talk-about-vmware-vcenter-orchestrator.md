@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Alan Renouf and Thomas Corfmat talk about VMware vCenter Orchestrator"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-12T14:54:21+00:00"

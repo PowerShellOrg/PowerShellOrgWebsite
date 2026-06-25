@@ -1,6 +1,5 @@
 ---
 title: Nobody Keeps a Secret Like PowerShell
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

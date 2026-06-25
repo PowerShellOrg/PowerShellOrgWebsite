@@ -1,6 +1,5 @@
 ---
 title: "Up Next: PrimalScript 2009 with Alex & Jeff from SAPIEN"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-09T17:42:53+00:00"

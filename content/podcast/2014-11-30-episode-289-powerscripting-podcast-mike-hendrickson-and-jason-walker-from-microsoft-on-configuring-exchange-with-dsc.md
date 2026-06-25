@@ -1,6 +1,5 @@
 ---
 title: Episode 289 – PowerScripting Podcast – Mike Hendrickson and Jason Walker from Microsoft on Configuring Exchange With DSC
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-12-01T02:55:59+00:00"

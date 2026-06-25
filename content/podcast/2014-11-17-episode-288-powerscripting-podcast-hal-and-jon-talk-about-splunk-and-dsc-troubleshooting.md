@@ -1,6 +1,5 @@
 ---
 title: Episode 288 – PowerScripting Podcast – Hal and Jon talk about Splunk and DSC troubleshooting
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-11-18T03:51:15+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 228.1 – Bonus BOF Session from SQL Saturday in Atlanta hosted by Jim Christopher and Mark Schill
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-29T03:29:54+00:00"

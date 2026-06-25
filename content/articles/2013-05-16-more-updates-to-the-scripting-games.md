@@ -1,6 +1,5 @@
 ---
 title: More Updates to the Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-16T20:50:09+00:00"

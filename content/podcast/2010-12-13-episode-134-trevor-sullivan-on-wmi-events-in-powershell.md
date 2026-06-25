@@ -1,6 +1,5 @@
 ---
 title: Episode 134 – Trevor Sullivan on WMI Events in PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-12-14T04:45:26+00:00"

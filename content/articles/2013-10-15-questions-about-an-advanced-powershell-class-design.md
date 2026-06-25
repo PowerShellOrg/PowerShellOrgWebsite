@@ -1,6 +1,5 @@
 ---
 title: Questions about an Advanced PowerShell Class Design
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-15T19:45:18+00:00"

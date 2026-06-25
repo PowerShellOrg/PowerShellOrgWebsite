@@ -1,6 +1,5 @@
 ---
 title: Are you getting unfair comments in the Games?
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-07T17:33:59+00:00"

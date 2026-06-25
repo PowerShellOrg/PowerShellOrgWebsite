@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Hacking Games and Building a Career – Mateus Pimentel
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-06-02T14:50:47+00:00"

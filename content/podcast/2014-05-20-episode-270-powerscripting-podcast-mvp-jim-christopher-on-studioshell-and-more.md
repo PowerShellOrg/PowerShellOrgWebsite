@@ -1,6 +1,5 @@
 ---
 title: Episode 270 – PowerScripting Podcast – MVP Jim Christopher on StudioShell and More
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-05-21T02:16:38+00:00"

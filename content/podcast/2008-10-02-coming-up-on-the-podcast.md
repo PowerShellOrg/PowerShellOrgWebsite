@@ -1,6 +1,5 @@
 ---
 title: Coming up on the Podcast
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-02T12:25:19+00:00"

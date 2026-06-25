@@ -1,6 +1,5 @@
 ---
 title: Securing PowerShell with Fred Weinmann
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

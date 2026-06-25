@@ -1,6 +1,5 @@
 ---
 title: Episode 20 – Jeffrey Snover is coming
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-03T12:34:57+00:00"

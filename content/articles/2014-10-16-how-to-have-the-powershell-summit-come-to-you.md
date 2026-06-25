@@ -1,6 +1,5 @@
 ---
 title: How to Have the PowerShell Summit Come to You
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-10-16T18:24:25+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 27 – Darren Mar-Elia talks about Group Policy
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-05-26T18:04:44+00:00"

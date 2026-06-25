@@ -1,6 +1,5 @@
 ---
 title: "Azure DevOps – Enable \"Allow scripts to access the OAuth token\" using PowerShell"
-author: pwshliquori
 authors:
   - pwshliquori
 date: "2019-04-20T23:20:30+00:00"

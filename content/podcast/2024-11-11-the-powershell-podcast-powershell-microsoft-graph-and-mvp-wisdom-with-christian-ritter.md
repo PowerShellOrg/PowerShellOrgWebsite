@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell, Microsoft Graph, and MVP Wisdom with Christian Ritter
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Christian Ritter

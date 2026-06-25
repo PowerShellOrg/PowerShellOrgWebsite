@@ -1,6 +1,5 @@
 ---
 title: 2020 Conference Recording Changes
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2019-10-15T13:14:41+00:00"

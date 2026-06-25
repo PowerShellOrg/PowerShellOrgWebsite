@@ -1,6 +1,5 @@
 ---
 title: Omaha PSUG March Meeting Slides & Video Now Available
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2015-04-02T13:08:21+00:00"

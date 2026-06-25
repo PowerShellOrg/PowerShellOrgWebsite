@@ -1,6 +1,5 @@
 ---
 title: What You Missed This Week in PowerShell!
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2018-07-20T15:00:41+00:00"

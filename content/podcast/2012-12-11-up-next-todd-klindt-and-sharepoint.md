@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Todd Klindt and SharePoint"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-12-11T15:39:00+00:00"

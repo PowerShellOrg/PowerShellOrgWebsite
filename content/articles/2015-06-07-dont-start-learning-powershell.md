@@ -1,6 +1,5 @@
 ---
 title: "DON'T Start Learning PowerShell?!?!?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-07T16:13:59+00:00"

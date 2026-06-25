@@ -1,6 +1,5 @@
 ---
 title: Microsoft automation platforms – Twin Cities March meeting
-author: Tim Curwick
 authors:
   - Tim Curwick
 date: "2016-03-03T13:02:50+00:00"

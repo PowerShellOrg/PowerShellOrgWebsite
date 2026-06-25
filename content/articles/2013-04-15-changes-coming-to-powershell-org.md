@@ -1,6 +1,5 @@
 ---
 title: Changes Coming to PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-15T20:34:04+00:00"

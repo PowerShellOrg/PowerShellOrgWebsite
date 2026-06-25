@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Microsoft Scripting Guy, Ed Wilson talking PSSAT007 and his new book"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-01-21T16:42:25+00:00"

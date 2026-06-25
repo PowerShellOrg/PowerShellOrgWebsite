@@ -1,6 +1,5 @@
 ---
 title: Episode 168 – Randy Roffey on MP Studio and a Bonus Interview
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-14T04:13:47+00:00"

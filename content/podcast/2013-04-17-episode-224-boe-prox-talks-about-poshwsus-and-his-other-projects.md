@@ -1,6 +1,5 @@
 ---
 title: Episode 224 – Boe Prox talks about PoshWSUS and his other projects
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-18T03:37:17+00:00"

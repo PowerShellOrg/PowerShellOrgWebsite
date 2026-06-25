@@ -1,6 +1,5 @@
 ---
 title: "Code from this week's Oslo class"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-26T12:04:42+00:00"

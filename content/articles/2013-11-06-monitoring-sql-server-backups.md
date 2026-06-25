@@ -1,6 +1,5 @@
 ---
 title: Monitoring SQL Server Backups
-author: Enrique Puig
 authors:
   - Enrique Puig
 date: "2013-11-07T07:30:31+00:00"

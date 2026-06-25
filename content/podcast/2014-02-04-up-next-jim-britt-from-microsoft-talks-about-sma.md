@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jim Britt from Microsoft talks about SMA"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-02-04T14:18:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 264 – PowerScripting Podcast – Eric Williams and Jeff Foster on the Cisco UCS PowerTool
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-04-07T01:43:23+00:00"

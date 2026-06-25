@@ -1,6 +1,5 @@
 ---
 title: Episode 63 – PowerShell MVP Brandon Shell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-24T03:39:49+00:00"

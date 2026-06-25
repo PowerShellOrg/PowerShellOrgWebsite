@@ -1,6 +1,5 @@
 ---
 title: Episode 101 – Matthew Giles from Connect-SMART
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-02-08T03:38:08+00:00"

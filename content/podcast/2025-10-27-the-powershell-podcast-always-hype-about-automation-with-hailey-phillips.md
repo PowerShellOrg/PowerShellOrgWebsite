@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Always Hype About Automation with Hailey Phillips
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Hailey Phillips

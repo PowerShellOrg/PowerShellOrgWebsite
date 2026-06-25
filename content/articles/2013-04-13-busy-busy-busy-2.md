@@ -1,6 +1,5 @@
 ---
 title: Busy, busy, busy
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-13T17:17:13+00:00"

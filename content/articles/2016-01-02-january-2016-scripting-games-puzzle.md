@@ -1,6 +1,5 @@
 ---
 title: 2016-January Scripting Games Puzzle
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-01-02T15:00:01+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Brandon Shell"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-27T17:36:49+00:00"

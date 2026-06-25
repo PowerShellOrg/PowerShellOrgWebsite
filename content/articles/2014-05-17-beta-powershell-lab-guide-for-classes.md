@@ -1,6 +1,5 @@
 ---
 title: BETA PowerShell Lab Guide for Classes
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-17T18:59:49+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 335 – PowerScripting Podcast – Mike Kanakos and Guest Host Adil Leghari
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Mike Kanakos

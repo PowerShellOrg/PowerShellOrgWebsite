@@ -1,6 +1,5 @@
 ---
 title: Creating a small footprint, base image Part 2
-author: David Jones
 authors:
   - David Jones
 date: "2015-05-21T00:56:25+00:00"

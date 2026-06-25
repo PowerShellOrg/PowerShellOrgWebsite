@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell to enable ChatOps on Windows
-author: Matthew Hodgkins
 authors:
   - Matthew Hodgkins
 date: "2016-01-28T14:31:19+00:00"

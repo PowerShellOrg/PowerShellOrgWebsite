@@ -1,6 +1,5 @@
 ---
 title: Why PowerShell on Linux is Such an Accomplishment
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-08-19T15:36:08+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Community Lightning Demos – Call for Proposals
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2017-03-22T15:06:45+00:00"

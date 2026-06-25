@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Stop Trying So Hard and Start Automating Smarter with Jake Hildreth
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jake Hildreth

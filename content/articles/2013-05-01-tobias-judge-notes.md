@@ -1,6 +1,5 @@
 ---
 title: "Tobias' Judge Notes"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-01T13:33:45+00:00"

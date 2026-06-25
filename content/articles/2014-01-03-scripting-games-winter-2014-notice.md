@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Winter 2014 Notice
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-04T00:05:28+00:00"

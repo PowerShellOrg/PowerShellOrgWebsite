@@ -1,6 +1,5 @@
 ---
 title: Episode 12 – Our first guest, Brandon Shell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-11-10T04:04:57+00:00"

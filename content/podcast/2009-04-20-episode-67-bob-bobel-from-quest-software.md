@@ -1,6 +1,5 @@
 ---
 title: Episode 67 – Bob Bobel from Quest Software
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-21T03:00:37+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell, Security, and the Path to Mastery.
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-05-12T14:03:49+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 330 – PowerScripting Podcast – MVP Adam Driscoll
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Adam Driscoll

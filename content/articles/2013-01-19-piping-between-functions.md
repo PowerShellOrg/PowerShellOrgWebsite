@@ -1,6 +1,5 @@
 ---
 title: Piping between functions
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-19T17:04:01+00:00"

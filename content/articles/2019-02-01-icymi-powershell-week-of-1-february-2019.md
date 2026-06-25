@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: PowerShell Week of 1-February-2019"
-author: Brett
 authors:
   - Brett
 date: "2019-02-01T16:00:40+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jason Hogg, Jeremy Kelly and Joshy Joseph Talk About Script Explorer"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-21T14:59:00+00:00"

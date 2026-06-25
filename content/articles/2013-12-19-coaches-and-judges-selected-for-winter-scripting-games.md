@@ -1,6 +1,5 @@
 ---
 title: Coaches and Judges Selected for Winter Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-12-19T17:32:44+00:00"

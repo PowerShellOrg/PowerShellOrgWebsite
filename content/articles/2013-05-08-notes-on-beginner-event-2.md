@@ -1,6 +1,5 @@
 ---
 title: Notes on Beginner Event 2
-author: Art Beane
 authors:
   - Art Beane
 date: "2013-05-08T15:29:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: 10 Tips for PowerShell Summit Presenters
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2020-03-05T21:55:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 57 – Carter Shanklin and the VI Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-02T04:05:47+00:00"

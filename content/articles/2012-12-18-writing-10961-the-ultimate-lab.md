@@ -1,6 +1,5 @@
 ---
 title: "Writing 10961: The Ultimate Lab"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-12-18T20:50:30+00:00"

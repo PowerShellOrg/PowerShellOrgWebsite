@@ -1,6 +1,5 @@
 ---
 title: Episode 0 – Episode Zero
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-03-16T04:07:30+00:00"

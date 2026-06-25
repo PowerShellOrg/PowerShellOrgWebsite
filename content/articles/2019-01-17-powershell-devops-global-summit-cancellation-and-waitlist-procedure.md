@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit Cancellation and Waitlist Procedure
-author: Don Jones
 authors:
   - Don Jones
 date: "2019-01-17T14:18:40+00:00"

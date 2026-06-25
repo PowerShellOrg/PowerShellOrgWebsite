@@ -1,6 +1,5 @@
 ---
 title: Announcing Winter Scripting Camp Winners
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-03-08T22:57:07+00:00"

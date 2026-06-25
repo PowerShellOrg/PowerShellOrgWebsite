@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Discovering the Deeper Layers of PowerShell with Jeff Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeff Hicks

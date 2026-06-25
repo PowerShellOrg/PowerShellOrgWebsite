@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit North America 2013 Call for Content
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-09-13T18:04:53+00:00"

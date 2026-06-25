@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Educational Odyssey: From Classroom to Cloud with Michael Bender"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From Blogging to DevOps with Jeff Brown Tech
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeff Brown

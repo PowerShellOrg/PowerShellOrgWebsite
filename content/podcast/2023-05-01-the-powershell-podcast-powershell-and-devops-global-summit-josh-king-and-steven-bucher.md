@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell and DevOps Global Summit – Josh King and Steven Bucher
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

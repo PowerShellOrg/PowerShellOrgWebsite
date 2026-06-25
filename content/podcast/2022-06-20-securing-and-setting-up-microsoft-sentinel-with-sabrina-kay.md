@@ -1,6 +1,5 @@
 ---
 title: Securing and Setting up Microsoft Sentinel with Sabrina Kay
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

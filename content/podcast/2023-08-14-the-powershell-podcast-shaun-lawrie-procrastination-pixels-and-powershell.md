@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Shaun Lawrie: Procrastination, Pixels and PowerShell"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

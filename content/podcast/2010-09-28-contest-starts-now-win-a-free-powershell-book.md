@@ -1,6 +1,5 @@
 ---
 title: Contest Starts Now! Win a Free PowerShell Book!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-09-29T02:17:59+00:00"

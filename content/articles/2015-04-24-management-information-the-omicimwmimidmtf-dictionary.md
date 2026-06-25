@@ -1,6 +1,5 @@
 ---
 title: "Management Information: The OMI/CIM/WMI/MI/DMTF Dictionary"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-24T22:57:48+00:00"

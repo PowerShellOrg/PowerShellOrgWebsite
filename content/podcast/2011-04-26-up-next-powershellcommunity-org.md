@@ -1,6 +1,5 @@
 ---
 title: "Up Next: PowerShellCommunity.org!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-26T18:18:00+00:00"

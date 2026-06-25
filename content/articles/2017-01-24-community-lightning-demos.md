@@ -1,6 +1,5 @@
 ---
 title: Community Lightning Demos
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-01-24T21:07:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Formatting Constructs"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-02T15:23:43+00:00"

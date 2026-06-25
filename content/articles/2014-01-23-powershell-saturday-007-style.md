@@ -1,6 +1,5 @@
 ---
 title: PowerShell Saturday 007 style
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2014-01-23T17:46:49+00:00"

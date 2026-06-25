@@ -1,6 +1,5 @@
 ---
 title: "VERIFIED EFFECTIVE PowerShell \"certification\" program now ready for beta"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-02T23:43:15+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Reliability Through Planning with Matthew Gill
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Matthew Gill

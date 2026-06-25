@@ -1,6 +1,5 @@
 ---
 title: PowerShell Happenings at Ignite 2016
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-09-22T15:27:46+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Mark Russinovich!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-15T19:10:00+00:00"

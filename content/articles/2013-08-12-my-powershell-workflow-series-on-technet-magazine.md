@@ -1,6 +1,5 @@
 ---
 title: My PowerShell Workflow Series on TechNet Magazine
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-12T13:51:33+00:00"

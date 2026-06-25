@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell & DevOps Global Summit Bar session with Brian Quinn & Scott
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Brian Quinn

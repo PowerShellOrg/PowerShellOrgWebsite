@@ -1,6 +1,5 @@
 ---
 title: Episode 174 – Matt Graeber using PowerShell in Infosec
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-01T04:17:06+00:00"

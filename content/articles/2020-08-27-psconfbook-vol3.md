@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Conference Book volume 3 is here!
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2020-08-27T12:59:35+00:00"

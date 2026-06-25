@@ -1,6 +1,5 @@
 ---
 title: Episode 28 – Jeffrey Snover talks about WinRM
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-06-01T23:57:15+00:00"

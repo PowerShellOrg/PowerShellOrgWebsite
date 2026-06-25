@@ -1,6 +1,5 @@
 ---
 title: "Episode 31 \"“ Money for Nothin\"™ and Tips for Free"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-06-30T12:10:19+00:00"

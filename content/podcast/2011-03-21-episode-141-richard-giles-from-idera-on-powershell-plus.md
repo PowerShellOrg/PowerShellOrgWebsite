@@ -1,6 +1,5 @@
 ---
 title: Episode 142 – Richard Giles from Idera on PowerShell Plus
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-03-22T04:24:32+00:00"

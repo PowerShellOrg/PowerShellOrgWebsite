@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Competitor Guide / Instructions Update
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-18T13:41:21+00:00"

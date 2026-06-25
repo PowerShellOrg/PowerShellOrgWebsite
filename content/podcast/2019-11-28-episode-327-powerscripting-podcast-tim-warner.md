@@ -1,6 +1,5 @@
 ---
 title: Episode 327 – PowerScripting Podcast – Tim Warner
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Timothy Warner

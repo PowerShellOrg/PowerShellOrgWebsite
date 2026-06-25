@@ -1,6 +1,5 @@
 ---
 title: Vacation Delay
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-17T15:22:07+00:00"

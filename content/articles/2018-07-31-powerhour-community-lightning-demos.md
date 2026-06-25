@@ -1,6 +1,5 @@
 ---
 title: "PowerHour: Community Lightning Demos!"
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2018-07-31T15:58:12+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "It's Safe to Run Update-Help – and you should!"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-02T17:23:30+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Automate enabling and disabling Lync / Skype for Business users
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-09-23T21:30:58+00:00"

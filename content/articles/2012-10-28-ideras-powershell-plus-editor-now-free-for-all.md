@@ -1,6 +1,5 @@
 ---
 title: "Idera's PowerShell Plus Editor Now Free for All"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-10-28T16:30:32+00:00"

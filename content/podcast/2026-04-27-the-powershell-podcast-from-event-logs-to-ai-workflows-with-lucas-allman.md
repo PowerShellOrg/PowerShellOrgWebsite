@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From Event Logs to AI Workflows with Lucas Allman
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Lucas Allman

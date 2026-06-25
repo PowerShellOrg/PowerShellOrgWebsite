@@ -1,6 +1,5 @@
 ---
 title: Make-PS1ExeWrapper
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2010-09-21T17:39:16+00:00"

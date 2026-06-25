@@ -1,6 +1,5 @@
 ---
 title: Notes on Event 5
-author: Art Beane
 authors:
   - Art Beane
 date: "2013-05-30T13:54:17+00:00"

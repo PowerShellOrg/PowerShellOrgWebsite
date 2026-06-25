@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Behind the Shell with Microsoft
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-06-30T15:18:02+00:00"

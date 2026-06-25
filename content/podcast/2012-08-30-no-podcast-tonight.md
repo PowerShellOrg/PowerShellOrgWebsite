@@ -1,6 +1,5 @@
 ---
 title: No podcast tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-31T01:16:38+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Patterns and Projects in PowerShell with Chris Bergmeister
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

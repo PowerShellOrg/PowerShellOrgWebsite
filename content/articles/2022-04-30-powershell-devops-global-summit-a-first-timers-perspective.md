@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit – A First Timer’s Perspective
-author: Chris Martin
 authors:
   - Chris Martin
 date: "2022-04-30T05:42:47+00:00"

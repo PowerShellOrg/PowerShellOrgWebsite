@@ -1,6 +1,5 @@
 ---
 title: Episode 14 – The IDEs are getting better
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-12-10T03:16:01+00:00"

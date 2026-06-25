@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Admin to Defender: Jake Hildreth’s Security Evolution"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-02-26T15:42:47+00:00"

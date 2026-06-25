@@ -1,6 +1,5 @@
 ---
 title: Server Core Show Coming This Thursday!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-04-20T22:17:05+00:00"

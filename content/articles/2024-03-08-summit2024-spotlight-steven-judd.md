@@ -1,6 +1,5 @@
 ---
 title: "Summit 2024 Speaker Spotlight: Steven Judd"
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2024-03-08T18:11:49+00:00"

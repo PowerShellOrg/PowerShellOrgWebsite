@@ -1,6 +1,5 @@
 ---
 title: Episode 237 – PowerScripting Podcast – Shannon Bray on SharePoint Architecture
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-08-06T23:04:16+00:00"

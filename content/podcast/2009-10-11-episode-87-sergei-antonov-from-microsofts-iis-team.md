@@ -1,6 +1,5 @@
 ---
 title: "Episode 87 – Sergei Antonov from Microsoft's IIS team"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-12T02:59:16+00:00"

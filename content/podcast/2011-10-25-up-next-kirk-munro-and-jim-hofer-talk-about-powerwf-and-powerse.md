@@ -1,6 +1,5 @@
 ---
 title: Up Next Kirk Munro and Jim Hofer Talk about PowerWF and PowerSE
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-25T14:34:00+00:00"

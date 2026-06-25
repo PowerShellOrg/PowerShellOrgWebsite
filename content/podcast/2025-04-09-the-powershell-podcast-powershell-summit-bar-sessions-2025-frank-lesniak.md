@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Frank Lesniak
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-04-09T22:01:01+00:00"

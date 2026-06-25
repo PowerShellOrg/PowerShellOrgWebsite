@@ -1,6 +1,5 @@
 ---
 title: "PowerScripting Live \"“ Open PowerShell v2 Panel Tomorrow!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-04-07T22:02:52+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Help us Record the PowerShell Summit Sessions
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-28T17:27:23+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Recording the PowerShell Summit
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-26T01:51:45+00:00"

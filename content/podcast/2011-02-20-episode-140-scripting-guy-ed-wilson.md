@@ -1,6 +1,5 @@
 ---
 title: Episode 140 – Scripting Guy Ed Wilson
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-02-21T03:35:40+00:00"

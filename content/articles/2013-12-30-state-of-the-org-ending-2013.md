@@ -1,6 +1,5 @@
 ---
 title: State of the Org, ending 2013
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-12-30T19:24:37+00:00"

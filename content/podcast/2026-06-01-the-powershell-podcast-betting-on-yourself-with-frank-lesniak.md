@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Betting on Yourself with Frank Lesniak
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Frank Lesniak

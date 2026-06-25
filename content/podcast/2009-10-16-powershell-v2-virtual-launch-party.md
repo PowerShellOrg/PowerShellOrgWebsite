@@ -1,6 +1,5 @@
 ---
 title: PowerShell v2 Virtual Launch Party!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-16T14:28:52+00:00"

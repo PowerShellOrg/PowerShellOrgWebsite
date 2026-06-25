@@ -1,6 +1,5 @@
 ---
 title: "Writing 10961: Trademarks"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-01-04T16:09:02+00:00"

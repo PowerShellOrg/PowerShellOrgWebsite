@@ -1,6 +1,5 @@
 ---
 title: "Episode 128 \"“ Kirk Munro from Quest on the 2010 PowerPack Challenge"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-10-15T03:50:28+00:00"

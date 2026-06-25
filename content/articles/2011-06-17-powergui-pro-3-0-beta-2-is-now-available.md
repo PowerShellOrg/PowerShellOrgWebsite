@@ -1,6 +1,5 @@
 ---
 title: PowerGUI Pro® 3.0 Beta 2 is now available
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-06-17T14:21:40+00:00"

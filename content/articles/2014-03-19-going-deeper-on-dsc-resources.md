@@ -1,6 +1,5 @@
 ---
 title: Going Deeper on DSC Resources
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2014-03-19T14:43:37+00:00"

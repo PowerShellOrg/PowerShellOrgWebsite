@@ -1,6 +1,5 @@
 ---
 title: Need Desired State Configuration Modules?
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-08-12T23:59:59+00:00"

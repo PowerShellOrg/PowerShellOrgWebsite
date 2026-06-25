@@ -1,6 +1,5 @@
 ---
 title: A Summit 2018 Post-Mortem
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-04-16T00:36:31+00:00"

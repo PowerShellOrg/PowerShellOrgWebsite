@@ -1,6 +1,5 @@
 ---
 title: PowerShell workflow articles
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-03T12:01:51+00:00"

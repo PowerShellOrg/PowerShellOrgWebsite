@@ -1,6 +1,5 @@
 ---
 title: PowerShell Birds of a Feather sessions at MS TechEd
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-17T15:49:00+00:00"

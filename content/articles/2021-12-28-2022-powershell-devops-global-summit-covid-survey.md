@@ -1,6 +1,5 @@
 ---
 title: 2022 PowerShell + DevOps Global Summit Covid Survey
-author: James Petty
 authors:
   - James Petty
 date: "2021-12-28T21:46:10+00:00"

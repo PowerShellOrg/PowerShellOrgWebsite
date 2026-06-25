@@ -1,6 +1,5 @@
 ---
 title: Episode 170 – Jeffery Hicks Manages Windows Server with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-03T03:25:15+00:00"

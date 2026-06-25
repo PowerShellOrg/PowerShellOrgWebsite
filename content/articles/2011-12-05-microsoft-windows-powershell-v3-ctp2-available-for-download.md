@@ -1,6 +1,5 @@
 ---
 title: Microsoft Windows PowerShell V3 CTP2 Available for Download
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2011-12-05T17:40:24+00:00"

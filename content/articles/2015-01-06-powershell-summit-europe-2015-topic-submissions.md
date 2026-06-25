@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2015–topic submissions
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2015-01-06T09:02:42+00:00"

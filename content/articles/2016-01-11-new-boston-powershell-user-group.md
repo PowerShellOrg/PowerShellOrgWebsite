@@ -1,6 +1,5 @@
 ---
 title: New Boston PowerShell User Group
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-01-11T15:39:08+00:00"

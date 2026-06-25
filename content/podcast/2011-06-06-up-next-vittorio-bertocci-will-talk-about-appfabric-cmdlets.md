@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Vittorio Bertocci will talk about AppFabric cmdlets"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-07T02:00:00+00:00"

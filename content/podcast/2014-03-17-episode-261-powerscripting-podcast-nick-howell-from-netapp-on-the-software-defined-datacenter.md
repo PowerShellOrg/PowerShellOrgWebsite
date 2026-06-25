@@ -1,6 +1,5 @@
 ---
 title: Episode 261 – PowerScripting Podcast – Nick Howell from NetApp on the Software Defined Datacenter
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-03-18T03:32:46+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Show cancelled this week!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-09-06T15:03:57+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Event 5 Winners
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-04T14:08:44+00:00"

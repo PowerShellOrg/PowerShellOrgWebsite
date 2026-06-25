@@ -1,6 +1,5 @@
 ---
 title: "SAPIEN's new WMI Explorer Released"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-21T22:59:41+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "PowerSE 2.7 KB: PowerShell profile does not load on startup"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-01-25T19:01:59+00:00"

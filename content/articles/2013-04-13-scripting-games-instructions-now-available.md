@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Instructions Now Available
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-13T19:51:09+00:00"

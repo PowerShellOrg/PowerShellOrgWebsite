@@ -1,6 +1,5 @@
 ---
 title: Notes for Event 5
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-29T12:27:33+00:00"

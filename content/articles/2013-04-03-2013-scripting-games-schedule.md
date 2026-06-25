@@ -1,6 +1,5 @@
 ---
 title: 2013 Scripting Games Schedule
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-04T06:26:31+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 117 – Bartek Bielawski Chats with Jeffrey Snover and Ed Wilson
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

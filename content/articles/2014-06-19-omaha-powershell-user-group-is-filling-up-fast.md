@@ -1,6 +1,5 @@
 ---
 title: Omaha PowerShell User Group is Filling Up Fast!
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2014-06-19T18:55:25+00:00"

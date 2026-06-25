@@ -1,6 +1,5 @@
 ---
 title: Find Location of Locked Out Accounts
-author: Matt Laird
 authors:
   - Matt Laird
 date: "2015-09-08T11:16:45+00:00"

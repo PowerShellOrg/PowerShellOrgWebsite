@@ -1,6 +1,5 @@
 ---
 title: Keeping Windows PowerShell Help Up To Date
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-11-24T19:21:37+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Write Code, Write Blogs: Lessons with Brock Bingham"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Brock Bingham

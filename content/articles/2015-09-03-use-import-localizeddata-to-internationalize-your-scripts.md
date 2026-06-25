@@ -1,6 +1,5 @@
 ---
 title: Use Import-LocalizedData to Internationalize your Scripts
-author: Adam Platt
 authors:
   - Adam Platt
 date: "2015-09-03T21:13:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Summit 2019 Update – Agenda Online!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-10-12T10:01:47+00:00"

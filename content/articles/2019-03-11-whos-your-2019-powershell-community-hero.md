@@ -1,6 +1,5 @@
 ---
 title: "Who's Your 2019 PowerShell Community Hero?"
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2019-03-11T15:18:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 226 – The Virtual PC Guy Ben Armstrong talks virtualization and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-02T21:02:24+00:00"

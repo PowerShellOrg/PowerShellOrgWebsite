@@ -1,6 +1,5 @@
 ---
 title: Episode 145 – Jeff Hicks Managing Active Directory with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-27T03:33:35+00:00"

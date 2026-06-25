@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell Unplugged: A Symphony of Tech and Music with Jim Truher"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

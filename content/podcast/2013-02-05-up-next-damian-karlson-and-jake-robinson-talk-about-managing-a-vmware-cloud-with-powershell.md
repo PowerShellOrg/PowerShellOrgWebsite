@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Damian Karlson and Jake Robinson talk about managing a VMware Cloud with PowerShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-05T21:22:00+00:00"

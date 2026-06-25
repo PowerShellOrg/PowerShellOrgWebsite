@@ -1,6 +1,5 @@
 ---
 title: Continuous Integration, Continuous Delivery, and PSDeploy
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-08-08T15:16:01+00:00"

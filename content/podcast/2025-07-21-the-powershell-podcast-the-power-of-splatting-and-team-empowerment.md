@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Power of Splatting and Team Empowerment
-author: Andrew Pla
 authors:
   - Andrew Pla
   - David Richmond

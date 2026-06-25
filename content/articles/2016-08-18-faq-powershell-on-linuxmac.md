@@ -1,6 +1,5 @@
 ---
 title: "FAQ: PowerShell on Linux/Mac"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-08-18T21:02:51+00:00"

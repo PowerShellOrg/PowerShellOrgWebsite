@@ -1,6 +1,5 @@
 ---
 title: Community Book of PowerShell Practices
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-11-14T18:36:30+00:00"

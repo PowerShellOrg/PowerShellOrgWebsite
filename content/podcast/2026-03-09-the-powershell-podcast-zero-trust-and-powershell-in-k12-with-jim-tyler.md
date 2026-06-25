@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Zero Trust and PowerShell in K12 with Jim Tyler
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jim Tyler

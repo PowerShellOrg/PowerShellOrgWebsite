@@ -1,6 +1,5 @@
 ---
 title: "NJ PowerShell Users Group Meet: Presenter Jeffrey Hicks – Microsoft MVP"
-author: NJPowerShell
 authors:
   - NJPowerShell
 date: "2015-04-06T16:54:14+00:00"

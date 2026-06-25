@@ -1,6 +1,5 @@
 ---
 title: Episode 16 – Don gives us the Scripting Answers
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-01-07T03:16:37+00:00"

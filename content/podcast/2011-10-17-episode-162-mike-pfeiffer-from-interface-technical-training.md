@@ -1,6 +1,5 @@
 ---
 title: Episode 162 – Mike Pfeiffer from Interface Technical Training
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-18T03:21:41+00:00"

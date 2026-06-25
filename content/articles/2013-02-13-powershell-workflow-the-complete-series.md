@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Workflow\"“the complete series"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-13T19:34:04+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From EntraAuth to PSConfEU with Fred Weinmann
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Fred Weinmann

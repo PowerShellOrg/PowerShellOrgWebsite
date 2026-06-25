@@ -1,6 +1,5 @@
 ---
 title: "Select-String scenarios \"“ fixed columns"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-07T22:43:53+00:00"

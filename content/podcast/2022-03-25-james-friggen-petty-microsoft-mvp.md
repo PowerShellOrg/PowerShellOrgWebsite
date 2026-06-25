@@ -1,6 +1,5 @@
 ---
 title: James ”Friggen” Petty! Microsoft MVP
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

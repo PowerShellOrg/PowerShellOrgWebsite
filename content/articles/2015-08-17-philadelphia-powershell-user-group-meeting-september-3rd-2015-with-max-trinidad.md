@@ -1,6 +1,5 @@
 ---
 title: Philadelphia PowerShell User Group Meeting  – September 3rd 2015 with Max Trinidad
-author: John Mello
 authors:
   - John Mello
 date: "2015-08-18T01:11:05+00:00"

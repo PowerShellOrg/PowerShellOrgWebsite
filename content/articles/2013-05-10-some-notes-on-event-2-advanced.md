@@ -1,6 +1,5 @@
 ---
 title: Some notes on Event 2 Advanced
-author: Art Beane
 authors:
   - Art Beane
 date: "2013-05-10T16:17:32+00:00"

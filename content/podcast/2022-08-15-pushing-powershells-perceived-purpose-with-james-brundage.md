@@ -1,6 +1,5 @@
 ---
 title: Pushing PowerShell’s Perceived Purpose with James Brundage
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

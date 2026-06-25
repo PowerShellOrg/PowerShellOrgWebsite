@@ -1,6 +1,5 @@
 ---
 title: Episode 146 – Directors from PowerShellCommunity.org
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-05-05T01:53:26+00:00"

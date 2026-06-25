@@ -1,6 +1,5 @@
 ---
 title: Summit 2017 Agenda & Program Guide Online
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-02-08T19:09:20+00:00"

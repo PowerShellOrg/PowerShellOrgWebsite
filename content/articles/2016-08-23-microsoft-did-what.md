@@ -1,6 +1,5 @@
 ---
 title: Microsoft did WHAT?
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2016-08-23T01:51:05+00:00"

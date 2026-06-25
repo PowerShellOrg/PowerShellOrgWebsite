@@ -1,6 +1,5 @@
 ---
 title: Event 2 Opens / Event 1 Winding Down
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-02T14:25:12+00:00"

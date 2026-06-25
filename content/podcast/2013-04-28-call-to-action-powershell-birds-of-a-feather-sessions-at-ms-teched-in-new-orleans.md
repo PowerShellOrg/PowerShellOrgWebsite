@@ -1,6 +1,5 @@
 ---
 title: "Call to Action: PowerShell Birds of a Feather sessions at MS TechEd in New Orleans"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-28T15:56:00+00:00"

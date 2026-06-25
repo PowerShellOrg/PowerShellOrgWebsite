@@ -1,6 +1,5 @@
 ---
 title: Episode 11 – A new PowerShell community
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-10-27T23:34:42+00:00"

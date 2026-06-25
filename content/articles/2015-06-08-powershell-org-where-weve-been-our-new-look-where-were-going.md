@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org: Where We've Been, Our New Look, Where We're Going"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-08T18:29:11+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 172 – vCenter Orchestrator
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-16T23:57:23+00:00"

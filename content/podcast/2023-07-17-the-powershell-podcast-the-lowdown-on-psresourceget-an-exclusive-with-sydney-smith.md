@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast The Lowdown on PSResourceGet: An Exclusive with Sydney Smith"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

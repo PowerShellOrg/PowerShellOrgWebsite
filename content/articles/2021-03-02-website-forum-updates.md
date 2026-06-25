@@ -1,6 +1,5 @@
 ---
 title: Website & Forum Updates
-author: James Petty
 authors:
   - James Petty
 date: "2021-03-02T22:20:17+00:00"

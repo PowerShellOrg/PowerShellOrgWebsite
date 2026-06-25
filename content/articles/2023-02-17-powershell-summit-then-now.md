@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit! Then and Now
-author: James Petty
 authors:
   - James Petty
 date: "2023-02-17T20:44:21+00:00"

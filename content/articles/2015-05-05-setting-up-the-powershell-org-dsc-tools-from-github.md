@@ -1,6 +1,5 @@
 ---
 title: Setting up the PowerShell.org DSC tools from Github
-author: David Jones
 authors:
   - David Jones
 date: "2015-05-06T04:27:34+00:00"

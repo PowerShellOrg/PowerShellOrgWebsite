@@ -1,6 +1,5 @@
 ---
 title: "Writing 10961: Remoting"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-12-21T15:26:43+00:00"

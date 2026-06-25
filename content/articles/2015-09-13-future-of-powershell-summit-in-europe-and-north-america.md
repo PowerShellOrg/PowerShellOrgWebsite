@@ -1,6 +1,5 @@
 ---
 title: Future of PowerShell Summit in Europe and North America
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-09-14T06:49:02+00:00"

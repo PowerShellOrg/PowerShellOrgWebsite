@@ -1,6 +1,5 @@
 ---
 title: "UPDATE / Tug: The Open-Source DSC Pull Server"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-12-19T17:25:49+00:00"

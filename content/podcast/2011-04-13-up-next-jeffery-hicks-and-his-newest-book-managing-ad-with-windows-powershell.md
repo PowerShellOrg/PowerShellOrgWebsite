@@ -1,6 +1,5 @@
 ---
 title: Up Next Jeffery Hicks and his newest book Managing AD with Windows PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-13T15:32:00+00:00"

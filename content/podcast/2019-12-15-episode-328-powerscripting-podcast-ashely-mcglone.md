@@ -1,6 +1,5 @@
 ---
 title: Episode 328 – PowerScripting Podcast – Ashely McGlone
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Asley McGlone

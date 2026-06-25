@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Kirk Freiheit from Symantec Talks about Managing Backup Exec with PowerShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-15T03:10:00+00:00"

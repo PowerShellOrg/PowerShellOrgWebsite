@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Nick Howell from NetApp talking about software defined datacenter"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-02-25T16:22:28+00:00"

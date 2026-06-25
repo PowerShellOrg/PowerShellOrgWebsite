@@ -1,6 +1,5 @@
 ---
 title: Scripting Games May 2016 AD Puzzle
-author: i255d
 authors:
   - i255d
 date: "2016-04-27T02:32:52+00:00"

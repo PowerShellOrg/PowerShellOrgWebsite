@@ -1,6 +1,5 @@
 ---
 title: Episode 100 – Quest Mobileshell, PowerGui Pro and Your Tips
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-02-03T04:03:05+00:00"

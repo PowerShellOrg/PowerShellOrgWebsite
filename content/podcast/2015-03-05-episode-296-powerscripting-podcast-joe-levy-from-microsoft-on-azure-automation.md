@@ -1,6 +1,5 @@
 ---
 title: Episode 296 – PowerScripting Podcast – Joe Levy from Microsoft on Azure Automation
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-03-06T03:46:25+00:00"

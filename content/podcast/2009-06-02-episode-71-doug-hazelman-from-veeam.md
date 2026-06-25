@@ -1,6 +1,5 @@
 ---
 title: Episode 71 – Doug Hazelman from Veeam
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-03T02:20:15+00:00"

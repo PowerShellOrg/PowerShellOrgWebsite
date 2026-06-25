@@ -1,6 +1,5 @@
 ---
 title: Episode 239 – PowerScripting Podcast – Rob Willis from Microsoft on the PowerShell Deployment Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-09-09T00:58:31+00:00"

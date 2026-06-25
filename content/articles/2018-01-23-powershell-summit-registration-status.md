@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Registration Status
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-01-23T20:30:12+00:00"

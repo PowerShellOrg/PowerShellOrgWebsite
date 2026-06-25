@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Live tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-08-07T00:48:15+00:00"

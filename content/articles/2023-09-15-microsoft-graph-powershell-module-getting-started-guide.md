@@ -1,6 +1,5 @@
 ---
 title: "Microsoft Graph PowerShell Module: Getting Started Guide"
-author: James Petty
 authors:
   - James Petty
 date: "2023-09-15T16:21:15+00:00"

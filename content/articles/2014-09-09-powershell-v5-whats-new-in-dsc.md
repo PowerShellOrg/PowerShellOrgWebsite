@@ -1,6 +1,5 @@
 ---
 title: "PowerShell v5: What's New in DSC"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-09T17:11:57+00:00"

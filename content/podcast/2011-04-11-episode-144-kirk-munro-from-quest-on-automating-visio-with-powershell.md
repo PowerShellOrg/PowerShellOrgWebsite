@@ -1,6 +1,5 @@
 ---
 title: Episode 144 – Kirk Munro from Quest on Automating Visio with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-12T02:15:50+00:00"

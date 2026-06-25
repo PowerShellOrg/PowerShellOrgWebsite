@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Building Modern PowerShell Solutions: Justin Grote on TUIs, .NET, and Module Magic"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Justin Grote

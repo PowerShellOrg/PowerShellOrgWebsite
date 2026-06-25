@@ -1,6 +1,5 @@
 ---
 title: "Winter Scripting Camp: The Post Mortem"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-11T21:51:59+00:00"

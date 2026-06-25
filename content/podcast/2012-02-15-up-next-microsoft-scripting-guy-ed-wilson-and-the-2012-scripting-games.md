@@ -1,6 +1,5 @@
 ---
 title: Up Next Microsoft Scripting Guy Ed Wilson and the 2012 Scripting Games +
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-16T01:07:00+00:00"

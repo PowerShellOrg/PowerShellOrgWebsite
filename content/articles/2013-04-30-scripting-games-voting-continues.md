@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Voting Continues!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-30T17:52:21+00:00"

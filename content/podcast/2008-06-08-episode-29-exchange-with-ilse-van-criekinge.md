@@ -1,6 +1,5 @@
 ---
 title: "Episode 29 \"“ Exchange with Ilse Van Criekinge"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Ilse Van Criekinge

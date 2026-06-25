@@ -1,6 +1,5 @@
 ---
 title: Episode 53 – Jeffrey Snover and Bruce Payette!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-22T05:19:45+00:00"

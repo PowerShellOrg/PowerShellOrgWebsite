@@ -1,6 +1,5 @@
 ---
 title: "Update: 2021 PowerShell + DevOps Global Summit"
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2020-11-29T18:00:38+00:00"

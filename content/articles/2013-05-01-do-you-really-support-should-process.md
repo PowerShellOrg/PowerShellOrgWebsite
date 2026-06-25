@@ -1,6 +1,5 @@
 ---
 title: Do you really Support Should Process…?
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-05-01T22:02:38+00:00"

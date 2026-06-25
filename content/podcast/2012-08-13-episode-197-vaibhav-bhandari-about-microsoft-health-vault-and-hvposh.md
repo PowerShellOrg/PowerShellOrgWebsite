@@ -1,6 +1,5 @@
 ---
 title: Episode 197 – Vaibhav Bhandari about Microsoft Health Vault and HVPosh
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-14T03:18:21+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Ask PowerScripting: Accessing Sharepoint database from Server 2008"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-03T16:47:31+00:00"

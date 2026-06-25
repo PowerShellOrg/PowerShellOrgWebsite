@@ -1,6 +1,5 @@
 ---
 title: "Poll: Windows 7 Giveaway \"“ Interested?"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-12T13:09:18+00:00"

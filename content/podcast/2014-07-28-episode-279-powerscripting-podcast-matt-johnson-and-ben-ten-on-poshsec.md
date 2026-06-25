@@ -1,6 +1,5 @@
 ---
 title: Episode 279 – PowerScripting Podcast – Matt Johnson and Ben Ten on PoshSec
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-07-29T01:46:19+00:00"

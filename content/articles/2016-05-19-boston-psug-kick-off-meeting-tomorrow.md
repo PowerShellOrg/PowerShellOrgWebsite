@@ -1,6 +1,5 @@
 ---
 title: Boston PSUG Kick Off Meeting Tomorrow
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-05-19T23:05:43+00:00"

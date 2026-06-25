@@ -1,6 +1,5 @@
 ---
 title: "PowerShell + DevOps Global Summit 2017: Session Acceptance"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-10-18T17:53:20+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Calling all Scripting Games Puzzles!
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-03-07T22:25:25+00:00"

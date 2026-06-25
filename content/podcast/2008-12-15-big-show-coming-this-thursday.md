@@ -1,6 +1,5 @@
 ---
 title: Big show coming this Thursday!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-15T19:11:18+00:00"

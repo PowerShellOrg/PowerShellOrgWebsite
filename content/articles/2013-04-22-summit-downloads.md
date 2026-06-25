@@ -1,6 +1,5 @@
 ---
 title: Summit Downloads
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-22T18:23:28+00:00"

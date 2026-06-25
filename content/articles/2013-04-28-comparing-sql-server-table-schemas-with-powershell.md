@@ -1,6 +1,5 @@
 ---
 title: Comparing SQL Server table schemas with PowerShell
-author: Enrique Puig
 authors:
   - Enrique Puig
 date: "2013-04-28T22:44:17+00:00"

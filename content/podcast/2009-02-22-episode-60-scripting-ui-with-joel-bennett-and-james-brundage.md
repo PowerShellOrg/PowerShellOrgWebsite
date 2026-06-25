@@ -1,6 +1,5 @@
 ---
 title: Episode 60 – Scripting UI with Joel Bennett and James Brundage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Joel Bennett

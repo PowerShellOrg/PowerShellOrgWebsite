@@ -1,6 +1,5 @@
 ---
 title: The PowerShell + DevOps Global Summit CFP is OPEN
-author: James Petty
 authors:
   - James Petty
 date: "2023-10-01T13:00:56+00:00"

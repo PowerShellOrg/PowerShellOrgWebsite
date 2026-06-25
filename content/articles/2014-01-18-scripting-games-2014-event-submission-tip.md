@@ -1,6 +1,5 @@
 ---
 title: Scripting Games 2014 – event submission tip
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-01-18T12:21:45+00:00"

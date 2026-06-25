@@ -1,6 +1,5 @@
 ---
 title: Secure Your Powershell Session with JEA and Constrained Endpoints
-author: Nathaniel Webb (ArtisanByteCrafter)
 authors:
   - Nathaniel Webb (ArtisanByteCrafter)
 date: "2019-03-28T20:57:51+00:00"

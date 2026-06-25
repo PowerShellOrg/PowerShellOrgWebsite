@@ -1,6 +1,5 @@
 ---
 title: "Episode 185 – Steven Murawski on v3 and Jeffrey Snover's Keynote from the 2012 PowerShell Deep Dive"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Steven Murawski

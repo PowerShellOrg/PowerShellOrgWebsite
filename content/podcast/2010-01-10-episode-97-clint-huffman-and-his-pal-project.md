@@ -1,6 +1,5 @@
 ---
 title: Episode 97 – Clint Huffman and His PAL Project
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-11T04:56:40+00:00"

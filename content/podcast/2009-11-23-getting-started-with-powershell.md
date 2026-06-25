@@ -1,6 +1,5 @@
 ---
 title: Getting Started with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-11-23T15:40:03+00:00"

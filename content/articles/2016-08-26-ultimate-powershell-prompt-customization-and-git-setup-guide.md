@@ -1,6 +1,5 @@
 ---
 title: Ultimate PowerShell Prompt Customization and Git Setup Guide
-author: Matthew Hodgkins
 authors:
   - Matthew Hodgkins
 date: "2016-08-26T05:25:27+00:00"

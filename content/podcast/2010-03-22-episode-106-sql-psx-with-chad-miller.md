@@ -1,6 +1,5 @@
 ---
 title: Episode 106 – SQL PSX with Chad Miller
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Chad Miller

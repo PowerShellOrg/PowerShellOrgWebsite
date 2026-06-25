@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Intune Stack and the Art of Showing Up with Hailey Phillips
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Hailey Phillips

@@ -1,6 +1,5 @@
 ---
 title: How Cloud-First Design Affects You
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-03T17:29:36+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Is Fun mkay with Harm Veenstra
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Harm Veenstra

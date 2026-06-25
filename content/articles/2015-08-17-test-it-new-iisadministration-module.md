@@ -1,6 +1,5 @@
 ---
 title: "TEST IT: New IISAdministration Module"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-08-17T17:35:08+00:00"

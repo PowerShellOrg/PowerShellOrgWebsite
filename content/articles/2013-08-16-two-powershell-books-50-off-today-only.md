@@ -1,6 +1,5 @@
 ---
 title: Two PowerShell Books 50% off TODAY ONLY
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-16T17:59:11+00:00"

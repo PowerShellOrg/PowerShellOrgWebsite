@@ -1,6 +1,5 @@
 ---
 title: OnRamp2024 Program Unveiled
-author: James Petty
 authors:
   - James Petty
 date: "2023-11-29T15:03:16+00:00"

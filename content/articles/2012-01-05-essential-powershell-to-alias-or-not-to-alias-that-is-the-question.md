@@ -1,6 +1,5 @@
 ---
 title: "Essential PowerShell: To alias, or not to alias, that is the question"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-01-05T14:30:00+00:00"

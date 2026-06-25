@@ -1,6 +1,5 @@
 ---
 title: Episode 111 – Buck Woody from Microsoft on SQL Server and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-05-04T03:10:55+00:00"

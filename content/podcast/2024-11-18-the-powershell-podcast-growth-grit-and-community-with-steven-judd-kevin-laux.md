@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Growth, Grit, and Community with Steven Judd & Kevin Laux
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Judd

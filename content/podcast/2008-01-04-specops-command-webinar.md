@@ -1,6 +1,5 @@
 ---
 title: Specops Command Webinar
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-01-04T13:35:59+00:00"

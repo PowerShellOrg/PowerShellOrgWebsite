@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Certificates Are Not Optional with Leo D'Arcy
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Leo D'Arcy

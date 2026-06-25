@@ -1,6 +1,5 @@
 ---
 title: "PowerShell for Developers: Doug Finke’s Story"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

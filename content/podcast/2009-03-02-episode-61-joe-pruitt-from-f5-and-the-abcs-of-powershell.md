@@ -1,6 +1,5 @@
 ---
 title: Episode 61 – Joe Pruitt from F5 and the ABCs of PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-03T03:25:07+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 86 – Jason Shirk from the PowerShell team
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-05T03:22:21+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 306 – PowerScripting Podcast – Rob “Barkz” Barker from Pure Storage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-09-11T03:28:01+00:00"

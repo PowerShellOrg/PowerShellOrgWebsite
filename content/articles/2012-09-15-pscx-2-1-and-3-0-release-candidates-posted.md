@@ -1,6 +1,5 @@
 ---
 title: PSCX 2.1 and 3.0 Release Candidates Posted
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2012-09-16T02:45:47+00:00"

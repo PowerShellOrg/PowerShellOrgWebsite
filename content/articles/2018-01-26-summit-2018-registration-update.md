@@ -1,6 +1,5 @@
 ---
 title: Summit 2018 registration update
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-01-26T16:55:41+00:00"

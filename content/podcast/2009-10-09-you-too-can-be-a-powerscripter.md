@@ -1,6 +1,5 @@
 ---
 title: You Too Can Be a PowerScripter!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-09T18:51:11+00:00"

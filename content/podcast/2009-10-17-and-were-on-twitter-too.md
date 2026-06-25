@@ -1,6 +1,5 @@
 ---
 title: "And we\"™re on Twitter too\"¦"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-18T02:41:34+00:00"

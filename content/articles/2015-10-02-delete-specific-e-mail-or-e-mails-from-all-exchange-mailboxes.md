@@ -1,6 +1,5 @@
 ---
 title: Delete Specific E-Mail or E-Mails From All Exchange Mailboxes
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-10-02T15:27:10+00:00"

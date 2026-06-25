@@ -1,6 +1,5 @@
 ---
 title: Windows PowerShell V3 Language Specification Posted
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2013-01-11T15:52:14+00:00"

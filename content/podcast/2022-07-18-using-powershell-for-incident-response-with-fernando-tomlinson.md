@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell for Incident Response with Fernando Tomlinson
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

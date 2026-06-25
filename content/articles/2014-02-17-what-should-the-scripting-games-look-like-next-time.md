@@ -1,6 +1,5 @@
 ---
 title: What Should The Scripting Games Look Like Next Time?
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-02-17T18:17:14+00:00"

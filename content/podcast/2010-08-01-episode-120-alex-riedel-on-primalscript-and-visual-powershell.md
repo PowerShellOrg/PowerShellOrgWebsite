@@ -1,6 +1,5 @@
 ---
 title: Episode 120 – Alex Riedel on PrimalScript and Visual PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-02T03:56:56+00:00"

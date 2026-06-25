@@ -1,6 +1,5 @@
 ---
 title: Come Watch PowerScripting Live!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-28T00:16:56+00:00"

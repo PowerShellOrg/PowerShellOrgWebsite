@@ -1,6 +1,5 @@
 ---
 title: A New Home for Plaster
-author: Jeffery Hicks
 authors:
   - Jeffery Hicks
 date: "2020-06-16T21:17:21+00:00"

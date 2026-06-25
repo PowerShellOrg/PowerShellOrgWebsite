@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Lance Robinson from /n software"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-23T16:15:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 22 – The One About Brandon
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-29T14:57:02+00:00"

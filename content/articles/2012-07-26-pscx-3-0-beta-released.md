@@ -1,6 +1,5 @@
 ---
 title: PSCX 3.0 Beta Released
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2012-07-27T04:12:31+00:00"

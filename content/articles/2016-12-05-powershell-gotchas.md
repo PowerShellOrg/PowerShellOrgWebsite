@@ -1,6 +1,5 @@
 ---
 title: PowerShell Gotchas
-author: msorens
 authors:
   - msorens
 date: "2016-12-05T00:28:59+00:00"

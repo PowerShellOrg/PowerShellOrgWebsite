@@ -1,6 +1,5 @@
 ---
 title: PowerShell Deep Dives
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2012-12-18T19:23:45+00:00"

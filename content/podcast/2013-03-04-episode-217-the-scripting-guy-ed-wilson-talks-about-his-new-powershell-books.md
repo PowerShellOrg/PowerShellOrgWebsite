@@ -1,6 +1,5 @@
 ---
 title: Episode 217 – The Scripting Guy Ed Wilson talks about his new PowerShell books
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-04T23:27:52+00:00"

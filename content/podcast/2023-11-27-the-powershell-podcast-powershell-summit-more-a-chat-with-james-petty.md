@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell Summit & More: A Chat with James Petty"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

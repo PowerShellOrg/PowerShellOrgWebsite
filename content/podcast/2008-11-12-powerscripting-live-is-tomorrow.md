@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Live is tomorrow!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-12T19:36:09+00:00"

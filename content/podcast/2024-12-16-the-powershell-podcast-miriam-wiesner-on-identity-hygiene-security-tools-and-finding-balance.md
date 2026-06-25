@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Miriam Wiesner on Identity Hygiene, Security Tools, and Finding Balance
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Miriam C. Wiesner

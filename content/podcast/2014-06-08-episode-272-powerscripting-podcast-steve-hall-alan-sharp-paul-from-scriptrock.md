@@ -1,6 +1,5 @@
 ---
 title: Episode 272 – PowerScripting Podcast – Steve Hall & Alan Sharp-Paul from ScriptRock
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-06-08T19:31:51+00:00"

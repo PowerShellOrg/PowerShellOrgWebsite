@@ -1,6 +1,5 @@
 ---
 title: More PowerShell v4 and DSC Details
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-05T14:22:01+00:00"

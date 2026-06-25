@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Start Small and Keep Building in PowerShell with Mason Moser
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Mason Moser

@@ -1,6 +1,5 @@
 ---
 title: Getting ready for the big show
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-17T18:27:17+00:00"

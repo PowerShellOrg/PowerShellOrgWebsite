@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: Jeffery Hicks"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-22T14:46:22+00:00"

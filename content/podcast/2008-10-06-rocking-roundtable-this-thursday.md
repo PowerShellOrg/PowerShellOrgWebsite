@@ -1,6 +1,5 @@
 ---
 title: Rocking Roundtable This Thursday!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-07T01:28:45+00:00"

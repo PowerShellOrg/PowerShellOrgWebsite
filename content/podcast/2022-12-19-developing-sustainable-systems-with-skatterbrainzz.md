@@ -1,6 +1,5 @@
 ---
 title: Developing Sustainable Systems with Skatterbrainzz
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

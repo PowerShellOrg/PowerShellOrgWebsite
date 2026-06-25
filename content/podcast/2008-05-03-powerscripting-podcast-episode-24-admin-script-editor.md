@@ -1,6 +1,5 @@
 ---
 title: Episode 24 – Admin Script Editor
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-05-03T19:56:14+00:00"

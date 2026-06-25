@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Modern Automation with PowerShell Michael
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

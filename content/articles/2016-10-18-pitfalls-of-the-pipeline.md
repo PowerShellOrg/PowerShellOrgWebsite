@@ -1,6 +1,5 @@
 ---
 title: Pitfalls of the Pipeline
-author: msorens
 authors:
   - msorens
 date: "2016-10-18T21:43:10+00:00"

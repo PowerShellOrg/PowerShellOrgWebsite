@@ -1,6 +1,5 @@
 ---
 title: Episode 43 – Brandon Shell is back to talk AD
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-29T03:18:04+00:00"

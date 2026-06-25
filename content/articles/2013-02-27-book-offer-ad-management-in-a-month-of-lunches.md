@@ -1,6 +1,5 @@
 ---
 title: "Book offer\"“AD Management in a Month of Lunches"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-27T20:24:14+00:00"

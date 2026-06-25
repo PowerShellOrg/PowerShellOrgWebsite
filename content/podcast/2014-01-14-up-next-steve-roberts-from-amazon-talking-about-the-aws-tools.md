@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Steve Roberts from Amazon talking about the AWS Tools"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-01-14T16:49:38+00:00"

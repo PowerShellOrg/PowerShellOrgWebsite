@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG Virtual Meeting: Avoiding Version Chaos in a Multi-Version #PowerShell World – Jan 12th"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2016-01-08T14:39:43+00:00"

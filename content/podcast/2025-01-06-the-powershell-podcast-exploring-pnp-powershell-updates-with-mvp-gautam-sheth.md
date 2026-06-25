@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring PnP PowerShell Updates with MVP Gautam Sheth
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Gautam Sheth

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast 200 Episodes of Community with Frank Lesniak
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Frank Lesniak

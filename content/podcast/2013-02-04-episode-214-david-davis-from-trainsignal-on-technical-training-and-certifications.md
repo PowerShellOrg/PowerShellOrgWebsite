@@ -1,6 +1,5 @@
 ---
 title: Episode 214 – David Davis from TrainSignal on technical training and certifications
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-05T04:27:34+00:00"

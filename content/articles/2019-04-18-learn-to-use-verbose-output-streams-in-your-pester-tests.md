@@ -1,6 +1,5 @@
 ---
 title: Learn To Use Verbose Output Streams In Your Pester Tests
-author: Nathaniel Webb (ArtisanByteCrafter)
 authors:
   - Nathaniel Webb (ArtisanByteCrafter)
 date: "2019-04-18T19:51:31+00:00"

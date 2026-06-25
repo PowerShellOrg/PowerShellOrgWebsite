@@ -1,6 +1,5 @@
 ---
 title: "Scripting Games Week 2: Formatting edition"
-author: Glenn Sizemore
 authors:
   - Glenn Sizemore
 date: "2013-05-10T12:40:16+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Breaking Down ModuleFast and More with Justin Grote
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Justin Grote

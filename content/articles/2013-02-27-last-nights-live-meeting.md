@@ -1,6 +1,5 @@
 ---
 title: Last nights Live Meeting
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-27T20:18:54+00:00"

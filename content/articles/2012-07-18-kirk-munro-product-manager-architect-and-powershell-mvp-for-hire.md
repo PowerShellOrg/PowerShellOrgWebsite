@@ -1,6 +1,5 @@
 ---
 title: Kirk Munro, Product Manager, Architect, and PowerShell MVP for hire
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-07-18T23:01:34+00:00"

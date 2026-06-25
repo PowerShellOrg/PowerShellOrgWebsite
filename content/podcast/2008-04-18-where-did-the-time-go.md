@@ -1,6 +1,5 @@
 ---
 title: Where did the time go?
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-04-18T16:14:17+00:00"

@@ -1,6 +1,5 @@
 ---
 title: A Changing of the Guard
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-04-11T20:04:28+00:00"

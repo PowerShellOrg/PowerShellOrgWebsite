@@ -1,6 +1,5 @@
 ---
 title: Episode 81 – David Warburton talks AutoPowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-08-25T04:22:40+00:00"

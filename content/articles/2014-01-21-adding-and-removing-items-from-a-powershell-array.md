@@ -1,6 +1,5 @@
 ---
 title: Adding and Removing Items from a PowerShell Array
-author: Jonathan Medd
 authors:
   - Jonathan Medd
 date: "2014-01-21T11:46:35+00:00"

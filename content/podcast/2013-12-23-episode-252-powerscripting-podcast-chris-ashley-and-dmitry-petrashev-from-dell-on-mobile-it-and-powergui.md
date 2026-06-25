@@ -1,6 +1,5 @@
 ---
 title: Episode 252 – PowerScripting Podcast – Chris Ashley and Dmitry Petrashev from Dell on Mobile IT and PowerGui
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-12-24T06:07:53+00:00"

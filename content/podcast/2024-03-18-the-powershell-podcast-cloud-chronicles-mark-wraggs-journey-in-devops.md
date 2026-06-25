@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Cloud Chronicles: Mark Wragg’s Journey in DevOps"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-03-18T14:29:08+00:00"

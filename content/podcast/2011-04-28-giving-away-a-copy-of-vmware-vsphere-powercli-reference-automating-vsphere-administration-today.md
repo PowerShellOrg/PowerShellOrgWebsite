@@ -1,6 +1,5 @@
 ---
 title: "Giving Away a Copy of \"VMware vSphere PowerCLI Reference: Automating vSphere Administration\" TODAY!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-04-28T17:51:18+00:00"

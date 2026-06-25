@@ -1,6 +1,5 @@
 ---
 title: LAST CALL for the European PowerShell Summit 2014
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-09-06T08:50:32+00:00"

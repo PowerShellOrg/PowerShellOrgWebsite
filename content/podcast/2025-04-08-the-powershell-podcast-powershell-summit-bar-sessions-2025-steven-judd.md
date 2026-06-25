@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Summit Bar Sessions 2025 – Steven Judd
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-04-08T21:48:51+00:00"

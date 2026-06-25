@@ -1,6 +1,5 @@
 ---
 title: Episode 47 – MVP Systems JAMS
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-04T04:06:32+00:00"

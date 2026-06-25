@@ -1,6 +1,5 @@
 ---
 title: Desired State Configuration – Beware Of Circular Configurations
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2015-10-14T13:00:37+00:00"

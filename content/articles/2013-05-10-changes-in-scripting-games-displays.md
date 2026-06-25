@@ -1,6 +1,5 @@
 ---
 title: Changes in Scripting Games Displays
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-10T23:52:49+00:00"

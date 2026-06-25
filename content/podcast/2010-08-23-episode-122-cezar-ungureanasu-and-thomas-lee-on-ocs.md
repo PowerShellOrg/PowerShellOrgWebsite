@@ -1,6 +1,5 @@
 ---
 title: Episode 123 – Cezar Ungureanasu and Thomas Lee on OCS
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-24T04:08:02+00:00"

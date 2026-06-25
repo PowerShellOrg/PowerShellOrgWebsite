@@ -1,6 +1,5 @@
 ---
 title: "Curious About the #PoshCruise? Ask Questions Here."
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-07-14T16:12:57+00:00"

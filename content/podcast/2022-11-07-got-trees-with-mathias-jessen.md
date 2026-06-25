@@ -1,6 +1,5 @@
 ---
 title: Got Trees? With Mathias Jessen
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

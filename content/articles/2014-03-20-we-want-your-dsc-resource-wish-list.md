@@ -1,6 +1,5 @@
 ---
 title: We Want Your DSC Resource Wish List!
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-20T16:08:03+00:00"

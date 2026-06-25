@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Videos
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-07T15:52:59+00:00"

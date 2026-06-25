@@ -1,6 +1,5 @@
 ---
 title: PowerGUI® Pro and PowerGUI® 3.0 are now available
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-07-16T01:49:58+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Edward Haletky Talks About VMware"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-07-15T13:17:23+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Learn Powershell in 5 Painless Steps – Input (Console, File, Applications) – Step 3
-author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:31+00:00"

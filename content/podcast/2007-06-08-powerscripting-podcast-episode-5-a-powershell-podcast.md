@@ -1,6 +1,5 @@
 ---
 title: Episode 5 – PowerShell Hits a Million
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-06-08T16:35:09+00:00"

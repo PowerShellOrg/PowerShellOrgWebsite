@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit – Initial OnRamp Scholarship Recipients
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-08-25T15:05:10+00:00"

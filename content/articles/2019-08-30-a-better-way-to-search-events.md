@@ -1,6 +1,5 @@
 ---
 title: A Better Way To Search Events
-author: tobor79
 authors:
   - tobor79
 date: "2019-08-30T17:09:21+00:00"

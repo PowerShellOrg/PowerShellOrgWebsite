@@ -1,6 +1,5 @@
 ---
 title: "Episode 195 – MVP Jim Christopher on SeeShell and PowerShell Saturday #002"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-31T02:33:24+00:00"

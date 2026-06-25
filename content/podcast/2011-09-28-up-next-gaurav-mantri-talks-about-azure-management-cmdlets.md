@@ -1,6 +1,5 @@
 ---
 title: Up Next Gaurav Mantri talks about Azure Management cmdlets
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-09-28T14:30:00+00:00"

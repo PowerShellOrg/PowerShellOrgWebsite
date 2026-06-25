@@ -1,6 +1,5 @@
 ---
 title: Episode 37 – Brandon is back
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-11T02:54:21+00:00"

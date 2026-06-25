@@ -1,6 +1,5 @@
 ---
 title: Episode 205 – Jeffrey Snover talks about PowerShell 3.0
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-31T03:48:17+00:00"

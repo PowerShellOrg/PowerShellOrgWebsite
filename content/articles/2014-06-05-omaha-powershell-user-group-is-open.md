@@ -1,6 +1,5 @@
 ---
 title: Omaha PowerShell User Group is Open!
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2014-06-05T18:51:10+00:00"

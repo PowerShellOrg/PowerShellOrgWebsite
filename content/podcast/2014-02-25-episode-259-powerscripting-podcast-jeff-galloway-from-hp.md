@@ -1,6 +1,5 @@
 ---
 title: Episode 259 – PowerScripting Podcast – Jeff Galloway from HP
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-02-26T04:30:15+00:00"

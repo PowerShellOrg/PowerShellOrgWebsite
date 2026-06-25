@@ -1,6 +1,5 @@
 ---
 title: Episode 1 – Fundamental Cmdlets
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-03-27T04:00:20+00:00"

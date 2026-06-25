@@ -1,6 +1,5 @@
 ---
 title: "Is this list \"Everything\" in PowerShell?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-06T20:11:04+00:00"

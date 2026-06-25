@@ -1,6 +1,5 @@
 ---
 title: Episode 251 – PowerScripting Podcast – Josh Swenson talks about using PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-12-21T16:59:33+00:00"

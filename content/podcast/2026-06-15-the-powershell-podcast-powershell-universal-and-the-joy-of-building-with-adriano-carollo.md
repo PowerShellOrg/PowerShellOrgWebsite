@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Universal and the Joy of Building with Adriano Carollo
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Adriano Carollo

@@ -1,6 +1,5 @@
 ---
 title: Looking for a PowerShell.org Contributor
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-06-22T15:24:43+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Solving Problems at the Root with Mark Littlefield
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Mark Littlefield

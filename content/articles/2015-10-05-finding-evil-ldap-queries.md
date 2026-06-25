@@ -1,6 +1,5 @@
 ---
 title: Finding Evil LDAP Queries
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-10-05T14:17:34+00:00"

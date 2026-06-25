@@ -1,6 +1,5 @@
 ---
 title: "The Summit 2019 Call for Topics: Some Ideas"
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-08-14T16:16:15+00:00"

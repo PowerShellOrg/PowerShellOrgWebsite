@@ -1,6 +1,5 @@
 ---
 title: As The Scripting Games Wrap Up…
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-01T18:39:15+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Job Listing in Atlanta: System Engineer"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-24T01:22:41+00:00"

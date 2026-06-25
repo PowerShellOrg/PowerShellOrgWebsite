@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Week 4
-author: Glenn Sizemore
 authors:
   - Glenn Sizemore
 date: "2013-05-24T21:37:18+00:00"

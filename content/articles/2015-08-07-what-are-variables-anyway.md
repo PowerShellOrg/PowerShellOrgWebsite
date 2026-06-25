@@ -1,6 +1,5 @@
 ---
 title: What are variables anyway…
-author: Stephen Moore
 authors:
   - Stephen Moore
 date: "2015-08-07T09:03:51+00:00"

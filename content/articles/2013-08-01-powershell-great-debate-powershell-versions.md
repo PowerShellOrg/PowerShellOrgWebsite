@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: PowerShell Versions?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-01T14:32:38+00:00"

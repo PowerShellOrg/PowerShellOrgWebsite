@@ -1,6 +1,5 @@
 ---
 title: Episode 39 – Alex Riedel talks PrimalScript
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-02T01:04:19+00:00"

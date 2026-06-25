@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Alex Riedel from SAPIEN"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-28T01:51:00+00:00"

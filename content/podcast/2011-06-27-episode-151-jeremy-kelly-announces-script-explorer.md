@@ -1,6 +1,5 @@
 ---
 title: Episode 151 – Jeremy Kelly Announces Script Explorer
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-28T03:14:25+00:00"

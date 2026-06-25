@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Breaking Down Barriers in PowerShell and Management with Kevin Cefalu
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

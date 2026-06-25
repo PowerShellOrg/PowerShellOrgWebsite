@@ -1,6 +1,5 @@
 ---
 title: Episode 208 – Oisin Grehan and Keith Hill talk about the PowerShell Community Extensions
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-12-18T03:21:40+00:00"

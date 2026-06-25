@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Transitioning to DevOps with Dave Carroll
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

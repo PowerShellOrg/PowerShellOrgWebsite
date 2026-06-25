@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From Sysadmin to Security at Microsoft with Thomas Rayner
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Thomas Rayner

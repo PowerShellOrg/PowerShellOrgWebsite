@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jason Helmick talks about PowerShell in the Real World!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-01T15:30:07+00:00"

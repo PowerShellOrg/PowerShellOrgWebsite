@@ -1,6 +1,5 @@
 ---
 title: Learn Powershell in 5 Painless Steps – Decisions (If/Else, Switch, Function) – Step 5
-author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:52+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Template Podcast Title with Gilbert Sanchez
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

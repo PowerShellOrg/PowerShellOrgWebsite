@@ -1,6 +1,5 @@
 ---
 title: Event 2 is final!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-07T00:23:43+00:00"

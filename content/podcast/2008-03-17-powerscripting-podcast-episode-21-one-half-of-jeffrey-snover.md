@@ -1,6 +1,5 @@
 ---
 title: Episode 21 – One-half of Jeffrey Snover
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-17T23:31:33+00:00"

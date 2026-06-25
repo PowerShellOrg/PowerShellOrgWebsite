@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: To Accelerate, or Not?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-25T14:38:57+00:00"

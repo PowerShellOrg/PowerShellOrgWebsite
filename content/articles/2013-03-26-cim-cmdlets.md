@@ -1,6 +1,5 @@
 ---
 title: CIM cmdlets
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-26T21:04:00+00:00"

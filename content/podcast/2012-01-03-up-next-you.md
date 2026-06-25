@@ -1,6 +1,5 @@
 ---
 title: "Up Next: YOU!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-04T03:28:51+00:00"

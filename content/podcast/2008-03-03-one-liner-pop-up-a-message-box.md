@@ -1,6 +1,5 @@
 ---
 title: "One-liner: Pop up a message box"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-03T18:33:00+00:00"

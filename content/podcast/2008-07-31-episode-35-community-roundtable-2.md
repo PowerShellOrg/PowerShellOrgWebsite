@@ -1,6 +1,5 @@
 ---
 title: "Episode 35 \"“ Community Roundtable #2"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-01T02:43:34+00:00"

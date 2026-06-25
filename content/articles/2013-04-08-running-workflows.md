@@ -1,6 +1,5 @@
 ---
 title: Running workflows
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-08T17:12:38+00:00"

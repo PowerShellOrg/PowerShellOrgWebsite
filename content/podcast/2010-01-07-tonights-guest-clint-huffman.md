@@ -1,6 +1,5 @@
 ---
 title: "Tonight\"™s Guest: Clint Huffman"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-07T19:21:39+00:00"

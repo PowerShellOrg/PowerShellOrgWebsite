@@ -1,6 +1,5 @@
 ---
 title: Episode 267 – PowerScripting Podcast – Alan Renouf from VMware on PowerCLI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-04-24T03:40:09+00:00"

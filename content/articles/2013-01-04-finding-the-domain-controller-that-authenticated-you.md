@@ -1,6 +1,5 @@
 ---
 title: Finding the domain controller that authenticated you
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-04T17:57:56+00:00"

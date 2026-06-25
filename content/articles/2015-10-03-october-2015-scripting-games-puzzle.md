@@ -1,6 +1,5 @@
 ---
 title: 2015-October Scripting Games Puzzle
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-10-03T13:31:53+00:00"

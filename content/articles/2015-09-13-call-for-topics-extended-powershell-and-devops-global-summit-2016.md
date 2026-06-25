@@ -1,6 +1,5 @@
 ---
 title: "Call for Topics Extended: PowerShell and DevOps Global Summit 2016"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-09-14T06:56:16+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Help us Run PowerShell.org!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-08-15T14:54:53+00:00"

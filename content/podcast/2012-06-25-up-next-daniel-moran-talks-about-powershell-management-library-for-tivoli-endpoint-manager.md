@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Daniel Moran talks about PowerShell Management Library for Tivoli Endpoint Manager!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-06-25T14:11:00+00:00"

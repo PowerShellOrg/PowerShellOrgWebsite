@@ -1,6 +1,5 @@
 ---
 title: "One for the road: Stepping away from PowerGUI®"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-07-29T04:01:30+00:00"

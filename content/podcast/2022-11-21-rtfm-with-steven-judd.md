@@ -1,6 +1,5 @@
 ---
 title: RTFM with Steven Judd
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

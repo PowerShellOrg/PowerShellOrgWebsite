@@ -1,6 +1,5 @@
 ---
 title: "PowerShell News Roundup (There's Been a Lot of it)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-12-21T18:37:50+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 265 – PowerScripting Podcast – Narayanan Lakshmanan from the PowerShell Team on DSC
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-04-09T03:04:26+00:00"

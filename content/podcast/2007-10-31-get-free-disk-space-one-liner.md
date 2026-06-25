@@ -1,6 +1,5 @@
 ---
 title: Get free disk space one-liner
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-10-31T19:18:34+00:00"

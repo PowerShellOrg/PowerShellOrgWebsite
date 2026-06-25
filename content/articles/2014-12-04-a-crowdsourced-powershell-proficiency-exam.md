@@ -1,6 +1,5 @@
 ---
 title: A Crowdsourced PowerShell Proficiency Exam
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-12-04T16:25:34+00:00"

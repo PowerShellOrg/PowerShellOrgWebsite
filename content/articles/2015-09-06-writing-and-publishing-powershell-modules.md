@@ -1,6 +1,5 @@
 ---
 title: Writing and Publishing PowerShell Modules
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-09-06T20:31:29+00:00"

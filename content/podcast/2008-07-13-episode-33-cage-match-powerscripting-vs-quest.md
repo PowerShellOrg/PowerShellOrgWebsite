@@ -1,6 +1,5 @@
 ---
 title: "Episode 33 \"“ Cage Match: PowerScripting vs. Quest"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-07-14T02:23:42+00:00"

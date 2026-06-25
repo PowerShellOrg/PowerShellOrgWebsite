@@ -1,6 +1,5 @@
 ---
 title: Seeking Curators for PowerShell eBooks
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-23T19:15:22+00:00"

@@ -1,6 +1,5 @@
 ---
 title: PowerGUI® Spring 2011 Desktop Wallpaper
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-03-21T20:44:47+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Template based parsing and progress bars
-author: Jonas Sommer Nielsen
 authors:
   - Jonas Sommer Nielsen
 date: "2015-08-12T22:54:37+00:00"

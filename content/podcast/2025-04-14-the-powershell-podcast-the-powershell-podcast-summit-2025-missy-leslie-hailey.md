@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The PowerShell Podcast Summit 2025 – Missy, Leslie, & Hailey
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-04-14T15:02:00+00:00"

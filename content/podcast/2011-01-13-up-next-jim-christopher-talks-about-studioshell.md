@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jim Christopher Talks About StudioShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-13T15:21:14+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 8 – Meet Hal Rottenberg!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-09-19T01:50:49+00:00"

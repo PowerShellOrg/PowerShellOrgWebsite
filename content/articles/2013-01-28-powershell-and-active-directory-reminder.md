@@ -1,6 +1,5 @@
 ---
 title: "PowerShell and Active Directory\"“reminder"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-28T18:14:58+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "What To Do If You Don't Score a PowerShell Summit Ticket"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-24T20:46:11+00:00"

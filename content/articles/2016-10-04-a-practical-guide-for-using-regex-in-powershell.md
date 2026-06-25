@@ -1,6 +1,5 @@
 ---
 title: A Practical Guide for Using Regex in PowerShell
-author: Duffney
 authors:
   - Duffney
 date: "2016-10-04T00:49:59+00:00"

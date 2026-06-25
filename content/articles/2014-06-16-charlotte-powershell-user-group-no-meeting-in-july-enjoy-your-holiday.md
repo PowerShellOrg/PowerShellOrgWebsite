@@ -1,6 +1,5 @@
 ---
 title: Charlotte PowerShell User Group No meeting in July, enjoy your holiday!
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-06-16T22:00:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 191- Daniel Moran from IBM and Our Live Show From SQL Saturday
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-03T02:51:56+00:00"

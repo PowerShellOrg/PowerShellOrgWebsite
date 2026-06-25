@@ -1,6 +1,5 @@
 ---
 title: Pipeline or Script? That is the Question
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-21T17:52:14+00:00"

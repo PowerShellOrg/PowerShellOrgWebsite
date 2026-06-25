@@ -1,6 +1,5 @@
 ---
 title: Episode 165 – Brandon Shell talks Splunk
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-11-15T02:03:00+00:00"

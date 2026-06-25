@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Farewell to Jordan: MVP Chrissy LeMaire Unleashes AI Wisdom"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

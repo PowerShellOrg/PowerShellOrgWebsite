@@ -1,6 +1,5 @@
 ---
 title: Up Next The Winners of the 2012 Scripting Games with Jeffrey Snover and Ed Wilson
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

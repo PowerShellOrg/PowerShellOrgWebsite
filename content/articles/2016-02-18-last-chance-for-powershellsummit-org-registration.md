@@ -1,6 +1,5 @@
 ---
 title: Last Chance for PowerShellSummit.org Registration
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-02-18T18:52:02+00:00"

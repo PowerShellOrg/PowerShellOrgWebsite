@@ -1,6 +1,5 @@
 ---
 title: "Select-String\"“information on matching files"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-08T21:31:36+00:00"

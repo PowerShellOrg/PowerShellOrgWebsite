@@ -1,6 +1,5 @@
 ---
 title: Episode 241 – PowerScripting Podcast – Microsoft PFE Matthew Reynolds on the Windows Performance Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-09-19T03:14:59+00:00"

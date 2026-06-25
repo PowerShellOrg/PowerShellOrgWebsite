@@ -1,6 +1,5 @@
 ---
 title: Episode 213 – Glenn Sizemore from NetApp on Enterprise Storage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-31T04:21:45+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Time is running out to own a piece of PowerShell.org"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-11T08:25:30+00:00"

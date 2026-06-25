@@ -1,6 +1,5 @@
 ---
 title: Episode 49 – Susan Bradley the SBS Diva
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-17T03:28:24+00:00"

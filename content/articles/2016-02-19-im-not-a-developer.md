@@ -1,6 +1,5 @@
 ---
 title: "I'm Not A Developer"
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2016-02-19T12:57:33+00:00"

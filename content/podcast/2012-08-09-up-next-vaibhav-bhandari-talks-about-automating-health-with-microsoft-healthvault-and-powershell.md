@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Vaibhav Bhandari Talks about Automating Health with Microsoft HealthVault and PowerShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-09T13:25:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Unit Testing is “Pestering” the Hell Out Of Me
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2016-09-02T17:31:14+00:00"

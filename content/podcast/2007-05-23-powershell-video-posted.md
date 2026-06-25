@@ -1,6 +1,5 @@
 ---
 title: PowerShell video posted
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-05-23T13:43:42+00:00"

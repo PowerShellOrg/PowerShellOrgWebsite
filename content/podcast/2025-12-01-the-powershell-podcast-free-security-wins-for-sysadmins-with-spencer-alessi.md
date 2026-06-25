@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Free Security Wins for Sysadmins with Spencer Alessi
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Spencer Alessi

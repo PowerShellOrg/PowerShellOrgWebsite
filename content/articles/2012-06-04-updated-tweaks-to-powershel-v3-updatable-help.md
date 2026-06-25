@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Tweaks to PowerShel v3 Updatable Help"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-04T23:58:00+00:00"

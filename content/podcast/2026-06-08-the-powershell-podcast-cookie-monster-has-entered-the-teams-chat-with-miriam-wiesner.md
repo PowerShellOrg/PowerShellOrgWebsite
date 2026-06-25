@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Cookie Monster Has Entered the Teams Chat with Miriam Wiesner
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Miriam Wiesner

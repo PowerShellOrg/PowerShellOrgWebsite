@@ -1,6 +1,5 @@
 ---
 title: Episode 238 – PowerScripting Podcast – Glenn Block & Jim Christopher on scriptcs
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-08-15T02:31:02+00:00"

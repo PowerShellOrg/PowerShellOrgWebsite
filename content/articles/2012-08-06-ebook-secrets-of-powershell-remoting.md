@@ -1,6 +1,5 @@
 ---
 title: "eBook: Secrets of PowerShell Remoting"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-08-06T19:22:35+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 294 – PowerScripting Podcast – Michael Greene & Charles Joy from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-02-05T04:02:34+00:00"

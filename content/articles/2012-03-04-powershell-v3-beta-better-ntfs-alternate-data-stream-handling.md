@@ -1,6 +1,5 @@
 ---
 title: "PowerShell V3 Beta\"“Better NTFS Alternate Data Stream Handling"
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2012-03-05T04:37:08+00:00"

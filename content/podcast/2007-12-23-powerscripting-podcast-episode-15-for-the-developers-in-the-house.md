@@ -1,6 +1,5 @@
 ---
 title: Episode 15 – Joel Bennett, for the developers in the house
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-12-23T19:06:46+00:00"

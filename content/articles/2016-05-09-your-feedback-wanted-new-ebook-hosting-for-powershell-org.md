@@ -1,6 +1,5 @@
 ---
 title: Your feedback wanted! New eBook Hosting for PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-05-09T13:28:43+00:00"

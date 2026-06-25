@@ -1,6 +1,5 @@
 ---
 title: "PowerShell v5: Class Support"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-08T14:14:38+00:00"

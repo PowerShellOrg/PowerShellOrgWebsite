@@ -1,6 +1,5 @@
 ---
 title: Episode 107 – PowerWF v2 with Ben and Brian
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-03-30T16:14:17+00:00"

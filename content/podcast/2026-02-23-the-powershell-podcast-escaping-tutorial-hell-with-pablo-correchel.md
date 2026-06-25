@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Escaping Tutorial Hell with Pablo Correchel
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Pablo Correchel

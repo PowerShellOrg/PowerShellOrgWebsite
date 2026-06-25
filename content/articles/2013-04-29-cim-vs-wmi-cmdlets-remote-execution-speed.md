@@ -1,6 +1,5 @@
 ---
 title: CIM vs WMI cmdlets-remote execution speed
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-29T19:08:48+00:00"

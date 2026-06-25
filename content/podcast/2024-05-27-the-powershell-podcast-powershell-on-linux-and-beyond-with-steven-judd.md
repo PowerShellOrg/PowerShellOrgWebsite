@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell on Linux and Beyond with Steven Judd
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Judd

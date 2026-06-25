@@ -1,6 +1,5 @@
 ---
 title: Episode 19 – The Scripting Games are on
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-02-18T02:32:49+00:00"

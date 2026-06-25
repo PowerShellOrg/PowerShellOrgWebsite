@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell Pioneer: A Deep Dive with Microsoft PM Jason Helmick"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

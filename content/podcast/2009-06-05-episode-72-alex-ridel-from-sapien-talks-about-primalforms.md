@@ -1,6 +1,5 @@
 ---
 title: Episode 72 – Alex Riedel from SAPIEN talks about PrimalForms
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-05T13:31:07+00:00"

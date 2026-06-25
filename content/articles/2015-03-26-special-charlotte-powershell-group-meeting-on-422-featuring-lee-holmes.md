@@ -1,6 +1,5 @@
 ---
 title: Special Charlotte PowerShell Group meeting on 4/22 featuring Lee Holmes
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2015-03-26T22:41:03+00:00"

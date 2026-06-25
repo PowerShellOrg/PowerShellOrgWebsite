@@ -1,6 +1,5 @@
 ---
 title: Create Windows Shortcuts or Favorites With PowerShell
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-01-22T16:37:59+00:00"

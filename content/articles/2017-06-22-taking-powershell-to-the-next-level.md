@@ -1,6 +1,5 @@
 ---
 title: Taking Powershell to the next level
-author: Nick Rimmer
 authors:
   - Nick Rimmer
 date: "2017-06-22T13:30:58+00:00"

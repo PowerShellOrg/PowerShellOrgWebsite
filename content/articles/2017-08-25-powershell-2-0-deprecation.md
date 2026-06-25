@@ -1,6 +1,5 @@
 ---
 title: PowerShell 2.0 deprecation
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-08-25T10:29:17+00:00"

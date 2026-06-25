@@ -1,6 +1,5 @@
 ---
 title: Episode 161 – Gaurav Mantri on Azure Management with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-07T04:18:52+00:00"

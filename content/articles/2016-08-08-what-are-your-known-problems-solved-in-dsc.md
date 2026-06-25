@@ -1,6 +1,5 @@
 ---
 title: "What are your \"known problems\" (solved) in DSC?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-08-08T19:32:02+00:00"

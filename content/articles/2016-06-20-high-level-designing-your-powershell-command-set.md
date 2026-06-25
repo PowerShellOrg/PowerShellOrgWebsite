@@ -1,6 +1,5 @@
 ---
 title: "High-Level: Designing Your PowerShell Command Set"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-06-20T10:27:41+00:00"

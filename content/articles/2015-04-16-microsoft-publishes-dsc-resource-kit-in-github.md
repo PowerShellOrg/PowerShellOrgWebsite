@@ -1,6 +1,5 @@
 ---
 title: Microsoft Publishes DSC Resource Kit in GitHub
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-16T11:47:50+00:00"

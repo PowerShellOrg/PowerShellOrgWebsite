@@ -1,6 +1,5 @@
 ---
 title: "So your company doesn't want to enable PowerShell Remoting?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-21T00:37:04+00:00"

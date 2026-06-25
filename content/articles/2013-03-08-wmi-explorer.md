@@ -1,6 +1,5 @@
 ---
 title: WMI Explorer
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-03-08T16:02:33+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 282 – PowerScripting Podcast – Jennelle Crothers & Jessica DaVita from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-08-27T02:14:13+00:00"

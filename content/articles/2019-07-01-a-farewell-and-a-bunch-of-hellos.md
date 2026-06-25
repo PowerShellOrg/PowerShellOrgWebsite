@@ -1,6 +1,5 @@
 ---
 title: A Farewell, and a Bunch of Hellos
-author: Don Jones
 authors:
   - Don Jones
 date: "2019-07-01T13:55:37+00:00"

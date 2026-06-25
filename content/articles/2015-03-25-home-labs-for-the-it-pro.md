@@ -1,6 +1,5 @@
 ---
 title: Home Labs for the IT pro
-author: Greg Altman
 authors:
   - Greg Altman
 date: "2015-03-25T15:34:48+00:00"

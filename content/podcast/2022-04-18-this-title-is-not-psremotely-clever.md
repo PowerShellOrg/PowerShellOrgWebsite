@@ -1,6 +1,5 @@
 ---
 title: This title is not psremotely clever
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

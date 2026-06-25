@@ -1,6 +1,5 @@
 ---
 title: "Writing 10961: First Module in For Review"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-12-24T15:28:20+00:00"

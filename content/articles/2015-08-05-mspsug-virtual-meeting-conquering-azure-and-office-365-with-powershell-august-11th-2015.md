@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG Virtual Meeting: Conquering Azure and Office 365 with PowerShell – August 11th 2015"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-08-05T14:49:49+00:00"

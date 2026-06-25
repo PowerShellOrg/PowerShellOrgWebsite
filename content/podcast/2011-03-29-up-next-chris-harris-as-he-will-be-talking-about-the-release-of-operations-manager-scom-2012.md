@@ -1,6 +1,5 @@
 ---
 title: Up Next Chris Harris as he will be talking about the release of Operations Manager, SCOM 2012
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-03-29T15:00:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org's Azure Journey: Part 2"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-20T01:10:01+00:00"

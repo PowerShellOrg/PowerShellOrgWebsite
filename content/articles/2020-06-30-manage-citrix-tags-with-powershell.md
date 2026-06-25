@@ -1,6 +1,5 @@
 ---
 title: Manage Citrix Tags with PowerShell
-author: n2501r
 authors:
   - n2501r
 date: "2020-06-30T15:58:07+00:00"

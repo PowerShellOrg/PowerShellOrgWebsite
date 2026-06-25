@@ -1,6 +1,5 @@
 ---
 title: "New PS Module for working with F5's LTM REST API"
-author: Joel Newton
 authors:
   - Joel Newton
 date: "2015-05-27T04:54:03+00:00"

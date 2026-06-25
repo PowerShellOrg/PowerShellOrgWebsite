@@ -1,6 +1,5 @@
 ---
 title: Select-String confusion
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-05T13:08:59+00:00"

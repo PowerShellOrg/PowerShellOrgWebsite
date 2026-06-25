@@ -1,6 +1,5 @@
 ---
 title: Episode 178 – PowerShell v3 Beta
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-12T03:30:29+00:00"

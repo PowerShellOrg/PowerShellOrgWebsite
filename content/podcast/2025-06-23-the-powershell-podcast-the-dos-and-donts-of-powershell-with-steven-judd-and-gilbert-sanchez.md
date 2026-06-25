@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Dos and Don’ts of PowerShell with Steven Judd and Gilbert Sanchez
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Judd

@@ -1,6 +1,5 @@
 ---
 title: Episode 315 – PowerScripting Podcast – Michael Greene (Microsoft)  and Steven Murawski (Chef) on the Release Pipeline Model
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-08-15T00:25:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast For the love of PowerShell and Curling with Frank Lesniak
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Frank Lesniak

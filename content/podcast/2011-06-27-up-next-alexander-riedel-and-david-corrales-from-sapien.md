@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Alexander Riedel and David Corrales from Sapien"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-27T18:20:00+00:00"

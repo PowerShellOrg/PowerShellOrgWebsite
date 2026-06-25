@@ -1,6 +1,5 @@
 ---
 title: "FInal Outlines for the v3 \"Lunches\" Books"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-03T13:35:00+00:00"

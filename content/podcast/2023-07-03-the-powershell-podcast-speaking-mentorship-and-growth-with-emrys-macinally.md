@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Speaking, Mentorship, and Growth with Emrys MacInally
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

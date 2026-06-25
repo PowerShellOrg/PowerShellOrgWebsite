@@ -1,6 +1,5 @@
 ---
 title: "Tomorrow on PowerScripting Live \"“ James Brundage"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-15T03:54:57+00:00"

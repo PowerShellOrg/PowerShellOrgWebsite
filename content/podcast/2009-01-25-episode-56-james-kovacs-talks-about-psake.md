@@ -1,6 +1,5 @@
 ---
 title: Episode 56 – James Kovacs talks about PSake
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-26T04:12:22+00:00"

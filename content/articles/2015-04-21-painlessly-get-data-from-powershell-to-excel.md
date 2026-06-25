@@ -1,6 +1,5 @@
 ---
 title: Painlessly Get Data from PowerShell to Excel
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-21T12:08:54+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 324 – PowerScripting Podcast – Don Jones
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Don Jones

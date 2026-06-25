@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Sysadmin to PowerShell Team: The Story of SeeminglyScience"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Patrick Meinecke

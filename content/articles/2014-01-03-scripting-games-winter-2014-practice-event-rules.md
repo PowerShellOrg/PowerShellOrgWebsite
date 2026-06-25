@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Winter 2014 – Practice Event Rules
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-03T19:40:29+00:00"

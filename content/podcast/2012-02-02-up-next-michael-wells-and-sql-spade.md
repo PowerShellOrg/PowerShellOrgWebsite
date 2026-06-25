@@ -1,6 +1,5 @@
 ---
 title: Up Next Michael Wells and SQL SPADE
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-02T16:01:00+00:00"

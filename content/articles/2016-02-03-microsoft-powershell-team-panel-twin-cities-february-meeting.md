@@ -1,6 +1,5 @@
 ---
 title: Microsoft PowerShell team panel – Twin Cities February meeting
-author: Tim Curwick
 authors:
   - Tim Curwick
 date: "2016-02-04T00:21:21+00:00"

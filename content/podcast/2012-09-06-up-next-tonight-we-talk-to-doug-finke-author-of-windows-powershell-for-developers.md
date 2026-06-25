@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Tonight we talk to Doug Finke, author of \"Windows PowerShell for Developers\"!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-06T15:09:35+00:00"

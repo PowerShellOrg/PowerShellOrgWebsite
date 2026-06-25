@@ -1,6 +1,5 @@
 ---
 title: Capitalizing on Opportunity with Mikey Lombardi
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

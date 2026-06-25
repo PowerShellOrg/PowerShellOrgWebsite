@@ -1,6 +1,5 @@
 ---
 title: Re-Subscribe to New Forums Topic Notifications
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-10-20T23:00:43+00:00"

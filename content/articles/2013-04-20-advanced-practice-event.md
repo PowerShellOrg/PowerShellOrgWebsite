@@ -1,6 +1,5 @@
 ---
 title: Advanced Practice Event
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-20T16:00:56+00:00"

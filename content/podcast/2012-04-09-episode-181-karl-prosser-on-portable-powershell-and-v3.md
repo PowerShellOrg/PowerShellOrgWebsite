@@ -1,6 +1,5 @@
 ---
 title: Episode 181 – Karl Prosser on Portable PowerShell and v3
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-10T03:40:30+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 221 – Jeremy Moskowitz on Group Policy
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-27T04:02:22+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Summit 2016 – Call for topics is closed
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2015-11-01T12:27:11+00:00"

@@ -1,6 +1,5 @@
 ---
 title: No Show Thursday
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-05-06T02:30:17+00:00"

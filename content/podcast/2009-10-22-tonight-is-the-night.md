@@ -1,6 +1,5 @@
 ---
 title: Tonight is the Night!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-22T20:13:37+00:00"

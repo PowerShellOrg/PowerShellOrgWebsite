@@ -1,6 +1,5 @@
 ---
 title: Bonus Episode 2 – PowerShell Discussion at CodeStock
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-11T03:50:53+00:00"

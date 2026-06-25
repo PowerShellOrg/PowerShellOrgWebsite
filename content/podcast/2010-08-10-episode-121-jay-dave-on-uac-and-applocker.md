@@ -1,6 +1,5 @@
 ---
 title: Episode 121 – Jay Dave on UAC and AppLocker
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-11T02:44:05+00:00"

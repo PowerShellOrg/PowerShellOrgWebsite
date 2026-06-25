@@ -1,6 +1,5 @@
 ---
 title: Episode 284 – PowerScripting Podcast – Jason Helmick interviews Jon and Hal
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-09-24T02:35:05+00:00"

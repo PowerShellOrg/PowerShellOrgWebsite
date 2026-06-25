@@ -1,6 +1,5 @@
 ---
 title: Episode 249 – PowerScripting Podcast – Distinguished Engineer Jeffrey Snover for the PowerShell v4 Launch Party
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-12-01T00:05:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Steven Murawski"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-01T13:00:00+00:00"

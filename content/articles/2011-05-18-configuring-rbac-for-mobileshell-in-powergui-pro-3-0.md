@@ -1,6 +1,5 @@
 ---
 title: Configuring RBAC for MobileShell in PowerGUI Pro 3.0
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-05-19T05:07:45+00:00"

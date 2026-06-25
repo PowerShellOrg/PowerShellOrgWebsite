@@ -1,6 +1,5 @@
 ---
 title: Summit Session Change
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-13T23:21:08+00:00"

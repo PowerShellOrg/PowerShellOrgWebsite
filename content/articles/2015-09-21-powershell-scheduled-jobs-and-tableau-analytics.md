@@ -1,6 +1,5 @@
 ---
 title: PowerShell Scheduled Jobs and Tableau analytics
-author: Mike Roberts
 authors:
   - Mike Roberts
 date: "2015-09-21T18:43:21+00:00"

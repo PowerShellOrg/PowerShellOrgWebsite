@@ -1,6 +1,5 @@
 ---
 title: Interviews
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-01-18T15:11:18+00:00"

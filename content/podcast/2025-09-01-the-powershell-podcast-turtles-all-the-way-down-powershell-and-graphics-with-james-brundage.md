@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Turtles All the Way Down: PowerShell and Graphics with James Brundage"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - James Brundage

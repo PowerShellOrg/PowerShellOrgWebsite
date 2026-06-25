@@ -1,6 +1,5 @@
 ---
 title: "Free (beta) eBook: PowerShell.org, History of a Community"
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-10-04T14:45:03+00:00"

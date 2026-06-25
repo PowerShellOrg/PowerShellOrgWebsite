@@ -1,6 +1,5 @@
 ---
 title: Paging Dr. Scripto!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-12-03T02:53:04+00:00"

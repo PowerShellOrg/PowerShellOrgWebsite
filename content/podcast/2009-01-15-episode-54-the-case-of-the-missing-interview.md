@@ -1,6 +1,5 @@
 ---
 title: Episode 54 – the case of the missing interview
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-15T05:38:08+00:00"

@@ -1,6 +1,5 @@
 ---
 title: 2015-July Scripting Games Wrap-Up
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-07-29T17:39:26+00:00"

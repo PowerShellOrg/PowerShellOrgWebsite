@@ -1,6 +1,5 @@
 ---
 title: Happy 4th Birthday PowerGUI®!
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-03-29T00:52:30+00:00"

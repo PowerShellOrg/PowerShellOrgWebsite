@@ -1,6 +1,5 @@
 ---
 title: "The Popular Week of PowerShell Blogging is back! #PSBlogWeek"
-author: Adam Bertram
 authors:
   - Adam Bertram
 date: "2015-11-30T14:00:28+00:00"

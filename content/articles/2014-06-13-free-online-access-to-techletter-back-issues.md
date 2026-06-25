@@ -1,6 +1,5 @@
 ---
 title: Free Online Access to TechLetter Back Issues
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-06-13T18:38:08+00:00"

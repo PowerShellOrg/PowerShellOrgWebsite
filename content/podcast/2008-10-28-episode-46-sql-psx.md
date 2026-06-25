@@ -1,6 +1,5 @@
 ---
 title: Episode 46 – SQL PSX
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-29T04:44:16+00:00"

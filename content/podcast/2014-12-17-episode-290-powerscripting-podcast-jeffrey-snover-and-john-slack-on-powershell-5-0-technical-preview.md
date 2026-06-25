@@ -1,6 +1,5 @@
 ---
 title: Episode 290 – PowerScripting Podcast – Jeffrey Snover and John Slack on PowerShell 5.0 (Technical Preview)
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-12-18T04:01:01+00:00"

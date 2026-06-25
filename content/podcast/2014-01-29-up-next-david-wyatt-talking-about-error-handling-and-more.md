@@ -1,6 +1,5 @@
 ---
 title: "Up Next: David Wyatt talking about error handling and more"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-01-29T16:50:20+00:00"

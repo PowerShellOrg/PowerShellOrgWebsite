@@ -1,6 +1,5 @@
 ---
 title: Bonus Episode from Tech-Ed with Kirk Munro on PowerGUI 3.0
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Kirk Munro

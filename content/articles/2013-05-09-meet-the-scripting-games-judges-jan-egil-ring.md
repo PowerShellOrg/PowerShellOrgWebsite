@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: Jan Egil Ring"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-09T13:37:33+00:00"

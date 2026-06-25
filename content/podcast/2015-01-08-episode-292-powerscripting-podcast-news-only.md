@@ -1,6 +1,5 @@
 ---
 title: Episode 292 – PowerScripting Podcast – News Only
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-01-09T04:29:03+00:00"

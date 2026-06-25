@@ -1,6 +1,5 @@
 ---
 title: Login now required for comments
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-11-11T14:49:05+00:00"

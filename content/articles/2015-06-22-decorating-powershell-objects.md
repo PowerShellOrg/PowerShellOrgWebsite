@@ -1,6 +1,5 @@
 ---
 title: Decorating PowerShell Objects
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-06-22T12:44:21+00:00"

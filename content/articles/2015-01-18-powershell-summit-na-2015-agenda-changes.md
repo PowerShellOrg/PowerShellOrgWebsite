@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit NA 2015 Agenda changes
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2015-01-18T16:15:59+00:00"

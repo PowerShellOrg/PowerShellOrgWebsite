@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Can You Have Too Much Help?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-13T14:44:06+00:00"

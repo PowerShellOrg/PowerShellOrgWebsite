@@ -1,6 +1,5 @@
 ---
 title: eBook Cover Contest
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-01-06T18:55:11+00:00"

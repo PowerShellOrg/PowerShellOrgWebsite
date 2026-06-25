@@ -1,6 +1,5 @@
 ---
 title: Release Dates for PowerShell 3 announced!
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-09T16:25:00+00:00"

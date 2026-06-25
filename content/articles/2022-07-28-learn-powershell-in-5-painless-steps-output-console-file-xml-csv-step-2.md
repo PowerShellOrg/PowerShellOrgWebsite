@@ -1,6 +1,5 @@
 ---
 title: Learn Powershell in 5 Painless Steps – Output (Console, File, XML/CSV) – Step 2
-author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:18+00:00"

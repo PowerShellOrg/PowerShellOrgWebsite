@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PSConfEU 2025 Bar Sessions: Community, Code & Connection"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-07-14T14:35:50+00:00"

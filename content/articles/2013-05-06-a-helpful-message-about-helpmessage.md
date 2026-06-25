@@ -1,6 +1,5 @@
 ---
 title: A Helpful Message about HelpMessage
-author: June Blender
 authors:
   - June Blender
 date: "2013-05-06T23:39:21+00:00"

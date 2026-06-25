@@ -1,6 +1,5 @@
 ---
 title: As Event 3 gets underway, here are some Event 2 stats…
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-09T23:50:57+00:00"

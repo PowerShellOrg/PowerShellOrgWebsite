@@ -1,6 +1,5 @@
 ---
 title: "Tonight's Podcast Cancelled"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-16T23:43:54+00:00"

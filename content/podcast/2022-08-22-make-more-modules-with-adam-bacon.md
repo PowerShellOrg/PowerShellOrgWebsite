@@ -1,6 +1,5 @@
 ---
 title: Make More Modules with Adam Bacon
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

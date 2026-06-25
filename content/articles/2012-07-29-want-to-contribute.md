@@ -1,6 +1,5 @@
 ---
 title: Want to Contribute?
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-29T19:51:59+00:00"

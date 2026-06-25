@@ -1,6 +1,5 @@
 ---
 title: Charlotte PowerShell User Group Meeting cancelled this week 3/6/14
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-03-04T04:00:28+00:00"

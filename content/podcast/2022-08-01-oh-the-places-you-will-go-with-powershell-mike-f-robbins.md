@@ -1,6 +1,5 @@
 ---
 title: Oh the Places you will go… with PowerShell – Mike F. Robbins
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

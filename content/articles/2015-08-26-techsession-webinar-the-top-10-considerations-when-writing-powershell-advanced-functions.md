@@ -1,6 +1,5 @@
 ---
 title: "TechSession Webinar: The Top 10 Considerations When Writing #PowerShell Advanced Functions"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-08-26T14:52:40+00:00"

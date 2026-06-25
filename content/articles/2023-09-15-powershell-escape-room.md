@@ -1,6 +1,5 @@
 ---
 title: PowerShell Escape Room
-author: James Petty
 authors:
   - James Petty
 date: "2023-09-15T16:42:26+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 150 – Glenn Sizemore on NetApp and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-20T23:19:38+00:00"

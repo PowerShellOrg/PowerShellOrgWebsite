@@ -1,6 +1,5 @@
 ---
 title: Episode 223 – Ashley McGlone talks about Active Directory and Premier Field Engineering
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-10T02:32:53+00:00"

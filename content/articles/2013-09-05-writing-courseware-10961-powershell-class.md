@@ -1,6 +1,5 @@
 ---
 title: "Writing Courseware: 10961 PowerShell Class"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-05T15:36:56+00:00"

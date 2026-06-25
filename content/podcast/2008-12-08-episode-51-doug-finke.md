@@ -1,6 +1,5 @@
 ---
 title: Episode 51 – Doug Finke
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-09T04:35:53+00:00"

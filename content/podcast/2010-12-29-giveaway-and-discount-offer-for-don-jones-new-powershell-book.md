@@ -1,6 +1,5 @@
 ---
 title: "Giveaway and Discount Offer for Don Jones\"™ New PowerShell Book!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-12-30T01:20:35+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 268 – PowerScripting Podcast – Paul Long from Microsoft on Message Analyzer
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-05-08T02:14:38+00:00"

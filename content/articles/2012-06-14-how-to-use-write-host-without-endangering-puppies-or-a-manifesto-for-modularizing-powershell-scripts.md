@@ -1,6 +1,5 @@
 ---
 title: How To Use Write-Host Without Endangering Puppies (or, A Manifesto for Modularizing PowerShell Scripts)
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-15T01:04:00+00:00"

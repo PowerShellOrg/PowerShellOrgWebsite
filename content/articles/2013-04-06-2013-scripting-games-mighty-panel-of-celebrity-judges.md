@@ -1,6 +1,5 @@
 ---
 title: "2013 Scripting Games' Mighty Panel of Celebrity Judges"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-06T12:21:38+00:00"

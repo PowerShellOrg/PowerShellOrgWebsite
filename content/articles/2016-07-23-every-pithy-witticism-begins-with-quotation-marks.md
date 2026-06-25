@@ -1,6 +1,5 @@
 ---
 title: Every pithy witticism begins with quotation marks
-author: msorens
 authors:
   - msorens
 date: "2016-07-23T22:56:52+00:00"

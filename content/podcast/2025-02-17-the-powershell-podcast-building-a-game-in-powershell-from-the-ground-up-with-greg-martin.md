@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building a Game in PowerShell from the Ground Up with Greg Martin
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Greg Martin

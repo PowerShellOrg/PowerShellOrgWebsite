@@ -1,6 +1,5 @@
 ---
 title: Episode 82 – MVP Russ Kaufmann on PowerShell and Clustering
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-08-30T23:28:43+00:00"

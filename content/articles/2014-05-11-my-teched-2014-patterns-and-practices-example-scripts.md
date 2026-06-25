@@ -1,6 +1,5 @@
 ---
 title: "My TechEd 2014 \"Patterns and Practices\" Example Scripts"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-11T14:23:26+00:00"

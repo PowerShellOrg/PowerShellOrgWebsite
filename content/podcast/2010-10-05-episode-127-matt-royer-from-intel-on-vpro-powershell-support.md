@@ -1,6 +1,5 @@
 ---
 title: Episode 127 – Matt Royer From Intel on vPro PowerShell Support
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-10-05T10:54:45+00:00"

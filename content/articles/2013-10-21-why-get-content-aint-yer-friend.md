@@ -1,6 +1,5 @@
 ---
 title: "Why Get-Content Ain't Yer Friend"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-21T20:18:41+00:00"

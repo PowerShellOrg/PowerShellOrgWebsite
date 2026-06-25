@@ -1,6 +1,5 @@
 ---
 title: "PowerShell + DevOps Global Summit 2025: Call for Papers Now Open!"
-author: James Petty
 authors:
   - James Petty
 date: "2024-09-30T17:36:14+00:00"

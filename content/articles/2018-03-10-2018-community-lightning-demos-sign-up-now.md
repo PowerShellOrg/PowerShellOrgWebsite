@@ -1,6 +1,5 @@
 ---
 title: 2018 Community Lightning Demos – Sign Up Now!
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2018-03-10T02:41:33+00:00"

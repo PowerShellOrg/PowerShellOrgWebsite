@@ -1,6 +1,5 @@
 ---
 title: Special PowerShell Team Workshop to be Held at PowerShell Summit N.A. 2013
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-06T21:32:24+00:00"

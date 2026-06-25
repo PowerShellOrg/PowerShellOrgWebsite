@@ -1,6 +1,5 @@
 ---
 title: Scripting Games Event 3 Winners
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-21T14:41:53+00:00"

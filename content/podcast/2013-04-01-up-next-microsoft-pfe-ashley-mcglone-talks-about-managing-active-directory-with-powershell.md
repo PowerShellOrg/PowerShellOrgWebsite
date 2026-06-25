@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Microsoft PFE Ashley McGlone talks about Managing Active Directory with PowerShell!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-02T02:10:00+00:00"

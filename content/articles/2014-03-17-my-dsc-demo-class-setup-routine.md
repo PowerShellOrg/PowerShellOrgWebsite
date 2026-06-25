@@ -1,6 +1,5 @@
 ---
 title: My DSC Demo-Class Setup Routine
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-17T22:52:26+00:00"

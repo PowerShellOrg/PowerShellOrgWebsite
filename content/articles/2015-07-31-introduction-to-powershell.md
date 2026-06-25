@@ -1,6 +1,5 @@
 ---
 title: Introduction to Powershell
-author: Stephen Moore
 authors:
   - Stephen Moore
 date: "2015-07-31T11:07:47+00:00"

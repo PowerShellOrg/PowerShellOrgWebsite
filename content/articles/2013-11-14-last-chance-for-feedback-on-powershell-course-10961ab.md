@@ -1,6 +1,5 @@
 ---
 title: Last chance for feedback on PowerShell course 10961A/B
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-11-14T17:45:34+00:00"

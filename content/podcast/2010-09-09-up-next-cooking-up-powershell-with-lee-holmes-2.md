@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Cooking Up PowerShell with Lee Holmes!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Lee Holmes

@@ -1,6 +1,5 @@
 ---
 title: Script for Setting Up and Demoing a DSC Pull Server
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-05T18:59:47+00:00"

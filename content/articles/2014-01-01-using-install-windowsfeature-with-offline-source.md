@@ -1,6 +1,5 @@
 ---
 title: Using Install-WindowsFeature with Offline Source
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-01T17:04:06+00:00"

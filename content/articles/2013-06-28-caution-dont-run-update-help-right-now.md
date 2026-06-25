@@ -1,6 +1,5 @@
 ---
 title: "[UPDATE: It's Safe] CAUTION: Don't Run Update-Help Right Now"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-28T15:19:22+00:00"

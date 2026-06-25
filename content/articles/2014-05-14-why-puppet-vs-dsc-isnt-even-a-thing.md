@@ -1,6 +1,5 @@
 ---
 title: 
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-14T13:06:15+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Review: SAPIEN VersionRecall"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-15T19:44:42+00:00"

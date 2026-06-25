@@ -1,6 +1,5 @@
 ---
 title: Sorry, we have to reschedule. No show tonight
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-10-20T23:07:32+00:00"

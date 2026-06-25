@@ -1,6 +1,5 @@
 ---
 title: Introductory and Advanced PowerShell Webcasts
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-04T15:34:49+00:00"

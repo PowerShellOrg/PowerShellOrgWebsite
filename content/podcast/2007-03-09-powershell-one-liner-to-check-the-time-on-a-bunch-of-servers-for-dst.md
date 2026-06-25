@@ -1,6 +1,5 @@
 ---
 title: Powershell one-liner to check the time on a bunch of servers for DST
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-03-09T19:26:41+00:00"

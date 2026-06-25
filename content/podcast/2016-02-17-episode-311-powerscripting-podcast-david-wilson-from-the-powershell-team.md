@@ -1,6 +1,5 @@
 ---
 title: Episode 311 – PowerScripting Podcast – David Wilson From The PowerShell Team
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-02-18T04:03:57+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell to make Azure Automation Graphical Runbooks – Part 2
-author: timpringle
 authors:
   - timpringle
 date: "2016-02-04T07:08:25+00:00"

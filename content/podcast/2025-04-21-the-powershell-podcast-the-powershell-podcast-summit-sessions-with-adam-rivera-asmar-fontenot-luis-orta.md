@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Powershell Podcast Summit sessions with Adam Rivera, Asmar Fontenot, & Luis Orta
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Adam Rivera

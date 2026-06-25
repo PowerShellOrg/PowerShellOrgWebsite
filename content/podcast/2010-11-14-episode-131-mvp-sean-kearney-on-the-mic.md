@@ -1,6 +1,5 @@
 ---
 title: Episode 131 – MVP Sean Kearney on the Mic
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-11-15T01:09:17+00:00"

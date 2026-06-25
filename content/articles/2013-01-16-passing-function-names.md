@@ -1,6 +1,5 @@
 ---
 title: Passing function names
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-16T22:32:38+00:00"

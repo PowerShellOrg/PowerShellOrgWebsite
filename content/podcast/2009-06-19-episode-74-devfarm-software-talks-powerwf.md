@@ -1,6 +1,5 @@
 ---
 title: Episode 74 – Devfarm Software talks PowerWF
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-20T02:29:42+00:00"

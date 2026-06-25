@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Don Jones talks about PowerShell V4 Desired State Configuration"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-25T01:18:20+00:00"

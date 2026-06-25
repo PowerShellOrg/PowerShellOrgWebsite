@@ -1,6 +1,5 @@
 ---
 title: Episode 73 – MVP Michael Smith talks Exchange
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-09T03:34:19+00:00"

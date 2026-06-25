@@ -1,6 +1,5 @@
 ---
 title: Episode 105 – PSCX 2.0 with Keith Hill and Oisin Grehan
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Keith Hill

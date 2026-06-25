@@ -1,6 +1,5 @@
 ---
 title: No Show This Week
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-02-18T11:34:29+00:00"

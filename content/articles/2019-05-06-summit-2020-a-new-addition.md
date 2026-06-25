@@ -1,6 +1,5 @@
 ---
 title: Summit 2020 – A New Addition
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2019-05-06T16:00:29+00:00"

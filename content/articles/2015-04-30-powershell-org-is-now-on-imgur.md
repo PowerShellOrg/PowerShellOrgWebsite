@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Is Now On Imgur!
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2015-04-30T17:00:11+00:00"

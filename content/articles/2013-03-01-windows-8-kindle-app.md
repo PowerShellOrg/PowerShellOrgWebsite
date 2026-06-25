@@ -1,6 +1,5 @@
 ---
 title: Windows 8 Kindle app
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-01T20:22:50+00:00"

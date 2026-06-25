@@ -1,6 +1,5 @@
 ---
 title: Starting virtual machines for WSUS
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-17T19:50:54+00:00"

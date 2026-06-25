@@ -1,6 +1,5 @@
 ---
 title: Episode 257 – PowerScripting Podcast – PowerShell Hero Dave Wyatt on Error Handling
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-02-05T04:46:41+00:00"

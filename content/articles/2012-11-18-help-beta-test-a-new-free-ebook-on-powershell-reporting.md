@@ -1,6 +1,5 @@
 ---
 title: Help Beta-Test a New Free eBook on PowerShell Reporting
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-18T18:11:37+00:00"

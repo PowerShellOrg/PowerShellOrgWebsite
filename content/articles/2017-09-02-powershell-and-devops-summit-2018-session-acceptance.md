@@ -1,6 +1,5 @@
 ---
 title: PowerShell and DevOps Summit 2018 – session acceptance
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-09-02T11:21:32+00:00"

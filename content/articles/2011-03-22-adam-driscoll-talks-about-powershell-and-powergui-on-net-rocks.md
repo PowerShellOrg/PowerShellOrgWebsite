@@ -1,6 +1,5 @@
 ---
 title: Adam Driscoll talks about PowerShell and PowerGUI® on .NET Rocks!
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-03-22T17:00:00+00:00"

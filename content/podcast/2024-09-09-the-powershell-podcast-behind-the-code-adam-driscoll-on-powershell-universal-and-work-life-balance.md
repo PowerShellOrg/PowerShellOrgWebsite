@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Behind the Code: Adam Driscoll on PowerShell Universal and Work-Life Balance"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Adam Driscoll

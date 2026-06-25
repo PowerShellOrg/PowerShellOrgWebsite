@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell, Azure Automation, and OMS – Part II
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2017-08-01T14:00:46+00:00"

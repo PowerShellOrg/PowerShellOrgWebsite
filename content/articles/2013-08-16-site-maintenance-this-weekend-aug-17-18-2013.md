@@ -1,6 +1,5 @@
 ---
 title: Site Maintenance this Weekend (Aug 17-18 2013)
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-16T14:54:19+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Microsoft Scripting Guy and author Ed Wilson talks about his latest book and more!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-11T18:38:00+00:00"

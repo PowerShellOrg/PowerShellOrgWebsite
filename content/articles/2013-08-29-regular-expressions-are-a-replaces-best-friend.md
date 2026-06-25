@@ -1,6 +1,5 @@
 ---
 title: "Regular Expressions are a -replace's best friend"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-29T17:31:13+00:00"

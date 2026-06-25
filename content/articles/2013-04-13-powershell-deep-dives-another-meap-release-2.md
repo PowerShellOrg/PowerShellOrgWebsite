@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Deep Dives\"“another MEAP release"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-13T17:24:52+00:00"

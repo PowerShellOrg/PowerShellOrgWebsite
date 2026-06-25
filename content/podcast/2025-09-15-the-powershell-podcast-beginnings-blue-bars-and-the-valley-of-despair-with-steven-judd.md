@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Beginnings, Blue Bars, and the Valley of Despair with Steven Judd
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Steven Judd

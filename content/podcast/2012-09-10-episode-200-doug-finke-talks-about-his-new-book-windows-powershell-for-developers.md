@@ -1,6 +1,5 @@
 ---
 title: Episode 200 – Doug Finke talks about his new book Windows PowerShell for Developers
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-11T03:09:10+00:00"

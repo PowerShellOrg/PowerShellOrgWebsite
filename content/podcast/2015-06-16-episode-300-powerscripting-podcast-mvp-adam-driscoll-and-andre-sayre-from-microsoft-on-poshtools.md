@@ -1,6 +1,5 @@
 ---
 title: Episode 300 – PowerScripting Podcast – MVP Adam Driscoll and Andre Sayre from Microsoft on PoshTools
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-06-17T01:45:57+00:00"

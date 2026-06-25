@@ -1,6 +1,5 @@
 ---
 title: Planning the PowerShell Summit North America 2014
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-01-12T20:35:17+00:00"

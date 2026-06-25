@@ -1,6 +1,5 @@
 ---
 title: Last Call for Summit 2020 CFP
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2019-09-21T01:37:43+00:00"

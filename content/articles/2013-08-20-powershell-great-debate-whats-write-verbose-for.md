@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: What's Write-Verbose For?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-20T18:07:32+00:00"

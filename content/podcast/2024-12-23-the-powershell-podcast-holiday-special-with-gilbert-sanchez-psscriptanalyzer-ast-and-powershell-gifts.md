@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Holiday Special with Gilbert Sanchez: PSScriptAnalyzer, AST, and PowerShell Gifts"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Gilbert Sanchez

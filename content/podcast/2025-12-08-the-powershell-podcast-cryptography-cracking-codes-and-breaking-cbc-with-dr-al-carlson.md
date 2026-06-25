@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Cryptography, Cracking Codes, and Breaking CBC with Dr. Al Carlson
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Al Carlson

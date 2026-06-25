@@ -1,6 +1,5 @@
 ---
 title: Episode 336 – PowerScripting Podcast – Don Jones – A Shell of an Idea
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Don Jones

@@ -1,6 +1,5 @@
 ---
 title: "Windows 8\"¦reimagined?"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-03-07T03:30:38+00:00"

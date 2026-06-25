@@ -1,6 +1,5 @@
 ---
 title: What are Your PowerShell Newbie Gotchas?
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-18T13:55:31+00:00"

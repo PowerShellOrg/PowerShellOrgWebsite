@@ -1,6 +1,5 @@
 ---
 title: Happy Easter – no show this week
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-04T12:34:48+00:00"

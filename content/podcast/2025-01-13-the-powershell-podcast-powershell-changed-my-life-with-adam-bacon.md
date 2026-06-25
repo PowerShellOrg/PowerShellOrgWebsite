@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Changed My Life… with Adam Bacon.
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Adam Bacon

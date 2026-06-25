@@ -1,6 +1,5 @@
 ---
 title: Episode 155 – Doug Finke, Joel Bennett and James Brundage on Show-UI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-26T03:03:44+00:00"

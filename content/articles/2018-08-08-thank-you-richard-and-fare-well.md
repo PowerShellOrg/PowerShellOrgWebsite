@@ -1,6 +1,5 @@
 ---
 title: Thank You, Richard, and Fare Well!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-08-08T15:35:03+00:00"

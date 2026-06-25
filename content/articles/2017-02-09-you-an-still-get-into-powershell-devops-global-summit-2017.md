@@ -1,6 +1,5 @@
 ---
 title: You an still get into PowerShell + DevOps Global Summit 2017!
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-02-09T16:04:56+00:00"

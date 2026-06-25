@@ -1,6 +1,5 @@
 ---
 title: Looking for a good tech conference? Try this.
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-02T23:57:00+00:00"

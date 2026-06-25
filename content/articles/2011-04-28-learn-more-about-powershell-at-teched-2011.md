@@ -1,6 +1,5 @@
 ---
 title: Learn more about PowerShell at TechEd 2011
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-04-28T15:15:09+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The Value of Mentorship with Jeff Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

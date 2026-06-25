@@ -1,6 +1,5 @@
 ---
 title: Episode 153 – Spencer Brown from /n software on PowerShell Inside
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-12T02:14:43+00:00"

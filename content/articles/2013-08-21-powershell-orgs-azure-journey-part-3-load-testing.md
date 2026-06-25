@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org's Azure Journey, Part 3: Load Testing [UPDATED]"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-21T17:43:58+00:00"

@@ -1,6 +1,5 @@
 ---
 title: My DevOps (DSC) Camp Detailed Agenda
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-06-06T19:59:59+00:00"

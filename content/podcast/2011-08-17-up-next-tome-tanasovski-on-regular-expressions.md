@@ -1,6 +1,5 @@
 ---
 title: "UP NEXT: Tome Tanasovski on regular expressions."
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-17T16:21:00+00:00"

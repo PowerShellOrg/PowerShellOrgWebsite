@@ -1,6 +1,5 @@
 ---
 title: Episode 202 – Antoine Habert talks about PoshBoard
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-26T02:47:11+00:00"

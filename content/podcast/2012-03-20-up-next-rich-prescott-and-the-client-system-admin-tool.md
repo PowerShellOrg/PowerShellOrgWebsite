@@ -1,6 +1,5 @@
 ---
 title: Up Next Rich Prescott and the Windows System Admin Tool
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-20T14:27:00+00:00"

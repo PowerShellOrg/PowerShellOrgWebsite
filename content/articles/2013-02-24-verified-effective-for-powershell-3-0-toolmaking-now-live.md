@@ -1,6 +1,5 @@
 ---
 title: VERIFIED EFFECTIVE for PowerShell 3.0 Toolmaking now live
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-02-24T19:10:05+00:00"

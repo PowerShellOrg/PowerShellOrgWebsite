@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PipeScript, Formatting, and Docker: An In-Depth Conversation with James Brundage"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - James Brundage

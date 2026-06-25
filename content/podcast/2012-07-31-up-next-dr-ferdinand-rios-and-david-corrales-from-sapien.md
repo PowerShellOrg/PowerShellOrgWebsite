@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Dr. Ferdinand Rios and David Corrales from Sapien"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-31T14:50:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: My outline for accelerated PowerShell training
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-12-20T22:40:00+00:00"

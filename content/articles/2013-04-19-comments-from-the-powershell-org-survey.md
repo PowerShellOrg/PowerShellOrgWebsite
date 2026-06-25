@@ -1,6 +1,5 @@
 ---
 title: Comments from the PowerShell.org survey
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-19T17:09:26+00:00"

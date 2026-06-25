@@ -1,6 +1,5 @@
 ---
 title: Free Book Contest Ends Thursday
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-28T16:37:44+00:00"

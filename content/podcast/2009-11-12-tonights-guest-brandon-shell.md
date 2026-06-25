@@ -1,6 +1,5 @@
 ---
 title: "Tonight\"™s guest: Brandon Shell"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-11-12T16:59:14+00:00"

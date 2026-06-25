@@ -1,6 +1,5 @@
 ---
 title: My Favorite DSC Feature Suggestions on UserVoice (upvote!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-12-28T19:35:27+00:00"

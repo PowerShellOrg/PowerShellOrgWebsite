@@ -1,6 +1,5 @@
 ---
 title: Episode 65 – Lance Robinson from /N Software
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-05T04:13:36+00:00"

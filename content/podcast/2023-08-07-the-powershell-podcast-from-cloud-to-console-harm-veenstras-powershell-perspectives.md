@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Cloud to Console: Harm Veenstra’s PowerShell Perspectives"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

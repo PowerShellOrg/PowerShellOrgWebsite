@@ -1,6 +1,5 @@
 ---
 title: Episode 236 – PowerScripting Podcast – MVP Don Jones on PowerShell Desired State Configuration
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-31T03:31:38+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 325 – PowerScripting Podcast – Todd Klindt
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Todd Klindt

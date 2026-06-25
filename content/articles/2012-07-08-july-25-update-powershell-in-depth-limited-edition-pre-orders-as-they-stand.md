@@ -1,6 +1,5 @@
 ---
 title: "[JULY 25 UPDATE] \"PowerShell In Depth\" Limited Edition Pre-Orders… as they stand…"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-09T00:24:00+00:00"

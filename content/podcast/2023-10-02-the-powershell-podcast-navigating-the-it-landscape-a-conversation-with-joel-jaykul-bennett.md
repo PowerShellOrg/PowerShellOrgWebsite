@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Navigating the IT Landscape: A Conversation with Joel ’Jaykul’ Bennett"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

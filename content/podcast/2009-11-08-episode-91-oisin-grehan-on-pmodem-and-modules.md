@@ -1,6 +1,5 @@
 ---
 title: Episode 91 – Oisin Grehan on Pmodem and Modules
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-11-09T02:28:10+00:00"

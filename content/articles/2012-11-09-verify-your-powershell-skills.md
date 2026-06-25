@@ -1,6 +1,5 @@
 ---
 title: Verify Your PowerShell Skills
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-09T23:58:21+00:00"

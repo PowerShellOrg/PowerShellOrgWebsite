@@ -1,6 +1,5 @@
 ---
 title: Episode 326 – PowerScripting Podcast – Adam Bertram
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Adam Bertram

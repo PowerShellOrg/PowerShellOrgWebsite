@@ -1,6 +1,5 @@
 ---
 title: Few notes written after event 1.
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-05-02T06:48:11+00:00"

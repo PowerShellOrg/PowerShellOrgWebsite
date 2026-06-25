@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Shell-Shocked: PowerShell Gallery Security, Reddit Questions, and more"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Getting complex – More line breaks in Powershell
-author: Tim Curwick
 authors:
   - Tim Curwick
 date: "2016-05-21T20:09:16+00:00"

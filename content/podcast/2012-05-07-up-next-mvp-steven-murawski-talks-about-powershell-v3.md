@@ -1,6 +1,5 @@
 ---
 title: Up Next MVP Steven Murawski talks about PowerShell V3
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-05-07T16:13:00+00:00"

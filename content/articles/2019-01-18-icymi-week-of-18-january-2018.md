@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: Week of 18-January-2018"
-author: Robin Dadswell
 authors:
   - Robin Dadswell
 date: "2019-01-18T15:00:35+00:00"

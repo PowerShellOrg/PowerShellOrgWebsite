@@ -1,6 +1,5 @@
 ---
 title: Charts in PowerShell-Generated Reports
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-11-16T23:09:05+00:00"

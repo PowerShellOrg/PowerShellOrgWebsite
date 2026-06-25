@@ -1,6 +1,5 @@
 ---
 title: The Key to Understanding PowerShell – on Windows or Linux
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-12-15T15:22:12+00:00"

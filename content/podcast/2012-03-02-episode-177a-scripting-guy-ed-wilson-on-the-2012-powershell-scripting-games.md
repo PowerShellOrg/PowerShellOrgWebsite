@@ -1,6 +1,5 @@
 ---
 title: Episode 177A – Don Jones at the ATLPSUG in September on PowerShell v3
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-03T04:37:07+00:00"

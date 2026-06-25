@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2014 – final agenda
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-09-23T20:12:43+00:00"

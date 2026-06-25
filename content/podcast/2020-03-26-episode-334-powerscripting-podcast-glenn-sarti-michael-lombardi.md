@@ -1,6 +1,5 @@
 ---
 title: Episode 334 – PowerScripting Podcast – Glenn Sarti & Michael Lombardi
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Glenn Sarti

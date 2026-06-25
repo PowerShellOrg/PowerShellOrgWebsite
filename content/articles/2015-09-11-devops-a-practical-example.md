@@ -1,6 +1,5 @@
 ---
 title: "DevOps: A Practical Example"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-09-11T11:22:12+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 244 – PowerScripting Podcast – Ned Pyle from Microsoft on DFRS, SMB 3.0 and More
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-10-09T03:15:42+00:00"

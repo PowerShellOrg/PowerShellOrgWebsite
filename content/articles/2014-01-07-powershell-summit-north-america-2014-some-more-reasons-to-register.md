@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit North America 2014 – Some More Reasons to Register!
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-07T19:17:37+00:00"

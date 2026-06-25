@@ -1,6 +1,5 @@
 ---
 title: Follow Up Survey About Azure Access Control Service
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-06-14T12:41:22+00:00"

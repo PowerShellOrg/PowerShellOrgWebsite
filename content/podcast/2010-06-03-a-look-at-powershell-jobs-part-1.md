@@ -1,6 +1,5 @@
 ---
 title: A look at PowerShell jobs – Part 1
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-03T21:16:16+00:00"

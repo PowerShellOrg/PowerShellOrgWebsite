@@ -1,6 +1,5 @@
 ---
 title: Episode 254 – PowerScripting Podcast – Symon Perriman and Rick Claus from Microsoft on the PowerShell Deployment Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-01-16T03:56:35+00:00"

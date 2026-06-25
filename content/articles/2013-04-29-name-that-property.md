@@ -1,6 +1,5 @@
 ---
 title: Name that Property
-author: June Blender
 authors:
   - June Blender
 date: "2013-04-29T18:47:25+00:00"

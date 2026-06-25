@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe VENUE CHANGE
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-10T14:43:52+00:00"

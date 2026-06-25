@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Even Vaguely Considering PowerShell Cruise? READ THIS RIGHT NOW."
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-07-29T19:02:14+00:00"

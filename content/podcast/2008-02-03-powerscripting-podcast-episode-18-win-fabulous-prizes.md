@@ -1,6 +1,5 @@
 ---
 title: Episode 18 – Win Fabulous Prizes!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-02-04T02:19:56+00:00"

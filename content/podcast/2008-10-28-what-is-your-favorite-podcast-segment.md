@@ -1,6 +1,5 @@
 ---
 title: What is Your Favorite Podcast Segment?
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-29T01:47:43+00:00"

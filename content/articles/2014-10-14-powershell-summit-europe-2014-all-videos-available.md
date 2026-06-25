@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2014  –  All videos available
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-10-15T07:08:48+00:00"

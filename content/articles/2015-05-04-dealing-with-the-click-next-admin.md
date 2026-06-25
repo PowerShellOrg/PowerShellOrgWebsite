@@ -1,6 +1,5 @@
 ---
 title: Dealing with the Click-Next-Admin
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-05-04T17:24:17+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Practical Automation With Matthew Dowst
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

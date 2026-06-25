@@ -1,6 +1,5 @@
 ---
 title: PowerShellSummit.org Registration Status for 2-Feb-2016 (also, recordings)
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-02-02T14:43:52+00:00"

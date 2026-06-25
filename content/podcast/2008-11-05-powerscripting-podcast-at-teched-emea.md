@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Podcast at TechEd EMEA
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-05T13:46:09+00:00"

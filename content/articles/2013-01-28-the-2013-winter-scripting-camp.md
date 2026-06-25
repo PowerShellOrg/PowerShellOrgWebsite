@@ -1,6 +1,5 @@
 ---
 title: The 2013 Winter Scripting Camp
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-01-28T20:56:00+00:00"

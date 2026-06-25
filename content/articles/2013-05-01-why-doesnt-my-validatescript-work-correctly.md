@@ -1,6 +1,5 @@
 ---
 title: "Why Doesn't My ValidateScript() work correctly?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-01T13:52:06+00:00"

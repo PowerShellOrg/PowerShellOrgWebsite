@@ -1,6 +1,5 @@
 ---
 title: Basic Exchange Monitoring
-author: Matt Laird
 authors:
   - Matt Laird
 date: "2015-09-02T01:32:03+00:00"

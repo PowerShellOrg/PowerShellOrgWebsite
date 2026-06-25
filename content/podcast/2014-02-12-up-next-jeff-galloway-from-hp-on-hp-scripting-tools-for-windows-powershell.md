@@ -1,6 +1,5 @@
 ---
 title: "UP Next: Jeff Galloway from HP on HP Scripting Tools for Windows PowerShell"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-02-12T17:15:53+00:00"

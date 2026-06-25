@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequels: Puzzle 9 – A commentary"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-03-28T15:07:56+00:00"

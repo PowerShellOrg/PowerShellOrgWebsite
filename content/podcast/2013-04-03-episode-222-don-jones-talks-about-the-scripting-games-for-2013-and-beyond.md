@@ -1,6 +1,5 @@
 ---
 title: Episode 222 – Don Jones talks about the Scripting Games for 2013 and beyond
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-04-04T03:23:15+00:00"

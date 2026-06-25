@@ -1,6 +1,5 @@
 ---
 title: Tonight on the PowerScripting Podcast
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-22T15:49:04+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The Unicode PowerShell module
-author: Carlo Mancini
 authors:
   - Carlo Mancini
 date: "2016-04-15T11:25:19+00:00"

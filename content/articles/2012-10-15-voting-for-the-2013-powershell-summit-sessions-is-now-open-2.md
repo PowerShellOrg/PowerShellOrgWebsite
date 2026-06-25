@@ -1,6 +1,5 @@
 ---
 title: Voting for the 2013 PowerShell Summit sessions is now open!
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-10-16T03:29:25+00:00"

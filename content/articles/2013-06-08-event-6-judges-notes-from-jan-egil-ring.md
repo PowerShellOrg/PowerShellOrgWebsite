@@ -1,6 +1,5 @@
 ---
 title: "Event 6 Judge's Notes from Jan Egil Ring"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-09T01:25:00+00:00"

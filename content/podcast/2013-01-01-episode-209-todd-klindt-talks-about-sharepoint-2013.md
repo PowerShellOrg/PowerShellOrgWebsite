@@ -1,6 +1,5 @@
 ---
 title: Episode 209 – Todd Klindt talks about SharePoint 2013
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-02T04:05:34+00:00"

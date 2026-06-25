@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Maximizing Community Engagement with sqldbawithabeard
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

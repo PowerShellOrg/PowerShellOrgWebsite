@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Oisin Grehan Talks about Sharepoint"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-10T19:54:03+00:00"

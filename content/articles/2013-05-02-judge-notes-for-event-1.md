@@ -1,6 +1,5 @@
 ---
 title: Judge Notes for Event 1
-author: Art Beane
 authors:
   - Art Beane
 date: "2013-05-02T17:24:49+00:00"

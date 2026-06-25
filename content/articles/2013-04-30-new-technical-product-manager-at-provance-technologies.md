@@ -1,6 +1,5 @@
 ---
 title: New Technical Product Manager at Provance Technologies
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2013-04-30T19:25:34+00:00"

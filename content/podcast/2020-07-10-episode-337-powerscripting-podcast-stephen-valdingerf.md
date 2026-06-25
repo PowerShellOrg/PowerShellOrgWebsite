@@ -1,6 +1,5 @@
 ---
 title: Episode 337 – PowerScripting Podcast – Stephen Valdinger
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Stephen Valdinger

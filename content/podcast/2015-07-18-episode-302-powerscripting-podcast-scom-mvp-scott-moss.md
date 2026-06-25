@@ -1,6 +1,5 @@
 ---
 title: Episode 302 – PowerScripting Podcast – SCOM MVP Scott Moss
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-07-18T19:11:45+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Nightmare Fuel with I am Jakoby
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

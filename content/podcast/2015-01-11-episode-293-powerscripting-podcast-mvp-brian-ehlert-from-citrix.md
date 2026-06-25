@@ -1,6 +1,5 @@
 ---
 title: Episode 293 – PowerScripting Podcast – MVP Brian Ehlert from Citrix
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-01-12T03:50:33+00:00"

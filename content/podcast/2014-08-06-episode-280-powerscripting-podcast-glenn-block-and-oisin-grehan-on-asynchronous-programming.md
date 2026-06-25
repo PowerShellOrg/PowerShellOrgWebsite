@@ -1,6 +1,5 @@
 ---
 title: Episode 280 – PowerScripting Podcast – Glenn Block and Oisin Grehan on Asynchronous Programming
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-08-07T03:30:39+00:00"

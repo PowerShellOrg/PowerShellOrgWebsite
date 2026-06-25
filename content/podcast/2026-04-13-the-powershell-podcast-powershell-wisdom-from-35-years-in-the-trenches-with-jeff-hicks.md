@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell Wisdom from 35 Years in the Trenches with Jeff Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jeff Hicks

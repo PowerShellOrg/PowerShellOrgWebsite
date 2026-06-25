@@ -1,6 +1,5 @@
 ---
 title: Episode 198 – Kirk Freiheit from Symantec on Backup Exec 2012 and their PowerShell module
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-22T11:22:52+00:00"

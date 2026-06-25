@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit – North America Launches!
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2015-04-20T22:49:06+00:00"

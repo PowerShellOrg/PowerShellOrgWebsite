@@ -1,6 +1,5 @@
 ---
 title: Phenomenal number of ACLs, itty-bitty living space
-author: Mark Roloff
 authors:
   - Mark Roloff
 date: "2019-04-26T16:19:53+00:00"

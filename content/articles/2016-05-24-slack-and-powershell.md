@@ -1,6 +1,5 @@
 ---
 title: Slack and PowerShell
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2016-05-24T12:51:46+00:00"

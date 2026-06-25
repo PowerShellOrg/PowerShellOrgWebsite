@@ -1,6 +1,5 @@
 ---
 title: Episode 285 – PowerScripting Podcast – Simon May from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-10-06T02:58:54+00:00"

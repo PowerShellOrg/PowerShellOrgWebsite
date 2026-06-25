@@ -1,6 +1,5 @@
 ---
 title: Why the HECK Do You Want to be Taught .NET in a PowerShell Class?!?!?!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-15T20:01:23+00:00"

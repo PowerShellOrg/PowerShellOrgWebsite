@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Roadmapping your PowerShell Journey with Sean Wheeler
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Sean Wheeler

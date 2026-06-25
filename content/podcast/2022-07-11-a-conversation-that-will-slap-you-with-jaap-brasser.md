@@ -1,6 +1,5 @@
 ---
 title: A conversation that will !slap you with Jaap Brasser
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

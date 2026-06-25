@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Growing with PowerShell and Community Support – Joshua Dearing
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-05-05T14:34:47+00:00"

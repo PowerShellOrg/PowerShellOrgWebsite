@@ -1,6 +1,5 @@
 ---
 title: Episode 48 / PowerScripting Live at 8pm This Thursday
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-03T21:06:14+00:00"

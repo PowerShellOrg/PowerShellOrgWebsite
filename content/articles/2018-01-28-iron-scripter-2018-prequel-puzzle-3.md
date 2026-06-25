@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter 2018 Prequel: Puzzle 3"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-01-28T00:01:38+00:00"

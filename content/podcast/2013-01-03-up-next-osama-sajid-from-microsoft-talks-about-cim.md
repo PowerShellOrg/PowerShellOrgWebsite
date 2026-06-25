@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Osama Sajid from Microsoft talks about CIM!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-03T14:49:19+00:00"

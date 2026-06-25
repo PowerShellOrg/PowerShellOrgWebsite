@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Pre-Arrival Information Dump
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-02-05T17:49:05+00:00"

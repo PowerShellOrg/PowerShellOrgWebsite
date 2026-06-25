@@ -1,6 +1,5 @@
 ---
 title: Pester – Parameters and Hashtable Fun!
-author: WeiYen Tan
 authors:
   - WeiYen Tan
 date: "2017-01-06T07:45:36+00:00"

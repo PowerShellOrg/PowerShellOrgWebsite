@@ -1,6 +1,5 @@
 ---
 title: We Have a Winner, and Jeffrey Snover Returns!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-03T14:41:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: PowerShell Conference Book Volume 3 Call For Authors
-author: Mark Kraus (markekraus)
 authors:
   - Mark Kraus (markekraus)
 date: "2020-03-21T13:00:38+00:00"

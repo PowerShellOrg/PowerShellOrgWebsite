@@ -1,6 +1,5 @@
 ---
 title: PowerShell, Microsoft, Management, and more with Steve Lee
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

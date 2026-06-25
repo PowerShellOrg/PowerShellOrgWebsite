@@ -1,6 +1,5 @@
 ---
 title: This is how we roll in PowerShellLand
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-12-09T18:37:58+00:00"

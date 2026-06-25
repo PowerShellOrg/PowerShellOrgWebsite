@@ -1,6 +1,5 @@
 ---
 title: UK PowerShell Group sessions for 2013
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2012-12-20T17:17:23+00:00"

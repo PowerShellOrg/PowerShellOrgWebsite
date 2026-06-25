@@ -1,6 +1,5 @@
 ---
 title: Episode 108 – SharePoint 2010 with Gary LaPointe
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Gary LaPointe

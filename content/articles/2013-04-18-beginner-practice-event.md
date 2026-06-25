@@ -1,6 +1,5 @@
 ---
 title: Beginner Practice Event
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-18T19:07:38+00:00"

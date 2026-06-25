@@ -1,6 +1,5 @@
 ---
 title: No PowerScripting Live This Thursday
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-24T16:06:09+00:00"

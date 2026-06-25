@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit 2017 – Last-Minute Updates
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-03-27T15:50:16+00:00"

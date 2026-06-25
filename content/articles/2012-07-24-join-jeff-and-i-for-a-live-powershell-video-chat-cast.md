@@ -1,6 +1,5 @@
 ---
 title: Join Jeff and I for a live PowerShell video chat cast!
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-25T00:19:00+00:00"

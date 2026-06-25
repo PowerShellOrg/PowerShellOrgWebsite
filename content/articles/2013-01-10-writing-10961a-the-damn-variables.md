@@ -1,6 +1,5 @@
 ---
 title: "Writing 10961A: The Damn Variables"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-01-10T17:51:07+00:00"

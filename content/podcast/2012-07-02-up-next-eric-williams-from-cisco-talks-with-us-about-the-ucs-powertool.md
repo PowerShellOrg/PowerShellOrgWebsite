@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Eric Williams from Cisco talks with us about the UCS PowerTool!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-02T14:00:00+00:00"

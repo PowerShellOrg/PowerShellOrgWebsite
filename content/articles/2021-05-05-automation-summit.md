@@ -1,6 +1,5 @@
 ---
 title: Meet the Automation Summit team
-author: James Petty
 authors:
   - James Petty
 date: "2021-05-05T07:00:33+00:00"

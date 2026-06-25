@@ -1,6 +1,5 @@
 ---
 title: Observations from our PowerShell Summit VERIFIED EFFECTIVE Exam
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-04-23T14:24:29+00:00"

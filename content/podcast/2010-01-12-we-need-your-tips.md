@@ -1,6 +1,5 @@
 ---
 title: We need your tips!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-13T03:26:48+00:00"

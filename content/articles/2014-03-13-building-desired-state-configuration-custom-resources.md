@@ -1,6 +1,5 @@
 ---
 title: Building Desired State Configuration Custom Resources
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2014-03-14T03:07:14+00:00"

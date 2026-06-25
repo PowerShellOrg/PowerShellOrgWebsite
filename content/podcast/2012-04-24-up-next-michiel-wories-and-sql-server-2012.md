@@ -1,6 +1,5 @@
 ---
 title: Up Next Michiel Wories and SQL Server 2012
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-24T14:34:00+00:00"

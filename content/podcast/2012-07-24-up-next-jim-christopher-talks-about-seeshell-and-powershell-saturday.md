@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jim Christopher talks about SeeShell and PowerShell Saturday"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-24T13:50:00+00:00"

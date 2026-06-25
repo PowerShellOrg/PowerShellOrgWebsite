@@ -1,6 +1,5 @@
 ---
 title: Get-Directory Function
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-24T15:02:56+00:00"

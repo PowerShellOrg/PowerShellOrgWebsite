@@ -1,6 +1,5 @@
 ---
 title: Stop Typing So Much
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

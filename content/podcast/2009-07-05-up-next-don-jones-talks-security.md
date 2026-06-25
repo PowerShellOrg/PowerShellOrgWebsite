@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Don Jones Talks Security!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-07-05T18:40:32+00:00"

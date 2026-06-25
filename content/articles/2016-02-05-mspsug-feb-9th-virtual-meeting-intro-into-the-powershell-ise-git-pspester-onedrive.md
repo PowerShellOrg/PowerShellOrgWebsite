@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG Feb 9th Virtual Meeting: Intro into the #PowerShell ISE, #Git, #PSPester & #OneDrive"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2016-02-05T15:01:11+00:00"

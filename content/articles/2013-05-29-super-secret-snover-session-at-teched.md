@@ -1,6 +1,5 @@
 ---
 title: "\"Super Secret\" Snover Session at TechEd"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-29T12:39:09+00:00"

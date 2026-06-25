@@ -1,6 +1,5 @@
 ---
 title: Using Package Management in Windows PowerShell v3
-author: Timothy Warner
 authors:
   - Timothy Warner
 date: "2015-10-12T20:48:32+00:00"

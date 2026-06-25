@@ -1,6 +1,5 @@
 ---
 title: "UK PowerShell group \"“ 29 January 2013"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-16T20:28:38+00:00"

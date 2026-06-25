@@ -1,6 +1,5 @@
 ---
 title: PowerShell Story Continued Becoming a Craftsman
-author: Duffney
 authors:
   - Duffney
 date: "2018-01-28T10:46:03+00:00"

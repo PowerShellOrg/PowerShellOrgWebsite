@@ -1,6 +1,5 @@
 ---
 title: The current and future state of the Windows Management Framework
-author: Bjorn Houben
 authors:
   - Bjorn Houben
 date: "2014-10-06T11:04:50+00:00"

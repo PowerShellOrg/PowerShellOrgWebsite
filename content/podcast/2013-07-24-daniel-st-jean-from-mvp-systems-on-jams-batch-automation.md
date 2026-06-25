@@ -1,6 +1,5 @@
 ---
 title: Daniel St. Jean from MVP Systems on JAMS batch automation
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-24T12:27:47+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Number of processors in a box
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-05T12:21:23+00:00"

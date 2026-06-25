@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Fred Baptiste Talks about PolyMon & PolyMon RT"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-03-25T16:28:53+00:00"

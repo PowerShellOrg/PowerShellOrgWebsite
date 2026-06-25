@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell, OAuth, and Automation in the Cloud with Emanuel Palm
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Emanuel Palm

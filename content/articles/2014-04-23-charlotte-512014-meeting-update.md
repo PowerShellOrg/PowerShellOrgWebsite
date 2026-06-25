@@ -1,6 +1,5 @@
 ---
 title: Charlotte 5/1/2014 Meeting update
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2014-04-23T15:59:00+00:00"

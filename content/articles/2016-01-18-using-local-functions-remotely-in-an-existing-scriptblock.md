@@ -1,6 +1,5 @@
 ---
 title: Using Local Functions in a Scriptblock with Existing Code
-author: timpringle
 authors:
   - timpringle
 date: "2016-01-18T15:14:03+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Own a Piece of the Community: Buy Shares in PowerShell.org, Inc.!"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-09-10T17:35:16+00:00"

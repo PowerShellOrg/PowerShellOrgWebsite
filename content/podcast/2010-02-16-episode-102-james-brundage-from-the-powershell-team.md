@@ -1,6 +1,5 @@
 ---
 title: Episode 102 – James Brundage from the PowerShell Team
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-02-16T05:54:47+00:00"

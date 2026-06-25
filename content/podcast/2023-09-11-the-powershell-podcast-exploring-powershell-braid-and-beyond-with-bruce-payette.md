@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring PowerShell, Braid, and beyond with Bruce Payette
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

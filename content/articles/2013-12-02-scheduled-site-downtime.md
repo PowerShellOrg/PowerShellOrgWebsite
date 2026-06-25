@@ -1,6 +1,5 @@
 ---
 title: Scheduled site downtime
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-12-02T22:13:41+00:00"

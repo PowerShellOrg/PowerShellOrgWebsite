@@ -1,6 +1,5 @@
 ---
 title: Hands-on Workshop at the 2013 PowerShell Summit
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2012-11-06T21:43:45+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Santos Martinez to talk about System Center Configuration Manager 2012"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-17T14:00:00+00:00"

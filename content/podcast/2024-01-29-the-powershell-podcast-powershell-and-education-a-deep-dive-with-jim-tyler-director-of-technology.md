@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell and Education: A Deep Dive with Jim Tyler, Director of Technology"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jim Tyler

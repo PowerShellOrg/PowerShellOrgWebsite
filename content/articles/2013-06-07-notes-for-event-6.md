@@ -1,6 +1,5 @@
 ---
 title: Notes for Event 6
-author: Art Beane
 authors:
   - Art Beane
 date: "2013-06-07T13:26:41+00:00"

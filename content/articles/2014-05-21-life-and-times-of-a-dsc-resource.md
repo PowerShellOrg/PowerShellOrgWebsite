@@ -1,6 +1,5 @@
 ---
 title: Life and Times of a DSC Resource
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2014-05-22T01:21:50+00:00"

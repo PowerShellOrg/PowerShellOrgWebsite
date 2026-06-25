@@ -1,6 +1,5 @@
 ---
 title: Submit Your Active Directory Questions Now!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-09T14:48:31+00:00"

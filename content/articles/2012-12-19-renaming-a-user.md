@@ -1,6 +1,5 @@
 ---
 title: Renaming a user
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2012-12-19T15:45:34+00:00"

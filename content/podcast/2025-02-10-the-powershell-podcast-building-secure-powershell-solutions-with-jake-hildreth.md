@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building Secure PowerShell Solutions with Jake Hildreth
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jake Hildreth

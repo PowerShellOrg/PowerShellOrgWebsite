@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Reaching the Summit: Graham’s OnRamp Journey"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-02-19T15:27:50+00:00"

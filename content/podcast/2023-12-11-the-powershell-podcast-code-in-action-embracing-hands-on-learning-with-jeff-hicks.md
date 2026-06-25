@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Code in Action: Embracing Hands-On Learning with Jeff Hicks"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

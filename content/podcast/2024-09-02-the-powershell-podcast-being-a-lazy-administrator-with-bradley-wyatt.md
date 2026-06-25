@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Being a Lazy Administrator with Bradley Wyatt
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Bradley Wyatt

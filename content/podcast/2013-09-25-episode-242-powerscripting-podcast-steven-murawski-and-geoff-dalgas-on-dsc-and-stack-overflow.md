@@ -1,6 +1,5 @@
 ---
 title: Episode 242 – PowerScripting Podcast – Steven Murawski and Geoff Dalgas on DSC and Stack Overflow
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-09-25T17:24:02+00:00"

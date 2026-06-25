@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The PSADT Framework Explained and What’s New in Version 4.1 with Dan Cunningham
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Dan Cunningham

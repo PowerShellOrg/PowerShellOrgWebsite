@@ -1,6 +1,5 @@
 ---
 title: Help Me Test SSL on PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-06-13T14:02:17+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Building a Desired State Configuration Infrastructure
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-10-02T19:35:41+00:00"

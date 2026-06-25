@@ -1,6 +1,5 @@
 ---
 title: "Manning Deal of the Day \"“ April 6 2013"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-04T20:42:32+00:00"

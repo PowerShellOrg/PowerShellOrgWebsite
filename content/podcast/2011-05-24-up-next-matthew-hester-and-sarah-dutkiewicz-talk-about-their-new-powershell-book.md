@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Matthew Hester and Sarah Dutkiewicz talk about their new PowerShell book!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-05-24T16:08:00+00:00"

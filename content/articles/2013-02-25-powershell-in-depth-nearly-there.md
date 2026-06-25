@@ -1,6 +1,5 @@
 ---
 title: "PowerShell in Depth\"“nearly there"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-25T19:26:27+00:00"

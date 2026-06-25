@@ -1,6 +1,5 @@
 ---
 title: "Up Next: PowerEvents with Trevor Sullivan!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Trevor Sullivan

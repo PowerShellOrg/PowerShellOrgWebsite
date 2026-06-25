@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast NTLM to Cloud Security: Insights from National MSP Director Mike Soule"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

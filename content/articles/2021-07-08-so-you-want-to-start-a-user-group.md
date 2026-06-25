@@ -1,6 +1,5 @@
 ---
 title: So you want to start a User Group
-author: James Petty
 authors:
   - James Petty
 date: "2021-07-08T15:57:09+00:00"

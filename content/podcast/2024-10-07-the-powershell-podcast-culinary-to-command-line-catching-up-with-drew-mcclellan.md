@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Culinary to Command Line: Catching Up with Drew McClellan"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Drew McClellan

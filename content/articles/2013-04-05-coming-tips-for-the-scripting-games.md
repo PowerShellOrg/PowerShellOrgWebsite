@@ -1,6 +1,5 @@
 ---
 title: "Coming: Tips for the Scripting Games"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-06T06:36:05+00:00"

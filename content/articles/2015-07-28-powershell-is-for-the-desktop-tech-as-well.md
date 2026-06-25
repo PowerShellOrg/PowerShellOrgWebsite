@@ -1,6 +1,5 @@
 ---
 title: Powershell IS for the desktop tech as well
-author: Brian Bourque
 authors:
   - Brian Bourque
 date: "2015-07-29T00:06:26+00:00"

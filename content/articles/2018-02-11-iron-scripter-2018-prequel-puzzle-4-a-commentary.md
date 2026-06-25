@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter 2018 prequel: Puzzle 4 – a commentary"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-02-11T00:03:04+00:00"

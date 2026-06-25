@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast DSC, Community, and PowerShell: A conversation with Michael Greene"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

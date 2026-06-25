@@ -1,6 +1,5 @@
 ---
 title: Want to Blog at PowerShell.org?
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-07-01T22:16:52+00:00"

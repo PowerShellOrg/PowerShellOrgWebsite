@@ -1,6 +1,5 @@
 ---
 title: "Scripting Games 2013: Event 5 Notes"
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2013-06-04T03:36:46+00:00"

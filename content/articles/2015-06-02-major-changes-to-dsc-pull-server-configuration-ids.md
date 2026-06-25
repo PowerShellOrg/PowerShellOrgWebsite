@@ -1,6 +1,5 @@
 ---
 title: Major Changes to DSC Pull Server Configuration IDs
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-02T13:45:09+00:00"

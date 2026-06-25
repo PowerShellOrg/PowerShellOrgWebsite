@@ -1,6 +1,5 @@
 ---
 title: Workflow article 4
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-16T17:03:48+00:00"

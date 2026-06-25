@@ -1,6 +1,5 @@
 ---
 title: Automation Summit Going Virtual and New Date
-author: James Petty
 authors:
   - James Petty
 date: "2021-09-20T14:00:16+00:00"

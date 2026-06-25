@@ -1,6 +1,5 @@
 ---
 title: 2013 Scripting Games Competitor Guide (for the Public, too!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-02T14:58:41+00:00"

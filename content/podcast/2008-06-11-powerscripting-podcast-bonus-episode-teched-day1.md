@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Podcast – Bonus Episode – TechEd Day1
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-06-12T02:20:07+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Splatting, Automation, and Chasing the Sun with Jess Pomfret
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jess Pomfret

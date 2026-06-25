@@ -1,6 +1,5 @@
 ---
 title: Episode 93 – Jeff Atwood tells us Rock Hard Awesome will create teleportation and we talk about ServerFault
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-11-23T03:26:17+00:00"

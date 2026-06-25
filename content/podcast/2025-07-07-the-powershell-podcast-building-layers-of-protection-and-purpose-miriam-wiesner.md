@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building Layers of Protection and Purpose – Miriam Wiesner
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-07-07T14:56:47+00:00"

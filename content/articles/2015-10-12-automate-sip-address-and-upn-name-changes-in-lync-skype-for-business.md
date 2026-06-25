@@ -1,6 +1,5 @@
 ---
 title: Automate Sip Address and UPN name changes in Lync / Skype for Business
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-10-12T18:37:56+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Summit agenda process
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-08-08T11:31:35+00:00"

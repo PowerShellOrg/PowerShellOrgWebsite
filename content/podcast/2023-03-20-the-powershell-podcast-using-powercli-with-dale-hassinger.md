@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Using PowerCLI with Dale Hassinger
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

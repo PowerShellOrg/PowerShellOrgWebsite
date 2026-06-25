@@ -1,6 +1,5 @@
 ---
 title: Multithreading using jobs
-author: Jonas Sommer Nielsen
 authors:
   - Jonas Sommer Nielsen
 date: "2015-08-20T10:23:48+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 269 – PowerScripting Podcast – U.S. PowerShell Summit Recap
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-05-15T02:16:01+00:00"

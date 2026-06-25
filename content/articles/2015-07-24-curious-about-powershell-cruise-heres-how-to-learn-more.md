@@ -1,6 +1,5 @@
 ---
 title: "Curious about PowerShell Cruise? Here's how to learn more."
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-07-24T19:58:17+00:00"

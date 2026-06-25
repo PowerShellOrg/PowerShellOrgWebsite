@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit 2014 Planning Continues
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-03-08T15:09:16+00:00"

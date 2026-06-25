@@ -1,6 +1,5 @@
 ---
 title: Find Stale Accounts in Active Directory
-author: Matt Laird
 authors:
   - Matt Laird
 date: "2015-09-12T16:02:38+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "A Quick #PowerShell #PSHSummit Update (Europe & NA)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-08T20:44:11+00:00"

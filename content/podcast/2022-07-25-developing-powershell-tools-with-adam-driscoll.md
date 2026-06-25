@@ -1,6 +1,5 @@
 ---
 title: Developing PowerShell Tools with Adam Driscoll
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

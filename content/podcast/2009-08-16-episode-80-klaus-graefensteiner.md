@@ -1,6 +1,5 @@
 ---
 title: Episode 80 – Klaus Graefensteiner
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-08-17T01:36:01+00:00"

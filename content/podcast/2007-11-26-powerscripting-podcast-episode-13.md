@@ -1,6 +1,5 @@
 ---
 title: Episode 13 – //o// and Marc give us an ITForum report
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-11-26T05:42:16+00:00"

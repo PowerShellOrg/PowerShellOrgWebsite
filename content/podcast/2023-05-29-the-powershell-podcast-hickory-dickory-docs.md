@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Hickory Dickory Docs
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

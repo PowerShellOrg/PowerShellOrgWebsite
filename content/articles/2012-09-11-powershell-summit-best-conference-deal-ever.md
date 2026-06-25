@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Summit: Best Conference Deal Ever!"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-09-11T11:55:39+00:00"

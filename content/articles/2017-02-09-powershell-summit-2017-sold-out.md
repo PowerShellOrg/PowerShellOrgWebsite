@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit 2017 – sold out
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-02-09T11:41:03+00:00"

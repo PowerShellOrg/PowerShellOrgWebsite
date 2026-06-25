@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell as a Defender’s Secret Weapon with Michael Haag
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Michael Haag

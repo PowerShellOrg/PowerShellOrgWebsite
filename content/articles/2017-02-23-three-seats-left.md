@@ -1,6 +1,5 @@
 ---
 title: Three seats left
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2017-02-23T10:28:44+00:00"

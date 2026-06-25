@@ -1,6 +1,5 @@
 ---
 title: Writing Your Own PowerShell Functions / Cmdlets
-author: tobor79
 authors:
   - tobor79
 date: "2020-11-05T18:53:35+00:00"

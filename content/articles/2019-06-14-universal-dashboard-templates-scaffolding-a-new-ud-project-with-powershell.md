@@ -1,6 +1,5 @@
 ---
 title: Universal Dashboard Templates – Scaffolding a New UD Project with Powershell
-author: Nathaniel Webb (ArtisanByteCrafter)
 authors:
   - Nathaniel Webb (ArtisanByteCrafter)
 date: "2019-06-14T15:28:58+00:00"

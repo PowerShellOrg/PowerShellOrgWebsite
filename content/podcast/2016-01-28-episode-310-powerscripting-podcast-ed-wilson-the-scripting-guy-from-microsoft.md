@@ -1,6 +1,5 @@
 ---
 title: Episode 310 – PowerScripting Podcast – Ed Wilson The Scripting Guy from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-01-29T03:21:58+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 55 – Jeff Hicks in for Hal and an interview with James Brundage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - James Brundage

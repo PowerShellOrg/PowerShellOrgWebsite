@@ -1,6 +1,5 @@
 ---
 title: Tomorrow on the PowerScripting Podcast
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-12-04T03:16:28+00:00"

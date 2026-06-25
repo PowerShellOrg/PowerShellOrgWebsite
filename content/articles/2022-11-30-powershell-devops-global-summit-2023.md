@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit 2023
-author: James Petty
 authors:
   - James Petty
 date: "2022-11-30T14:38:05+00:00"

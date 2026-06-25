@@ -1,6 +1,5 @@
 ---
 title: Introducing the Coaches of the 2014 Winter Scripting Games
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2013-12-23T17:21:37+00:00"

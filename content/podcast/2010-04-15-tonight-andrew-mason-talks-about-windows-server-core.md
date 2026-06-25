@@ -1,6 +1,5 @@
 ---
 title: "Tonight \"“ Andrew Mason talks about Windows Server Core"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-04-15T15:26:16+00:00"

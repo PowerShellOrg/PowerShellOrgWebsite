@@ -1,6 +1,5 @@
 ---
 title: "Tonight on the PowerScripting Podcast: Rick Claus and Symon Perriman talk about Build a Windows Server and System Center Environment with the PowerShell Deployment Toolkit"
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-01-09T18:17:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Try the PowerGUI Pro® 3.0 Beta today!
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-05-17T15:00:00+00:00"

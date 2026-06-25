@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Python to PowerShell: A Developer’s Perspective with Jordan Borean"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Borean

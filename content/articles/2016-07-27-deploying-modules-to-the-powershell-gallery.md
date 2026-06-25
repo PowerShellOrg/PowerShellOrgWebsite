@@ -1,6 +1,5 @@
 ---
 title: Deploying Modules to the PowerShell Gallery
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2016-07-27T00:38:35+00:00"

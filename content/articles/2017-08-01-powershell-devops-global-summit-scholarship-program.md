@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit Scholarship Program
-author: Thomas Malkewitz
 authors:
   - Thomas Malkewitz
 date: "2017-08-01T00:00:43+00:00"

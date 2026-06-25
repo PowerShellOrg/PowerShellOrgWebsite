@@ -1,6 +1,5 @@
 ---
 title: Up Next Joel Bennett talks about PowerShell v3 DLR and More!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-04-10T17:30:00+00:00"

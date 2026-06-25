@@ -1,6 +1,5 @@
 ---
 title: Recording *Tonight* with Jeff Atwood!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeff Atwood

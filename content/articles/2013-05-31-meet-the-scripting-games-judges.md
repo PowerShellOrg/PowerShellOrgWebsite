@@ -1,6 +1,5 @@
 ---
 title: Meet the Scripting Games Judges
-author: Glenn Sizemore
 authors:
   - Glenn Sizemore
 date: "2013-05-31T20:42:17+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Why \"Objects,\" Remoting, and Consistency are Such a Big Deal in PowerShell"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-08-22T20:39:49+00:00"

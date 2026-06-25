@@ -1,6 +1,5 @@
 ---
 title: Episode 317 – PowerScripting Podcast – Chris Smith on the Google Cloud Tools for PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-11-14T03:11:59+00:00"

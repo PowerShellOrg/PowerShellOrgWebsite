@@ -1,6 +1,5 @@
 ---
 title: Advanced Functions webcast
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-25T19:30:24+00:00"

@@ -1,6 +1,5 @@
 ---
 title: No PowerScripting Live Today
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-30T18:38:01+00:00"

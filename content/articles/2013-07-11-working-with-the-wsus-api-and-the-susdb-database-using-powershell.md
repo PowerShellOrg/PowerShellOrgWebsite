@@ -1,6 +1,5 @@
 ---
 title: Working with the WSUS API and the SUSDB Database using PowerShell
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2013-07-12T02:38:43+00:00"

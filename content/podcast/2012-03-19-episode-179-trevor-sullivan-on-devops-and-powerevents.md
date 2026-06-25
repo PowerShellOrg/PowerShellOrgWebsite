@@ -1,6 +1,5 @@
 ---
 title: Episode 179 – Trevor Sullivan on DevOps and PowerEvents
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-19T11:35:48+00:00"

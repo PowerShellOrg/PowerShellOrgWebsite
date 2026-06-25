@@ -1,6 +1,5 @@
 ---
 title: RabbitMQ and PowerShell
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-07-07T11:22:36+00:00"

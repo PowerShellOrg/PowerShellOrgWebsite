@@ -1,6 +1,5 @@
 ---
 title: My New PowerShell Video Series, Covering v2/v3/v4, Launches
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-11T17:35:25+00:00"

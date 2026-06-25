@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Summit 2019 – Call for Speakers
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2018-08-01T15:08:52+00:00"

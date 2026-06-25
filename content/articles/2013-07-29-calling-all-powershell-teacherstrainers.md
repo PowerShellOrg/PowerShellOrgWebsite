@@ -1,6 +1,5 @@
 ---
 title: Calling all PowerShell Teachers/Trainers
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-29T15:02:56+00:00"

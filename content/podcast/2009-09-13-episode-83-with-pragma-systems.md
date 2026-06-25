@@ -1,6 +1,5 @@
 ---
 title: Episode 83 – with Pragma Systems
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-09-14T01:36:28+00:00"

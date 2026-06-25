@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Capturing Errors"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-17T14:30:30+00:00"

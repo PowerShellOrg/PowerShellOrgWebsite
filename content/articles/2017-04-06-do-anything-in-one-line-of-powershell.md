@@ -1,6 +1,5 @@
 ---
 title: Do Anything in One Line of PowerShell
-author: msorens
 authors:
   - msorens
 date: "2017-04-06T21:30:23+00:00"

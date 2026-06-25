@@ -1,6 +1,5 @@
 ---
 title: Tips, Tricks, & Resources until we return
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-09-12T13:45:02+00:00"

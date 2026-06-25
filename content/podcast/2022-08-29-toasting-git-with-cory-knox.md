@@ -1,6 +1,5 @@
 ---
 title: Toasting Git with Cory Knox
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

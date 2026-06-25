@@ -1,6 +1,5 @@
 ---
 title: Store Secured Password in PowerShell Script
-author: Matt Laird
 authors:
   - Matt Laird
 date: "2015-09-16T00:52:27+00:00"

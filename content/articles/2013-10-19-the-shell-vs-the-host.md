@@ -1,6 +1,5 @@
 ---
 title: The Shell vs. The Host
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-19T18:03:11+00:00"

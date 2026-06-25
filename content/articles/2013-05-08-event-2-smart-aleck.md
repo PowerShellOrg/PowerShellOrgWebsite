@@ -1,6 +1,5 @@
 ---
 title: Event 2 Smart-Aleck
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-08T21:08:11+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Event 4: My notes…"
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-05-25T21:09:10+00:00"

@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Free eBook Transition
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-01-25T13:02:48+00:00"

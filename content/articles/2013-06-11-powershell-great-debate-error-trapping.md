@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Great Debate: Error Trapping"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-06-11T21:17:36+00:00"

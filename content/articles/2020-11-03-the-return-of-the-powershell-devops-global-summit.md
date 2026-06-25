@@ -1,6 +1,5 @@
 ---
 title: The Return of the PowerShell + DevOps Global Summit
-author: James Petty
 authors:
   - James Petty
 date: "2020-11-03T16:00:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "What's in a name? (Musing about Windows RT)"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-23T11:31:38+00:00"

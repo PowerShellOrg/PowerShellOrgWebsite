@@ -1,6 +1,5 @@
 ---
 title: Planning for PowerShell+DevOps Global Summit 2017… Need Your Opinion
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-02-16T17:35:31+00:00"

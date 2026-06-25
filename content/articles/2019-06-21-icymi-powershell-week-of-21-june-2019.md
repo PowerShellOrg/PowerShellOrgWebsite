@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: PowerShell Week of 21-June-2019"
-author: Robin Dadswell
 authors:
   - Robin Dadswell
 date: "2019-06-21T14:00:46+00:00"

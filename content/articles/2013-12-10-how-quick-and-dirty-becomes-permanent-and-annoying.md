@@ -1,6 +1,5 @@
 ---
 title: "How \"Quick and Dirty\" Becomes \"Permanent and Annoying.\""
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-12-10T22:23:37+00:00"

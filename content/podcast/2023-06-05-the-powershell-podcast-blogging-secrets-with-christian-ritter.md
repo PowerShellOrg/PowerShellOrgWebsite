@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Blogging secrets with Christian Ritter
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

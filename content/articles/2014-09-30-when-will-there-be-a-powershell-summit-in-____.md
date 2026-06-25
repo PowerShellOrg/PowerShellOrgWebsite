@@ -1,6 +1,5 @@
 ---
 title: When Will There be a PowerShell Summit in ____?
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-30T11:18:11+00:00"

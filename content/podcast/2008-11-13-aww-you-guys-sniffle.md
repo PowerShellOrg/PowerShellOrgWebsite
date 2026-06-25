@@ -1,6 +1,5 @@
 ---
 title: "Aww, you guys\"¦ *sniffle*"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-13T14:28:50+00:00"

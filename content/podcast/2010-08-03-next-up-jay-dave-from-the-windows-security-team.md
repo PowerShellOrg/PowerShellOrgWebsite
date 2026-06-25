@@ -1,6 +1,5 @@
 ---
 title: "Next Up: Jay Dave from the Windows Security Team!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-04T01:42:27+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Preludes and Main Event: Rules and Info"
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-03-18T20:00:36+00:00"

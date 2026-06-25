@@ -1,6 +1,5 @@
 ---
 title: Episode 212 – Glenn Block from Microsoft Manages Azure with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-23T03:24:37+00:00"

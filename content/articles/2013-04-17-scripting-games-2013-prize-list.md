@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Scripting Games 2013 Prize List"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-17T13:51:41+00:00"

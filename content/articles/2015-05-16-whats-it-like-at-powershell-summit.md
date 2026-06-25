@@ -1,6 +1,5 @@
 ---
 title: "What's it Like at PowerShell Summit?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-05-16T13:15:03+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "TechSessions: Free PowerShell Webinars"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-23T16:05:08+00:00"

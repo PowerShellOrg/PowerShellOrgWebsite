@@ -1,6 +1,5 @@
 ---
 title: "Episode 38 \"“ PoshCode and PowerShellPlus"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-25T12:30:28+00:00"

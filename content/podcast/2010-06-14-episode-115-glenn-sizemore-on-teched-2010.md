@@ -1,6 +1,5 @@
 ---
 title: Episode 115 – Glenn Sizemore on TechEd 2010
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-15T02:08:34+00:00"

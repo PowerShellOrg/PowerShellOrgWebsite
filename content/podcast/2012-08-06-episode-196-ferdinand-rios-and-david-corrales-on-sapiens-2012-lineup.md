@@ -1,6 +1,5 @@
 ---
 title: "Episode 196 – Ferdinand Rios and David Corrales on SAPIEN's 2012 lineup"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-07T03:12:23+00:00"

@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Owning Your Career and Your Time with Don Jones
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Don Jones

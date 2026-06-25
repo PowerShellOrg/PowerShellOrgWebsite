@@ -1,6 +1,5 @@
 ---
 title: "Quick ProTip: Negotiate TLS Connections In Powershell With A Minimum TLS Version Requirement"
-author: Nathaniel Webb (ArtisanByteCrafter)
 authors:
   - Nathaniel Webb (ArtisanByteCrafter)
 date: "2019-07-08T21:28:23+00:00"

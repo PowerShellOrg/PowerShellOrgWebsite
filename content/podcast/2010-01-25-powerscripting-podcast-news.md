@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Podcast News
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-26T02:55:16+00:00"

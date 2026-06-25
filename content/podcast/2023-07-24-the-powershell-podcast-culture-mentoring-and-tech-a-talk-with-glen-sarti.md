@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Culture, Mentoring, and Tech: A Talk with Glen Sarti"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

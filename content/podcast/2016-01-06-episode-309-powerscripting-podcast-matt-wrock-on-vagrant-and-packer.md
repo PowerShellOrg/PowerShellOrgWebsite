@@ -1,6 +1,5 @@
 ---
 title: Episode 309 – PowerScripting Podcast – Matt Wrock on Vagrant and Packer
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-01-07T04:08:31+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Simple PowerShell GUI
-author: n2501r
 authors:
   - n2501r
 date: "2020-06-17T21:57:31+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 122 – Don Jones Scripting Editor Shoot-Out
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-16T03:47:20+00:00"

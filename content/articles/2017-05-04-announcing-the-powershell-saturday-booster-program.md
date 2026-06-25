@@ -1,6 +1,5 @@
 ---
 title: Announcing the PowerShell Saturday Booster Program
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-05-04T15:53:48+00:00"

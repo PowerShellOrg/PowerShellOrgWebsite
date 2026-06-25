@@ -1,6 +1,5 @@
 ---
 title: "Here's What You've Missed at PowerShell.org (and what's coming)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-06-24T17:19:59+00:00"

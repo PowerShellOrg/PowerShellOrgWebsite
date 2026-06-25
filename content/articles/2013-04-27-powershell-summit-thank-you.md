@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Summit\"“thank you"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-27T11:46:19+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Bringing Home the Bacon with Adam…Bacon
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

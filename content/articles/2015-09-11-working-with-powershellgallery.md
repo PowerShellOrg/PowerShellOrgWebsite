@@ -1,6 +1,5 @@
 ---
 title: Working with PowershellGallery
-author: Jonas Sommer Nielsen
 authors:
   - Jonas Sommer Nielsen
 date: "2015-09-11T13:34:23+00:00"

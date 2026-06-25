@@ -1,6 +1,5 @@
 ---
 title: New day for PowerScripting Live!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-05-21T12:43:40+00:00"

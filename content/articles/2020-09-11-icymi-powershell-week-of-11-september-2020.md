@@ -1,6 +1,5 @@
 ---
 title: "ICYMI: PowerShell Week of 11-September-2020"
-author: Robin Dadswell
 authors:
   - Robin Dadswell
 date: "2020-09-11T14:00:05+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Thomas Lee and the Hotmail Team"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-07-08T02:00:31+00:00"

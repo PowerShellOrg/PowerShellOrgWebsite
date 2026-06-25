@@ -1,6 +1,5 @@
 ---
 title: Building a Desired State Configuration Pull Server
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-10-03T19:40:59+00:00"

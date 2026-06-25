@@ -1,6 +1,5 @@
 ---
 title: "Scripting Games: What Should We Do With Comments?"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-03T19:02:08+00:00"

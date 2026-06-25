@@ -1,6 +1,5 @@
 ---
 title: Using Azure Desired State Configuration – Part II
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2017-09-26T14:00:21+00:00"

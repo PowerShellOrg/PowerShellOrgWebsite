@@ -1,6 +1,5 @@
 ---
 title: Measure PowerShell Performance
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-19T14:10:00+00:00"

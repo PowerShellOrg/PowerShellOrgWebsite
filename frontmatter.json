@@ -31,18 +31,12 @@
           "required": true
         },
         {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "description": "Display name of the primary author.",
-          "required": true
-        },
-        {
           "title": "Authors",
           "name": "authors",
           "type": "list",
           "taxonomyId": "authors",
-          "description": "One or more authors. Drives the author taxonomy pages."
+          "description": "One or more authors. First entry is the primary author shown in the byline; drives the author taxonomy pages.",
+          "required": true
         },
         {
           "title": "Publishing date",
@@ -97,16 +91,12 @@
           "description": "1-2 sentence summary of the episode."
         },
         {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "required": true
-        },
-        {
           "title": "Authors",
           "name": "authors",
           "type": "list",
-          "taxonomyId": "authors"
+          "taxonomyId": "authors",
+          "description": "One or more authors. First entry is the primary author shown in the byline; drives the author taxonomy pages.",
+          "required": true
         },
         {
           "title": "Publishing date",
@@ -293,6 +283,10 @@
       "contentTypes": [
         "page"
       ]
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
     }
   ],
   "frontMatter.content.snippets": {

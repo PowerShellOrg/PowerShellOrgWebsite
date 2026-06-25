@@ -1,6 +1,5 @@
 ---
 title: Dutch PowerShell User Group opens its doors on Slack
-author: Jaap Brasser
 authors:
   - Jaap Brasser
 date: "2016-05-16T13:07:17+00:00"

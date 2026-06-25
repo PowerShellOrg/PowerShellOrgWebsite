@@ -1,6 +1,5 @@
 ---
 title: Episode 308 – PowerScripting Podcast – Bryan Matthew from Microsoft on Storage Spaces
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-11-26T17:35:49+00:00"

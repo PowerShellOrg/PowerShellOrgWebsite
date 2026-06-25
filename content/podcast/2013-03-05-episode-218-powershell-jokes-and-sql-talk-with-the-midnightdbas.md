@@ -1,6 +1,5 @@
 ---
 title: Episode 218 – PowerShell jokes and SQL talk with the MidnightDBAs
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-06T04:58:15+00:00"

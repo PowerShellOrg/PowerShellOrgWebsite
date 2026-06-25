@@ -1,6 +1,5 @@
 ---
 title: CIM cmdlets and remote access
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-18T22:33:04+00:00"

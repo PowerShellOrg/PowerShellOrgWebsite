@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Building Confidence and Community with PowerShell with Brock Bingham
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2025-05-19T14:32:47+00:00"

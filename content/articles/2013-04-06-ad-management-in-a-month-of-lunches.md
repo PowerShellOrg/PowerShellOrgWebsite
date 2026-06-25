@@ -1,6 +1,5 @@
 ---
 title: AD Management in a Month of Lunches
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-06T15:40:22+00:00"

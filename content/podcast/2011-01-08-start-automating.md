@@ -1,6 +1,5 @@
 ---
 title: Episode 135 – James Brundage from Start-Automating
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-08T19:10:30+00:00"

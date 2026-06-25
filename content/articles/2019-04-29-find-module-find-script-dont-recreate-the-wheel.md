@@ -1,6 +1,5 @@
 ---
 title: "Find-Module, Find-Script – Don't Recreate the Wheel"
-author: pwshliquori
 authors:
   - pwshliquori
 date: "2019-04-29T18:52:07+00:00"

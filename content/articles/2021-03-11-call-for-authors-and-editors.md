@@ -1,6 +1,5 @@
 ---
 title: Call for Authors and Editors
-author: James Petty
 authors:
   - James Petty
 date: "2021-03-11T14:50:50+00:00"

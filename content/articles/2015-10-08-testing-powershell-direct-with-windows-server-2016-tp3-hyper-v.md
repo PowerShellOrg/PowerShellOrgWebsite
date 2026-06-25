@@ -1,6 +1,5 @@
 ---
 title: Testing PowerShell Direct with Windows Server 2016 TP3 Hyper-V
-author: Timothy Warner
 authors:
   - Timothy Warner
 date: "2015-10-08T14:03:48+00:00"

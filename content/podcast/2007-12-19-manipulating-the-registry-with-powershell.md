@@ -1,6 +1,5 @@
 ---
 title: Manipulating the Registry with PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-12-19T14:10:20+00:00"

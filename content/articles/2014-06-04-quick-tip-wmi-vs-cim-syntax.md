@@ -1,6 +1,5 @@
 ---
 title: "Quick Tip: WMI vs. CIM Syntax"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-06-04T12:31:32+00:00"

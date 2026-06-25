@@ -1,6 +1,5 @@
 ---
 title: Connect to all Office 365 Services with PowerShell
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2016-02-02T18:50:40+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Problems with Windows Live Logins
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-02-09T20:39:47+00:00"

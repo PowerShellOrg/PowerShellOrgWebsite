@@ -1,6 +1,5 @@
 ---
 title: Massive Update to All Seven Free eBooks at PowerShell.org
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-08T00:13:10+00:00"

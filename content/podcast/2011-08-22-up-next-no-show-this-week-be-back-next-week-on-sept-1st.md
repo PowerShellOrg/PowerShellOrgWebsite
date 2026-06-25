@@ -1,6 +1,5 @@
 ---
 title: "Up Next: No Show this week. Be back next week on Sept 1st"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-22T15:26:00+00:00"

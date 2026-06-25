@@ -1,6 +1,5 @@
 ---
 title: Loving the Community with Phil Bossman
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

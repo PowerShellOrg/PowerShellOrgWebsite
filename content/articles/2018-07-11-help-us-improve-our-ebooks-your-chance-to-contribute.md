@@ -1,6 +1,5 @@
 ---
 title: Help Us Improve our Ebooks – Your Chance to Contribute!
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-07-11T14:33:56+00:00"

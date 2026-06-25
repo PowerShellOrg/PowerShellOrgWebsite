@@ -1,6 +1,5 @@
 ---
 title: PowerShell and DevOps Global Summit Recap
-author: Missy Januszko
 authors:
   - Missy Januszko
 date: "2017-04-21T19:57:12+00:00"

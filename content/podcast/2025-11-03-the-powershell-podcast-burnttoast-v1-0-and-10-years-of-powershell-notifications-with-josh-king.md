@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast BurntToast v1.0 and 10 Years of PowerShell Notifications with Josh King
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Josh King

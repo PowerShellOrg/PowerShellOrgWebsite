@@ -1,6 +1,5 @@
 ---
 title: "Scripting Games 2013: Thoughts After Event 1"
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2013-05-02T02:21:16+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Find any E-Mail Address or Proxy Address In Active Directory
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-10-23T16:58:00+00:00"

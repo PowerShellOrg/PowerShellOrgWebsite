@@ -1,6 +1,5 @@
 ---
 title: Finding PowerShell Sessions At Conferences and Events
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2016-07-01T13:20:03+00:00"

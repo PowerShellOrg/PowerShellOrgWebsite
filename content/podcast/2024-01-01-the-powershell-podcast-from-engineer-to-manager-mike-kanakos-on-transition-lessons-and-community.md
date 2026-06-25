@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Engineer to Manager: Mike Kanakos on Transition, Lessons, and Community"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Mike Kanakos

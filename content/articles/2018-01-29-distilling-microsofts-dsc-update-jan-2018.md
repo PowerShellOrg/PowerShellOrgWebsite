@@ -1,6 +1,5 @@
 ---
 title: "Distilling Microsoft's DSC Update (Jan 2018)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-01-29T16:11:10+00:00"

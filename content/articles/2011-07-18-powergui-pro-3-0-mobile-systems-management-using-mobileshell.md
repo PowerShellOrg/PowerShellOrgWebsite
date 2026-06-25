@@ -1,6 +1,5 @@
 ---
 title: "PowerGUI® Pro 3.0: Mobile Systems Management Using MobileShell"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-07-18T21:18:22+00:00"

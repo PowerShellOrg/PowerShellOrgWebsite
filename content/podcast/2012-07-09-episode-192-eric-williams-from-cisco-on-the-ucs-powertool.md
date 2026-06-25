@@ -1,6 +1,5 @@
 ---
 title: Episode 192 – Eric Williams from Cisco on the UCS PowerTool
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-10T03:30:55+00:00"

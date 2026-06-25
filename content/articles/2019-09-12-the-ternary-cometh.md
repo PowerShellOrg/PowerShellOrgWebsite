@@ -1,6 +1,5 @@
 ---
 title: The Ternary Cometh
-author: Colyn Via
 authors:
   - Colyn Via
 date: "2019-09-12T21:35:34+00:00"

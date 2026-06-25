@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Authenticity, AI, and the Human Side of Tech with Adil Leghari
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Adil Leghari

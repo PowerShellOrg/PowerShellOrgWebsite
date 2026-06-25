@@ -1,6 +1,5 @@
 ---
 title: "Winter Scripting Games 2014 Tip #1: Avoid the aliases"
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2014-01-17T03:57:53+00:00"

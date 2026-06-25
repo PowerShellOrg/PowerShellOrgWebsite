@@ -1,6 +1,5 @@
 ---
 title: Books All Gone!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-24T03:39:27+00:00"

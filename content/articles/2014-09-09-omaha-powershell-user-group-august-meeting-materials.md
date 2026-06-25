@@ -1,6 +1,5 @@
 ---
 title: Omaha PowerShell User Group August Meeting Materials
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2014-09-09T19:25:33+00:00"

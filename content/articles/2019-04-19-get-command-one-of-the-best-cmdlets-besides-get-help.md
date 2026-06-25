@@ -1,6 +1,5 @@
 ---
 title: Get-Command – One of the best Cmdlets besides Get-Help
-author: pwshliquori
 authors:
   - pwshliquori
 date: "2019-04-19T16:59:06+00:00"

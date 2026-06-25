@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Joe Pruitt from F5 Networks"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-23T16:11:00+00:00"

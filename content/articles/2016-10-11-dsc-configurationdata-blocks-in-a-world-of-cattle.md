@@ -1,6 +1,5 @@
 ---
 title: DSC ConfigurationData Blocks in a World of Cattle
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-10-11T21:01:59+00:00"

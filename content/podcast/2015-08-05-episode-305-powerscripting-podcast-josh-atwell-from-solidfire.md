@@ -1,6 +1,5 @@
 ---
 title: Episode 305 – PowerScripting Podcast – Josh Atwell from SolidFire
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-08-06T03:27:16+00:00"

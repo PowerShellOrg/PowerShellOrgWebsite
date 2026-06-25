@@ -1,6 +1,5 @@
 ---
 title: The Power of Shell Compels You
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

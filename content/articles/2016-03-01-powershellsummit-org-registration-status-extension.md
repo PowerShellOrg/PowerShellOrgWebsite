@@ -1,6 +1,5 @@
 ---
 title: PowerShellSummit.org Registration Status & Extension
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-03-01T21:09:19+00:00"

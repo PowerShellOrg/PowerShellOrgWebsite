@@ -1,6 +1,5 @@
 ---
 title: DenverPSUG – Keith Hill Presenting
-author: JasonMorgan
 authors:
   - JasonMorgan
 date: "2014-08-26T15:32:29+00:00"

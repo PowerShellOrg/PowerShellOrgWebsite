@@ -1,6 +1,5 @@
 ---
 title: "Media Sync: Organize Your Photos and Videos with PowerShell"
-author: n2501r
 authors:
   - n2501r
 date: "2020-12-16T22:34:38+00:00"

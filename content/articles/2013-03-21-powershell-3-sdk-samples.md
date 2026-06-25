@@ -1,6 +1,5 @@
 ---
 title: PowerShell 3 SDK samples
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-21T19:49:18+00:00"

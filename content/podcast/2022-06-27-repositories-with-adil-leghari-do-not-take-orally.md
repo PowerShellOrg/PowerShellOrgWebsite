@@ -1,6 +1,5 @@
 ---
 title: "Repositories with Adil Leghari: Do not take orally"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Sorry, we have to cancel the show for this week
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-03-24T23:57:34+00:00"

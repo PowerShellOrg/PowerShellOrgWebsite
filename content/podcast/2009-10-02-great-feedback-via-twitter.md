@@ -1,6 +1,5 @@
 ---
 title: Great Feedback via Twitter
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-10-02T12:13:49+00:00"

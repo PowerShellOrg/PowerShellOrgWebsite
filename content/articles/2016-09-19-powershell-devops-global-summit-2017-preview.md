@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit 2017 Preview
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-09-19T19:55:14+00:00"

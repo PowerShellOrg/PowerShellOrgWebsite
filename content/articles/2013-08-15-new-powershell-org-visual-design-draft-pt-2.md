@@ -1,6 +1,5 @@
 ---
 title: New PowerShell.org Visual Design Draft, Pt 2
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-15T17:09:36+00:00"

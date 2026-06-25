@@ -1,6 +1,5 @@
 ---
 title: "Win a copy of Managing VMware Infrastructure with PowerShell: TFM on the podcast!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-29T16:01:26+00:00"

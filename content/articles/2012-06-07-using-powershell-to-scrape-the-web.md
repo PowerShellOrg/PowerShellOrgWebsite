@@ -1,6 +1,5 @@
 ---
 title: Using PowerShell to Scrape the Web
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-06-07T14:22:00+00:00"

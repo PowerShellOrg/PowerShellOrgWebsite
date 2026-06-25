@@ -1,6 +1,5 @@
 ---
 title: Episode 137 – Adam Driscoll and the New vWorkspace PowerShell Module
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-25T03:45:14+00:00"

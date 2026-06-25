@@ -1,6 +1,5 @@
 ---
 title: Episode 113 – MVP Brandon Shell Talks Citrix and Other PowerShell Goodness
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-05-25T03:17:41+00:00"

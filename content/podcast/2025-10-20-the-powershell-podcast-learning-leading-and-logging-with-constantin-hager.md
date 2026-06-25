@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Learning, Leading, and Logging with Constantin Hager
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Constantin Hager

@@ -1,6 +1,5 @@
 ---
 title: Workflow article 3
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-09T17:19:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Creating a new disk
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-12T18:44:16+00:00"

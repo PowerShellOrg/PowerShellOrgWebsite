@@ -1,6 +1,5 @@
 ---
 title: Up Next Staci Rottenberg and Teresa Wilson talk about life as a PowerShell wife
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-05-21T16:36:00+00:00"

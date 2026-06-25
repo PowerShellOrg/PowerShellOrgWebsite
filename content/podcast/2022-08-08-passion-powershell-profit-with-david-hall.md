@@ -1,6 +1,5 @@
 ---
 title: Passion + PowerShell = Profit with David Hall
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

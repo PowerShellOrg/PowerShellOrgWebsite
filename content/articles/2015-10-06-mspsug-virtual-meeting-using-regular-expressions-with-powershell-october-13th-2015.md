@@ -1,6 +1,5 @@
 ---
 title: "#MSPSUG Virtual Meeting: Using Regular Expressions with #PowerShell – October 13th 2015"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-10-06T14:13:57+00:00"

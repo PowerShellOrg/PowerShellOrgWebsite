@@ -1,6 +1,5 @@
 ---
 title: PowerShell Saturday 007 in review
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2014-02-13T16:55:44+00:00"

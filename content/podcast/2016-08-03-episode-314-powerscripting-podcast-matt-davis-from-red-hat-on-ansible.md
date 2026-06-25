@@ -1,6 +1,5 @@
 ---
 title: Episode 314 – PowerScripting Podcast – Matt Davis from Red Hat on Ansible
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2016-08-03T03:26:56+00:00"

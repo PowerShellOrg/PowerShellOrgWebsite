@@ -1,6 +1,5 @@
 ---
 title: "Episode 234 \"“ PowerScripting Podcast \"“ Summer 2013 Windows PowerShell Scripting Games Recap"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-23T14:13:20+00:00"

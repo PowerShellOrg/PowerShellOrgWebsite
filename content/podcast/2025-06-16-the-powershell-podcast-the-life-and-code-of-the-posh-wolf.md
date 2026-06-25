@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Life and Code of The PoSh Wolf
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Anthony Howell

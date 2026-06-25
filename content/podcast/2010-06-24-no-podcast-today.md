@@ -1,6 +1,5 @@
 ---
 title: No Podcast Today
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-24T13:11:20+00:00"

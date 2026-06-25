@@ -1,6 +1,5 @@
 ---
 title: VERIFIED EFFECTIVE Self-Assessment
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-02T23:36:16+00:00"

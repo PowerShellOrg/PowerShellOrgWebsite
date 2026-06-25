@@ -1,6 +1,5 @@
 ---
 title: PowerShell V3 CTP2 Provides Better Argument Passing to EXEs
-author: Keith Hill
 authors:
   - Keith Hill
 date: "2012-01-02T19:56:23+00:00"

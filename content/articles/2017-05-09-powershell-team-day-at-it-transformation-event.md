@@ -1,6 +1,5 @@
 ---
 title: PowerShell Team Day at IT Transformation Event
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-05-09T15:39:29+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Cross-Platform PowerShell with Daniel Silva
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

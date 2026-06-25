@@ -1,6 +1,5 @@
 ---
 title: Episode 206 – Michael Niehaus talks about the Microsoft Deployment Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-11-07T03:45:27+00:00"

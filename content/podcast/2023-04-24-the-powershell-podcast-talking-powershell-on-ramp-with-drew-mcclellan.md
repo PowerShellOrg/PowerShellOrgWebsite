@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Talking PowerShell on Ramp with Drew McClellan
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

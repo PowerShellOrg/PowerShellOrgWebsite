@@ -1,6 +1,5 @@
 ---
 title: "PowerShell workflows\"“now we are six"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-30T19:11:03+00:00"

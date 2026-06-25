@@ -1,6 +1,5 @@
 ---
 title: UK PowerShell group session postponement
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-21T19:52:43+00:00"

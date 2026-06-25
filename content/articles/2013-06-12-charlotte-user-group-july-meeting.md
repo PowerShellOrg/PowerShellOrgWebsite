@@ -1,6 +1,5 @@
 ---
 title: Charlotte User Group July Meeting
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2013-06-13T02:24:30+00:00"

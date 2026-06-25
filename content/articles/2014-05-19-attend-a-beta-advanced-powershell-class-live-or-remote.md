@@ -1,6 +1,5 @@
 ---
 title: "Attend a Beta \"Advanced PowerShell\" Class Live or Remote"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-19T16:29:55+00:00"

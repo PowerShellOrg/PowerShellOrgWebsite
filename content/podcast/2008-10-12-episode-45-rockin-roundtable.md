@@ -1,6 +1,5 @@
 ---
 title: "Episode 45 – Rockin' Roundtable"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-13T02:53:57+00:00"

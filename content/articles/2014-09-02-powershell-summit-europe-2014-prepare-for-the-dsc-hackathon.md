@@ -1,6 +1,5 @@
 ---
 title: "PowerShell Summit Europe 2014: Prepare for the DSC Hackathon"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-02T22:54:16+00:00"

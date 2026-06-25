@@ -1,6 +1,5 @@
 ---
 title: Episode 6 – User Groups are Starting to Sprout
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-06-26T23:20:16+00:00"

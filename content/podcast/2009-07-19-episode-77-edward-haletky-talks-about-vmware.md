@@ -1,6 +1,5 @@
 ---
 title: Episode 77 – Edward Haletky Talks About VMware
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-07-19T20:18:19+00:00"

@@ -1,6 +1,5 @@
 ---
 title: State of the Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-29T15:10:48+00:00"

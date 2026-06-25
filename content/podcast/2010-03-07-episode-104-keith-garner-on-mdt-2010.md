@@ -1,6 +1,5 @@
 ---
 title: Episode 104 – Keith Garner on MDT 2010
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-03-08T04:34:26+00:00"

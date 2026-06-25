@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit N.A. 2014 Session Videos!
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-16T21:20:43+00:00"

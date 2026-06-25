@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2014 – Call for Topics
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-04-30T18:31:01+00:00"

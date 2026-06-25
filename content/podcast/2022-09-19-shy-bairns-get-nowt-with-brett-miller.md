@@ -1,6 +1,5 @@
 ---
 title: Shy Bairns Get Nowt with Brett Miller
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

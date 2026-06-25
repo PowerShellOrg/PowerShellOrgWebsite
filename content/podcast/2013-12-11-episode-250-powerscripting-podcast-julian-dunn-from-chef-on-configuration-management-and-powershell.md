@@ -1,6 +1,5 @@
 ---
 title: Episode 250 – PowerScripting Podcast – Julian Dunn from Chef on Configuration Management and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-12-12T02:16:51+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Book Giveaway: Deploying Windows Vista"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-18T03:21:50+00:00"

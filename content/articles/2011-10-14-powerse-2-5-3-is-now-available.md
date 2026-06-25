@@ -1,6 +1,5 @@
 ---
 title: PowerSE 2.5.3 is now available
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-10-14T15:02:05+00:00"

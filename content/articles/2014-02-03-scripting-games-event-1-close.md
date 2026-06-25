@@ -1,6 +1,5 @@
 ---
 title: Scripting Games event 1 close
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-02-03T11:57:25+00:00"

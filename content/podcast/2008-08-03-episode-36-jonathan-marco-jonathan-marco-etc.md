@@ -1,6 +1,5 @@
 ---
 title: Episode 36 – Jonathan, Marco, Jonathan, Marco etc…
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-08-04T03:09:48+00:00"

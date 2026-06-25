@@ -1,6 +1,5 @@
 ---
 title: PSCore 6 – Jeffrey Snover and the PowerShell Team hosting AMA on 11th Jan 9am PT
-author: Mark Wragg
 authors:
   - Mark Wragg
 date: "2018-01-09T13:20:04+00:00"

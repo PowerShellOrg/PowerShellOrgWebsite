@@ -1,6 +1,5 @@
 ---
 title: PowerShell.org Annual Operating Budget
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-06-01T14:30:30+00:00"

@@ -1,6 +1,5 @@
 ---
 title: March Omaha PowerShell User Group Meeting
-author: Jacob Benson
 authors:
   - Jacob Benson
 date: "2015-03-11T12:52:14+00:00"

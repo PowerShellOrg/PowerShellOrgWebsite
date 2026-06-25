@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit NA 2014 Shirts Available
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-04-14T16:50:18+00:00"

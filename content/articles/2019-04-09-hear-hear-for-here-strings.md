@@ -1,6 +1,5 @@
 ---
 title: Hear, Hear for Here-Strings
-author: pwshliquori
 authors:
   - pwshliquori
 date: "2019-04-09T01:40:55+00:00"

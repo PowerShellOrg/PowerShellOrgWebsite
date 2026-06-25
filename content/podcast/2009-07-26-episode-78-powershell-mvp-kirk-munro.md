@@ -1,6 +1,5 @@
 ---
 title: Episode 78- PowerShell MVP Kirk Munro
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-07-27T01:52:42+00:00"

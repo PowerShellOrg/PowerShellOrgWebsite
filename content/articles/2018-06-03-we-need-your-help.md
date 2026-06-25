@@ -1,6 +1,5 @@
 ---
 title: We Need Your Help.
-author: Don Jones
 authors:
   - Don Jones
 date: "2018-06-03T19:23:52+00:00"

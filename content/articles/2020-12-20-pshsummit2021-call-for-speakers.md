@@ -1,6 +1,5 @@
 ---
 title: "PowerShell + DevOps Global Summit 2021: Calling All Speakers!"
-author: Mike Kanakos
 authors:
   - Mike Kanakos
 date: "2020-12-20T16:00:47+00:00"

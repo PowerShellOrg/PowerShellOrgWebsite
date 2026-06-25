@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Reaching New Users with Jeff Hicks
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

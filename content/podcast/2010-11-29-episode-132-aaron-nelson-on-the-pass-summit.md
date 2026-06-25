@@ -1,6 +1,5 @@
 ---
 title: Episode 132 – Aaron Nelson on the PASS Summit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-11-29T05:04:31+00:00"

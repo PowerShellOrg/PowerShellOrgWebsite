@@ -1,6 +1,5 @@
 ---
 title: Episode 75 – Poshcode with MVPs Joel Bennett and Oisin Grehan
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Joel Bennett

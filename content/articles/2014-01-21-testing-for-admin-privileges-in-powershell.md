@@ -1,6 +1,5 @@
 ---
 title: Testing for Admin Privileges in PowerShell
-author: Jonathan Medd
 authors:
   - Jonathan Medd
 date: "2014-01-21T10:27:53+00:00"

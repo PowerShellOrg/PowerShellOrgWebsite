@@ -1,6 +1,5 @@
 ---
 title: Episode 176 – James Brundage on PowerShell Pipeworks
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-02-14T04:18:52+00:00"

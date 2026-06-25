@@ -1,6 +1,5 @@
 ---
 title: Episode 160 – Boe Prox on PoshPAIG
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-09-26T04:21:02+00:00"

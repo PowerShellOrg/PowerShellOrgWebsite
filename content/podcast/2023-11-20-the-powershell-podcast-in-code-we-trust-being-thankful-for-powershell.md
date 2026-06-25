@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast In Code We Trust: Being Thankful for PowerShell"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Seeking Coaches and Judges for the Winter Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-10-02T17:58:14+00:00"

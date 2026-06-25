@@ -1,6 +1,5 @@
 ---
 title: "Submit Questions for \"Ask Me Anything\" with Jeffrey Snover"
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-04-01T11:47:45+00:00"

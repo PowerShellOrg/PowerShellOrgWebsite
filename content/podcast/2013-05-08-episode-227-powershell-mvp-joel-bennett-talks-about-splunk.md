@@ -1,6 +1,5 @@
 ---
 title: Episode 227 – PowerShell MVP Joel Bennett talks about Splunk
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-05-08T16:42:56+00:00"

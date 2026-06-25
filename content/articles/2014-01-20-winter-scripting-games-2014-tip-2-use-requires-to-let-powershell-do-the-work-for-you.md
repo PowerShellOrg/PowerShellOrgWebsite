@@ -1,6 +1,5 @@
 ---
 title: "Winter Scripting Games 2014 Tip #2: Use #Requires to let PowerShell do the work for you"
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2014-01-21T03:51:34+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 85 – Lee Holmes talks about v2
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-09-28T04:23:30+00:00"

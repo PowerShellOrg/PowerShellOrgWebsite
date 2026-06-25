@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jeffrey Snover and the PowerShell v3 launch party!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-23T20:13:00+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Summit Expansion – Seeking Feedback
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2019-02-07T16:00:21+00:00"

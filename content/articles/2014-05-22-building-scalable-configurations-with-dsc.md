@@ -1,6 +1,5 @@
 ---
 title: Building Scalable Configurations With DSC
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2014-05-22T18:30:00+00:00"

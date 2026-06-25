@@ -1,6 +1,5 @@
 ---
 title: Episode 10 – WinRM will power PowerShell Remoting in V2
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-10-14T01:57:32+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 3 – Select, Set, Measure
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-05-15T16:20:10+00:00"

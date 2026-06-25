@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From SharePoint to Security with David Sass
-author: Andrew Pla
 authors:
   - Andrew Pla
   - David Sass

@@ -1,6 +1,5 @@
 ---
 title: No Show this week due to the MVP Summit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-01T13:19:09+00:00"

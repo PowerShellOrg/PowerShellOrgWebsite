@@ -1,6 +1,5 @@
 ---
 title: The Scripting Games Winter 2014 – Update on Event 1 Scores
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-01-29T18:16:58+00:00"

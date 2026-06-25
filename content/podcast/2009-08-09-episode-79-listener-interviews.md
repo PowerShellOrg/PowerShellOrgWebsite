@@ -1,6 +1,5 @@
 ---
 title: Episode 79 – Listener Interviews
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-08-10T04:33:10+00:00"

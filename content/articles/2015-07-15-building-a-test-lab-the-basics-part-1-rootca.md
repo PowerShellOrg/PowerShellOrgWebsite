@@ -1,6 +1,5 @@
 ---
 title: "Building a test lab : The basics Part 1 RootCA"
-author: David Jones
 authors:
   - David Jones
 date: "2015-07-16T04:16:28+00:00"

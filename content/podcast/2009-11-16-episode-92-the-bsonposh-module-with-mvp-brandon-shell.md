@@ -1,6 +1,5 @@
 ---
 title: Episode 92 – The BSonPosh Module with MVP Brandon Shell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Brandon Shell

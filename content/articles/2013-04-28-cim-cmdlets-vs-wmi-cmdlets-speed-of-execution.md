@@ -1,6 +1,5 @@
 ---
 title: "CIM cmdlets vs WMI cmdlets\"“speed of execution"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-28T21:04:47+00:00"

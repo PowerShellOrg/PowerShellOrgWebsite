@@ -1,6 +1,5 @@
 ---
 title: "Jobs: PowerShell Scripter Wanted"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-05T14:47:19+00:00"

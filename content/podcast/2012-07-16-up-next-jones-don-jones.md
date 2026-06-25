@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Jones, Don Jones!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-17T00:01:00+00:00"

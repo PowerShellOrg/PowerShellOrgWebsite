@@ -1,6 +1,5 @@
 ---
 title: What makes a great submission for summit
-author: James Petty
 authors:
   - James Petty
 date: "2021-10-12T14:26:25+00:00"

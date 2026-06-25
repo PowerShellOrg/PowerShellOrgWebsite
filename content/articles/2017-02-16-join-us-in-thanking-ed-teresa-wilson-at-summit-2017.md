@@ -1,6 +1,5 @@
 ---
 title: Join Us in Thanking Ed & Teresa Wilson at Summit 2017
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-02-16T18:35:52+00:00"

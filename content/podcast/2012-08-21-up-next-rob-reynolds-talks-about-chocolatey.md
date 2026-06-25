@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Rob Reynolds talks about Chocolatey!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-08-21T16:20:00+00:00"

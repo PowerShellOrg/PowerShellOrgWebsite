@@ -1,6 +1,5 @@
 ---
 title: Take home from PowerShell Summit Europe
-author: Jonas Sommer Nielsen
 authors:
   - Jonas Sommer Nielsen
 date: "2015-09-17T12:25:55+00:00"

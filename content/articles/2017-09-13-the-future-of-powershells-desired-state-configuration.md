@@ -1,6 +1,5 @@
 ---
 title: "The Future of PowerShell's Desired State Configuration"
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-09-13T15:28:06+00:00"

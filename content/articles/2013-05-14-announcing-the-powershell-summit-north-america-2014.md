@@ -1,6 +1,5 @@
 ---
 title: Announcing the PowerShell Summit North America 2014
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-14T14:39:11+00:00"

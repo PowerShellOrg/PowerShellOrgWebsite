@@ -1,6 +1,5 @@
 ---
 title: Coming Up on the PowerScripting Podcast
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-10-29T01:16:24+00:00"

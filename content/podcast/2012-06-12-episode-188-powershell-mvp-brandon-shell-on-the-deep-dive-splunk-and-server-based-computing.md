@@ -1,6 +1,5 @@
 ---
 title: Episode 188- PowerShell MVP Brandon Shell on the Deep Dive, Splunk and Server-Based Computing
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Brandon Shell

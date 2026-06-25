@@ -1,6 +1,5 @@
 ---
 title: Episode 233 – PowerScripting Podcast – Live from Atlanta TechStravaganza 2013
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-03T04:02:52+00:00"

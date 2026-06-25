@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Verified Effective Exams will Begin Soon"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-05-24T23:21:00+00:00"

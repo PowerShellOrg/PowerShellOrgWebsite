@@ -1,6 +1,5 @@
 ---
 title: Episode 152 – PrimalForms 2011 with Alex and David
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-07-08T03:18:54+00:00"

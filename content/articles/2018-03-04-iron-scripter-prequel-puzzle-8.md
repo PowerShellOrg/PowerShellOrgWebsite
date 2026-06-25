@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequel: Puzzle 8"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-03-04T00:01:39+00:00"

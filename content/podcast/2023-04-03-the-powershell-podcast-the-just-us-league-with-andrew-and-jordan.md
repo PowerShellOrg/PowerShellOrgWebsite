@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast The Just Us League With Andrew and Jordan
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

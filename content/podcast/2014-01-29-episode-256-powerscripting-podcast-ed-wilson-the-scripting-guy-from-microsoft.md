@@ -1,6 +1,5 @@
 ---
 title: Episode 256 – PowerScripting Podcast – Ed Wilson (The Scripting Guy) from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-01-30T04:42:39+00:00"

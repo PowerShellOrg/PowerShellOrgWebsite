@@ -1,6 +1,5 @@
 ---
 title: Nearing Last Call for PowerShell Summit Topic Proposals (+ Topic Ideas!)
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-09-06T14:04:52+00:00"

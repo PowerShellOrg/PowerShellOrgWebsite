@@ -1,6 +1,5 @@
 ---
 title: The new PowerShell Class is Coming to a CPLS Near You!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-24T21:00:09+00:00"

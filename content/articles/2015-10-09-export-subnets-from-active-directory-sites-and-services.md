@@ -1,6 +1,5 @@
 ---
 title: Export Subnets from Active Directory Sites and Services
-author: Steve Parankewich
 authors:
   - Steve Parankewich
 date: "2015-10-10T02:39:20+00:00"

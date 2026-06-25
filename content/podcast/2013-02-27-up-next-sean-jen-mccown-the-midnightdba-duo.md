@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Sean & Jen McCown – the MidnightDBA duo!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-02-27T20:02:52+00:00"

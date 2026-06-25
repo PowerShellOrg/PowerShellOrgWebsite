@@ -1,6 +1,5 @@
 ---
 title: Design the Next Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-02-09T15:03:49+00:00"

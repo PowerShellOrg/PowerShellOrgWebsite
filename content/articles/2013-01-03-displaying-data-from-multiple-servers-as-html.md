@@ -1,6 +1,5 @@
 ---
 title: Displaying data from multiple servers as HTML
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-03T19:12:53+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 304 – PowerScripting Podcast – Ben Armstrong from Microsoft on Windows Containers
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-07-23T02:05:57+00:00"

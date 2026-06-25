@@ -1,6 +1,5 @@
 ---
 title: Marco Shaw giving presentation about NetCmdlets
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-07-23T00:42:23+00:00"

@@ -1,6 +1,5 @@
 ---
 title: How to handle oAuth from PowerShell
-author: Stephen Owen
 authors:
   - Stephen Owen
 date: "2015-09-25T15:35:24+00:00"

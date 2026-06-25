@@ -1,6 +1,5 @@
 ---
 title: "Note: PowerShell Book Limited Edition Preorders ONLY AVAILABLE as Preorders!"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-17T14:28:00+00:00"

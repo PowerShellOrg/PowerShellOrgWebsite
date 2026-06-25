@@ -1,6 +1,5 @@
 ---
 title: Win a Free 4-Day Pass to PowerShell and DevOps Summit 2016!
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-10-28T13:56:18+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 273 – PowerScripting Podcast – The Scripting Games Team Winners
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-06-15T21:32:46+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org's Nonprofit Status"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-12-29T15:11:16+00:00"

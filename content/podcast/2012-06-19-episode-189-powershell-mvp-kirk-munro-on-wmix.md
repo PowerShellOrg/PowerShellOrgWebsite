@@ -1,6 +1,5 @@
 ---
 title: Episode 189- PowerShell MVP Kirk Munro on WMIX
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Kirk Munro

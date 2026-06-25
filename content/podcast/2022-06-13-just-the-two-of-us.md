@@ -1,6 +1,5 @@
 ---
 title: Just The Two of Us
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

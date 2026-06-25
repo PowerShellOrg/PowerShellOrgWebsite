@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast From Console to GitOps: Gilbert Sanchez Breaks It Down"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

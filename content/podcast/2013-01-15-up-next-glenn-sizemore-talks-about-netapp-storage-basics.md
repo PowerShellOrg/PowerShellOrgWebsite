@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Glenn Sizemore talks about NetApp Storage Basics"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-15T15:11:01+00:00"

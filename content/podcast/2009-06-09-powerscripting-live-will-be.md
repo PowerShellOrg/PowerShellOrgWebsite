@@ -1,6 +1,5 @@
 ---
 title: PowerScripting Live will be???
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-06-09T20:07:36+00:00"

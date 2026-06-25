@@ -1,6 +1,5 @@
 ---
 title: Network adapters
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-03-04T20:24:52+00:00"

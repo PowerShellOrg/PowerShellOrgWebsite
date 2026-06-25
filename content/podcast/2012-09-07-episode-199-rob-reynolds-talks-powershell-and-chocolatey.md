@@ -1,6 +1,5 @@
 ---
 title: Episode 199 – Rob Reynolds talks PowerShell and Chocolatey
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-09-07T12:15:27+00:00"

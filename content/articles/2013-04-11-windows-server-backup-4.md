@@ -1,6 +1,5 @@
 ---
 title: Windows Server Backup
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-11T19:50:36+00:00"

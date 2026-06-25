@@ -1,6 +1,5 @@
 ---
 title: The Flavors of Windows Containers
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-11-01T16:59:01+00:00"

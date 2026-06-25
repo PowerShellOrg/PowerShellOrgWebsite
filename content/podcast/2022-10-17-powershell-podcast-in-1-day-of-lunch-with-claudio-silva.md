@@ -1,6 +1,5 @@
 ---
 title: PowerShell Podcast in 1 day of Lunch with Claudio Silva
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

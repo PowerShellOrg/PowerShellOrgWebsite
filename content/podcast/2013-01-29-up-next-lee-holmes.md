@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Lee Holmes!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-29T21:06:00+00:00"

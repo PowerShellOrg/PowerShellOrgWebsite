@@ -1,6 +1,5 @@
 ---
 title: The DSC Conversation Continues
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-03-05T18:58:37+00:00"

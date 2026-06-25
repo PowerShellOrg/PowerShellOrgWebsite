@@ -1,6 +1,5 @@
 ---
 title: Iron Scripter prequel
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-01-04T18:00:24+00:00"

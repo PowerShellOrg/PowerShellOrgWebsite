@@ -1,6 +1,5 @@
 ---
 title: Making Awesome Dashboards from Windows Performance Counters
-author: Matthew Hodgkins
 authors:
   - Matthew Hodgkins
 date: "2016-05-19T18:25:55+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 297 – PowerScripting Podcast -Alan Renouf from VMware on PowerCLI 6
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-04-02T02:40:24+00:00"

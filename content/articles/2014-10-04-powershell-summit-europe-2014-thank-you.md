@@ -1,6 +1,5 @@
 ---
 title: PowerShell Summit Europe 2014  – – Thank you
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2014-10-04T11:17:10+00:00"

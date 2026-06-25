@@ -1,6 +1,5 @@
 ---
 title: Charlotte 4/3/2014 Meeting – Using PowerShell in Websites
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2014-04-02T18:32:43+00:00"

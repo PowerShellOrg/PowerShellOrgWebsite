@@ -1,6 +1,5 @@
 ---
 title: Contributing to PowerShell Made Easy with Sean Wheeler
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

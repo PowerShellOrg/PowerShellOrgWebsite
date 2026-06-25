@@ -1,6 +1,5 @@
 ---
 title: Episode 307 – PowerScripting Podcast – PowerShell MVP Eric Courville
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-10-22T03:47:18+00:00"

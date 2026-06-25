@@ -1,6 +1,5 @@
 ---
 title: "PSCustomObject: Save Puppies and Avoid Dead Ends"
-author: June Blender
 authors:
   - June Blender
 date: "2013-04-24T21:06:59+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 193 – Hemant Mahawar from Microsoft on PowerShell v3 Workflows
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-07-18T03:52:28+00:00"

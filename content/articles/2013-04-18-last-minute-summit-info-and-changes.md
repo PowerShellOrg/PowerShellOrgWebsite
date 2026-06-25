@@ -1,6 +1,5 @@
 ---
 title: "[UPDATED] Last-Minute Summit Info and Changes"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-18T14:19:14+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 59 – Oisin Grehan talks SharePoint
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-02-17T04:42:39+00:00"

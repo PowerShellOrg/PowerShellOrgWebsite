@@ -1,6 +1,5 @@
 ---
 title: PowerShell & DevOps Global Summit 2017 agenda
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-10-25T10:00:07+00:00"

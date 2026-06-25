@@ -1,6 +1,5 @@
 ---
 title: Episode 262 – PowerScripting Podcast – Scott Muc on Testing with Pester
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-03-23T18:30:22+00:00"

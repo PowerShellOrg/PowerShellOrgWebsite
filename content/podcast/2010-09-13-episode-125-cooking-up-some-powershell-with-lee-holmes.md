@@ -1,6 +1,5 @@
 ---
 title: Episode 125 – Cooking Up Some PowerShell with Lee Holmes
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Lee Holmes

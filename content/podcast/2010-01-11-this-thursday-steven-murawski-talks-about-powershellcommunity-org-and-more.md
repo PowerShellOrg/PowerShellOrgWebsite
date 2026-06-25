@@ -1,6 +1,5 @@
 ---
 title: "This Thursday: Steven Murawski talks about PowerShellCommunity.org and More!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-11T15:49:17+00:00"

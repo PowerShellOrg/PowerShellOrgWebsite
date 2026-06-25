@@ -1,6 +1,5 @@
 ---
 title: Updating Help on PowerShell v3
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-15T21:37:41+00:00"

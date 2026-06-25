@@ -1,6 +1,5 @@
 ---
 title: PowerShell wins award
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-16T18:19:21+00:00"

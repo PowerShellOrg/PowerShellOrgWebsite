@@ -1,6 +1,5 @@
 ---
 title: "The Scripting Games: Here's What's Happening"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-06-29T15:11:27+00:00"

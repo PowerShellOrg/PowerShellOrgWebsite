@@ -1,6 +1,5 @@
 ---
 title: 2018 Community Lightning Demos
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2018-02-04T02:45:42+00:00"

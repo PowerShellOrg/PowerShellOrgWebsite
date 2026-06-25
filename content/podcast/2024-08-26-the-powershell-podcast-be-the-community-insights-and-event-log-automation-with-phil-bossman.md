@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Be the Community: Insights and Event Log Automation with Phil Bossman"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Phil Bossman

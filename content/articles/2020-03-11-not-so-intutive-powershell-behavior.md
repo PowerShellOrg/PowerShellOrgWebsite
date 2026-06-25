@@ -1,6 +1,5 @@
 ---
 title: Not So Intutive PowerShell Behavior
-author: tobor79
 authors:
   - tobor79
 date: "2020-03-11T21:36:45+00:00"

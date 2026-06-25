@@ -1,6 +1,5 @@
 ---
 title: "This Week\"™s Interview: Scripting Games 2010 Roundup"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-05-12T02:13:06+00:00"

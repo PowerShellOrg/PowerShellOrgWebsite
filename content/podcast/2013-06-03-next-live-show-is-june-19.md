@@ -1,6 +1,5 @@
 ---
 title: Next live show is June 19
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-06-03T11:52:58+00:00"

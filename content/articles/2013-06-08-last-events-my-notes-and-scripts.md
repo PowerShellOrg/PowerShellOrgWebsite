@@ -1,6 +1,5 @@
 ---
 title: "Last events: my notes and scripts."
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-06-08T20:46:30+00:00"

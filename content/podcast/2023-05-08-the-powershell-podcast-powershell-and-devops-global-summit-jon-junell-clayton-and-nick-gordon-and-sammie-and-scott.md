@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell and DevOps Global Summit – Jon Junell, Clayton and Nick, Gordon and Sammie, and Scott
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

@@ -1,6 +1,5 @@
 ---
 title: Building a Desired State Configuration Configuration
-author: Steven Murawski
 authors:
   - Steven Murawski
 date: "2013-10-08T16:36:33+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org: Our First Year in Review"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-12-21T17:28:34+00:00"

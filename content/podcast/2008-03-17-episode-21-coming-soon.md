@@ -1,6 +1,5 @@
 ---
 title: Episode 21 coming soon.
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-03-17T09:00:19+00:00"

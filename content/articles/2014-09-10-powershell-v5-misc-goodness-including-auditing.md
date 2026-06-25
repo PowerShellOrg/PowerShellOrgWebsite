@@ -1,6 +1,5 @@
 ---
 title: "PowerShell v5: Misc Goodness (including Auditing)"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-09-10T14:49:04+00:00"

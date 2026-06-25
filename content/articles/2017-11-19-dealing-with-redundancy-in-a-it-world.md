@@ -1,6 +1,5 @@
 ---
 title: Dealing with redundancy in an IT world
-author: Alex Aymonier
 authors:
   - Alex Aymonier
 date: "2017-11-19T21:22:39+00:00"

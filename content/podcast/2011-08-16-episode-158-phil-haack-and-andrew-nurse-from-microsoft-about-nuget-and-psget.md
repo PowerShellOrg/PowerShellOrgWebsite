@@ -1,6 +1,5 @@
 ---
 title: Episode 158 – Phil Haack and Andrew Nurse from Microsoft about NuGet and PSGet
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-08-16T17:07:18+00:00"

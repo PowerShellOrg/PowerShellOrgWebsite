@@ -1,6 +1,5 @@
 ---
 title: "More Judges' Notes on Event 2"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-08T19:42:02+00:00"

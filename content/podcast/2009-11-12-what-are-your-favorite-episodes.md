@@ -1,6 +1,5 @@
 ---
 title: What are your favorite episodes?
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-11-12T14:55:45+00:00"

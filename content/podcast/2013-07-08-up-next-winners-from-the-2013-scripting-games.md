@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Winners from the 2013 Scripting Games"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-08T15:28:00+00:00"

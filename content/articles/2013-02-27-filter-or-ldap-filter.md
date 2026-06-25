@@ -1,6 +1,5 @@
 ---
 title: Filter or LDAP filter
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-27T20:16:47+00:00"

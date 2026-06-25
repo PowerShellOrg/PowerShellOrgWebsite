@@ -1,6 +1,5 @@
 ---
 title: "Episode 34 \"“ VMware in the House"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-07-26T04:07:37+00:00"

@@ -1,6 +1,5 @@
 ---
 title: MY 2014 Public POWERCLASS is Now Open for Registration
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-02-03T18:44:02+00:00"

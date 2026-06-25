@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Exploring the Power of IoT and PowerShell with Mark Go
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Mark Go

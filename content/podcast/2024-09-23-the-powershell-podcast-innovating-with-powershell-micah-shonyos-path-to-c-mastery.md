@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Innovating with PowerShell: Micah Shonyo’s Path to C# Mastery"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-09-23T14:56:49+00:00"

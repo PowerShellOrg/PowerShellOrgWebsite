@@ -1,6 +1,5 @@
 ---
 title: "Episode 129 \"“ Security Ninja Dave Kennedy"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-10-26T22:00:20+00:00"

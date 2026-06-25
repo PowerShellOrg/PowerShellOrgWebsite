@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Matt Royer from Intel!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-09-29T02:35:05+00:00"

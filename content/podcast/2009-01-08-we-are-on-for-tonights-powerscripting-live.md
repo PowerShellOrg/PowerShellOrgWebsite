@@ -1,6 +1,5 @@
 ---
 title: "We are ON for tonight\"™s PowerScripting Live!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-08T20:12:13+00:00"

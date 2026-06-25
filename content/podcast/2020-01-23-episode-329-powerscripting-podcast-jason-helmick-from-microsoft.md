@@ -1,6 +1,5 @@
 ---
 title: Episode 329 – PowerScripting Podcast – Jason Helmick from Microsoft
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jason Helmick

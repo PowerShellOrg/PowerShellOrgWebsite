@@ -1,6 +1,5 @@
 ---
 title: High Praise!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-13T18:55:56+00:00"

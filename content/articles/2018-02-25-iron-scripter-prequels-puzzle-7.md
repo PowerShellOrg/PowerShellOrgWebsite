@@ -1,6 +1,5 @@
 ---
 title: "Iron Scripter Prequels: puzzle 7"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2018-02-25T00:01:07+00:00"

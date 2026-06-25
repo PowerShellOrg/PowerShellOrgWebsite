@@ -1,6 +1,5 @@
 ---
 title: The New PowerShell Community
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-07-29T16:54:44+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Eli White Makes Mayhem!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-12-18T17:42:00+00:00"

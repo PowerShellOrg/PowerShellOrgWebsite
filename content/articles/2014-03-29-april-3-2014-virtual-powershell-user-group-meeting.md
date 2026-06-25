@@ -1,6 +1,5 @@
 ---
 title: April 3, 2014 Virtual PowerShell User Group meeting
-author: ScriptingWife
 authors:
   - ScriptingWife
 date: "2014-03-29T21:11:12+00:00"

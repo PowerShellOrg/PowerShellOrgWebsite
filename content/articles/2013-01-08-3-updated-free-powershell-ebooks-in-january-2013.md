@@ -1,6 +1,5 @@
 ---
 title: 3 Updated Free PowerShell eBooks in January 2013!
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-01-08T17:06:34+00:00"

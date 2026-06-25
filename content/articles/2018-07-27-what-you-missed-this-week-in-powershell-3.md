@@ -1,6 +1,5 @@
 ---
 title: What You Missed This Week in PowerShell!
-author: Greg Tate
 authors:
   - Greg Tate
 date: "2018-07-27T15:00:19+00:00"

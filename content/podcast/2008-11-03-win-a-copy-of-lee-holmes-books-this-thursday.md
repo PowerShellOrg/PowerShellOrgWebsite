@@ -1,6 +1,5 @@
 ---
 title: "Win a Copy of Lee Holmes\"™ Books This Thursday"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-04T02:22:28+00:00"

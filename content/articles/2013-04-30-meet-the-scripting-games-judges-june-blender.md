@@ -1,6 +1,5 @@
 ---
 title: "Meet the Scripting Games Judges: June Blender"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-30T17:15:20+00:00"

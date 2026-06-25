@@ -1,6 +1,5 @@
 ---
 title: Philadelphia Meeting – September 4th 2014
-author: John Mello
 authors:
   - John Mello
 date: "2014-08-21T03:59:22+00:00"

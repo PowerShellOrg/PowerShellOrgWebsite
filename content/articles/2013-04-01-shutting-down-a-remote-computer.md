@@ -1,6 +1,5 @@
 ---
 title: Shutting down a remote computer
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-04-01T11:15:52+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 298 – PowerScripting Podcast -Vaughn Stewart and Cody Hosterman from Pure Storage
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2015-05-07T02:57:11+00:00"

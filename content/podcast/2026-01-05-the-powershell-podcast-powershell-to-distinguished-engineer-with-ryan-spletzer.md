@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast PowerShell to Distinguished Engineer with Ryan Spletzer
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Ryan Spletzer

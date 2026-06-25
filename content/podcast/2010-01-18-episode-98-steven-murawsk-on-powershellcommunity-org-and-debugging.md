@@ -1,6 +1,5 @@
 ---
 title: Episode 98 – Steven Murawsk on PowerShellCommunity.org and Debugging
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-01-18T06:07:51+00:00"

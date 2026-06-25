@@ -1,6 +1,5 @@
 ---
 title: Abstraction and Configuration Data
-author: pscookiemonster
 authors:
   - pscookiemonster
 date: "2015-08-16T20:55:20+00:00"

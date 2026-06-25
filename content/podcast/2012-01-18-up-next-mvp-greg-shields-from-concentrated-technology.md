@@ -1,6 +1,5 @@
 ---
 title: Up Next MVP Greg Shields from Concentrated Technology
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-01-18T13:28:00+00:00"

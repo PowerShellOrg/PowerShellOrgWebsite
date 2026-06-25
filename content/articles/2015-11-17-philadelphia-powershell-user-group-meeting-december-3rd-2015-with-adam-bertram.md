@@ -1,6 +1,5 @@
 ---
 title: Philadelphia PowerShell User Group Meeting  – December 3rd 2015 with Adam Bertram
-author: John Mello
 authors:
   - John Mello
 date: "2015-11-18T01:24:39+00:00"

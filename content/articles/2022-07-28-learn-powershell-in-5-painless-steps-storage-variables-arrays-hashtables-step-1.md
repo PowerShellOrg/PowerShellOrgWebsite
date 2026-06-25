@@ -1,6 +1,5 @@
 ---
 title: Learn Powershell in 5 Painless Steps – Storage (Variables, Arrays, Hashtables) – Step 1
-author: Cole McDonald
 authors:
   - Cole McDonald
 date: "2022-07-28T18:45:08+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 207 – Dave Kennedy on security and the Social-Engineer Toolkit
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-11-22T00:01:08+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Scripting Games 2013: Event 2 \"˜Favorite\"™ and \"˜Not So Favorite\"™"
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2013-05-09T03:27:44+00:00"

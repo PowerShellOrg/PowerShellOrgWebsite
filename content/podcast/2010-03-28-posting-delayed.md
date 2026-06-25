@@ -1,6 +1,5 @@
 ---
 title: Posting delayed
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-03-29T02:04:59+00:00"

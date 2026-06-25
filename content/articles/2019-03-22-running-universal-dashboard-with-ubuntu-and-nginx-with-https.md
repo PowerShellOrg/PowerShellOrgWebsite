@@ -1,6 +1,5 @@
 ---
 title: Running Universal Dashboard with Ubuntu and Nginx (With HTTPS!)
-author: Nathaniel Webb (ArtisanByteCrafter)
 authors:
   - Nathaniel Webb (ArtisanByteCrafter)
 date: "2019-03-22T14:37:28+00:00"

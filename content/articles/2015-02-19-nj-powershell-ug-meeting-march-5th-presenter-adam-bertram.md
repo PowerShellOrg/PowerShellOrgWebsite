@@ -1,6 +1,5 @@
 ---
 title: "NJ PowerShell UG Meeting March 5th: Presenter Adam Bertram"
-author: NJPowerShell
 authors:
   - NJPowerShell
 date: "2015-02-19T18:59:59+00:00"

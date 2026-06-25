@@ -1,6 +1,5 @@
 ---
 title: "PowerShellTO's Next Meeting – May 6th, 2015"
-author: Will Anderson
 authors:
   - Will Anderson
 date: "2015-04-27T23:00:51+00:00"

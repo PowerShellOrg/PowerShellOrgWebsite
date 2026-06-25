@@ -1,6 +1,5 @@
 ---
 title: Some Event 3 Notes
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-18T14:23:25+00:00"

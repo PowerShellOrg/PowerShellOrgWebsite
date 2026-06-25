@@ -1,6 +1,5 @@
 ---
 title: Scripting Games beta entry viewer
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-10T19:43:04+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Creating a Windows 2012 Domain Controller
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-02-21T19:50:09+00:00"

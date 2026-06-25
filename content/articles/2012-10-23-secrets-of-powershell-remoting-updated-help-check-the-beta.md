@@ -1,6 +1,5 @@
 ---
 title: "\"Secrets of PowerShell Remoting\" Updated – Help Check the Beta!"
-author: Don Jones
 authors:
   - Don Jones
 date: "2012-10-23T18:35:23+00:00"

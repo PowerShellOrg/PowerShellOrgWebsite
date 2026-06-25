@@ -1,6 +1,5 @@
 ---
 title: About Us
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-05-15T13:28:43+00:00"

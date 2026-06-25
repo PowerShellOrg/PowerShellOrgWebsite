@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Joe Houghes; Soft Skills, Community, and Professional Growth
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

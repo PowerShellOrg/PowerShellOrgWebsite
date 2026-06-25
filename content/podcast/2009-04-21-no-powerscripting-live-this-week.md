@@ -1,6 +1,5 @@
 ---
 title: No PowerScripting Live This Week
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-04-21T19:24:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 274 – PowerScripting Podcast – Microsoft Distinguished Engineer Jeffrey Snover on JEA
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-06-21T03:46:36+00:00"

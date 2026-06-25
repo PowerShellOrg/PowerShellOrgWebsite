@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast IAM in Focus: Insights from Adil Leghari"
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-03-11T14:49:03+00:00"

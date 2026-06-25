@@ -1,6 +1,5 @@
 ---
 title: "OK i'm impressed: Scripting Games Week 1"
-author: Glenn Sizemore
 authors:
   - Glenn Sizemore
 date: "2013-05-03T14:44:21+00:00"

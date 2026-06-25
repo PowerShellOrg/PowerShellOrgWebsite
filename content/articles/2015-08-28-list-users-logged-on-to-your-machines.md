@@ -1,6 +1,5 @@
 ---
 title: List users logged on to your machines
-author: Jonas Sommer Nielsen
 authors:
   - Jonas Sommer Nielsen
 date: "2015-08-28T11:12:07+00:00"

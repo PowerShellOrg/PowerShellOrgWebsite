@@ -1,6 +1,5 @@
 ---
 title: Last Call for Summit Lightning Demos
-author: James Petty
 authors:
   - James Petty
 date: "2021-03-15T17:36:34+00:00"

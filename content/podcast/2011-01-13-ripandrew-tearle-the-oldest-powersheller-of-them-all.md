@@ -1,6 +1,5 @@
 ---
 title: "RIP\"“Andrew Tearle, the Oldest PowerSheller of Them All!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2011-01-13T19:02:54+00:00"

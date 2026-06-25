@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG July 12th Virtual Meeting: Exploring SQLPS, the SQL Server PowerShell Module"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2016-07-11T18:21:52+00:00"

@@ -1,6 +1,5 @@
 ---
 title: Episode 124 – John Fullbright From NetApp
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-08-31T04:40:39+00:00"

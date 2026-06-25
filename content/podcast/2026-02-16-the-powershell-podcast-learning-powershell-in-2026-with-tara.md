@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Learning PowerShell in 2026 with Tara
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Tara Sinquefield

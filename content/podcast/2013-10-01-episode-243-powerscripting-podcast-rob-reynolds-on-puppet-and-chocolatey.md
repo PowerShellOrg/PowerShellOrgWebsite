@@ -1,6 +1,5 @@
 ---
 title: Episode 243 – PowerScripting Podcast – Rob Reynolds on Puppet and Chocolatey
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-10-02T04:22:57+00:00"

@@ -1,6 +1,5 @@
 ---
 title: AAArrghhh!!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-02-23T20:36:33+00:00"

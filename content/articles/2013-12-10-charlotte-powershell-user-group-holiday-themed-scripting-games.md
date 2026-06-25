@@ -1,6 +1,5 @@
 ---
 title: Charlotte Powershell User Group Holiday-themed Scripting Games
-author: Terri Donahue
 authors:
   - Terri Donahue
 date: "2013-12-10T22:16:10+00:00"

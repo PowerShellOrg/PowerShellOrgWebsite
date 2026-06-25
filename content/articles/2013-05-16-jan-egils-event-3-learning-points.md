@@ -1,6 +1,5 @@
 ---
 title: "Jan Egil's Event 3 Learning Points"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-05-16T21:54:14+00:00"

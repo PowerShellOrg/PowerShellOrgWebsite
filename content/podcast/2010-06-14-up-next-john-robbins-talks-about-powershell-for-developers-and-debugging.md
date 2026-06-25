@@ -1,6 +1,5 @@
 ---
 title: "Up Next: John Robbins talks about PowerShell for Developers and Debugging"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-06-14T13:11:00+00:00"

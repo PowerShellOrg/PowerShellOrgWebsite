@@ -1,6 +1,5 @@
 ---
 title: Episode 190- Blain Barton and Chad Miller Talk PowerShell and the IT Pro Camps
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-06-26T03:32:11+00:00"

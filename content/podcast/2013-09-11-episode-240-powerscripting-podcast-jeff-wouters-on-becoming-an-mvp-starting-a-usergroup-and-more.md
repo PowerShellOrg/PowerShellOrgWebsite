@@ -1,6 +1,5 @@
 ---
 title: Episode 240 – PowerScripting Podcast – Jeff Wouters on becoming an MVP, starting a usergroup and more
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-09-12T03:06:19+00:00"

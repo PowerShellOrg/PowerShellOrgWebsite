@@ -1,6 +1,5 @@
 ---
 title: "Up Next: 2011 Scripting Games winners talk with Jeffrey Snover"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeffrey Snover

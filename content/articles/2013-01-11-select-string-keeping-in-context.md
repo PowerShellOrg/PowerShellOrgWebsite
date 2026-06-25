@@ -1,6 +1,5 @@
 ---
 title: "Select-string \"“ keeping in context"
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2013-01-11T19:43:05+00:00"

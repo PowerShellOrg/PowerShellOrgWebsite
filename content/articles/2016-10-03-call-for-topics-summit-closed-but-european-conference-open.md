@@ -1,6 +1,5 @@
 ---
 title: Call for topics – Summit closed but European conference open
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-10-03T08:57:49+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Björn Sundling. From PowerShell Developer to MVP: An Unfiltered Journey"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Jordan Hammond

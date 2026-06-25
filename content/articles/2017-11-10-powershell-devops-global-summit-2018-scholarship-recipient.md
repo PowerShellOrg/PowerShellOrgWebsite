@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit 2018 Scholarship Recipient
-author: Don Jones
 authors:
   - Don Jones
 date: "2017-11-10T15:45:52+00:00"

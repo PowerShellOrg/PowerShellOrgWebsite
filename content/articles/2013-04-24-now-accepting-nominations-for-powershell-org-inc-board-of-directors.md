@@ -1,6 +1,5 @@
 ---
 title: Now Accepting Nominations for PowerShell.org, Inc. Board of Directors
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-04-24T16:10:56+00:00"

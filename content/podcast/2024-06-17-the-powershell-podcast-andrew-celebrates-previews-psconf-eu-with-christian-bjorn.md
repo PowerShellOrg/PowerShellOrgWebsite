@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Andrew Celebrates & Previews psconf.eu with Christian & Björn
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2024-06-17T14:51:52+00:00"

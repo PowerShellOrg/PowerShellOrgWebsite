@@ -1,6 +1,5 @@
 ---
 title: "PowerShell.org's Azure Journey, Part 4: Incoming Advice and Fun Facts"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-08-23T14:40:43+00:00"

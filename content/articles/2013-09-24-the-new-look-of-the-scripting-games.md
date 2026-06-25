@@ -1,6 +1,5 @@
 ---
 title: The New Look of the Scripting Games
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-09-24T16:25:35+00:00"

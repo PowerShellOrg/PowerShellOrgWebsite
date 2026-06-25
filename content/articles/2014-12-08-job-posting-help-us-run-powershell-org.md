@@ -1,6 +1,5 @@
 ---
 title: "JOB POSTING: Help us Run PowerShell.org"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-12-08T17:00:38+00:00"

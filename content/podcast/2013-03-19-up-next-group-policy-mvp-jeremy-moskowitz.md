@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Group Policy MVP Jeremy Moskowitz!"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-03-19T18:51:53+00:00"

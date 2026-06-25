@@ -1,6 +1,5 @@
 ---
 title: "Microsoft's Brave New World Needs Version Numbers"
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-12-28T19:21:23+00:00"

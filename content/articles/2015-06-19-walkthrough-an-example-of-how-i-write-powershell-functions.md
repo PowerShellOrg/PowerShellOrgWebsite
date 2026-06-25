@@ -1,6 +1,5 @@
 ---
 title: "Walkthrough: An example of how I write PowerShell functions"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2015-06-19T14:59:15+00:00"

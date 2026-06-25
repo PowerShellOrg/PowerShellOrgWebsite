@@ -1,6 +1,5 @@
 ---
 title: Placing Comment-Based Help
-author: June Blender
 authors:
   - June Blender
 date: "2013-05-03T19:03:39+00:00"

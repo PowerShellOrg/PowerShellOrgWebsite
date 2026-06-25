@@ -1,6 +1,5 @@
 ---
 title: New Blog Posting on Desired State Configuration
-author: Darren Mar-Elia
 authors:
   - Darren Mar-Elia
 date: "2013-07-09T14:29:29+00:00"

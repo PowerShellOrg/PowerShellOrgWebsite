@@ -1,6 +1,5 @@
 ---
 title: Episode 9 – PowerShell V2 news is coming in November
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2007-09-29T23:55:53+00:00"

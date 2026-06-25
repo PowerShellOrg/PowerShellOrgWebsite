@@ -1,6 +1,5 @@
 ---
 title: Ustream FAIL.
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-01-23T03:46:54+00:00"

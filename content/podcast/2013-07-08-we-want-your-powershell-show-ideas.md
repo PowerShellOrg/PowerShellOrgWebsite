@@ -1,6 +1,5 @@
 ---
 title: We want your PowerShell show ideas!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-07-08T14:01:27+00:00"

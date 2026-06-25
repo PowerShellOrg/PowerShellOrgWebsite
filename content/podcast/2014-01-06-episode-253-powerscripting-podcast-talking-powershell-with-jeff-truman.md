@@ -1,6 +1,5 @@
 ---
 title: Episode 253 – PowerScripting Podcast – Talking PowerShell with Jeff Truman
-author: Jonathan Walz
 authors:
   - Jonathan Walz
   - Jeff Truman

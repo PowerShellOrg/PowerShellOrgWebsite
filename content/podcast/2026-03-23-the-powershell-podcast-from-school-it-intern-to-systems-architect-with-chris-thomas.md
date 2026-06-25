@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast From School IT Intern to Systems Architect with Chris Thomas
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Chris Thomas

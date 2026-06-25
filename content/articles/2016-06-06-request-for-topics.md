@@ -1,6 +1,5 @@
 ---
 title: Request for Topics
-author: Richard Siddaway
 authors:
   - Richard Siddaway
 date: "2016-06-06T09:33:30+00:00"

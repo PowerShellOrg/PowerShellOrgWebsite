@@ -1,6 +1,5 @@
 ---
 title: Coming Up Next on the PowerScripting Podcast
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-24T17:11:45+00:00"

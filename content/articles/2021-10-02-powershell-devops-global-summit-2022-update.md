@@ -1,6 +1,5 @@
 ---
 title: PowerShell + DevOps Global Summit 2022 Update
-author: James Petty
 authors:
   - James Petty
 date: "2021-10-02T15:45:17+00:00"

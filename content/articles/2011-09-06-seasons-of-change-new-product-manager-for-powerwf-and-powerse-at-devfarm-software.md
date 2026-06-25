@@ -1,6 +1,5 @@
 ---
 title: "Seasons of change: new Product Manager for PowerWFâ„¢ and PowerSE at Devfarm Software"
-author: Kirk Munro
 authors:
   - Kirk Munro
 date: "2011-09-06T19:24:56+00:00"

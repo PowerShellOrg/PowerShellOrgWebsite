@@ -1,6 +1,5 @@
 ---
 title: "Event 2: My notes…"
-author: Bartek Bielawski
 authors:
   - Bartek Bielawski
 date: "2013-05-09T21:50:28+00:00"

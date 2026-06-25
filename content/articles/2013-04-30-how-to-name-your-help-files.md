@@ -1,6 +1,5 @@
 ---
 title: How to Name Your Help Files
-author: June Blender
 authors:
   - June Blender
 date: "2013-04-30T22:42:53+00:00"

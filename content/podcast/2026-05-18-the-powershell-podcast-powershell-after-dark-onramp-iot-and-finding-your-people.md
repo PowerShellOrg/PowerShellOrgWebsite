@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast PowerShell After Dark: OnRamp, IoT, and Finding Your People."
-author: Andrew Pla
 authors:
   - Andrew Pla
 date: "2026-05-18T14:00:00+00:00"

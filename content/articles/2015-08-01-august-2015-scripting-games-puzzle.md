@@ -1,6 +1,5 @@
 ---
 title: 2015-August Scripting Games Puzzle
-author: Don Jones
 authors:
   - Don Jones
 date: "2015-08-01T13:10:40+00:00"

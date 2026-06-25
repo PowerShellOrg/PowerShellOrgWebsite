@@ -1,6 +1,5 @@
 ---
 title: Episode 76 – Don Jones on Security
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-07-14T03:49:21+00:00"

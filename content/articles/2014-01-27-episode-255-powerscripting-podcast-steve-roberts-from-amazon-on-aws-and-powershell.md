@@ -1,6 +1,5 @@
 ---
 title: Episode 255 – PowerScripting Podcast – Steve Roberts from Amazon on AWS and PowerShell
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-01-28T00:07:40+00:00"

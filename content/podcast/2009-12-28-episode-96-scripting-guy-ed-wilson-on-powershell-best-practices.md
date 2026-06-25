@@ -1,6 +1,5 @@
 ---
 title: Episode 96 – Scripting Guy Ed Wilson on PowerShell Best Practices
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2009-12-29T03:42:37+00:00"

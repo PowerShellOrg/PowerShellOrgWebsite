@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast Spectre Console and TUI Magic with Shaun Lawrie
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Shaun Lawrie

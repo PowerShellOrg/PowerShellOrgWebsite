@@ -1,6 +1,5 @@
 ---
 title: Episode 40 – Poshboard part duex
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-09-08T03:11:30+00:00"

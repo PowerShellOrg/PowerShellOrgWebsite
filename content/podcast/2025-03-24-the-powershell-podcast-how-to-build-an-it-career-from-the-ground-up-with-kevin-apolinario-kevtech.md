@@ -1,6 +1,5 @@
 ---
 title: The PowerShell Podcast How to Build an IT Career from the Ground Up with Kevin Apolinario (KevTech)
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Kevin Apolinario

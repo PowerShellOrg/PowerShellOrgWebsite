@@ -1,6 +1,5 @@
 ---
 title: No show tonight!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-04T18:37:57+00:00"

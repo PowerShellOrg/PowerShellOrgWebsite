@@ -1,6 +1,5 @@
 ---
 title: Episode 50 – Ed Wilson – Microsoft Scripting Guy!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-23T21:51:04+00:00"

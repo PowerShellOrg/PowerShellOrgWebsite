@@ -1,6 +1,5 @@
 ---
 title: "Here's Another Reason to Contribute"
-author: Don Jones
 authors:
   - Don Jones
 date: "2016-08-24T11:30:14+00:00"

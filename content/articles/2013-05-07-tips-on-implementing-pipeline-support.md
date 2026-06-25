@@ -1,6 +1,5 @@
 ---
 title: Tips on Implementing Pipeline Support
-author: Boe Prox
 authors:
   - Boe Prox
 date: "2013-05-08T03:16:27+00:00"

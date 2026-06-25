@@ -1,6 +1,5 @@
 ---
 title: Episode 211 – Osama Sajid from Microsoft on CIM and WMI
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2013-01-15T04:37:28+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "MSPSUG May 10th Virtual Meeting: Acceptance Testing PowerShell DSC with Test-Kitchen"
-author: Mike F Robbins
 authors:
   - Mike F Robbins
 date: "2016-05-09T01:06:51+00:00"

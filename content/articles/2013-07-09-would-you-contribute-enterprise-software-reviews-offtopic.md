@@ -1,6 +1,5 @@
 ---
 title: "Would you contribute enterprise software reviews? [OFFTOPIC]"
-author: Don Jones
 authors:
   - Don Jones
 date: "2013-07-09T18:03:55+00:00"

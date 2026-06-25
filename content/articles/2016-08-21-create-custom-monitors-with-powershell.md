@@ -1,6 +1,5 @@
 ---
 title: Create Custom Monitors with PowerShell
-author: msorens
 authors:
   - msorens
 date: "2016-08-21T23:44:53+00:00"

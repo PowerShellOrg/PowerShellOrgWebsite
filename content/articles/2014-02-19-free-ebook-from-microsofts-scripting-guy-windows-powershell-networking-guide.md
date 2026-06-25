@@ -1,6 +1,5 @@
 ---
 title: "Free eBook from Microsoft's Scripting Guy: Windows PowerShell Networking Guide"
-author: Don Jones
 authors:
   - Don Jones
 date: "2014-02-19T14:55:00+00:00"

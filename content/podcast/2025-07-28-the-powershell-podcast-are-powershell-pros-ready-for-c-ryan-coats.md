@@ -1,6 +1,5 @@
 ---
 title: "The PowerShell Podcast Are PowerShell Pros Ready for C# – Ryan Coats"
-author: Andrew Pla
 authors:
   - Andrew Pla
   - Ryan Coates

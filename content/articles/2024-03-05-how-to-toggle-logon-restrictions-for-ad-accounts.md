@@ -1,6 +1,5 @@
 ---
 title: How to Toggle Logon Restrictions for AD Accounts
-author: James Petty
 authors:
   - James Petty
 date: "2024-03-05T17:00:33+00:00"

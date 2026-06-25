@@ -1,6 +1,5 @@
 ---
 title: Episode 203 – June Blender from Microsoft talks about getting help!
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-10-03T03:40:27+00:00"

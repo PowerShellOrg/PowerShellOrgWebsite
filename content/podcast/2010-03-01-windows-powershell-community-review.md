@@ -1,6 +1,5 @@
 ---
 title: Windows PowerShell Community Review
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2010-03-02T02:10:57+00:00"

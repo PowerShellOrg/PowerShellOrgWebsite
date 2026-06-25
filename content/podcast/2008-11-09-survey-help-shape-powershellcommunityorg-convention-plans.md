@@ -1,6 +1,5 @@
 ---
 title: "Survey: Help Shape PowerShellCommunity.org Convention Plans"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2008-11-09T17:32:38+00:00"

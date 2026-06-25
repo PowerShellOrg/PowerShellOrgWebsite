@@ -1,6 +1,5 @@
 ---
 title: Episode 271 – PowerScripting Podcast – Ferdinand Rios and David Corrales from SAPIEN
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2014-05-29T02:33:43+00:00"

@@ -1,6 +1,5 @@
 ---
 title: "Up Next: Trevor Sullivan and WMI Eventing"
-author: Jonathan Walz
 authors:
   - Jonathan Walz
 date: "2012-03-14T14:29:00+00:00"
