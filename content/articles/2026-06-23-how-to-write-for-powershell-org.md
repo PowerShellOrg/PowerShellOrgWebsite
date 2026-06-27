@@ -1,16 +1,17 @@
 ---
 title: How to Write for PowerShell.org
-description: Two ways to submit an article to PowerShell.org, best practices that get you published faster, and why claiming an author page is worth five minutes of your time.
-author: Gilbert Sanchez
 authors:
   - Gilbert Sanchez
 date: 2026-06-23T00:00:00+00:00
+description: Two ways to submit an article to PowerShell.org, best practices that get you published faster, and why claiming an author page is worth five minutes of your time.
+og_title: How to Write for PowerShell.org
+og_description: Two ways to submit an article, best practices that get you published faster, and why claiming an author page is worth your time.
 categories:
   - Tutorials
 tags:
-  - contributing
-  - community
-  - writing
+  - Contributing
+  - Community
+  - Writing
 fmContentType: article
 ---
 
@@ -79,7 +80,7 @@ flow through the same review.
 
 3. Start it with this front matter:
 
-   ```
+   ```markdown
    ---
    title: "Your Article Title"
    description: "A 1-2 sentence summary used for SEO, social cards, and the article list."
