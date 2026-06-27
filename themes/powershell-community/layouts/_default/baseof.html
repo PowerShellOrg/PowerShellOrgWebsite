@@ -20,6 +20,10 @@
     <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
+    <!-- Social sharing image: dynamic per-article card when `og_title` is set,
+         else `image` front matter, else the site default (see partials/og-image.html) -->
+    {{ $ogImage := partial "og-image.html" . }}
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -27,6 +31,10 @@
     <meta property="og:description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 155 }}{{ end }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ .Title }} — PowerShell.org, the home of the PowerShell community">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -34,6 +42,7 @@
     <meta property="twitter:title" content="{{ .Title }}">
     <meta property="twitter:description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 155 }}{{ end }}">
+    <meta property="twitter:image" content="{{ $ogImage }}">
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">

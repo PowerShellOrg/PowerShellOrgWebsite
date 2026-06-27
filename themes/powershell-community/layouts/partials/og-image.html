@@ -1,0 +1,82 @@
+{{- /*
+  og-image.html — returns the absolute URL of this page's social-share image.
+
+  If the page sets `og_title` in front matter, the title (and `og_description`,
+  falling back to the page description) is composited onto the branded base card
+  `assets/og/og-base.png` at build time via Hugo image processing — no browser or
+  runtime service required. Otherwise the site-wide default image is returned.
+
+  Called from baseof.html:  {{ $ogImage := partial "og-image.html" . }}
+*/ -}}
+{{- $default := (.Params.image | default "images/og-image.png") | absURL -}}
+{{- $result := $default -}}
+
+{{- with .Params.og_title -}}
+  {{- $base := resources.Get "og/og-base.png" -}}
+  {{- $fontBold := resources.Get "fonts/Inter-Bold.ttf" -}}
+  {{- $fontReg := resources.Get "fonts/Inter-Regular.ttf" -}}
+
+  {{- if and $base $fontBold $fontReg -}}
+    {{- $title := . | string -}}
+    {{- $desc := ($.Params.og_description | default $.Description | default "") | string -}}
+
+    {{- /* --- wrap title: max 3 lines, ~26 chars wide --- */ -}}
+    {{- $tlines := slice -}}
+    {{- $cur := "" -}}
+    {{- range $w := split $title " " -}}
+      {{- $try := cond (eq $cur "") $w (printf "%s %s" $cur $w) -}}
+      {{- if gt (len $try) 26 -}}
+        {{- if eq $cur "" -}}
+          {{- $tlines = $tlines | append $try -}}{{- $cur = "" -}}
+        {{- else -}}
+          {{- $tlines = $tlines | append $cur -}}{{- $cur = $w -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $cur = $try -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if ne $cur "" -}}{{- $tlines = $tlines | append $cur -}}{{- end -}}
+    {{- $tlines = first 3 $tlines -}}
+
+    {{- /* --- wrap description: ~64 chars wide; fewer lines when title is tall --- */ -}}
+    {{- $maxDesc := cond (ge (len $tlines) 3) 2 3 -}}
+    {{- $dlines := slice -}}
+    {{- $dcur := "" -}}
+    {{- range $w := split $desc " " -}}
+      {{- $try := cond (eq $dcur "") $w (printf "%s %s" $dcur $w) -}}
+      {{- if gt (len $try) 64 -}}
+        {{- if eq $dcur "" -}}
+          {{- $dlines = $dlines | append $try -}}{{- $dcur = "" -}}
+        {{- else -}}
+          {{- $dlines = $dlines | append $dcur -}}{{- $dcur = $w -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $dcur = $try -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if ne $dcur "" -}}{{- $dlines = $dlines | append $dcur -}}{{- end -}}
+    {{- $dlines = first $maxDesc $dlines -}}
+
+    {{- /* --- build text filters --- */ -}}
+    {{- $titleY := 214 -}}
+    {{- $titleLH := 76 -}}
+    {{- $filters := slice -}}
+    {{- range $i, $line := $tlines -}}
+      {{- $y := add $titleY (mul $i $titleLH) -}}
+      {{- $filters = $filters | append (images.Text $line (dict
+        "color" "#ffffff" "size" 60 "x" 72 "y" $y "font" $fontBold "linespacing" 6)) -}}
+    {{- end -}}
+    {{- $descY := add (add $titleY (mul (len $tlines) $titleLH)) 26 -}}
+    {{- $descLH := 40 -}}
+    {{- range $i, $line := $dlines -}}
+      {{- $y := add $descY (mul $i $descLH) -}}
+      {{- $filters = $filters | append (images.Text $line (dict
+        "color" "#bcc9d6" "size" 27 "x" 72 "y" $y "font" $fontReg "linespacing" 4)) -}}
+    {{- end -}}
+
+    {{- $img := $base.Filter $filters -}}
+    {{- $result = $img.Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

@@ -1,6 +1,9 @@
 public/
 .hugo_build.lock
 
+# Hugo image-processing cache (regenerated on every build)
+resources/_gen/
+
 # Node / build tooling
 node_modules/
 package-lock.json
