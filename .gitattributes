@@ -1,0 +1,9 @@
+# Generated, committed assets must stay LF so the PR freshness guard
+# (.github/workflows/build.yml regenerates them on a Linux runner) does not
+# false-fail on line-ending differences.
+assets/css/tailwind.css text eol=lf
+assets/css/fontawesome-subset.css text eol=lf
+
+# Binary assets — never apply text/EOL normalization.
+*.woff2 binary
+*.ttf binary
