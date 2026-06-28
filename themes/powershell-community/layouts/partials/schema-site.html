@@ -1,0 +1,34 @@
+{{- /*
+  schema-site.html — Organization + WebSite JSON-LD for the home page.
+*/ -}}
+{{- $brand := .Site.Params.brand | default .Site.Title -}}
+{{- $logo := absURL "images/logo.png" -}}
+{{- $orgId := printf "%s#organization" .Site.BaseURL -}}
+
+{{- /* sameAs: only canonical org profiles, not invite/redirect links */ -}}
+{{- $sameAs := slice -}}
+{{- with .Site.Params.social -}}
+  {{- range (slice .twitter .youtube .github .bluesky) -}}
+    {{- with . }}{{ $sameAs = $sameAs | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $org := dict
+  "@type" "Organization"
+  "@id" $orgId
+  "name" $brand
+  "url" .Site.BaseURL
+  "logo" (dict "@type" "ImageObject" "url" $logo)
+-}}
+{{- with $sameAs }}{{ $org = merge $org (dict "sameAs" .) }}{{ end -}}
+
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" (printf "%s#website" .Site.BaseURL)
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "publisher" (dict "@id" $orgId)
+-}}
+
+{{- $graph := dict "@context" "https://schema.org" "@graph" (slice $org $website) -}}
+<script type="application/ld+json">{{ $graph | jsonify (dict "indent" "  ") | safeJS }}</script>

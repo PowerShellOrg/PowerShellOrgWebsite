@@ -4,9 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-    <meta name="description"
-        content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | truncate 155 }}{{ end }}">
+
+    {{- $brand := .Site.Params.brand | default .Site.Title -}}
+    {{- $ogTitle := cond .IsHome .Site.Title .Title -}}
+    {{- $title := cond .IsHome .Site.Title (printf "%s — %s" .Title $brand) -}}
+    {{- $metaDesc := .Site.Params.description -}}
+    {{- if .Description }}{{ $metaDesc = .Description }}{{ else if not .IsHome }}{{ $metaDesc = (.Summary | plainify | truncate 160) }}{{ end -}}
+    {{- $socialDesc := $metaDesc -}}
+    {{- with .Params.og_description }}{{ $socialDesc = . }}{{ end -}}
+    {{- $ogImage := partial "og-image.html" . -}}
+    {{- $interReg := resources.Get "fonts/Inter-Regular.ttf" | fingerprint -}}
+    {{- $interBold := resources.Get "fonts/Inter-Bold.ttf" | fingerprint -}}
+
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ $metaDesc }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preload" href="{{ $interBold.RelPermalink }}" as="font" type="font/ttf" crossorigin>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -20,37 +37,60 @@
     <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    <!-- Social sharing image: dynamic per-article card when `og_title` is set,
-         else `image` front matter, else the site default (see partials/og-image.html) -->
-    {{ $ogImage := partial "og-image.html" . }}
-
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description"
-        content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 155 }}{{ end }}">
+    <meta property="og:title" content="{{ $ogTitle }}">
+    <meta property="og:description" content="{{ $socialDesc }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="en_US">
     <meta property="og:image" content="{{ $ogImage }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{{ .Title }} — PowerShell.org, the home of the PowerShell community">
+    <meta property="og:image:alt" content="{{ $ogTitle }} — PowerShell.org, the home of the PowerShell community">
+    {{- if and .IsPage (in (slice "articles" "podcast") .Section) }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{- range .Params.authors }}
+    <meta property="article:author" content="{{ . }}">
+    {{- end }}
+    {{- with .Params.categories }}
+    <meta property="article:section" content="{{ index . 0 }}">
+    {{- end }}
+    {{- range .Params.tags }}
+    <meta property="article:tag" content="{{ . }}">
+    {{- end }}
+    {{- end }}
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ .Permalink }}">
-    <meta property="twitter:title" content="{{ .Title }}">
-    <meta property="twitter:description"
-        content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 155 }}{{ end }}">
-    <meta property="twitter:image" content="{{ $ogImage }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ $ogTitle }}">
+    <meta name="twitter:description" content="{{ $socialDesc }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+    {{- with .Site.Params.twitter_handle }}
+    <meta name="twitter:site" content="{{ . }}">
+    <meta name="twitter:creator" content="{{ . }}">
+    {{- end }}
 
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Structured data (JSON-LD) -->
+    {{ if .IsHome }}{{ partial "schema-site.html" . }}{{ end }}
+    {{ if and .IsPage (in (slice "articles" "podcast") .Section) }}{{ partial "schema-article.html" . }}{{ end }}
+
+    <!-- CSS — Tailwind purged against the built site, minified + fingerprinted -->
+    {{ $tailwind := resources.Get "css/tailwind.css" | minify | fingerprint }}
+    <link href="{{ $tailwind.RelPermalink }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
     <link href="/css/alerts.css" rel="stylesheet">
     <link href="/css/code-copy.css" rel="stylesheet">
     {{ with .Site.Params.algolia }}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />{{ end }}
+
+    <!-- Self-hosted Inter (replaces render-blocking Google Fonts @import) -->
+    <style>
+        @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('{{ $interReg.RelPermalink }}') format('truetype'); }
+        @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url('{{ $interBold.RelPermalink }}') format('truetype'); }
+    </style>
 
     <!-- Custom CSS -->
     <style>
@@ -175,8 +215,7 @@
             overflow: hidden;
         }
 
-        /* Import Gotham or use system fallbacks */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+        /* Inter is self-hosted via @font-face above; this is the fallback stack */
 
         /* Gotham fallback styling */
         .gotham-black {

@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "hugo server -D --disableFastRender",
     "build": "hugo --gc --minify",
+    "build:css": "node scripts/build-tailwind.mjs",
     "preview": "hugo server --environment production"
   },
   "devDependencies": {
     "hugo-extended": "^0.155.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "purgecss": "^5.0.0"
   }
 }
