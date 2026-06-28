@@ -68,6 +68,25 @@ jobs:
           EOF
           fi
 
+      # Deploys ship the committed, purged assets/css/*.css and subsetted
+      # assets/fonts/fa-*-subset.woff2 as-is (deploy runs bare hugo, not the
+      # build:* scripts). This guard regenerates them and fails the PR if the
+      # committed CSS is stale, so markup/content changes that add Tailwind
+      # classes or fa-* icons can't merge without the regenerated assets.
+      # We diff the generated CSS (deterministic and the source of truth for
+      # which classes/icons are included), not the woff2 bytes, which can vary
+      # across subset-font versions.
+      - name: Verify generated assets are up to date
+        run: |
+          npm run build:css
+          npm run build:icons
+          if ! git diff --quiet -- assets/css/tailwind.css assets/css/fontawesome-subset.css; then
+            echo "::error::Generated CSS is out of date. Run 'npm run build:css' and 'npm run build:icons' locally and commit assets/css/*.css and assets/fonts/fa-*-subset.woff2."
+            git diff --stat -- assets/css/tailwind.css assets/css/fontawesome-subset.css
+            git --no-pager diff -- assets/css/fontawesome-subset.css
+            exit 1
+          fi
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
