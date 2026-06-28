@@ -4,7 +4,8 @@
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="{{ .Site.BaseURL }}" class="flex items-center space-x-3">
-                    <img src="/images/logo.png" alt="PowerShell.org Logo" class="w-10 h-10">
+                    {{- $logo := (resources.Get "images/logo.png").Resize "80x80 webp q90" -}}
+                    <img src="{{ $logo.RelPermalink }}" alt="PowerShell.org Logo" class="w-10 h-10" width="{{ $logo.Width }}" height="{{ $logo.Height }}">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">PowerShell.org</h1>
                         <p class="text-sm text-gray-600">Community Hub</p>

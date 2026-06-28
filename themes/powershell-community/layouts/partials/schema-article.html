@@ -4,7 +4,7 @@
 */ -}}
 {{- $brand := .Site.Params.brand | default .Site.Title -}}
 {{- $ogImage := partial "og-image.html" . -}}
-{{- $logo := absURL "images/logo.png" -}}
+{{- $logo := (resources.Get "images/logo.png").Permalink -}}
 
 {{- /* authors as schema.org Person nodes, linked to their author page when one exists */ -}}
 {{- $authors := slice -}}
