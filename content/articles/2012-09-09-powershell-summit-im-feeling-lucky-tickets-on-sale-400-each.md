@@ -1,5 +1,5 @@
 ---
-title: 
+title: "PowerShell Summit: 'I'm Feeling Lucky' Tickets on Sale, $400 Each"
 authors:
   - Don Jones
 date: "2012-09-09T22:55:29+00:00"

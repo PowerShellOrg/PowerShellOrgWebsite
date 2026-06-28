@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Why Puppet vs. DSC Isn't Even a Thing"
 authors:
   - Don Jones
 date: "2014-05-14T13:06:15+00:00"

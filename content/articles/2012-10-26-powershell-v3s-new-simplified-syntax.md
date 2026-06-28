@@ -1,5 +1,5 @@
 ---
-title: 
+title: "PowerShell v3's New Simplified Syntax"
 authors:
   - Don Jones
 date: "2012-10-26T18:02:31+00:00"
