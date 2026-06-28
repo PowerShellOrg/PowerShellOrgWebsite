@@ -173,7 +173,22 @@ The author taxonomy automatically:
 Edit `baseof.html` CSS to customize.
 
 ### Tailwind CSS
-All styling uses Tailwind CSS utility classes. Update `baseof.html` or create component-specific classes.
+Styling uses Tailwind CSS utility classes. The site ships a **purged, self-hosted**
+build (`assets/css/tailwind.css`, ~35 KB) instead of the full ~2.9 MB CDN file —
+only the utility classes actually used anywhere in the built output are retained.
+
+If you add a **new** Tailwind class in a template or content file, regenerate the
+purged stylesheet and commit it:
+
+```bash
+npm install        # one-time, for the purgecss devDependency
+npm run build:css  # rebuilds assets/css/tailwind.css (see scripts/build-tailwind.mjs)
+```
+
+You will notice a missing class immediately in `npm run dev` (dev serves the same
+purged file). Classes injected only at build time (e.g. activity-dot colors from
+`data/community_stats.json`) are pinned via the safelist in `purgecss.config.cjs`.
+The CI deploy builds run bare `hugo`, so the committed file is what ships.
 
 ### Layouts
 - Modify layouts in `themes/powershell-community/layouts/`
@@ -235,7 +250,8 @@ Check `data/community_stats.json` format and `last_updated` timestamp.
 
 - **Hugo**: v0.128+ with Goldmark renderer
 - **Node.js**: For npm scripts
-- **Tailwind CSS**: v2.2.19 (via CDN)
+- **Tailwind CSS**: v2.2.19 (purged + self-hosted via `npm run build:css`)
+- **Inter**: self-hosted from `assets/fonts/` (`@font-face`, no Google Fonts)
 - **FontAwesome**: v6.0.0 (via CDN)
 - **Alpine.js**: v3.10.2 (via CDN)
 
