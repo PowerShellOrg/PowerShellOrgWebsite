@@ -90,9 +90,25 @@
     {{ $tailwind := resources.Get "css/tailwind.css" | minify | fingerprint }}
     <link href="{{ $tailwind.RelPermalink }}" rel="stylesheet">
 
+    <!-- Self-hosted Font Awesome subset (only the glyphs the site uses; see scripts/build-icons.mjs).
+         Inlined CSS + fingerprinted woff2 @font-face replaces the full CDN icon set. -->
+    {{- $faCSS := resources.Get "css/fontawesome-subset.css" | minify -}}
+    {{- $faSolid := resources.Get "fonts/fa-solid-subset.woff2" | fingerprint -}}
+    {{- $faBrands := resources.Get "fonts/fa-brands-subset.woff2" | fingerprint -}}
+    {{- $faRegular := resources.Get "fonts/fa-regular-subset.woff2" -}}
+    <link rel="preload" href="{{ $faSolid.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ $faBrands.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+    <style>
+        @font-face { font-family: 'Font Awesome 6 Free'; font-style: normal; font-weight: 900; font-display: swap; src: url('{{ $faSolid.RelPermalink }}') format('woff2'); }
+        @font-face { font-family: 'Font Awesome 6 Brands'; font-style: normal; font-weight: 400; font-display: swap; src: url('{{ $faBrands.RelPermalink }}') format('woff2'); }
+        {{- with $faRegular }}{{ $r := . | fingerprint }}
+        @font-face { font-family: 'Font Awesome 6 Free'; font-style: normal; font-weight: 400; font-display: swap; src: url('{{ $r.RelPermalink }}') format('woff2'); }
+        {{- end }}
+        {{ $faCSS.Content | safeCSS }}
+    </style>
+
     <!-- Non-critical CSS — loaded async via the print-media swap so it doesn't block first paint -->
     {{- $asyncCSS := slice
-        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         "https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"
         "/css/alerts.css"
         "/css/code-copy.css" -}}
