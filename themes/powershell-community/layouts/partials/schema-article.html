@@ -1,0 +1,45 @@
+{{- /*
+  schema-article.html — Article + BreadcrumbList JSON-LD for content pages.
+  Emitted from baseof.html for the `articles` and `podcast` sections.
+*/ -}}
+{{- $brand := .Site.Params.brand | default .Site.Title -}}
+{{- $ogImage := partial "og-image.html" . -}}
+{{- $logo := absURL "images/logo.png" -}}
+
+{{- /* authors as schema.org Person nodes, linked to their author page when one exists */ -}}
+{{- $authors := slice -}}
+{{- range .Params.authors -}}
+  {{- $person := dict "@type" "Person" "name" . -}}
+  {{- with site.GetPage (printf "/authors/%s" (. | urlize)) -}}
+    {{- $person = merge $person (dict "url" .Permalink) -}}
+  {{- end -}}
+  {{- $authors = $authors | append $person -}}
+{{- end -}}
+
+{{- $article := dict
+  "@type" "Article"
+  "headline" .Title
+  "description" ($.Description | default ($.Summary | plainify | truncate 160))
+  "image" $ogImage
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "publisher" (dict "@type" "Organization" "name" $brand "logo" (dict "@type" "ImageObject" "url" $logo))
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "wordCount" .WordCount
+-}}
+{{- with $authors }}{{ $article = merge $article (dict "author" .) }}{{ end -}}
+{{- with .Params.categories }}{{ $article = merge $article (dict "articleSection" (index . 0)) }}{{ end -}}
+{{- with .Params.tags }}{{ $article = merge $article (dict "keywords" (delimit . ", ")) }}{{ end -}}
+
+{{- /* breadcrumb: Home > (Articles|Podcast) > this page */ -}}
+{{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" (absURL "/")) -}}
+{{- if eq .Section "podcast" -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Podcast" "item" (absURL "/podcast/")) -}}
+{{- else -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Articles" "item" (absURL "/articles/")) -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) -}}
+{{- $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
+
+{{- $graph := dict "@context" "https://schema.org" "@graph" (slice $article $breadcrumb) -}}
+<script type="application/ld+json">{{ $graph | jsonify (dict "indent" "  ") | safeJS }}</script>

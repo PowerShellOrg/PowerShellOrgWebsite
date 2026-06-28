@@ -4,8 +4,9 @@ title: 'PowerShell.org - Welcome Automaters!'
 theme: 'powershell-community'
 timeZone: UTC
 
-# Enable RSS feeds
+# Enable RSS feeds and robots.txt
 enableRSSFeed: true
+enableRobotsTXT: true
 
 # Updated pagination syntax for Hugo v0.128+
 pagination:
@@ -105,6 +106,8 @@ menu:
 params:
   description: "PowerShell.org is the community hub for PowerShell enthusiasts, automaters, and professionals. Join us for podcasts, summits, learning resources, and vibrant community discussions."
   author: "PowerShell.org Community"
+  brand: "PowerShell.org"
+  twitter_handle: "@powershell_org"
   
   # Social links
   social:

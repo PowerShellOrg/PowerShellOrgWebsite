@@ -4,6 +4,9 @@ public/
 # Hugo image-processing cache (regenerated on every build)
 resources/_gen/
 
+# Tailwind purge working dir (throwaway full build + downloaded source CSS)
+tmp/
+
 # Node / build tooling
 node_modules/
 package-lock.json
