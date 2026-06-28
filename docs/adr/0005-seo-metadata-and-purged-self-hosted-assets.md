@@ -21,13 +21,24 @@ the whole site to a throwaway dir, and purge the source against that output
 (`purgecss.config.cjs`). Hugo then `minify | fingerprint`s the committed file at
 build time so the immutable `Cache-Control` in `netlify.toml` is safe.
 
-**Purging against built HTML misses classes that aren't in the committed output.**
-The extractor keeps Tailwind tokens (`:` `/` `.` survive), and runtime-toggled
-classes (Alpine `:class`, JS `classList`) are caught because they appear as
-literals in the HTML. The gap is classes injected from data that only exists at
-deploy time — the activity-dot colors written into `data/community_stats.json` by
-`.github/scripts/fetch-discourse-activity.js` (and the `deploy.yml` fallback).
-Those are pinned in the `purgecss.config.cjs` safelist.
+**Purging silently drops any class it cannot find as a literal token** — no build
+error, just elements that render unstyled in production. The config
+(`purgecss.config.cjs`) is the only thing between "smaller CSS" and "broken
+styles," and two parts of it are load-bearing and must not be weakened:
+
+- The **custom `defaultExtractor`**. PurgeCSS's stock extractor splits candidate
+  tokens on `:` and `/`, which would shred every Tailwind variant
+  (`lg:grid-cols-3`, `hover:bg-blue-300`, `w-1/2`). The regex keeps those
+  characters; drop or "simplify" it and the site loses its responsive/state
+  utilities sitewide, silently.
+- The **safelist**. Runtime-toggled classes (Alpine `:class`, JS `classList` —
+  `hidden`, `transform rotate-180`, the YouTube-facade `absolute inset-0 …`)
+  survive because they appear as literals in the built HTML, but are pinned
+  anyway against markup churn. The genuine gap is classes injected from data that
+  only exists at deploy time — the activity-dot colors written into
+  `data/community_stats.json` by `.github/scripts/fetch-discourse-activity.js`
+  (and the `deploy.yml` fallback), which never appear in the committed build and
+  are pinned explicitly.
 
 ## Considered options
 
