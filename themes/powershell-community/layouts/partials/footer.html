@@ -86,10 +86,10 @@
                 <a href="/contact/" class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a>
                 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
                     {{- $cc := (resources.Get "images/cc-by-sa.png").Resize "160x webp q90" -}}
-                    <img src="{{ $cc.RelPermalink }}" alt="Licensed under CC BY-SA 4.0" class="h-6 w-auto" width="{{ $cc.Width }}" height="{{ $cc.Height }}" loading="lazy" />
+                    <img src="{{ $cc.RelPermalink }}" alt="Licensed under CC BY-SA 4.0" class="h-6 w-auto" loading="lazy" />
                 </a>
                 <a href="https://www.netlify.com" target="_blank" rel="noopener">
-                    <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" class="h-6 w-auto" width="114" height="51" />
+                    <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" class="h-6 w-auto" loading="lazy" />
                 </a>
             </div>
         </div>
