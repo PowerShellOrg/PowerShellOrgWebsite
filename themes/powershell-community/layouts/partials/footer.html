@@ -13,21 +13,21 @@
                     The community hub for PowerShell enthusiasts, automaters, and professionals worldwide.
                 </p>
                 <div class="flex space-x-4">
-                    <a href="{{ .Site.Params.social.twitter }}" target="_blank" rel="noopener" 
+                    <a href="{{ .Site.Params.social.twitter }}" target="_blank" rel="noopener" aria-label="PowerShell.org on Twitter"
                        class="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-                        <i class="fab fa-twitter text-lg"></i>
+                        <i class="fab fa-twitter text-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="{{ .Site.Params.social.youtube }}" target="_blank" rel="noopener" 
+                    <a href="{{ .Site.Params.social.youtube }}" target="_blank" rel="noopener" aria-label="PowerShell.org on YouTube"
                        class="text-gray-400 hover:text-red-400 transition-colors duration-200">
-                        <i class="fab fa-youtube text-lg"></i>
+                        <i class="fab fa-youtube text-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="{{ .Site.Params.social.github }}" target="_blank" rel="noopener" 
+                    <a href="{{ .Site.Params.social.github }}" target="_blank" rel="noopener" aria-label="PowerShell.org on GitHub"
                        class="text-gray-400 hover:text-gray-200 transition-colors duration-200">
-                        <i class="fab fa-github text-lg"></i>
+                        <i class="fab fa-github text-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="{{ .Site.Params.social.discord }}" target="_blank" rel="noopener"
+                    <a href="{{ .Site.Params.social.discord }}" target="_blank" rel="noopener" aria-label="PowerShell.org on Discord"
                        class="text-gray-400 hover:text-purple-400 transition-colors duration-200">
-                        <i class="fab fa-discord text-lg"></i>
+                        <i class="fab fa-discord text-lg" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -85,19 +85,19 @@
                 <a href="/terms/" class="text-gray-400 hover:text-white transition-colors duration-200">Terms of Use</a>
                 <a href="/contact/" class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a>
                 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
-                    <img src="/images/cc-by-sa.png" alt="Licensed under CC BY-SA 4.0" class="h-6" />
+                    <img src="/images/cc-by-sa.png" alt="Licensed under CC BY-SA 4.0" class="h-6 w-auto" width="2000" height="705" />
                 </a>
                 <a href="https://www.netlify.com" target="_blank" rel="noopener">
-                    <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" class="h-6" />
+                    <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" class="h-6 w-auto" width="114" height="51" />
                 </a>
             </div>
         </div>
     </div>
     
     <!-- Back to Top Button -->
-    <button id="back-to-top" 
+    <button id="back-to-top" type="button" aria-label="Back to top"
             onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
             class="hidden fixed bottom-8 right-8 powershell-blue text-white p-3 rounded-full shadow-lg hover:opacity-90 transition-opacity duration-200 z-40">
-        <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 </footer>

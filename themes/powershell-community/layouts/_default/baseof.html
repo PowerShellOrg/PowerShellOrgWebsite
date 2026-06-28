@@ -9,7 +9,16 @@
     {{- $ogTitle := cond .IsHome .Site.Title .Title -}}
     {{- $title := cond .IsHome .Site.Title (printf "%s — %s" .Title $brand) -}}
     {{- $metaDesc := .Site.Params.description -}}
-    {{- if .Description }}{{ $metaDesc = .Description }}{{ else if not .IsHome }}{{ $metaDesc = (.Summary | plainify | truncate 160) }}{{ end -}}
+    {{- if .Description -}}
+        {{- $metaDesc = .Description -}}
+    {{- else if not .IsHome -}}
+        {{- $summary := .Summary | plainify | strings.TrimSpace -}}
+        {{- if $summary -}}
+            {{- $metaDesc = ($summary | truncate 160) -}}
+        {{- else if .Title -}}
+            {{- $metaDesc = printf "%s on PowerShell.org — articles, podcasts, and resources from the PowerShell community." .Title -}}
+        {{- end -}}
+    {{- end -}}
     {{- $socialDesc := $metaDesc -}}
     {{- with .Params.og_description }}{{ $socialDesc = . }}{{ end -}}
     {{- $ogImage := partial "og-image.html" . -}}
