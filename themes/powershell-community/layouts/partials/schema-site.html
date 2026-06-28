@@ -2,7 +2,7 @@
   schema-site.html — Organization + WebSite JSON-LD for the home page.
 */ -}}
 {{- $brand := .Site.Params.brand | default .Site.Title -}}
-{{- $logo := absURL "images/logo.png" -}}
+{{- $logo := (resources.Get "images/logo.png").Permalink -}}
 {{- $orgId := printf "%s#organization" .Site.BaseURL -}}
 
 {{- /* sameAs: only canonical org profiles, not invite/redirect links */ -}}

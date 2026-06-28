@@ -36,8 +36,8 @@
                         {{ $title := .Title }}
                         {{ with .Params.youtube }}
                         <div class="aspect-square rounded-lg overflow-hidden mb-4 lg:mb-0 bg-gray-900">
-                            <img src="https://img.youtube.com/vi/{{ . }}/maxresdefault.jpg"
-                                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ . }}/hqdefault.jpg';"
+                            <img src="https://img.youtube.com/vi/{{ . }}/hqdefault.jpg"
+                                 onerror="this.onerror=null;this.src='https://img.youtube.com/vi/{{ . }}/mqdefault.jpg';"
                                  alt="{{ $title }}" loading="lazy"
                                  class="w-full h-full object-cover">
                         </div>
