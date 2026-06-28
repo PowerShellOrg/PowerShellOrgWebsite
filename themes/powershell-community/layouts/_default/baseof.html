@@ -86,14 +86,25 @@
     {{ if .IsHome }}{{ partial "schema-site.html" . }}{{ end }}
     {{ if and .IsPage (in (slice "articles" "podcast") .Section) }}{{ partial "schema-article.html" . }}{{ end }}
 
-    <!-- CSS — Tailwind purged against the built site, minified + fingerprinted -->
+    <!-- Critical CSS — Tailwind purged against the built site, minified + fingerprinted (render-blocking by design) -->
     {{ $tailwind := resources.Get "css/tailwind.css" | minify | fingerprint }}
     <link href="{{ $tailwind.RelPermalink }}" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
-    <link href="/css/alerts.css" rel="stylesheet">
-    <link href="/css/code-copy.css" rel="stylesheet">
-    {{ with .Site.Params.algolia }}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />{{ end }}
+
+    <!-- Non-critical CSS — loaded async via the print-media swap so it doesn't block first paint -->
+    {{- $asyncCSS := slice
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        "https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"
+        "/css/alerts.css"
+        "/css/code-copy.css" -}}
+    {{- with .Site.Params.algolia }}{{ $asyncCSS = $asyncCSS | append "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" }}{{ end -}}
+    {{ range $asyncCSS }}
+    <link rel="stylesheet" href="{{ . }}" media="print" onload="this.media='all'">
+    {{- end }}
+    <noscript>
+        {{- range $asyncCSS }}
+        <link rel="stylesheet" href="{{ . }}">
+        {{- end }}
+    </noscript>
 
     <!-- Self-hosted Inter (replaces render-blocking Google Fonts @import) -->
     <style>
