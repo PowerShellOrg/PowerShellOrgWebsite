@@ -59,10 +59,22 @@ styles," and two parts of it are load-bearing and must not be weakened:
 ## Consequences
 
 - **Adding a new Tailwind class requires `npm run build:css`** and committing the
-  result. The failure mode is visible, not silent: `npm run dev` serves the same
-  purged file, so a missing class shows up locally before it ships. FontAwesome
-  and Prism stay on the CDN (FontAwesome's CSS has relative `../webfonts/` font
-  refs that would break if naively rehosted), so a preconnect is kept for them.
+  result. `npm run dev` serves the same purged file, so a missing class usually
+  shows up locally — but a forgotten regen is only *reliably* caught in CI (see
+  below). Prism stays on the CDN, so a preconnect is kept for it.
+- **A forgotten regen is caught by CI, not just locally.**
+  `.github/workflows/build.yml` runs `build:css` + `build:icons` on every PR and
+  fails if the committed `assets/css/tailwind.css` or
+  `assets/css/fontawesome-subset.css` differs from a fresh build — added after a
+  `w-auto` reached production unstyled. It diffs the deterministic generated CSS
+  (the source of truth for which classes/icons are bundled), not the woff2 bytes,
+  which vary across `subset-font` versions.
+- **FontAwesome is now a self-hosted, purged subset.** `npm run build:icons`
+  (`scripts/build-icons.mjs`) scans the built HTML for `fa-*` classes, resolves
+  them via FontAwesome's metadata (including FA5-era aliases so legacy names are
+  not silently dropped), and emits `assets/css/fontawesome-subset.css` +
+  `assets/fonts/fa-*-subset.woff2` (~11 KB total vs ~270 KB of CDN webfonts). Same
+  committed-artifact model as the Tailwind bundle, under the same CI guard.
 - **A new build-time data class must be added to the safelist.** Anything driven
   by `community_stats.json` (or future data) that isn't present in committed
   markup will be purged unless pinned. The status-color palette is already pinned;
