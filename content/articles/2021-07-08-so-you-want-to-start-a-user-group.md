@@ -1,7 +1,7 @@
 ---
 title: So you want to start a User Group
 authors:
-  - James Petty
+  - Ryan Yates
 date: "2021-07-08T15:57:09+00:00"
 categories:
   - PowerShell for Admins
