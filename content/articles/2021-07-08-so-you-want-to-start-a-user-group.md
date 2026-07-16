@@ -13,6 +13,8 @@ aliases:
   - /2021/07/so-you-want-to-start-a-user-group/
 ---
 
+> FYI - this was originally posted here around 2016, then a content migration happened where it was seemingly lost. I recreated this and published it to my own [blog][0]
+
 #### But where do you begin?
 
 I’ve blogged about this from the reversed perspective on my own blog about finding user groups with a small section about what you can do if your thinking about getting one off the ground which you can read at [http://blog.kilasuit.org/2016/04/17/how-to-find-local-user-groups-events-my-experience/][1] and it was only natural to eventually blog from the other side too although this has come up a bit earlier than I had planned to but alas it gets it done ![Smile](http://web.archive.org/web/20200811154303im_/https://cdn-powershell.pressidium.com/wp-content/uploads/2016/05/wlEmoticon-smile.png)
@@ -196,11 +198,8 @@ I hope that you’ve enjoyed reading and I will update this post as I learn more
 
 Feel free to leave any comments on here or to [tweet me][7] and have a read of the other articles I’ve written on [here][8] or my own [blog][9] and good luck on the path you are taking to become one of the PowerShell UG Leads – perhaps I’ll get chance to come to speak at your user group in the future.
 
-
-
-Credit to Ryan Yates as the original author of this article.
-
- [1]: http://web.archive.org/web/20200811154303/http://blog.kilasuit.org/2016/04/17/how-to-find-local-user-groups-events-my-experience/
+ [0]: https://blog.kilasuit.org/2023/08/19/so-you-want-to-start-a-user-group/
+ [1]: https://blog.kilasuit.org/2016/04/17/how-to-find-local-user-groups-events-my-experience/
  [2]: https://www.youtube.com/channel/UC1xcgLFT2Q9UneeQCr_4WoQ
  [3]: https://twitter.com/gaelcolas
  [4]: https://gaelcolas.com/
