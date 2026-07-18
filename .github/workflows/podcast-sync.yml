@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync-podcast:
@@ -29,10 +30,14 @@ jobs:
       - name: Sync podcast feed
         run: node .github/scripts/sync-podcast-feed.js
 
-      - name: Commit new episodes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add content/podcast
-          git diff --staged --quiet || git commit -m "Sync new podcast episodes from feed"
-          git push
+      - name: Create pull request for new episodes
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          add-paths: |
+            content/podcast
+          branch: automation/sync-podcast
+          commit-message: Sync new podcast episodes from feed
+          title: Sync new podcast episodes from feed
+          body: |
+            Automated podcast sync from the Podbean feed.
+          delete-branch: true
