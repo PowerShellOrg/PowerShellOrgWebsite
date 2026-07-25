@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2821.36" height="270" id="svg2" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(699.52,770)">
+    <path fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" d="M 1004.28571428571 -580 L 411.70191516478 -550.49725039938" />
+    <polygon stroke="#000000" stroke-opacity="1" stroke-width="1" fill="#000000" fill-opacity="1" points="411.59167740498 -552.71145454625 401.71428571429 -550 411.81215292458 -548.28304625252" />
+    <path fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" d="M 0 -580 L 0 -560" />
+    <polygon stroke="#000000" stroke-opacity="1" stroke-width="1" fill="#000000" fill-opacity="1" points="-2.21694663167 -560 0 -550 2.21694663167 -560" />
+    <path fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" d="M 0 -720 L 0 -700" />
+    <polygon stroke="#000000" stroke-opacity="1" stroke-width="1" fill="#000000" fill-opacity="1" points="-2.21694663167 -700 0 -690 2.21694663167 -700" />
+    <path fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" d="M 0 -650 L 0 -630" />
+    <polygon stroke="#000000" stroke-opacity="1" stroke-width="1" fill="#000000" fill-opacity="1" points="-2.21694663167 -630 0 -620 2.21694663167 -630" />
+    <rect fill="#f0ffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" x="700.16" y="-620" width="1411.68" height="40" rx="3" ry="3" />
+    <text x="707.2184" y="-586.66666666667" font-family="Arial" font-size="16" fill="#000000">
+      <tspan x="707.2184" dy="0">0: /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/ps-rule-test-rg/providers/Microsoft.Network/virtualNetworks/my-vnet/subnets/function-integration-subnet</tspan>
+    </text>
+    <rect fill="#f0ffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" x="-689.52" y="-620" width="1379.04" height="40" rx="3" ry="3" />
+    <text x="-682.6248" y="-586.66666666667" font-family="Arial" font-size="16" fill="#000000">
+      <tspan x="-682.6248" dy="0">2: /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/ps-rule-test-rg/providers/Microsoft.Network/virtualNetworks/my-vnet/subnets/private-endpoint-subnet</tspan>
+    </text>
+    <rect fill="#f0ffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" x="-550.8" y="-760" width="1101.6" height="40" rx="3" ry="3" />
+    <text x="-545.292" y="-726.66666666667" font-family="Arial" font-size="16" fill="#000000">
+      <tspan x="-545.292" dy="0">3: /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/ps-rule-test-rg/providers/Microsoft.Web/sites/myfunc5f3e65afb63bb</tspan>
+    </text>
+    <rect fill="#f0ffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" x="-558.96" y="-550" width="1117.92" height="40" rx="3" ry="3" />
+    <text x="-553.3704" y="-516.66666666667" font-family="Arial" font-size="16" fill="#000000">
+      <tspan x="-553.3704" dy="0">1: /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/ps-rule-test-rg/providers/Microsoft.Network/virtualNetworks/my-vnet</tspan>
+    </text>
+    <rect fill="#f0ffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" x="-579.36" y="-690" width="1158.72" height="40" rx="3" ry="3" />
+    <text x="-573.5664" y="-656.66666666667" font-family="Arial" font-size="16" fill="#000000">
+      <tspan x="-573.5664" dy="0">4: /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/ps-rule-test-rg/providers/Microsoft.Network/privateEndpoints/function-pe</tspan>
+    </text>
+  </g>
+</svg>
