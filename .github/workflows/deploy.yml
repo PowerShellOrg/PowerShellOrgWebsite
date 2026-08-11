@@ -134,6 +134,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Regenerate the purged Tailwind CSS and the Font Awesome subset from the
+      # actual markup before building, so the deployed site is never stale even
+      # if a PR merged (or a required check was overridden) without the rebuilt
+      # assets committed. The committed assets/css/*.css + fa-*-subset.woff2 stay
+      # useful for local `hugo server` previews; this makes production the source
+      # of truth so a missed `npm run build:*` can't ship a broken icon again.
+      - name: Regenerate generated assets
+        run: |
+          npm run build:css
+          npm run build:icons
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
