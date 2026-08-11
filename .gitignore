@@ -9,7 +9,6 @@ tmp/
 
 # Node / build tooling
 node_modules/
-package-lock.json
 
 # Local Netlify folder
 .netlify
