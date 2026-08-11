@@ -111,7 +111,8 @@
     {{- $asyncCSS := slice
         "https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"
         "/css/alerts.css"
-        "/css/code-copy.css" -}}
+        "/css/code-copy.css"
+        "/css/heading-anchors.css" -}}
     {{- with .Site.Params.algolia }}{{ $asyncCSS = $asyncCSS | append "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" }}{{ end -}}
     {{ range $asyncCSS }}
     <link rel="stylesheet" href="{{ . }}" media="print" onload="this.media='all'">

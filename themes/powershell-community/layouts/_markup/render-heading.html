@@ -1,0 +1,14 @@
+{{- /* Heading render hook: makes article headings directly linkable.
+        Renders the heading with its auto-generated id (from .Anchor, i.e.
+        Goldmark's autoHeadingID) plus a hover-revealed anchor link, so any
+        section can be linked to and shared. Because the id still comes from
+        .Anchor, pre-existing `#section` links keep resolving unchanged.
+        The `{.class}` attribute authors add (e.g. .wp-block-heading) is
+        preserved. Styling lives in static/css/heading-anchors.css. */ -}}
+{{- $id := .Anchor -}}
+{{- $class := "ps-heading" -}}
+{{- with .Attributes.class }}{{ $class = printf "%s %s" $class . }}{{ end -}}
+<h{{ .Level }} id="{{ $id }}" class="{{ $class }}">
+  {{- .Text | safeHTML -}}
+  <a class="ps-heading-anchor" href="#{{ $id }}" aria-label="Link to this section" title="Link to this section"><i class="fas fa-link" aria-hidden="true"></i></a>
+</h{{ .Level }}>

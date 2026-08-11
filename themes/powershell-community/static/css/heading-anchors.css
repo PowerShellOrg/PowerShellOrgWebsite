@@ -1,0 +1,35 @@
+/* Linkable article headings — a hover-revealed anchor link next to each
+   heading. Rendered by layouts/_markup/render-heading.html. */
+
+.ps-heading {
+  position: relative;
+  /* Clear the sticky site header (bg-white shadow-lg sticky top-0) when
+     jumping to an anchor so the heading isn't hidden underneath it. */
+  scroll-margin-top: 5.5rem;
+}
+
+.ps-heading-anchor {
+  opacity: 0;
+  margin-left: 0.4em;
+  font-size: 0.7em;
+  color: #9ca3af;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+.ps-heading:hover .ps-heading-anchor,
+.ps-heading-anchor:focus-visible {
+  opacity: 1;
+}
+
+.ps-heading-anchor:hover {
+  color: #2563eb;
+}
+
+/* Touch devices can't hover — keep the anchor discoverable but subtle. */
+@media (hover: none) {
+  .ps-heading-anchor {
+    opacity: 0.5;
+  }
+}
