@@ -5,7 +5,8 @@ location: "Ohio, USA"
 format: "Online"
 meeting_schedule: "First Thursday of each month, 7:00 PM ET"
 logo: "/images/user-groups/ohio-powershell.webp"
-# TODO: add organizer name(s) once confirmed
+organizers:
+  - "Stephen Valdinger"
 links:
   - name: "Meetup"
     url: "https://www.meetup.com/powershellohio/"
