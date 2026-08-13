@@ -1,0 +1,116 @@
+{{ define "main" }}
+
+<!-- Page Header -->
+<section class="powershell-blue py-10">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        {{ if .Params.logo }}
+        <div class="w-20 h-20 mx-auto mb-4 bg-white rounded-xl flex items-center justify-center overflow-hidden p-2">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }} logo" class="max-w-full max-h-full object-contain">
+        </div>
+        {{ else }}
+        <div class="w-16 h-16 mx-auto mb-4 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+            <i class="fas fa-people-group text-3xl"></i>
+        </div>
+        {{ end }}
+        <h1 class="text-4xl lg:text-5xl font-bold mb-2">{{ .Title }}</h1>
+        {{ with .Params.description }}
+        <p class="text-xl opacity-90 max-w-2xl mx-auto">{{ . }}</p>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="py-10 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Breadcrumb -->
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm text-gray-500">
+                <li><a href="/" class="hover:text-blue-600 transition-colors duration-200">Home</a></li>
+                <li><i class="fas fa-chevron-right text-xs"></i></li>
+                <li><a href="/user-groups/" class="hover:text-blue-600 transition-colors duration-200">User Groups</a></li>
+                <li><i class="fas fa-chevron-right text-xs"></i></li>
+                <li class="text-gray-900 font-medium truncate">{{ .Title }}</li>
+            </ol>
+        </nav>
+
+        <div class="grid gap-8 lg:grid-cols-3">
+            <!-- Details sidebar -->
+            <aside class="lg:col-span-1">
+                <div class="bg-white rounded-xl shadow-md p-6 lg:sticky lg:top-24">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">Group Details</h2>
+                    <dl class="space-y-4 text-sm">
+                        {{ with .Params.location }}
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-location-dot w-4 text-center text-blue-600 mt-0.5 shrink-0"></i>
+                            <div>
+                                <dt class="font-medium text-gray-900">Location</dt>
+                                <dd class="text-gray-600">{{ . }}</dd>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ with .Params.format }}
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-video w-4 text-center text-blue-600 mt-0.5 shrink-0"></i>
+                            <div>
+                                <dt class="font-medium text-gray-900">Format</dt>
+                                <dd class="text-gray-600">{{ . }}</dd>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ with .Params.meeting_schedule }}
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-calendar-day w-4 text-center text-blue-600 mt-0.5 shrink-0"></i>
+                            <div>
+                                <dt class="font-medium text-gray-900">Meets</dt>
+                                <dd class="text-gray-600">{{ . }}</dd>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ with .Params.organizers }}
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-user-group w-4 text-center text-blue-600 mt-0.5 shrink-0"></i>
+                            <div>
+                                <dt class="font-medium text-gray-900">Organized by</dt>
+                                {{ range . }}
+                                <dd class="text-gray-600">{{ . }}</dd>
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    </dl>
+
+                    {{ with .Params.links }}
+                    <div class="mt-6 pt-6 border-t border-gray-200 space-y-2">
+                        {{ range . }}
+                        <a href="{{ .url }}" target="_blank" rel="noopener"
+                           class="flex items-center gap-3 text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
+                            <i class="{{ with .icon }}{{ . }}{{ else }}fas fa-link{{ end }} w-4 text-center shrink-0"></i>
+                            <span>{{ .name }}</span>
+                            <i class="fas fa-arrow-up-right-from-square text-xs text-gray-400 ml-auto"></i>
+                        </a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </aside>
+
+            <!-- Main content -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-xl shadow-md p-8">
+                    {{ with .Content }}
+                    <div class="prose" style="max-width: none;">{{ . }}</div>
+                    {{ else }}
+                    <p class="text-gray-600">More details about this group are coming soon.</p>
+                    {{ end }}
+                </div>
+
+                <a href="/user-groups/"
+                   class="inline-flex items-center mt-6 text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200">
+                    <i class="fas fa-arrow-left mr-2"></i>All user groups
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

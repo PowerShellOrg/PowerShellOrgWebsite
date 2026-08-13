@@ -1,0 +1,124 @@
+name: Add User Group
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add-user-group:
+    if: |
+      github.event.label.name == 'approved' &&
+      contains(github.event.issue.labels.*.name, 'user-group')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse issue and create user group content file
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, yaml
+
+          body = os.environ['ISSUE_BODY']
+
+          def field(label):
+              m = re.search(rf'### {re.escape(label)}\s+(.+?)(?=\n###|\Z)', body, re.DOTALL)
+              if not m:
+                  return ''
+              val = m.group(1).strip()
+              return '' if val in ('_No response_', '') else val
+
+          name        = field('Group Name')
+          location    = field('Location')
+          fmt         = field('Meeting Format')
+          schedule    = field('Meeting Schedule')
+          website     = field('Website')
+          meetup_url  = field('Meetup / Registration URL')
+          organizers  = field('Organizer(s)')
+          logo_url    = field('Logo URL')
+          description = field('Short Description')
+          about       = field('About the Group')
+
+          def strip_html(s):
+              # Strip raw HTML to prevent stored XSS via goldmark unsafe mode.
+              return re.sub(r'<[^>]+>', '', s).strip()
+
+          # Organizers: split on commas / newlines into a clean list.
+          org_list = [o.strip() for o in re.split(r'[,\n]+', organizers) if o.strip()]
+
+          # Links: only reference Font Awesome icons already in the committed subset
+          # (fas fa-globe, fab fa-meetup). New icons would need `npm run build:icons`.
+          links = []
+          if website:
+              links.append({'name': 'Website', 'url': website, 'icon': 'fas fa-globe'})
+          if meetup_url:
+              if 'meetup.com' in meetup_url.lower():
+                  links.append({'name': 'Meetup', 'url': meetup_url, 'icon': 'fab fa-meetup'})
+              else:
+                  links.append({'name': 'Register', 'url': meetup_url, 'icon': 'fas fa-globe'})
+
+          slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+          fm = {
+              'title': name,
+              'description': strip_html(description),
+              'location': location,
+              'format': fmt,
+              'meeting_schedule': schedule,
+          }
+          if org_list:
+              fm['organizers'] = org_list
+          if logo_url:
+              fm['logo'] = logo_url
+          if links:
+              fm['links'] = links
+
+          content = '---\n' + yaml.safe_dump(fm, default_flow_style=False, allow_unicode=True, sort_keys=False) + '---\n'
+          about = strip_html(about)
+          if about:
+              content += about + '\n'
+
+          filepath = f'content/user-groups/{slug}.md'
+          os.makedirs('content/user-groups', exist_ok=True)
+          with open(filepath, 'w') as f:
+              f.write(content)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f'slug={slug}\n')
+              out.write(f'filepath={filepath}\n')
+              out.write(f'group_name={name}\n')
+
+          print(f'Created {filepath}')
+          PYEOF
+
+      - name: Open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          FILEPATH: ${{ steps.parse.outputs.filepath }}
+          GROUP_NAME: ${{ steps.parse.outputs.group_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH="user-group/issue-${ISSUE_NUMBER}-${SLUG}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "$FILEPATH"
+          git commit -m "Add user group: ${GROUP_NAME} (closes #${ISSUE_NUMBER})"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Add user group: ${GROUP_NAME}" \
+            --body "Closes #${ISSUE_NUMBER}
+
+          Auto-generated from user group submission." \
+            --base main \
+            --head "$BRANCH"

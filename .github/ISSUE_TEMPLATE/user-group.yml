@@ -1,0 +1,102 @@
+name: User Group Submission
+description: Add a local PowerShell user group to the community directory
+title: "[User Group] "
+labels: ["user-group"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding your PowerShell user group to the [community directory](https://powershell.org/user-groups/)!
+        Fill out the details below. A maintainer will review and approve it, and a
+        pull request will be opened automatically.
+
+  - type: input
+    id: group_name
+    attributes:
+      label: Group Name
+      placeholder: "e.g., Ohio PowerShell User Group"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: "City, State/Region, Country — use 'Online — worldwide' for online-only groups."
+      placeholder: "Columbus, OH, USA"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Meeting Format
+      options:
+        - "In person"
+        - "Online"
+        - "Hybrid"
+    validations:
+      required: true
+
+  - type: input
+    id: meeting_schedule
+    attributes:
+      label: Meeting Schedule
+      description: "When the group meets."
+      placeholder: "First Tuesday of each month, 6:00 PM ET"
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: "The group's main website or landing page."
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: input
+    id: meetup_url
+    attributes:
+      label: Meetup / Registration URL
+      description: "Where people sign up or find the next meeting (Meetup, Eventbrite, etc.)."
+      placeholder: "https://www.meetup.com/your-group"
+    validations:
+      required: false
+
+  - type: input
+    id: organizers
+    attributes:
+      label: Organizer(s)
+      description: "Name(s) of the people running the group. Separate multiple names with commas."
+      placeholder: "Jane Doe, John Smith"
+    validations:
+      required: true
+
+  - type: input
+    id: logo_url
+    attributes:
+      label: Logo URL
+      description: "Optional. A direct link to the group's logo image. You can drag-and-drop an image into this issue and paste the URL GitHub generates."
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: "One line shown on the group's card in the directory."
+      placeholder: "The PowerShell community for the Columbus, Ohio area."
+    validations:
+      required: true
+
+  - type: textarea
+    id: about
+    attributes:
+      label: About the Group
+      description: "Optional. A longer description shown on the group's own page — who it's for, what meetings look like, how to get involved."
+      placeholder: "Tell people about your user group."
+    validations:
+      required: false
