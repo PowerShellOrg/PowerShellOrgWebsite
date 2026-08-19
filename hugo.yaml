@@ -69,6 +69,12 @@ menu:
       params:
         icon: "fas fa-calendar-days"
         description: "Upcoming user group meetings, webinars, and community events."
+    - name: "User Groups"
+      url: "/user-groups/"
+      weight: 25
+      params:
+        icon: "fas fa-people-group"
+        description: "Find and connect with local PowerShell user groups near you."
     - name: "Authors"
       url: "/authors/"
       weight: 30

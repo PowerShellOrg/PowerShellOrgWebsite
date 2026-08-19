@@ -3,6 +3,7 @@
 .far,.fa-regular{font-family:"Font Awesome 6 Free";font-weight:400}
 .fab,.fa-brands{font-family:"Font Awesome 6 Brands";font-weight:400}
 .fa-apple:before{content:"\f179"}
+.fa-arrow-left:before{content:"\f060"}
 .fa-arrow-right:before{content:"\f061"}
 .fa-arrow-up:before{content:"\f062"}
 .fa-arrow-up-right-from-square:before{content:"\f08e"}
@@ -16,6 +17,7 @@
 .fa-calendar:before{content:"\f133"}
 .fa-calendar-alt:before{content:"\f073"}
 .fa-calendar-check:before{content:"\f274"}
+.fa-calendar-day:before{content:"\f783"}
 .fa-calendar-days:before{content:"\f073"}
 .fa-calendar-plus:before{content:"\f271"}
 .fa-calendar-times:before{content:"\f273"}
@@ -55,7 +57,9 @@
 .fa-location-dot:before{content:"\f3c5"}
 .fa-map-marker-alt:before{content:"\f3c5"}
 .fa-mastodon:before{content:"\f4f6"}
+.fa-meetup:before{content:"\f2e0"}
 .fa-pen-nib:before{content:"\f5ad"}
+.fa-people-group:before{content:"\e533"}
 .fa-play:before{content:"\f04b"}
 .fa-play-circle:before{content:"\f144"}
 .fa-plug:before{content:"\f1e6"}
@@ -73,6 +77,8 @@
 .fa-times:before{content:"\f00d"}
 .fa-twitter:before{content:"\f099"}
 .fa-user-circle:before{content:"\f2bd"}
+.fa-user-group:before{content:"\f500"}
 .fa-users:before{content:"\f0c0"}
+.fa-video:before{content:"\f03d"}
 .fa-windows:before{content:"\f17a"}
 .fa-youtube:before{content:"\f167"}
