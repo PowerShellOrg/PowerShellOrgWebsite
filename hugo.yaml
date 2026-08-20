@@ -146,7 +146,7 @@ params:
     branch: "main"
 
   ical:
-    timezone: UTC
+    timezone: Etc/UTC
   
 module:
   imports:
