@@ -80,7 +80,6 @@ jobs:
         run: |
           npm run build:css
           npm run build:icons
-          node scripts/validate-calendar.mjs tmp/purge-src/calendar/calendar.ics
           if ! git diff --quiet -- assets/css/tailwind.css assets/css/fontawesome-subset.css; then
             echo "::error::Generated CSS is out of date. Run 'npm run build:css' and 'npm run build:icons' locally and commit assets/css/*.css and assets/fonts/fa-*-subset.woff2."
             git diff --stat -- assets/css/tailwind.css assets/css/fontawesome-subset.css
@@ -97,4 +96,7 @@ jobs:
             --gc \
             --minify \
             --destination public
+
+      - name: Validate iCalendar feed
+        run: node scripts/validate-calendar.mjs public/calendar/calendar.ics
 
