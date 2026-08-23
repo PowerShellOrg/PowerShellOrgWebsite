@@ -19,7 +19,7 @@ markup:
     renderer:
       unsafe: false
   highlight:
-    style: github
+    style: github-dark
     lineNos: true
     codeFences: true
 
