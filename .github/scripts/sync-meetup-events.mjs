@@ -153,6 +153,9 @@ async function calendarFiles() {
 
 async function main() {
   const configuredGroups = await groups();
+  if (configuredGroups.length === 0) {
+    throw new Error(`No Meetup group links found in ${USER_GROUPS_DIR}.`);
+  }
   const groupEvents = await Promise.all(configuredGroups.map(fetchGroupEvents));
   await mkdir(CALENDAR_DIR, { recursive: true });
 
