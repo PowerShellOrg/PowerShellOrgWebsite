@@ -26,8 +26,6 @@ jobs:
           node-version: '20'
 
       - name: Sync upcoming Meetup events
-        env:
-          MEETUP_ACCESS_TOKEN: ${{ secrets.MEETUP_ACCESS_TOKEN }}
         run: node .github/scripts/sync-meetup-events.mjs
 
       - name: Create pull request for synchronized events

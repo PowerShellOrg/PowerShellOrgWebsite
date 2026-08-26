@@ -1,75 +1,103 @@
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const API_URL = 'https://api.meetup.com/gql-ext';
 const GROUPS_FILE = path.join('data', 'meetup_groups.json');
 const CALENDAR_DIR = path.join('content', 'calendar');
 const DRY_RUN = process.argv.includes('--dry-run');
-
-const QUERY = `
-  query UpcomingGroupEvents($urlname: ID!) {
-    group(urlname: $urlname) {
-      name
-      events(input: { first: 100, filter: { status: "UPCOMING" } }) {
-        edges {
-          node {
-            id
-            title
-            description
-            dateTime
-            eventUrl
-            type
-            venue {
-              name
-              address
-              city
-              state
-              country
-            }
-          }
-        }
-      }
-    }
-  }
-`;
 
 function yaml(value) {
   return JSON.stringify(value ?? '');
 }
 
-function plainText(html = '') {
-  return html
-    .replace(/<\/(?:p|div|li|h[1-6])>/gi, '\n')
-    .replace(/<br\s*\/?\s*>/gi, '\n')
-    .replace(/<[^>]*>/g, '')
-    .replace(/&nbsp;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
+function unescapeIcal(value = '') {
+  return value
+    .replace(/\\n/gi, '\n')
+    .replace(/\\,/g, ',')
+    .replace(/\\;/g, ';')
+    .replace(/\\\\/g, '\\');
 }
 
-function venueLabel(venue, groupName, isVirtual) {
-  if (isVirtual) return 'Online';
-
-  const parts = [venue?.name, venue?.address, venue?.city, venue?.state, venue?.country]
-    .filter(Boolean);
-  return parts.length ? [...new Set(parts)].join(', ') : groupName;
+function property(line) {
+  const separator = line.indexOf(':');
+  if (separator < 1) return null;
+  const declaration = line.slice(0, separator);
+  return { name: declaration.split(';', 1)[0], value: line.slice(separator + 1) };
 }
 
-function isVirtual(event) {
-  return ['ONLINE', 'HYBRID'].includes(event.type);
+function eventsFromIcal(calendar) {
+  const events = [];
+  let event;
+  let groupName;
+
+  for (const line of calendar.replace(/\r?\n[ \t]/g, '').split(/\r?\n/)) {
+    if (line === 'BEGIN:VEVENT') {
+      event = {};
+      continue;
+    }
+    if (line === 'END:VEVENT') {
+      if (event) events.push(event);
+      event = undefined;
+      continue;
+    }
+
+    const parsed = property(line);
+    if (!parsed) continue;
+    if (event) event[parsed.name] = parsed.value;
+    if (parsed.name === 'X-WR-CALNAME') groupName = unescapeIcal(parsed.value);
+  }
+
+  return { events, groupName };
 }
 
-function eventFile(event, groupName) {
-  const virtual = isVirtual(event);
-  const startDate = event.dateTime.slice(0, 10);
-  const body = plainText(event.description);
+function date(value, field, url) {
+  const match = value?.match(/^(\d{4})(\d{2})(\d{2})/);
+  if (!match) throw new Error(`Meetup event ${url} has no valid ${field}.`);
+  return `${match[1]}-${match[2]}-${match[3]}`;
+}
 
-  return `---\nmeetupEventId: ${yaml(String(event.id))}\nmeetupSource: meetup\nstartDate: ${yaml(startDate)}\ntitle: ${yaml(event.title)}\nexternalUrl: ${yaml(event.eventUrl)}\nvirtual: ${virtual}\nwhere: ${yaml(venueLabel(event.venue, groupName, virtual))}\n---\n${body}\n`;
+function eventId(event, url) {
+  const match = event.UID?.match(/^event_(.+?)@meetup\.com$/);
+  if (match) return match[1];
+  const urlMatch = url.match(/\/events\/([^/?#]+)/);
+  if (urlMatch) return urlMatch[1];
+  throw new Error(`Meetup calendar event has no recognized ID: ${url}`);
+}
+
+function eventSchema(html, url) {
+  const scripts = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  for (const [, script] of scripts) {
+    const value = JSON.parse(script);
+    const candidates = Array.isArray(value) ? value : value['@graph'] ?? [value];
+    const event = candidates.find(({ '@type': type }) => type === 'Event');
+    if (event) return event;
+  }
+  throw new Error(`Meetup event page has no Event structured data: ${url}`);
+}
+
+function eventMetadata(event) {
+  const virtual = /(?:Online|Mixed)EventAttendanceMode$/.test(event.eventAttendanceMode ?? '');
+  if (virtual && event.location?.['@type'] === 'VirtualLocation') {
+    return { virtual, where: 'Online' };
+  }
+
+  const address = event.location?.address;
+  const addressParts = typeof address === 'string'
+    ? [address]
+    : [address?.streetAddress, address?.addressLocality, address?.addressRegion, address?.addressCountry];
+  const where = [event.location?.name, ...addressParts].filter(Boolean).join(', ');
+  return { virtual, where };
+}
+
+function eventFile(event, metadata, groupName) {
+  const url = event.URL;
+  if (!url) throw new Error('Meetup calendar event has no URL.');
+
+  const startDate = date(event.DTSTART, 'start date', url);
+  const endDate = event.DTEND ? date(event.DTEND, 'end date', url) : undefined;
+  const endDateField = endDate && endDate !== startDate ? `endDate: ${yaml(endDate)}\n` : '';
+  const description = unescapeIcal(event.DESCRIPTION).trim();
+
+  return `---\nmeetupEventId: ${yaml(eventId(event, url))}\nmeetupSource: meetup\nstartDate: ${yaml(startDate)}\n${endDateField}title: ${yaml(unescapeIcal(event.SUMMARY))}\nexternalUrl: ${yaml(url)}\nvirtual: ${metadata.virtual}\nwhere: ${yaml(metadata.where || groupName)}\n---\n${description}\n`;
 }
 
 async function groups() {
@@ -80,79 +108,64 @@ async function groups() {
   return parsed;
 }
 
-async function fetchEvents(urlname, token) {
-  const response = await fetch(API_URL, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ query: QUERY, variables: { urlname } }),
-  });
+async function fetchGroupEvents(urlname) {
+  const response = await fetch(`https://www.meetup.com/${urlname}/events/ical/`);
+  if (!response.ok) throw new Error(`Meetup iCalendar feed returned ${response.status} for ${urlname}.`);
 
-  if (!response.ok) {
-    throw new Error(`Meetup returned ${response.status} for ${urlname}.`);
-  }
+  const calendar = eventsFromIcal(await response.text());
+  const events = await Promise.all(calendar.events.map(async (event) => {
+    if (event.STATUS === 'CANCELLED') return { event };
+    if (!event.URL || !event.DTSTART || !event.SUMMARY) {
+      throw new Error(`Meetup calendar event for ${urlname} is missing required fields.`);
+    }
 
-  const result = await response.json();
-  if (result.errors?.length) {
-    throw new Error(`Meetup query failed for ${urlname}: ${result.errors.map(({ message }) => message).join('; ')}`);
-  }
-  if (!result.data?.group) {
-    throw new Error(`Meetup group ${urlname} was not found or is not accessible to this token.`);
-  }
+    const page = await fetch(event.URL);
+    if (!page.ok) throw new Error(`Meetup event page returned ${page.status}: ${event.URL}`);
+    return { event, metadata: eventMetadata(eventSchema(await page.text(), event.URL)) };
+  }));
 
-  return result.data.group;
+  return { events, groupName: calendar.groupName || urlname };
 }
 
-async function managedFiles() {
+async function calendarFiles() {
   const names = await readdir(CALENDAR_DIR);
-  const files = await Promise.all(names.filter((name) => name.endsWith('.md')).map(async (name) => {
-    const file = path.join(CALENDAR_DIR, name);
-    const content = await readFile(file, 'utf8');
-    return content.includes('meetupSource: meetup') ? file : null;
-  }));
-  return files.filter(Boolean);
+  return Promise.all(names.filter((name) => name.endsWith('.md')).map(async (name) => ({
+    file: path.join(CALENDAR_DIR, name),
+    content: await readFile(path.join(CALENDAR_DIR, name), 'utf8'),
+  })));
 }
 
 async function main() {
-  const token = process.env.MEETUP_ACCESS_TOKEN;
-  if (!token) {
-    throw new Error('MEETUP_ACCESS_TOKEN is required. Create it from a Meetup OAuth client and store it as a repository secret.');
-  }
-
   const configuredGroups = await groups();
-  const result = await Promise.all(configuredGroups.map(({ urlname }) => fetchEvents(urlname, token)));
+  const groupEvents = await Promise.all(configuredGroups.map(({ urlname }) => fetchGroupEvents(urlname)));
+  await mkdir(CALENDAR_DIR, { recursive: true });
+
+  const calendar = await calendarFiles();
+  const managed = new Set(calendar.filter(({ content }) => content.includes('meetupSource: meetup')).map(({ file }) => file));
+  const manualUrls = new Set(calendar
+    .filter(({ content }) => !content.includes('meetupSource: meetup'))
+    .map(({ content }) => content.match(/^externalUrl:\s*["']?([^\s"']+)/m)?.[1])
+    .filter(Boolean));
   const desired = new Map();
 
-  for (const group of result) {
-    for (const { node: event } of group.events.edges) {
-      if (!event.id || !event.dateTime || !event.eventUrl || !event.title) {
-        throw new Error(`Meetup event from ${group.name} is missing required calendar fields.`);
-      }
-      desired.set(path.join(CALENDAR_DIR, `meetup-${event.id}.md`), eventFile(event, group.name));
+  for (const { events, groupName } of groupEvents) {
+    for (const { event, metadata } of events) {
+      if (event.STATUS === 'CANCELLED' || manualUrls.has(event.URL)) continue;
+      desired.set(path.join(CALENDAR_DIR, `meetup-${eventId(event, event.URL)}.md`), eventFile(event, metadata, groupName));
     }
   }
 
-  await mkdir(CALENDAR_DIR, { recursive: true });
-  const existing = new Set(await managedFiles());
   const changes = [];
-
   for (const [file, content] of desired) {
-    let current;
-    try {
-      current = await readFile(file, 'utf8');
-    } catch (error) {
-      if (error.code !== 'ENOENT') throw error;
-    }
+    const current = calendar.find((entry) => entry.file === file)?.content;
     if (current !== content) {
       changes.push(`${current === undefined ? 'add' : 'update'} ${file}`);
       if (!DRY_RUN) await writeFile(file, content);
     }
-    existing.delete(file);
+    managed.delete(file);
   }
 
-  for (const file of existing) {
+  for (const file of managed) {
     changes.push(`remove ${file}`);
     if (!DRY_RUN) await rm(file);
   }
