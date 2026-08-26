@@ -38,9 +38,6 @@ menu:
     - name: "Podcast"
       url: "/podcast/"
       weight: 20
-    - name: "Summit"
-      url: "/summit/"
-      weight: 30
     - name: "Articles"
       url: "/articles/"
       weight: 40

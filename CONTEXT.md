@@ -44,3 +44,8 @@ whose archived episodes also live under `/podcast/`. A distinct podcast from **T
 PowerShell Podcast** despite sharing the section — it has its own hosts and is not
 covered by the Podbean feed or the sync. Episodes are told apart by their audio host:
 Podbean (`mcdn.podbean.com`) means The PowerShell Podcast; libsyn means PowerScripting.
+
+**PowerShell Summit**:
+The event whose canonical public website is `https://powershellsummit.org/`.
+PowerShell.org refers visitors to that site rather than presenting a separate
+event-information destination.
