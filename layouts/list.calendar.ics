@@ -1,0 +1,21 @@
+{{- $calendar := "BEGIN:VCALENDAR\n" -}}
+{{- $calendar = printf "%s%s" $calendar (partial "header.ics" .) -}}
+{{- $timezones := slice -}}
+{{- range .Pages -}}
+  {{- if .Params.startDate -}}
+    {{- $timezone := partial "ical/get_timezone.ics" . -}}
+    {{- if not (in $timezones $timezone) -}}
+      {{- $timezones = $timezones | append $timezone -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $timezones -}}
+  {{- $calendar = printf "%s%s" $calendar (partial "timezone.ics" .) -}}
+{{- end -}}
+{{- range .Pages -}}
+  {{- if .Params.startDate -}}
+    {{- $calendar = printf "%s%s" $calendar (partial "event.ics" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $calendar = printf "%sEND:VCALENDAR\n" $calendar -}}
+{{- replace $calendar "\n" "\r\n" -}}

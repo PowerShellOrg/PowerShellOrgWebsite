@@ -65,7 +65,7 @@
                     <!-- Event Details -->
                     <div class="p-6 flex-1">
                         <h3 class="text-xl font-bold text-gray-900 mb-2">{{ .Title }}</h3>
-                        <p class="text-gray-600 mb-3">{{ .Summary }}</p>
+                        <p class="text-gray-600 mb-3">{{ .Summary | plainify | truncate 240 }}</p>
                         <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
                             <div class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-purple-600 mr-2"></i>

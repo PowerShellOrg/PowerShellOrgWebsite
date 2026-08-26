@@ -1,0 +1,42 @@
+name: Sync Meetup Events
+
+on:
+  schedule:
+    - cron: '15 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-meetup-events
+  cancel-in-progress: false
+
+jobs:
+  sync-meetup-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync upcoming Meetup events
+        run: node .github/scripts/sync-meetup-events.mjs
+
+      - name: Create pull request for synchronized events
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          add-paths: |
+            content/calendar
+            data/meetup_groups.json
+          branch: automation/sync-meetup-events
+          commit-message: Sync Meetup events
+          title: Sync Meetup events
+          body: |
+            Automated synchronization of upcoming events from configured Meetup groups.
+          delete-branch: true

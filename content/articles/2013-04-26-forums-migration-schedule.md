@@ -15,4 +15,4 @@ From **Now until May 4th,** the [old forums][1] will remain online and in-use. H
 On **May 13th** we will shut down the old forums and direct everyone to the new ones.  
 By **May 20** we will have migrated the content from the old forums into the new ones. These will be imported as static threads that are closed for new messages, but they'll still be searchable.
 
- [1]: /discuss/
+ [1]: https://forums.powershell.org

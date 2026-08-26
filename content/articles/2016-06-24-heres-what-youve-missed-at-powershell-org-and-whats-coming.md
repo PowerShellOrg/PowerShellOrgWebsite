@@ -25,8 +25,8 @@ But there's much more we can do to help you connect with community, so we're tak
 [Visit the survey to let us know][5] which ones you'd want, or don't care about.  
 And drop a comment below if there's something else you'd like to see or share!
 
- [1]: /ebooks/
+ [1]: /learning/
  [2]: https://powershell.org/mission/welcome-aboard/
  [3]: https://powershell.org/achievements/
- [4]: /videos/
+ [4]: /learning/
  [5]: http://674004.polldaddy.com/s/powershell-org-features

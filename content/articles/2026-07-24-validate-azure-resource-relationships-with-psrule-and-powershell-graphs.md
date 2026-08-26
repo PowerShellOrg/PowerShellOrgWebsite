@@ -1,9 +1,9 @@
 ---
 title: "Validate Azure Resource Relationships with PSRule and PowerShell Graphs"
 description: "Learn how to combine PSRule for Azure with PSQuickGraph to validate relationships that span multiple Bicep resources, such as VNet integration and private endpoint connectivity."
-author: eosfor
+author: Andrey Vernigora
 authors:
-  - eosfor
+  - Andrey Vernigora
 date: 2026-07-24T00:00:00+00:00
 categories:
   - DevOps

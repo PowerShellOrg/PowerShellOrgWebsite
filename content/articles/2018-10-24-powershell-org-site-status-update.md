@@ -17,7 +17,7 @@ Our site upgrade and re-theme is going well, and I wanted to outline some of the
 
 The **new theme** is largely successful and is fully implemented. We've seen some issues with the pop-up login/register dialog for some users; you can always visit 
  if you need a non-pop-up login experience.  
-The **new user profile and directory system** is online. This includes a [Member Directory][1], and a [Verified Profile Program][2]. Please read about the program very carefully if you intend to participate. We've unfortunately seen a lot of profiles missing photos, including photos of someone's dog, or using unacceptable Display Names. Not being in the Program does not impact your ability to use the rest of the site, but if you want to be in the Member Directory, you'll need to comply with the rules.  
+The **new user profile and directory system** is online. This includes a Member Directory, and a [Verified Profile Program][2]. Please read about the program very carefully if you intend to participate. We've unfortunately seen a lot of profiles missing photos, including photos of someone's dog, or using unacceptable Display Names. Not being in the Program does not impact your ability to use the rest of the site, but if you want to be in the Member Directory, you'll need to comply with the rules.  
 The new user profile system also, by default, **was sending clear-text passwords** for new registrations and password changes. That is demonstrably a bad idea, and I've finally figured out how to fix it. The problem was an interaction between about nine plugins and the core WordPress code, which took a hot minute (whilst dodging justifiably angry emails) to unravel.  
 If you are requesting a **password reset** and not getting the email, your spam filters are blocking it. Sorry. Emails of that type are commonly sent as phishing attempts, and so that's why they get blocked. You're welcome to create a new account, if you wish.  
 **Forums notifications** were known to be not-working and are now verified to be working. If you're not getting them, check the spam filters.  
@@ -29,6 +29,5 @@ I think that's it. If I'm missing anything, ask in the Comments, and I'll update
 
 
 
- [1]: /members
  [2]: https://powershell.org/members/our-verified-profile-program/
  [3]: /profile

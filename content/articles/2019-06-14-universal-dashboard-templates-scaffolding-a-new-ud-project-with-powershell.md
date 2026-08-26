@@ -16,18 +16,6 @@ _All code from this article is freely available on Github as a template reposito
 
 
 
-## Index {.wp-block-heading}
-
-
-  - 
-    [What are the advantages of project scaffolding](the-why)
-
-
-  - 
-    [How does ud-template work](the-how)
-
-
-
 ## The Why {.wp-block-heading}
 
 Why should you consider scaffolding a new project? While we're here, what exactly is scaffolding? Much like the term's origin a project scaffold is meant to build a consistent framework and design that you can use to build your projects with.

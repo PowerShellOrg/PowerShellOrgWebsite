@@ -96,3 +96,7 @@ jobs:
             --gc \
             --minify \
             --destination public
+
+      - name: Validate iCalendar feed
+        run: node scripts/validate-calendar.mjs public/calendar/calendar.ics
+

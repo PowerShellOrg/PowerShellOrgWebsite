@@ -15,7 +15,7 @@ aliases:
 Scripting Camp is a precursor to the Scripting Games, which will kick off in late April. During Camp, you'll have the opportunity to participate in two events. We aren't offering any prizes, but we will announce winners in the PowerShell.org blog, on Twitter, and so on. Camp is really a way for us to kick the tires on our new software platform.  
 If you want to participate, here's how:
 
-  * Start by visiting the [Games home page][1]. There, you'll find our competitor's guide, which includes best practices and scoring information. You'll also find instructions for providing feedback. Be sure to check back there frequently, as it's also where we'll be posting news and updates.
+  * Start by visiting the Games home page. There, you'll find our competitor's guide, which includes best practices and scoring information. You'll also find instructions for providing feedback. Be sure to check back there frequently, as it's also where we'll be posting news and updates.
   * You will need a Microsoft Live account in order to sign-in and participate.
   * Visit [TheScriptingGames.com][2] to join in.
 
@@ -24,5 +24,4 @@ The new platform isn't entirely feature-complete, but you should be able to get 
 We are definitely interested in your feedback. For example, the schedule reflects that of the actual Games. Unlike prior years, we will be having non-overlapping events. You'll have about five days to review the event details and submit an entry - better reflecting the time pressures of a production environment. There will be a discussion forum on PowerShell.org for your feedback - please let us know what you think!
 
 
- [1]: /games/
  [2]: http://thescriptinggames.com

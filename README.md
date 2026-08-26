@@ -32,6 +32,21 @@ npm run dev
 This serves the site at `http://localhost:1313` with hot-reload and draft posts
 visible. Save your Markdown file and the browser updates automatically.
 
+### Syncing Meetup user-group events
+
+The Community Calendar automatically syncs upcoming events from configured
+Meetup groups. Add the group's Meetup URL name to
+[`data/meetup_groups.json`](data/meetup_groups.json), then verify its public
+`https://www.meetup.com/<urlname>/events/ical/` feed contains the intended
+events. The scheduled **Sync Meetup Events** workflow reads that public feed
+and its linked event pages; no Meetup API key or OAuth token is required.
+
+To preview the generated calendar changes locally without writing files:
+
+```bash
+node .github/scripts/sync-meetup-events.mjs --dry-run
+```
+
 ## What the site includes
 
 - **Home** — community stats and the latest content.

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Micrograd training loss by epoch</title>
+  <desc id="desc">The loss falls from approximately 2.9 at epoch zero to 0.0032 at epoch 80.</desc>
+  <rect width="900" height="360" fill="white"/>
+  <line x1="72" y1="302" x2="876" y2="302" stroke="#d8dee4" stroke-width="1"/>
+  <text x="60" y="302" text-anchor="end" dominant-baseline="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">0</text>
+  <line x1="72" y1="209.333" x2="876" y2="209.333" stroke="#d8dee4" stroke-width="1"/>
+  <text x="60" y="209.333" text-anchor="end" dominant-baseline="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">1</text>
+  <line x1="72" y1="116.667" x2="876" y2="116.667" stroke="#d8dee4" stroke-width="1"/>
+  <text x="60" y="116.667" text-anchor="end" dominant-baseline="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">2</text>
+  <line x1="72" y1="24" x2="876" y2="24" stroke="#d8dee4" stroke-width="1"/>
+  <text x="60" y="24" text-anchor="end" dominant-baseline="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">3</text>
+  <line x1="72" y1="302" x2="72" y2="308" stroke="#24292f" stroke-width="1"/>
+  <text x="72" y="329" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">0</text>
+  <line x1="273" y1="302" x2="273" y2="308" stroke="#24292f" stroke-width="1"/>
+  <text x="273" y="329" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">20</text>
+  <line x1="474" y1="302" x2="474" y2="308" stroke="#24292f" stroke-width="1"/>
+  <text x="474" y="329" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">40</text>
+  <line x1="675" y1="302" x2="675" y2="308" stroke="#24292f" stroke-width="1"/>
+  <text x="675" y="329" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">60</text>
+  <line x1="876" y1="302" x2="876" y2="308" stroke="#24292f" stroke-width="1"/>
+  <text x="876" y="329" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#57606a">80</text>
+  <line x1="72" y1="24" x2="72" y2="302" stroke="#24292f" stroke-width="1.5"/>
+  <line x1="72" y1="302" x2="876" y2="302" stroke="#24292f" stroke-width="1.5"/>
+  <polyline points="72,33.163 82.05,174.037 92.1,266.137 102.15,284.533 112.2,291.511 122.25,294.386 132.3,296.05 142.35,297.137 152.4,297.9 162.45,298.463 172.5,298.894 182.55,299.235 192.6,299.51 202.65,299.737 212.7,299.928 222.75,300.089 232.8,300.228 242.85,300.349 252.9,300.455 262.95,300.548 273,300.631 283.05,300.706 293.1,300.772 303.15,300.833 313.2,300.888 323.25,300.938 333.3,300.984 343.35,301.026 353.4,301.065 363.45,301.101 373.5,301.134 383.55,301.166 393.6,301.195 403.65,301.222 413.7,301.247 423.75,301.271 433.8,301.293 443.85,301.314 453.9,301.334 463.95,301.353 474,301.371 484.05,301.388 494.1,301.404 504.15,301.419 514.2,301.433 524.25,301.447 534.3,301.46 544.35,301.473 554.4,301.485 564.45,301.496 574.5,301.507 584.55,301.518 594.6,301.528 604.65,301.537 614.7,301.547 624.75,301.556 634.8,301.564 644.85,301.573 654.9,301.58 664.95,301.588 675,301.596 685.05,301.603 695.1,301.61 705.15,301.616 715.2,301.623 725.25,301.629 735.3,301.635 745.35,301.641 755.4,301.647 765.45,301.652 775.5,301.658 785.55,301.663 795.6,301.668 805.65,301.673 815.7,301.678 825.75,301.682 835.8,301.687 845.85,301.691 855.9,301.695 865.95,301.699 876,301.703" fill="none" stroke="#0969da" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="72" cy="33.163" r="3.5" fill="#0969da"/>
+  <circle cx="172.5" cy="298.894" r="3.5" fill="#0969da"/>
+  <circle cx="273" cy="300.631" r="3.5" fill="#0969da"/>
+  <circle cx="373.5" cy="301.134" r="3.5" fill="#0969da"/>
+  <circle cx="474" cy="301.371" r="3.5" fill="#0969da"/>
+  <circle cx="574.5" cy="301.507" r="3.5" fill="#0969da"/>
+  <circle cx="675" cy="301.596" r="3.5" fill="#0969da"/>
+  <circle cx="775.5" cy="301.658" r="3.5" fill="#0969da"/>
+  <circle cx="876" cy="301.703" r="3.5" fill="#0969da"/>
+  <text x="474" y="352" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#24292f">epoch</text>
+  <text x="18" y="163" text-anchor="middle" transform="rotate(-90 18 163)" font-family="Inter,Arial,sans-serif" font-size="14" fill="#24292f">loss</text>
+</svg>
