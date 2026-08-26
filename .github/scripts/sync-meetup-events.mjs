@@ -76,15 +76,19 @@ function eventSchema(html, url) {
 
 function eventMetadata(event) {
   const virtual = /(?:Online|Mixed)EventAttendanceMode$/.test(event.eventAttendanceMode ?? '');
-  if (virtual && event.location?.['@type'] === 'VirtualLocation') {
-    return { virtual, where: 'Online' };
-  }
+  const locations = Array.isArray(event.location) ? event.location : [event.location].filter(Boolean);
+  const place = locations.find(({ '@type': type }) => type === 'Place');
 
-  const address = event.location?.address;
+  if (!place) return { virtual, where: virtual ? 'Online' : '' };
+
+  const address = place.address;
   const addressParts = typeof address === 'string'
     ? [address]
     : [address?.streetAddress, address?.addressLocality, address?.addressRegion, address?.addressCountry];
-  const where = [event.location?.name, ...addressParts].filter(Boolean).join(', ');
+  const where = [place.name, ...addressParts].filter(Boolean).reduce(
+    (parts, part) => parts.some((existing) => existing.toLowerCase().includes(part.toLowerCase())) ? parts : [...parts, part],
+    [],
+  ).join(', ');
   return { virtual, where };
 }
 
