@@ -4,7 +4,7 @@
   publish = "public"
 
 [[redirects]]
-  from = "/summit/"
+  from = "/summit"
   to = "https://powershellsummit.org/"
   status = 301
   force = true
@@ -29,8 +29,7 @@
 
 [[headers]]
   for = "/*.css"
-                    <a href="{{ .Site.Params.summit.registration_url }}"
-[themes/powershell-community/layouts/partials/footer.html#B4A2]
+  [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
@@ -45,7 +44,7 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-                    <li><a href="{{ .Site.Params.summit.registration_url }}" class="text-gray-400 hover:text-white transition-colors duration-200">Summit</a></li>
+  for = "/*.woff2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
