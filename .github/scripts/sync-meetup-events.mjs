@@ -102,7 +102,7 @@ function eventFile(event, metadata, groupName) {
 
 async function groups() {
   const parsed = JSON.parse(await readFile(GROUPS_FILE, 'utf8'));
-  if (!Array.isArray(parsed) || !parsed.every(({ urlname }) => typeof urlname === 'string' && urlname)) {
+  if (!Array.isArray(parsed) || !parsed.every((group) => group && typeof group === 'object' && typeof group.urlname === 'string' && group.urlname)) {
     throw new Error(`${GROUPS_FILE} must be an array of Meetup group objects with a urlname.`);
   }
   return parsed;
