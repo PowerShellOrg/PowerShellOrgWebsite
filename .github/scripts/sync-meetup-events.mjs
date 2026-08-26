@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const GROUPS_FILE = path.join('data', 'meetup_groups.json');
+const USER_GROUPS_DIR = path.join('content', 'user-groups');
 const CALENDAR_DIR = path.join('content', 'calendar');
 const DRY_RUN = process.argv.includes('--dry-run');
 
@@ -105,11 +105,23 @@ function eventFile(event, metadata, groupName) {
 }
 
 async function groups() {
-  const parsed = JSON.parse(await readFile(GROUPS_FILE, 'utf8'));
-  if (!Array.isArray(parsed) || !parsed.every((group) => group && typeof group === 'object' && typeof group.urlname === 'string' && group.urlname)) {
-    throw new Error(`${GROUPS_FILE} must be an array of Meetup group objects with a urlname.`);
-  }
-  return parsed;
+  const files = await readdir(USER_GROUPS_DIR, { withFileTypes: true });
+  const urlnames = new Set();
+
+  await Promise.all(files
+    .filter((file) => file.isFile() && file.name !== '_index.md' && file.name.endsWith('.md'))
+    .map(async (file) => {
+      const content = await readFile(path.join(USER_GROUPS_DIR, file.name), 'utf8');
+      const frontMatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      if (!frontMatter) return;
+
+      for (const [, url] of frontMatter[1].matchAll(/^\s+url:\s*["']?(https?:\/\/[^\s"']+)["']?\s*$/gmi)) {
+        const match = url.match(/^https:\/\/(?:www\.)?meetup\.com\/([^/?#]+)\/?$/i);
+        if (match) urlnames.add(match[1]);
+      }
+    }));
+
+  return [...urlnames];
 }
 
 async function fetchGroupEvents(urlname) {
@@ -141,7 +153,7 @@ async function calendarFiles() {
 
 async function main() {
   const configuredGroups = await groups();
-  const groupEvents = await Promise.all(configuredGroups.map(({ urlname }) => fetchGroupEvents(urlname)));
+  const groupEvents = await Promise.all(configuredGroups.map(fetchGroupEvents));
   await mkdir(CALENDAR_DIR, { recursive: true });
 
   const calendar = await calendarFiles();

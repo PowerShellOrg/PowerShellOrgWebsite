@@ -34,9 +34,9 @@ visible. Save your Markdown file and the browser updates automatically.
 
 ### Syncing Meetup user-group events
 
-The Community Calendar automatically syncs upcoming events from configured
-Meetup groups. Add the group's Meetup URL name to
-[`data/meetup_groups.json`](data/meetup_groups.json), then verify its public
+The Community Calendar automatically syncs upcoming events from Meetup links
+in [`content/user-groups/`](content/user-groups/). Add a group's Meetup URL to
+its `links` front matter, then verify its public
 `https://www.meetup.com/<urlname>/events/ical/` feed contains the intended
 events. The scheduled **Sync Meetup Events** workflow reads that public feed
 and its linked event pages; no Meetup API key or OAuth token is required.

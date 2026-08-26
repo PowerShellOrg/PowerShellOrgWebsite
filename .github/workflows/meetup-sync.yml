@@ -33,7 +33,6 @@ jobs:
         with:
           add-paths: |
             content/calendar
-            data/meetup_groups.json
           branch: automation/sync-meetup-events
           commit-message: Sync Meetup events
           title: Sync Meetup events
