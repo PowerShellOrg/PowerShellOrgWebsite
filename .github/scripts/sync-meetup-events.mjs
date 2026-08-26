@@ -115,8 +115,8 @@ async function groups() {
       const frontMatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
       if (!frontMatter) return;
 
-      for (const [, url] of frontMatter[1].matchAll(/^\s+url:\s*["']?(https?:\/\/[^\s"']+)["']?\s*$/gmi)) {
-        const match = url.match(/^https:\/\/(?:www\.)?meetup\.com\/([^/?#]+)\/?$/i);
+      for (const [, url] of frontMatter[1].matchAll(/^\s*url:\s*["']?(https?:\/\/[^\s"']+)["']?\s*$/gmi)) {
+        const match = url.match(/^https:\/\/(?:www\.)?meetup\.com\/([^\/?#]+)(?:[\/?#]|$)/i);
         if (match) urlnames.add(match[1]);
       }
     }));
