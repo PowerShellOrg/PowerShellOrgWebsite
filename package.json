@@ -16,5 +16,8 @@
     "node-fetch": "^3.3.2",
     "purgecss": "^5.0.0",
     "subset-font": "^2.5.0"
+  },
+  "allowScripts": {
+    "hugo-extended@0.152.2": true
   }
 }
