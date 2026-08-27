@@ -7,18 +7,19 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update-community:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: '18'
+          node-version: '24'
           
       - name: Install dependencies
         run: npm install node-fetch
@@ -26,10 +27,12 @@ jobs:
       - name: Fetch Discourse activity
         run: node .github/scripts/fetch-discourse-activity.js
         
-      - name: Commit updates
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/community_stats.json
-          git diff --staged --quiet || git commit -m "Update community stats"
-          git push
+      - name: Create pull request for updated community stats
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          add-paths: data/community_stats.json
+          branch: automation/update-community-stats
+          commit-message: Update community stats
+          title: Update community stats
+          body: Automated update from the PowerShell.org community forum.
+          delete-branch: true
