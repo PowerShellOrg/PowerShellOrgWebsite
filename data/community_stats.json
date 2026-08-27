@@ -1,10 +1,16 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Run command get-service and include the ...\"",
-      "time": "4 days ago",
+      "message": "New reply in \"PowerShell 7.x ISE...\"",
+      "time": "5 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
+    },
+    {
+      "message": "2 new topics this week",
+      "time": "This week",
+      "type": "stats",
+      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -14,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19362,
-    "total_posts": 118154,
-    "active_users": 9576,
-    "topics_this_week": 0
+    "total_topics": 19377,
+    "total_posts": 118283,
+    "active_users": 9539,
+    "topics_this_week": 2
   },
-  "last_updated": "2026-05-27T01:03:28.701Z"
+  "last_updated": "2026-08-27T23:11:53.045Z"
 }
