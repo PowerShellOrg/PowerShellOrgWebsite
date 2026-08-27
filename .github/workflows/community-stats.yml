@@ -5,6 +5,9 @@ on:
     - cron: '0 */4 * * *'  # Every 4 hours
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-community:
     runs-on: ubuntu-latest
