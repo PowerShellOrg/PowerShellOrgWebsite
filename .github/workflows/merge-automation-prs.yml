@@ -37,6 +37,7 @@ jobs:
           test "$(jq -r '.author.login' <<<"$pull_request")" = "${APP_SLUG}[bot]"
           test "$(jq -r '.baseRefName' <<<"$pull_request")" = main
           test "$(jq -r '.state' <<<"$pull_request")" = OPEN
+          test "$(jq -r '.headRefOid' <<<"$pull_request")" = "$HEAD_SHA"
           gh pr merge "$(jq -r '.number' <<<"$pull_request")" \
             --repo "$GITHUB_REPOSITORY" \
             --squash \
