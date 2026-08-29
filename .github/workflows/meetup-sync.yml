@@ -6,8 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 concurrency:
   group: sync-meetup-events
@@ -28,9 +27,17 @@ jobs:
       - name: Sync upcoming Meetup events
         run: node .github/scripts/sync-meetup-events.mjs
 
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+
       - name: Create pull request for synchronized events
         uses: peter-evans/create-pull-request@v8.1.1
         with:
+          token: ${{ steps.app-token.outputs.token }}
           add-paths: |
             content/calendar
           branch: automation/sync-meetup-events

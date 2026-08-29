@@ -6,8 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   update-community:
@@ -27,9 +26,17 @@ jobs:
       - name: Fetch Discourse activity
         run: node .github/scripts/fetch-discourse-activity.js
         
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+
       - name: Create pull request for updated community stats
         uses: peter-evans/create-pull-request@v8.1.1
         with:
+          token: ${{ steps.app-token.outputs.token }}
           add-paths: data/community_stats.json
           branch: automation/update-community-stats
           commit-message: Update community stats

@@ -9,8 +9,7 @@ on:
 # episode could roll off the feed. See docs/adr/0003-incremental-podcast-sync.md.
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   sync-podcast:
@@ -30,9 +29,17 @@ jobs:
       - name: Sync podcast feed
         run: node .github/scripts/sync-podcast-feed.js
 
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+
       - name: Create pull request for new episodes
         uses: peter-evans/create-pull-request@v8.1.1
         with:
+          token: ${{ steps.app-token.outputs.token }}
           add-paths: |
             content/podcast
           branch: automation/sync-podcast
