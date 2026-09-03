@@ -7,7 +7,7 @@
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19378,
     "total_posts": 118293,
     "active_users": 9539,
-    "topics_this_week": 2
+    "topics_this_week": 1
   },
-  "last_updated": "2026-09-03T12:26:31.912Z"
+  "last_updated": "2026-09-03T16:18:05.219Z"
 }
