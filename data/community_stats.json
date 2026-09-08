@@ -1,18 +1,6 @@
 {
   "activities": [
     {
-      "message": "New reply in \"PowerShell script for setting NTFS permi...\"",
-      "time": "6 days ago",
-      "type": "reply",
-      "color": "bg-purple-500"
-    },
-    {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
-    },
-    {
       "message": "Active PowerShell discussions ongoing",
       "time": "Ongoing",
       "type": "community",
@@ -23,7 +11,7 @@
     "total_topics": 19378,
     "total_posts": 118293,
     "active_users": 9540,
-    "topics_this_week": 1
+    "topics_this_week": 0
   },
-  "last_updated": "2026-09-08T08:23:23.226Z"
+  "last_updated": "2026-09-08T12:25:45.589Z"
 }
