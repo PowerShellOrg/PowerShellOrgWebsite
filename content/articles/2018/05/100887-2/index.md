@@ -1,0 +1,92 @@
+---
+url: /articles/2018-05-19-100887-2/
+title: Executing LINQ Queries in PowerShell – Part 1
+authors:
+  - Eli Hess
+date: "2018-05-19T16:10:35+00:00"
+categories:
+  - PowerShell for Admins
+  - Tips and Tricks
+aliases:
+  - /2018/05/100887-2/
+---
+
+Greetings PowerShellers!  
+Lately, I've been itching to write something up on Microsoft’s Language-Integrated Query (LINQ). You've likely encountered it if you've done any development in C#. LINQ is an incredibly powerful querying tool for performing look-ups, joins, ordering, and other common tasks on large data sets. We have a few similar cmdlets built into PowerShell, but other than the '.Where()' method on collection objects nothing that comes close to the speed at which LINQ operates.  
+To dig into this topic, we're going to have to do a quick high level overview of a couple of other .NET staples often encountered in the C# world. You see, unlike most .NET methods which accept object types like integers, strings, and the like, LINQ uses static extension methods which only accept delegate object types.  
+What are delegates? In application development, there is an occasional need for objects within memory to communicate with each other for things such as "button click events." To address this, the Windows API uses function pointers to create callback functions which then report back to other functions in your applications. Within the .Net Framework, these are called delegates.  
+Delegates are objects that point to another method, or possibly many methods, by storing three key pieces of information: the address of the method on which it makes calls, the parameters (if any) of this method, and the return type (if any) of this method. With this information, a delegate object is able to invoke these methods dynamically at runtime, either synchronously or asynchronously. With this information, a delegate object is able to invoke these methods dynamically at runtime, either synchronously or asynchronously.  
+A simple example of this in C# looks like this:
+
+
+`using System;
+namespace SimpleDelegate
+{
+    //Delegate declaration
+    public delegate void PrintMessage(string msg);
+    // Create a class with the method to bind to the delegate
+    public class MessagePrinter
+    {
+        public static void PrintLine(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Create a PrintMessage delegate object that
+            // "points to" MessagePrinter.PrintLine().
+            PrintMessage p = new PrintMessage(MessagePrinter.PrintLine);
+            p("Hi Animatronio!");
+            Console.ReadLine();
+        }
+    }
+}
+`Clearly, in this example the use of delegates is not necessary. I'm just trying to frame up how they would be declared and subsequently called. To simplify all of the above, Microsoft has created two generic delegate definitions. For delegates with no output, we can use Action<> and for delegates with output, we can use Func<>. These two beauties are what give us PowerShellers access to LINQ. Today we're going to use Func<> because we want output. The syntax for doing so looks like this:
+
+
+`[Func[int,int]]$Delegate = { param($i); return $i + 1 }
+`Let's break this down left to right:
+
+  1. Declare Func<>
+  2. Tell it the type of parameter(s) to expect. In this case we're passing a single integer parameter.
+  3. Tell it the type of output to produce, again an integer will be returned.
+  4. Name the delegate variable.
+  5. Define the delegate with a scriptblock. We're just doing a very simple addition step on the parameter and returning the output.
+
+And now we've finally arrived at the meat of this article. Let's initialize a mock dataset with ~2 million objects to play with:
+
+
+`$Dataset = @()
+0..1000 | Foreach-Object { $Dataset += (Get-Verb)[(Get-Random -Maximum 98)] }
+0..10 | ForEach-Object {$Dataset += $Dataset}
+`Next we'll measure how long it takes to filter down to only the objects which equal "Get" using Where-Object on three different Windows Server OS's running on the same Azure compute instances:
+
+
+`Measure-Command { ($Dataset | Where-Object Verb -eq "Use") }
+# 2008 R2: TotalSeconds : 23.3399981
+# 2012 R2: TotalSeconds : 61.7634027
+# 2016   : TotalSeconds : 18.0190367
+`Now let's do the same query using LINQ:
+
+
+`[Func[object,bool]] $Delegate = { param($v); return $v.verb -eq "Use" }
+Measure-Command { [Linq.Enumerable]::Where($Dataset,$Delegate) }
+# 2008 R2: TotalSeconds : 11.3967464
+# 2012 R2: TotalSeconds : 25.6511816
+# 2016   : TotalSeconds : 12.8999417
+`As you can see, in the older operating systems, LINQ is over twice as fast (also, what's the deal with 2012 R2??). In 2016, it's only about 50% faster. But of course, calling '.Where()' directly on the object is still by far the fastest way to filter on a dataset:
+
+
+`Measure-Command { $Dataset.Where( {$_.Verb -eq "Use"}) }
+# 2008 R2: TotalSeconds : 5.5102392
+# 2012 R2: TotalSeconds : 17.5893828
+# 2016   : TotalSeconds : 6.1834444
+`Initially I had suspected it was translating the scriptblock as an anonymous function and tapping into the LINQ extension method behind the scenes, but Bruce Payette set me straight. According to Bruce, It's using a very low level API to invoke the scriptblock. [Source code is here][1].  
+So if '.Where()' is so much faster, why did I bother writing this? I wanted to open with a familiar concept. The true power in LINQ comes from its SQL-like ability to aggregate and manipulate data. In the next blog, we'll take a look at grouping data, using joins, and why that's awesome.  
+Until then, happy tinkering!  
+-Eli
+
+ [1]: https://github.com/PowerShell/PowerShell/blob/master/src/System.Management.Automation/engine/runtime/Operations/MiscOps.cs#L2425

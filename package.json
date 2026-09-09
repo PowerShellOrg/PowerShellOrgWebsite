@@ -8,6 +8,7 @@
     "build": "hugo --gc --minify",
     "build:css": "node scripts/build-tailwind.mjs",
     "build:icons": "node scripts/build-icons.mjs",
+    "validate:articles": "node scripts/validate-article-bundles.mjs",
     "preview": "hugo server --environment production"
   },
   "devDependencies": {

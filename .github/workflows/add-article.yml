@@ -72,7 +72,7 @@ jobs:
           if not slug:
               # Title was only punctuation / non-ASCII — fall back to the issue number.
               slug = f"article-{os.environ['ISSUE_NUMBER']}"
-          filename = f"{today.strftime('%Y-%m-%d')}-{slug}.md"
+          route = f"/articles/{today.strftime('%Y-%m-%d')}-{slug}/"
 
           fm = {
               'title': title,
@@ -80,6 +80,7 @@ jobs:
               'authors': [author] if author else [],
               'date': date_str,
               'description': description,
+              'url': route,
           }
           if category:
               fm['categories'] = [category]
@@ -89,8 +90,8 @@ jobs:
           front = yaml.safe_dump(fm, default_flow_style=False, allow_unicode=True, sort_keys=False)
           document = '---\n' + front + '---\n\n' + content + '\n'
 
-          filepath = f'content/articles/{filename}'
-          os.makedirs('content/articles', exist_ok=True)
+          filepath = f"content/articles/{today.strftime('%Y')}/{today.strftime('%m')}/{slug}/index.md"
+          os.makedirs(os.path.dirname(filepath), exist_ok=True)
           with open(filepath, 'w', encoding='utf-8') as f:
               f.write(document)
 

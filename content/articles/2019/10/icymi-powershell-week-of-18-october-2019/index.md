@@ -1,0 +1,96 @@
+---
+url: /articles/2019-10-18-icymi-powershell-week-of-18-october-2019/
+title: "ICYMI: PowerShell Week of 18-October-2019"
+authors:
+  - Robin Dadswell
+date: "2019-10-18T15:00:38+00:00"
+categories:
+  - PowerShell for Admins
+  - PowerShell for Developers
+tags:
+  - ICYMI
+  - Community
+  - Weekly Roundup
+legacy_featured_image: /wp-content/uploads/2018/08/shutterstock_399116026.jpg
+aliases:
+  - /2019/10/icymi-powershell-week-of-18-october-2019/
+---
+
+Topics include idempotency, Jenkins, PowerShell for beginners and more.
+
+
+  <!--more-->
+
+
+  Special thanks to Robin Dadswell, Prasoon Karunan V, and Kevin Laux.
+
+
+###### 
+  [*PowerShell Beginners Have to Start Somewhere*](https://powershell.anovelidea.org/powershell/iron-scripter-challenge-beginner-walk-through/)
+
+
+  by Dave Carroll on 13th October
+
+
+  A nice beginners guide to learning PowerShell with an overview of many concepts.
+
+
+###### 
+  [*Writing Idempotent PowerShell scripts*](https://robindadswell.github.io/blog/2019/10/14/writing-idempotent-powershell-scripts)
+
+
+  by Robin Dadswell on 14th October 2019
+
+
+  An insight into how to write idempotent PowerShell scripts using a file as a simple example.
+
+
+###### 
+  [*Encrypting Text (Part 1)*](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/encrypting-text-part-1)
+
+
+  by Idera website on 15th October 2019
+
+
+  Let’s take a look at a safe way of encrypting text on a computer. The Protect-Text function in this article takes any text and encrypts it automatically, no password needed. Instead of a password, it uses either your user account and machine, or just your machine as a secret.
+
+
+###### 
+  [*Running PowerShell Scripts With Jenkins and Git*](https://adamtheautomator.com/jenkins-powershell-git/)
+
+
+  by Phillip Marshall on 17th October
+
+
+  Learn how to integrate Git version control with Jenkins to set up and schedule PowerShell scripts to run at predefined schedules.
+
+
+###### 
+  [*Web Scraping with PowerShell*](https://www.pipehow.tech/invoke-webscrape/)
+
+
+  by Emanuel Palm on 17th October
+
+
+  Sometimes you end up in situations where you want to get information from an online source such as a webpage, but the service has no API available for you to get information through and it’s too much data to manually copy and paste. Or maybe you need to register a lot of entries on a website, but don’t have a bored friend to help out. Fear not, PowerShell can be your bored friend if you ask nicely!
+
+
+###### 
+  [*Reddit /r/PowerShell - Most Popular Weekly Post*](https://www.reddit.com/r/PowerShell/comments/dgqty6/list_of_best_online_courses_to_learn_powershell/)
+
+
+  User gandhiN puts together a list of the best courses online to learn PowerShell, linking to sites like Pluralsight, Skillshare and Udemy.
+
+
+###### 
+  [*Tweet of the Week*](https://twitter.com/PSConfEU/status/1183628841828474881)
+
+
+  A call for speakers for PSConf Europe June 2020.
+
+
+###### 
+  [*Youtube: PowerShell Errors and Exceptions Handling*](https://www.youtube.com/watch?v=A6afjA5Q9eM)
+
+
+  Learn how to handle PowerShell Errors and Exceptions. See how to recognize and deal with non-terminating and terminating PowerShell errors. Take control and handle various errors with try catch. Explore rich PowerShell error objects and see how to drill down into error properties. Wrap up with a practical example where you can provide better feedback to your users when your PowerShell code encounters the unexpected.

@@ -16,10 +16,10 @@ If you're not comfortable with Git, you can pitch or submit your article through
 
 1. Fork this repository
 2. Create a new branch for your article
-3. Add your article as a Markdown file in `content/articles/` using this naming convention:
+3. Create an Article leaf bundle beneath its publication year and month:
 
    ```
-   content/articles/YYYY-MM-DD-your-article-slug.md
+   content/articles/YYYY/MM/your-article-slug/index.md
    ```
 
 4. Use this front matter template:
@@ -32,6 +32,7 @@ If you're not comfortable with Git, you can pitch or submit your article through
    authors:
      - Your Name
    date: "YYYY-MM-DDT00:00:00+00:00"
+   url: /articles/YYYY-MM-DD-your-article-slug/
    categories:
      - Category Name
    tags:
@@ -42,10 +43,12 @@ If you're not comfortable with Git, you can pitch or submit your article through
    Your article content in Markdown goes here.
    ```
 
-   > Tip: If you have the [Front Matter CMS](https://frontmatter.codes/) extension
-   > installed in VS Code, run **"Create content"** in the `content/articles`
-   > folder — it scaffolds the file name (`YYYY-MM-DD-slug.md`) and all of the
-   > front matter fields above for you.
+   > Tip: create a new Article with Hugo from the repository root. Set `$slug` to a lowercase, hyphenated title, then replace the generated front matter values:
+   >
+   > ```powershell
+   > $date = Get-Date
+   > hugo new "articles/$($date.ToString('yyyy'))/$($date.ToString('MM'))/$slug/index.md"
+   > ```
 
 5. Submit a pull request with a brief description of your article
 

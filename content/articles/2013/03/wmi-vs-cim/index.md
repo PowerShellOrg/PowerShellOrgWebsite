@@ -1,0 +1,30 @@
+---
+url: /articles/2013-03-24-wmi-vs-cim/
+title: WMI vs CIM
+authors:
+  - Richard Siddaway
+date: "2013-03-24T12:03:24+00:00"
+aliases:
+  - /2013/03/wmi-vs-cim/
+---
+
+An email debate yesterday regarding the use of the CIM cmdlets (new in PowerShell 3) vs the WMI cmdlets made me realise that other people are probably wondering the same thing,
+
+The question is really part of a the semi-philosophical debate about when you should adopt new technology.
+
+In the case of the WMI/CIM cmdlets the resolution is fairly straightforward.
+
+If you are using PowerShell v2 you have to use the WMI cmdlets.
+
+If you are using PowerShell v3 "“ even if you are accessing legacy systems I would recommend the CIM cmdlets.  There are a number of benefits to using the CIM cmdlets:
+
+  * use of WSMAN for remote access "“ no more DCOM error. You can drop back to DCOM for accessing systems with WSMAN 2 installed
+  * use of CIM sessions for accessing multiple machines
+  * Get-CIMClass for investigating WMI classes
+  * improved way of dealing with WMI associations
+
+As far as I am aware the only thing the CIM cmdlets can"™t do is access amended qualifiers such as the class description. Seeing that many classes don"™t that set it"™s not a major hardship.
+
+Now that I"™ve recommended you should use them I"™d better show you how "“ that will cover a mini-series of posts over the next few days
+
+[![](http://feeds.wordpress.com/1.0/comments/richardspowershellblog.wordpress.com/2819/)](http://feeds.wordpress.com/1.0/gocomments/richardspowershellblog.wordpress.com/2819/)![](http://stats.wordpress.com/b.gif?host=richardspowershellblog.wordpress.com&blog=16267735&%23038;post=2819&%23038;subd=richardspowershellblog&%23038;ref=&%23038;feed=1)

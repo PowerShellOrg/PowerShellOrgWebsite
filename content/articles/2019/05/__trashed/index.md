@@ -1,0 +1,63 @@
+---
+url: /articles/2019-05-30-__trashed/
+title: "PowerShell Summit: A First Time Experience"
+authors:
+  - Mark Roloff
+date: "2019-05-30T05:13:01+00:00"
+categories:
+  - PowerShell for Admins
+  - PowerShell Summit
+legacy_featured_image: /wp-content/uploads/2018/08/Full-Logo-No-year.png
+aliases:
+  - /2019/05/__trashed/
+---
+
+It's been a few weeks since Summit and I feel like my mind has finally started to settle from all of the ideas that I came back with. Plus, being away from home for a week means I had a lot of domestic work and daddy time to catch up on. When Will asked for volunteers to write about their first time experience, I decided to see if I could offer my take on the matter considering gulf between what I expected to get and what I ended up getting.
+
+### Expectations going in {.wp-block-heading}
+
+I've known about Summit for a few years, so had an idea of what I was flying off to. Prior year's sessions are easily available on YouTube and I've picked my way through them for particular topics that I've had a need to learn about. I've also seen plenty of post-Summit conversation about how much people have enjoyed it, how valuable the connections they made are, and how they can't wait to go back. I never dug terribly deep into it, though.
+
+My expectations were that I would arrive, awkwardly socialize with colleagues, maybe some sales or marketing folks, exchange company info with a phone number that I never answer, and attend sessions where I'd learn some cool new things.
+
+Enjoyably, I was quite wrong...
+
+### Straight to it {.wp-block-heading}
+
+I won't mince words here. If you're looking for a conference where the latest doodads and features (available in 6-12 months, I'm looking at you Ignite) are in your face, move along. This isn't it. There aren't really any sales or marketing at Summit (some sponsor booths, but you really have to seek them out). Unless you want to count Summit talking about how great Summit is for you, but I'm chalking that up as more a statement of fact than any kind of pitch.
+
+When Don Jones gave his keynote, he offered a lot of poignant observations about the state of our industry and where ops fits in with an ever-changing landscape that is more and more dominated by software methodologies. He talked about not letting your job own your career, about taking control of it for yourself, and about building a supportive community around the ownership and growth of our careers. It was all about climbing that pyramid toward self-actualization, and that's where communities like Summit seek to create an environment to help you along that climb.
+
+By the end of the first afternoon, I was already feeling pretty jazzed up on that alone.
+
+
+  ![](https://powershell.org/wp-content/uploads/2019/05/no_ordinary_conference.gif)
+
+
+### Sessions, hallway talks, and stickers {.wp-block-heading}
+
+Sessions are Summit's bread and butter, and definitely the primary place to see examples of cool tools, best practices, and novel ways of approaching problems that you may not have even known you had. 
+
+Leading up to the event, I spent time in the mobile app going over the sessions to plan out my agenda. Unfortunately, and this is a good problem to have, there was often more than one that I wanted to see during any given time slot. So, I took some advice that I was given during Sunday's reception; I sat in the ones that felt I would potentially want to ask questions in. This, along with prioritizing those sessions that I felt would be most beneficial to the direction I hope to steer my career, ended up working out pretty well for me.
+
+Each presenter that I saw, and I'm certainly not discounting those I didn't, did a fantastic job of really making their material something that I walked out thirsting for more of. And these sessions really dominated a lot of my thoughts for several days after getting home. My coworker (whom also attended) and I started to immediately brainstorm on how we could apply a lot of what was learned to our workflows and future projects, and I think our boss is both terrified and excited by that.
+
+Between sessions though, you've got a good opportunity to quickly chat up other attendees in the hall (or the speaker you just saw). People discussing the talk they saw, mentioning details of how they use $x in their environments... Before you know it, you're having mini-sessions between sessions and making mental notes to catch up with particular people during lunch r after-hours activities for more brain-picking. If you follow the community online, it's also common to run across the bloggers and maintainers whose work you probably use frequently. It's cool; they don't bite and everyone is happy to hear about how their contributions have helped others, and a lot of them want to know about _you_ too. 
+
+Stickers, now, are a curious point and a surprisingly omnipresent part of the event. If you think you're not really into stickers, you may very well leave Summit changed in that respect. They're everywhere. Custom stickers, vendor stickers, event stickers, stickers getting ooh'd and ah'd over like grade school kids and their pogs, and whenever someone enters a room to drop a pile on a table, people flock over them like pigeons at the park. It's a fun and geeky collectible to be proudly displayed on laptops or peg boards back home, and you may quickly find yourself hunting down the creators of certain designs. This, again, leads to making even more connections and getting to know the community.
+
+### A little coffee and casual chat {.wp-block-heading}
+
+The side sessions are late/last minute planned break outs that would typically not be recorded. Some examples included a meet and greet with the event's organizers, a meeting of user group organizers, and a brief introduction to PowerShell live streaming. Depending on your level of interest, these could easily be more valuable to you than the standard sessions and I decided to give them a little focus on my last day, when Brandon Lundt hosted a lean coffee session.
+
+This was an interesting format that I had never seen or heard of before; they honestly just had me at "coffee" and "deep discussion" in the description. This is how it works...
+
+Everyone writes a few topics on paper, puts them into a hat, those get sorted, and we'd move through them in order of popularity. Majority votes would keep a topic alive or move to the next every 10-15 minutes. 
+
+What we spent most of our time on was concerns around community engagement in user groups. Having recently taken up a co-leadership role in Denver's user group, my interest was piqued and I learned that lots of groups share similar struggles... Location, expanding their number of regulars with fresh faces, topics... And I walked away with some good ideas for addressing some of that. One of my favorites being a semi-regular event to simply get newcomers introduced to PowerShell, and once they've tasted the sweet freedom of automation, give them more. We may also try rotating our location every month or so to better appeal to more people across our sprawling city. Definitely plenty to discuss with my other partners in crime at the group.
+
+### Departing impressions {.wp-block-heading}
+
+I have difficulty imagining that anyone could attend Summit and _not_ walk away feeling at least a little humbled by how invested in itself this community is. Everybody you meet is happy to share their experiences and knowledge, eager to help others learn, and enthusiastic to see others grow. And I left with a strong desire to see if we can bring some of that flavor into our local group, and provide some support and guidance for people looking to own their careers.
+
+I'm definitely hoping to attend again next year and I'd absolutely encourage anyone else to as well. Even if you feel like a bit of a wallflower, there's tremendous value in it for you; both personally and professionally.
