@@ -97,6 +97,9 @@ jobs:
             --minify \
             --destination public
 
+      - name: Validate Article bundle output
+        run: npm run validate:articles
+
       - name: Validate iCalendar feed
         run: node scripts/validate-calendar.mjs public/calendar/calendar.ics
 

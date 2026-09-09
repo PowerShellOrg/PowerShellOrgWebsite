@@ -1,0 +1,36 @@
+---
+url: /articles/2020-01-03-196307-2/
+title: Keeping Your Secrets Secure
+authors:
+  - Eric Brookman (scriptingcaveman)
+date: "2020-01-03T19:47:36+00:00"
+categories:
+  - PowerShell for Admins
+aliases:
+  - /2020/01/196307-2/
+---
+
+Azure Key Vault: Keeping your Secrets Secure  
+I was tasked with creating a PowerShell script that would connect to a SFTP server and place a file. I immediately jumped at the opportunity and started thinking about what all I would need to accomplish this task. I knew I needed the script to be as secure as possible, but also knew I needed the username, password, and a key file so I could connect securely to the SFTP site. This brought up a number of security concerns. How could I be fully automated and not put that sensitive information in plain text in my script. Immediately I went to Powershell.org and started searching for ideas. I found there were a couple of really good ideas for securing this kind of data using built in encryption ( Protect-CMSMessage) and an extension that Dave Wyatt created, ProtectedData ( https://github.com/dlwyatt/ProtectedData). I spent numerous hours scraping through documentation from both sources. At the end of my quest through the wonderful world encryption, I ended up with the same problem. The decryption key and the data were still on the server and I had no way of monitoring its use. I started looking at third party key vaults. They would allow me to secure my data, log when it was accessed, and provide me the data easily when called through a REST API. The only thing was I was on a budget and very short timeline so I couldn’t write the PowerShell connector to the API. What a bust!  
+Alas! I found a Key Vault that not only had a REST API but had native PowerShell commandlets. Thanks, Microsoft! I started asking, what can I put in the vault and call from my script? I quickly discovered everything!  
+I created a key vault and started populating the data I wanted to secure. I chose to use Secrets to hold my username, password, SFTP server IP address, and Private Key. I connected to my Azure RM Account using my username / password. Using the built in commandlets, I would be able to pull the data I wanted. Obviously, I would need the server address:
+
+
+`Get-AzureKeyVaultSecret -VaultName BlogVault -Name IPAddress
+`This will return the secure object:  
+![](https://powershell.org/wp-content/uploads/2020/01/secure-object-300x108.png)  
+As you can see it is a secure string, but using POSH-SSH, I can’t pass this object as the computer name for the connection. Slight modification was needed:
+
+
+`(Get-AzureKeyVaultSecret -VaultName BlogVault -Name IPAddress).SecretValueText
+`This command gives me the string value of the secret that I stored. SUCCESS!! You could see the smoke coming from my keyboard as I typed my script with this knowledge. I didn’t even see the brick wall coming at me until I smacked it hard with my face. I connected to my Azure environment with my username and password! I am back at square one! Or so I thought. The Azure key vault has an API, which means it has to have a way for an application to connect. I found App Registrations in Azure. Create a new app, ignore the URI, add the application to the permissions for your key vault, copy the Application ID, Directory (Tenant) ID, and the Thumbprint of the certificate you used when creating the app. Now use that information to connect securely to your Azure RM Account. Using splatting, you can create the login information and log in with ease. When connecting using an application you need to specify “-ServicePrincipal”.
+
+
+`$azureconnection = @{
+	ApplicationID = “a3k43802-ckde-2kk3-5k4k-k2olsk30shhe8”;
+	TenantID = “28skckhh49-3983-28cj-dj3n-akcnfsio3983k”;
+	CertificateThumbprint = “A42695B978976C0925948DBA94AF0AC2D4BE425D”
+}
+Connect-AzureRmAccount -ServicePrincipal @azureconnection
+`Back in business! After connecting to my Azure RM Account using the application, I started creating splats for the rest of my communications. I embedded the get commands inside my splats so I am not assigning any of the secret information to variables directly. I have now created an application that is fully automated. I wrapped it in a file watcher script recommended by kvprasson, so as soon as a file is put into the directory a SFTP session is created, the file is placed in the root of the SFTP server, and reusing part of a module I built I verify the hash is the same on both ends of the transfer.  
+As is true in many situations, there are many ways to skin this cat. The method I used may not be the best for your situation, however, it is a good way to keep sensitive data away from the server on which you are working. I am excited to see how many other ways I am able to use Azure Key Vaults in future applications.

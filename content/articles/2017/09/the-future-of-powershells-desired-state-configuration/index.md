@@ -1,0 +1,30 @@
+---
+url: /articles/2017-09-13-the-future-of-powershells-desired-state-configuration/
+title: "The Future of PowerShell's Desired State Configuration"
+authors:
+  - Don Jones
+date: "2017-09-13T15:28:06+00:00"
+categories:
+  - PowerShell for Admins
+aliases:
+  - /2017/09/the-future-of-powershells-desired-state-configuration/
+---
+
+Microsoft [recently published a "Future of DSC" post][1] that I thought deserved some independent commentary.  
+<!--more-->
+
+
+Something to bear in mind is that the existing, open-source "DSC for Linux" was not authored by the PowerShell team. It was written by Microsoft's Unix Services team, and it doesn't currently offer the exact functionality of the Windows implementation. So some of this announcement is the PowerShell team actually "taking on" DSC for other platforms.  
+This includes a new Local Configuration Manager (LCM) for PowerShell Core, which implies it'll run anywhere PowerShell core does - Linux, macOS, and so on - as well as Windows, since PowerShell Core can run on Windows, too. It no longer requires the complex-to-install OMI stack, and it supports DSC resources written in PowerShell, Python scripts, and C/C++.  
+Now, it's important to note that this is a pre-release announcement, and the plans may not survive engagement. That's means the situation is still fluid, and it's probably a bit early to start making plans. This is a situation to _monitor,_ not _act upon,_ at this date.  
+This does mean that, if plans play out as they are now, _everything about DSC today will probably change a lot._ There will be new commands to replace things like Start-DscConfiguration. But some things won't change: the Pull Server protocol, for example, will be supported by DSC Core (this is easy to do as the protocol isn't complex and is all REST-based), so the existing Pull Server and Azure Automation DSC will still work.  
+The upside to all of this - and Microsoft's intent, from what I can tell - is to converge on a single code base for DSC, and make all platforms "first class citizens." Today's DSC - what the team calls "DSC for Windows PowerShell" or "Windows Management Framework (WMF) version of DSC" - is at a dead-end. They're not going to delete it, but they're going to focus development on DSC Core. _That_ has implications. It means that, in order to move forward, any custom resources you write and use need to use native C/C++, PowerShell 6 scripts, or commands that are supported under .NET Standard 2.0. WMI is right out, although it'll be interesting to see if the team maintains that stance, or chooses to make WMI available on Windows but not on Linux (which would break the "same code running everywhere" philosophy they're currently aimed at).  
+The native Pull server's future appears to be unknown. I'm not sure that's a bad thing; it's presented nowadays as "sample code," and it's always been a problematic and minimally-useful chunk of code. I wish more people were looking at [Tug][2], which is an open-source Pull Server framework that you can code up (in PowerShell or .NET) to act however you want. It comes with a simple implementation that more or less mimics the native Pull Server, without the Jet database engine dependency (fun story: Jet/EBD was chosen because the team could get it working on Nano, and now Nano isn't ever going to be used for that purpose as it's been repositioned as a "container OS"). If more people invested in Tug, DSC would be a lot better off overall.  
+My thoughts?  
+Overall, "yay" for "same functionality on all platforms." The potential need to rewrite a crapload of DSC resources, and possibly losing WMI (if I'm reading this right), is a big "boo," and might push people away from an already-fragile relationship with DSC. "Boo" also to another re-do of DSC (v4 to v5 was not immaterial), making it feel like Microsoft didn't really have a good long-term vision for the technology to begin with (and indeed, some of the architectural problems in v5, like how partial configurations work, further suggest a lack of vision). DSC Core may be a chance for Microsoft to re-think past approaches and fix mistakes, so "yay" if they do that along the way.  
+Predominantly, though, a big "boo" to a continued lack of tooling. I get that DSC is an "under the hood" technology latter, but like zero other teams at Microsoft have, at this point, helped pile any kind of tooling on top of it. It's like we have the Chef engine or Puppet engine, but not of the tooling that makes those things true _solutions._  
+Taking off my Microsoft fanboy hat, I can see it being difficult for a CIO to take a strong dependency on DSC at this point. We're aiming for its third iteration, which _will_ break backward compatibility and, in some ways, reduce functionality. Microsoft still can't produce a production-viable on-prem pull server, and doesn't seem interested in doing so. We still don't have any kind of management tooling (in part, I think, to the continued shitshow that is the System Center "strategy" these days), so DSC remains a highly do-it-yourself endeavor. Not every organization is going to be comfortable with that. I do think Tug - again, with some do-it-yourself investment - can make DSC vastly more intelligent and powerful (you can, for example, code it to assemble MOFs on-the-fly, extract configuration fragments from a database, or literally anything else you might want), but people in the Microsoft space are used to prepackaged solutions that just install and go.  
+I like the "write once, run anywhere" promise; that's what .NET was supposed to be all about when Microsoft stepped away from Java back in the day. I get how DSC Core, _for VMs running in Azure,_ may be a first-class citizen for dynamic, declarative configurations, and how that all leads nicely to a DevOps style footing. For on-prem, DSC is going to continue to be challenging for people who aren't accustomed to a lot of DIY, and who are trying to take hard and long-lasting dependencies on a configuration technology.
+
+ [1]: https://blogs.msdn.microsoft.com/powershell/2017/09/12/dsc-future-direction-update/
+ [2]: https://github.com/PowerShellOrg/tug

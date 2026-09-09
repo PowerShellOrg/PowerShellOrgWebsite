@@ -1,0 +1,57 @@
+---
+url: /articles/2017-08-01-76318-2/
+title: PowerShell and DevOps Global Summit 2018 – Call for Topics
+authors:
+  - Richard Siddaway
+date: "2017-08-01T09:49:30+00:00"
+categories:
+  - Announcements
+  - PowerShell Summit
+aliases:
+  - /2017/08/76318-2/
+---
+
+The PowerShell and DevOps Global Summit 2018 will be returning to the Meydenbauer center, Bellevue WA on 9-12 April 2018. PowerShell, and DevOps, experts from all over the world, including PowerShell team members, will once again join together to discuss and learn about maximizing PowerShell in the workplace in fast-paced, knowledge packed presentations. The Summit's also the place to explore and further your knowledge of DevOps principles and practices in a Windows environment, make new connections, learn new techniques, and offer something to your peers and colleagues. If you want to share your PowerShell or DevOps expertise, then this is your official call to submit presentations for selection!
+
+# Topic Areas:  What we are looking for
+
+The bulk of our sessions follow our now traditional 45-minute format. These sessions cover a wide aspect of PowerShell and DevOps expertise. Your proposed session should fit into one of the following areas:
+
+  * PowerShell Internals - A deep look into the inside workings of PowerShell and practical solutions that are built from them.
+  * PowerShell Features Deep Dive - These presentations are a deep look into configuring and working with PowerShell features and capabilities.
+  * DevOps in Practice - A deep dive into putting the DevOps principles into practice. Presentations should focus on what you're doing and how you're doing it.
+
+We are open to presentations across the entire ecosystem that has been built around PowerShell or the various DevOps tools. This includes Microsoft platforms and products that have PowerShell-based management tools as well as third party products.  New topics will be preferred over the recycling of older topics. However, we are still open to sessions on 'older' topics that address areas of great confusion or uncertainty.  
+We have a number agenda slots available for double length sessions. These sessions delve into the depths of a topic covering areas that need more than 45 minutes.
+
+#  What kind of sessions get selected?
+
+AIM HIGH, VERY HIGH - We're looking for technical sessions that go beyond - way beyond - 'beginner'. This is an 'experts' level conference and we expect the session to reflect that. We want attendees to finish each day with information leaking ... just a little bit ... out their eyeballs. We may accept some intermediate level sessions but please talk to us before spending a lot of time developing such a session.  
+We look for an abstract that's compelling and makes us want to see your session - so spend time writing a great abstract! We want sessions that offer real-world usability combined with "WOW, nobody talks about THAT" awesomeness. We want to see the code. Don't just talk about it - this is a PowerShell summit not a PowerPoint Summit. If your session isn't predominately demonstrations its probably not right for the Summit.  
+Summit presentations are intense and intimate often with plenty of audience interaction. You must expect questions and discussions. This is not a "lecture to the audience" event.  
+_If you have any doubts about the suitability of a particular session, please contact us -_ [_summit@powershell.org_][1] _- we're always happy to discuss proposed sessions._  
+Please note all sessions are to be delivered in English. Presenter will provide all equipment needed to deliver session(s), including a laptop or other computer. Presenter must be able to provide video by means of HDMI, DVI-D, or DisplayPort connectors - VGA is NOT supported. Presenter must be able to manually select an appropriate screen resolution for video output. Typically, 1024x768 or 1280x720 are preferred.  
+Internet connectivity is available in the conference center but bandwidth is limited. If you rely on connecting to the cloud for your sessions then consider recording any demonstrations as a contingency.
+
+# How to submit abstracts of presentations
+
+Go to - <https://www.papercall.io/summit2018>  
+Click Speak at PowerShell and DevOps Global Summit 2018 (scroll down to find the big green button at bottom right)  
+Login using Twitter, Facebook or one of the other options.  
+Complete the form. The name field will show your email address. If you could ensure your full name is in the Bio field this will make communication easier.  
+Click submit  
+Please contact summit At PowerShell dot org if you have any issues or problems.
+
+# Presentation submission deadline: When you should send it by
+
+Start submitting your presentation submissions immediately! The selection committee will start selecting presentations as soon as they arrive so you don't want to miss out. The last day we will accept presentation submissions will be **Sunday 1 October 2017**. This is a hard deadline - **NO** sessions will be accepted after this date.
+
+# When you will know you've been selected
+
+You will be informed if one or more of your presentations have been selected and notified by Wednesday 11 October 2017. Your notification email will include any further actions you need to take. We will notify all potential speakers by 23 October 2017 if their sessions haven't been accepted.  
+Speakers, with accepted sessions, will be given free admission to the event, including attendance at all official Summit activities. Speakers may not bring guests to the day sessions or evening events. We have a limited budget, and the number of speakers selected will be governed by that budget.  
+All speakers will receive a stipend, $400 for a 45-minute session and $800 for a double session, to assist with travelling and accommodation expenses.  
+The final agenda will be announced and posted on PowerShell.Org on, or about, Wednesday 1 November 2017.  
+We look forward to your submissions and your help in making PowerShell and DevOps Global Summit 2018 the most valuable IT/Dev conference of the year building on and surpassing the previous Summits!
+
+ [1]: mailto:summit@powershell.org
