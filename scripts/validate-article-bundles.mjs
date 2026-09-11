@@ -26,8 +26,8 @@ function stringValue(metadata, field) {
 }
 
 function listValues(metadata, field) {
-  const values = metadata.match(new RegExp(`^${field}:\\s*\\r?\\n((?:\\s{2}- .+\\r?\\n?)*)`, 'm'))?.[1] ?? '';
-  return [...values.matchAll(/^\s{2}-\s+(.+)$/gm)].map((value) => value[1].trim());
+  const values = metadata.match(new RegExp(`^${field}:\\s*\\r?\\n((?:\\s*- .+\\r?\\n?)*)`, 'm'))?.[1] ?? '';
+  return [...values.matchAll(/^\s*-\s+(.+)$/gm)].map((value) => value[1].trim());
 }
 
 function outputFile(route) { return join(outputRoot, route.replace(/^\//, ''), 'index.html'); }
