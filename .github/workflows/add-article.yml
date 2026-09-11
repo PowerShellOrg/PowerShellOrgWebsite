@@ -72,7 +72,6 @@ jobs:
           if not slug:
               # Title was only punctuation / non-ASCII — fall back to the issue number.
               slug = f"article-{os.environ['ISSUE_NUMBER']}"
-          route = f"/articles/{today.strftime('%Y-%m-%d')}-{slug}/"
 
           fm = {
               'title': title,
@@ -80,7 +79,6 @@ jobs:
               'authors': [author] if author else [],
               'date': date_str,
               'description': description,
-              'url': route,
           }
           if category:
               fm['categories'] = [category]
