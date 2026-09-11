@@ -58,9 +58,39 @@ function date(value, field, url) {
 function eventId(event, url) {
   const match = event.UID?.match(/^event_(.+?)@meetup\.com$/);
   if (match) return match[1];
-  const urlMatch = url.match(/\/events\/([^/?#]+)/);
+  const urlMatch = url?.match(/\/events\/([^/?#]+)/);
   if (urlMatch) return urlMatch[1];
   throw new Error(`Meetup calendar event has no recognized ID: ${url}`);
+}
+
+function eventPath(event) {
+  return path.join(CALENDAR_DIR, `meetup-${eventId(event, event.URL)}.md`);
+}
+
+export function calendarSyncPlan(calendar, groupEvents) {
+  const managed = new Set(calendar
+    .filter(({ content }) => content.includes('meetupSource: meetup'))
+    .map(({ file }) => file));
+  const manualUrls = new Set(calendar
+    .filter(({ content }) => !content.includes('meetupSource: meetup'))
+    .map(({ content }) => content.match(/^externalUrl:\s*["']?([^\s"']+)/m)?.[1])
+    .filter(Boolean));
+  const desired = new Map();
+  const cancelled = new Set();
+
+  for (const { events, groupName } of groupEvents) {
+    for (const { event, metadata } of events) {
+      const file = eventPath(event);
+      if (event.STATUS === 'CANCELLED') {
+        if (managed.has(file)) cancelled.add(file);
+        continue;
+      }
+      if (manualUrls.has(event.URL)) continue;
+      desired.set(file, eventFile(event, metadata, groupName));
+    }
+  }
+
+  return { desired, cancelled };
 }
 
 function eventSchema(html, url) {
@@ -158,21 +188,9 @@ async function main() {
   }
   const groupEvents = await Promise.all(configuredGroups.map(fetchGroupEvents));
   await mkdir(CALENDAR_DIR, { recursive: true });
-
   const calendar = await calendarFiles();
-  const managed = new Set(calendar.filter(({ content }) => content.includes('meetupSource: meetup')).map(({ file }) => file));
-  const manualUrls = new Set(calendar
-    .filter(({ content }) => !content.includes('meetupSource: meetup'))
-    .map(({ content }) => content.match(/^externalUrl:\s*["']?([^\s"']+)/m)?.[1])
-    .filter(Boolean));
-  const desired = new Map();
 
-  for (const { events, groupName } of groupEvents) {
-    for (const { event, metadata } of events) {
-      if (event.STATUS === 'CANCELLED' || manualUrls.has(event.URL)) continue;
-      desired.set(path.join(CALENDAR_DIR, `meetup-${eventId(event, event.URL)}.md`), eventFile(event, metadata, groupName));
-    }
-  }
+  const { desired, cancelled } = calendarSyncPlan(calendar, groupEvents);
 
   const changes = [];
   for (const [file, content] of desired) {
@@ -181,10 +199,9 @@ async function main() {
       changes.push(`${current === undefined ? 'add' : 'update'} ${file}`);
       if (!DRY_RUN) await writeFile(file, content);
     }
-    managed.delete(file);
   }
-
-  for (const file of managed) {
+  for (const file of cancelled) {
+    if (desired.has(file)) continue;
     changes.push(`remove ${file}`);
     if (!DRY_RUN) await rm(file);
   }
@@ -192,7 +209,9 @@ async function main() {
   console.log(changes.length ? changes.join('\n') : 'Meetup events are already synchronized.');
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exitCode = 1;
-});
+if (process.argv[1] && import.meta.url === new URL(process.argv[1], 'file:').href) {
+  main().catch((error) => {
+    console.error(error.message);
+    process.exitCode = 1;
+  });
+}
