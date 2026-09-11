@@ -50,19 +50,19 @@ for (const path of walk(contentRoot).filter((path) => path.endsWith(`${sep}index
   if (parts.length !== 4 || !/^\d{4}$/.test(parts[0]) || !/^\d{2}$/.test(parts[1])) continue;
   const markdown = readFileSync(path, 'utf8');
   const metadata = frontMatter(markdown);
-  const route = stringValue(metadata, 'url');
-  if (!route) fail(`Article must declare its preserved dated URL: ${path}`);
-  else sourceArticles.set(route, { aliases: listValues(metadata, 'aliases'), authors: listValues(metadata, 'authors'), categories: listValues(metadata, 'categories'), tags: listValues(metadata, 'tags'), year: parts[0], month: parts[1], path });
+  const explicitRoute = stringValue(metadata, 'url');
+  const route = explicitRoute ?? `/articles/${parts[0]}/${parts[1]}/${parts[2]}/`;
+  sourceArticles.set(route, { aliases: listValues(metadata, 'aliases'), authors: listValues(metadata, 'authors'), categories: listValues(metadata, 'categories'), tags: listValues(metadata, 'tags'), explicitRoute, year: parts[0], month: parts[1], path });
   for (const asset of markdown.matchAll(/\]\((\/images\/articles\/[^)#?]+)/g)) {
     if (!existsSync(join(outputRoot, asset[1].replace(/^\//, '')))) fail(`Referenced static asset is missing: ${asset[1]} (${path})`);
   }
 }
 
 const inventoryByRoute = new Map(inventory.map((article) => [article.route, article]));
-for (const route of sourceArticles.keys()) if (!inventoryByRoute.has(route)) fail(`Unexpected Article route: ${route}`);
+for (const [route, source] of sourceArticles) if (source.explicitRoute && !inventoryByRoute.has(route)) fail(`Unexpected preserved Article route: ${route}`);
 for (const article of inventory) {
   const source = sourceArticles.get(article.route);
-  if (!source) { fail(`Missing migrated Article for preserved route: ${article.route}`); continue; }
+  if (!source || source.explicitRoute !== article.route) { fail(`Missing migrated Article for preserved route: ${article.route}`); continue; }
   if (article.aliases.some((alias) => !source.aliases.includes(alias))) fail(`Article aliases changed: ${article.route}`);
   for (const field of ['authors', 'categories', 'tags']) if (JSON.stringify(source[field]) !== JSON.stringify(article[field])) fail(`Article ${field} changed: ${article.route}`);
   if (article.draft) continue;

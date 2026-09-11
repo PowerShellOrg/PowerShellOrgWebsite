@@ -10,10 +10,8 @@ PowerShell.org stewards.
 You're in the right place — most contributions don't require running the site at
 all. **[`CONTRIBUTING.md`](CONTRIBUTING.md)** walks you through each one:
 
-- **Write a guest blog post** — submit a Markdown article via a GitHub issue form
-  or a pull request to `content/articles/`.
-- **Add your author profile** — an avatar, bio, and links on your `/authors/<you>/`
-  page. Profiles are opt-in; your byline works without one.
+- **Write a guest blog post** — submit a Markdown Article via a GitHub issue form or a pull request. Articles are organized in `content/articles/` by publication year and month.
+- **Add your Author Profile** — an avatar, bio, and links on your `/authors/<you>/` page. Profiles are opt-in; your byline works without one.
 - **Submit a community event** — get your PowerShell event onto the calendar.
 - **Report a bug or broken link** — open an issue.
 

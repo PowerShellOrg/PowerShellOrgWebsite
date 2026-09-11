@@ -32,7 +32,6 @@ If you're not comfortable with Git, you can pitch or submit your article through
    authors:
      - Your Name
    date: "YYYY-MM-DDT00:00:00+00:00"
-   url: /articles/YYYY-MM-DD-your-article-slug/
    categories:
      - Category Name
    tags:
@@ -41,7 +40,10 @@ If you're not comfortable with Git, you can pitch or submit your article through
    ---
 
    Your article content in Markdown goes here.
+
    ```
+
+   The Article URL is derived from this hierarchy as `/articles/YYYY/MM/your-article-slug/`. Do not add `url:` for a new Article; it is reserved for migrated Articles that preserve a historic dated URL.
 
    > Tip: create a new Article with Hugo from the repository root. Set `$slug` to a lowercase, hyphenated title, then replace the generated front matter values:
    >
