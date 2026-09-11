@@ -88,8 +88,20 @@ jobs:
           front = yaml.safe_dump(fm, default_flow_style=False, allow_unicode=True, sort_keys=False)
           document = '---\n' + front + '---\n\n' + content + '\n'
 
-          filepath = f"content/articles/{today.strftime('%Y')}/{today.strftime('%m')}/{slug}/index.md"
+          year = today.strftime('%Y')
+          month = today.strftime('%m')
+          year_index = f'content/articles/{year}/_index.md'
+          month_index = f'content/articles/{year}/{month}/_index.md'
+          filepath = f'content/articles/{year}/{month}/{slug}/index.md'
+          if os.path.exists(filepath):
+              raise SystemExit(f'Article bundle already exists: {filepath}')
           os.makedirs(os.path.dirname(filepath), exist_ok=True)
+          if not os.path.exists(year_index):
+              with open(year_index, 'w', encoding='utf-8') as f:
+                  f.write(f'---\ntitle: "Articles from {year}"\ndescription: "PowerShell.org Articles published in {year}."\n---\n')
+          if not os.path.exists(month_index):
+              with open(month_index, 'w', encoding='utf-8') as f:
+                  f.write(f'---\ntitle: "Articles from {today.strftime("%B %Y")}"\ndescription: "PowerShell.org Articles published in {today.strftime("%B %Y")}."\n---\n')
           with open(filepath, 'w', encoding='utf-8') as f:
               f.write(document)
 
@@ -98,6 +110,8 @@ jobs:
               out.write(f'slug={slug}\n')
               out.write(f'filepath={filepath}\n')
               out.write(f'article_title={title}\n')
+              out.write(f'year_index={year_index}\n')
+              out.write(f'month_index={month_index}\n')
 
           print(f'Created {filepath}')
           PYEOF
@@ -108,6 +122,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLUG: ${{ steps.parse.outputs.slug }}
           FILEPATH: ${{ steps.parse.outputs.filepath }}
+          YEAR_INDEX: ${{ steps.parse.outputs.year_index }}
+          MONTH_INDEX: ${{ steps.parse.outputs.month_index }}
           ARTICLE_TITLE: ${{ steps.parse.outputs.article_title }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
@@ -115,7 +131,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add "$FILEPATH"
+          git add "$FILEPATH" "$YEAR_INDEX" "$MONTH_INDEX"
           git commit -m "Add article: ${ARTICLE_TITLE} (closes #${ISSUE_NUMBER})"
           git push origin "$BRANCH"
           gh pr create \
