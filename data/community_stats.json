@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Why get-member -name *date* doesn't work...\"",
-      "time": "2 hours ago",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19380,
-    "total_posts": 118311,
+    "total_posts": 118313,
     "active_users": 9533,
     "topics_this_week": 2
   },
-  "last_updated": "2026-09-15T00:46:59.176Z"
+  "last_updated": "2026-09-15T04:20:01.679Z"
 }
