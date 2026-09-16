@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"What topics are important for what I wan...\"",
-      "time": "9 hours ago",
+      "message": "New reply in \"Why get-member -name *date* doesn't work...\"",
+      "time": "3 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19381,
-    "total_posts": 118320,
+    "total_posts": 118321,
     "active_users": 9533,
-    "topics_this_week": 3
+    "topics_this_week": 2
   },
-  "last_updated": "2026-09-16T04:19:58.785Z"
+  "last_updated": "2026-09-16T08:23:43.333Z"
 }
