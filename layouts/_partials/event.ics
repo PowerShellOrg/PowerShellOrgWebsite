@@ -2,20 +2,25 @@
 {{- if or (eq hugo.Environment "development") (eq hugo.Environment "debug") }}{{ warnf "Partial used: %s" templates.Current.Name }}{{ end -}}
 {{- $timezone := partial "ical/get_timezone.ics" . -}}
 {{- $lang := .Site.Language.Lang -}}
+{{- $startDate := (time.AsTime .Params.startDate $timezone) | time.In $timezone -}}
+{{- $allDay := not (strings.Contains .Params.startDate "T") -}}
 {{- $endDate := "" -}}
 {{- if .Params.endDate -}}
   {{- $endDate = (time.AsTime .Params.endDate $timezone) | time.In $timezone -}}
 {{- end -}}
+{{- if $allDay -}}
+  {{- $endDate = (cond (ne $endDate "") $endDate $startDate).AddDate 0 0 1 -}}
+{{- end -}}
 {{- with dict `` `
   ` "description"  (dict "text" .Plain "lang" $lang) `` `
   ` "summary"      (dict "text" .Title "lang" $lang) `` `
-  ` "eventStart"   (dict "dateTime" ((time.AsTime .Params.startDate $timezone) | time.In $timezone) "timeZoneID" $timezone) `` `
+  ` "eventStart"   (dict "dateTime" $startDate "timeZoneID" $timezone) `` `
   ` "eventEnd"     (cond (ne $endDate "") (dict "dateTime" $endDate "timeZoneID" $timezone) nil) `` `
   ` "location"     (dict "text" (or .Params.where .Params.location) "lang" $lang) `` `
   ` "url"          (or .Params.externalUrl ((.OutputFormats.Get "HTML").Permalink)) `` `
   ` "contact"      (cond (and .Params.orga .Params.orgaEmail) (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" $lang) nil) `` `
   ` "color"        "7C3AED" `` `
-  ` "status"       (cond (.Params.cancelled | default false) "CANCELLED" "CONFIRMED") `` `
+  ` "allDay"       $allDay `` `
   ` "uid"          .File.UniqueID `` `
   ` "timestamp"    .Date `` `
   ` "created"      .Date `` `
