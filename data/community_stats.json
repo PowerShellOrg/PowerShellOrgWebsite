@@ -1,7 +1,7 @@
 {
   "activities": [
     {
-      "message": "New reply in \"What topics are important for what I wan...\"",
+      "message": "New reply in \"Why get-member -name *date* doesn't work...\"",
       "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19381,
-    "total_posts": 118332,
-    "active_users": 9531,
+    "total_posts": 118335,
+    "active_users": 9532,
     "topics_this_week": 2
   },
-  "last_updated": "2026-09-17T16:18:49.911Z"
+  "last_updated": "2026-09-17T20:17:14.961Z"
 }
