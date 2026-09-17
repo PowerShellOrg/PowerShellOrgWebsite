@@ -127,7 +127,7 @@ The actual script uses typed `SessionOrderingState` and `OrderSeq` objects, rath
 
 First, the producer sends `1`, `3`, and `4`. The reorderer forwards `1`, but it cannot forward `3` or `4`: both depend on the missing `2`. Those two messages are deferred and their sequence numbers are saved.
 
-![Terminal output after orders 3 and 4 have been deferred](/images/articles/service-bus-reordering-deferred.png)
+![Terminal output after orders 3 and 4 have been deferred](service-bus-reordering-deferred.png)
 
 The state is now:
 
@@ -138,11 +138,11 @@ Deferred = [3, 4]
 
 When `2` arrives, the reorderer forwards it and advances `LastSeen` to `2`. It can now retrieve deferred `3` by sequence number. After forwarding `3`, the same check makes `4` contiguous, so the script retrieves and forwards that message too.
 
-![Terminal output showing the ordered result 1, 2, 3, 4](/images/articles/service-bus-reordering-ordered-output.png)
+![Terminal output showing the ordered result 1, 2, 3, 4](service-bus-reordering-ordered-output.png)
 
 Here is the complete run:
 
-![Terminal screencast of the reordering example](/images/articles/service-bus-reordering-demo.gif)
+![Terminal screencast of the reordering example](service-bus-reordering-demo.gif)
 
 ## Running the experiment locally
 
