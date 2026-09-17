@@ -49,10 +49,13 @@ function eventsFromIcal(calendar) {
   return { events, groupName };
 }
 
-function date(value, field, url) {
-  const match = value?.match(/^(\d{4})(\d{2})(\d{2})/);
-  if (!match) throw new Error(`Meetup event ${url} has no valid ${field}.`);
-  return `${match[1]}-${match[2]}-${match[3]}`;
+function eventTime(value, field, url) {
+  if (typeof value !== 'string') throw new Error(`Meetup event ${url} has no valid ${field}.`);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return value;
+
+  const time = new Date(value);
+  if (Number.isNaN(time.valueOf())) throw new Error(`Meetup event ${url} has no valid ${field}.`);
+  return time.toISOString();
 }
 
 function eventId(event, url) {
@@ -104,12 +107,16 @@ function eventSchema(html, url) {
   throw new Error(`Meetup event page has no Event structured data: ${url}`);
 }
 
-function eventMetadata(event) {
+export function eventMetadata(event, url) {
   const virtual = /(?:Online|Mixed)EventAttendanceMode$/.test(event.eventAttendanceMode ?? '');
   const locations = Array.isArray(event.location) ? event.location : [event.location].filter(Boolean);
   const place = locations.find(({ '@type': type }) => type === 'Place');
+  const times = {
+    startDate: eventTime(event.startDate, 'start date', url),
+    endDate: event.endDate ? eventTime(event.endDate, 'end date', url) : undefined,
+  };
 
-  if (!place) return { virtual, where: virtual ? 'Online' : '' };
+  if (!place) return { ...times, virtual, where: virtual ? 'Online' : '' };
 
   const address = place.address;
   const addressParts = typeof address === 'string'
@@ -119,19 +126,17 @@ function eventMetadata(event) {
     (parts, part) => parts.some((existing) => existing.toLowerCase().includes(part.toLowerCase())) ? parts : [...parts, part],
     [],
   ).join(', ');
-  return { virtual, where };
+  return { ...times, virtual, where };
 }
 
 function eventFile(event, metadata, groupName) {
   const url = event.URL;
   if (!url) throw new Error('Meetup calendar event has no URL.');
 
-  const startDate = date(event.DTSTART, 'start date', url);
-  const endDate = event.DTEND ? date(event.DTEND, 'end date', url) : undefined;
-  const endDateField = endDate && endDate !== startDate ? `endDate: ${yaml(endDate)}\n` : '';
+  const endDateField = metadata.endDate ? `endDate: ${yaml(metadata.endDate)}\n` : '';
   const description = unescapeIcal(event.DESCRIPTION).trim();
 
-  return `---\nmeetupEventId: ${yaml(eventId(event, url))}\nmeetupSource: meetup\nstartDate: ${yaml(startDate)}\n${endDateField}title: ${yaml(unescapeIcal(event.SUMMARY))}\nexternalUrl: ${yaml(url)}\nvirtual: ${metadata.virtual}\nwhere: ${yaml(metadata.where || groupName)}\n---\n${description}\n`;
+  return `---\nmeetupEventId: ${yaml(eventId(event, url))}\nmeetupSource: meetup\nstartDate: ${yaml(metadata.startDate)}\n${endDateField}title: ${yaml(unescapeIcal(event.SUMMARY))}\nexternalUrl: ${yaml(url)}\nvirtual: ${metadata.virtual}\nwhere: ${yaml(metadata.where || groupName)}\n---\n${description}\n`;
 }
 
 async function groups() {
@@ -167,7 +172,7 @@ async function fetchGroupEvents(urlname) {
 
     const page = await fetch(event.URL);
     if (!page.ok) throw new Error(`Meetup event page returned ${page.status}: ${event.URL}`);
-    return { event, metadata: eventMetadata(eventSchema(await page.text(), event.URL)) };
+    return { event, metadata: eventMetadata(eventSchema(await page.text(), event.URL), event.URL) };
   }));
 
   return { events, groupName: calendar.groupName || urlname };
