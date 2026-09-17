@@ -4,7 +4,7 @@ description: "Turn an Azure address-space plan into correctly aligned CIDR block
 author: Andrey Vernigora
 authors:
   - Andrey Vernigora
-date: 2026-07-24T00:00:00+00:00
+date: "2026-09-21T00:00:00+00:00"
 categories:
   - PowerShell for Admins
 tags:
