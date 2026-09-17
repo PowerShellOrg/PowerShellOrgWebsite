@@ -87,13 +87,13 @@ for (const year of readdirSync(contentRoot, { withFileTypes: true }).filter((ent
   if (!existsSync(join(contentRoot, year.name, '_index.md'))) fail(`Year branch is missing _index.md: ${year.name}`);
   else checkOutput(yearRoute, `Year archive ${year.name}`);
   const yearHtml = archiveHtml(yearRoute);
-  for (const [route, source] of sourceArticles) if (source.year === year.name && !inventoryByRoute.get(route).draft && !includesRoute(yearHtml, route)) fail(`Article is missing from its year archive: ${route}`);
+  for (const [route, source] of sourceArticles) if (source.year === year.name && !inventoryByRoute.get(route)?.draft && !includesRoute(yearHtml, route)) fail(`Article is missing from its year archive: ${route}`);
   for (const month of readdirSync(join(contentRoot, year.name), { withFileTypes: true }).filter((entry) => entry.isDirectory())) {
     const monthRoute = `${yearRoute}${month.name}/`;
     if (!existsSync(join(contentRoot, year.name, month.name, '_index.md'))) fail(`Month branch is missing _index.md: ${year.name}/${month.name}`);
     else checkOutput(monthRoute, `Month archive ${year.name}/${month.name}`);
     const monthHtml = archiveHtml(monthRoute);
-    for (const [route, source] of sourceArticles) if (source.year === year.name && source.month === month.name && !inventoryByRoute.get(route).draft && !includesRoute(monthHtml, route)) fail(`Article is missing from its month archive: ${route}`);
+    for (const [route, source] of sourceArticles) if (source.year === year.name && source.month === month.name && !inventoryByRoute.get(route)?.draft && !includesRoute(monthHtml, route)) fail(`Article is missing from its month archive: ${route}`);
   }
 }
 
