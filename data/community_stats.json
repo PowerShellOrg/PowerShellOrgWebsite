@@ -1,7 +1,7 @@
 {
   "activities": [
     {
-      "message": "New reply in \"What topics are important for what I wan...\"",
+      "message": "New reply in \"What is important to learn to write prog...\"",
       "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19382,
-    "total_posts": 118342,
+    "total_posts": 118344,
     "active_users": 9530,
     "topics_this_week": 3
   },
-  "last_updated": "2026-09-18T16:16:11.148Z"
+  "last_updated": "2026-09-18T20:16:04.943Z"
 }
