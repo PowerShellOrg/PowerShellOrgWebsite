@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Why get-member -name *date* doesn't work...\"",
-      "time": "8 hours ago",
+      "message": "New reply in \"What is important to learn to write prog...\"",
+      "time": "1 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19381,
-    "total_posts": 118335,
-    "active_users": 9532,
-    "topics_this_week": 2
+    "total_topics": 19382,
+    "total_posts": 118337,
+    "active_users": 9529,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-09-18T04:19:15.214Z"
+  "last_updated": "2026-09-18T08:22:44.066Z"
 }
