@@ -1,13 +1,13 @@
 {
   "activities": [
     {
-      "message": "New reply in \"What is important to learn to write prog...\"",
-      "time": "8 hours ago",
+      "message": "New reply in \"Custom object array copied from the book...\"",
+      "time": "Just now",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "3 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -20,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19382,
-    "total_posts": 118345,
-    "active_users": 9531,
-    "topics_this_week": 2
+    "total_topics": 19383,
+    "total_posts": 118347,
+    "active_users": 9530,
+    "topics_this_week": 3
   },
-  "last_updated": "2026-09-19T04:18:20.177Z"
+  "last_updated": "2026-09-19T08:20:21.779Z"
 }
