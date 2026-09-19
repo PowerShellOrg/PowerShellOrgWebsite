@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"What is important to learn to write prog...\"",
-      "time": "4 hours ago",
+      "time": "8 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "3 new topics this week",
+      "message": "2 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -21,9 +21,9 @@
   ],
   "stats": {
     "total_topics": 19382,
-    "total_posts": 118344,
-    "active_users": 9530,
-    "topics_this_week": 3
+    "total_posts": 118345,
+    "active_users": 9531,
+    "topics_this_week": 2
   },
-  "last_updated": "2026-09-19T00:43:59.247Z"
+  "last_updated": "2026-09-19T04:18:20.177Z"
 }
