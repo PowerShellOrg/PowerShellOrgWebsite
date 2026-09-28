@@ -69,8 +69,11 @@ $movies |
 
 The script retrieves JSON, selects the columns needed by the page, and writes CSV to
 standard output. That last detail is important: standard output becomes the generated
-file. Send diagnostics to the information, warning, or error streams so they do not
-corrupt the CSV.
+file. When `pwsh` runs as an external process, PowerShell's information, warning,
+verbose, and debug streams are also written to standard output, so using them can
+corrupt the CSV. Write non-fatal diagnostics directly to standard error, for example
+with `[Console]::Error.WriteLine('message')`, and use `throw` when the loader should
+fail.
 
 You can test the loader independently:
 
