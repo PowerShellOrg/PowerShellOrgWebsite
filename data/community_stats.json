@@ -1,6 +1,12 @@
 {
   "activities": [
     {
+      "message": "New reply in \"Interesting script to see what your lapt...\"",
+      "time": "Just now",
+      "type": "reply",
+      "color": "bg-purple-500"
+    },
+    {
       "message": "Active PowerShell discussions ongoing",
       "time": "Ongoing",
       "type": "community",
@@ -9,9 +15,9 @@
   ],
   "stats": {
     "total_topics": 19384,
-    "total_posts": 118380,
+    "total_posts": 118381,
     "active_users": 9513,
     "topics_this_week": 0
   },
-  "last_updated": "2026-10-13T12:28:23.408Z"
+  "last_updated": "2026-10-13T16:19:53.417Z"
 }
