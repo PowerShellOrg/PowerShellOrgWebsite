@@ -1,10 +1,16 @@
 {
   "activities": [
     {
-      "message": "New reply in \"Looking for a powershell script that wil...\"",
-      "time": "5 days ago",
+      "message": "New reply in \"Unavailable old installer...\"",
+      "time": "2 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
+    },
+    {
+      "message": "1 new topics this week",
+      "time": "This week",
+      "type": "stats",
+      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -14,10 +20,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19385,
-    "total_posts": 118413,
-    "active_users": 9513,
-    "topics_this_week": 0
+    "total_topics": 19386,
+    "total_posts": 118414,
+    "active_users": 9512,
+    "topics_this_week": 1
   },
-  "last_updated": "2026-10-24T04:17:23.781Z"
+  "last_updated": "2026-10-24T08:19:50.877Z"
 }
