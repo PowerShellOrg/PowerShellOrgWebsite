@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Length of (exotic) string...\"",
-      "time": "Yesterday",
+      "time": "2 days ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -25,5 +25,5 @@
     "active_users": 9514,
     "topics_this_week": 2
   },
-  "last_updated": "2026-10-29T12:18:48.907Z"
+  "last_updated": "2026-10-29T16:14:37.277Z"
 }
