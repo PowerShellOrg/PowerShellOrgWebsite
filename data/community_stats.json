@@ -2,12 +2,12 @@
   "activities": [
     {
       "message": "New reply in \"Length of (exotic) string...\"",
-      "time": "15 hours ago",
+      "time": "19 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
     {
-      "message": "2 new topics this week",
+      "message": "1 new topics this week",
       "time": "This week",
       "type": "stats",
       "color": "bg-green-500"
@@ -23,7 +23,7 @@
     "total_topics": 19387,
     "total_posts": 118440,
     "active_users": 9514,
-    "topics_this_week": 2
+    "topics_this_week": 1
   },
-  "last_updated": "2026-10-31T04:12:09.710Z"
+  "last_updated": "2026-10-31T08:12:29.233Z"
 }
