@@ -1,16 +1,10 @@
 {
   "activities": [
     {
-      "message": "New reply in \"How can I remove duplicate files from my...\"",
-      "time": "5 hours ago",
+      "message": "New reply in \"Length of (exotic) string...\"",
+      "time": "3 days ago",
       "type": "reply",
       "color": "bg-purple-500"
-    },
-    {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -20,10 +14,10 @@
     }
   ],
   "stats": {
-    "total_topics": 19388,
-    "total_posts": 118442,
+    "total_topics": 19387,
+    "total_posts": 118443,
     "active_users": 9513,
-    "topics_this_week": 1
+    "topics_this_week": 0
   },
-  "last_updated": "2026-11-02T12:17:23.499Z"
+  "last_updated": "2026-11-02T16:13:08.848Z"
 }
