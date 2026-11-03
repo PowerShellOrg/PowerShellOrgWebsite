@@ -98,7 +98,7 @@
                     </div>
                     <!-- Arrow -->
                     <div class="hidden md:flex items-center pr-6">
-                        <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" aria-label="View event details">
+                        <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" aria-label="View details for {{ .Title }}">
                             <i class="fas fa-external-link-alt text-gray-400"></i>
                         </a>
                     </div>
@@ -125,7 +125,7 @@
         <div class="space-y-4 mb-10">
             {{ range (sort $past "Params.startDate" "desc") }}
             {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" $.Site) }}
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 opacity-75">
+            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4">
                 <div class="flex items-center justify-between">
                     <div>
                         <h3 class="font-semibold text-gray-700">{{ .Title }}</h3>

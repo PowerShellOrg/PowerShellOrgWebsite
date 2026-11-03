@@ -11,7 +11,7 @@
 */}}
 {{- $url := .externalUrl -}}
 {{- $site := .site -}}
-{{- $slugPattern := `^.*meetup\.com/([^/?#]+).*$` -}}
+{{- $slugPattern := `(?i)^https?://(?:www\.)?meetup\.com/([^/?#]+).*$` -}}
 {{- $match := "" -}}
 {{- if $url -}}
   {{- $eventSlug := replaceRE $slugPattern "$1" $url -}}
