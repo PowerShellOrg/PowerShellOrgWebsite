@@ -13,23 +13,25 @@ tags:
   - ai-agents
 ---
 
-I want a PowerShell tool to tell the caller when a read is incomplete. Returning the records collected so far is useful, but the caller shouldn't have to guess why the tool stopped.
+Suppose a script is building an inventory report from a paginated API. The first response contains records 1 and 2, plus a token for the next page. If the script returns only those records, a caller can mistake a successful request for a complete inventory. The local fixture here contains five records across three pages.
 
-The reader below limits attempted GETs and returned records. It carries completion and error information with the data, so an agent or another script can decide whether to use the result. You can check the behavior against a local API without an account or credentials.
+A read can also stop at a budget or encounter a repeated cursor. A script or agent using those records needs to know which happened before it treats them as the whole inventory.
 
-## Read the result
+The reader below caps attempted GETs and returned records, then carries the stopping reason with the data. You can check it against a local API without an account or credentials.
 
-The normal fixture has five records across three pages. With enough room in both budgets, the reader returns this object:
+## Compare the one-page read with a bounded result
+
+The intentionally incomplete read in the walkthrough makes one GET and returns only its items:
+
+```json {linenos=false}
+[{"id":1},{"id":2}]
+```
+
+That output loses the continuation and says nothing about completeness. With enough room in both budgets, the bounded reader reaches the final page and returns:
 
 ```json {linenos=false}
 {
-  "Items": [
-    {"id": 1},
-    {"id": 2},
-    {"id": 3},
-    {"id": 4},
-    {"id": 5}
-  ],
+  "Items": [{"id":1},{"id":2},{"id":3},{"id":4},{"id":5}],
   "RequestsAttempted": 3,
   "ItemsFetched": 5,
   "ItemsReturned": 5,
@@ -39,9 +41,21 @@ The normal fixture has five records across three pages. With enough room in both
 }
 ```
 
-You can use the records already collected, but check the status fields before treating them as a complete set.
+With a two-page budget, it returns the records it can keep and makes the stopping condition explicit:
 
-With a two-page budget, the reader returns records 1 through 4 with `Partial/PageBudget`. If the second page points back to its own cursor, it returns records 1 and 2 with `Error/RepeatedToken`. The reader discards a page with a cyclic continuation and keeps records from earlier accepted pages.
+```json {linenos=false}
+{
+  "Items": [{"id":1},{"id":2},{"id":3},{"id":4}],
+  "RequestsAttempted": 2,
+  "ItemsFetched": 4,
+  "ItemsReturned": 4,
+  "Status": "Partial",
+  "StopReason": "PageBudget",
+  "IsComplete": false
+}
+```
+
+You can use the records in either result, but only the complete result establishes that you reached the end. If a later page points back to an already requested cursor, the reader instead returns `Error/RepeatedToken` and keeps the earlier accepted records.
 
 ## Define the page and result contracts
 
@@ -61,25 +75,34 @@ Tokens match `\A[A-Za-z0-9_-]{1,64}\z`. The API treats `A` and `a` as different 
 
 `MaxPages` caps attempted GETs, and `MaxItems` caps returned records. Both accept numeric integer values from 1 through `Int32.MaxValue`. Strings, Boolean values, enums, null, fractions and non-finite numbers fail before HTTP. I keep the budgets untyped until validation because [parameter binding](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_conversion?view=powershell-7.6#parameter-binding-conversions) can convert a value to `[int]` before the function checks it.
 
-## Run a local API
+## Set up the local example
 
-The example ran with PowerShell 7.6.9 and Node.js 26.3.0 on macOS 26.3.2 arm64. Other operating systems were not tested. You'll need an installed PowerShell 7.6 executable and Node.js; there are no package dependencies.
+Start in a PowerShell 7.6 console with Node.js installed. These instructions target PowerShell 7.6, including the HTTP settings below. Node installation instructions are on the [official download page](https://nodejs.org/en/download); the lab uses only built-in Node modules, so there's no package installation step.
 
-In Bash, create a working directory:
+The example was tested with PowerShell 7.6.9 and Node.js 26.3.0 on macOS 26.3.2 arm64 and Ubuntu 22.04.5 LTS x64. The numeric probes and full verifier passed under both `en-US` and `fr-FR`. Windows has not been tested.
 
-```bash {linenos=false}
-mkdir bounded-pages
-cd bounded-pages
-export PWSH='/absolute/path/to/pwsh'
-"$PWSH" -NoLogo -NoProfile -Command '$PSVersionTable.PSVersion.ToString()'
+Create a directory and record the runtimes. `PWSH` points to the PowerShell executable running this console, so the verifier can launch the same runtime:
+
+```powershell {linenos=false}
+New-Item -ItemType Directory -Path './bounded pages'
+Set-Location './bounded pages'
+$env:PWSH = (Get-Process -Id $PID).Path
+$PSVersionTable.PSVersion.ToString()
 node --version
 ```
 
-Save each named code block as its filename in that directory. `api.mjs` serves fixture responses and records requests. `Get-BoundedPage.ps1` contains the reader, and `Show-Examples.ps1` calls it for the three outcomes above. Two process adapters let `verify.mjs` compare returned objects with the HTTP traces.
+Save all six files below in this directory. Files 1 through 3 are enough for the walkthrough; files 4 through 6 add verification.
 
-The server binds only to `127.0.0.1` and asks the OS for an available port. Fixture responses are deterministic. A separate listener records whether the reader followed a redirect.
+1. `api.mjs`: Local pages, request recorder and separate redirect destination
+2. `Get-BoundedPage.ps1`: Bounded reader and its validation, request and result helpers
+3. `Show-Examples.ps1`: Three serialized complete, page-limited and repeated-token results
+4. `Invoke-Case.ps1`: JSON request-array adapter, including multiple calls in one process
+5. `Invoke-NumericProbe.ps1`: Fourteen typed budget probes
+6. `verify.mjs`: Process and HTTP checks using its own listeners
 
-### Fixture server: `api.mjs`
+The fixture binds to `127.0.0.1` on an available port and prints its base URL. `page` builds deterministic bodies; `respond` selects normal or faulty responses, and `handler` records each method and URL before responding. `startApi` starts both the fixture and a separate redirect destination, then returns their traces and a `close` method. The verifier uses that lifecycle to inspect real requests and release both listeners.
+
+### 1. Save `api.mjs`
 
 ```javascript {linenos=false}
 import http from 'node:http';
@@ -214,31 +237,45 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
 }
 ```
 
-Start the server in the first Bash terminal and leave it running:
+Start the fixture in this first PowerShell terminal and leave it running:
 
-```bash {linenos=false}
-node api.mjs
+```powershell {linenos=false}
+node ./api.mjs
 ```
 
-It prints its base URL. Keep that URL for the walkthrough, and stop this standalone server with Ctrl+C when you're finished.
+Keep the printed loopback URL for the second terminal. Stop this standalone fixture with Ctrl+C in its owning terminal when you're finished.
 
 ## Build the bounded reader
 
-I keep the endpoint fixed for the read. The reader accepts an HTTP loopback URL without user information, query or fragment, then adds an encoded `cursor` query value to that endpoint. Response content never becomes a destination URL.
+The reader accepts a fixed HTTP loopback endpoint without user information, query or fragment. Each subsequent request adds an encoded `cursor` value. Response content cannot choose a host or path.
 
 Each GET disables redirects and retries, bypasses proxies and uses terminating errors. The [Invoke-RestMethod documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.6#-maximumredirection) defines zero as disabling redirection and documents the retry controls. The fixture checks the actual request trace for 429, 503 and redirect responses.
 
-### Reader: `Get-BoundedPage.ps1`
-
-The order of these checks determines which records the caller can keep:
+The validation helpers check arguments and whole pages. `Read-LabPage` performs one GET; `Invoke-PageStep` decides what to retain and when to stop. `New-PageResult` builds the envelope. `Get-BoundedPage` keeps the state separate for each call and runs the checks in this order:
 
 1. Validate the endpoint and budgets before HTTP.
 2. Before each GET, check the item budget, then the page budget, then register the cursor.
 3. Validate the received page, count fetched items, and reject a cyclic continuation before retaining records.
 4. Retain the allowed prefix. Omitted records force `Partial/ItemBudget`; otherwise a null continuation completes the result. A nonterminal page returns to the budget checks.
 
+Each function includes [comment-based help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-7.6). Its example shows the setup it needs; HTTP examples ask for the running fixture's base URL.
+
+### 2. Save `Get-BoundedPage.ps1`
+
 ```powershell {linenos=false}
 function Test-PageBudget {
+    <#
+    .SYNOPSIS
+    Checks a budget without coercing its original numeric value.
+    .PARAMETER Value
+    Numeric integer from 1 through Int32.MaxValue. Null, Boolean, enum, string,
+    fractional and non-finite values are rejected.
+    .OUTPUTS
+    System.Boolean. True when the value is an accepted budget.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    Test-PageBudget -Value ([decimal]1)
+    #>
     param($Value)
 
     if ($null -eq $Value) { return $false }
@@ -255,6 +292,17 @@ function Test-PageBudget {
 }
 
 function Get-PageEndpoint {
+    <#
+    .SYNOPSIS
+    Validates the fixed destination before any request.
+    .PARAMETER Endpoint
+    Absolute HTTP loopback URL with no user information, query or fragment.
+    .OUTPUTS
+    System.String. The absolute URL. Invalid input throws.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    Get-PageEndpoint -Endpoint 'http://127.0.0.1:54321/normal'
+    #>
     param($Endpoint)
 
     if ($Endpoint -isnot [string]) { throw 'Endpoint must be a URL string.' }
@@ -272,6 +320,17 @@ function Get-PageEndpoint {
 }
 
 function Test-PageItem {
+    <#
+    .SYNOPSIS
+    Checks that a deserialized record has an integer id.
+    .PARAMETER Item
+    PSCustomObject whose id must be Int32 or Int64. Other properties are retained.
+    .OUTPUTS
+    System.Boolean. True when the record has the required shape.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    Test-PageItem -Item ([pscustomobject]@{ id = [int]1; label = 'kept' })
+    #>
     param($Item)
 
     if ($Item -isnot [pscustomobject]) { return $false }
@@ -279,6 +338,22 @@ function Test-PageItem {
 }
 
 function Assert-PageShape {
+    <#
+    .SYNOPSIS
+    Validates every record and the continuation before a page changes state.
+    .PARAMETER Page
+    PSCustomObject with array items and a required nextToken: null or an ASCII
+    token matching \A[A-Za-z0-9_-]{1,64}\z. Empty arrays may have a continuation.
+    .OUTPUTS
+    No output on success. Invalid pages throw.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $page = [pscustomobject]@{
+        items = @([pscustomobject]@{ id = [int]1 })
+        nextToken = $null
+    }
+    Assert-PageShape -Page $page
+    #>
     param($Page)
 
     if ($Page -isnot [pscustomobject]) { throw 'Page must be an object.' }
@@ -296,6 +371,21 @@ function Assert-PageShape {
 }
 
 function Read-LabPage {
+    <#
+    .SYNOPSIS
+    Fetches and validates one page without retries or redirects.
+    .PARAMETER Endpoint
+    Fixed URL already validated by Get-PageEndpoint.
+    .PARAMETER Cursor
+    Empty string for the first page; otherwise a validated continuation token.
+    The token is encoded as a cursor query value.
+    .OUTPUTS
+    PSCustomObject. A validated page. HTTP, decoding or schema failures throw.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+    Read-LabPage -Endpoint "$Base/normal" -Cursor ''
+    #>
     param([string]$Endpoint, [string]$Cursor)
 
     $url = $Endpoint
@@ -318,6 +408,23 @@ function Read-LabPage {
 }
 
 function Set-PageStop {
+    <#
+    .SYNOPSIS
+    Records the stop state and signals the caller to leave the loop.
+    .PARAMETER State
+    Per-call mutable hashtable whose Status and StopReason will be replaced.
+    .PARAMETER Status
+    Complete, Partial or Error, chosen by the caller's stop condition.
+    .PARAMETER Reason
+    EndOfData, PageBudget, ItemBudget, RepeatedToken, ReadFailed or InvalidArgument.
+    .OUTPUTS
+    System.Boolean. Always false; the supplied state is also updated.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $state = @{ Status = ''; StopReason = '' }
+    Set-PageStop -State $state -Status 'Partial' -Reason 'PageBudget'
+    $state
+    #>
     param($State, [string]$Status, [string]$Reason)
 
     $State.Status = $Status
@@ -326,12 +433,54 @@ function Set-PageStop {
 }
 
 function Test-RepeatedContinuation {
+    <#
+    .SYNOPSIS
+    Checks whether a page points to an already requested cursor.
+    .PARAMETER Page
+    Validated page with a nextToken property. Null is terminal, not repeated.
+    .PARAMETER Seen
+    HashSet of requested cursors using StringComparer.Ordinal for case sensitivity.
+    .OUTPUTS
+    System.Boolean. True when the non-null continuation is in Seen.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $seen = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
+    $null = $seen.Add('A')
+    Test-RepeatedContinuation -Page ([pscustomobject]@{ nextToken = 'A' }) -Seen $seen
+    #>
     param($Page, $Seen)
 
     return $null -ne $Page.nextToken -and $Seen.Contains($Page.nextToken)
 }
 
 function Invoke-PageStep {
+    <#
+    .SYNOPSIS
+    Attempts one bounded page step and updates this read's state.
+    .PARAMETER State
+    Per-call hashtable with Items list, Seen ordinal set, Cursor, counters,
+    Status and StopReason. Registering the cursor precedes the GET.
+    .PARAMETER Endpoint
+    Fixed URL already validated by Get-PageEndpoint.
+    .PARAMETER MaxPages
+    Validated positive Int32-valued attempt limit. Checked after the item limit.
+    .PARAMETER MaxItems
+    Validated positive Int32-valued retained-record limit. A cyclic page is rejected
+    before its records are appended; omitted records force ItemBudget.
+    .OUTPUTS
+    System.Boolean. True to continue; false when State contains the stop result.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+    $state = @{
+        Items = [Collections.Generic.List[object]]::new()
+        Seen = [Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
+        Cursor = ''; RequestsAttempted = 0; ItemsFetched = [long]0
+        Status = 'Error'; StopReason = 'InvalidArgument'
+    }
+    while (Invoke-PageStep -State $state -Endpoint "$Base/normal" -MaxPages 2 -MaxItems 100) {}
+    New-PageResult -State $state
+    #>
     param($State, [string]$Endpoint, [int]$MaxPages, [int]$MaxItems)
 
     if ($State.Items.Count -ge $MaxItems) {
@@ -369,6 +518,24 @@ function Invoke-PageStep {
 }
 
 function New-PageResult {
+    <#
+    .SYNOPSIS
+    Builds the caller's envelope from the retained records and stop state.
+    .PARAMETER State
+    Per-call hashtable with Items list, RequestsAttempted, ItemsFetched, Status
+    and StopReason. ItemsReturned is derived from the list count.
+    .OUTPUTS
+    PSCustomObject. Seven fields, with Items always an array. IsComplete is true
+    only for the Complete state selected on EndOfData by the reader.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $state = @{
+        Items = [Collections.Generic.List[object]]::new()
+        RequestsAttempted = 0; ItemsFetched = [long]0
+        Status = 'Error'; StopReason = 'InvalidArgument'
+    }
+    New-PageResult -State $state | ConvertTo-Json -Depth 20 -Compress
+    #>
     param($State)
 
     return [pscustomobject]@{
@@ -383,6 +550,28 @@ function New-PageResult {
 }
 
 function Get-BoundedPage {
+    <#
+    .SYNOPSIS
+    Reads local pages with explicit request, record and completion limits.
+    .PARAMETER Endpoint
+    Absolute HTTP loopback URL without user information, query or fragment.
+    Response tokens cannot change this destination.
+    .PARAMETER MaxPages
+    Numeric integer from 1 through Int32.MaxValue; defaults to 10. Includes failed
+    GET attempts. Invalid types or values return InvalidArgument before HTTP.
+    .PARAMETER MaxItems
+    Numeric integer from 1 through Int32.MaxValue; defaults to 100. Bounds retained
+    records, not response bytes or deserialization memory. ItemBudget wins when
+    both budgets are exhausted on a nonterminal page.
+    .OUTPUTS
+    PSCustomObject. Items, RequestsAttempted, ItemsFetched, ItemsReturned, Status,
+    StopReason and IsComplete. Errors retain earlier accepted records and write
+    diagnostics to stderr. A zero process exit does not establish completeness.
+    .EXAMPLE
+    . ./Get-BoundedPage.ps1
+    $Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+    Get-BoundedPage -Endpoint "$Base/normal" -MaxPages 2 | ConvertTo-Json -Depth 20 -Compress
+    #>
     param($Endpoint, $MaxPages = 10, $MaxItems = 100)
 
     $state = @{
@@ -416,13 +605,25 @@ A partial result doesn't prove there's another record. If a nonterminal page fil
 
 HTTP, decoding and schema failures return `Error/ReadFailed`. You still get records from earlier accepted pages. Diagnostics go to stderr; the JSON result keeps stable fields instead of platform-dependent exception text. Check `Status` and `StopReason` even if the PowerShell process exits with code zero, because serializing an error result can still produce that exit code.
 
-## Compare three outcomes
 
-The walkthrough calls the normal fixture with default budgets, then with a two-page limit, then calls the repeating fixture.
+## Run the before and after
 
-### Walkthrough: `Show-Examples.ps1`
+The walkthrough takes the fixture's base URL and prints three JSON envelopes: a complete normal read, a two-page normal read and a repeated-token error. Its diagnostic stays on stderr.
+
+### 3. Save `Show-Examples.ps1`
 
 ```powershell {linenos=false}
+<#
+.SYNOPSIS
+Prints complete, page-limited and repeated-token results from the local fixture.
+.PARAMETER Base
+Base URL printed by the running api.mjs, with no trailing slash.
+.OUTPUTS
+Three JSON lines in call order. The repeat-case diagnostic goes to stderr.
+.EXAMPLE
+$Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+& ./Show-Examples.ps1 -Base $Base
+#>
 param([string]$Base)
 
 . "$PSScriptRoot/Get-BoundedPage.ps1"
@@ -431,14 +632,28 @@ Get-BoundedPage "$Base/normal" -MaxPages 2 | ConvertTo-Json -Depth 20 -Compress
 Get-BoundedPage "$Base/repeat" | ConvertTo-Json -Depth 20 -Compress
 ```
 
-Open a second Bash terminal and change to the same directory. Set `PWSH` again because each terminal needs its own export. Replace the example port with the port printed by the server:
+Open a second PowerShell 7.6 terminal. From the same parent directory used above, enter the directory containing your saved files and set `PWSH` again. Each terminal has its own environment. Paste the first terminal's actual printed URL at the prompt; don't reuse a port from an earlier run.
 
-```bash {linenos=false}
-export PWSH='/absolute/path/to/pwsh'
-"$PWSH" -NoLogo -NoProfile -File ./Show-Examples.ps1 -Base http://127.0.0.1:54321
+```powershell {linenos=false}
+Set-Location './bounded pages'
+$env:PWSH = (Get-Process -Id $PID).Path
+$Base = Read-Host 'Paste the base URL printed by api.mjs'
 ```
 
-These are the walkthrough results. `r` denotes the first GET without a cursor; subsequent letters are the exact `cursor` query values. Counts are `RequestsAttempted` / `ItemsFetched` / `ItemsReturned`, in that order.
+First, run the deliberately incomplete one-page read. It omits continuation handling and outputs only the received items:
+
+```powershell {linenos=false}
+$page = Invoke-RestMethod -Uri "$Base/normal" -Method Get -NoProxy -ErrorAction Stop
+$page.items | ConvertTo-Json -Depth 20 -Compress
+```
+
+This returns IDs 1 and 2 after one GET and leaves records 3 through 5 on later pages. Run the bounded examples against the same fixture. The `&` operator invokes the executable path even if it contains spaces:
+
+```powershell {linenos=false}
+& $env:PWSH -NoLogo -NoProfile -File ./Show-Examples.ps1 -Base $Base
+```
+
+In the walkthrough, `r` denotes the first GET without a cursor; subsequent letters are the exact `cursor` query values. Counts are `RequestsAttempted` / `ItemsFetched` / `ItemsReturned`, in that order.
 
 | Call | Observed result |
 | --- | --- |
@@ -448,15 +663,36 @@ These are the walkthrough results. `r` denotes the first GET without a cursor; s
 
 The repeat case fetched four records but returned two because the second page contains records 3 and 4 and points back to `A`. The reader counts those records as fetched, then discards them when it rejects the continuation.
 
-## Exercise the boundaries and failures
 
-The two adapters below expose different inputs to the verifier. Save them and `verify.mjs` in the same working directory.
-
-### JSON adapter: `Invoke-Case.ps1`
-
-This adapter reads a JSON array of requests and writes one JSON result per request. Passing multiple requests lets the verifier check two calls in the same PowerShell process.
+You can also read the helper's full help or just its examples from this directory:
 
 ```powershell {linenos=false}
+. ./Get-BoundedPage.ps1
+Get-Help Get-BoundedPage -Full
+Get-Help Read-LabPage -Examples
+```
+
+## Exercise the boundaries and failures
+
+`Invoke-Case.ps1` reads a JSON array and writes one envelope per request. Supplying two requests lets the verifier check that state doesn't leak between calls in the same PowerShell process.
+
+### 4. Save `Invoke-Case.ps1`
+
+```powershell {linenos=false}
+<#
+.SYNOPSIS
+Runs a JSON array of reader requests in one PowerShell process.
+.PARAMETER RequestFile
+Path to a UTF-8 JSON array of objects with Endpoint and optional MaxPages and
+MaxItems. Each object is passed to Get-BoundedPage without a type-changing cast.
+.OUTPUTS
+One JSON envelope per request. Reader diagnostics go to stderr.
+.EXAMPLE
+$Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+@(@{ Endpoint = "$Base/normal"; MaxPages = 2 }) |
+    ConvertTo-Json -Depth 10 -AsArray | Set-Content -LiteralPath ./requests.json
+& ./Invoke-Case.ps1 -RequestFile ./requests.json
+#>
 param([string]$RequestFile)
 
 $ErrorActionPreference = 'Stop'
@@ -467,19 +703,34 @@ foreach ($request in $requests) {
 }
 ```
 
-### Typed budget probe: `Invoke-NumericProbe.ps1`
+JSON can't carry every budget value the function can receive. `Invoke-NumericProbe.ps1` reads a text file containing the endpoint and passes non-finite numbers, enums and precise Decimal fractions directly to the reader. An early Double conversion would round those fractions, so the probe checks that validation rejects the original values.
 
-JSON can't carry every budget value the function can receive. The numeric probe passes non-finite numbers and enums directly, along with precise Decimal fractions. An early Double conversion would round those fractions, so the probe checks that validation rejects the original fractional values.
+Both Decimal strings use an explicit `InvariantCulture` provider because [Decimal.Parse](https://learn.microsoft.com/en-us/dotnet/api/system.decimal.parse?view=net-10.0) uses the caller's number format when no provider is supplied. Under `fr-FR`, the old adapter threw before its probe loop could test budget validation. The explicit provider keeps the exact fractions without changing the reader's culture or converting them through Double.
+
+### 5. Save `Invoke-NumericProbe.ps1`
 
 ```powershell {linenos=false}
+<#
+.SYNOPSIS
+Exercises typed budgets that JSON cannot represent faithfully.
+.PARAMETER RequestFile
+Path to a UTF-8 text file containing the local normal-fixture endpoint.
+.OUTPUTS
+Fourteen JSON envelopes: twelve rejected budgets, then Decimal 1 page and item
+controls. Rejection diagnostics go to stderr; only the controls issue GETs.
+.EXAMPLE
+$Base = Read-Host 'Paste the base URL printed by the running api.mjs'
+Set-Content -LiteralPath ./endpoint.txt -Value "$Base/normal" -NoNewline
+& ./Invoke-NumericProbe.ps1 -RequestFile ./endpoint.txt
+#>
 param([string]$RequestFile)
 
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot/Get-BoundedPage.ps1"
 $endpoint = Get-Content -Raw -LiteralPath $RequestFile
 foreach ($value in @([double]::NaN, [double]::PositiveInfinity, [double]::NegativeInfinity,
-        [decimal]::Parse('1.0000000000000000000000000001'),
-        [decimal]::Parse('2147483647.0000000001'))) {
+        [decimal]::Parse('1.0000000000000000000000000001', [Globalization.CultureInfo]::InvariantCulture),
+        [decimal]::Parse('2147483647.0000000001', [Globalization.CultureInfo]::InvariantCulture))) {
     foreach ($key in @('MaxPages', 'MaxItems')) {
         $arguments = @{ Endpoint = $endpoint; MaxPages = 10; MaxItems = 100 }
         $arguments[$key] = $value
@@ -495,11 +746,13 @@ foreach ($value in @([DayOfWeek]::Monday, [decimal]1)) {
 }
 ```
 
-### Verifier: `verify.mjs`
+`verify.mjs` starts its own listeners and waits for readiness. These addresses differ from the standalone fixture's address. `launch` runs the saved PowerShell adapters, and `runCase` compares all seven result fields with literal expectations and the server's ordered method/path/query trace. Returned JSON alone can't show whether a reader made an extra GET, retried or followed a redirect.
 
-I check the server's request trace because the returned JSON can't show whether the reader made an extra GET, retried or followed a redirect. Each case specifies an expected result and method/path/query order; `runCase` launches PowerShell and compares both. Other functions check repeated calls, typed budgets, the walkthrough and an isolated mutation of the cycle guard.
+The verifier also checks repeated calls, typed inputs and the three walkthrough results. To check that its assertions catch a broken cycle guard, it changes that guard in an isolated copy. Ordinary completion must still pass; repeat and cycle assertions must fail. The production reader has no switch to disable that guard.
 
-It starts its own listeners and waits for readiness, then compares all seven result fields and the actual request order. Every child has a 10-second watchdog, and a watchdog kill fails the test. The verifier closes its servers in `finally`. It retains a sibling `run-work-*` directory with the inputs and isolated mutant so you can inspect them.
+Every child has a 10-second watchdog; a watchdog kill fails the check. The verifier closes its servers in `finally` and retains a sibling `run-work-*` directory containing its request inputs and isolated mutant.
+
+### 6. Save `verify.mjs`
 
 ```javascript {linenos=false}
 import assert from 'node:assert/strict';
@@ -667,23 +920,26 @@ async function main() {
 await main();
 ```
 
-Run the verifier from Bash:
+Run the verifier in the second PowerShell terminal, from the directory containing all six files. Inspect the native exit code and the last result line after it finishes:
 
-```bash {linenos=false}
-node verify.mjs > results.jsonl
+```powershell {linenos=false}
+node ./verify.mjs > ./results.jsonl
+$verifyExit = $LASTEXITCODE
+$verifyExit
+Get-Content -LiteralPath ./results.jsonl -Tail 1
 ```
 
-The recorded run passed 65 individual cases, a fresh-process replay, two calls in one process, fourteen typed budget probes and the three walkthrough calls. Of the fourteen probes, ten reject non-finite numbers or precise Decimal fractions, two reject enums (one for each budget), and two use Decimal 1 as positive controls for the budgets.
-
-The cases cover empty pages, exact budgets, oversized pages, distinct `A/a` cursors, a longer cycle, malformed bodies and HTTP failures. They also check redirects and a stalled body. The redirect destination received no requests. The stalled response returned `Error/ReadFailed` through the HTTP timeout, without a watchdog kill.
-
-Stopping the loop isn't enough if the reader has already kept records from a cyclic page. To check that failure, the verifier changes the repeated-continuation guard to `if ($false)` in a separate copy. Ordinary completion must still pass, while the repeat and cycle checks must reject the changed reader. The production reader has no switch to disable this guard.
-
-The recorded run ended with this verifier line:
+A passing run exits with code `0` and ends with:
 
 ```json {linenos=false}
 {"kind":"summary","cases":65,"passed":true}
 ```
+
+Those 65 cases are followed by a fresh-process replay, two calls in one process, fourteen typed budget probes, the three walkthrough calls and mutation checks before the summary is written. Ten typed probes reject non-finite numbers or precise Decimal fractions, two reject enums, and two use Decimal 1 as positive controls for the page and item budgets.
+
+The cases cover empty pages, exact budgets, oversized pages, distinct `A/a` cursors, a longer cycle, malformed bodies and HTTP failures. The redirect destination must receive no requests. The stalled response must return `Error/ReadFailed` through the HTTP timeout before the watchdog expires. Check any nonzero exit or missing summary. The presence of a results file doesn't establish success.
+
+When finished, use Ctrl+C in the first terminal to stop the standalone fixture. The verifier closes its own independent listeners.
 
 ## What the budgets don't limit
 
