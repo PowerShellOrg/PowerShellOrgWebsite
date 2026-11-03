@@ -11,7 +11,11 @@
 */}}
 {{- $url := .externalUrl -}}
 {{- $site := .site -}}
-{{- $slugPattern := `(?i)^https?://(?:www\.)?meetup\.com/(?:[a-z]{2}-[a-z]{2}/)?([^/?#]+).*$` -}}
+{{- /* Case-insensitive on scheme+host only: a locale prefix is only
+     recognized in Meetup's own convention (lowercase language, UPPERCASE
+     region, e.g. "de-DE") so it isn't confused with a lowercase two-letter-
+     pair group slug like "ps-ug". */ -}}
+{{- $slugPattern := `^(?i:https?://(?:www\.)?meetup\.com)/(?:[a-z]{2}-[A-Z]{2}/)?([^/?#]+).*$` -}}
 {{- $match := "" -}}
 {{- if $url -}}
   {{- $eventSlug := replaceRE $slugPattern "$1" $url -}}
