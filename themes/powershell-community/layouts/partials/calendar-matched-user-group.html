@@ -11,7 +11,7 @@
 */}}
 {{- $url := .externalUrl -}}
 {{- $site := .site -}}
-{{- $slugPattern := `(?i)^https?://(?:www\.)?meetup\.com/([^/?#]+).*$` -}}
+{{- $slugPattern := `(?i)^https?://(?:www\.)?meetup\.com/(?:[a-z]{2}-[a-z]{2}/)?([^/?#]+).*$` -}}
 {{- $match := "" -}}
 {{- if $url -}}
   {{- $eventSlug := replaceRE $slugPattern "$1" $url -}}
@@ -22,7 +22,7 @@
         {{- $group := . -}}
         {{- range .Params.links -}}
           {{- $linkSlug := replaceRE $slugPattern "$1" .url -}}
-          {{- if and (ne $linkSlug .url) (eq $linkSlug $eventSlug) -}}
+          {{- if and (ne $linkSlug .url) (eq (lower $linkSlug) (lower $eventSlug)) -}}
             {{- $match = $group -}}
           {{- end -}}
         {{- end -}}
