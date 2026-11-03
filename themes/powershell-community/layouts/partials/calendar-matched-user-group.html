@@ -1,0 +1,33 @@
+{{/*
+  Resolves a calendar entry's Meetup externalUrl to the user group that owns
+  it, by matching the Meetup group slug embedded in the calendar entry's URL
+  against the slug embedded in each user group's `links[].url`. See
+  docs/adr/0006-calendar-user-group-linking.md for why this is a runtime
+  match rather than a stored field.
+
+  @param .externalUrl string: the calendar entry's `externalUrl` param
+  @param .site Site: the site context, for GetPage
+  @returns Page|string: the matched user-group page, or "" if none
+*/}}
+{{- $url := .externalUrl -}}
+{{- $site := .site -}}
+{{- $slugPattern := `^.*meetup\.com/([^/?#]+).*$` -}}
+{{- $match := "" -}}
+{{- if $url -}}
+  {{- $eventSlug := replaceRE $slugPattern "$1" $url -}}
+  {{- if ne $eventSlug $url -}}
+    {{- $groupsPage := $site.GetPage "/user-groups" -}}
+    {{- if $groupsPage -}}
+      {{- range $groupsPage.Pages -}}
+        {{- $group := . -}}
+        {{- range .Params.links -}}
+          {{- $linkSlug := replaceRE $slugPattern "$1" .url -}}
+          {{- if and (ne $linkSlug .url) (eq $linkSlug $eventSlug) -}}
+            {{- $match = $group -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $match -}}

@@ -8,5 +8,4 @@ virtual: true
 ---
 The Ohio PowerShell User Group puts common PowerShell wisdom to the test —
 benchmarking competing approaches and exploring performance, the pipeline,
-parallel execution, and output behavior. See the
-[group page](/user-groups/ohio-powershell/) for more.
+parallel execution, and output behavior.

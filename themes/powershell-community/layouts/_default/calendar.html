@@ -52,8 +52,8 @@
         {{ if $upcoming }}
         <div class="space-y-5 mb-10">
             {{ range $upcoming }}
-            <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener"
-               class="block bg-gray-50 rounded-xl border border-gray-200 hover:border-purple-400 hover:shadow-md transition-all duration-200 overflow-hidden">
+            {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" $.Site) }}
+            <div class="bg-gray-50 rounded-xl border border-gray-200 hover:border-purple-400 hover:shadow-md transition-all duration-200 overflow-hidden">
                 <div class="md:flex">
                     <!-- Date Block -->
                     <div class="md:w-36 bg-purple-600 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0">
@@ -64,8 +64,10 @@
                     </div>
                     <!-- Event Details -->
                     <div class="p-6 flex-1">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">{{ .Title }}</h3>
-                        <p class="text-gray-600 mb-3">{{ .Summary | plainify | truncate 240 }}</p>
+                        <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" class="group block">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600">{{ .Title }}</h3>
+                            <p class="text-gray-600 mb-3">{{ .Summary | plainify | truncate 240 }}</p>
+                        </a>
                         <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
                             <div class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-purple-600 mr-2"></i>
@@ -87,14 +89,21 @@
                                 Virtual
                             </div>
                             {{ end }}
+                            {{ with $matchedGroup }}
+                            <div class="flex items-center">
+                                {{ partial "calendar-user-group-badge.html" . }}
+                            </div>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- Arrow -->
                     <div class="hidden md:flex items-center pr-6">
-                        <i class="fas fa-external-link-alt text-gray-400"></i>
+                        <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" aria-label="View event details">
+                            <i class="fas fa-external-link-alt text-gray-400"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
+            </div>
             {{ end }}
         </div>
         {{ else }}
@@ -115,6 +124,7 @@
         </div>
         <div class="space-y-4 mb-10">
             {{ range (sort $past "Params.startDate" "desc") }}
+            {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" $.Site) }}
             <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 opacity-75">
                 <div class="flex items-center justify-between">
                     <div>
@@ -125,6 +135,9 @@
                                 {{ $startDate := time .Params.startDate }}
                                 {{ $startDate.Format "January 2, 2006" }}
                             </span>
+                            {{ with $matchedGroup }}
+                            <span>{{ partial "calendar-user-group-badge.html" . }}</span>
+                            {{ end }}
                         </div>
                     </div>
                     {{ if .Params.externalUrl }}
