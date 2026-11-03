@@ -7,7 +7,7 @@
 <a href="{{ $group.RelPermalink }}" class="inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-700">
     <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 overflow-hidden shrink-0">
         {{ if $group.Params.logo }}
-        <img src="{{ $group.Params.logo }}" alt="{{ $group.Title }} logo" class="w-full h-full object-contain">
+        <img src="{{ $group.Params.logo }}" alt="{{ $group.Title }} logo" width="20" height="20" class="w-full h-full object-contain">
         {{ else }}
         <i class="fas fa-people-group text-[10px]"></i>
         {{ end }}
