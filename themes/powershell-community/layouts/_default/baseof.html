@@ -180,6 +180,10 @@
            read as a wall of whitespace. */
         .prose .highlight { margin: 1.25rem 0; border-radius: 0.5rem; overflow: hidden; }
         .prose .highlight pre { margin: 0; padding: 0.85rem 1rem; border-radius: 0; line-height: 1.5; }
+        /* The block itself clips to keep its rounded corners and the copy button
+           in place, so long lines scroll inside the wrapper Chroma puts around the
+           line-number table. */
+        .prose .highlight > div { overflow-x: auto; }
 
         .hero-pattern {
             background: linear-gradient(135deg, #0078D4 0%, #00BCF2 100%);
