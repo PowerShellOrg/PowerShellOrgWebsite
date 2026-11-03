@@ -1,0 +1,16 @@
+{{/*
+  Renders a small logo/icon + name badge linking to a user group's page.
+
+  @param . Page: the user-group page to render a badge for
+*/}}
+{{- $group := . -}}
+<a href="{{ $group.RelPermalink }}" class="inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-700 underline">
+    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 overflow-hidden flex-shrink-0">
+        {{ if $group.Params.logo }}
+        <img src="{{ $group.Params.logo }}" alt="" width="20" height="20" class="w-full h-full object-contain">
+        {{ else }}
+        <i class="fas fa-people-group text-xs" aria-hidden="true"></i>
+        {{ end }}
+    </span>
+    {{ $group.Title }}
+</a>

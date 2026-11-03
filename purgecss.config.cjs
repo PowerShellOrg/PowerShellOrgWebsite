@@ -22,6 +22,9 @@ module.exports = {
       // These never appear in committed markup, so pin the whole status palette.
       'bg-blue-500', 'bg-green-500', 'bg-purple-500',
       'bg-orange-500', 'bg-red-500', 'bg-yellow-500',
+      // Only rendered inside the calendar's upcoming-events loop, so a CI
+      // build with zero upcoming events would otherwise purge it.
+      'group-hover:text-purple-600',
     ],
   },
   output: 'assets/css/tailwind.css',

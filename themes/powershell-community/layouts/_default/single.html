@@ -44,6 +44,12 @@
 
             <!-- Title -->
             <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">{{ .Title }}</h1>
+            {{ if eq .Section "calendar" }}
+            {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" .Site) }}
+            {{ with $matchedGroup }}
+            <div class="mb-4">{{ partial "calendar-user-group-badge.html" . }}</div>
+            {{ end }}
+            {{ end }}
 
             <!-- Author and Reading Time -->
             <div class="flex items-center justify-between">
