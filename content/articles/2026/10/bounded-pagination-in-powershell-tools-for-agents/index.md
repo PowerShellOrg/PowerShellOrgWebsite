@@ -13,13 +13,13 @@ tags:
   - ai-agents
 ---
 
-A REST-reading tool returns four records. A caller still needs to know why it stopped: the API reached its end, the tool used its request allowance, or another page failed. Those states tell an agent or another script whether it has a complete set.
+I want a PowerShell tool to tell the caller when a read is incomplete. Returning the records collected so far is useful, but the caller shouldn't have to guess why the tool stopped.
 
-This example adds request and item budgets to a PowerShell reader and returns the stopping reason with the data. A local API supplies normal pages, broken continuations and failed responses, so the behavior can be reproduced without an account or credentials.
+The reader below limits attempted GETs and returned records. It carries completion and error information with the data, so an agent or another script can decide whether to use the result. You can check the behavior against a local API without an account or credentials.
 
-## The finished result
+## Read the result
 
-The normal fixture has five records across three pages. Reading it within both budgets returns this object:
+The normal fixture has five records across three pages. With enough room in both budgets, the reader returns this object:
 
 ```json {linenos=false}
 {
@@ -39,13 +39,15 @@ The normal fixture has five records across three pages. Reading it within both b
 }
 ```
 
-With a two-page budget, the same reader returns records 1 through 4 with `Partial/PageBudget`. If the second page points back to its own cursor, it returns records 1 and 2 with `Error/RepeatedToken`. The current page is discarded when its continuation is cyclic; records from earlier accepted pages remain available.
+You can use the records already collected, but check the status fields before treating them as a complete set.
+
+With a two-page budget, the reader returns records 1 through 4 with `Partial/PageBudget`. If the second page points back to its own cursor, it returns records 1 and 2 with `Error/RepeatedToken`. The reader discards a page with a cyclic continuation and keeps records from earlier accepted pages.
 
 ## Define the page and result contracts
 
-The API returns an object with two required properties: `items`, an array of objects with integer `id` values, and `nextToken`, either a nonempty ASCII token or `null`. Only `null` means the end. An empty page can still have a continuation.
+Each API page must be an object with two required properties: `items`, an array of objects with integer `id` values, and `nextToken`, a nonempty ASCII token or `null`. An empty page doesn't mean the read is complete. Only `null` ends pagination, so the reader follows a continuation from an empty page if the budgets allow it.
 
-Tokens match `\A[A-Za-z0-9_-]{1,64}\z`. This API treats `A` and `a` as different cursors. PowerShell's ordinary string comparisons are case-insensitive, so the reader uses an explicit `StringComparer.Ordinal` set for cursor identity. See [PowerShell comparison operators](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.6#common-features).
+Tokens match `\A[A-Za-z0-9_-]{1,64}\z`. The API treats `A` and `a` as different cursors, so the reader uses a `StringComparer.Ordinal` set to track them. PowerShell's ordinary string comparisons are case-insensitive; see [PowerShell comparison operators](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.6#common-features).
 
 | Result | Meaning |
 | --- | --- |
@@ -57,24 +59,11 @@ Tokens match `\A[A-Za-z0-9_-]{1,64}\z`. This API treats `A` and `a` as different
 | Reason | `StopReason`: `EndOfData`, `PageBudget`, `ItemBudget`, `RepeatedToken`, `ReadFailed` or `InvalidArgument` |
 | Complete? | `IsComplete`: true only for `Complete/EndOfData` |
 
-`MaxPages` caps attempted GETs. `MaxItems` caps returned records. Both accept numeric integer values from 1 through `Int32.MaxValue`; strings, Boolean values, enums, null, fractions and non-finite numbers fail before HTTP. Keep these parameters untyped until validation: [parameter binding](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_conversion?view=powershell-7.6#parameter-binding-conversions) can convert a value to `[int]` before the function checks it.
-
-A partial result does not prove another record exists. If a nonterminal page fills a budget exactly, the reader stops without fetching another page to settle that uncertainty. If a terminal page fits exactly, it is complete. If both budgets run out together, `ItemBudget` wins.
-
-## How the pieces fit
-
-Start with `api.mjs`, which supplies fixture responses and records requests. `Get-BoundedPage.ps1` implements the reader, and `Show-Examples.ps1` calls it for the three outcomes above. Two process adapters let `verify.mjs` compare returned objects with the HTTP traces.
-
-The reader makes its decisions in this order:
-
-1. Validate the endpoint and budgets before HTTP.
-2. Before each GET, check the item budget, then the page budget, then register the cursor.
-3. Validate the received page, count fetched items, and reject a cyclic continuation before retaining records.
-4. Retain the allowed prefix. Omitted records force `Partial/ItemBudget`; otherwise a null continuation completes the result. A nonterminal page returns to the budget checks.
+`MaxPages` caps attempted GETs, and `MaxItems` caps returned records. Both accept numeric integer values from 1 through `Int32.MaxValue`. Strings, Boolean values, enums, null, fractions and non-finite numbers fail before HTTP. I keep the budgets untyped until validation because [parameter binding](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_conversion?view=powershell-7.6#parameter-binding-conversions) can convert a value to `[int]` before the function checks it.
 
 ## Run a local API
 
-The example ran with PowerShell 7.6.9 and Node.js 26.3.0 on macOS 26.3.2 arm64. Other operating systems were not tested. Use an installed PowerShell 7.6 executable and Node.js; there are no package dependencies.
+The example ran with PowerShell 7.6.9 and Node.js 26.3.0 on macOS 26.3.2 arm64. Other operating systems were not tested. You'll need an installed PowerShell 7.6 executable and Node.js; there are no package dependencies.
 
 In Bash, create a working directory:
 
@@ -86,9 +75,11 @@ export PWSH='/absolute/path/to/pwsh'
 node --version
 ```
 
-Save each named code block below as its filename in that directory. The server binds only to `127.0.0.1` and asks the OS for an available port. Its fixture maps keep the data deterministic. A separate listener records whether a redirect was followed.
+Save each named code block as its filename in that directory. `api.mjs` serves fixture responses and records requests. `Get-BoundedPage.ps1` contains the reader, and `Show-Examples.ps1` calls it for the three outcomes above. Two process adapters let `verify.mjs` compare returned objects with the HTTP traces.
 
-### `api.mjs`
+The server binds only to `127.0.0.1` and asks the OS for an available port. Fixture responses are deterministic. A separate listener records whether the reader followed a redirect.
+
+### Fixture server: `api.mjs`
 
 ```javascript {linenos=false}
 import http from 'node:http';
@@ -223,21 +214,28 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
 }
 ```
 
-In the first Bash terminal, start the server and leave it running:
+Start the server in the first Bash terminal and leave it running:
 
 ```bash {linenos=false}
 node api.mjs
 ```
 
-It prints its base URL. Keep that value for the walkthrough. Stop this standalone server with Ctrl+C when finished.
+It prints its base URL. Keep that URL for the walkthrough, and stop this standalone server with Ctrl+C when you're finished.
 
 ## Build the bounded reader
 
-The reader accepts a fixed HTTP loopback endpoint without user information, query or fragment. It adds an encoded `cursor` query value to that same endpoint. It never treats response content as a destination URL.
+I keep the endpoint fixed for the read. The reader accepts an HTTP loopback URL without user information, query or fragment, then adds an encoded `cursor` query value to that endpoint. Response content never becomes a destination URL.
 
-Each request explicitly disables redirects and retries, bypasses proxies and uses terminating errors. The [Invoke-RestMethod documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.6#-maximumredirection) defines zero as disabling redirection and documents the retry controls. The fixture checks the actual request trace for 429, 503 and redirect responses.
+Each GET disables redirects and retries, bypasses proxies and uses terminating errors. The [Invoke-RestMethod documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.6#-maximumredirection) defines zero as disabling redirection and documents the retry controls. The fixture checks the actual request trace for 429, 503 and redirect responses.
 
-### `Get-BoundedPage.ps1`
+### Reader: `Get-BoundedPage.ps1`
+
+The order of these checks determines which records the caller can keep:
+
+1. Validate the endpoint and budgets before HTTP.
+2. Before each GET, check the item budget, then the page budget, then register the cursor.
+3. Validate the received page, count fetched items, and reject a cyclic continuation before retaining records.
+4. Retain the allowed prefix. Omitted records force `Partial/ItemBudget`; otherwise a null continuation completes the result. A nonterminal page returns to the budget checks.
 
 ```powershell {linenos=false}
 function Test-PageBudget {
@@ -410,17 +408,19 @@ function Get-BoundedPage {
 }
 ```
 
-Each step registers the requested cursor before HTTP. After validating the entire response, it counts fetched items and checks the next token against that set. A repeated continuation rejects the current page's items before they can affect the returned prefix.
+I check for a cyclic continuation before keeping any records from the page because that page must not change the returned prefix. Each step registers the requested cursor before HTTP. After validating the entire response, it counts fetched items and checks the next token against those cursors. A repeated continuation rejects the current page's records.
 
-Only then does it append the allowed prefix. Omitted items force `Partial/ItemBudget`, even when that page says `nextToken: null`. Otherwise terminal evidence wins. The next iteration checks budgets before another GET, so an exactly full nonterminal page cannot cause an extra request.
+After that check, the reader appends the allowed prefix. Leaving out any records forces `Partial/ItemBudget`, even if the page says `nextToken: null`. When the whole page fits and its continuation is null, the result is complete.
 
-HTTP, decoding and schema failures return `Error/ReadFailed`. Earlier accepted pages remain available. Diagnostics go to stderr; the JSON result has stable fields instead of platform-dependent exception text. A caller must inspect `Status` and `StopReason`; serializing an error object can still leave the PowerShell process with exit code zero.
+A partial result doesn't prove there's another record. If a nonterminal page fills a budget exactly, the reader stops before another GET, so it can't settle that question. A terminal page that fits exactly is complete. If both budgets run out together, `ItemBudget` wins because the item check comes first.
+
+HTTP, decoding and schema failures return `Error/ReadFailed`. You still get records from earlier accepted pages. Diagnostics go to stderr; the JSON result keeps stable fields instead of platform-dependent exception text. Check `Status` and `StopReason` even if the PowerShell process exits with code zero, because serializing an error result can still produce that exit code.
 
 ## Compare three outcomes
 
-Save this walkthrough as `Show-Examples.ps1`:
+The walkthrough calls the normal fixture with default budgets, then with a two-page limit, then calls the repeating fixture.
 
-### `Show-Examples.ps1`
+### Walkthrough: `Show-Examples.ps1`
 
 ```powershell {linenos=false}
 param([string]$Base)
@@ -431,26 +431,30 @@ Get-BoundedPage "$Base/normal" -MaxPages 2 | ConvertTo-Json -Depth 20 -Compress
 Get-BoundedPage "$Base/repeat" | ConvertTo-Json -Depth 20 -Compress
 ```
 
-In a second Bash terminal, change to the same directory. Each terminal needs its own `PWSH` setting, so repeat the export. Replace the example port with the one printed by the server:
+Open a second Bash terminal and change to the same directory. Set `PWSH` again because each terminal needs its own export. Replace the example port with the port printed by the server:
 
 ```bash {linenos=false}
 export PWSH='/absolute/path/to/pwsh'
 "$PWSH" -NoLogo -NoProfile -File ./Show-Examples.ps1 -Base http://127.0.0.1:54321
 ```
 
-The walkthrough returned these records and counters. `r` denotes the first GET with no cursor; subsequent letters are the exact `cursor` query values.
+These are the walkthrough results. `r` denotes the first GET without a cursor; subsequent letters are the exact `cursor` query values. Counts are `RequestsAttempted` / `ItemsFetched` / `ItemsReturned`, in that order.
 
-- Normal: GET order r, A, B; returned IDs 1, 2, 3, 4, 5. Attempts/fetched/returned: 3/5/5. Result: Complete/EndOfData.
-- Normal with MaxPages 2: GET order r, A; returned IDs 1, 2, 3, 4. Counts: 2/4/4. Result: Partial/PageBudget.
-- Repeat: GET order r, A; returned IDs 1, 2. Counts: 2/4/2. Result: Error/RepeatedToken.
+| Call | Observed result |
+| --- | --- |
+| Normal | GET order: r, A, B; Returned IDs: 1, 2, 3, 4, 5; Counts: 3/5/5; `Complete/EndOfData` |
+| Normal with `MaxPages` 2 | GET order: r, A; Returned IDs: 1, 2, 3, 4; Counts: 2/4/4; `Partial/PageBudget` |
+| Repeat | GET order: r, A; Returned IDs: 1, 2; Counts: 2/4/2; `Error/RepeatedToken` |
 
-The repeating fixture's second page contains records 3 and 4, but its continuation points back to `A`. Those records count as fetched and are discarded.
+The repeat case fetched four records but returned two because the second page contains records 3 and 4 and points back to `A`. The reader counts those records as fetched, then discards them when it rejects the continuation.
 
 ## Exercise the boundaries and failures
 
-Save these two process adapters and the verifier. The ordinary adapter reads JSON requests; the numeric probe also passes values JSON cannot represent and precise decimal fractions that an early Double cast would round.
+The two adapters below expose different inputs to the verifier. Save them and `verify.mjs` in the same working directory.
 
-### `Invoke-Case.ps1`
+### JSON adapter: `Invoke-Case.ps1`
+
+This adapter reads a JSON array of requests and writes one JSON result per request. Passing multiple requests lets the verifier check two calls in the same PowerShell process.
 
 ```powershell {linenos=false}
 param([string]$RequestFile)
@@ -463,7 +467,9 @@ foreach ($request in $requests) {
 }
 ```
 
-### `Invoke-NumericProbe.ps1`
+### Typed budget probe: `Invoke-NumericProbe.ps1`
+
+JSON can't carry every budget value the function can receive. The numeric probe passes non-finite numbers and enums directly, along with precise Decimal fractions. An early Double conversion would round those fractions, so the probe checks that validation rejects the original fractional values.
 
 ```powershell {linenos=false}
 param([string]$RequestFile)
@@ -489,11 +495,11 @@ foreach ($value in @([DayOfWeek]::Monday, [decimal]1)) {
 }
 ```
 
-### `verify.mjs`
+### Verifier: `verify.mjs`
 
-The case table gives each scenario an expected result and HTTP request order. `runCase` launches PowerShell and checks both. Separate functions exercise repeated calls, typed budgets, the walkthrough and an isolated mutation of the cycle guard.
+I check the server's request trace because the returned JSON can't show whether the reader made an extra GET, retried or followed a redirect. Each case specifies an expected result and method/path/query order; `runCase` launches PowerShell and compares both. Other functions check repeated calls, typed budgets, the walkthrough and an isolated mutation of the cycle guard.
 
-The verifier starts its own listeners and waits for readiness. It compares all seven result fields and actual server-observed method/path/query order. Every child has a 10-second watchdog; a watchdog kill fails the test. It closes its own servers in `finally` and retains a sibling `run-work-*` directory containing inputs and the isolated mutant.
+It starts its own listeners and waits for readiness, then compares all seven result fields and the actual request order. Every child has a 10-second watchdog, and a watchdog kill fails the test. The verifier closes its servers in `finally`. It retains a sibling `run-work-*` directory with the inputs and isolated mutant so you can inspect them.
 
 ```javascript {linenos=false}
 import assert from 'node:assert/strict';
@@ -661,26 +667,30 @@ async function main() {
 await main();
 ```
 
-From Bash, run:
+Run the verifier from Bash:
 
 ```bash {linenos=false}
 node verify.mjs > results.jsonl
 ```
 
-The executed suite passed 65 individual cases, a fresh-process replay, two calls in one process, fourteen typed budget probes and the three walkthrough calls. The probes include ten non-finite/precise-decimal negatives, enum rejection for each budget and Decimal 1 positive controls for both budgets. Cases cover empty pages, exact budgets, oversized pages, distinct `A/a`, a longer cycle, malformed bodies, HTTP failures, redirects and a stalled body. The redirect destination received no requests. The stalled response returned `Error/ReadFailed` through the HTTP timeout, without a watchdog kill.
+The recorded run passed 65 individual cases, a fresh-process replay, two calls in one process, fourteen typed budget probes and the three walkthrough calls. Of the fourteen probes, ten reject non-finite numbers or precise Decimal fractions, two reject enums (one for each budget), and two use Decimal 1 as positive controls for the budgets.
 
-The verifier also changes the repeated-continuation guard to `if ($false)` in a separate copy. Ordinary completion must still pass, while repeat and cycle checks must reject the changed reader. This checks that the assertions detect incorrectly retained page data, even when the reader still terminates. The production reader has no switch to disable this guard.
+The cases cover empty pages, exact budgets, oversized pages, distinct `A/a` cursors, a longer cycle, malformed bodies and HTTP failures. They also check redirects and a stalled body. The redirect destination received no requests. The stalled response returned `Error/ReadFailed` through the HTTP timeout, without a watchdog kill.
 
-The final verifier line from the run was:
+Stopping the loop isn't enough if the reader has already kept records from a cyclic page. To check that failure, the verifier changes the repeated-continuation guard to `if ($false)` in a separate copy. Ordinary completion must still pass, while the repeat and cycle checks must reject the changed reader. The production reader has no switch to disable this guard.
+
+The recorded run ended with this verifier line:
 
 ```json {linenos=false}
 {"kind":"summary","cases":65,"passed":true}
 ```
 
-## What these bounds leave open
+## What the budgets don't limit
 
-`MaxItems` limits what the caller retains. It does not limit downloaded bytes or the memory used to deserialize one response. A server can send a large page before the reader trims its prefix.
+`MaxItems` limits the records you retain. A server can still send a large page before the reader trims it, so the budget doesn't limit downloaded bytes or the memory needed to deserialize one response.
 
-The connection and operation timeouts are two seconds each. Microsoft documents [OperationTimeoutSeconds](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.6#-operationtimeoutseconds) as a read-stall timeout. These settings do not form a total wall-clock deadline; a continuously progressing response is outside that guarantee.
+The connection and operation timeouts are two seconds each. Microsoft documents [OperationTimeoutSeconds](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.6#-operationtimeoutseconds) as a read-stall timeout. Together, these settings still don't impose a total wall-clock deadline. They don't bound a response that keeps progressing.
 
-This lab omits retries and resume cursors. A cursor beyond a partly retained page would skip its omitted records. For a caller that requires a complete set, accept only `IsComplete: true` and retain the stopping reason with every partial or error result.
+The lab doesn't retry or return a resume cursor. A cursor beyond a partly retained page would skip the records left out of that page.
+
+If your caller needs a complete set, accept only `IsComplete: true`. Keep the stopping reason with every partial or error result.
