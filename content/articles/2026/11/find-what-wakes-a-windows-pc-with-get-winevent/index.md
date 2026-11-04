@@ -130,10 +130,11 @@ function Get-SleepWakeHistory {
         $sleptAt = [datetimeoffset]::Parse($w.SleepTime).LocalDateTime
         $wokeAt = [datetimeoffset]::Parse($w.WakeTime).LocalDateTime
 
-        # Event 42 is written within seconds of the SleepTime that event 1 records.
+        # Event 42 is written within seconds of the SleepTime that event 1 records, so take the closest one.
         $entry = $sleeps |
             Where-Object { $_.TimeCreated -ge $sleptAt.AddMinutes(-2) -and $_.TimeCreated -le $sleptAt.AddMinutes(1) } |
-            Select-Object -Last 1
+            Sort-Object { [math]::Abs(($_.TimeCreated - $sleptAt).TotalSeconds) } |
+            Select-Object -First 1
 
         $reason = 'No event 42 found'
         if ($entry) {
@@ -154,7 +155,7 @@ function Get-SleepWakeHistory {
             ComputerName = $ComputerName
             Slept        = $sleptAt
             Woke         = $wokeAt
-            Asleep       = New-TimeSpan -Start $sleptAt -End $wokeAt
+            Asleep       = [datetimeoffset]::Parse($w.WakeTime) - [datetimeoffset]::Parse($w.SleepTime)
             SleepReason  = $reason
             WakeSource   = $source
             WakeTimer    = $w.WakeTimerOwner
@@ -191,7 +192,7 @@ WakeSource   : Unknown
 WakeTimer    :
 ```
 
-In both rows event 42 was written 1 to 5 seconds after the `SleepTime` in event 1. Across 20 sleeps on that laptop the gap was never more than 13 seconds, which is why the function looks 2 minutes back and 1 minute forward.
+In both rows event 42 was written 1 to 5 seconds after the `SleepTime` in event 1. Across 20 sleeps on that laptop the gap was never more than 13 seconds, which is why the function looks 2 minutes back and 1 minute forward. When two event 42s fall in that window, as they can after a very short sleep, it takes the one closest to the `SleepTime`.
 
 A wake you caused shows the power button, the lid, or the device you touched as the source. The rows to look at are the ones that happened when nobody was at the PC. For those, the wake source is usually a timer, which points at a scheduled task, or a device such as a network adapter or a mouse.
 
