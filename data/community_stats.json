@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Need Help - this should be an easy one...\"",
-      "time": "Just now",
+      "time": "4 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -25,5 +25,5 @@
     "active_users": 9510,
     "topics_this_week": 1
   },
-  "last_updated": "2026-11-08T12:13:58.909Z"
+  "last_updated": "2026-11-08T16:10:00.321Z"
 }
