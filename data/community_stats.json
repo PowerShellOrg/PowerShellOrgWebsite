@@ -2,7 +2,7 @@
   "activities": [
     {
       "message": "New reply in \"Need Help - this should be an easy one...\"",
-      "time": "1 hours ago",
+      "time": "5 hours ago",
       "type": "reply",
       "color": "bg-purple-500"
     },
@@ -16,8 +16,8 @@
   "stats": {
     "total_topics": 19388,
     "total_posts": 118463,
-    "active_users": 9510,
+    "active_users": 9511,
     "topics_this_week": 0
   },
-  "last_updated": "2026-11-09T20:10:32.808Z"
+  "last_updated": "2026-11-10T00:27:03.157Z"
 }
