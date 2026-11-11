@@ -20,7 +20,7 @@
         <div class="prose prose-lg max-w-3xl mx-auto text-center mb-10">{{ . }}</div>
         {{ end }}
 
-        {{ $groups := .Pages.ByTitle }}
+        {{ $groups := sort .RegularPages "Title" "asc" }}
         {{ if $groups }}
         <!-- User Group Grid -->
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
