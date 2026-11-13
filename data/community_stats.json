@@ -2,15 +2,9 @@
   "activities": [
     {
       "message": "New reply in \"Need Help - this should be an easy one...\"",
-      "time": "18 hours ago",
+      "time": "2 days ago",
       "type": "reply",
       "color": "bg-purple-500"
-    },
-    {
-      "message": "1 new topics this week",
-      "time": "This week",
-      "type": "stats",
-      "color": "bg-green-500"
     },
     {
       "message": "Active PowerShell discussions ongoing",
@@ -21,9 +15,9 @@
   ],
   "stats": {
     "total_topics": 19388,
-    "total_posts": 118456,
-    "active_users": 9511,
-    "topics_this_week": 1
+    "total_posts": 118467,
+    "active_users": 9507,
+    "topics_this_week": 0
   },
-  "last_updated": "2026-11-05T12:15:48.209Z"
+  "last_updated": "2026-11-13T12:15:59.446Z"
 }
