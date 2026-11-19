@@ -4,6 +4,7 @@ import test from 'node:test';
 import {
   applyAgendaDiscussion,
   communityCallSyncPlan,
+  isCancelled,
   pacificDateTimeToIso,
   parseAgendaTitle,
   thirdThursday,
@@ -109,4 +110,23 @@ test('communityCallSyncPlan reports add vs. update vs. unchanged', () => {
   const third = communityCallSyncPlan(stale, occurrences);
   assert.equal(third.changes.length, 1);
   assert.equal(third.changes[0].action, 'update');
+});
+
+test('isCancelled detects a manual cancellation flag', () => {
+  assert.equal(isCancelled('communityCallSource: powershell\ncancelled: true\n'), true);
+  assert.equal(isCancelled('communityCallSource: powershell\nstartDate: "x"\n'), false);
+  assert.equal(isCancelled(undefined), false);
+});
+
+test('communityCallSyncPlan leaves a manually cancelled file untouched', () => {
+  const occurrences = upcomingOccurrences(1, new Date(Date.UTC(2026, 9, 1)));
+  const file = [...communityCallSyncPlan([], occurrences).desired.keys()][0];
+  const cancelled = {
+    file,
+    content: '---\ncommunityCallSource: powershell\ncancelled: true\ncancelledReason: "Holidays"\n---\nCancelled.\n',
+  };
+
+  const plan = communityCallSyncPlan([cancelled], occurrences);
+  assert.equal(plan.changes.length, 0);
+  assert.equal(plan.desired.get(file), cancelled.content);
 });

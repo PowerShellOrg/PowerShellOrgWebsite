@@ -134,11 +134,22 @@ function eventFile(occurrence) {
   return `---\ncommunityCallSource: powershell\nstartDate: ${yaml(occurrence.startDate)}\nendDate: ${yaml(occurrence.endDate)}\ntitle: "PowerShell Community Call"\nexternalUrl: ${yaml(JOIN_URL)}\nvirtual: true\nwhere: "Online (Microsoft Teams)"\n${discussionField}---\nThe PowerShell team's monthly community call. Topics include PowerShell 7, PSScriptAnalyzer, the PowerShell Gallery, and other projects owned by the PowerShell team. Everyone is welcome to join and ask questions.\n\n[Join the Teams live event](${JOIN_URL}) · [Community Call discussions](https://github.com/PowerShell/PowerShell/discussions/categories/community-call)${discussionParagraph}\n`;
 }
 
-/** Computes which managed calendar files to add or update for the given occurrences. */
+/** True when a managed calendar file was manually marked cancelled (e.g. for a holiday). */
+export function isCancelled(content) {
+  return typeof content === 'string' && /^cancelled:\s*true\s*$/mi.test(content);
+}
+
+/**
+ * Computes which managed calendar files to add or update for the given occurrences.
+ * A file manually marked `cancelled: true` is left untouched — the sync never
+ * un-cancels or overwrites it with freshly computed dates/links.
+ */
 export function communityCallSyncPlan(existingFiles, occurrences) {
   const desired = new Map();
   for (const occurrence of occurrences) {
-    desired.set(eventPath(occurrence), eventFile(occurrence));
+    const file = eventPath(occurrence);
+    const current = existingFiles.find((entry) => entry.file === file)?.content;
+    desired.set(file, isCancelled(current) ? current : eventFile(occurrence));
   }
 
   const changes = [];

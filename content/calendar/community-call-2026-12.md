@@ -6,7 +6,9 @@ title: "PowerShell Community Call"
 externalUrl: "https://aka.ms/JoinPSCall"
 virtual: true
 where: "Online (Microsoft Teams)"
+cancelled: true
+cancelledReason: "Holidays"
 ---
-The PowerShell team's monthly community call. Topics include PowerShell 7, PSScriptAnalyzer, the PowerShell Gallery, and other projects owned by the PowerShell team. Everyone is welcome to join and ask questions.
+This month's PowerShell Community Call is cancelled for the holidays.
 
-[Join the Teams live event](https://aka.ms/JoinPSCall) · [Community Call discussions](https://github.com/PowerShell/PowerShell/discussions/categories/community-call)
+[Community Call discussions](https://github.com/PowerShell/PowerShell/discussions/categories/community-call)
