@@ -37,6 +37,9 @@ jobs:
       - name: Test Meetup calendar synchronization
         run: node --test .github/scripts/sync-meetup-events.test.mjs
 
+      - name: Test PowerShell Community Call synchronization
+        run: node --test .github/scripts/sync-community-call.test.mjs
+
       - name: Create data directory
         run: mkdir -p data
 

@@ -32,6 +32,21 @@ test('upcomingOccurrences generates consecutive months starting from `from`', ()
   ]);
 });
 
+test('upcomingOccurrences skips this month when its call already ended', () => {
+  // Nov 19, 2026's call ends 18:00Z; asking at 20:31Z should start from December.
+  const occurrences = upcomingOccurrences(3, new Date('2026-11-19T20:31:00Z'));
+  assert.deepEqual(occurrences.map((o) => [o.year, o.monthIndex]), [
+    [2026, 11],
+    [2027, 0],
+    [2027, 1],
+  ]);
+});
+
+test('upcomingOccurrences still includes this month before its call ends', () => {
+  const occurrences = upcomingOccurrences(1, new Date('2026-11-19T10:00:00Z'));
+  assert.deepEqual(occurrences.map((o) => [o.year, o.monthIndex]), [[2026, 10]]);
+});
+
 test('upcomingOccurrences rolls over into the next year', () => {
   const occurrences = upcomingOccurrences(2, new Date(Date.UTC(2026, 11, 1)));
   assert.deepEqual(occurrences.map((o) => [o.year, o.monthIndex]), [

@@ -58,22 +58,19 @@ export function pacificDateTimeToIso(year, monthIndex, day, hour, minute) {
   throw new Error(`Could not resolve Pacific time for ${year}-${monthIndex + 1}-${day} ${hour}:${minute}.`);
 }
 
-/** Generates the next `count` monthly occurrences, starting from the current month. */
+/** Generates the next `count` monthly occurrences that haven't ended yet, relative to `from`. */
 export function upcomingOccurrences(count, from = new Date()) {
   const occurrences = [];
-  for (let offset = 0; offset < count; offset += 1) {
+  for (let offset = 0; occurrences.length < count; offset += 1) {
     const year = from.getUTCFullYear();
     const monthIndex = from.getUTCMonth() + offset;
     const normalizedYear = year + Math.floor(monthIndex / 12);
     const normalizedMonth = ((monthIndex % 12) + 12) % 12;
     const day = thirdThursday(normalizedYear, normalizedMonth);
-    occurrences.push({
-      year: normalizedYear,
-      monthIndex: normalizedMonth,
-      day,
-      startDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 9, 30),
-      endDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 0),
-    });
+    const startDate = pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 9, 30);
+    const endDate = pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 0);
+    if (new Date(endDate) < from) continue; // this month's call already happened; don't count it
+    occurrences.push({ year: normalizedYear, monthIndex: normalizedMonth, day, startDate, endDate });
   }
   return occurrences;
 }
