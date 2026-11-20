@@ -111,7 +111,8 @@ test('applyAgendaDiscussions ignores a month-only title created a year before th
   // A real example: "January Community Call" was created Jan 2026 for the
   // January 2026 call. Without a year in the title, it must not match the
   // January 2027 occurrence just because the month name lines up.
-  const occurrences = candidateOccurrences(1, new Date(Date.UTC(2026, 11, 1)));
+  const occurrences = candidateOccurrences(1, new Date(Date.UTC(2027, 0, 1)));
+  assert.equal(occurrences[0].monthIndex, 0); // sanity: this is the January occurrence
   const updated = applyAgendaDiscussions(occurrences, [
     { title: 'January Community Call', url: 'https://github.com/PowerShell/PowerShell/discussions/old-january', createdAt: '2026-01-12T17:43:03Z' },
   ]);
