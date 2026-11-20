@@ -53,10 +53,11 @@
         <div class="space-y-5 mb-10">
             {{ range $upcoming }}
             {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" $.Site) }}
-            <div class="bg-gray-50 rounded-xl border border-gray-200 hover:border-purple-400 hover:shadow-md transition-all duration-200 overflow-hidden">
+            {{ $cancelled := .Params.cancelled }}
+            <div class="bg-gray-50 rounded-xl border overflow-hidden transition-all duration-200 {{ if $cancelled }}border-gray-200{{ else }}border-gray-200 hover:border-purple-400 hover:shadow-md{{ end }}">
                 <div class="md:flex">
                     <!-- Date Block -->
-                    <div class="md:w-36 bg-purple-600 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0">
+                    <div class="md:w-36 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0 {{ if $cancelled }}bg-gray-800{{ else }}bg-purple-600{{ end }}">
                         {{ $startDate := time .Params.startDate }}
                         <span class="text-sm font-medium uppercase tracking-wide opacity-90">{{ $startDate.Format "Jan" }}</span>
                         <span class="text-4xl font-bold leading-none my-1">{{ $startDate.Format "2" }}</span>
@@ -64,10 +65,18 @@
                     </div>
                     <!-- Event Details -->
                     <div class="p-6 flex-1">
+                        {{ if $cancelled }}
+                        <div class="flex items-center gap-2 mb-2 flex-wrap">
+                            <h3 class="text-xl font-bold text-gray-500 line-through">{{ .Title }}</h3>
+                            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-red-100 text-red-700">Cancelled</span>
+                        </div>
+                        <p class="text-gray-600 mb-3">{{ with .Params.cancelledReason }}Cancelled: {{ . }}{{ else }}This event has been cancelled.{{ end }}</p>
+                        {{ else }}
                         <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" class="group block">
                             <h3 class="text-xl font-bold text-gray-900 mb-2 underline group-hover:text-purple-600">{{ .Title }}</h3>
                             <p class="text-gray-600 mb-3">{{ .Summary | plainify | truncate 240 }}</p>
                         </a>
+                        {{ end }}
                         <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
                             <div class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-purple-600 mr-2"></i>
@@ -89,6 +98,14 @@
                                 Virtual
                             </div>
                             {{ end }}
+                            {{ if not $cancelled }}
+                            {{ with .Params.discussionUrl }}
+                            <a href="{{ . }}" target="_blank" rel="noopener" class="flex items-center text-purple-600 hover:text-purple-700 underline">
+                                <i class="fas fa-comments mr-2"></i>
+                                Agenda discussion
+                            </a>
+                            {{ end }}
+                            {{ end }}
                             {{ with $matchedGroup }}
                             <div class="flex items-center">
                                 {{ partial "calendar-user-group-badge.html" . }}
@@ -97,11 +114,13 @@
                         </div>
                     </div>
                     <!-- Arrow -->
+                    {{ if not $cancelled }}
                     <div class="hidden md:flex items-center pr-6">
                         <a href="{{ .Params.externalUrl }}" target="_blank" rel="noopener" aria-label="View details for {{ .Title }}">
                             <i class="fas fa-external-link-alt text-gray-400"></i>
                         </a>
                     </div>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}
@@ -128,7 +147,7 @@
             <div class="bg-gray-50 rounded-lg border border-gray-200 p-4">
                 <div class="flex items-center justify-between">
                     <div>
-                        <h3 class="font-semibold text-gray-700">{{ .Title }}</h3>
+                        <h3 class="font-semibold text-gray-700">{{ .Title }}{{ if .Params.cancelled }} <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-semibold bg-red-100 text-red-700 align-middle">Cancelled</span>{{ end }}</h3>
                         <div class="flex flex-wrap items-center gap-3 text-sm text-gray-500 mt-1">
                             <span><i class="fas fa-map-marker-alt mr-1"></i>{{ .Params.where }}</span>
                             <span><i class="fas fa-calendar mr-1"></i>

@@ -1,0 +1,53 @@
+name: Sync PowerShell Community Call
+
+on:
+  schedule:
+    - cron: '30 13 * * *'  # Daily, after the GitHub discussions team is typically active
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-community-call
+  cancel-in-progress: false
+
+jobs:
+  sync-community-call:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Sync upcoming PowerShell Community Call events
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/sync-community-call.mjs
+
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+
+      - name: Create pull request for synchronized events
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          add-paths: |
+            content/calendar
+          branch: automation/sync-community-call
+          commit-message: Sync PowerShell Community Call
+          title: Sync PowerShell Community Call
+          body: |
+            Automated synchronization of the upcoming PowerShell Community Call events,
+            linking the latest agenda discussion from
+            https://github.com/PowerShell/PowerShell/discussions/categories/community-call
+            when one is found.
+          delete-branch: true

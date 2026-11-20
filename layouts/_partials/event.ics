@@ -19,6 +19,7 @@
   ` "location"     (dict "text" (or .Params.where .Params.location) "lang" $lang) `` `
   ` "url"          (or .Params.externalUrl ((.OutputFormats.Get "HTML").Permalink)) `` `
   ` "contact"      (cond (and .Params.orga .Params.orgaEmail) (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" $lang) nil) `` `
+  ` "status"       (cond .Params.cancelled "CANCELLED" "CONFIRMED") `` `
   ` "color"        "7C3AED" `` `
   ` "allDay"       $allDay `` `
   ` "uid"          .File.UniqueID `` `
