@@ -3,6 +3,11 @@ import path from 'node:path';
 
 const CALENDAR_DIR = path.join('content', 'calendar');
 const HORIZON_MONTHS = 3;
+// Extra months generated before filtering so a reschedule that pushes a
+// month's call past its original (already-elapsed) default date — or a
+// month whose call already happened without a reschedule — doesn't shrink
+// the window below HORIZON_MONTHS.
+const CANDIDATE_BUFFER_MONTHS = 2;
 const JOIN_URL = 'https://aka.ms/JoinPSCall';
 const DRY_RUN = process.argv.includes('--dry-run');
 
@@ -58,21 +63,35 @@ export function pacificDateTimeToIso(year, monthIndex, day, hour, minute) {
   throw new Error(`Could not resolve Pacific time for ${year}-${monthIndex + 1}-${day} ${hour}:${minute}.`);
 }
 
-/** Generates the next `count` monthly occurrences that haven't ended yet, relative to `from`. */
-export function upcomingOccurrences(count, from = new Date()) {
+/**
+ * Generates `count` consecutive monthly occurrences using the default
+ * 3rd-Thursday rule, starting at `from`'s month. Not filtered by whether the
+ * call has already happened — apply agenda overrides first, then filter with
+ * `upcomingOccurrences`, so a reschedule that moves an elapsed default date
+ * into the future is still picked up.
+ */
+export function candidateOccurrences(count, from = new Date()) {
   const occurrences = [];
-  for (let offset = 0; occurrences.length < count; offset += 1) {
+  for (let offset = 0; offset < count; offset += 1) {
     const year = from.getUTCFullYear();
     const monthIndex = from.getUTCMonth() + offset;
     const normalizedYear = year + Math.floor(monthIndex / 12);
     const normalizedMonth = ((monthIndex % 12) + 12) % 12;
     const day = thirdThursday(normalizedYear, normalizedMonth);
-    const startDate = pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 9, 30);
-    const endDate = pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 0);
-    if (new Date(endDate) < from) continue; // this month's call already happened; don't count it
-    occurrences.push({ year: normalizedYear, monthIndex: normalizedMonth, day, startDate, endDate });
+    occurrences.push({
+      year: normalizedYear,
+      monthIndex: normalizedMonth,
+      day,
+      startDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 9, 30),
+      endDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 0),
+    });
   }
   return occurrences;
+}
+
+/** Filters to the next `count` occurrences (by current endDate) that haven't ended yet, relative to `from`. */
+export function upcomingOccurrences(occurrences, count, from = new Date()) {
+  return occurrences.filter((occurrence) => new Date(occurrence.endDate) >= from).slice(0, count);
 }
 
 /**
@@ -99,26 +118,51 @@ export function parseAgendaTitle(title) {
   return undefined;
 }
 
-/** Applies a matched agenda discussion to the occurrence it belongs to, if any. */
-export function applyAgendaDiscussion(occurrences, discussion) {
-  if (!discussion) return occurrences;
-  const parsed = parseAgendaTitle(discussion.title);
-  if (!parsed) return occurrences;
+// Discussion threads without an explicit year (e.g. "January Community Call")
+// are ambiguous across years. The team creates a thread no more than a few
+// months before its call — sometimes a whole batch for the rest of the
+// calendar year at once — so bound how far before the occurrence's own
+// default date a candidate may have been created. This keeps a same-named
+// thread from a year ago from matching next year's occurrence of that month.
+const MAX_AGENDA_LEAD_DAYS = 300;
+const MAX_AGENDA_LEAD_MS = MAX_AGENDA_LEAD_DAYS * 24 * 60 * 60 * 1000;
+const MIN_AGENDA_LEAD_MS = -2 * 24 * 60 * 60 * 1000; // allow same-day/next-day creation
 
-  const index = occurrences.findIndex((occurrence) => occurrence.monthIndex === parsed.monthIndex);
-  if (index === -1) return occurrences;
+/**
+ * Matches each occurrence against its own most recently created agenda
+ * discussion — not just the single globally-latest discussion across all
+ * months. A title's explicit year (when present) must match the occurrence's
+ * year, so a stale discussion from a past year can never be applied to this
+ * year's occurrence (which would otherwise point the write at the wrong
+ * historical file). Resolving per month also means a resolved reschedule for
+ * one month survives later runs even after a newer discussion is published
+ * for a different month.
+ */
+export function applyAgendaDiscussions(occurrences, discussions) {
+  return occurrences.map((occurrence) => {
+    const candidates = discussions
+      .map((discussion) => ({ discussion, parsed: parseAgendaTitle(discussion.title) }))
+      .filter(({ discussion, parsed }) => {
+        if (!parsed || parsed.monthIndex !== occurrence.monthIndex) return false;
+        if (parsed.year !== undefined) return parsed.year === occurrence.year;
+        const lead = new Date(occurrence.startDate) - new Date(discussion.createdAt);
+        return lead >= MIN_AGENDA_LEAD_MS && lead <= MAX_AGENDA_LEAD_MS;
+      });
 
-  const occurrence = occurrences[index];
-  const explicitDate = parsed.day && parsed.year
-    ? {
-      year: parsed.year,
-      day: parsed.day,
-      startDate: pacificDateTimeToIso(parsed.year, parsed.monthIndex, parsed.day, 9, 30),
-      endDate: pacificDateTimeToIso(parsed.year, parsed.monthIndex, parsed.day, 10, 0),
-    }
-    : {};
+    if (candidates.length === 0) return occurrence;
 
-  return occurrences.with(index, { ...occurrence, ...explicitDate, discussionUrl: discussion.url });
+    candidates.sort((a, b) => new Date(b.discussion.createdAt) - new Date(a.discussion.createdAt));
+    const { discussion, parsed } = candidates[0];
+    const explicitDate = parsed.day && parsed.year
+      ? {
+        day: parsed.day,
+        startDate: pacificDateTimeToIso(occurrence.year, occurrence.monthIndex, parsed.day, 9, 30),
+        endDate: pacificDateTimeToIso(occurrence.year, occurrence.monthIndex, parsed.day, 10, 0),
+      }
+      : {};
+
+    return { ...occurrence, ...explicitDate, discussionUrl: discussion.url };
+  });
 }
 
 function eventPath({ year, monthIndex }) {
@@ -174,19 +218,20 @@ async function fetchDiscussionCategoryId(token) {
   return category.id;
 }
 
-async function fetchLatestAgendaDiscussion(token) {
+/** Fetches recent agenda discussions, filtered to ones that look like a monthly call thread. */
+async function fetchAgendaDiscussions(token) {
   const categoryId = await fetchDiscussionCategoryId(token);
   const response = await graphql(token, `
     query($categoryId: ID!) {
       repository(owner: "PowerShell", name: "PowerShell") {
-        discussions(first: 10, categoryId: $categoryId, orderBy: { field: CREATED_AT, direction: DESC }) {
+        discussions(first: 20, categoryId: $categoryId, orderBy: { field: CREATED_AT, direction: DESC }) {
           nodes { title url createdAt }
         }
       }
     }
   `, { categoryId });
 
-  return response.repository.discussions.nodes.find((node) => /community call/i.test(node.title));
+  return response.repository.discussions.nodes.filter((node) => /community call/i.test(node.title));
 }
 
 async function graphql(token, query, variables = {}) {
@@ -217,10 +262,13 @@ async function calendarFiles() {
 
 async function main() {
   const token = process.env.GITHUB_TOKEN;
-  if (!token) throw new Error('GITHUB_TOKEN is required to look up the community call agenda discussion.');
+  if (!token) throw new Error('GITHUB_TOKEN is required to look up community call agenda discussions.');
 
-  const discussion = await fetchLatestAgendaDiscussion(token);
-  const occurrences = applyAgendaDiscussion(upcomingOccurrences(HORIZON_MONTHS), discussion);
+  const discussions = await fetchAgendaDiscussions(token);
+  const candidates = candidateOccurrences(HORIZON_MONTHS + CANDIDATE_BUFFER_MONTHS);
+  const resolved = applyAgendaDiscussions(candidates, discussions);
+  const occurrences = upcomingOccurrences(resolved, HORIZON_MONTHS);
+
   const existing = await calendarFiles();
   const { changes } = communityCallSyncPlan(existing, occurrences);
 

@@ -25,6 +25,13 @@ module.exports = {
       // Only rendered inside the calendar's upcoming-events loop, so a CI
       // build with zero upcoming events would otherwise purge it.
       'group-hover:text-purple-600',
+      // Only rendered for a calendar entry with `cancelled: true`, and which
+      // of the two cancelled-event branches (upcoming vs. past) renders
+      // depends on today's date relative to that entry's startDate. Pin them
+      // so a date rolling an event from one branch to the other — or no
+      // cancelled event being in scope at all on a given day — can't flip
+      // the committed-assets check in build.yml.
+      'bg-gray-400', 'line-through', 'text-red-700', 'px-1.5', 'py-0.5', 'align-middle',
     ],
   },
   output: 'assets/css/tailwind.css',
