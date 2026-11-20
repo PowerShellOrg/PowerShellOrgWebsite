@@ -1,7 +1,7 @@
 ---
 communityCallSource: powershell
 startDate: "2027-02-18T17:30:00.000Z"
-endDate: "2027-02-18T18:00:00.000Z"
+endDate: "2027-02-18T18:30:00.000Z"
 title: "PowerShell Community Call"
 externalUrl: "https://aka.ms/JoinPSCall"
 virtual: true

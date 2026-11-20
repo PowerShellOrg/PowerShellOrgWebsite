@@ -43,7 +43,7 @@ test('candidateOccurrences rolls over into the next year', () => {
 });
 
 test('upcomingOccurrences drops a month whose call already ended and keeps the window full', () => {
-  // Nov 19, 2026's call ends 18:00Z; asking at 20:31Z should start from December.
+  // Nov 19, 2026's call ends 18:30Z; asking at 20:31Z should start from December.
   const from = new Date('2026-11-19T20:31:00Z');
   const occurrences = upcomingOccurrences(candidateOccurrences(5, from), 3, from);
   assert.deepEqual(occurrences.map((o) => [o.year, o.monthIndex]), [
@@ -64,8 +64,8 @@ test('upcomingOccurrences keeps a rescheduled month whose default date already e
   // filtering) moves it to Nov 30, which is still ahead of `from`.
   const from = new Date('2026-11-20T00:00:00Z');
   const rescheduled = [
-    { year: 2026, monthIndex: 10, day: 30, startDate: pacificDateTimeToIso(2026, 10, 30, 9, 30), endDate: pacificDateTimeToIso(2026, 10, 30, 10, 0) },
-    { year: 2026, monthIndex: 11, day: 17, startDate: pacificDateTimeToIso(2026, 11, 17, 9, 30), endDate: pacificDateTimeToIso(2026, 11, 17, 10, 0) },
+    { year: 2026, monthIndex: 10, day: 30, startDate: pacificDateTimeToIso(2026, 10, 30, 9, 30), endDate: pacificDateTimeToIso(2026, 10, 30, 10, 30) },
+    { year: 2026, monthIndex: 11, day: 17, startDate: pacificDateTimeToIso(2026, 11, 17, 9, 30), endDate: pacificDateTimeToIso(2026, 11, 17, 10, 30) },
   ];
   const occurrences = upcomingOccurrences(rescheduled, 2, from);
   assert.deepEqual(occurrences.map((o) => [o.year, o.monthIndex, o.day]), [

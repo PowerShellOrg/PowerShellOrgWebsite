@@ -54,7 +54,7 @@
             {{ range $upcoming }}
             {{ $matchedGroup := partial "calendar-matched-user-group.html" (dict "externalUrl" .Params.externalUrl "site" $.Site) }}
             {{ $cancelled := .Params.cancelled }}
-            <div class="bg-gray-50 rounded-xl border overflow-hidden transition-all duration-200 {{ if $cancelled }}border-gray-200 opacity-75{{ else }}border-gray-200 hover:border-purple-400 hover:shadow-md{{ end }}">
+            <div class="bg-gray-50 rounded-xl border overflow-hidden transition-all duration-200 {{ if $cancelled }}border-gray-200{{ else }}border-gray-200 hover:border-purple-400 hover:shadow-md{{ end }}">
                 <div class="md:flex">
                     <!-- Date Block -->
                     <div class="md:w-36 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0 {{ if $cancelled }}bg-gray-800{{ else }}bg-purple-600{{ end }}">

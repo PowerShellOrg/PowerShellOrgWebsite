@@ -83,7 +83,7 @@ export function candidateOccurrences(count, from = new Date()) {
       monthIndex: normalizedMonth,
       day,
       startDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 9, 30),
-      endDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 0),
+      endDate: pacificDateTimeToIso(normalizedYear, normalizedMonth, day, 10, 30),
     });
   }
   return occurrences;
@@ -157,7 +157,7 @@ export function applyAgendaDiscussions(occurrences, discussions) {
       ? {
         day: parsed.day,
         startDate: pacificDateTimeToIso(occurrence.year, occurrence.monthIndex, parsed.day, 9, 30),
-        endDate: pacificDateTimeToIso(occurrence.year, occurrence.monthIndex, parsed.day, 10, 0),
+        endDate: pacificDateTimeToIso(occurrence.year, occurrence.monthIndex, parsed.day, 10, 30),
       }
       : {};
 
