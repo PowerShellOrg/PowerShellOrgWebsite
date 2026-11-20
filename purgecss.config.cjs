@@ -31,7 +31,7 @@ module.exports = {
       // so a date rolling an event from one branch to the other — or no
       // cancelled event being in scope at all on a given day — can't flip
       // the committed-assets check in build.yml.
-      'bg-gray-400', 'line-through', 'text-red-700', 'px-1.5', 'py-0.5', 'align-middle',
+      'line-through', 'text-red-700', 'px-1.5', 'py-0.5', 'align-middle',
     ],
   },
   output: 'assets/css/tailwind.css',

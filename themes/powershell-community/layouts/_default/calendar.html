@@ -57,7 +57,7 @@
             <div class="bg-gray-50 rounded-xl border overflow-hidden transition-all duration-200 {{ if $cancelled }}border-gray-200 opacity-75{{ else }}border-gray-200 hover:border-purple-400 hover:shadow-md{{ end }}">
                 <div class="md:flex">
                     <!-- Date Block -->
-                    <div class="md:w-36 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0 {{ if $cancelled }}bg-gray-400{{ else }}bg-purple-600{{ end }}">
+                    <div class="md:w-36 text-white p-6 flex flex-col items-center justify-center text-center flex-shrink-0 {{ if $cancelled }}bg-gray-800{{ else }}bg-purple-600{{ end }}">
                         {{ $startDate := time .Params.startDate }}
                         <span class="text-sm font-medium uppercase tracking-wide opacity-90">{{ $startDate.Format "Jan" }}</span>
                         <span class="text-4xl font-bold leading-none my-1">{{ $startDate.Format "2" }}</span>
@@ -100,7 +100,7 @@
                             {{ end }}
                             {{ if not $cancelled }}
                             {{ with .Params.discussionUrl }}
-                            <a href="{{ . }}" target="_blank" rel="noopener" class="flex items-center text-purple-600 hover:text-purple-800 underline">
+                            <a href="{{ . }}" target="_blank" rel="noopener" class="flex items-center text-purple-600 hover:text-purple-700 underline">
                                 <i class="fas fa-comments mr-2"></i>
                                 Agenda discussion
                             </a>
